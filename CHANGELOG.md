@@ -9,6 +9,9 @@ Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) 
   et les 66 livres en tuiles remplies selon les chapitres lus. Toucher un livre montre ses chapitres (lus en vert) :
   ouvrir un chapitre dans le lecteur, ou lancer un quiz sur ce livre.
 - Lecteur : boutons « Précédent » / « Suivant » (le libellé long était coupé).
+- **APK signés avec la clé définitive** (empreinte SHA-256 `25:3D:55:8F:…:7D:CE`). Une version antérieure, signée avec la clé
+  de développement, doit être désinstallée avant d'installer celle-ci (Android refuse la mise à jour) ; ensuite, toutes les
+  mises à jour s'installeront par-dessus.
 
 ## 1.3.0 (build 4) — 8 novembre 2026
 

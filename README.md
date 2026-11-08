@@ -110,6 +110,8 @@ Le script valide le contenu puis produit dans `dist/` :
 
 ## Clé de signature Android
 
+**La clé définitive existe depuis le 8 novembre 2026** (version 1.4.0) : `~/biblical-quiz-cles/` sur le Mac de développement, alias `biblical_quiz`, RSA 4096, valable jusqu'en 2054. Empreinte SHA-256 du certificat : `25:3D:55:8F:BF:7B:3F:20:58:39:50:88:BC:EF:03:9E:1C:F1:B6:91:97:0B:58:C5:48:39:39:B6:6E:F1:7D:CE` (vérifier un APK : `apksigner verify --print-certs`). Les APK antérieurs, signés avec la clé de développement, ne peuvent pas être mis à jour : il faut les désinstaller avant d'installer la 1.4.0.
+
 Android n'accepte une mise à jour que si elle est signée avec **la même clé** que la version installée. Il faut donc créer la clé une fois, puis la garder précieusement. Le dépôt est **public** : la clé et ses mots de passe ne doivent jamais y entrer.
 
 1. Créer la clé, une seule fois, **hors du dépôt** :

@@ -1,0 +1,7 @@
+# Copier ce fichier en android/key.properties et le remplir.
+# android/key.properties est ignoré par Git : il ne doit JAMAIS être publié
+# (le dépôt biblical_quiz est public).
+storeFile=/Users/VOUS/biblical-quiz-cles/biblical-quiz-release.jks
+storePassword=MOT_DE_PASSE_DU_FICHIER
+keyAlias=biblical_quiz
+keyPassword=MOT_DE_PASSE_DE_LA_CLE

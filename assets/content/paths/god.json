@@ -1,0 +1,1901 @@
+{
+ "id": "god",
+ "order": 2,
+ "icon": "wb_sunny",
+ "title": {
+  "fr": "Qui est Dieu ?",
+  "en": "Who is God?"
+ },
+ "description": {
+  "fr": "Ce que la Bible dit de Dieu, à travers ses propres mots : le Créateur, le Saint, le Berger, le Dieu fidèle et compatissant, le Père et l'Esprit promis.",
+  "en": "What the Bible says about God, in its own words: the Creator, the Holy One, the Shepherd, the faithful and compassionate God, the Father and the promised Spirit."
+ },
+ "lessons": [
+  {
+   "id": "god-creator",
+   "title": {
+    "fr": "Le Créateur incomparable",
+    "en": "The incomparable Creator"
+   },
+   "passages": [
+    "23:40:12-31"
+   ],
+   "intro": {
+    "fr": "Le livre d'Esaïe s'adresse à un peuple découragé, qui pense que Dieu l'a oublié. Le prophète l'invite à lever les yeux vers la création et à comparer Dieu aux idoles fabriquées par les hommes.",
+    "en": "The book of Isaiah speaks to a discouraged people who think God has forgotten them. The prophet invites them to look up at creation and to compare God with the idols made by human hands."
+   },
+   "keyVerse": "23:40:28",
+   "takeaway": {
+    "fr": "Esaïe 40 présente l'Eternel comme le Créateur des extrémités de la terre, à qui rien ni personne ne peut être comparé. Il ne se fatigue pas et donne de la force à ceux qui sont fatigués.",
+    "en": "Isaiah 40 presents the Lord as the Creator of the ends of the earth, to whom nothing and no one can be compared. He does not grow weary, and he gives strength to those who are weary."
+   },
+   "questions": [
+    {
+     "id": "god-creator-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Esaïe 40:15, à quoi les nations sont-elles comparées ?",
+      "en": "According to Isaiah 40:15, what are the nations compared to?"
+     },
+     "choices": {
+      "fr": [
+       "À un grain de sable",
+       "À une feuille au vent",
+       "À une goutte d'un seau",
+       "À une vapeur du matin"
+      ],
+      "en": [
+       "A grain of sand",
+       "A leaf in the wind",
+       "A drop of a bucket",
+       "A morning mist"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le verset dit : « les nations sont comme une goutte d'un seau ». L'image souligne combien les plus grandes puissances humaines sont petites devant Dieu.",
+      "en": "The verse says that \"the nations are as a drop of a bucket\". The image shows how small even the greatest human powers are before God."
+     },
+     "ref": "23:40:15"
+    },
+    {
+     "id": "god-creator-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon les versets 19 et 20, qui fabrique l'idole ?",
+      "en": "According to verses 19 and 20, who makes the idol?"
+     },
+     "choices": {
+      "fr": [
+       "Un ouvrier, aidé d'un orfèvre",
+       "Un prêtre, aidé d'un prophète",
+       "Un roi, aidé de ses juges",
+       "Un berger, aidé de ses fils"
+      ],
+      "en": [
+       "A workman, helped by a goldsmith",
+       "A priest, helped by a prophet",
+       "A king, helped by his judges",
+       "A shepherd, helped by his sons"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "L'idole est fondue par un ouvrier et couverte d'or par un orfèvre. Le contraste est voulu : l'idole est faite par l'homme, alors que Dieu a fait toutes choses.",
+      "en": "The idol is cast by a workman and overlaid with gold by a goldsmith. The contrast is deliberate: the idol is made by man, whereas God made all things."
+     },
+     "ref": "23:40:19"
+    },
+    {
+     "id": "god-creator-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Au verset 25, quel titre Dieu porte-t-il lorsqu'il demande : « A qui me comparerez-vous » ?",
+      "en": "In verse 25, what title does God bear when he asks, \"To whom then will ye liken me\"?"
+     },
+     "choices": {
+      "fr": [
+       "Le Roi",
+       "Le Berger",
+       "Le Rédempteur",
+       "Le Saint"
+      ],
+      "en": [
+       "The King",
+       "The Shepherd",
+       "The Redeemer",
+       "The Holy One"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le verset se termine par « Dit le Saint ». Ce titre, fréquent chez Esaïe, souligne que Dieu est à part, sans égal.",
+      "en": "The verse ends with \"saith the Holy One\". This title, frequent in Isaiah, stresses that God is set apart and has no equal."
+     },
+     "ref": "23:40:25"
+    },
+    {
+     "id": "god-creator-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 26, que fait Dieu avec l'armée des astres du ciel ?",
+      "en": "According to verse 26, what does God do with the host of the heavens?"
+     },
+     "choices": {
+      "fr": [
+       "Il les éteint chaque matin",
+       "Il les appelle toutes par leur nom",
+       "Il les confie aux nations",
+       "Il les cache derrière les nuées"
+      ],
+      "en": [
+       "He puts them out every morning",
+       "He calls them all by name",
+       "He entrusts them to the nations",
+       "He hides them behind the clouds"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Après « Levez vos yeux en haut », le texte dit que Dieu fait marcher en ordre leur armée et « les appelle toutes par leur nom ». Il n'en manque aucune.",
+      "en": "After \"Lift up your eyes on high\", the text says God brings out their host by number and \"calleth them all by names\". Not one is missing."
+     },
+     "ref": "23:40:26"
+    },
+    {
+     "id": "god-creator-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 28, l'Eternel finit par se fatiguer, comme les hommes.",
+      "en": "According to verse 28, the Lord eventually grows tired, like human beings."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. Le verset affirme : « Il ne se fatigue point, il ne se lasse point ». Ce sont les jeunes gens qui se fatiguent (v. 30).",
+      "en": "False. The verse says he \"fainteth not, neither is weary\". It is the young men who grow weary (v. 30)."
+     },
+     "ref": "23:40:28"
+    },
+    {
+     "id": "god-creator-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 31, que se passe-t-il pour ceux qui se confient en l'Eternel ?",
+      "en": "According to verse 31, what happens to those who wait upon the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Ils deviennent riches",
+       "Ils ne meurent jamais",
+       "Ils voient Dieu face à face",
+       "Ils renouvellent leur force"
+      ],
+      "en": [
+       "They become rich",
+       "They never die",
+       "They see God face to face",
+       "They renew their strength"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le texte dit qu'ils « renouvellent leur force » et prennent le vol comme les aigles. Le Dieu qui ne se fatigue pas donne sa force aux fatigués (v. 29).",
+      "en": "The text says they \"shall renew their strength\" and mount up with wings as eagles. The God who never tires gives strength to the faint (v. 29)."
+     },
+     "ref": "23:40:31"
+    }
+   ]
+  },
+  {
+   "id": "god-name",
+   "title": {
+    "fr": "Le nom révélé",
+    "en": "The revealed name"
+   },
+   "passages": [
+    "2:3:1-15",
+    "2:34:5-7"
+   ],
+   "intro": {
+    "fr": "Moïse, réfugié au pays de Madian, garde les troupeaux de son beau-père. Dieu l'appelle pour faire sortir Israël d'Egypte et lui fait connaître son nom. Plus tard, au Sinaï, l'Eternel proclame lui-même ce qu'il est.",
+    "en": "Moses, a refugee in the land of Midian, is keeping his father-in-law's flock. God calls him to bring Israel out of Egypt and makes his name known to him. Later, at Sinai, the Lord himself proclaims who he is."
+   },
+   "keyVerse": "2:3:14",
+   "takeaway": {
+    "fr": "Dieu se présente à Moïse comme « je suis », le Dieu d'Abraham, d'Isaac et de Jacob, qui a vu la souffrance de son peuple. En Exode 34, il se proclame miséricordieux, compatissant, lent à la colère et riche en bonté.",
+    "en": "God presents himself to Moses as \"I AM\", the God of Abraham, Isaac and Jacob, who has seen the affliction of his people. In Exodus 34 he proclaims himself merciful, gracious, longsuffering and abundant in goodness."
+   },
+   "questions": [
+    {
+     "id": "god-name-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce qui attire l'attention de Moïse sur la montagne d'Horeb ?",
+      "en": "What catches Moses' attention at Mount Horeb?"
+     },
+     "choices": {
+      "fr": [
+       "Une colonne de nuée au-dessus du camp",
+       "Un buisson en feu qui ne se consume pas",
+       "Une voix qui sort d'un rocher",
+       "Un ange assis près d'un puits"
+      ],
+      "en": [
+       "A pillar of cloud above the camp",
+       "A burning bush that is not consumed",
+       "A voice coming out of a rock",
+       "An angel sitting by a well"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le buisson « était tout en feu, et le buisson ne se consumait point ». Moïse se détourne pour comprendre cette « grande vision » (v. 3).",
+      "en": "The bush \"burned with fire, and the bush was not consumed\". Moses turns aside to see this \"great sight\" (v. 3)."
+     },
+     "ref": "2:3:2"
+    },
+    {
+     "id": "god-name-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, pourquoi l'Eternel intervient-il ?",
+      "en": "According to verse 7, why does the Lord act?"
+     },
+     "choices": {
+      "fr": [
+       "Il a vu la souffrance de son peuple et entendu ses cris",
+       "Moïse lui a offert un sacrifice sur la montagne",
+       "Pharaon l'a défié devant les dieux d'Egypte",
+       "Le temps fixé pour Abraham venait de s'achever"
+      ],
+      "en": [
+       "He has seen his people's affliction and heard their cry",
+       "Moses has offered him a sacrifice on the mountain",
+       "Pharaoh has defied him before the gods of Egypt",
+       "The time set for Abraham has just come to an end"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Dieu dit : « J'ai vu la souffrance de mon peuple… j'ai entendu les cris… je connais ses douleurs. » C'est pour cela qu'il est « descendu pour le délivrer » (v. 8).",
+      "en": "God says, \"I have surely seen the affliction of my people… and have heard their cry… for I know their sorrows.\" That is why he has \"come down to deliver them\" (v. 8)."
+     },
+     "ref": "2:3:7"
+    },
+    {
+     "id": "god-name-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond Dieu lorsque Moïse lui demande son nom ?",
+      "en": "What does God answer when Moses asks for his name?"
+     },
+     "choices": {
+      "fr": [
+       "« Je suis le Tout-Puissant »",
+       "« Je suis le Dieu du ciel »",
+       "« Je suis celui qui suis »",
+       "« Je suis le Très-Haut »"
+      ],
+      "en": [
+       "\"I am the Almighty\"",
+       "\"I am the God of heaven\"",
+       "\"I AM THAT I AM\"",
+       "\"I am the Most High\""
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Dieu répond : « Je suis celui qui suis », et Moïse devra dire : « Celui qui s'appelle \"je suis\" m'a envoyé vers vous. » Le nom « l'Eternel » du verset 15 est lié à ce verbe « être » en hébreu.",
+      "en": "God answers, \"I AM THAT I AM\", and Moses is to say, \"I AM hath sent me unto you.\" The divine name in verse 15 (rendered \"the Lord\") is linked to this Hebrew verb \"to be\"."
+     },
+     "ref": "2:3:14"
+    },
+    {
+     "id": "god-name-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 15, à quels ancêtres Dieu rattache-t-il son nom ?",
+      "en": "According to verse 15, which ancestors does God link his name to?"
+     },
+     "choices": {
+      "fr": [
+       "Adam, Noé et Abraham",
+       "Abraham, Isaac et Jacob",
+       "Isaac, Jacob et Joseph",
+       "Moïse, Aaron et Lévi"
+      ],
+      "en": [
+       "Adam, Noah and Abraham",
+       "Abraham, Isaac and Jacob",
+       "Isaac, Jacob and Joseph",
+       "Moses, Aaron and Levi"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Il est « le Dieu d'Abraham, le Dieu d'Isaac et le Dieu de Jacob », et il ajoute : « Voilà mon nom pour l'éternité ». Le Dieu qui parle est celui qui avait fait des promesses aux patriarches.",
+      "en": "He is \"the God of Abraham, the God of Isaac, and the God of Jacob\", and he adds, \"this is my name for ever\". The God who speaks is the one who made promises to the patriarchs."
+     },
+     "ref": "2:3:15"
+    },
+    {
+     "id": "god-name-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Lequel de ces traits figure dans ce que l'Eternel proclame en Exode 34:6 ?",
+      "en": "Which of these traits appears in what the Lord proclaims in Exodus 34:6?"
+     },
+     "choices": {
+      "fr": [
+       "Lointain et caché",
+       "Changeant et imprévisible",
+       "Miséricordieux et compatissant",
+       "Indifférent aux hommes"
+      ],
+      "en": [
+       "Distant and hidden",
+       "Changeable and unpredictable",
+       "Merciful and gracious",
+       "Indifferent to people"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "L'Eternel se proclame « Dieu miséricordieux et compatissant, lent à la colère, riche en bonté et en fidélité ». Cette description sera reprise ailleurs dans la Bible, par exemple en Jonas 4:2.",
+      "en": "The Lord proclaims himself \"merciful and gracious, longsuffering, and abundant in goodness and truth\". This description is echoed elsewhere in the Bible, for example in Jonah 4:2."
+     },
+     "ref": "2:34:6"
+    },
+    {
+     "id": "god-name-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Exode 34:7, Dieu pardonne l'iniquité, mais ne tient pas le coupable pour innocent.",
+      "en": "According to Exodus 34:7, God forgives iniquity, yet does not clear the guilty."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai. Le même verset dit qu'il « pardonne l'iniquité, la rébellion et le péché » et qu'il « ne tient point le coupable pour innocent ». Le texte tient ensemble pardon et justice.",
+      "en": "True. The same verse says he is \"forgiving iniquity and transgression and sin\" and \"will by no means clear the guilty\". The text holds forgiveness and justice together."
+     },
+     "ref": "2:34:7"
+    }
+   ]
+  },
+  {
+   "id": "god-holy",
+   "title": {
+    "fr": "Saint, saint, saint",
+    "en": "Holy, holy, holy"
+   },
+   "passages": [
+    "23:6:1-8"
+   ],
+   "intro": {
+    "fr": "Esaïe raconte la vision qui marque le début de sa mission de prophète, à Jérusalem, au VIIIe siècle avant J.-C. Il voit le Seigneur dans le temple, entouré de séraphins.",
+    "en": "Isaiah describes the vision that marks the start of his mission as a prophet, in Jerusalem, in the eighth century BC. He sees the Lord in the temple, surrounded by seraphim."
+   },
+   "keyVerse": "23:6:3",
+   "takeaway": {
+    "fr": "Esaïe voit le Seigneur sur un trône et entend les séraphins proclamer sa sainteté. Conscient de son impureté, il est purifié, puis répond à l'appel de Dieu : « Me voici, envoie-moi. »",
+    "en": "Isaiah sees the Lord on a throne and hears the seraphim proclaim his holiness. Aware of his uncleanness, he is cleansed, and then answers God's call: \"Here am I; send me.\""
+   },
+   "questions": [
+    {
+     "id": "god-holy-1",
+     "kind": "choice",
+     "q": {
+      "fr": "En quelle année Esaïe a-t-il cette vision ?",
+      "en": "In what year does Isaiah have this vision?"
+     },
+     "choices": {
+      "fr": [
+       "L'année de la mort du roi Achaz",
+       "L'année du couronnement d'Ezéchias",
+       "L'année de la prise de Jérusalem",
+       "L'année de la mort du roi Ozias"
+      ],
+      "en": [
+       "The year King Ahaz died",
+       "The year Hezekiah was crowned",
+       "The year Jerusalem was captured",
+       "The year King Uzziah died"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le texte commence par : « L'année de la mort du roi Ozias ». Ozias avait régné longtemps sur Juda ; c'est vers 740 av. J.-C. qu'Esaïe voit le vrai Roi (v. 5).",
+      "en": "The text opens with \"In the year that king Uzziah died\". Uzziah had reigned over Judah for a long time; around 740 BC Isaiah sees the true King (v. 5)."
+     },
+     "ref": "23:6:1"
+    },
+    {
+     "id": "god-holy-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien d'ailes chaque séraphin possède-t-il ?",
+      "en": "How many wings does each seraph have?"
+     },
+     "choices": {
+      "fr": [
+       "Six",
+       "Deux",
+       "Quatre",
+       "Huit"
+      ],
+      "en": [
+       "Six",
+       "Two",
+       "Four",
+       "Eight"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Chacun a six ailes : deux pour se couvrir la face, deux pour se couvrir les pieds, deux pour voler. Même ces êtres célestes se couvrent la face devant Dieu.",
+      "en": "Each one has six wings: two to cover his face, two to cover his feet, two to fly. Even these heavenly beings cover their faces before God."
+     },
+     "ref": "23:6:2"
+    },
+    {
+     "id": "god-holy-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon les séraphins, toute la terre est pleine de la gloire de Dieu.",
+      "en": "According to the seraphim, the whole earth is full of God's glory."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai. Après avoir répété trois fois « Saint », ils disent : « toute la terre est pleine de sa gloire! » Le Dieu saint n'est pas enfermé dans le temple.",
+      "en": "True. After saying \"Holy\" three times, they say, \"the whole earth is full of his glory\". The holy God is not confined to the temple."
+     },
+     "ref": "23:6:3"
+    },
+    {
+     "id": "god-holy-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Esaïe s'écrie-t-il « Malheur à moi! je suis perdu » ?",
+      "en": "Why does Isaiah cry out, \"Woe is me! for I am undone\"?"
+     },
+     "choices": {
+      "fr": [
+       "Il a les lèvres impures et ses yeux ont vu le Roi",
+       "Le temple s'écroule autour de lui",
+       "Il a désobéi à un ordre du roi",
+       "Les séraphins l'ont menacé de leur épée"
+      ],
+      "en": [
+       "His lips are unclean and his eyes have seen the King",
+       "The temple is collapsing around him",
+       "He has disobeyed an order from the king",
+       "The seraphim threatened him with a sword"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Esaïe dit qu'il est « un homme dont les lèvres sont impures » au milieu d'un peuple semblable, et que ses yeux « ont vu le Roi ». Devant la sainteté de Dieu, il prend conscience de son impureté.",
+      "en": "Isaiah says he is \"a man of unclean lips\" among a people like him, and that his eyes \"have seen the King\". Before God's holiness he becomes aware of his own uncleanness."
+     },
+     "ref": "23:6:5"
+    },
+    {
+     "id": "god-holy-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Avec quoi le séraphin touche-t-il la bouche d'Esaïe ?",
+      "en": "What does the seraph touch Isaiah's mouth with?"
+     },
+     "choices": {
+      "fr": [
+       "Un peu d'huile prise dans une corne",
+       "De l'eau puisée dans un bassin",
+       "Un rouleau couvert d'écriture",
+       "Une pierre ardente prise sur l'autel"
+      ],
+      "en": [
+       "Some oil taken from a horn",
+       "Water drawn from a basin",
+       "A scroll covered with writing",
+       "A live coal taken from the altar"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le séraphin prend sur l'autel une pierre ardente et en touche sa bouche : « ton iniquité est enlevée, et ton péché est expié » (v. 7).",
+      "en": "The seraph takes \"a live coal\" from the altar and lays it on his mouth: \"thine iniquity is taken away, and thy sin purged\" (v. 7)."
+     },
+     "ref": "23:6:6"
+    },
+    {
+     "id": "god-holy-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond Esaïe lorsque le Seigneur demande : « Qui enverrai-je? »",
+      "en": "What does Isaiah answer when the Lord asks, \"Whom shall I send?\""
+     },
+     "choices": {
+      "fr": [
+       "« Qui suis-je pour aller? »",
+       "« Envoie plutôt un autre. »",
+       "« Me voici, envoie-moi. »",
+       "« Attends que je sois prêt. »"
+      ],
+      "en": [
+       "\"Who am I, that I should go?\"",
+       "\"Send someone else instead.\"",
+       "\"Here am I; send me.\"",
+       "\"Wait until I am ready.\""
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Esaïe répond : « Me voici, envoie-moi. » Celui qui se disait perdu, une fois purifié, se porte volontaire.",
+      "en": "Isaiah answers, \"Here am I; send me.\" The man who said he was undone, once cleansed, volunteers."
+     },
+     "ref": "23:6:8"
+    }
+   ]
+  },
+  {
+   "id": "god-shepherd",
+   "title": {
+    "fr": "Le berger",
+    "en": "The shepherd"
+   },
+   "passages": [
+    "19:23:1-6",
+    "26:34:11-16"
+   ],
+   "intro": {
+    "fr": "En Israël, le berger guide, nourrit et protège un troupeau qui dépend entièrement de lui. Le Psaume 23, attribué à David, et une promesse transmise par le prophète Ezéchiel à un peuple dispersé appliquent cette image à Dieu.",
+    "en": "In Israel a shepherd guides, feeds and protects a flock that depends entirely on him. Psalm 23, attributed to David, and a promise given through the prophet Ezekiel to a scattered people apply this image to God."
+   },
+   "keyVerse": "19:23:1",
+   "takeaway": {
+    "fr": "Le Psaume 23 décrit l'Eternel comme un berger qui guide, restaure et accompagne jusque dans la vallée de l'ombre de la mort. En Ezéchiel 34, Dieu promet de chercher lui-même ses brebis perdues, de les soigner et de les faire paître.",
+    "en": "Psalm 23 describes the Lord as a shepherd who leads, restores and stays with his sheep even in the valley of the shadow of death. In Ezekiel 34 God promises to seek out his lost sheep himself, to heal them and to feed them."
+   },
+   "questions": [
+    {
+     "id": "god-shepherd-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Psaume 23:1, que déclare David parce que l'Eternel est son berger ?",
+      "en": "According to Psalm 23:1, what does David say because the Lord is his shepherd?"
+     },
+     "choices": {
+      "fr": [
+       "« Je ne craindrai personne »",
+       "« Je ne manquerai de rien »",
+       "« Je ne serai jamais malade »",
+       "« Je ne quitterai pas ma maison »"
+      ],
+      "en": [
+       "\"I shall fear no one\"",
+       "\"I shall not want\"",
+       "\"I shall never be sick\"",
+       "\"I shall not leave my house\""
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le psaume s'ouvre ainsi : « L'Eternel est mon berger: je ne manquerai de rien. » La suite détaille ce que le berger donne : repos, eaux paisibles, direction.",
+      "en": "The psalm opens: \"The Lord is my shepherd; I shall not want.\" What follows details what the shepherd provides: rest, still waters, guidance."
+     },
+     "ref": "19:23:1"
+    },
+    {
+     "id": "god-shepherd-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 4, pourquoi David ne craint-il aucun mal dans la vallée de l'ombre de la mort ?",
+      "en": "According to verse 4, why does David fear no evil in the valley of the shadow of death?"
+     },
+     "choices": {
+      "fr": [
+       "Parce que la vallée est courte",
+       "Parce qu'il est armé",
+       "Parce que Dieu est avec lui",
+       "Parce que ses amis l'entourent"
+      ],
+      "en": [
+       "Because the valley is short",
+       "Because he is armed",
+       "Because God is with him",
+       "Because his friends surround him"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Il dit : « je ne crains aucun mal, car tu es avec moi ». On remarque qu'à ce moment le psaume passe de « il » à « tu » : David s'adresse directement à Dieu.",
+      "en": "He says, \"I will fear no evil: for thou art with me.\" Notice that at this point the psalm moves from \"he\" to \"thou\": David speaks directly to God."
+     },
+     "ref": "19:23:4"
+    },
+    {
+     "id": "god-shepherd-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 5, où Dieu dresse-t-il une table pour David ?",
+      "en": "According to verse 5, where does God prepare a table for David?"
+     },
+     "choices": {
+      "fr": [
+       "En face de ses adversaires",
+       "Dans le parvis du temple",
+       "Au bord du Jourdain",
+       "Sur la montagne de Sion"
+      ],
+      "en": [
+       "In the presence of his enemies",
+       "In the temple courts",
+       "On the bank of the Jordan",
+       "On Mount Zion"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Le texte dit : « Tu dresses devant moi une table, En face de mes adversaires ». L'image passe du berger à l'hôte qui reçoit et protège son invité.",
+      "en": "The text says, \"Thou preparest a table before me in the presence of mine enemies.\" The image moves from the shepherd to a host who welcomes and protects his guest."
+     },
+     "ref": "19:23:5"
+    },
+    {
+     "id": "god-shepherd-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Ezéchiel 34:11, qui prendra soin des brebis dispersées ?",
+      "en": "According to Ezekiel 34:11, who will take care of the scattered sheep?"
+     },
+     "choices": {
+      "fr": [
+       "Un roi choisi parmi le peuple",
+       "Les prêtres du temple",
+       "Les anciens d'Israël",
+       "Dieu lui-même"
+      ],
+      "en": [
+       "A king chosen from among the people",
+       "The priests of the temple",
+       "The elders of Israel",
+       "God himself"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Dieu dit : « j'aurai soin moi-même de mes brebis ». Dans ce chapitre, il reproche aux chefs d'Israël d'avoir négligé le troupeau.",
+      "en": "God says, \"I, even I, will both search my sheep, and seek them out.\" In this chapter he rebukes Israel's leaders for neglecting the flock."
+     },
+     "ref": "26:34:11"
+    },
+    {
+     "id": "god-shepherd-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Ezéchiel 34:16, que fera Dieu pour la brebis perdue ?",
+      "en": "According to Ezekiel 34:16, what will God do for the lost sheep?"
+     },
+     "choices": {
+      "fr": [
+       "Il la remplacera",
+       "Il la cherchera",
+       "Il l'oubliera",
+       "Il la laissera aux loups"
+      ],
+      "en": [
+       "He will replace it",
+       "He will seek it",
+       "He will forget it",
+       "He will leave it to the wolves"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Je chercherai celle qui était perdue, je ramènerai celle qui était égarée », puis il pansera la blessée et fortifiera la malade.",
+      "en": "\"I will seek that which was lost, and bring again that which was driven away\"; then he will bind up the broken and strengthen the sick."
+     },
+     "ref": "26:34:16"
+    }
+   ]
+  },
+  {
+   "id": "god-knows",
+   "title": {
+    "fr": "Tu me sondes et tu me connais",
+    "en": "Thou hast searched me"
+   },
+   "passages": [
+    "19:139:1-18"
+   ],
+   "intro": {
+    "fr": "Ce psaume attribué à David est une prière adressée directement à Dieu. Le psalmiste y médite sur un Dieu qui le connaît entièrement, qui est présent partout et qui l'a formé avant sa naissance.",
+    "en": "This psalm, attributed to David, is a prayer addressed directly to God. The psalmist reflects on a God who knows him completely, who is present everywhere and who formed him before his birth."
+   },
+   "keyVerse": "19:139:1",
+   "takeaway": {
+    "fr": "Le Psaume 139 dit que Dieu connaît les pensées et les paroles avant qu'elles soient dites, qu'il est présent des cieux au séjour des morts, et qu'il a formé le psalmiste dans le sein de sa mère.",
+    "en": "Psalm 139 says that God knows thoughts and words before they are spoken, that he is present from heaven to the place of the dead, and that he formed the psalmist in his mother's womb."
+   },
+   "questions": [
+    {
+     "id": "god-knows-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 4, que sait l'Eternel d'une parole avant qu'elle soit sur la langue ?",
+      "en": "According to verse 4, what does the Lord know of a word before it is on the tongue?"
+     },
+     "choices": {
+      "fr": [
+       "Il en devine une partie",
+       "Il l'apprend par ses anges",
+       "Il ne la connaît pas encore",
+       "Il la connaît entièrement"
+      ],
+      "en": [
+       "He guesses part of it",
+       "He learns it from his angels",
+       "He does not know it yet",
+       "He knows it altogether"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le psalmiste dit : « la parole n'est pas sur ma langue, Que déjà, ô Eternel! tu la connais entièrement. » La connaissance de Dieu précède même la parole.",
+      "en": "The psalmist says, \"there is not a word in my tongue, but, lo, O Lord, thou knowest it altogether.\" God's knowledge comes even before speech."
+     },
+     "ref": "19:139:4"
+    },
+    {
+     "id": "god-knows-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment le psalmiste réagit-il à cette connaissance au verset 6 ?",
+      "en": "How does the psalmist react to this knowledge in verse 6?"
+     },
+     "choices": {
+      "fr": [
+       "Il dit la comprendre parfaitement",
+       "Elle est trop élevée pour qu'il la saisisse",
+       "Il demande à Dieu de l'oublier",
+       "Il la juge sans importance"
+      ],
+      "en": [
+       "He says he understands it perfectly",
+       "It is too high for him to attain",
+       "He asks God to forget him",
+       "He considers it unimportant"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Il appelle cette science « merveilleuse » et dit qu'elle « est trop élevée pour que je puisse la saisir ». Il s'émerveille sans prétendre tout comprendre.",
+      "en": "He calls this knowledge \"too wonderful for me\" and says, \"it is high, I cannot attain unto it.\" He marvels without claiming to understand it all."
+     },
+     "ref": "19:139:6"
+    },
+    {
+     "id": "god-knows-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, où le psalmiste trouverait-il Dieu ?",
+      "en": "According to verse 8, where would the psalmist find God?"
+     },
+     "choices": {
+      "fr": [
+       "Aux cieux comme au séjour des morts",
+       "Aux cieux seulement",
+       "Dans le temple seulement",
+       "Sur la terre seulement"
+      ],
+      "en": [
+       "In heaven and in the place of the dead",
+       "In heaven only",
+       "In the temple only",
+       "On earth only"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Si je monte aux cieux, tu y es; Si je me couche au séjour des morts, t'y voilà. » Les versets suivants ajoutent la mer et les ténèbres.",
+      "en": "\"If I ascend up into heaven, thou art there: if I make my bed in hell, behold, thou art there.\" The Hebrew word (Sheol) means the place of the dead. The next verses add the sea and the darkness."
+     },
+     "ref": "19:139:8"
+    },
+    {
+     "id": "god-knows-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 12, les ténèbres peuvent cacher quelqu'un aux yeux de Dieu.",
+      "en": "According to verse 12, darkness can hide someone from God."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. « Même les ténèbres ne sont pas obscures pour toi, La nuit brille comme le jour ». Pour Dieu, ténèbres et lumière sont pareilles.",
+      "en": "False. \"The darkness hideth not from thee; but the night shineth as the day: the darkness and the light are both alike to thee.\""
+     },
+     "ref": "19:139:12"
+    },
+    {
+     "id": "god-knows-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 13, où Dieu a-t-il formé le psalmiste ?",
+      "en": "According to verse 13, where did God form the psalmist?"
+     },
+     "choices": {
+      "fr": [
+       "Dans la poussière du jardin",
+       "Dans la maison de son père",
+       "Dans le sein de sa mère",
+       "Dans le temple de Jérusalem"
+      ],
+      "en": [
+       "In the dust of the garden",
+       "In his father's house",
+       "In his mother's womb",
+       "In the temple at Jerusalem"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le texte dit : « Qui m'as tissé dans le sein de ma mère ». Dieu le connaissait avant même sa naissance (v. 16).",
+      "en": "The text says, \"thou hast covered me in my mother's womb.\" God knew him even before he was born (v. 16)."
+     },
+     "ref": "19:139:13"
+    },
+    {
+     "id": "god-knows-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Le psalmiste affirme qu'il peut compter les pensées de Dieu.",
+      "en": "The psalmist claims that he can count God's thoughts."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. Il dit : « Si je les compte, elles sont plus nombreuses que les grains de sable. » Les pensées de Dieu dépassent ce qu'il peut mesurer.",
+      "en": "False. He says, \"If I should count them, they are more in number than the sand.\" God's thoughts are beyond his measuring."
+     },
+     "ref": "19:139:18"
+    }
+   ]
+  },
+  {
+   "id": "god-faithful",
+   "title": {
+    "fr": "Sa fidélité est grande",
+    "en": "Great is thy faithfulness"
+   },
+   "passages": [
+    "25:3:19-33"
+   ],
+   "intro": {
+    "fr": "Le livre des Lamentations, attribué traditionnellement à Jérémie, pleure la destruction de Jérusalem par les Babyloniens en 587 av. J.-C. Au milieu de ce deuil, l'auteur se rappelle qui est Dieu.",
+    "en": "The book of Lamentations, traditionally attributed to Jeremiah, mourns the destruction of Jerusalem by the Babylonians in 587 BC. In the midst of this grief, the author recalls who God is."
+   },
+   "keyVerse": "25:3:23",
+   "takeaway": {
+    "fr": "Dans la détresse, l'auteur se rappelle que les bontés et les compassions de l'Eternel ne s'épuisent pas et se renouvellent chaque matin. Il affirme que le Seigneur ne rejette pas à toujours et n'afflige pas volontiers.",
+    "en": "In his distress the author recalls that the Lord's mercies and compassions do not fail and are new every morning. He states that the Lord will not cast off for ever and does not afflict willingly."
+   },
+   "questions": [
+    {
+     "id": "god-faithful-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon les versets 21 et 22, qu'est-ce qui redonne de l'espérance à l'auteur ?",
+      "en": "According to verses 21 and 22, what gives the author hope again?"
+     },
+     "choices": {
+      "fr": [
+       "La ville sera bientôt reconstruite",
+       "Les compassions de l'Eternel ne s'épuisent pas",
+       "Ses ennemis seront bientôt punis",
+       "Il n'a lui-même rien fait de mal"
+      ],
+      "en": [
+       "The city will soon be rebuilt",
+       "The Lord's compassions do not fail",
+       "His enemies will soon be punished",
+       "He himself has done nothing wrong"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Il se rappelle que « Les bontés de l'Eternel ne sont pas épuisées, Ses compassions ne sont pas à leur terme ». Sa situation n'a pas changé ; c'est ce qu'il se rappelle de Dieu qui change.",
+      "en": "He recalls that \"his compassions fail not\" (v. 22). His situation has not changed; what changes is what he calls to mind about God."
+     },
+     "ref": "25:3:22"
+    },
+    {
+     "id": "god-faithful-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 23, à quel rythme les compassions de Dieu se renouvellent-elles ?",
+      "en": "According to verse 23, how often are God's compassions renewed?"
+     },
+     "choices": {
+      "fr": [
+       "Chaque soir",
+       "Chaque sabbat",
+       "Chaque matin",
+       "Chaque année"
+      ],
+      "en": [
+       "Every evening",
+       "Every sabbath",
+       "Every morning",
+       "Every year"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Elles se renouvellent chaque matin. Oh! que ta fidélité est grande! »",
+      "en": "\"They are new every morning: great is thy faithfulness.\""
+     },
+     "ref": "25:3:23"
+    },
+    {
+     "id": "god-faithful-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Au verset 24, comment l'auteur appelle-t-il l'Eternel ?",
+      "en": "In verse 24, what does the author call the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Mon rocher",
+       "Mon bouclier",
+       "Mon roi",
+       "Mon partage"
+      ],
+      "en": [
+       "My rock",
+       "My shield",
+       "My king",
+       "My portion"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« L'Eternel est mon partage, dit mon âme ». Le mot évoque la part d'héritage : alors qu'il a tout perdu, l'auteur dit que Dieu lui-même est sa part.",
+      "en": "\"The Lord is my portion, saith my soul.\" The word evokes a share of an inheritance: having lost everything, the author says that God himself is his share."
+     },
+     "ref": "25:3:24"
+    },
+    {
+     "id": "god-faithful-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 26, qu'est-il bon d'attendre en silence ?",
+      "en": "According to verse 26, what is it good to wait for quietly?"
+     },
+     "choices": {
+      "fr": [
+       "Le secours de l'Eternel",
+       "La fin de la guerre",
+       "Le retour du roi",
+       "La pluie de l'automne"
+      ],
+      "en": [
+       "The salvation of the Lord",
+       "The end of the war",
+       "The return of the king",
+       "The autumn rain"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Il est bon d'attendre en silence Le secours de l'Eternel. » Le texte invite à espérer en Dieu même au cœur de l'épreuve.",
+      "en": "\"It is good that a man should both hope and quietly wait for the salvation of the Lord.\" The text calls for hope in God even in the midst of trial."
+     },
+     "ref": "25:3:26"
+    },
+    {
+     "id": "god-faithful-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 31, le Seigneur rejette pour toujours ceux qu'il afflige.",
+      "en": "According to verse 31, the Lord casts off for ever those he afflicts."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. Le texte dit au contraire : « le Seigneur Ne rejette pas à toujours », et lorsqu'il afflige, « Il a compassion selon sa grande miséricorde » (v. 32).",
+      "en": "False. The text says the opposite: \"the Lord will not cast off for ever\", and though he causes grief, \"yet will he have compassion\" (v. 32)."
+     },
+     "ref": "25:3:31"
+    },
+    {
+     "id": "god-faithful-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit le verset 33 de la manière dont Dieu afflige les hommes ?",
+      "en": "What does verse 33 say about how God afflicts people?"
+     },
+     "choices": {
+      "fr": [
+       "Il ne le fait pas volontiers",
+       "Il le fait avec plaisir",
+       "Il le fait au hasard",
+       "Il le fait sans le savoir"
+      ],
+      "en": [
+       "He does not do it willingly",
+       "He does it with pleasure",
+       "He does it at random",
+       "He does it without knowing"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Car ce n'est pas volontiers qu'il humilie Et qu'il afflige les enfants des hommes. » Le verset 32 ajoute que, lorsqu'il afflige, il a compassion.",
+      "en": "\"For he doth not afflict willingly nor grieve the children of men.\" Verse 32 adds that though he causes grief, he has compassion."
+     },
+     "ref": "25:3:33"
+    }
+   ]
+  },
+  {
+   "id": "god-justice",
+   "title": {
+    "fr": "Ce que Dieu demande",
+    "en": "What God requires"
+   },
+   "passages": [
+    "33:6:1-8"
+   ],
+   "intro": {
+    "fr": "Michée prophétise en Juda au VIIIe siècle avant J.-C., à la même époque qu'Esaïe. Ce passage met en scène un procès : Dieu plaide contre son peuple, et les montagnes servent de témoins.",
+    "en": "Micah prophesied in Judah in the eighth century BC, at the same time as Isaiah. This passage stages a lawsuit: God pleads against his people, with the mountains as witnesses."
+   },
+   "keyVerse": "33:6:8",
+   "takeaway": {
+    "fr": "Dieu rappelle à son peuple ce qu'il a fait pour lui, depuis la sortie d'Egypte. Face à la question des sacrifices, le texte répond que l'Eternel demande de pratiquer la justice, d'aimer la miséricorde et de marcher humblement avec Dieu.",
+    "en": "God reminds his people of what he has done for them since the exodus from Egypt. Faced with the question of sacrifices, the text answers that the Lord requires them to do justly, to love mercy and to walk humbly with God."
+   },
+   "questions": [
+    {
+     "id": "god-justice-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon les versets 1 et 2, devant qui le procès de l'Eternel est-il plaidé ?",
+      "en": "According to verses 1 and 2, before whom is the Lord's case pleaded?"
+     },
+     "choices": {
+      "fr": [
+       "Devant le roi et ses conseillers",
+       "Devant les prêtres du temple",
+       "Devant les nations voisines",
+       "Devant les montagnes et les fondements de la terre"
+      ],
+      "en": [
+       "Before the king and his counsellors",
+       "Before the priests of the temple",
+       "Before the neighbouring nations",
+       "Before the mountains and the foundations of the earth"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ecoutez, montagnes, le procès de l'Eternel, Et vous, solides fondements de la terre! » La création, ancienne et stable, est prise à témoin.",
+      "en": "\"Hear ye, O mountains, the Lord's controversy, and ye strong foundations of the earth.\" Creation, ancient and enduring, is called as a witness."
+     },
+     "ref": "33:6:2"
+    },
+    {
+     "id": "god-justice-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Au verset 3, Dieu demande à son peuple en quoi il l'a fatigué.",
+      "en": "In verse 3, God asks his people how he has wearied them."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai. « Mon peuple, que t'ai-je fait? En quoi t'ai-je fatigué? Réponds-moi! » Dans ce procès, Dieu invite son peuple à témoigner contre lui s'il le peut.",
+      "en": "True. \"O my people, what have I done unto thee? and wherein have I wearied thee? testify against me.\" In this lawsuit, God invites his people to testify against him if they can."
+     },
+     "ref": "33:6:3"
+    },
+    {
+     "id": "god-justice-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel bienfait Dieu rappelle-t-il au verset 4 ?",
+      "en": "Which act of kindness does God recall in verse 4?"
+     },
+     "choices": {
+      "fr": [
+       "La construction du temple par Salomon",
+       "La victoire de David sur les Philistins",
+       "La sortie d'Egypte, avec Moïse, Aaron et Marie",
+       "Le retour de l'exil à Babylone"
+      ],
+      "en": [
+       "The building of the temple by Solomon",
+       "David's victory over the Philistines",
+       "The exodus from Egypt, with Moses, Aaron and Miriam",
+       "The return from exile in Babylon"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« je t'ai fait monter du pays d'Egypte… et j'ai envoyé devant toi Moïse, Aaron et Marie. » Marie (Miriam en hébreu) était la sœur de Moïse et d'Aaron.",
+      "en": "\"For I brought thee up out of the land of Egypt… and I sent before thee Moses, Aaron, and Miriam.\" Miriam was the sister of Moses and Aaron."
+     },
+     "ref": "33:6:4"
+    },
+    {
+     "id": "god-justice-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle offrande extrême est envisagée au verset 7 ?",
+      "en": "What extreme offering is considered in verse 7?"
+     },
+     "choices": {
+      "fr": [
+       "Toute sa maison",
+       "Son premier-né",
+       "Tout son or",
+       "Sa propre vie"
+      ],
+      "en": [
+       "His whole house",
+       "His firstborn",
+       "All his gold",
+       "His own life"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Après les holocaustes, les milliers de béliers et les torrents d'huile, la question monte jusqu'à : « Donnerai-je pour mes transgressions mon premier-né? » Le verset 8 répond que Dieu demande autre chose.",
+      "en": "After burnt offerings, thousands of rams and rivers of oil, the question rises to: \"shall I give my firstborn for my transgression?\" Verse 8 answers that God requires something else."
+     },
+     "ref": "33:6:7"
+    },
+    {
+     "id": "god-justice-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, que demande l'Eternel ?",
+      "en": "According to verse 8, what does the Lord require?"
+     },
+     "choices": {
+      "fr": [
+       "Offrir chaque jour un holocauste, jeûner et prier",
+       "Monter trois fois par an au temple de Jérusalem",
+       "Pratiquer la justice, aimer la miséricorde, marcher humblement avec Dieu",
+       "Bâtir un autel sur chaque montagne du pays"
+      ],
+      "en": [
+       "To offer a burnt offering, fast and pray every day",
+       "To go up to the temple in Jerusalem three times a year",
+       "To do justly, love mercy and walk humbly with God",
+       "To build an altar on every mountain in the land"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« ce que l'Eternel demande de toi, C'est que tu pratiques la justice, Que tu aimes la miséricorde, Et que tu marches humblement avec ton Dieu. »",
+      "en": "\"what doth the Lord require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?\""
+     },
+     "ref": "33:6:8"
+    },
+    {
+     "id": "god-justice-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 8, ce que Dieu demande était jusque-là inconnu du peuple.",
+      "en": "According to verse 8, what God requires had been unknown to the people until then."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. Le verset commence par : « On t'a fait connaître, ô homme, ce qui est bien ». Le peuple le savait déjà.",
+      "en": "False. The verse begins, \"He hath shewed thee, O man, what is good.\" The people already knew it."
+     },
+     "ref": "33:6:8"
+    }
+   ]
+  },
+  {
+   "id": "god-compassion",
+   "title": {
+    "fr": "Le Dieu qui a pitié",
+    "en": "The God who spares"
+   },
+   "passages": [
+    "32:4:1-11"
+   ],
+   "intro": {
+    "fr": "Jonas a fini par annoncer le jugement à Ninive, la grande ville des Assyriens, ennemis d'Israël. Les Ninivites se sont repentis, et Dieu a renoncé au châtiment (Jonas 3:10). Le livre se termine sur la colère de Jonas.",
+    "en": "Jonah has finally proclaimed judgment to Nineveh, the great city of the Assyrians, Israel's enemies. The Ninevites repented, and God turned back from the punishment (Jonah 3:10). The book ends with Jonah's anger."
+   },
+   "keyVerse": "32:4:11",
+   "takeaway": {
+    "fr": "Jonas est irrité parce qu'il savait que Dieu est compatissant et miséricordieux. Par l'épisode du ricin, Dieu lui montre qu'il a pitié de Ninive, de ses habitants et même de ses animaux.",
+    "en": "Jonah is angry because he knew God is gracious and merciful. Through the episode of the gourd, God shows him that he has pity on Nineveh, its people and even its animals."
+   },
+   "questions": [
+    {
+     "id": "god-compassion-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 2, pourquoi Jonas avait-il fui à Tarsis ?",
+      "en": "According to verse 2, why had Jonah fled to Tarshish?"
+     },
+     "choices": {
+      "fr": [
+       "Il savait que Dieu est compatissant et pardonnerait",
+       "Il avait peur du roi de Ninive",
+       "Il croyait que Dieu ne le verrait pas là-bas",
+       "Il ne savait pas parler la langue de Ninive"
+      ],
+      "en": [
+       "He knew God was gracious and would relent",
+       "He was afraid of the king of Nineveh",
+       "He thought God would not see him there",
+       "He could not speak Nineveh's language"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Jonas dit : « je savais que tu es un Dieu compatissant et miséricordieux, lent à la colère et riche en bonté, et qui te repens du mal. » Il reprend presque mot pour mot la description d'Exode 34:6.",
+      "en": "Jonah says, \"I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.\" He echoes the description of Exodus 34:6."
+     },
+     "ref": "32:4:2"
+    },
+    {
+     "id": "god-compassion-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question l'Eternel pose-t-il à Jonas au verset 4 ?",
+      "en": "What question does the Lord ask Jonah in verse 4?"
+     },
+     "choices": {
+      "fr": [
+       "« Pourquoi as-tu fui? »",
+       "« Où es-tu? »",
+       "« Qu'as-tu fait de ta mission? »",
+       "« Fais-tu bien de t'irriter? »"
+      ],
+      "en": [
+       "\"Why didst thou flee?\"",
+       "\"Where art thou?\"",
+       "\"What hast thou done with thy mission?\"",
+       "\"Doest thou well to be angry?\""
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "L'Eternel répond par une question : « Fais-tu bien de t'irriter? » Il la reposera au verset 9 à propos du ricin.",
+      "en": "The Lord answers with a question: \"Doest thou well to be angry?\" He asks it again in verse 9 about the gourd."
+     },
+     "ref": "32:4:4"
+    },
+    {
+     "id": "god-compassion-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle plante Dieu fait-il pousser pour donner de l'ombre à Jonas ?",
+      "en": "What plant does God make grow to give Jonah shade?"
+     },
+     "choices": {
+      "fr": [
+       "Un figuier",
+       "Un ricin",
+       "Une vigne",
+       "Un olivier"
+      ],
+      "en": [
+       "A fig tree",
+       "A gourd",
+       "A vine",
+       "An olive tree"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« L'Eternel Dieu fit croître un ricin » pour donner de l'ombre sur sa tête. Le mot hébreu désigne une plante grimpante à croissance rapide, identifiée diversement par les traducteurs.",
+      "en": "\"The Lord God prepared a gourd\" to shade his head. The Hebrew word refers to a fast-growing climbing plant, identified in various ways by translators."
+     },
+     "ref": "32:4:6"
+    },
+    {
+     "id": "god-compassion-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce qui fait sécher la plante le lendemain ?",
+      "en": "What makes the plant wither the next day?"
+     },
+     "choices": {
+      "fr": [
+       "Une nuée de sauterelles",
+       "Le feu tombé du ciel",
+       "Les chèvres d'un berger",
+       "Un ver envoyé par Dieu"
+      ],
+      "en": [
+       "A swarm of locusts",
+       "Fire from heaven",
+       "A shepherd's goats",
+       "A worm sent by God"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Dieu fit venir un ver qui piqua le ricin, et le ricin sécha. » Puis un vent chaud d'orient accable Jonas (v. 8).",
+      "en": "\"God prepared a worm… and it smote the gourd that it withered.\" Then a vehement east wind overwhelms Jonah (v. 8)."
+     },
+     "ref": "32:4:7"
+    },
+    {
+     "id": "god-compassion-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de personnes vivent à Ninive selon le verset 11 ?",
+      "en": "According to verse 11, how many people live in Nineveh?"
+     },
+     "choices": {
+      "fr": [
+       "Environ dix mille",
+       "Plus de cent vingt mille",
+       "Plus d'un million",
+       "Environ sept mille"
+      ],
+      "en": [
+       "About ten thousand",
+       "More than a hundred and twenty thousand",
+       "More than a million",
+       "About seven thousand"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Dieu parle de « plus de cent vingt mille hommes qui ne savent pas distinguer leur droite de leur gauche ».",
+      "en": "God speaks of \"more than sixscore thousand persons that cannot discern between their right hand and their left hand\". Sixscore thousand is 120,000."
+     },
+     "ref": "32:4:11"
+    },
+    {
+     "id": "god-compassion-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Dans sa dernière parole, Dieu mentionne aussi les animaux de Ninive.",
+      "en": "In his final words, God also mentions Nineveh's animals."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai. Le livre se termine par « et des animaux en grand nombre! ». La pitié de Dieu s'étend à toute la ville.",
+      "en": "True. The book ends with \"and also much cattle\". God's pity extends to the whole city."
+     },
+     "ref": "32:4:11"
+    }
+   ]
+  },
+  {
+   "id": "god-love",
+   "title": {
+    "fr": "Dieu est amour",
+    "en": "God is love"
+   },
+   "passages": [
+    "62:4:7-21"
+   ],
+   "intro": {
+    "fr": "La première lettre de Jean s'adresse à des communautés chrétiennes qu'il appelle « bien-aimés ». Dans ce passage, il dit ce qu'est Dieu et ce que cela implique pour la manière de vivre ensemble.",
+    "en": "The first letter of John is addressed to Christian communities he calls \"beloved\". In this passage he says what God is and what that means for how people live together."
+   },
+   "keyVerse": "62:4:8",
+   "takeaway": {
+    "fr": "Selon 1 Jean 4, Dieu est amour, et il a manifesté cet amour en envoyant son Fils. Nous aimons parce qu'il nous a aimés le premier, et celui qui aime Dieu doit aussi aimer son frère.",
+    "en": "According to 1 John 4, God is love, and he showed this love by sending his Son. We love because he first loved us, and whoever loves God must also love his brother."
+   },
+   "questions": [
+    {
+     "id": "god-love-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, pourquoi celui qui n'aime pas n'a-t-il pas connu Dieu ?",
+      "en": "According to verse 8, why does the one who does not love not know God?"
+     },
+     "choices": {
+      "fr": [
+       "Parce que Dieu est amour",
+       "Parce que Dieu est invisible",
+       "Parce qu'il n'a pas lu la loi",
+       "Parce qu'il n'a pas prié"
+      ],
+      "en": [
+       "Because God is love",
+       "Because God is invisible",
+       "Because he has not read the law",
+       "Because he has not prayed"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Celui qui n'aime pas n'a pas connu Dieu, car Dieu est amour. » La formule est répétée au verset 16.",
+      "en": "\"He that loveth not knoweth not God; for God is love.\" The statement is repeated in verse 16."
+     },
+     "ref": "62:4:8"
+    },
+    {
+     "id": "god-love-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, comment l'amour de Dieu a-t-il été manifesté ?",
+      "en": "According to verse 9, how was God's love shown?"
+     },
+     "choices": {
+      "fr": [
+       "Dieu a donné la loi à Moïse",
+       "Dieu a créé le ciel et la terre",
+       "Dieu a envoyé son Fils unique dans le monde",
+       "Dieu a envoyé des prophètes"
+      ],
+      "en": [
+       "God gave the law to Moses",
+       "God created heaven and earth",
+       "God sent his only begotten Son into the world",
+       "God sent prophets"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Dieu a envoyé son Fils unique dans le monde, afin que nous vivions par lui. » Le verset 14 reprend : le Père a envoyé le Fils « comme Sauveur du monde ».",
+      "en": "\"God sent his only begotten Son into the world, that we might live through him.\" Verse 14 repeats it: the Father sent the Son \"to be the Saviour of the world\"."
+     },
+     "ref": "62:4:9"
+    },
+    {
+     "id": "god-love-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 10, l'amour consiste d'abord en ce que nous avons aimé Dieu.",
+      "en": "According to verse 10, love consists first in the fact that we loved God."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. « cet amour consiste, non point en ce que nous avons aimé Dieu, mais en ce qu'il nous a aimés ». L'initiative vient de Dieu.",
+      "en": "False. \"Herein is love, not that we loved God, but that he loved us.\" The initiative comes from God."
+     },
+     "ref": "62:4:10"
+    },
+    {
+     "id": "god-love-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 18, que bannit l'amour parfait ?",
+      "en": "According to verse 18, what does perfect love cast out?"
+     },
+     "choices": {
+      "fr": [
+       "La tristesse",
+       "La crainte",
+       "La colère",
+       "Le doute"
+      ],
+      "en": [
+       "Sorrow",
+       "Fear",
+       "Anger",
+       "Doubt"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« La crainte n'est pas dans l'amour, mais l'amour parfait bannit la crainte ». Le verset 17 parle de l'assurance au jour du jugement.",
+      "en": "\"There is no fear in love; but perfect love casteth out fear.\" Verse 17 speaks of boldness in the day of judgment."
+     },
+     "ref": "62:4:18"
+    },
+    {
+     "id": "god-love-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 19, pourquoi aimons-nous Dieu ?",
+      "en": "According to verse 19, why do we love God?"
+     },
+     "choices": {
+      "fr": [
+       "Parce qu'il nous l'ordonne",
+       "Parce que nous le voyons",
+       "Parce qu'il nous a aimés le premier",
+       "Parce que nous le craignons"
+      ],
+      "en": [
+       "Because he commands us to",
+       "Because we see him",
+       "Because he first loved us",
+       "Because we fear him"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Pour nous, nous l'aimons, parce qu'il nous a aimés le premier. » L'amour humain est présenté comme une réponse.",
+      "en": "\"We love him, because he first loved us.\" Human love is presented as a response."
+     },
+     "ref": "62:4:19"
+    },
+    {
+     "id": "god-love-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 20, comment appeler celui qui dit aimer Dieu tout en haïssant son frère ?",
+      "en": "According to verse 20, what is someone who says he loves God but hates his brother?"
+     },
+     "choices": {
+      "fr": [
+       "Un ignorant",
+       "Un étranger",
+       "Un insensé",
+       "Un menteur"
+      ],
+      "en": [
+       "An ignorant man",
+       "A stranger",
+       "A fool",
+       "A liar"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Si quelqu'un dit: J'aime Dieu, et qu'il haïsse son frère, c'est un menteur ». Comment aimer Dieu qu'on ne voit pas sans aimer son frère qu'on voit ?",
+      "en": "\"If a man say, I love God, and hateth his brother, he is a liar.\" How can one love God, who is unseen, without loving the brother one sees?"
+     },
+     "ref": "62:4:20"
+    }
+   ]
+  },
+  {
+   "id": "god-father",
+   "title": {
+    "fr": "Le père qui accueille",
+    "en": "The welcoming father"
+   },
+   "passages": [
+    "42:15:1-3",
+    "42:15:11-32"
+   ],
+   "intro": {
+    "fr": "Des pharisiens et des scribes reprochent à Jésus de fréquenter des gens de mauvaise vie. Il leur répond par trois paraboles ; la dernière raconte l'histoire d'un père et de ses deux fils.",
+    "en": "Pharisees and scribes criticize Jesus for spending time with sinners. He answers them with three parables; the last tells the story of a father and his two sons."
+   },
+   "keyVerse": "42:15:20",
+   "takeaway": {
+    "fr": "Dans cette parabole, le père court accueillir le fils cadet qui revient après avoir tout dilapidé, et il sort aussi supplier le fils aîné d'entrer à la fête. Jésus la raconte à ceux qui lui reprochent d'accueillir les pécheurs.",
+    "en": "In this parable the father runs to welcome the younger son who returns after squandering everything, and he also goes out to plead with the elder son to join the feast. Jesus tells it to those who criticize him for receiving sinners."
+   },
+   "questions": [
+    {
+     "id": "god-father-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 2, que reprochent les pharisiens et les scribes à Jésus ?",
+      "en": "According to verse 2, what do the Pharisees and scribes criticize Jesus for?"
+     },
+     "choices": {
+      "fr": [
+       "Il accueille des gens de mauvaise vie et mange avec eux",
+       "Il guérit des malades le jour du sabbat",
+       "Il ne paie pas l'impôt du temple",
+       "Il enseigne sans être scribe"
+      ],
+      "en": [
+       "He receives sinners and eats with them",
+       "He heals the sick on the sabbath",
+       "He does not pay the temple tax",
+       "He teaches without being a scribe"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Ils murmurent : « Cet homme accueille des gens de mauvaise vie, et mange avec eux. » C'est à eux que s'adresse la parabole (v. 3).",
+      "en": "They murmur, \"This man receiveth sinners, and eateth with them.\" The parable is addressed to them (v. 3)."
+     },
+     "ref": "42:15:2"
+    },
+    {
+     "id": "god-father-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel travail le fils cadet doit-il accepter dans le pays éloigné ?",
+      "en": "What job does the younger son have to accept in the far country?"
+     },
+     "choices": {
+      "fr": [
+       "Garder les pourceaux",
+       "Porter de l'eau",
+       "Moissonner les champs",
+       "Tailler des pierres"
+      ],
+      "en": [
+       "Feeding pigs",
+       "Carrying water",
+       "Harvesting the fields",
+       "Cutting stones"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Un habitant l'envoie « dans ses champs garder les pourceaux ». Pour un auditoire juif, pour qui le porc était impur, c'est une déchéance extrême.",
+      "en": "A citizen sends him \"into his fields to feed swine\". For a Jewish audience, for whom pigs were unclean, this was utter degradation."
+     },
+     "ref": "42:15:15"
+    },
+    {
+     "id": "god-father-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait le père lorsqu'il voit son fils revenir de loin ?",
+      "en": "What does the father do when he sees his son coming from far off?"
+     },
+     "choices": {
+      "fr": [
+       "Il attend qu'il vienne s'excuser",
+       "Il envoie un serviteur l'interroger",
+       "Il lui ferme la porte de la maison",
+       "Il court se jeter à son cou et l'embrasse"
+      ],
+      "en": [
+       "He waits for him to come and apologize",
+       "He sends a servant to question him",
+       "He shuts the door of the house on him",
+       "He runs, falls on his neck and kisses him"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa. » Le père agit avant même que le fils ait prononcé ses excuses (v. 21).",
+      "en": "\"his father saw him, and had compassion, and ran, and fell on his neck, and kissed him.\" The father acts before the son has even spoken his apology (v. 21)."
+     },
+     "ref": "42:15:20"
+    },
+    {
+     "id": "god-father-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande le père à ses serviteurs d'apporter pour son fils ?",
+      "en": "What does the father tell his servants to bring for his son?"
+     },
+     "choices": {
+      "fr": [
+       "Du pain, de l'eau et une couverture",
+       "Des habits de serviteur et des outils",
+       "La plus belle robe, un anneau et des souliers",
+       "Un bâton, une ceinture et un sac"
+      ],
+      "en": [
+       "Bread, water and a blanket",
+       "Servant's clothes and tools",
+       "The best robe, a ring and shoes",
+       "A staff, a belt and a bag"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Apportez vite la plus belle robe… mettez-lui un anneau au doigt, et des souliers aux pieds. » Le fils avait demandé d'être traité comme un mercenaire (v. 19) ; le père le rétablit comme fils.",
+      "en": "\"Bring forth the best robe… and put a ring on his hand, and shoes on his feet.\" The son had asked to be treated as a hired servant (v. 19); the father restores him as a son."
+     },
+     "ref": "42:15:22"
+    },
+    {
+     "id": "god-father-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment réagit le fils aîné en apprenant le retour de son frère ?",
+      "en": "How does the elder son react when he hears of his brother's return?"
+     },
+     "choices": {
+      "fr": [
+       "Il court l'embrasser à son tour",
+       "Il se met en colère et refuse d'entrer",
+       "Il quitte la maison pour toujours",
+       "Il demande lui aussi sa part"
+      ],
+      "en": [
+       "He runs to embrace him too",
+       "He is angry and refuses to go in",
+       "He leaves home for good",
+       "He asks for his share as well"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Il se mit en colère, et ne voulut pas entrer. » Le père sort alors le prier d'entrer : il va vers chacun de ses deux fils.",
+      "en": "\"he was angry, and would not go in: therefore came his father out, and intreated him.\" The father goes out to each of his two sons."
+     },
+     "ref": "42:15:28"
+    },
+    {
+     "id": "god-father-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Le père dit au fils aîné que tout ce qu'il possède est à lui.",
+      "en": "The father tells the elder son that all he has is his."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai. « Mon enfant… tu es toujours avec moi, et tout ce que j'ai est à toi ». La parabole s'arrête sans dire si l'aîné entre à la fête.",
+      "en": "True. \"Son, thou art ever with me, and all that I have is thine.\" The parable ends without saying whether the elder son goes in."
+     },
+     "ref": "42:15:31"
+    }
+   ]
+  },
+  {
+   "id": "god-spirit",
+   "title": {
+    "fr": "L'Esprit promis",
+    "en": "The promised Spirit"
+   },
+   "passages": [
+    "43:14:15-27"
+   ],
+   "intro": {
+    "fr": "Au cours du dernier repas avec ses disciples, peu avant son arrestation, Jésus leur annonce son départ. Il leur promet que le Père enverra un « consolateur ».",
+    "en": "During his last meal with his disciples, shortly before his arrest, Jesus tells them he is going away. He promises that the Father will send them a \"Comforter\"."
+   },
+   "keyVerse": "43:14:26",
+   "takeaway": {
+    "fr": "Jésus promet que le Père donnera l'Esprit de vérité, le consolateur, qui demeurera avec les disciples, leur enseignera toutes choses et leur rappellera ses paroles. Il leur laisse aussi sa paix.",
+    "en": "Jesus promises that the Father will give the Spirit of truth, the Comforter, who will abide with the disciples, teach them all things and bring his words to their remembrance. He also leaves them his peace."
+   },
+   "questions": [
+    {
+     "id": "god-spirit-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon les versets 16 et 17, comment Jésus nomme-t-il le consolateur que le Père donnera ?",
+      "en": "According to verses 16 and 17, what does Jesus call the Comforter the Father will give?"
+     },
+     "choices": {
+      "fr": [
+       "L'ange de l'alliance",
+       "Le prophète promis",
+       "L'Esprit de vérité",
+       "Le fils de David"
+      ],
+      "en": [
+       "The angel of the covenant",
+       "The promised prophet",
+       "The Spirit of truth",
+       "The son of David"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le Père donnera « un autre consolateur… l'Esprit de vérité », qui demeurera avec les disciples et sera en eux.",
+      "en": "The Father will give \"another Comforter… Even the Spirit of truth\", who will dwell with the disciples and be in them."
+     },
+     "ref": "43:14:17"
+    },
+    {
+     "id": "god-spirit-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que promet Jésus au verset 18 ?",
+      "en": "What does Jesus promise in verse 18?"
+     },
+     "choices": {
+      "fr": [
+       "De ne pas laisser ses disciples orphelins",
+       "De rester sur la terre pour toujours",
+       "De rétablir le royaume d'Israël",
+       "De leur donner la richesse"
+      ],
+      "en": [
+       "Not to leave his disciples comfortless",
+       "To stay on earth for ever",
+       "To restore the kingdom of Israel",
+       "To give them riches"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Je ne vous laisserai pas orphelins, je viendrai à vous. » Le consolateur promis aux versets 16 et 17 accomplit cette promesse de présence.",
+      "en": "\"I will not leave you comfortless: I will come to you.\" In KJV English, \"comfortless\" echoes the \"Comforter\" promised in verse 16."
+     },
+     "ref": "43:14:18"
+    },
+    {
+     "id": "god-spirit-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel disciple demande à Jésus pourquoi il se fera connaître à eux et non au monde ?",
+      "en": "Which disciple asks Jesus why he will show himself to them and not to the world?"
+     },
+     "choices": {
+      "fr": [
+       "Pierre",
+       "Thomas",
+       "Philippe",
+       "Jude, qui n'est pas l'Iscariot"
+      ],
+      "en": [
+       "Peter",
+       "Thomas",
+       "Philip",
+       "Judas, not Iscariot"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le texte précise : « Jude, non pas l'Iscariot », pour le distinguer de celui qui a livré Jésus.",
+      "en": "The text specifies \"Judas… not Iscariot\", to distinguish him from the one who betrayed Jesus."
+     },
+     "ref": "43:14:22"
+    },
+    {
+     "id": "god-spirit-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 23, le Père et Jésus viendront faire leur demeure chez celui qui aime Jésus.",
+      "en": "According to verse 23, the Father and Jesus will come and make their home with the one who loves Jesus."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai. « Si quelqu'un m'aime, il gardera ma parole, et mon Père l'aimera; nous viendrons à lui, et nous ferons notre demeure chez lui. »",
+      "en": "True. \"If a man love me, he will keep my words: and my Father will love him, and we will come unto him, and make our abode with him.\""
+     },
+     "ref": "43:14:23"
+    },
+    {
+     "id": "god-spirit-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 26, que fera l'Esprit-Saint envoyé par le Père ?",
+      "en": "According to verse 26, what will the Holy Ghost sent by the Father do?"
+     },
+     "choices": {
+      "fr": [
+       "Écrire une nouvelle loi sur des tables de pierre",
+       "Enseigner toutes choses et rappeler les paroles de Jésus",
+       "Remplacer le temple de Jérusalem",
+       "Juger le monde dès son arrivée"
+      ],
+      "en": [
+       "Write a new law on tablets of stone",
+       "Teach all things and recall Jesus' words",
+       "Replace the temple in Jerusalem",
+       "Judge the world as soon as he comes"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le consolateur, l'Esprit-Saint, « vous enseignera toutes choses, et vous rappellera tout ce que je vous ai dit ».",
+      "en": "The Comforter, the Holy Ghost, \"shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you\"."
+     },
+     "ref": "43:14:26"
+    },
+    {
+     "id": "god-spirit-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que Jésus laisse-t-il à ses disciples au verset 27 ?",
+      "en": "What does Jesus leave his disciples in verse 27?"
+     },
+     "choices": {
+      "fr": [
+       "Son manteau",
+       "Sa bourse",
+       "Ses écrits",
+       "Sa paix"
+      ],
+      "en": [
+       "His cloak",
+       "His purse",
+       "His writings",
+       "His peace"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Je vous laisse la paix, je vous donne ma paix. Je ne vous donne pas comme le monde donne. Que votre coeur ne se trouble point ».",
+      "en": "\"Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled.\""
+     },
+     "ref": "43:14:27"
+    }
+   ]
+  }
+ ]
+}

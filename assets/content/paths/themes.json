@@ -1,0 +1,2183 @@
+{
+ "id": "themes",
+ "order": 4,
+ "icon": "lightbulb",
+ "title": {
+  "fr": "Les grands thèmes",
+  "en": "Great themes"
+ },
+ "description": {
+  "fr": "Ce que la Bible dit de quelques grandes questions de la vie : le pardon, la foi, la prière, l'amour, la justice, l'argent, les paroles, l'inquiétude ou l'espérance face à la mort.",
+  "en": "What the Bible says about some of life's big questions: forgiveness, faith, prayer, love, justice, money, words, worry, and hope in the face of death."
+ },
+ "lessons": [
+  {
+   "id": "themes-forgiveness",
+   "title": {
+    "fr": "Reconnaître sa faute",
+    "en": "Owning up and being forgiven"
+   },
+   "passages": [
+    "19:51:1-19"
+   ],
+   "intro": {
+    "fr": "Le Psaume 51 est attribué à David. Son titre le relie au moment où le prophète Nathan vint le trouver, après que David fut allé vers Bath-Schéba (voir 2 Samuel 11–12). C'est une prière de confession.",
+    "en": "Psalm 51 is attributed to David. Its heading links it to the time when the prophet Nathan came to him, after David had gone in to Bath-sheba (see 2 Samuel 11–12). It is a prayer of confession."
+   },
+   "keyVerse": "19:51:10",
+   "takeaway": {
+    "fr": "David reconnaît sa faute sans chercher d'excuse et demande à Dieu de l'effacer et de lui créer un cœur pur. Il affirme que Dieu ne dédaigne pas un cœur brisé et contrit.",
+    "en": "David admits his wrong without excuses and asks God to blot it out and create a clean heart in him. He declares that God will not despise a broken and contrite heart."
+   },
+   "questions": [
+    {
+     "id": "themes-forgiveness-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le titre du psaume, quel prophète vint trouver David ?",
+      "en": "According to the psalm's heading, which prophet came to David?"
+     },
+     "choices": {
+      "fr": [
+       "Samuel",
+       "Nathan",
+       "Gad",
+       "Elie"
+      ],
+      "en": [
+       "Samuel",
+       "Nathan",
+       "Gad",
+       "Elijah"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le titre précise : « Lorsque Nathan, le prophète, vint à lui, après que David fut allé vers Bath-Schéba. » 2 Samuel 12 raconte comment Nathan confronta le roi à sa faute.",
+      "en": "The heading says it was written “when Nathan the prophet came unto him, after he had gone in to Bath–sheba.” 2 Samuel 12 tells how Nathan confronted the king with his sin."
+     },
+     "ref": "19:51:1"
+    },
+    {
+     "id": "themes-forgiveness-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "David dit que son péché ne le préoccupe plus et qu'il l'a oublié.",
+      "en": "David says his sin no longer troubles him and that he has forgotten it."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "C'est l'inverse : « je reconnais mes transgressions, Et mon péché est constamment devant moi. » Il ne minimise pas sa faute, il la nomme.",
+      "en": "The opposite: “I acknowledge my transgressions: and my sin is ever before me.” He does not play down his wrong; he names it."
+     },
+     "ref": "19:51:3"
+    },
+    {
+     "id": "themes-forgiveness-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Une fois lavé par Dieu, plus blanc que quoi David dit-il qu'il sera ?",
+      "en": "Once God has washed him, what does David say he will be whiter than?"
+     },
+     "choices": {
+      "fr": [
+       "La neige",
+       "La laine",
+       "Le lait",
+       "La lumière"
+      ],
+      "en": [
+       "Snow",
+       "Wool",
+       "Milk",
+       "Light"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Lave-moi, et je serai plus blanc que la neige. » L'hysope mentionnée dans le même verset est une plante utilisée dans les rites de purification de la loi de Moïse.",
+      "en": "“Wash me, and I shall be whiter than snow.” The hyssop mentioned in the same verse was a plant used in the purification rites of the law of Moses."
+     },
+     "ref": "19:51:7"
+    },
+    {
+     "id": "themes-forgiveness-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande David à Dieu au verset 10 ?",
+      "en": "What does David ask God for in verse 10?"
+     },
+     "choices": {
+      "fr": [
+       "Une longue vie",
+       "La victoire sur ses ennemis",
+       "Un cœur pur",
+       "Un royaume affermi"
+      ],
+      "en": [
+       "A long life",
+       "Victory over his enemies",
+       "A clean heart",
+       "A secure kingdom"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« O Dieu! crée en moi un coeur pur, Renouvelle en moi un esprit bien disposé. » David ne demande pas seulement l'effacement de sa faute, mais un changement intérieur.",
+      "en": "“Create in me a clean heart, O God; and renew a right spirit within me.” David asks not only for his sin to be blotted out but for inner renewal."
+     },
+     "ref": "19:51:10"
+    },
+    {
+     "id": "themes-forgiveness-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Une fois restauré, que promet de faire David ?",
+      "en": "Once restored, what does David promise to do?"
+     },
+     "choices": {
+      "fr": [
+       "Bâtir un temple à Dieu",
+       "Enseigner les voies de Dieu aux pécheurs",
+       "Jeûner quarante jours",
+       "Renoncer à son trône"
+      ],
+      "en": [
+       "Build a temple for God",
+       "Teach God's ways to sinners",
+       "Fast for forty days",
+       "Give up his throne"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« J'enseignerai tes voies à ceux qui les transgressent, Et les pécheurs reviendront à toi. » Le pardon reçu devient un message à transmettre.",
+      "en": "“Then will I teach transgressors thy ways; and sinners shall be converted unto thee.” The forgiveness he receives becomes something to pass on."
+     },
+     "ref": "19:51:13"
+    },
+    {
+     "id": "themes-forgiveness-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 17, quel sacrifice est agréable à Dieu ?",
+      "en": "According to verse 17, what are the sacrifices of God?"
+     },
+     "choices": {
+      "fr": [
+       "Des taureaux sans défaut",
+       "Des holocaustes abondants",
+       "Des offrandes de parfum",
+       "Un esprit brisé"
+      ],
+      "en": [
+       "Bulls without blemish",
+       "Abundant burnt offerings",
+       "Offerings of incense",
+       "A broken spirit"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Après avoir dit que Dieu ne prend pas plaisir aux holocaustes (v. 16), David affirme : « Les sacrifices qui sont agréables à Dieu, c'est un esprit brisé: O Dieu! tu ne dédaignes pas un coeur brisé et contrit. »",
+      "en": "After saying that God does not delight in burnt offering (v. 16), David declares: “The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise.”"
+     },
+     "ref": "19:51:17"
+    }
+   ]
+  },
+  {
+   "id": "themes-grace",
+   "title": {
+    "fr": "Sauvés par grâce",
+    "en": "Saved by grace"
+   },
+   "passages": [
+    "49:2:1-10"
+   ],
+   "intro": {
+    "fr": "Paul écrit « aux saints qui sont à Ephèse » (1:1). Dans ce passage, il compare ce que ses lecteurs étaient autrefois à ce que Dieu a fait pour eux.",
+    "en": "Paul writes “to the saints which are at Ephesus” (1:1). In this passage he contrasts what his readers once were with what God has done for them."
+   },
+   "keyVerse": "49:2:8",
+   "takeaway": {
+    "fr": "Paul décrit ses lecteurs comme autrefois morts par leurs péchés, puis rendus à la vie avec Christ par la miséricorde et l'amour de Dieu. Le salut y est présenté comme un don de Dieu reçu par la foi, en vue des bonnes œuvres que Dieu a préparées.",
+    "en": "Paul describes his readers as once dead in their sins, then made alive with Christ because of God's mercy and love. Salvation is presented as God's gift received through faith, leading to the good works God prepared."
+   },
+   "questions": [
+    {
+     "id": "themes-grace-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 1, comment Paul décrit-il l'état passé de ses lecteurs ?",
+      "en": "According to verse 1, how does Paul describe his readers' former condition?"
+     },
+     "choices": {
+      "fr": [
+       "Endormis",
+       "Malades",
+       "Morts",
+       "Aveugles"
+      ],
+      "en": [
+       "Asleep",
+       "Sick",
+       "Dead",
+       "Blind"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Vous étiez morts par vos offenses et par vos péchés. » L'image est forte : il ne s'agit pas d'une faiblesse à corriger, mais d'une vie à recevoir.",
+      "en": "They “were dead in trespasses and sins.” The image is strong: not a weakness to fix, but a life that must be given."
+     },
+     "ref": "49:2:1"
+    },
+    {
+     "id": "themes-grace-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 4, qu'est-ce qui pousse Dieu à agir ?",
+      "en": "According to verse 4, what moves God to act?"
+     },
+     "choices": {
+      "fr": [
+       "Les efforts des croyants",
+       "Sa miséricorde et son grand amour",
+       "L'observation de la loi",
+       "La ferveur de leurs prières"
+      ],
+      "en": [
+       "The believers' efforts",
+       "His mercy and great love",
+       "Keeping the law",
+       "The fervour of their prayers"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Mais Dieu, qui est riche en miséricorde, à cause du grand amour dont il nous a aimés… » Le « Mais » marque le tournant du passage.",
+      "en": "“But God, who is rich in mercy, for his great love wherewith he loved us…” The word “But” marks the turning point of the passage."
+     },
+     "ref": "49:2:4"
+    },
+    {
+     "id": "themes-grace-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment le verset 8 présente-t-il le salut ?",
+      "en": "How does verse 8 present salvation?"
+     },
+     "choices": {
+      "fr": [
+       "Comme un salaire mérité",
+       "Comme une récompense des ancêtres",
+       "Comme un héritage de naissance",
+       "Comme un don de Dieu"
+      ],
+      "en": [
+       "As wages earned",
+       "As a reward for one's ancestors",
+       "As a birthright",
+       "As the gift of God"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. » La grâce désigne une faveur imméritée.",
+      "en": "“For by grace are ye saved through faith; and that not of yourselves: it is the gift of God.” Grace means undeserved favour."
+     },
+     "ref": "49:2:8"
+    },
+    {
+     "id": "themes-grace-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 9, le salut ne vient pas des œuvres, afin que personne ne puisse s'en glorifier.",
+      "en": "According to verse 9, salvation is not of works, so that no one can boast."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Ce n'est point par les oeuvres, afin que personne ne se glorifie. » Puisque c'est un don, nul ne peut s'en attribuer le mérite.",
+      "en": "“Not of works, lest any man should boast.” Since it is a gift, no one can take credit for it."
+     },
+     "ref": "49:2:9"
+    },
+    {
+     "id": "themes-grace-5",
+     "kind": "choice",
+     "q": {
+      "fr": "D'après le verset 10, en vue de quoi les croyants ont-ils été créés en Jésus-Christ ?",
+      "en": "According to verse 10, what have believers been created in Christ Jesus for?"
+     },
+     "choices": {
+      "fr": [
+       "Pour de bonnes œuvres",
+       "Pour juger le monde",
+       "Pour se retirer du monde",
+       "Pour garder les traditions"
+      ],
+      "en": [
+       "For good works",
+       "To judge the world",
+       "To withdraw from the world",
+       "To keep traditions"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Nous sommes son ouvrage, ayant été créés en Jésus-Christ pour de bonnes oeuvres, que Dieu a préparées d'avance. » Les œuvres ne sont pas la cause du salut (v. 9), mais elles en sont le but.",
+      "en": "“We are his workmanship, created in Christ Jesus unto good works, which God hath before ordained.” Works are not the cause of salvation (v. 9), but they are its purpose."
+     },
+     "ref": "49:2:10"
+    }
+   ]
+  },
+  {
+   "id": "themes-faith",
+   "title": {
+    "fr": "La foi",
+    "en": "Faith"
+   },
+   "passages": [
+    "58:11:1-16"
+   ],
+   "intro": {
+    "fr": "La lettre aux Hébreux, dont l'auteur ne se nomme pas, encourage des croyants tentés de se décourager. Le chapitre 11 définit la foi, puis passe en revue des personnages de l'Ancien Testament qui ont vécu par elle.",
+    "en": "The letter to the Hebrews, whose author does not give his name, encourages believers who are tempted to lose heart. Chapter 11 defines faith, then reviews Old Testament figures who lived by it."
+   },
+   "keyVerse": "58:11:1",
+   "takeaway": {
+    "fr": "La foi y est l'assurance de ce qu'on espère et de ce qu'on ne voit pas. Abel, Enoch, Noé, Abraham et Sara ont agi en se fiant à Dieu et à ses promesses, même sans les voir accomplies de leur vivant.",
+    "en": "Faith is described as the assurance of things hoped for and not seen. Abel, Enoch, Noah, Abraham and Sara acted by trusting God and his promises, even without seeing them fulfilled in their lifetime."
+   },
+   "questions": [
+    {
+     "id": "themes-faith-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 1, de quoi la foi est-elle une démonstration ?",
+      "en": "According to verse 1, faith is the evidence of what?"
+     },
+     "choices": {
+      "fr": [
+       "Des choses déjà accomplies",
+       "De la sagesse humaine",
+       "Des choses qu'on ne voit pas",
+       "Des mérites passés"
+      ],
+      "en": [
+       "Things already accomplished",
+       "Human wisdom",
+       "Things not seen",
+       "Past merits"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« La foi est une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas. » Tout le chapitre illustre cette définition.",
+      "en": "“Faith is the substance of things hoped for, the evidence of things not seen.” The whole chapter illustrates this definition."
+     },
+     "ref": "58:11:1"
+    },
+    {
+     "id": "themes-faith-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 6, que doit croire celui qui s'approche de Dieu ?",
+      "en": "According to verse 6, what must anyone who comes to God believe?"
+     },
+     "choices": {
+      "fr": [
+       "Que Dieu exige des sacrifices chaque jour",
+       "Que Dieu se montre aux yeux de tous",
+       "Que Dieu a besoin des hommes",
+       "Que Dieu existe et récompense ceux qui le cherchent"
+      ],
+      "en": [
+       "That God demands daily sacrifices",
+       "That God shows himself to everyone",
+       "That God needs human beings",
+       "That God exists and rewards those who seek him"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Il faut que celui qui s'approche de Dieu croie que Dieu existe, et qu'il est le rémunérateur de ceux qui le cherchent. » Le même verset dit que sans la foi il est impossible de lui être agréable.",
+      "en": "“He that cometh to God must believe that he is, and that he is a rewarder of them that diligently seek him.” The same verse says that without faith it is impossible to please him."
+     },
+     "ref": "58:11:6"
+    },
+    {
+     "id": "themes-faith-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce qui caractérise le départ d'Abraham selon le verset 8 ?",
+      "en": "According to verse 8, what was remarkable about Abraham's departure?"
+     },
+     "choices": {
+      "fr": [
+       "Il partit sans savoir où il allait",
+       "Il partit à la tête d'une armée",
+       "Il partit après avoir visité le pays",
+       "Il partit pour fuir une famine"
+      ],
+      "en": [
+       "He went out not knowing where he was going",
+       "He went out at the head of an army",
+       "He went out after visiting the land",
+       "He went out to escape a famine"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Abraham « obéit et partit pour un lieu qu'il devait recevoir en héritage » ; il « partit sans savoir où il allait ». Sa foi se traduit par l'obéissance.",
+      "en": "Abraham “obeyed; and he went out, not knowing whither he went.” His faith shows itself in obedience."
+     },
+     "ref": "58:11:8"
+    },
+    {
+     "id": "themes-faith-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 11, pourquoi Sara a-t-elle pu avoir une postérité malgré son âge ?",
+      "en": "According to verse 11, why was Sara able to have a child past the age for it?"
+     },
+     "choices": {
+      "fr": [
+       "Elle offrit un sacrifice au temple",
+       "Elle crut à la fidélité de celui qui avait promis",
+       "Abraham intercéda longuement pour elle",
+       "Elle consulta un prophète"
+      ],
+      "en": [
+       "She offered a sacrifice at the temple",
+       "She judged faithful the one who had promised",
+       "Abraham interceded for her at length",
+       "She consulted a prophet"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Sara fut rendue capable d'avoir une postérité « parce qu'elle crut à la fidélité de celui qui avait fait la promesse ». La foi repose ici sur la fidélité de Dieu.",
+      "en": "Sara received strength to conceive “because she judged him faithful who had promised.” Faith here rests on God's faithfulness."
+     },
+     "ref": "58:11:11"
+    },
+    {
+     "id": "themes-faith-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 13, ces croyants ont tous reçu les choses promises avant de mourir.",
+      "en": "According to verse 13, these believers all received what was promised before they died."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« C'est dans la foi qu'ils sont tous morts, sans avoir obtenu les choses promises; mais ils les ont vues et saluées de loin. » Ils se reconnaissaient « étrangers et voyageurs sur la terre ».",
+      "en": "“These all died in faith, not having received the promises, but having seen them afar off.” They confessed that they were “strangers and pilgrims on the earth.”"
+     },
+     "ref": "58:11:13"
+    },
+    {
+     "id": "themes-faith-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 16, quelle patrie ces croyants désiraient-ils ?",
+      "en": "According to verse 16, what country did these believers desire?"
+     },
+     "choices": {
+      "fr": [
+       "Le pays d'où ils étaient sortis",
+       "Une terre fertile en Egypte",
+       "Une patrie céleste",
+       "Un royaume sur la terre"
+      ],
+      "en": [
+       "The country they had come from",
+       "Fertile land in Egypt",
+       "A heavenly country",
+       "A kingdom on earth"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Ils en désirent une meilleure, c'est-à-dire une céleste. » Le verset 15 précise qu'ils auraient pu retourner au pays d'où ils venaient, mais ce n'était pas ce qu'ils cherchaient.",
+      "en": "“They desire a better country, that is, an heavenly.” Verse 15 notes that they could have returned to the country they had left, but that was not what they sought."
+     },
+     "ref": "58:11:16"
+    }
+   ]
+  },
+  {
+   "id": "themes-prayer",
+   "title": {
+    "fr": "La prière",
+    "en": "Prayer"
+   },
+   "passages": [
+    "42:18:1-14"
+   ],
+   "intro": {
+    "fr": "L'Evangile de Luc rapporte ici deux paraboles de Jésus sur la prière. La première parle de persévérance ; la seconde, de l'attitude de celui qui prie.",
+    "en": "Luke's Gospel records two parables of Jesus about prayer. The first is about perseverance; the second, about the attitude of the one who prays."
+   },
+   "keyVerse": "42:18:1",
+   "takeaway": {
+    "fr": "Jésus enseigne qu'il faut toujours prier sans se relâcher, avec la confiance que Dieu fera justice. Il montre aussi que celui qui prie humblement en reconnaissant sa faute repart justifié, plutôt que celui qui se croit juste.",
+    "en": "Jesus teaches that people ought always to pray and not lose heart, trusting that God will bring justice. He also shows that the one who prays humbly, admitting his sin, goes home justified, rather than the one who trusts in his own righteousness."
+   },
+   "questions": [
+    {
+     "id": "themes-prayer-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 1, dans quel but Jésus raconte-t-il la parabole du juge et de la veuve ?",
+      "en": "According to verse 1, why does Jesus tell the parable of the judge and the widow?"
+     },
+     "choices": {
+      "fr": [
+       "Pour critiquer les juges de la ville",
+       "Pour enseigner le respect des veuves",
+       "Pour annoncer la chute de Jérusalem",
+       "Pour montrer qu'il faut toujours prier sans se relâcher"
+      ],
+      "en": [
+       "To criticize the city's judges",
+       "To teach respect for widows",
+       "To foretell the fall of Jerusalem",
+       "To show that people ought always to pray and not lose heart"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Luc donne lui-même la clé : Jésus parle « pour montrer qu'il faut toujours prier, et ne point se relâcher ».",
+      "en": "Luke gives the key himself: the parable was told “to this end, that men ought always to pray, and not to faint.” To “faint” here means to lose heart."
+     },
+     "ref": "42:18:1"
+    },
+    {
+     "id": "themes-prayer-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi le juge finit-il par faire justice à la veuve ?",
+      "en": "Why does the judge finally give the widow justice?"
+     },
+     "choices": {
+      "fr": [
+       "Parce qu'il craignait Dieu",
+       "Parce qu'elle l'importunait sans cesse",
+       "Parce qu'elle lui offrit de l'argent",
+       "Parce que le roi le lui ordonna"
+      ],
+      "en": [
+       "Because he feared God",
+       "Because she kept bothering him",
+       "Because she offered him money",
+       "Because the king ordered him to"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le juge ne craint pas Dieu, mais il dit : « parce que cette veuve m'importune, je lui ferai justice ». Jésus conclut : si même un juge inique cède, Dieu ne fera-t-il pas justice à ceux qui crient à lui ?",
+      "en": "The judge does not fear God, but says: “because this widow troubleth me, I will avenge her.” Jesus concludes that if even an unjust judge gives in, God will surely act for those who cry to him."
+     },
+     "ref": "42:18:5"
+    },
+    {
+     "id": "themes-prayer-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, à qui la seconde parabole est-elle destinée ?",
+      "en": "According to verse 9, who is the second parable aimed at?"
+     },
+     "choices": {
+      "fr": [
+       "À des disciples qui ne savaient pas prier",
+       "À des pécheurs qui n'osaient pas venir au temple",
+       "À des gens sûrs d'être justes qui méprisaient les autres",
+       "À des prêtres chargés des sacrifices"
+      ],
+      "en": [
+       "Disciples who did not know how to pray",
+       "Sinners who did not dare come to the temple",
+       "People sure of their own righteousness who despised others",
+       "Priests in charge of the sacrifices"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Jésus parle « en vue de certaines personnes se persuadant qu'elles étaient justes, et ne faisant aucun cas des autres ».",
+      "en": "Jesus spoke it “unto certain which trusted in themselves that they were righteous, and despised others.”"
+     },
+     "ref": "42:18:9"
+    },
+    {
+     "id": "themes-prayer-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait le publicain pendant qu'il prie ?",
+      "en": "What does the publican do as he prays?"
+     },
+     "choices": {
+      "fr": [
+       "Il se frappe la poitrine",
+       "Il lève les mains au ciel",
+       "Il se prosterne devant l'autel",
+       "Il déchire ses vêtements"
+      ],
+      "en": [
+       "He beats his breast",
+       "He lifts his hands to heaven",
+       "He bows down before the altar",
+       "He tears his clothes"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Se tenant à distance, sans oser lever les yeux, « il se frappait la poitrine, en disant: O Dieu, sois apaisé envers moi, qui suis un pécheur ». Les publicains collectaient les impôts et étaient mal vus.",
+      "en": "Standing afar off, not lifting his eyes, he “smote upon his breast, saying, God be merciful to me a sinner.” Publicans collected taxes and were widely despised."
+     },
+     "ref": "42:18:13"
+    },
+    {
+     "id": "themes-prayer-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Jésus, c'est le pharisien qui redescendit chez lui justifié.",
+      "en": "According to Jesus, it was the Pharisee who went home justified."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Jésus dit du publicain : « celui-ci descendit dans sa maison justifié, plutôt que l'autre ». Le pharisien avait surtout énuméré ses mérites (v. 11-12).",
+      "en": "Jesus says of the publican: “this man went down to his house justified rather than the other.” The Pharisee had mainly listed his own merits (vv. 11–12)."
+     },
+     "ref": "42:18:14"
+    },
+    {
+     "id": "themes-prayer-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon la conclusion de Jésus, qui sera élevé ?",
+      "en": "According to Jesus' conclusion, who will be exalted?"
+     },
+     "choices": {
+      "fr": [
+       "Celui qui jeûne souvent",
+       "Celui qui donne la dîme",
+       "Celui qui prie longtemps",
+       "Celui qui s'abaisse"
+      ],
+      "en": [
+       "Whoever fasts often",
+       "Whoever gives tithes",
+       "Whoever prays at length",
+       "Whoever humbles himself"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Quiconque s'élève sera abaissé, et celui qui s'abaisse sera élevé. » Le jeûne et la dîme dont se vantait le pharisien (v. 12) ne sont pas ce qui compte ici.",
+      "en": "“Every one that exalteth himself shall be abased; and he that humbleth himself shall be exalted.” The fasting and tithing the Pharisee boasted of (v. 12) are not what counts here."
+     },
+     "ref": "42:18:14"
+    }
+   ]
+  },
+  {
+   "id": "themes-love",
+   "title": {
+    "fr": "L'amour",
+    "en": "Love"
+   },
+   "passages": [
+    "46:13:1-13"
+   ],
+   "intro": {
+    "fr": "Paul écrit à l'Eglise de Corinthe, divisée notamment au sujet des dons spirituels. Au milieu de cette discussion, il décrit l'amour, que la Segond appelle ici « charité ».",
+    "en": "Paul writes to the church in Corinth, which was divided over spiritual gifts among other things. In the middle of that discussion he describes love, which the King James Version here calls “charity.”"
+   },
+   "keyVerse": "46:13:13",
+   "takeaway": {
+    "fr": "Sans l'amour, les dons les plus spectaculaires et même les plus grands sacrifices ne valent rien. Paul décrit l'amour par des actes concrets et affirme qu'il ne périt jamais ; il est le plus grand de ce qui demeure.",
+    "en": "Without love, the most impressive gifts and even the greatest sacrifices are worth nothing. Paul describes love through concrete actions and says it never fails; it is the greatest of the things that remain."
+   },
+   "questions": [
+    {
+     "id": "themes-love-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 1, à quoi ressemble celui qui parle les langues des hommes et des anges sans la charité ?",
+      "en": "According to verse 1, what is someone like who speaks with the tongues of men and angels but has no charity?"
+     },
+     "choices": {
+      "fr": [
+       "Un airain qui résonne",
+       "Un vase vide",
+       "Un arbre sans fruit",
+       "Une lampe éteinte"
+      ],
+      "en": [
+       "Sounding brass",
+       "An empty jar",
+       "A tree without fruit",
+       "A lamp gone out"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Je suis un airain qui résonne, ou une cymbale qui retentit » : un bruit sans contenu. L'airain est le bronze.",
+      "en": "“I am become as sounding brass, or a tinkling cymbal”: noise without substance."
+     },
+     "ref": "46:13:1"
+    },
+    {
+     "id": "themes-love-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 3, distribuer tous ses biens aux pauvres est utile même sans la charité.",
+      "en": "According to verse 3, giving all one's goods to feed the poor is profitable even without charity."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Quand je distribuerais tous mes biens pour la nourriture des pauvres… si je n'ai pas la charité, cela ne me sert de rien. » Même un geste généreux peut être vide d'amour.",
+      "en": "“Though I bestow all my goods to feed the poor… and have not charity, it profiteth me nothing.” Even a generous act can be empty of love."
+     },
+     "ref": "46:13:3"
+    },
+    {
+     "id": "themes-love-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Par quels mots le verset 4 commence-t-il à décrire la charité ?",
+      "en": "How does verse 4 begin its description of charity?"
+     },
+     "choices": {
+      "fr": [
+       "Elle est forte et sûre d'elle",
+       "Elle est prudente et réservée",
+       "Elle est patiente et pleine de bonté",
+       "Elle est juste et sévère"
+      ],
+      "en": [
+       "It is strong and self-assured",
+       "It is cautious and reserved",
+       "It suffers long and is kind",
+       "It is just and stern"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« La charité est patiente, elle est pleine de bonté. » Suit une liste de ce qu'elle ne fait pas : elle n'est pas envieuse, ne se vante pas, ne cherche pas son intérêt…",
+      "en": "“Charity suffereth long, and is kind.” A list follows of what it does not do: it does not envy, boast, or seek its own…"
+     },
+     "ref": "46:13:4"
+    },
+    {
+     "id": "themes-love-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, qu'est-ce qui ne périt jamais ?",
+      "en": "According to verse 8, what never fails?"
+     },
+     "choices": {
+      "fr": [
+       "La prophétie",
+       "Les langues",
+       "La connaissance",
+       "La charité"
+      ],
+      "en": [
+       "Prophecy",
+       "Tongues",
+       "Knowledge",
+       "Charity"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« La charité ne périt jamais. Les prophéties prendront fin, les langues cesseront, la connaissance disparaîtra. » Les dons sont temporaires, l'amour demeure.",
+      "en": "“Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away.”"
+     },
+     "ref": "46:13:8"
+    },
+    {
+     "id": "themes-love-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 12, comment verrons-nous « alors » ?",
+      "en": "According to verse 12, how shall we see “then”?"
+     },
+     "choices": {
+      "fr": [
+       "En songe",
+       "Face à face",
+       "Par des signes",
+       "À travers une nuée"
+      ],
+      "en": [
+       "In a dream",
+       "Face to face",
+       "Through signs",
+       "Through a cloud"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Aujourd'hui nous voyons au moyen d'un miroir, d'une manière obscure, mais alors nous verrons face à face. » Les miroirs antiques, en métal poli, donnaient une image imparfaite.",
+      "en": "“For now we see through a glass, darkly; but then face to face.” The “glass” is a mirror; ancient mirrors of polished metal gave only a dim image."
+     },
+     "ref": "46:13:12"
+    },
+    {
+     "id": "themes-love-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 13, quelles sont les trois choses qui demeurent ?",
+      "en": "According to verse 13, which three things abide?"
+     },
+     "choices": {
+      "fr": [
+       "La foi, la prophétie, la connaissance",
+       "La patience, la bonté, la vérité",
+       "La foi, l'espérance, la charité",
+       "La loi, la grâce, la paix"
+      ],
+      "en": [
+       "Faith, prophecy, knowledge",
+       "Patience, kindness, truth",
+       "Faith, hope, charity",
+       "Law, grace, peace"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Maintenant donc ces trois choses demeurent: la foi, l'espérance, la charité; mais la plus grande de ces choses, c'est la charité. »",
+      "en": "“And now abideth faith, hope, charity, these three; but the greatest of these is charity.”"
+     },
+     "ref": "46:13:13"
+    }
+   ]
+  },
+  {
+   "id": "themes-unity",
+   "title": {
+    "fr": "Un seul corps",
+    "en": "One body"
+   },
+   "passages": [
+    "46:12:12-27"
+   ],
+   "intro": {
+    "fr": "Dans la même lettre aux Corinthiens, Paul répond à des rivalités entre membres de l'Eglise. Il prend l'image du corps humain pour parler de l'unité et de la diversité.",
+    "en": "In the same letter to the Corinthians, Paul responds to rivalries among church members. He uses the image of the human body to speak about unity and diversity."
+   },
+   "keyVerse": "46:12:27",
+   "takeaway": {
+    "fr": "Comme un corps a des membres nombreux et différents, les croyants forment ensemble un seul corps, le corps de Christ. Aucun membre n'est inutile, et tous doivent prendre soin les uns des autres.",
+    "en": "Just as a body has many different members, believers together form one body, the body of Christ. No member is useless, and all should care for one another."
+   },
+   "questions": [
+    {
+     "id": "themes-unity-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle image Paul utilise-t-il pour parler de l'unité des croyants ?",
+      "en": "What image does Paul use to speak of believers' unity?"
+     },
+     "choices": {
+      "fr": [
+       "Un temple et ses pierres",
+       "Le corps et ses membres",
+       "Un troupeau et ses brebis",
+       "Une armée et ses soldats"
+      ],
+      "en": [
+       "A temple and its stones",
+       "The body and its members",
+       "A flock and its sheep",
+       "An army and its soldiers"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Comme le corps est un et a plusieurs membres… ainsi en est-il de Christ. » Le mot « membre » désigne ici une partie du corps (pied, main, œil…).",
+      "en": "“As the body is one, and hath many members… so also is Christ.” A “member” here is a part of the body: foot, hand, eye, and so on."
+     },
+     "ref": "46:12:12"
+    },
+    {
+     "id": "themes-unity-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 13, quels groupes sont réunis en un seul corps ?",
+      "en": "According to verse 13, which groups are brought together into one body?"
+     },
+     "choices": {
+      "fr": [
+       "Prêtres et Lévites, riches et pauvres",
+       "Hommes et femmes, jeunes et vieux",
+       "Bergers et pêcheurs, maîtres et disciples",
+       "Juifs et Grecs, esclaves et libres"
+      ],
+      "en": [
+       "Priests and Levites, rich and poor",
+       "Men and women, young and old",
+       "Shepherds and fishermen, teachers and disciples",
+       "Jews and Gentiles, bond and free"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Soit Juifs, soit Grecs, soit esclaves, soit libres » : les barrières religieuses et sociales de l'époque ne divisent plus ce corps.",
+      "en": "“Whether we be Jews or Gentiles, whether we be bond or free”: the religious and social barriers of the time no longer divide this body."
+     },
+     "ref": "46:12:13"
+    },
+    {
+     "id": "themes-unity-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Paul, le pied qui dit « je ne suis pas une main » cesse pour autant de faire partie du corps.",
+      "en": "According to Paul, the foot that says “I am not the hand” is therefore no longer part of the body."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Paul pose la question : « ne serait-il pas du corps pour cela? » Être différent n'exclut pas d'appartenir au corps.",
+      "en": "Paul asks: “is it therefore not of the body?” Being different does not mean not belonging."
+     },
+     "ref": "46:12:15"
+    },
+    {
+     "id": "themes-unity-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 18, qui a placé chaque membre dans le corps ?",
+      "en": "According to verse 18, who set each member in the body?"
+     },
+     "choices": {
+      "fr": [
+       "Les apôtres, selon leur rang",
+       "Dieu, comme il l'a voulu",
+       "Chaque membre, selon son choix",
+       "L'assemblée, par un vote"
+      ],
+      "en": [
+       "The apostles, by rank",
+       "God, as it pleased him",
+       "Each member, by choice",
+       "The assembly, by vote"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Dieu a placé chacun des membres dans le corps comme il a voulu. » La place de chacun n'est donc ni un hasard ni un mérite.",
+      "en": "“But now hath God set the members every one of them in the body, as it hath pleased him.” Each one's place is neither chance nor merit."
+     },
+     "ref": "46:12:18"
+    },
+    {
+     "id": "themes-unity-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Paul des membres qui paraissent les plus faibles ?",
+      "en": "What does Paul say about the members that seem weaker?"
+     },
+     "choices": {
+      "fr": [
+       "Ils peuvent être retirés",
+       "Ils doivent rester cachés",
+       "Ils sont nécessaires",
+       "Ils servent moins que les autres"
+      ],
+      "en": [
+       "They can be removed",
+       "They must stay hidden",
+       "They are necessary",
+       "They are less useful than the others"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Les membres du corps qui paraissent être les plus faibles sont nécessaires. » Paul ajoute que Dieu donne plus d'honneur à ce qui en manquait (v. 24).",
+      "en": "“Those members of the body, which seem to be more feeble, are necessary.” Paul adds that God gives more honour to the part that lacked it (v. 24)."
+     },
+     "ref": "46:12:22"
+    },
+    {
+     "id": "themes-unity-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 26, que se passe-t-il quand un membre souffre ?",
+      "en": "According to verse 26, what happens when one member suffers?"
+     },
+     "choices": {
+      "fr": [
+       "Tous les membres souffrent avec lui",
+       "Les autres membres s'en éloignent",
+       "La tête prend sa place",
+       "Il est mis à l'écart"
+      ],
+      "en": [
+       "All the members suffer with it",
+       "The other members move away from it",
+       "The head takes its place",
+       "It is set aside"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Si un membre souffre, tous les membres souffrent avec lui; si un membre est honoré, tous les membres se réjouissent avec lui. » C'est le sens du « soin les uns des autres » du verset 25.",
+      "en": "“Whether one member suffer, all the members suffer with it; or one member be honoured, all the members rejoice with it.” This is the mutual care of verse 25."
+     },
+     "ref": "46:12:26"
+    }
+   ]
+  },
+  {
+   "id": "themes-justice",
+   "title": {
+    "fr": "Le prochain et la justice",
+    "en": "Neighbour and justice"
+   },
+   "passages": [
+    "3:19:9-18",
+    "30:5:14-15",
+    "30:5:21-24"
+   ],
+   "intro": {
+    "fr": "Le Lévitique rassemble des lois données à Israël ; le chapitre 19 applique à la vie quotidienne l'appel à être saint. Plus tard, Amos, « l'un des bergers de Tekoa » (Amos 1:1), dénonce un culte célébré au milieu de l'injustice.",
+    "en": "Leviticus gathers laws given to Israel; chapter 19 applies the call to holiness to daily life. Later, Amos, one of “the herdmen of Tekoa” (Amos 1:1), denounces worship carried on in the midst of injustice."
+   },
+   "keyVerse": "3:19:18",
+   "takeaway": {
+    "fr": "Ces textes relient l'amour du prochain à des gestes concrets : laisser de quoi glaner au pauvre et à l'étranger, payer l'ouvrier sans tarder, juger sans favoritisme. Par Amos, Dieu déclare ne pas vouloir de fêtes religieuses sans droiture ni justice.",
+    "en": "These texts tie love of neighbour to concrete acts: leaving gleanings for the poor and the stranger, paying workers promptly, judging without favouritism. Through Amos, God says he wants no religious feasts without judgment and righteousness."
+   },
+   "questions": [
+    {
+     "id": "themes-justice-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Lévitique 19:9-10, pour qui faut-il laisser un coin du champ et les grappes restées dans la vigne ?",
+      "en": "According to Leviticus 19:9–10, who are the corners of the field and the leftover grapes to be left for?"
+     },
+     "choices": {
+      "fr": [
+       "Pour les prêtres et les Lévites",
+       "Pour le pauvre et l'étranger",
+       "Pour le roi et ses serviteurs",
+       "Pour les animaux des champs"
+      ],
+      "en": [
+       "The priests and Levites",
+       "The poor and the stranger",
+       "The king and his servants",
+       "The animals of the field"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Tu abandonneras cela au pauvre et à l'étranger. Je suis l'Eternel, votre Dieu. » Glaner, c'est ramasser ce qui reste après la récolte : une aide prévue par la loi pour ceux qui n'avaient pas de terre.",
+      "en": "“Thou shalt leave them for the poor and stranger: I am the Lord your God.” Gleaning means gathering what is left after harvest, a provision in the law for those who had no land."
+     },
+     "ref": "3:19:10"
+    },
+    {
+     "id": "themes-justice-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Lévitique 19:13 du salaire d'un ouvrier ?",
+      "en": "What does Leviticus 19:13 say about a hired worker's wages?"
+     },
+     "choices": {
+      "fr": [
+       "Il doit être payé à la fin de l'année",
+       "Il peut être réduit si la récolte est mauvaise",
+       "Il doit être versé aux prêtres",
+       "Il ne doit pas être retenu jusqu'au lendemain"
+      ],
+      "en": [
+       "They must be paid at the end of the year",
+       "They can be cut if the harvest is poor",
+       "They must be given to the priests",
+       "They must not be kept overnight until morning"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Tu ne retiendras point jusqu'au lendemain le salaire du mercenaire. » Le mercenaire est ici l'ouvrier payé à la journée, qui en avait besoin pour vivre.",
+      "en": "“The wages of him that is hired shall not abide with thee all night until the morning.” A day labourer depended on that day's pay to live."
+     },
+     "ref": "3:19:13"
+    },
+    {
+     "id": "themes-justice-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Lévitique 19:15 demande au juge de favoriser le pauvre dans ses jugements.",
+      "en": "Leviticus 19:15 tells judges to favour the poor in their rulings."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Le texte interdit tout favoritisme : « tu n'auras point égard à la personne du pauvre, et tu ne favoriseras point la personne du grand, mais tu jugeras ton prochain selon la justice ».",
+      "en": "The text forbids favouritism either way: “thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour.”"
+     },
+     "ref": "3:19:15"
+    },
+    {
+     "id": "themes-justice-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel commandement se trouve au verset 18 de Lévitique 19 ?",
+      "en": "Which commandment is found in Leviticus 19:18?"
+     },
+     "choices": {
+      "fr": [
+       "Honore ton père et ta mère",
+       "Tu ne convoiteras point",
+       "Tu aimeras ton prochain comme toi-même",
+       "Souviens-toi du jour du repos"
+      ],
+      "en": [
+       "Honour your father and mother",
+       "You shall not covet",
+       "Love your neighbour as yourself",
+       "Remember the day of rest"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Tu ne te vengeras point… Tu aimeras ton prochain comme toi-même. Je suis l'Eternel. » Jésus citera ce commandement comme le deuxième plus grand (Marc 12:31).",
+      "en": "“Thou shalt not avenge… but thou shalt love thy neighbour as thyself: I am the Lord.” Jesus would later quote it as the second greatest commandment (Mark 12:31)."
+     },
+     "ref": "3:19:18"
+    },
+    {
+     "id": "themes-justice-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Amos 5:15, où faut-il faire régner la justice ?",
+      "en": "According to Amos 5:15, where must judgment be established?"
+     },
+     "choices": {
+      "fr": [
+       "Au temple",
+       "Au palais du roi",
+       "À la porte",
+       "Sur la montagne"
+      ],
+      "en": [
+       "In the temple",
+       "In the king's palace",
+       "In the gate",
+       "On the mountain"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Haïssez le mal et aimez le bien, Faites régner à la porte la justice. » La porte de la ville était le lieu où les anciens rendaient la justice.",
+      "en": "“Hate the evil, and love the good, and establish judgment in the gate.” The city gate was where the elders heard legal cases."
+     },
+     "ref": "30:5:15"
+    },
+    {
+     "id": "themes-justice-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Après avoir rejeté les fêtes et les offrandes, à quoi Dieu veut-il que la justice ressemble (Amos 5:24) ?",
+      "en": "After rejecting feasts and offerings, what does God want righteousness to be like (Amos 5:24)?"
+     },
+     "choices": {
+      "fr": [
+       "À un torrent qui ne tarit jamais",
+       "À une tour solide",
+       "À une lampe allumée",
+       "À une pluie de printemps"
+      ],
+      "en": [
+       "A mighty stream",
+       "A strong tower",
+       "A burning lamp",
+       "A spring rain"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Mais que la droiture soit comme un courant d'eau, Et la justice comme un torrent qui jamais ne tarit. » Dieu venait de dire : « Je hais, je méprise vos fêtes » (v. 21).",
+      "en": "“But let judgment run down as waters, and righteousness as a mighty stream.” God had just said: “I hate, I despise your feast days” (v. 21)."
+     },
+     "ref": "30:5:24"
+    }
+   ]
+  },
+  {
+   "id": "themes-money",
+   "title": {
+    "fr": "L'argent et le contentement",
+    "en": "Money and contentment"
+   },
+   "passages": [
+    "54:6:6-19"
+   ],
+   "intro": {
+    "fr": "Paul écrit à Timothée, son « enfant légitime en la foi » (1:2), qu'il a laissé à Ephèse pour y guider l'Eglise. Vers la fin de la lettre, il parle de l'argent, de la richesse et du contentement.",
+    "en": "Paul writes to Timothy, his “own son in the faith” (1:2), whom he had left at Ephesus to guide the church. Near the end of the letter he speaks about money, wealth and contentment."
+   },
+   "keyVerse": "54:6:6",
+   "takeaway": {
+    "fr": "Paul met en garde contre le désir de s'enrichir et l'amour de l'argent, et invite au contentement. Aux riches, il demande de mettre leur espérance en Dieu et d'être riches en bonnes œuvres et en générosité.",
+    "en": "Paul warns against the desire to get rich and the love of money, and calls for contentment. He tells the rich to put their hope in God and to be rich in good works and generosity."
+   },
+   "questions": [
+    {
+     "id": "themes-money-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 6, qu'est-ce qui est une grande source de gain ?",
+      "en": "According to verse 6, what is great gain?"
+     },
+     "choices": {
+      "fr": [
+       "La richesse bien gérée",
+       "Le travail sans relâche",
+       "La piété avec le contentement",
+       "La sagesse des anciens"
+      ],
+      "en": [
+       "Well-managed wealth",
+       "Tireless work",
+       "Godliness with contentment",
+       "The wisdom of the elders"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "C'est « une grande source de gain que la piété avec le contentement ». Paul reprend le mot « gain » pour en changer le sens : le vrai profit n'est pas financier.",
+      "en": "“Godliness with contentment is great gain.” Paul takes the word “gain” and changes its meaning: the real profit is not financial."
+     },
+     "ref": "54:6:6"
+    },
+    {
+     "id": "themes-money-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, de quoi faut-il se contenter ?",
+      "en": "According to verse 8, what should we be content with?"
+     },
+     "choices": {
+      "fr": [
+       "De la nourriture et du vêtement",
+       "D'une maison et d'un champ",
+       "D'une réserve d'or et d'argent",
+       "D'un bon salaire"
+      ],
+      "en": [
+       "Food and clothing",
+       "A house and a field",
+       "A store of gold and silver",
+       "A good salary"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Si donc nous avons la nourriture et le vêtement, cela nous suffira. » Le verset 7 en donne la raison : nous n'avons rien apporté dans le monde et nous n'en pouvons rien emporter.",
+      "en": "“Having food and raiment let us be therewith content.” Verse 7 gives the reason: we brought nothing into this world and can carry nothing out."
+     },
+     "ref": "54:6:8"
+    },
+    {
+     "id": "themes-money-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 10, c'est l'argent lui-même qui est présenté comme la racine des maux.",
+      "en": "According to verse 10, money itself is presented as the root of evil."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Le texte dit : « l'amour de l'argent est une racine de tous les maux ». Ce n'est pas l'argent qui est visé, mais l'attachement à l'argent, qui en a égaré certains loin de la foi.",
+      "en": "The text says: “the love of money is the root of all evil.” It is not money as such but the love of it, which has led some astray from the faith."
+     },
+     "ref": "54:6:10"
+    },
+    {
+     "id": "themes-money-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 17, que faut-il recommander aux riches ?",
+      "en": "According to verse 17, what should the rich be told?"
+     },
+     "choices": {
+      "fr": [
+       "De vendre tous leurs biens sans exception",
+       "De cacher leurs richesses aux autres",
+       "De donner tout leur argent au temple",
+       "De mettre leur espérance en Dieu plutôt que dans les richesses"
+      ],
+      "en": [
+       "To sell everything they own",
+       "To hide their wealth from others",
+       "To give all their money to the temple",
+       "To trust in God rather than in riches"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Ils ne doivent pas « mettre leur espérance dans des richesses incertaines, mais de la mettre en Dieu, qui nous donne avec abondance toutes choses pour que nous en jouissions ».",
+      "en": "They are not to “trust in uncertain riches, but in the living God, who giveth us richly all things to enjoy.”"
+     },
+     "ref": "54:6:17"
+    },
+    {
+     "id": "themes-money-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 18, en quoi les riches sont-ils invités à être riches ?",
+      "en": "According to verse 18, what are the rich called to be rich in?"
+     },
+     "choices": {
+      "fr": [
+       "En sagesse",
+       "En bonnes œuvres",
+       "En terres",
+       "En connaissance"
+      ],
+      "en": [
+       "Wisdom",
+       "Good works",
+       "Land",
+       "Knowledge"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Paul leur demande « de faire du bien, d'être riches en bonnes oeuvres, d'avoir de la libéralité, de la générosité ». Le verset 19 ajoute qu'ainsi ils s'amassent un trésor pour l'avenir.",
+      "en": "They are to “do good, … be rich in good works, ready to distribute, willing to communicate” (that is, to share). Verse 19 adds that this lays up a good foundation for the time to come."
+     },
+     "ref": "54:6:18"
+    }
+   ]
+  },
+  {
+   "id": "themes-work",
+   "title": {
+    "fr": "Le travail",
+    "en": "Work"
+   },
+   "passages": [
+    "52:4:11-12",
+    "53:3:6-13"
+   ],
+   "intro": {
+    "fr": "Paul, Silvain et Timothée écrivent deux lettres à l'Eglise de Thessalonique, en Macédoine. Dans la seconde, Paul apprend que certains membres ne travaillent plus.",
+    "en": "Paul, Silvanus and Timotheus write two letters to the church of the Thessalonians, in Macedonia. In the second, Paul has heard that some members are not working at all."
+   },
+   "keyVerse": "53:3:12",
+   "takeaway": {
+    "fr": "Paul invite à travailler de ses mains et paisiblement pour gagner son pain et n'être à charge de personne. Il donne son propre exemple et encourage à ne pas se lasser de faire le bien.",
+    "en": "Paul urges believers to work quietly with their own hands, to earn their bread and not be a burden to anyone. He points to his own example and encourages them not to grow weary in doing good."
+   },
+   "questions": [
+    {
+     "id": "themes-work-1",
+     "kind": "choice",
+     "q": {
+      "fr": "En 1 Thessaloniciens 4:11, à quoi Paul invite-t-il les croyants ?",
+      "en": "In 1 Thessalonians 4:11, what does Paul urge believers to do?"
+     },
+     "choices": {
+      "fr": [
+       "À quitter leur métier pour prêcher",
+       "À vivre tranquilles et travailler de leurs mains",
+       "À mettre tous leurs biens en commun",
+       "À s'occuper des affaires de la ville"
+      ],
+      "en": [
+       "Leave their trades to preach",
+       "Live quietly and work with their own hands",
+       "Hold all their goods in common",
+       "Take charge of the city's affairs"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Paul les exhorte « à vivre tranquilles, à vous occuper de vos propres affaires, et à travailler de vos mains ». Le verset 12 ajoute : afin de bien se conduire envers ceux du dehors et de n'avoir besoin de personne.",
+      "en": "Paul urges them to “study to be quiet, and to do your own business, and to work with your own hands.” Verse 12 adds: so as to walk honestly toward outsiders and lack nothing."
+     },
+     "ref": "52:4:11"
+    },
+    {
+     "id": "themes-work-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Paul et ses compagnons ont-ils travaillé nuit et jour à Thessalonique ?",
+      "en": "Why did Paul and his companions work night and day in Thessalonica?"
+     },
+     "choices": {
+      "fr": [
+       "Pour payer une amende",
+       "Pour acheter un lieu de réunion",
+       "Pour envoyer de l'argent à Jérusalem",
+       "Pour n'être à charge à aucun d'eux"
+      ],
+      "en": [
+       "To pay a fine",
+       "To buy a meeting place",
+       "To send money to Jerusalem",
+       "So as not to be a burden to any of them"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Nous n'avons mangé gratuitement le pain de personne; mais… nous avons été nuit et jour à l'oeuvre, pour n'être à charge à aucun de vous. »",
+      "en": "“Neither did we eat any man's bread for nought; but wrought with labour and travail night and day, that we might not be chargeable to any of you.”"
+     },
+     "ref": "53:3:8"
+    },
+    {
+     "id": "themes-work-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Paul affirme qu'il n'avait aucun droit d'être soutenu par les Thessaloniciens.",
+      "en": "Paul says he had no right to be supported by the Thessalonians."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Ce n'est pas que nous n'en eussions le droit, mais nous avons voulu vous donner en nous-mêmes un modèle à imiter. » Il a renoncé à un droit pour donner l'exemple.",
+      "en": "“Not because we have not power, but to make ourselves an ensample unto you to follow us.” “Power” here means the right; he gave it up to set an example."
+     },
+     "ref": "53:3:9"
+    },
+    {
+     "id": "themes-work-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Complétez la règle donnée par Paul : « Si quelqu'un ne veut pas travailler… »",
+      "en": "Complete Paul's rule: “If any would not work…”"
+     },
+     "choices": {
+      "fr": [
+       "…qu'il quitte la ville",
+       "…qu'il ne mange pas non plus",
+       "…qu'il paie une amende",
+       "…qu'il soit privé de parole"
+      ],
+      "en": [
+       "…let him leave the city",
+       "…neither should he eat",
+       "…let him pay a fine",
+       "…let him be silenced"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Si quelqu'un ne veut pas travailler, qu'il ne mange pas non plus. » La règle vise celui qui ne veut pas travailler, non celui qui ne le peut pas.",
+      "en": "“If any would not work, neither should he eat.” The rule concerns those unwilling to work, not those unable to."
+     },
+     "ref": "53:3:10"
+    },
+    {
+     "id": "themes-work-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 11, que faisaient certains Thessaloniciens ?",
+      "en": "According to verse 11, what were some of the Thessalonians doing?"
+     },
+     "choices": {
+      "fr": [
+       "Ils ne travaillaient pas et s'occupaient de futilités",
+       "Ils travaillaient trop et négligeaient la prière",
+       "Ils exigeaient des salaires trop élevés",
+       "Ils refusaient de partager leur pain"
+      ],
+      "en": [
+       "They did no work and were busybodies",
+       "They worked too much and neglected prayer",
+       "They demanded excessive wages",
+       "They refused to share their bread"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Paul apprend qu'il y en a « qui ne travaillent pas, mais qui s'occupent de futilités ». Il les exhorte à « manger leur propre pain, en travaillant paisiblement » (v. 12).",
+      "en": "Paul hears of some “working not at all, but are busybodies.” He exhorts them “that with quietness they work, and eat their own bread” (v. 12)."
+     },
+     "ref": "53:3:11"
+    }
+   ]
+  },
+  {
+   "id": "themes-words",
+   "title": {
+    "fr": "Le pouvoir des paroles",
+    "en": "The power of words"
+   },
+   "passages": [
+    "59:3:1-12"
+   ],
+   "intro": {
+    "fr": "Jacques écrit « aux douze tribus qui sont dans la dispersion » (1:1), c'est-à-dire à des croyants vivant hors de leur pays. Sa lettre est très pratique ; ce passage porte sur la langue, c'est-à-dire nos paroles.",
+    "en": "James writes “to the twelve tribes which are scattered abroad” (1:1), that is, to believers living away from their homeland. His letter is very practical; this passage is about the tongue, meaning our words."
+   },
+   "keyVerse": "59:3:10",
+   "takeaway": {
+    "fr": "Jacques montre que la langue, petit membre, a un pouvoir immense, en bien comme en mal, et que personne ne peut la dompter entièrement. Il juge incohérent de bénir Dieu et de maudire les hommes faits à son image avec la même bouche.",
+    "en": "James shows that the tongue, though small, has enormous power for good or ill, and that no one can fully tame it. He finds it inconsistent to bless God and curse people made in his likeness with the same mouth."
+   },
+   "questions": [
+    {
+     "id": "themes-words-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 1, pourquoi ne faut-il pas que beaucoup se mettent à enseigner ?",
+      "en": "According to verse 1, why should not many become teachers (“masters”)?"
+     },
+     "choices": {
+      "fr": [
+       "Parce qu'ils seront jugés plus sévèrement",
+       "Parce qu'il n'y a pas assez d'élèves",
+       "Parce que l'enseignement est réservé aux anciens",
+       "Parce qu'ils n'en tireront aucun salaire"
+      ],
+      "en": [
+       "Because they will receive the greater condemnation",
+       "Because there are not enough students",
+       "Because teaching is reserved for elders",
+       "Because they will earn no wages for it"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Vous savez que nous serons jugés plus sévèrement. » Celui qui enseigne parle beaucoup, et ses paroles ont du poids.",
+      "en": "“Knowing that we shall receive the greater condemnation.” Teachers speak a great deal, and their words carry weight."
+     },
+     "ref": "59:3:1"
+    },
+    {
+     "id": "themes-words-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelles images Jacques utilise-t-il pour montrer qu'une petite chose peut diriger une grande ?",
+      "en": "What images does James use to show that something small can steer something large?"
+     },
+     "choices": {
+      "fr": [
+       "La graine et l'arbre",
+       "La clé et la porte",
+       "Le mors du cheval et le gouvernail du navire",
+       "La lampe et la maison"
+      ],
+      "en": [
+       "The seed and the tree",
+       "The key and the door",
+       "The horse's bit and the ship's helm",
+       "The lamp and the house"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le mors permet de diriger le cheval tout entier, et un « très petit gouvernail » dirige de grands navires. De même, la langue est un petit membre aux grands effets (v. 5).",
+      "en": "Bits in horses' mouths “turn about their whole body,” and “a very small helm” steers great ships. So the tongue is a little member with great effects (v. 5)."
+     },
+     "ref": "59:3:4"
+    },
+    {
+     "id": "themes-words-3",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi Jacques compare-t-il la langue au verset 6 ?",
+      "en": "What does James compare the tongue to in verse 6?"
+     },
+     "choices": {
+      "fr": [
+       "À une épée",
+       "À un feu",
+       "À un filet",
+       "À une flèche"
+      ],
+      "en": [
+       "A sword",
+       "A fire",
+       "A net",
+       "An arrow"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« La langue aussi est un feu. » Au verset 5, il rappelait qu'un petit feu peut embraser une grande forêt.",
+      "en": "“And the tongue is a fire.” In verse 5 he had noted “how great a matter a little fire kindleth!”"
+     },
+     "ref": "59:3:6"
+    },
+    {
+     "id": "themes-words-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Jacques, l'homme a dompté toutes sortes d'animaux, mais aucun homme ne peut dompter la langue.",
+      "en": "According to James, mankind has tamed every kind of animal, but no one can tame the tongue."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Bêtes, oiseaux, reptiles et animaux marins ont été domptés (v. 7), « mais la langue, aucun homme ne peut la dompter; c'est un mal qu'on ne peut réprimer ».",
+      "en": "Beasts, birds, serpents and sea creatures have been tamed (v. 7), “but the tongue can no man tame; it is an unruly evil, full of deadly poison.”"
+     },
+     "ref": "59:3:8"
+    },
+    {
+     "id": "themes-words-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce que Jacques juge inacceptable aux versets 9 et 10 ?",
+      "en": "What does James say ought not to be, in verses 9 and 10?"
+     },
+     "choices": {
+      "fr": [
+       "Que l'on parle trop longtemps",
+       "Que les enseignants se taisent",
+       "Que l'on prie à voix haute",
+       "Que la même bouche bénisse Dieu et maudisse les hommes"
+      ],
+      "en": [
+       "That people talk too long",
+       "That teachers keep silent",
+       "That people pray aloud",
+       "That the same mouth blesses God and curses people"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« De la même bouche sortent la bénédiction et la malédiction. Il ne faut pas, mes frères, qu'il en soit ainsi. » Maudire les hommes, c'est maudire ceux qui sont « faits à l'image de Dieu » (v. 9).",
+      "en": "“Out of the same mouth proceedeth blessing and cursing. My brethren, these things ought not so to be.” Those cursed are people “made after the similitude of God” (v. 9)."
+     },
+     "ref": "59:3:10"
+    },
+    {
+     "id": "themes-words-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Par quelles images Jacques conclut-il, aux versets 11 et 12 ?",
+      "en": "What images does James close with in verses 11 and 12?"
+     },
+     "choices": {
+      "fr": [
+       "Une source, un figuier et une vigne",
+       "Une tour, une maison et un mur",
+       "Un berger, des brebis et un loup",
+       "Un semeur, un champ et des épines"
+      ],
+      "en": [
+       "A fountain, a fig tree and a vine",
+       "A tower, a house and a wall",
+       "A shepherd, sheep and a wolf",
+       "A sower, a field and thorns"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Une source ne donne pas à la fois de l'eau douce et de l'eau amère ; un figuier ne produit pas d'olives, ni une vigne des figues. Ce qui sort de la bouche devrait être cohérent.",
+      "en": "A fountain does not send forth both sweet and bitter water; a fig tree does not bear olives, nor a vine figs. What comes out of the mouth should be consistent."
+     },
+     "ref": "59:3:12"
+    }
+   ]
+  },
+  {
+   "id": "themes-peace",
+   "title": {
+    "fr": "La paix plutôt que l'inquiétude",
+    "en": "Peace instead of worry"
+   },
+   "passages": [
+    "50:4:4-13"
+   ],
+   "intro": {
+    "fr": "Paul écrit aux chrétiens de Philippes alors qu'il est « dans les liens », c'est-à-dire prisonnier (1:13). Il les remercie aussi de l'aide qu'ils lui ont envoyée.",
+    "en": "Paul writes to the believers at Philippi while in “bonds,” that is, in prison (1:13). He also thanks them for the help they had sent him."
+   },
+   "keyVerse": "50:4:6",
+   "takeaway": {
+    "fr": "Au lieu de s'inquiéter, Paul invite à présenter ses besoins à Dieu dans la prière, avec reconnaissance, et promet que la paix de Dieu gardera les cœurs et les pensées. Lui-même dit avoir appris à être content dans le manque comme dans l'abondance.",
+    "en": "Instead of worrying, Paul urges his readers to bring their requests to God in prayer with thanksgiving, and promises that God's peace will keep their hearts and minds. He himself says he has learned to be content in need and in plenty."
+   },
+   "questions": [
+    {
+     "id": "themes-peace-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 6, que faire au lieu de s'inquiéter ?",
+      "en": "According to verse 6, what should we do instead of worrying?"
+     },
+     "choices": {
+      "fr": [
+       "Chercher conseil auprès des sages",
+       "Travailler davantage pour être en sécurité",
+       "Présenter ses besoins à Dieu en priant et en rendant grâces",
+       "Se retirer seul dans le silence"
+      ],
+      "en": [
+       "Seek advice from the wise",
+       "Work harder to feel secure",
+       "Bring one's requests to God in prayer with thanksgiving",
+       "Withdraw alone into silence"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Ne vous inquiétez de rien; mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, avec des actions de grâces. »",
+      "en": "“Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.” “Careful” here means anxious."
+     },
+     "ref": "50:4:6"
+    },
+    {
+     "id": "themes-peace-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, que fera la paix de Dieu ?",
+      "en": "According to verse 7, what will the peace of God do?"
+     },
+     "choices": {
+      "fr": [
+       "Elle gardera les cœurs et les pensées",
+       "Elle supprimera toutes les épreuves",
+       "Elle apportera la richesse",
+       "Elle fera taire les ennemis"
+      ],
+      "en": [
+       "Keep hearts and minds",
+       "Remove every trial",
+       "Bring wealth",
+       "Silence one's enemies"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« La paix de Dieu, qui surpasse toute intelligence, gardera vos coeurs et vos pensées en Jésus-Christ. » Paul ne promet pas la fin des difficultés, mais une paix qui protège.",
+      "en": "“The peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.” Paul does not promise an end to hardship but a peace that guards."
+     },
+     "ref": "50:4:7"
+    },
+    {
+     "id": "themes-peace-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, à quoi les Philippiens doivent-ils penser ?",
+      "en": "According to verse 8, what should the Philippians think on?"
+     },
+     "choices": {
+      "fr": [
+       "Aux fautes des autres",
+       "À leurs soucis du lendemain",
+       "Aux richesses à venir",
+       "À tout ce qui est vrai, juste, pur et aimable"
+      ],
+      "en": [
+       "Other people's faults",
+       "Their worries about tomorrow",
+       "Riches to come",
+       "Whatever is true, just, pure and lovely"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Que tout ce qui est vrai, tout ce qui est honorable, tout ce qui est juste, tout ce qui est pur, tout ce qui est aimable… soit l'objet de vos pensées. »",
+      "en": "“Whatsoever things are true, … honest, … just, … pure, … lovely, … of good report; if there be any virtue, and if there be any praise, think on these things.”"
+     },
+     "ref": "50:4:8"
+    },
+    {
+     "id": "themes-peace-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Paul dit avoir appris à être content quelle que soit sa situation.",
+      "en": "Paul says he has learned to be content whatever his situation."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« J'ai appris à être content de l'état où je me trouve. » Le mot « appris » montre que ce contentement n'était pas naturel, mais acquis.",
+      "en": "“I have learned, in whatsoever state I am, therewith to be content.” The word “learned” shows that this contentment was acquired, not automatic."
+     },
+     "ref": "50:4:11"
+    },
+    {
+     "id": "themes-peace-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 12, qu'est-ce que Paul sait faire ?",
+      "en": "According to verse 12, what does Paul know how to do?"
+     },
+     "choices": {
+      "fr": [
+       "Ne jamais manquer de rien",
+       "Vivre aussi bien dans la disette que dans l'abondance",
+       "Éviter toute souffrance",
+       "Mettre de côté des réserves"
+      ],
+      "en": [
+       "Never lack anything",
+       "Live in need as well as in plenty",
+       "Avoid all suffering",
+       "Put savings aside"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Je sais vivre dans l'humiliation, et je sais vivre dans l'abondance… à être rassasié et à avoir faim. » Au verset 13, il attribue cette force à « celui qui me fortifie ».",
+      "en": "“I know both how to be abased, and I know how to abound… both to be full and to be hungry.” In verse 13 he credits this strength to Christ, “which strengtheneth me.”"
+     },
+     "ref": "50:4:12"
+    }
+   ]
+  },
+  {
+   "id": "themes-scripture",
+   "title": {
+    "fr": "La parole de Dieu",
+    "en": "God's word"
+   },
+   "passages": [
+    "19:119:97-112",
+    "55:3:14-17"
+   ],
+   "intro": {
+    "fr": "Le Psaume 119, le plus long chapitre de la Bible, est un poème alphabétique : chaque strophe de huit versets commence par une lettre hébraïque, et tout le psaume célèbre la loi de Dieu. Dans sa deuxième lettre à Timothée, Paul rappelle à son disciple la valeur des Ecritures.",
+    "en": "Psalm 119, the longest chapter in the Bible, is an alphabetic poem: each eight-verse stanza begins with a Hebrew letter, and the whole psalm celebrates God's law. In his second letter to Timothy, Paul reminds his disciple of the value of the Scriptures."
+   },
+   "keyVerse": "19:119:105",
+   "takeaway": {
+    "fr": "Le psalmiste aime la loi de Dieu, la médite et y trouve sagesse, douceur et direction, même au milieu des pièges. Paul affirme que toute Ecriture est inspirée de Dieu et utile pour enseigner et former à toute bonne œuvre.",
+    "en": "The psalmist loves God's law, meditates on it and finds in it wisdom, sweetness and guidance, even amid snares. Paul says that all Scripture is given by inspiration of God and is profitable for teaching and equipping for every good work."
+   },
+   "questions": [
+    {
+     "id": "themes-scripture-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le Psaume 119:98-100, pourquoi le psalmiste est-il plus sage que ses ennemis, ses maîtres et les vieillards ?",
+      "en": "According to Psalm 119:98–100, why is the psalmist wiser than his enemies, his teachers and the ancients?"
+     },
+     "choices": {
+      "fr": [
+       "Parce qu'il médite et observe les commandements de Dieu",
+       "Parce qu'il a étudié plus longtemps qu'eux",
+       "Parce qu'il a beaucoup voyagé",
+       "Parce qu'il a reçu une vision"
+      ],
+      "en": [
+       "Because he meditates on and keeps God's commandments",
+       "Because he has studied longer than they have",
+       "Because he has travelled widely",
+       "Because he received a vision"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Tes commandements me rendent plus sage que mes ennemis… tes préceptes sont l'objet de ma méditation… j'observe tes ordonnances. » Sa sagesse vient de la parole méditée et pratiquée.",
+      "en": "“Thou through thy commandments hast made me wiser than mine enemies… thy testimonies are my meditation… I keep thy precepts.” His wisdom comes from the word, pondered and practised."
+     },
+     "ref": "19:119:99"
+    },
+    {
+     "id": "themes-scripture-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 103, les paroles de Dieu sont plus douces que quoi ?",
+      "en": "According to verse 103, God's words are sweeter than what?"
+     },
+     "choices": {
+      "fr": [
+       "Le lait",
+       "Le vin",
+       "Le pain",
+       "Le miel"
+      ],
+      "en": [
+       "Milk",
+       "Wine",
+       "Bread",
+       "Honey"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Que tes paroles sont douces à mon palais, Plus que le miel à ma bouche! » Le psalmiste parle de la parole comme d'un plaisir, pas d'une contrainte.",
+      "en": "“How sweet are thy words unto my taste! yea, sweeter than honey to my mouth!” The psalmist speaks of the word as a delight, not a burden."
+     },
+     "ref": "19:119:103"
+    },
+    {
+     "id": "themes-scripture-3",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi le verset 105 compare-t-il la parole de Dieu ?",
+      "en": "What does verse 105 compare God's word to?"
+     },
+     "choices": {
+      "fr": [
+       "À un bouclier",
+       "À une lampe à ses pieds",
+       "À un rocher",
+       "À une source d'eau"
+      ],
+      "en": [
+       "A shield",
+       "A lamp unto his feet",
+       "A rock",
+       "A spring of water"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Ta parole est une lampe à mes pieds, Et une lumière sur mon sentier. » La lampe éclaire le prochain pas plutôt que tout le chemin.",
+      "en": "“Thy word is a lamp unto my feet, and a light unto my path.” A lamp lights the next step rather than the whole road."
+     },
+     "ref": "19:119:105"
+    },
+    {
+     "id": "themes-scripture-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le psalmiste, les pièges des méchants l'ont fait s'égarer loin des ordonnances de Dieu.",
+      "en": "According to the psalmist, the snares of the wicked led him to stray from God's precepts."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Des méchants me tendent des pièges, Et je ne m'égare pas loin de tes ordonnances. » Malgré le danger, il reste attaché à la parole.",
+      "en": "“The wicked have laid a snare for me: yet I erred not from thy precepts.” Despite the danger, he holds to the word."
+     },
+     "ref": "19:119:110"
+    },
+    {
+     "id": "themes-scripture-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 2 Timothée 3:15, depuis quand Timothée connaît-il les saintes Ecritures ?",
+      "en": "According to 2 Timothy 3:15, since when has Timothy known the holy scriptures?"
+     },
+     "choices": {
+      "fr": [
+       "Depuis sa rencontre avec Paul",
+       "Depuis son arrivée à Ephèse",
+       "Depuis son enfance",
+       "Depuis qu'il enseigne"
+      ],
+      "en": [
+       "Since meeting Paul",
+       "Since arriving at Ephesus",
+       "Since childhood",
+       "Since he began teaching"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Dès ton enfance, tu connais les saintes lettres, qui peuvent te rendre sage à salut par la foi en Jésus-Christ. » Les « saintes lettres » désignent les Ecritures.",
+      "en": "“From a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus.”"
+     },
+     "ref": "55:3:15"
+    },
+    {
+     "id": "themes-scripture-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Paul décrit-il « toute Ecriture » au verset 16 ?",
+      "en": "How does Paul describe “all scripture” in verse 16?"
+     },
+     "choices": {
+      "fr": [
+       "Écrite par Moïse",
+       "Réservée aux prêtres",
+       "Difficile à comprendre",
+       "Inspirée de Dieu"
+      ],
+      "en": [
+       "Written by Moses",
+       "Reserved for priests",
+       "Hard to understand",
+       "Given by inspiration of God"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Toute Ecriture est inspirée de Dieu, et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice », afin que l'homme de Dieu soit « propre à toute bonne oeuvre » (v. 17).",
+      "en": "“All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness,” so that the man of God may be “throughly furnished unto all good works” (v. 17)."
+     },
+     "ref": "55:3:16"
+    }
+   ]
+  },
+  {
+   "id": "themes-hope",
+   "title": {
+    "fr": "L'espérance de la résurrection",
+    "en": "The hope of resurrection"
+   },
+   "passages": [
+    "46:15:12-22",
+    "46:15:50-58"
+   ],
+   "intro": {
+    "fr": "Certains chrétiens de Corinthe affirmaient qu'il n'y a pas de résurrection des morts. Paul leur répond en partant de la résurrection du Christ, puis décrit la transformation à venir.",
+    "en": "Some believers in Corinth were saying there is no resurrection of the dead. Paul answers them by starting from Christ's resurrection, then describes the change that is to come."
+   },
+   "keyVerse": "46:15:20",
+   "takeaway": {
+    "fr": "Pour Paul, tout repose sur la résurrection du Christ : sans elle, la foi serait vaine. Le Christ ressuscité est les prémices de ceux qui sont morts, et Paul annonce que la mort sera engloutie dans la victoire.",
+    "en": "For Paul, everything rests on Christ's resurrection: without it, faith would be vain. The risen Christ is the firstfruits of those who have died, and Paul declares that death will be swallowed up in victory."
+   },
+   "questions": [
+    {
+     "id": "themes-hope-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 12, que disaient certains à Corinthe ?",
+      "en": "According to verse 12, what were some in Corinth saying?"
+     },
+     "choices": {
+      "fr": [
+       "Que Christ n'était jamais mort",
+       "Qu'il n'y a point de résurrection des morts",
+       "Que Paul n'était pas apôtre",
+       "Que la loi de Moïse était abolie"
+      ],
+      "en": [
+       "That Christ had never died",
+       "That there is no resurrection of the dead",
+       "That Paul was not an apostle",
+       "That the law of Moses was abolished"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Paul s'étonne : « comment quelques-uns parmi vous disent-ils qu'il n'y a point de résurrection des morts? » Tout le chapitre répond à cette affirmation.",
+      "en": "Paul asks: “how say some among you that there is no resurrection of the dead?” The whole chapter answers this claim."
+     },
+     "ref": "46:15:12"
+    },
+    {
+     "id": "themes-hope-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon les versets 14 et 17, que serait la foi si Christ n'était pas ressuscité ?",
+      "en": "According to verses 14 and 17, what would faith be if Christ were not raised?"
+     },
+     "choices": {
+      "fr": [
+       "Vaine",
+       "Incomplète",
+       "Affaiblie",
+       "Cachée"
+      ],
+      "en": [
+       "Vain",
+       "Incomplete",
+       "Weakened",
+       "Hidden"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Si Christ n'est pas ressuscité, votre foi est vaine, vous êtes encore dans vos péchés. » Paul ne présente pas la résurrection comme un détail, mais comme le fondement.",
+      "en": "“If Christ be not raised, your faith is vain; ye are yet in your sins.” Paul treats the resurrection not as a detail but as the foundation."
+     },
+     "ref": "46:15:17"
+    },
+    {
+     "id": "themes-hope-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Paul désigne-t-il le Christ ressuscité au verset 20 ?",
+      "en": "What does Paul call the risen Christ in verse 20?"
+     },
+     "choices": {
+      "fr": [
+       "Le gardien des tombeaux",
+       "Le premier des prophètes",
+       "Les prémices de ceux qui sont morts",
+       "Le juge des vivants"
+      ],
+      "en": [
+       "The keeper of the tombs",
+       "The first of the prophets",
+       "The firstfruits of them that slept",
+       "The judge of the living"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Christ est ressuscité des morts, il est les prémices de ceux qui sont morts. » Les prémices étaient les premiers fruits de la récolte, offerts à Dieu, qui annonçaient le reste de la moisson.",
+      "en": "“Now is Christ risen from the dead, and become the firstfruits of them that slept.” Firstfruits were the first part of the harvest, offered to God as a pledge of the rest. “Slept” here means died."
+     },
+     "ref": "46:15:20"
+    },
+    {
+     "id": "themes-hope-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel personnage Paul met-il en parallèle avec le Christ au verset 22 ?",
+      "en": "Which figure does Paul set in parallel with Christ in verse 22?"
+     },
+     "choices": {
+      "fr": [
+       "Abraham",
+       "Moïse",
+       "David",
+       "Adam"
+      ],
+      "en": [
+       "Abraham",
+       "Moses",
+       "David",
+       "Adam"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Comme tous meurent en Adam, de même aussi tous revivront en Christ. » Le verset 21 l'annonce : la mort est venue par un homme, la résurrection aussi.",
+      "en": "“For as in Adam all die, even so in Christ shall all be made alive.” Verse 21 prepares this: death came by a man, and so did the resurrection."
+     },
+     "ref": "46:15:22"
+    },
+    {
+     "id": "themes-hope-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 51, tous mourront avant d'être changés.",
+      "en": "According to verse 51, everyone will die before being changed."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Nous ne mourrons pas tous, mais tous nous serons changés. » Au son de la trompette, les morts ressusciteront et les vivants seront changés (v. 52).",
+      "en": "“We shall not all sleep, but we shall all be changed.” At the trumpet, the dead will be raised and the living changed (v. 52)."
+     },
+     "ref": "46:15:51"
+    },
+    {
+     "id": "themes-hope-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle conclusion pratique Paul tire-t-il au verset 58 ?",
+      "en": "What practical conclusion does Paul draw in verse 58?"
+     },
+     "choices": {
+      "fr": [
+       "Attendre la fin sans rien entreprendre",
+       "Rester fermes, car leur travail dans le Seigneur n'est pas vain",
+       "Se retirer du monde pour prier",
+       "Cesser de se soucier du corps"
+      ],
+      "en": [
+       "Wait for the end without undertaking anything",
+       "Stand firm, since their labour in the Lord is not in vain",
+       "Withdraw from the world to pray",
+       "Stop caring about the body"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Soyez fermes, inébranlables, travaillant de mieux en mieux à l'oeuvre du Seigneur, sachant que votre travail ne sera pas vain dans le Seigneur. » L'espérance pousse à agir, non à attendre passivement.",
+      "en": "“Be ye stedfast, unmoveable, always abounding in the work of the Lord, forasmuch as ye know that your labour is not in vain in the Lord.” Hope leads to action, not passive waiting."
+     },
+     "ref": "46:15:58"
+    }
+   ]
+  }
+ ]
+}

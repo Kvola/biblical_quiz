@@ -1,0 +1,257 @@
+{
+  "@@locale": "en",
+  "appTitle": "Bible Quiz",
+  "tagline": "Read and understand the Bible",
+  "navHome": "Home",
+  "navPaths": "Paths",
+  "navBible": "Bible",
+  "navProgress": "Progress",
+  "close": "Close",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "retry": "Try again",
+  "loadError": "The content could not be loaded.",
+  "copied": "Copied",
+  "copy": "Copy",
+  "share": "Share",
+  "addFavorite": "Save verse",
+  "removeFavorite": "Remove from saved verses",
+  "favoriteAdded": "Verse saved",
+  "favoriteRemoved": "Verse removed",
+  "undo": "Undo",
+  "questionsCount": "{count, plural, =1{1 question} other{{count} questions}}",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "versesCount": "{count, plural, =1{1 verse} other{{count} verses}}",
+  "@versesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "welcomeTitle": "Welcome",
+  "welcomeIntro": "This quiz is a reading companion: it helps you discover what the Bible is about.",
+  "welcomeStep1": "Read a short passage, right in the app.",
+  "welcomeStep2": "Answer a few questions to check what you understood.",
+  "welcomeStep3": "Every answer is explained and points to the verse.",
+  "welcomeOffline": "Everything works offline. Texts: Louis Segond 1910 (French) and King James 1769 (English).",
+  "chooseLanguage": "Language",
+  "start": "Start",
+  "streakDays": "{count, plural, =1{1 day in a row} other{{count} days in a row}}",
+  "@streakDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakStart": "Start your streak today",
+  "streakKeep": "Read today to keep your streak",
+  "streakDone": "Well done, you read today",
+  "continueTitle": "Continue",
+  "startTitle": "Get started",
+  "allDone": "You have finished every path. Revisit your favourite lessons or read the Bible freely.",
+  "lessonStart": "Read and answer",
+  "reviewTitle": "Review",
+  "reviewDue": "{count, plural, =1{1 question to review today} other{{count} questions to review today}}",
+  "@reviewDue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewStart": "Review",
+  "verseOfDay": "Verse of the day",
+  "challengeTitle": "Which book?",
+  "challengeSubtitle": "Find the book each verse comes from.",
+  "challengeQuestion": "Which book is this verse from?",
+  "play": "Play",
+  "settings": "Settings",
+  "pathsTitle": "Paths",
+  "lessonsProgress": "{done} / {total} lessons",
+  "@lessonsProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "booksPathTitle": "The 66 books",
+  "booksPathSubtitle": "One page per book: what it is about, who wrote it, and a few questions.",
+  "bestScore": "Best score: {score} / {total}",
+  "@bestScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "oldTestament": "Old Testament",
+  "newTestament": "New Testament",
+  "readTitle": "Read",
+  "introTitle": "Before you read",
+  "goToQuestions": "I’ve read it: to the questions ({count})",
+  "@goToQuestions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "showParallel": "Also show the other translation",
+  "questionOf": "Question {index} of {total}",
+  "@questionOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "trueLabel": "True",
+  "falseLabel": "False",
+  "correct": "Correct!",
+  "incorrect": "Not quite",
+  "correctAnswerWas": "The right answer: {answer}",
+  "@correctAnswerWas": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+  "readVerse": "Read {ref}",
+  "@readVerse": {
+    "placeholders": {
+      "ref": {
+        "type": "String"
+      }
+    }
+  },
+  "next": "Next",
+  "seeResult": "See the result",
+  "quitTitle": "Leave?",
+  "quitBody": "Your answers in this round will not be saved.",
+  "quit": "Leave",
+  "stay": "Stay",
+  "resultScore": "{score} / {total}",
+  "@resultScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "resultPerfect": "Perfect! You understood everything.",
+  "resultGood": "Very good! Just one or two points to review.",
+  "resultFair": "A good start. Reading the passage again helps a lot.",
+  "resultLow": "No worries: read the passage again, then try again.",
+  "takeawayTitle": "Key point",
+  "keyVerseTitle": "Key verse",
+  "missedTitle": "To review",
+  "missedHint": "These questions will come back in your reviews.",
+  "rereadPassage": "Read the passage again",
+  "retryQuiz": "Retake the questions",
+  "nextLesson": "Next lesson",
+  "finish": "Finish",
+  "reviewEmpty": "Nothing to review today. Missed questions come back here the next day.",
+  "bookAuthor": "Author",
+  "bookPeriod": "Period",
+  "bookThemes": "Themes",
+  "bookChapters": "{count, plural, =1{1 chapter} other{{count} chapters}}",
+  "@bookChapters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "readBook": "Read the book",
+  "bookQuiz": "Quiz ({count})",
+  "@bookQuiz": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bookInfo": "About this book",
+  "chooseBook": "Choose a book",
+  "chooseChapter": "{book}: choose a chapter",
+  "@chooseChapter": {
+    "placeholders": {
+      "book": {
+        "type": "String"
+      }
+    }
+  },
+  "chapterTitle": "{book} {chapter}",
+  "@chapterTitle": {
+    "placeholders": {
+      "book": {
+        "type": "String"
+      },
+      "chapter": {
+        "type": "int"
+      }
+    }
+  },
+  "previousChapter": "Previous chapter",
+  "nextChapter": "Next chapter",
+  "textSize": "Text size",
+  "progressTitle": "Your progress",
+  "statLessons": "Lessons completed",
+  "statAnswered": "Answers given",
+  "statAccuracy": "Correct answers",
+  "statMastered": "Questions mastered",
+  "statStreak": "Current streak",
+  "statBestStreak": "Best streak",
+  "daysShort": "{count, plural, =1{1 day} other{{count} days}}",
+  "@daysShort": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "favoritesTitle": "Saved verses",
+  "favoritesEmpty": "Tap a verse in the Bible to save it.",
+  "pathsProgressTitle": "By path",
+  "language": "Language",
+  "languageSystem": "Phone language",
+  "parallelSetting": "Bilingual reading",
+  "parallelSettingHint": "Shows the other translation (Segond or KJV) under each verse.",
+  "textSizePreview": "In the beginning God created the heaven and the earth.",
+  "aboutTitle": "About",
+  "aboutTexts": "Bible texts: Louis Segond 1910 and King James Version 1769, both in the public domain.",
+  "aboutContent": "The questions stick to what the text says, without taking sides between churches. Each answer points to the verse that supports it.",
+  "aboutVersion": "Version {version}",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "resetProgress": "Erase my progress",
+  "resetProgressBody": "Completed lessons, reviews and streak will be erased. Your saved verses and settings are kept. This cannot be undone.",
+  "resetDone": "Progress erased"
+}

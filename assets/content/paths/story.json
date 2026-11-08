@@ -1,0 +1,2773 @@
+{
+ "id": "story",
+ "order": 1,
+ "icon": "auto_stories",
+ "title": {
+  "fr": "Le grand récit",
+  "en": "The big story"
+ },
+ "description": {
+  "fr": "Suivez le fil de la Bible, de la création à la nouvelle création : les grandes étapes du récit, de la Genèse à l'Apocalypse.",
+  "en": "Follow the thread of the Bible from creation to new creation: the great milestones of the story, from Genesis to Revelation."
+ },
+ "lessons": [
+  {
+   "id": "story-creation",
+   "title": {
+    "fr": "Au commencement",
+    "en": "In the beginning"
+   },
+   "passages": [
+    "1:1:1-31",
+    "1:2:1-3"
+   ],
+   "intro": {
+    "fr": "La Bible s'ouvre sur l'origine de toutes choses. Genèse 1 décrit l'œuvre de Dieu en six jours, rythmés par les mêmes formules, puis un septième jour mis à part.",
+    "en": "The Bible opens with the origin of all things. Genesis 1 describes God's work over six days, marked by recurring phrases, followed by a seventh day set apart."
+   },
+   "keyVerse": "1:1:1",
+   "takeaway": {
+    "fr": "Dieu crée par sa parole un monde ordonné qu'il déclare « très bon ». L'homme et la femme sont créés à son image, et le septième jour est béni et sanctifié.",
+    "en": "God creates by his word an ordered world that he declares \"very good\". Man and woman are created in his image, and the seventh day is blessed and sanctified."
+   },
+   "questions": [
+    {
+     "id": "story-creation-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Genèse 1, qu'est-ce que Dieu crée le premier jour ?",
+      "en": "According to Genesis 1, what does God create on the first day?"
+     },
+     "choices": {
+      "fr": [
+       "Les étoiles",
+       "Les plantes",
+       "La lumière",
+       "Les animaux"
+      ],
+      "en": [
+       "The stars",
+       "The plants",
+       "Light",
+       "The animals"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Dieu dit : « Que la lumière soit! Et la lumière fut. » Il sépare ensuite la lumière des ténèbres et les nomme jour et nuit : c'est le premier jour (1:5).",
+      "en": "God said, \"Let there be light: and there was light.\" He then divides the light from the darkness and names them Day and Night: this is the first day (1:5)."
+     },
+     "ref": "1:1:3"
+    },
+    {
+     "id": "story-creation-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle remarque revient à plusieurs reprises au fil du chapitre ?",
+      "en": "Which remark comes back several times throughout the chapter?"
+     },
+     "choices": {
+      "fr": [
+       "Dieu se reposa de son œuvre",
+       "Dieu vit que cela était bon",
+       "Dieu bénit toute la terre",
+       "Dieu parla à l'homme"
+      ],
+      "en": [
+       "God rested from his work",
+       "God saw that it was good",
+       "God blessed the whole earth",
+       "God spoke to the man"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Dieu vit que cela était bon » scande le récit (1:10, 12, 18, 21, 25). Au sixième jour, la formule culmine : tout cela était « très bon » (1:31).",
+      "en": "\"God saw that it was good\" punctuates the account (1:10, 12, 18, 21, 25). On the sixth day the phrase reaches its peak: everything was \"very good\" (1:31)."
+     },
+     "ref": "1:1:10"
+    },
+    {
+     "id": "story-creation-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Genèse 1:27 de la création de l'être humain ?",
+      "en": "What does Genesis 1:27 say about the creation of humankind?"
+     },
+     "choices": {
+      "fr": [
+       "Il est créé le septième jour",
+       "Il est créé avant les plantes",
+       "L'homme est créé seul, sans la femme",
+       "Il est créé à l'image de Dieu, homme et femme"
+      ],
+      "en": [
+       "Humans are created on the seventh day",
+       "Humans are created before the plants",
+       "The man is created alone, without the woman",
+       "Humans are created in God's image, male and female"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Dieu créa l'homme à son image, il le créa à l'image de Dieu, il créa l'homme et la femme. » Cette création a lieu le sixième jour, après celle des animaux terrestres.",
+      "en": "\"So God created man in his own image, in the image of God created he him; male and female created he them.\" This happens on the sixth day, after the land animals."
+     },
+     "ref": "1:1:27"
+    },
+    {
+     "id": "story-creation-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Genèse 1, les deux grands luminaires qui président au jour et à la nuit sont faits le premier jour.",
+      "en": "According to Genesis 1, the two great lights that rule the day and the night are made on the first day."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. La lumière apparaît le premier jour, mais les deux grands luminaires et les étoiles sont faits le quatrième jour (1:16-19).",
+      "en": "False. Light appears on the first day, but the two great lights and the stars are made on the fourth day (1:16-19)."
+     },
+     "ref": "1:1:16-19"
+    },
+    {
+     "id": "story-creation-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait Dieu le septième jour ?",
+      "en": "What does God do on the seventh day?"
+     },
+     "choices": {
+      "fr": [
+       "Il se repose, puis bénit et sanctifie ce jour",
+       "Il crée l'homme et la femme",
+       "Il sépare les eaux d'avec les eaux",
+       "Il fait les poissons et les oiseaux"
+      ],
+      "en": [
+       "He rests, then blesses and sanctifies that day",
+       "He creates male and female",
+       "He divides the waters from the waters",
+       "He makes the fish and the birds"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Son œuvre achevée, Dieu se repose le septième jour ; il le bénit et le sanctifie « parce qu'en ce jour il se reposa de toute son oeuvre ».",
+      "en": "His work finished, God rests on the seventh day; he blesses and sanctifies it \"because that in it he had rested from all his work\"."
+     },
+     "ref": "1:2:2-3"
+    }
+   ]
+  },
+  {
+   "id": "story-fall",
+   "title": {
+    "fr": "La chute",
+    "en": "The fall"
+   },
+   "passages": [
+    "1:3:1-24"
+   ],
+   "intro": {
+    "fr": "Dieu a placé l'homme et la femme dans le jardin d'Éden, avec l'interdiction de manger d'un arbre (Genèse 2). Au chapitre 3, un serpent entre en scène.",
+    "en": "God has placed the man and the woman in the garden of Eden, forbidding them to eat from one tree (Genesis 2). In chapter 3, a serpent enters the scene."
+   },
+   "keyVerse": "1:3:15",
+   "takeaway": {
+    "fr": "Le serpent met en doute la parole de Dieu ; l'homme et la femme désobéissent, se cachent et rejettent la faute. Dieu annonce les conséquences, les habille et les chasse du jardin, loin de l'arbre de vie.",
+    "en": "The serpent casts doubt on God's word; the man and the woman disobey, hide and shift the blame. God announces the consequences, clothes them and sends them out of the garden, away from the tree of life."
+   },
+   "questions": [
+    {
+     "id": "story-fall-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment le serpent est-il décrit au début du récit ?",
+      "en": "How is the serpent described at the start of the account?"
+     },
+     "choices": {
+      "fr": [
+       "Le plus rusé des animaux des champs",
+       "Le plus fort des animaux des champs",
+       "Le plus beau des animaux du jardin",
+       "Le plus ancien des animaux du jardin"
+      ],
+      "en": [
+       "More subtle than any beast of the field",
+       "Stronger than any beast of the field",
+       "More beautiful than any beast of the garden",
+       "Older than any beast of the garden"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Le serpent « était le plus rusé de tous les animaux des champs ». Sa première parole est une question qui déforme l'ordre de Dieu.",
+      "en": "The serpent \"was more subtil than any beast of the field\". His first words are a question that distorts God's command."
+     },
+     "ref": "1:3:1"
+    },
+    {
+     "id": "story-fall-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que promet le serpent à la femme si elle mange du fruit ?",
+      "en": "What does the serpent promise the woman if she eats the fruit?"
+     },
+     "choices": {
+      "fr": [
+       "Qu'elle vivra éternellement",
+       "Qu'elle régnera sur le jardin",
+       "Qu'elle sera comme des dieux, connaissant le bien et le mal",
+       "Qu'elle ne travaillera plus jamais"
+      ],
+      "en": [
+       "That she will live for ever",
+       "That she will rule over the garden",
+       "That she will be as gods, knowing good and evil",
+       "That she will never have to work again"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le serpent contredit Dieu (« Vous ne mourrez point ») puis affirme : « vous serez comme des dieux, connaissant le bien et le mal ».",
+      "en": "The serpent contradicts God (\"Ye shall not surely die\") and then claims: \"ye shall be as gods, knowing good and evil\"."
+     },
+     "ref": "1:3:5"
+    },
+    {
+     "id": "story-fall-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que font l'homme et la femme quand ils entendent la voix de l'Eternel Dieu dans le jardin ?",
+      "en": "What do the man and the woman do when they hear the voice of the Lord God in the garden?"
+     },
+     "choices": {
+      "fr": [
+       "Ils vont à sa rencontre",
+       "Ils s'enfuient hors du jardin",
+       "Ils accusent le serpent",
+       "Ils se cachent parmi les arbres"
+      ],
+      "en": [
+       "They go to meet him",
+       "They flee out of the garden",
+       "They accuse the serpent",
+       "They hide among the trees"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Ils « se cachèrent loin de la face de l'Eternel Dieu, au milieu des arbres du jardin ». Dieu appelle alors l'homme : « Où es-tu? » (3:9).",
+      "en": "They \"hid themselves from the presence of the Lord God amongst the trees of the garden\". God then calls the man: \"Where art thou?\" (3:9)."
+     },
+     "ref": "1:3:8"
+    },
+    {
+     "id": "story-fall-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Interrogé par Dieu, l'homme reconnaît sa faute sans accuser personne.",
+      "en": "When questioned by God, the man admits his fault without blaming anyone."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. L'homme répond : « La femme que tu as mise auprès de moi m'a donné de l'arbre ». La femme, à son tour, accuse le serpent (3:13).",
+      "en": "False. The man answers, \"The woman whom thou gavest to be with me, she gave me of the tree\". The woman in turn blames the serpent (3:13)."
+     },
+     "ref": "1:3:12"
+    },
+    {
+     "id": "story-fall-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait l'Eternel Dieu pour Adam et sa femme avant de les chasser du jardin ?",
+      "en": "What does the Lord God do for Adam and his wife before sending them out of the garden?"
+     },
+     "choices": {
+      "fr": [
+       "Il leur donne des semences",
+       "Il leur fait des habits de peau",
+       "Il leur bâtit une maison",
+       "Il leur donne un troupeau"
+      ],
+      "en": [
+       "He gives them seeds",
+       "He makes them coats of skins",
+       "He builds them a house",
+       "He gives them a flock"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« L'Eternel Dieu fit à Adam et à sa femme des habits de peau, et il les en revêtit. » Ils s'étaient eux-mêmes fait des ceintures de feuilles de figuier (3:7).",
+      "en": "\"Unto Adam also and to his wife did the Lord God make coats of skins, and clothed them.\" They had made themselves aprons of fig leaves (3:7)."
+     },
+     "ref": "1:3:21"
+    },
+    {
+     "id": "story-fall-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 3:22-24, pourquoi l'homme est-il chassé du jardin ?",
+      "en": "According to 3:22-24, why is the man sent out of the garden?"
+     },
+     "choices": {
+      "fr": [
+       "Pour qu'il cherche une autre terre",
+       "Parce que le jardin va être détruit",
+       "Parce que le serpent y demeure",
+       "Pour qu'il ne prenne pas de l'arbre de vie"
+      ],
+      "en": [
+       "So that he may look for another land",
+       "Because the garden is about to be destroyed",
+       "Because the serpent lives there",
+       "So that he will not take of the tree of life"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Dieu veut l'empêcher de « prendre de l'arbre de vie, d'en manger, et de vivre éternellement ». Des chérubins gardent ensuite le chemin de cet arbre (3:24).",
+      "en": "God acts \"lest he put forth his hand, and take also of the tree of life, and eat, and live for ever\". Cherubims then guard the way to that tree (3:24)."
+     },
+     "ref": "1:3:22"
+    }
+   ]
+  },
+  {
+   "id": "story-abraham",
+   "title": {
+    "fr": "L'appel d'Abram",
+    "en": "The call of Abram"
+   },
+   "passages": [
+    "1:12:1-9",
+    "1:15:1-6"
+   ],
+   "intro": {
+    "fr": "Après les récits des origines, la Genèse se concentre sur un homme et sa famille. Dieu appelle Abram, qui vit à Charan, et lui fait des promesses.",
+    "en": "After the accounts of the beginnings, Genesis focuses on one man and his family. God calls Abram, who lives in Haran, and makes him promises."
+   },
+   "keyVerse": "1:12:3",
+   "takeaway": {
+    "fr": "Dieu appelle Abram à partir et lui promet une grande nation, un pays et une bénédiction pour toutes les familles de la terre. Sans enfant, Abram fait confiance à la promesse d'une descendance innombrable.",
+    "en": "God calls Abram to leave and promises him a great nation, a land and a blessing for all the families of the earth. Though childless, Abram believes the promise of countless descendants."
+   },
+   "questions": [
+    {
+     "id": "story-abraham-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande l'Eternel à Abram en Genèse 12:1 ?",
+      "en": "What does the Lord ask of Abram in Genesis 12:1?"
+     },
+     "choices": {
+      "fr": [
+       "De bâtir une ville",
+       "D'offrir un sacrifice",
+       "De quitter son pays et la maison de son père",
+       "De retourner à Ur"
+      ],
+      "en": [
+       "To build a city",
+       "To offer a sacrifice",
+       "To leave his country and his father's house",
+       "To go back to Ur"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Va-t-en de ton pays, de ta patrie, et de la maison de ton père, dans le pays que je te montrerai. » Abram part sans connaître encore sa destination.",
+      "en": "\"Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee.\" Abram sets out without yet knowing where he is going."
+     },
+     "ref": "1:12:1"
+    },
+    {
+     "id": "story-abraham-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 12:3, qui sera béni en Abram ?",
+      "en": "According to 12:3, who will be blessed in Abram?"
+     },
+     "choices": {
+      "fr": [
+       "Seulement ses descendants",
+       "Toutes les familles de la terre",
+       "Les habitants de Canaan",
+       "Les rois qui l'accueilleront"
+      ],
+      "en": [
+       "Only his descendants",
+       "All families of the earth",
+       "The people of Canaan",
+       "The kings who welcome him"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "La promesse dépasse la famille d'Abram : « toutes les familles de la terre seront bénies en toi ».",
+      "en": "The promise reaches beyond Abram's family: \"in thee shall all families of the earth be blessed\"."
+     },
+     "ref": "1:12:3"
+    },
+    {
+     "id": "story-abraham-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel âge a Abram lorsqu'il quitte Charan ?",
+      "en": "How old is Abram when he leaves Haran?"
+     },
+     "choices": {
+      "fr": [
+       "75 ans",
+       "40 ans",
+       "99 ans",
+       "120 ans"
+      ],
+      "en": [
+       "75",
+       "40",
+       "99",
+       "120"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Abram était âgé de soixante-quinze ans, lorsqu'il sortit de Charan. » Il part avec Saraï, sa femme, et Lot, son neveu (12:5).",
+      "en": "\"Abram was seventy and five years old when he departed out of Haran.\" He leaves with Sarai his wife and Lot his nephew (12:5)."
+     },
+     "ref": "1:12:4"
+    },
+    {
+     "id": "story-abraham-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait Abram après que l'Eternel lui est apparu en Canaan ?",
+      "en": "What does Abram do after the Lord appears to him in Canaan?"
+     },
+     "choices": {
+      "fr": [
+       "Il achète un champ",
+       "Il creuse un puits",
+       "Il retourne chercher son père",
+       "Il bâtit un autel à l'Eternel"
+      ],
+      "en": [
+       "He buys a field",
+       "He digs a well",
+       "He goes back for his father",
+       "He builds an altar to the Lord"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Dieu promet : « Je donnerai ce pays à ta postérité. » Abram y bâtit un autel, puis un autre près de Béthel, où il invoque le nom de l'Eternel (12:8).",
+      "en": "God promises, \"Unto thy seed will I give this land\". Abram builds an altar there, then another near Beth-el, where he calls upon the name of the Lord (12:8)."
+     },
+     "ref": "1:12:7"
+    },
+    {
+     "id": "story-abraham-5",
+     "kind": "choice",
+     "q": {
+      "fr": "En Genèse 15, à quoi Dieu compare-t-il la future descendance d'Abram ?",
+      "en": "In Genesis 15, what does God compare Abram's future descendants to?"
+     },
+     "choices": {
+      "fr": [
+       "Au sable de la mer",
+       "À la poussière de la terre",
+       "Aux étoiles du ciel",
+       "Aux arbres de la forêt"
+      ],
+      "en": [
+       "The sand of the sea",
+       "The dust of the earth",
+       "The stars of heaven",
+       "The trees of the forest"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Dieu conduit Abram dehors : « Regarde vers le ciel, et compte les étoiles, si tu peux les compter. […] Telle sera ta postérité. » Or Abram n'a encore aucun enfant (15:2-3).",
+      "en": "God brings Abram outside: \"Look now toward heaven, and tell the stars, if thou be able to number them […] So shall thy seed be.\" Yet Abram still has no child (15:2-3)."
+     },
+     "ref": "1:15:5"
+    },
+    {
+     "id": "story-abraham-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Genèse 15:6, c'est la confiance d'Abram en l'Eternel qui lui est imputée à justice.",
+      "en": "According to Genesis 15:6, it is Abram's belief in the Lord that is counted to him for righteousness."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « Abram eut confiance en l'Eternel, qui le lui imputa à justice. » Ce verset est cité dans le Nouveau Testament (Romains 4:3 ; Galates 3:6).",
+      "en": "True: \"he believed in the Lord; and he counted it to him for righteousness.\" This verse is quoted in the New Testament (Romans 4:3; Galatians 3:6)."
+     },
+     "ref": "1:15:6"
+    }
+   ]
+  },
+  {
+   "id": "story-bush",
+   "title": {
+    "fr": "Le buisson ardent",
+    "en": "The burning bush"
+   },
+   "passages": [
+    "2:3:1-12"
+   ],
+   "intro": {
+    "fr": "Les descendants d'Abraham sont devenus un peuple nombreux, réduit en esclavage en Égypte. Moïse, qui a fui le pays, garde le troupeau de son beau-père dans le désert.",
+    "en": "Abraham's descendants have become a numerous people, enslaved in Egypt. Moses, who has fled the country, keeps his father-in-law's flock in the wilderness."
+   },
+   "keyVerse": "2:3:7",
+   "takeaway": {
+    "fr": "Le Dieu d'Abraham, d'Isaac et de Jacob se révèle à Moïse dans un buisson qui brûle sans se consumer. Il a vu la souffrance de son peuple et envoie Moïse le faire sortir d'Égypte, en promettant d'être avec lui.",
+    "en": "The God of Abraham, Isaac and Jacob reveals himself to Moses in a bush that burns without being consumed. He has seen his people's affliction and sends Moses to bring them out of Egypt, promising to be with him."
+   },
+   "questions": [
+    {
+     "id": "story-bush-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce qui attire l'attention de Moïse sur la montagne d'Horeb ?",
+      "en": "What catches Moses' attention at the mountain of Horeb?"
+     },
+     "choices": {
+      "fr": [
+       "Une source qui jaillit du rocher",
+       "Un buisson en feu qui ne se consume pas",
+       "Une colonne de nuée",
+       "Un tremblement de terre"
+      ],
+      "en": [
+       "A spring gushing from a rock",
+       "A bush that burns without being consumed",
+       "A pillar of cloud",
+       "An earthquake"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Le buisson était tout en feu, et le buisson ne se consumait point. » Moïse se détourne pour voir « cette grande vision » (3:3).",
+      "en": "\"The bush burned with fire, and the bush was not consumed.\" Moses turns aside to see \"this great sight\" (3:3)."
+     },
+     "ref": "2:3:2"
+    },
+    {
+     "id": "story-bush-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Dieu demande-t-il à Moïse d'ôter ses souliers ?",
+      "en": "Why does God tell Moses to take off his shoes?"
+     },
+     "choices": {
+      "fr": [
+       "Parce que le sol est brûlant",
+       "Pour qu'il ne fasse pas de bruit",
+       "En signe de deuil",
+       "Parce que le lieu est une terre sainte"
+      ],
+      "en": [
+       "Because the ground is burning hot",
+       "So that he makes no noise",
+       "As a sign of mourning",
+       "Because the place is holy ground"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ôte tes souliers de tes pieds, car le lieu sur lequel tu te tiens est une terre sainte. » La présence de Dieu rend ce lieu saint.",
+      "en": "\"Put off thy shoes from off thy feet, for the place whereon thou standest is holy ground.\" God's presence makes the place holy."
+     },
+     "ref": "2:3:5"
+    },
+    {
+     "id": "story-bush-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Dieu se présente-t-il à Moïse en 3:6 ?",
+      "en": "How does God introduce himself to Moses in 3:6?"
+     },
+     "choices": {
+      "fr": [
+       "Le Dieu d'Abraham, d'Isaac et de Jacob",
+       "Le Dieu de Madian et de Jéthro",
+       "Le Dieu du ciel et de la mer",
+       "Le Dieu d'Adam et de Noé"
+      ],
+      "en": [
+       "The God of Abraham, Isaac and Jacob",
+       "The God of Midian and of Jethro",
+       "The God of the heaven and the sea",
+       "The God of Adam and of Noah"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Je suis le Dieu de ton père, le Dieu d'Abraham, le Dieu d'Isaac et le Dieu de Jacob. » Dieu se rattache ainsi aux promesses faites aux patriarches de la Genèse.",
+      "en": "\"I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob.\" God links himself to the promises made to the patriarchs in Genesis."
+     },
+     "ref": "2:3:6"
+    },
+    {
+     "id": "story-bush-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon ce passage, Dieu a vu la souffrance de son peuple en Égypte et entendu ses cris.",
+      "en": "According to this passage, God has seen the affliction of his people in Egypt and heard their cry."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « J'ai vu la souffrance de mon peuple qui est en Egypte, et j'ai entendu les cris que lui font pousser ses oppresseurs ». Dieu ajoute qu'il est descendu pour le délivrer (3:8).",
+      "en": "True: \"I have surely seen the affliction of my people which are in Egypt, and have heard their cry by reason of their taskmasters\". God adds that he has come down to deliver them (3:8)."
+     },
+     "ref": "2:3:7"
+    },
+    {
+     "id": "story-bush-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quand Moïse demande « Qui suis-je », que lui répond Dieu ?",
+      "en": "When Moses asks, \"Who am I\", what does God answer?"
+     },
+     "choices": {
+      "fr": [
+       "Tu es le plus sage des Hébreux",
+       "Pharaon t'écoutera dès le premier jour",
+       "Je serai avec toi",
+       "Tu as été élevé pour cela"
+      ],
+      "en": [
+       "You are the wisest of the Hebrews",
+       "Pharaoh will listen to you from the first day",
+       "I will be with you",
+       "You were raised for this"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Dieu ne met pas en avant les qualités de Moïse mais sa propre présence : « Je serai avec toi ». Le signe sera que le peuple servira Dieu sur cette montagne.",
+      "en": "God does not point to Moses' qualities but to his own presence: \"Certainly I will be with thee\". The sign will be that the people serve God on this mountain."
+     },
+     "ref": "2:3:12"
+    }
+   ]
+  },
+  {
+   "id": "story-sea",
+   "title": {
+    "fr": "Le passage de la mer",
+    "en": "Through the sea"
+   },
+   "passages": [
+    "2:14:10-31"
+   ],
+   "intro": {
+    "fr": "Après les plaies d'Égypte, Pharaon a laissé partir Israël, puis s'est ravisé et a lancé son armée à sa poursuite. Le peuple se retrouve bloqué au bord de la mer.",
+    "en": "After the plagues of Egypt, Pharaoh let Israel go, then changed his mind and sent his army after them. The people are trapped at the edge of the sea."
+   },
+   "keyVerse": "2:14:13",
+   "takeaway": {
+    "fr": "Face à l'armée égyptienne, le peuple a peur ; l'Eternel ouvre un chemin à sec au milieu de la mer, puis les eaux reviennent sur les poursuivants. Israël voit la délivrance et croit en l'Eternel et en Moïse.",
+    "en": "Facing the Egyptian army, the people are afraid; the Lord opens a dry path through the sea, then the waters return upon the pursuers. Israel sees the deliverance and believes the Lord and Moses."
+   },
+   "questions": [
+    {
+     "id": "story-sea-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment les Israélites réagissent-ils en voyant arriver les Égyptiens ?",
+      "en": "How do the Israelites react when they see the Egyptians coming?"
+     },
+     "choices": {
+      "fr": [
+       "Ils ont peur et reprochent à Moïse de les avoir fait sortir d'Égypte",
+       "Ils préparent leurs armes pour combattre",
+       "Ils envoient des messagers à Pharaon",
+       "Ils se dispersent dans le désert"
+      ],
+      "en": [
+       "They are afraid and reproach Moses for bringing them out of Egypt",
+       "They prepare their weapons for battle",
+       "They send messengers to Pharaoh",
+       "They scatter into the wilderness"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Saisis de frayeur, ils crient à l'Eternel puis disent à Moïse : « Que nous as-tu fait en nous faisant sortir d'Egypte? » Ils préféreraient servir les Égyptiens (14:12).",
+      "en": "Sore afraid, they cry out to the Lord and then say to Moses, \"wherefore hast thou dealt thus with us, to carry us forth out of Egypt?\" They would rather serve the Egyptians (14:12)."
+     },
+     "ref": "2:14:11"
+    },
+    {
+     "id": "story-sea-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Moïse au peuple en 14:14 ?",
+      "en": "What does Moses tell the people in 14:14?"
+     },
+     "choices": {
+      "fr": [
+       "Prenez courage et combattez avec moi",
+       "Retournons en Égypte avant la nuit",
+       "Fuyez vers la montagne",
+       "L'Eternel combattra pour vous; et vous, gardez le silence"
+      ],
+      "en": [
+       "Take courage and fight with me",
+       "Let us return to Egypt before nightfall",
+       "Flee to the mountain",
+       "The Lord shall fight for you, and ye shall hold your peace"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Moïse invite le peuple à ne pas craindre et à regarder la délivrance de l'Eternel : « L'Eternel combattra pour vous; et vous, gardez le silence. »",
+      "en": "Moses tells the people not to fear but to see the salvation of the Lord: \"The Lord shall fight for you, and ye shall hold your peace.\""
+     },
+     "ref": "2:14:14"
+    },
+    {
+     "id": "story-sea-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Où la colonne de nuée se place-t-elle pendant la nuit ?",
+      "en": "Where does the pillar of cloud stand during the night?"
+     },
+     "choices": {
+      "fr": [
+       "Au-dessus de la mer",
+       "Entre le camp des Égyptiens et celui d'Israël",
+       "Devant le camp d'Israël",
+       "Sur la montagne voisine"
+      ],
+      "en": [
+       "Above the sea",
+       "Between the camp of the Egyptians and the camp of Israel",
+       "In front of the camp of Israel",
+       "On a nearby mountain"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "La nuée passe de l'avant à l'arrière du camp et se place entre les deux camps : ténébreuse d'un côté, elle éclaire la nuit de l'autre, si bien qu'ils ne s'approchent pas.",
+      "en": "The cloud moves from the front to the rear and stands between the two camps: darkness to one side, light by night to the other, so that neither comes near the other."
+     },
+     "ref": "2:14:20"
+    },
+    {
+     "id": "story-sea-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Par quel moyen l'Eternel refoule-t-il la mer ?",
+      "en": "By what means does the Lord drive back the sea?"
+     },
+     "choices": {
+      "fr": [
+       "Par un tremblement de terre",
+       "Par la chaleur du soleil",
+       "Par un fort vent d'orient soufflant toute la nuit",
+       "Par la marée du matin"
+      ],
+      "en": [
+       "By an earthquake",
+       "By the heat of the sun",
+       "By a strong east wind blowing all night",
+       "By the morning tide"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Moïse étend la main et « l'Eternel refoula la mer par un vent d'orient, qui souffla avec impétuosité toute la nuit ». Les eaux forment alors comme une muraille de chaque côté (14:22).",
+      "en": "Moses stretches out his hand and \"the Lord caused the sea to go back by a strong east wind all that night\". The waters then stand like a wall on each side (14:22)."
+     },
+     "ref": "2:14:21"
+    },
+    {
+     "id": "story-sea-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Une partie de l'armée de Pharaon réussit à échapper aux eaux.",
+      "en": "Part of Pharaoh's army manages to escape the waters."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. Les eaux couvrent les chars, les cavaliers et toute l'armée entrée dans la mer : « il n'en échappa pas un seul ».",
+      "en": "False. The waters cover the chariots, the horsemen and all the host that went into the sea: \"there remained not so much as one of them\"."
+     },
+     "ref": "2:14:28"
+    },
+    {
+     "id": "story-sea-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel est l'effet de cette délivrance sur le peuple, selon 14:31 ?",
+      "en": "What effect does this deliverance have on the people, according to 14:31?"
+     },
+     "choices": {
+      "fr": [
+       "Il réclame un roi",
+       "Il décide de rentrer en Égypte",
+       "Il se plaint de la soif",
+       "Il craint l'Eternel et croit en lui et en Moïse"
+      ],
+      "en": [
+       "They ask for a king",
+       "They decide to return to Egypt",
+       "They complain of thirst",
+       "They fear the Lord and believe him and Moses"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Le peuple craignit l'Eternel, et il crut en l'Eternel et en Moïse, son serviteur. » Le récit contraste avec la peur et les reproches du début (14:10-12).",
+      "en": "\"The people feared the Lord, and believed the Lord, and his servant Moses.\" This contrasts with the fear and complaints at the start (14:10-12)."
+     },
+     "ref": "2:14:31"
+    }
+   ]
+  },
+  {
+   "id": "story-sinai",
+   "title": {
+    "fr": "L'alliance au Sinaï",
+    "en": "The covenant at Sinai"
+   },
+   "passages": [
+    "2:19:1-8",
+    "2:20:1-17"
+   ],
+   "intro": {
+    "fr": "Le troisième mois après la sortie d'Égypte, Israël campe au pied du mont Sinaï. Dieu y propose une alliance à son peuple et lui donne ses commandements.",
+    "en": "In the third month after leaving Egypt, Israel camps at the foot of Mount Sinai. There God offers his people a covenant and gives them his commandments."
+   },
+   "keyVerse": "2:20:2",
+   "takeaway": {
+    "fr": "Le Dieu qui a délivré Israël l'invite à devenir son peuple, « un royaume de sacrificateurs et une nation sainte ». Les commandements sont donnés à un peuple déjà libéré.",
+    "en": "The God who delivered Israel invites them to become his people, \"a kingdom of priests, and an holy nation\". The commandments are given to a people already set free."
+   },
+   "questions": [
+    {
+     "id": "story-sinai-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle image Dieu emploie-t-il pour décrire la façon dont il a conduit Israël jusqu'à lui ?",
+      "en": "What image does God use to describe how he brought Israel to himself?"
+     },
+     "choices": {
+      "fr": [
+       "Comme un berger mène ses brebis",
+       "Comme un père porte son fils",
+       "Comme une mère console son enfant",
+       "Sur des ailes d'aigle"
+      ],
+      "en": [
+       "As a shepherd leads his sheep",
+       "As a father carries his son",
+       "As a mother comforts her child",
+       "On eagles' wings"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Vous avez vu ce que j'ai fait à l'Egypte, et comment je vous ai portés sur des ailes d'aigle et amenés vers moi. » L'alliance s'appuie sur ce que Dieu a déjà fait.",
+      "en": "\"Ye have seen what I did unto the Egyptians, and how I bare you on eagles' wings, and brought you unto myself.\" The covenant rests on what God has already done."
+     },
+     "ref": "2:19:4"
+    },
+    {
+     "id": "story-sinai-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 19:5-6, que sera Israël pour Dieu s'il écoute sa voix et garde son alliance ?",
+      "en": "According to 19:5-6, what will Israel be to God if they obey his voice and keep his covenant?"
+     },
+     "choices": {
+      "fr": [
+       "Un peuple de guerriers invincibles",
+       "Un royaume de sacrificateurs et une nation sainte",
+       "Le plus riche de tous les peuples",
+       "Un peuple sans roi ni loi"
+      ],
+      "en": [
+       "A nation of invincible warriors",
+       "A kingdom of priests and a holy nation",
+       "The richest of all peoples",
+       "A people with neither king nor law"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Israël appartiendra à Dieu « entre tous les peuples » et sera « un royaume de sacrificateurs et une nation sainte ». Dieu précise : « toute la terre est à moi ».",
+      "en": "Israel will be God's \"peculiar treasure\" and \"a kingdom of priests, and an holy nation\". God adds: \"all the earth is mine\"."
+     },
+     "ref": "2:19:5-6"
+    },
+    {
+     "id": "story-sinai-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond le peuple quand Moïse lui transmet ces paroles ?",
+      "en": "How do the people answer when Moses passes on these words?"
+     },
+     "choices": {
+      "fr": [
+       "Nous ferons tout ce que l'Eternel a dit",
+       "Laisse-nous réfléchir trois jours",
+       "Parle-nous d'abord de la terre promise",
+       "Nous retournerons en Égypte"
+      ],
+      "en": [
+       "All that the Lord hath spoken we will do",
+       "Let us think it over for three days",
+       "Tell us first about the promised land",
+       "We will go back to Egypt"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Le peuple tout entier répondit: Nous ferons tout ce que l'Eternel a dit. » Moïse rapporte cette réponse à l'Eternel.",
+      "en": "\"All the people answered together, and said, All that the Lord hath spoken we will do.\" Moses brings their answer back to the Lord."
+     },
+     "ref": "2:19:8"
+    },
+    {
+     "id": "story-sinai-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Dieu se présente-t-il juste avant de donner les commandements (20:2) ?",
+      "en": "How does God introduce himself just before giving the commandments (20:2)?"
+     },
+     "choices": {
+      "fr": [
+       "Comme le créateur des cieux et de la terre",
+       "Comme le juge de toutes les nations",
+       "Comme celui qui a fait sortir Israël d'Égypte",
+       "Comme le Dieu de Moïse et d'Aaron"
+      ],
+      "en": [
+       "As the creator of heaven and earth",
+       "As the judge of all nations",
+       "As the one who brought Israel out of Egypt",
+       "As the God of Moses and Aaron"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Je suis l'Eternel, ton Dieu, qui t'ai fait sortir du pays d'Egypte, de la maison de servitude. » La délivrance précède la loi.",
+      "en": "\"I am the Lord thy God, which have brought thee out of the land of Egypt, out of the house of bondage.\" The deliverance comes before the law."
+     },
+     "ref": "2:20:2"
+    },
+    {
+     "id": "story-sinai-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Exode 20:11, le commandement du jour du repos est relié au récit de la création en six jours.",
+      "en": "According to Exodus 20:11, the sabbath commandment is linked to the account of creation in six days."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « Car en six jours l'Eternel a fait les cieux, la terre et la mer […] et il s'est reposé le septième jour ». Le texte renvoie à Genèse 2:2-3.",
+      "en": "True: \"For in six days the Lord made heaven and earth, the sea […] and rested the seventh day\". The text points back to Genesis 2:2-3."
+     },
+     "ref": "2:20:11"
+    },
+    {
+     "id": "story-sinai-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel commandement est accompagné de la promesse de jours prolongés dans le pays ?",
+      "en": "Which commandment comes with the promise of long days in the land?"
+     },
+     "choices": {
+      "fr": [
+       "Tu ne tueras point",
+       "Tu ne déroberas point",
+       "Tu ne convoiteras point",
+       "Honore ton père et ta mère"
+      ],
+      "en": [
+       "Thou shalt not kill",
+       "Thou shalt not steal",
+       "Thou shalt not covet",
+       "Honour thy father and thy mother"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Honore ton père et ta mère, afin que tes jours se prolongent dans le pays que l'Eternel, ton Dieu, te donne. » C'est le seul commandement de la liste assorti d'une telle promesse.",
+      "en": "\"Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee.\" It is the only commandment in the list with such a promise."
+     },
+     "ref": "2:20:12"
+    }
+   ]
+  },
+  {
+   "id": "story-land",
+   "title": {
+    "fr": "Entrer dans le pays",
+    "en": "Into the land"
+   },
+   "passages": [
+    "6:1:1-18"
+   ],
+   "intro": {
+    "fr": "Après quarante ans dans le désert, Moïse est mort. Josué, son serviteur, doit maintenant conduire Israël de l'autre côté du Jourdain, dans le pays promis aux pères.",
+    "en": "After forty years in the wilderness, Moses has died. Joshua, his minister, must now lead Israel across the Jordan into the land promised to their fathers."
+   },
+   "keyVerse": "6:1:9",
+   "takeaway": {
+    "fr": "Dieu renouvelle sa promesse du pays et assure Josué de sa présence, comme avec Moïse. Il lui demande d'être fort, courageux et attaché au livre de la loi, et le peuple s'engage à le suivre.",
+    "en": "God renews his promise of the land and assures Joshua of his presence, as with Moses. He calls him to be strong, courageous and devoted to the book of the law, and the people pledge to follow him."
+   },
+   "questions": [
+    {
+     "id": "story-land-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel fleuve Josué doit-il traverser avec le peuple ?",
+      "en": "Which river must Joshua cross with the people?"
+     },
+     "choices": {
+      "fr": [
+       "L'Euphrate",
+       "Le Jourdain",
+       "Le Nil",
+       "Le Jabbok"
+      ],
+      "en": [
+       "The Euphrates",
+       "The Jordan",
+       "The Nile",
+       "The Jabbok"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Lève-toi, passe ce Jourdain, toi et tout ce peuple ». L'Euphrate est mentionné en 1:4 comme limite lointaine du territoire.",
+      "en": "\"Arise, go over this Jordan, thou, and all this people\". The Euphrates is mentioned in 1:4 as a far boundary of the territory."
+     },
+     "ref": "6:1:2"
+    },
+    {
+     "id": "story-land-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle promesse Dieu fait-il à Josué en 1:5 ?",
+      "en": "What promise does God make to Joshua in 1:5?"
+     },
+     "choices": {
+      "fr": [
+       "Je serai avec toi, comme j'ai été avec Moïse",
+       "Tu vivras aussi longtemps que Moïse",
+       "Tu n'auras jamais à combattre",
+       "Tes fils régneront après toi"
+      ],
+      "en": [
+       "As I was with Moses, so I will be with thee",
+       "You will live as long as Moses",
+       "You will never have to fight",
+       "Your sons will reign after you"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Je serai avec toi, comme j'ai été avec Moïse; je ne te délaisserai point, je ne t'abandonnerai point. » La présence de Dieu assure la continuité après Moïse.",
+      "en": "\"As I was with Moses, so I will be with thee: I will not fail thee, nor forsake thee.\" God's presence provides continuity after Moses."
+     },
+     "ref": "6:1:5"
+    },
+    {
+     "id": "story-land-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle exhortation revient plusieurs fois dans ce chapitre ?",
+      "en": "Which exhortation is repeated several times in this chapter?"
+     },
+     "choices": {
+      "fr": [
+       "Souviens-toi de l'Égypte",
+       "Ne fais alliance avec personne",
+       "Fortifie-toi et prends courage",
+       "Attends le signal de l'Eternel"
+      ],
+      "en": [
+       "Remember Egypt",
+       "Make no covenant with anyone",
+       "Be strong and of a good courage",
+       "Wait for the Lord's signal"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Fortifie-toi et prends courage » revient en 1:6, 1:9 et, dans la bouche du peuple, en 1:18. Dieu ajoute : « l'Eternel, ton Dieu, est avec toi ».",
+      "en": "\"Be strong and of a good courage\" comes in 1:6, 1:9 and, from the people's lips, in 1:18. God adds: \"the Lord thy God is with thee\"."
+     },
+     "ref": "6:1:9"
+    },
+    {
+     "id": "story-land-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que doit faire Josué du livre de la loi, selon 1:8 ?",
+      "en": "What must Joshua do with the book of the law, according to 1:8?"
+     },
+     "choices": {
+      "fr": [
+       "Le garder dans l'arche",
+       "Le lire une fois par an",
+       "Le confier aux sacrificateurs",
+       "Le méditer jour et nuit"
+      ],
+      "en": [
+       "Keep it in the ark",
+       "Read it once a year",
+       "Entrust it to the priests",
+       "Meditate therein day and night"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Que ce livre de la loi ne s'éloigne point de ta bouche; médite-le jour et nuit, pour agir fidèlement selon tout ce qui y est écrit ».",
+      "en": "\"This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night, that thou mayest observe to do according to all that is written therein\"."
+     },
+     "ref": "6:1:8"
+    },
+    {
+     "id": "story-land-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Les Rubénites, les Gadites et la demi-tribu de Manassé refusent de traverser le Jourdain avec leurs frères.",
+      "en": "The Reubenites, the Gadites and the half tribe of Manasseh refuse to cross the Jordan with their brothers."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. Déjà installés à l'est du Jourdain, ils répondent : « Nous ferons tout ce que tu nous as ordonné, et nous irons partout où tu nous enverras. »",
+      "en": "False. Already settled east of the Jordan, they answer, \"All that thou commandest us we will do, and whithersoever thou sendest us, we will go.\""
+     },
+     "ref": "6:1:16"
+    }
+   ]
+  },
+  {
+   "id": "story-david",
+   "title": {
+    "fr": "La promesse à David",
+    "en": "The promise to David"
+   },
+   "passages": [
+    "10:7:1-17"
+   ],
+   "intro": {
+    "fr": "Israël est installé dans le pays et a désormais un roi, David. En paix avec ses ennemis, David songe à bâtir une maison pour Dieu.",
+    "en": "Israel is settled in the land and now has a king, David. At peace with his enemies, David thinks of building a house for God."
+   },
+   "keyVerse": "10:7:16",
+   "takeaway": {
+    "fr": "David veut bâtir une maison à Dieu ; Dieu lui répond qu'il lui fera, à lui, une « maison », c'est-à-dire une dynastie. Un descendant bâtira le temple, et le trône de David sera affermi pour toujours.",
+    "en": "David wants to build God a house; God answers that he will make David a \"house\", that is, a dynasty. A descendant will build the temple, and David's throne will be established for ever."
+   },
+   "questions": [
+    {
+     "id": "story-david-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce qui préoccupe David au début du chapitre ?",
+      "en": "What troubles David at the start of the chapter?"
+     },
+     "choices": {
+      "fr": [
+       "Ses ennemis menacent encore Jérusalem",
+       "Il habite une maison de cèdre alors que l'arche de Dieu est sous une tente",
+       "Il n'a pas encore de fils",
+       "Le peuple ne veut plus de roi"
+      ],
+      "en": [
+       "His enemies still threaten Jerusalem",
+       "He lives in a house of cedar while the ark of God is in a tent",
+       "He has no son yet",
+       "The people no longer want a king"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« J'habite dans une maison de cèdre, et l'arche de Dieu habite au milieu d'une tente. » Le texte précise que Dieu lui a donné du repos face à ses ennemis (7:1).",
+      "en": "\"I dwell in an house of cedar, but the ark of God dwelleth within curtains.\" The text notes that God had given him rest from his enemies (7:1)."
+     },
+     "ref": "10:7:2"
+    },
+    {
+     "id": "story-david-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel prophète transmet à David la parole de l'Eternel ?",
+      "en": "Which prophet brings the word of the Lord to David?"
+     },
+     "choices": {
+      "fr": [
+       "Samuel",
+       "Gad",
+       "Nathan",
+       "Elie"
+      ],
+      "en": [
+       "Samuel",
+       "Gad",
+       "Nathan",
+       "Elijah"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "La nuit même, « la parole de l'Eternel fut adressée à Nathan ». Nathan avait d'abord encouragé David (7:3), avant de lui rapporter la réponse de Dieu (7:17).",
+      "en": "That very night \"the word of the Lord came unto Nathan\". Nathan had first encouraged David (7:3) before bringing him God's answer (7:17)."
+     },
+     "ref": "10:7:4"
+    },
+    {
+     "id": "story-david-3",
+     "kind": "choice",
+     "q": {
+      "fr": "D'où Dieu rappelle-t-il avoir pris David ?",
+      "en": "Where does God recall taking David from?"
+     },
+     "choices": {
+      "fr": [
+       "Du pâturage, derrière les brebis",
+       "De la cour du roi Saül",
+       "De l'armée d'Israël",
+       "Du temple de Silo"
+      ],
+      "en": [
+       "From the sheepcote, from following the sheep",
+       "From King Saul's court",
+       "From Israel's army",
+       "From the temple at Shiloh"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Je t'ai pris au pâturage, derrière les brebis, pour que tu fusses chef sur mon peuple ». Le berger est devenu roi par l'initiative de Dieu.",
+      "en": "\"I took thee from the sheepcote, from following the sheep, to be ruler over my people\". The shepherd became king at God's initiative."
+     },
+     "ref": "10:7:8"
+    },
+    {
+     "id": "story-david-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Dans ce passage, Dieu annonce que c'est David lui-même qui bâtira une maison à son nom.",
+      "en": "In this passage, God announces that David himself will build a house for his name."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. C'est la postérité de David, « celui qui sera sorti de tes entrailles », qui « bâtira une maison à mon nom » (7:12-13).",
+      "en": "False. It is David's seed, the one \"which shall proceed out of thy bowels\", who \"shall build an house for my name\" (7:12-13)."
+     },
+     "ref": "10:7:13"
+    },
+    {
+     "id": "story-david-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Le mot « maison » a deux sens dans ce chapitre. Que désigne-t-il quand Dieu promet de créer une maison à David ?",
+      "en": "The word \"house\" has two meanings in this chapter. What does it mean when God promises to make David a house?"
+     },
+     "choices": {
+      "fr": [
+       "Un palais plus grand",
+       "Un temple à Jérusalem",
+       "Une forteresse imprenable",
+       "Une descendance qui régnera"
+      ],
+      "en": [
+       "A larger palace",
+       "A temple in Jerusalem",
+       "An impregnable fortress",
+       "A line of descendants who will reign"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "David voulait bâtir une maison (un temple) pour Dieu ; Dieu lui promet une maison au sens de lignée : « Ta maison et ton règne seront pour toujours assurés ».",
+      "en": "David wanted to build God a house (a temple); God promises him a house in the sense of a dynasty: \"thine house and thy kingdom shall be established for ever\"."
+     },
+     "ref": "10:7:16"
+    },
+    {
+     "id": "story-david-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 7:16, pour combien de temps le trône de David sera-t-il affermi ?",
+      "en": "According to 7:16, for how long will David's throne be established?"
+     },
+     "choices": {
+      "fr": [
+       "Quarante ans",
+       "Pour toujours",
+       "Tant que David vivra",
+       "Sept générations"
+      ],
+      "en": [
+       "Forty years",
+       "For ever",
+       "As long as David lives",
+       "Seven generations"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Ton trône sera pour toujours affermi. » Même si un descendant fait le mal, Dieu promet que sa grâce ne se retirera pas de lui comme de Saül (7:14-15).",
+      "en": "\"Thy throne shall be established for ever.\" Even if a descendant does wrong, God promises that his mercy will not depart from him as it did from Saul (7:14-15)."
+     },
+     "ref": "10:7:16"
+    }
+   ]
+  },
+  {
+   "id": "story-temple",
+   "title": {
+    "fr": "La dédicace du temple",
+    "en": "The temple dedicated"
+   },
+   "passages": [
+    "11:8:1-13",
+    "11:8:22-30"
+   ],
+   "intro": {
+    "fr": "Salomon, fils de David, a achevé le temple de Jérusalem, la maison annoncée en 2 Samuel 7. Il y fait transporter l'arche de l'alliance, puis prie devant tout le peuple.",
+    "en": "Solomon, David's son, has finished the temple in Jerusalem, the house foretold in 2 Samuel 7. He has the ark of the covenant brought in, then prays before all the people."
+   },
+   "keyVerse": "11:8:27",
+   "takeaway": {
+    "fr": "La gloire de l'Eternel remplit le temple et Salomon reconnaît que Dieu a tenu sa promesse à David. Il affirme aussi que même les cieux ne peuvent contenir Dieu, et lui demande d'écouter et de pardonner.",
+    "en": "The glory of the Lord fills the temple, and Solomon acknowledges that God has kept his promise to David. He also declares that even the heavens cannot contain God, and asks him to hear and forgive."
+   },
+   "questions": [
+    {
+     "id": "story-temple-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Que contient l'arche, selon 8:9 ?",
+      "en": "What is inside the ark, according to 8:9?"
+     },
+     "choices": {
+      "fr": [
+       "La couronne de David",
+       "Les trésors du roi",
+       "Les deux tables de pierre déposées par Moïse",
+       "Le rouleau des Psaumes"
+      ],
+      "en": [
+       "David's crown",
+       "The king's treasures",
+       "The two tables of stone placed there by Moses",
+       "The scroll of the Psalms"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Il n'y avait dans l'arche que les deux tables de pierre, que Moïse y déposa en Horeb ». Horeb est un autre nom de la montagne de l'alliance (le Sinaï).",
+      "en": "\"There was nothing in the ark save the two tables of stone, which Moses put there at Horeb\". Horeb is another name for the mountain of the covenant (Sinai)."
+     },
+     "ref": "11:8:9"
+    },
+    {
+     "id": "story-temple-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que se passe-t-il quand les sacrificateurs sortent du lieu saint ?",
+      "en": "What happens when the priests come out of the holy place?"
+     },
+     "choices": {
+      "fr": [
+       "La nuée remplit la maison de l'Eternel",
+       "Un feu descend sur l'autel",
+       "La terre tremble",
+       "Une voix appelle Salomon"
+      ],
+      "en": [
+       "The cloud fills the house of the Lord",
+       "Fire comes down on the altar",
+       "The earth quakes",
+       "A voice calls Solomon"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "La nuée remplit le temple, au point que les sacrificateurs ne peuvent plus y faire le service, « car la gloire de l'Eternel remplissait la maison de l'Eternel » (8:11).",
+      "en": "The cloud fills the temple so that the priests cannot stand to minister, \"for the glory of the Lord had filled the house of the Lord\" (8:11)."
+     },
+     "ref": "11:8:10"
+    },
+    {
+     "id": "story-temple-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans sa prière, quelle promesse Salomon dit-il que Dieu a tenue ?",
+      "en": "In his prayer, which promise does Solomon say God has kept?"
+     },
+     "choices": {
+      "fr": [
+       "Celle faite à Abraham",
+       "Celle faite à Josué",
+       "Celle faite au peuple au Sinaï",
+       "Celle faite à David, son père"
+      ],
+      "en": [
+       "The one made to Abraham",
+       "The one made to Joshua",
+       "The one made to the people at Sinai",
+       "The one made to David, his father"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ainsi tu as tenu parole à ton serviteur David, mon père ». Le temple achevé par le fils de David accomplit ce qui avait été annoncé en 2 Samuel 7:12-13.",
+      "en": "\"Who hast kept with thy servant David my father that thou promisedst him\". The temple built by David's son fulfils what was foretold in 2 Samuel 7:12-13."
+     },
+     "ref": "11:8:24"
+    },
+    {
+     "id": "story-temple-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Salomon affirme que le temple qu'il a bâti peut contenir Dieu.",
+      "en": "Solomon declares that the temple he has built can contain God."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. « Les cieux et les cieux des cieux ne peuvent te contenir: combien moins cette maison que je t'ai bâtie! »",
+      "en": "False. \"The heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?\""
+     },
+     "ref": "11:8:27"
+    },
+    {
+     "id": "story-temple-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande Salomon à Dieu pour le jour où le peuple priera vers ce lieu ?",
+      "en": "What does Solomon ask God to do when the people pray toward this place?"
+     },
+     "choices": {
+      "fr": [
+       "D'envoyer un prophète",
+       "D'exaucer depuis les cieux et de pardonner",
+       "De leur donner la victoire sur leurs ennemis",
+       "De faire tomber la pluie"
+      ],
+      "en": [
+       "To send a prophet",
+       "To hear from heaven and forgive",
+       "To give them victory over their enemies",
+       "To send rain"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Exauce du lieu de ta demeure, des cieux, exauce et pardonne! » Le temple est un lieu tourné vers Dieu, dont la demeure est dans les cieux.",
+      "en": "\"Hear thou in heaven thy dwelling place: and when thou hearest, forgive.\" The temple is a place turned toward God, whose dwelling is in heaven."
+     },
+     "ref": "11:8:30"
+    }
+   ]
+  },
+  {
+   "id": "story-exile",
+   "title": {
+    "fr": "La chute de Jérusalem",
+    "en": "The fall of Jerusalem"
+   },
+   "passages": [
+    "12:25:1-12",
+    "24:29:4-14"
+   ],
+   "intro": {
+    "fr": "Malgré les avertissements des prophètes, le royaume de Juda s'est détourné de l'Eternel. Babylone assiège Jérusalem ; plus tard, le prophète Jérémie écrit aux déportés.",
+    "en": "Despite the prophets' warnings, the kingdom of Judah has turned away from the Lord. Babylon besieges Jerusalem; later, the prophet Jeremiah writes to the exiles."
+   },
+   "keyVerse": "24:29:11",
+   "takeaway": {
+    "fr": "Jérusalem est prise, le temple brûlé et le peuple emmené à Babylone. Par Jérémie, Dieu demande aux exilés de s'installer et de prier pour la ville, et promet de les ramener après soixante-dix ans.",
+    "en": "Jerusalem is taken, the temple burned and the people carried off to Babylon. Through Jeremiah, God tells the exiles to settle and pray for the city, and promises to bring them back after seventy years."
+   },
+   "questions": [
+    {
+     "id": "story-exile-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel roi de Babylone vient assiéger Jérusalem ?",
+      "en": "Which king of Babylon comes to besiege Jerusalem?"
+     },
+     "choices": {
+      "fr": [
+       "Cyrus",
+       "Nebucadnetsar",
+       "Sennachérib",
+       "Darius"
+      ],
+      "en": [
+       "Cyrus",
+       "Nebuchadnezzar",
+       "Sennacherib",
+       "Darius"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Nebucadnetsar, roi de Babylone, vint avec toute son armée contre Jérusalem ». Le siège dure jusqu'à la onzième année du roi Sédécias (25:2).",
+      "en": "\"Nebuchadnezzar king of Babylon came, he, and all his host, against Jerusalem\". The siege lasts until the eleventh year of King Zedekiah (25:2)."
+     },
+     "ref": "12:25:1"
+    },
+    {
+     "id": "story-exile-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que devient la maison de l'Eternel quand la ville est prise ?",
+      "en": "What happens to the house of the Lord when the city is taken?"
+     },
+     "choices": {
+      "fr": [
+       "Elle est transformée en palais",
+       "Elle est épargnée",
+       "Elle est confiée aux pauvres du pays",
+       "Elle est brûlée"
+      ],
+      "en": [
+       "It is turned into a palace",
+       "It is spared",
+       "It is left to the poor of the land",
+       "It is burned"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le chef des gardes « brûla la maison de l'Eternel, la maison du roi, et toutes les maisons de Jérusalem ». Le temple dédicacé par Salomon est détruit.",
+      "en": "The captain of the guard \"burnt the house of the Lord, and the king's house, and all the houses of Jerusalem\". The temple dedicated by Solomon is destroyed."
+     },
+     "ref": "12:25:9"
+    },
+    {
+     "id": "story-exile-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande Jérémie aux exilés dans sa lettre ?",
+      "en": "What does Jeremiah tell the exiles in his letter?"
+     },
+     "choices": {
+      "fr": [
+       "De bâtir des maisons, de planter des jardins et de fonder des familles",
+       "De se révolter contre Babylone",
+       "De rentrer immédiatement à Jérusalem",
+       "De jeûner jusqu'à leur libération"
+      ],
+      "en": [
+       "To build houses, plant gardens and raise families",
+       "To rebel against Babylon",
+       "To return to Jerusalem at once",
+       "To fast until they are set free"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Bâtissez des maisons, et habitez-les; plantez des jardins […] multipliez là où vous êtes ». L'exil durera ; il faut donc s'installer.",
+      "en": "\"Build ye houses, and dwell in them; and plant gardens […] that ye may be increased there\". The exile will last, so they must settle down."
+     },
+     "ref": "24:29:5-6"
+    },
+    {
+     "id": "story-exile-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Jérémie demande aux exilés de prier l'Eternel pour la ville où ils ont été déportés.",
+      "en": "Jeremiah tells the exiles to pray to the Lord for the city where they have been carried away."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « Recherchez le bien de la ville où je vous ai menés en captivité, et priez l'Eternel en sa faveur, parce que votre bonheur dépend du sien. »",
+      "en": "True: \"seek the peace of the city whither I have caused you to be carried away captives, and pray unto the Lord for it: for in the peace thereof shall ye have peace.\""
+     },
+     "ref": "24:29:7"
+    },
+    {
+     "id": "story-exile-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Au bout de combien d'années l'Eternel promet-il de ramener son peuple ?",
+      "en": "After how many years does the Lord promise to bring his people back?"
+     },
+     "choices": {
+      "fr": [
+       "Quarante",
+       "Sept",
+       "Soixante-dix",
+       "Cent"
+      ],
+      "en": [
+       "Forty",
+       "Seven",
+       "Seventy",
+       "A hundred"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Dès que soixante-dix ans seront écoulés pour Babylone, je me souviendrai de vous […] en vous ramenant dans ce lieu. » Dieu parle de « projets de paix et non de malheur » (29:11).",
+      "en": "\"After seventy years be accomplished at Babylon I will visit you […] in causing you to return to this place.\" God speaks of \"thoughts of peace, and not of evil\" (29:11)."
+     },
+     "ref": "24:29:10"
+    }
+   ]
+  },
+  {
+   "id": "story-return",
+   "title": {
+    "fr": "Le retour",
+    "en": "The return"
+   },
+   "passages": [
+    "15:1:1-11",
+    "16:8:1-12"
+   ],
+   "intro": {
+    "fr": "Babylone est tombée aux mains des Perses. Le livre d'Esdras raconte le retour des exilés ; plus tard, sous Néhémie, le peuple rassemblé à Jérusalem écoute la lecture de la loi.",
+    "en": "Babylon has fallen to the Persians. The book of Ezra tells of the exiles' return; later, under Nehemiah, the people gathered in Jerusalem listen to the reading of the law."
+   },
+   "keyVerse": "16:8:8",
+   "takeaway": {
+    "fr": "Accomplissant la parole de Jérémie, Dieu pousse Cyrus à laisser les exilés rentrer et rebâtir le temple. De retour, le peuple écoute la loi, la comprend grâce aux explications reçues et se réjouit.",
+    "en": "Fulfilling Jeremiah's word, God moves Cyrus to let the exiles return and rebuild the temple. Back home, the people hear the law, understand it through the explanations given, and rejoice."
+   },
+   "questions": [
+    {
+     "id": "story-return-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel roi autorise les exilés à monter à Jérusalem pour y bâtir la maison de l'Eternel ?",
+      "en": "Which king allows the exiles to go up to Jerusalem to build the house of the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Darius",
+       "Cyrus, roi de Perse",
+       "Nebucadnetsar, roi de Babylone",
+       "Hiram, roi de Tyr"
+      ],
+      "en": [
+       "Darius",
+       "Cyrus king of Persia",
+       "Nebuchadnezzar king of Babylon",
+       "Hiram king of Tyre"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Cyrus proclame : « L'Eternel, le Dieu des cieux […] m'a commandé de lui bâtir une maison à Jérusalem en Juda. » Puis il invite le peuple de Dieu à y monter (1:3).",
+      "en": "Cyrus proclaims, \"The Lord God of heaven […] hath charged me to build him an house at Jerusalem, which is in Judah.\" He then invites God's people to go up there (1:3)."
+     },
+     "ref": "15:1:2"
+    },
+    {
+     "id": "story-return-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Esdras 1:1, quelle parole s'accomplit par ce décret ?",
+      "en": "According to Ezra 1:1, whose word is fulfilled by this decree?"
+     },
+     "choices": {
+      "fr": [
+       "Celle de Moïse",
+       "Celle de Salomon",
+       "Celle de David",
+       "Celle de Jérémie"
+      ],
+      "en": [
+       "Moses'",
+       "Solomon's",
+       "David's",
+       "Jeremiah's"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le décret vient « afin que s'accomplît la parole de l'Eternel prononcée par la bouche de Jérémie ». Jérémie avait annoncé un retour après soixante-dix ans (Jérémie 29:10).",
+      "en": "The decree comes \"that the word of the Lord by the mouth of Jeremiah might be fulfilled\". Jeremiah had foretold a return after seventy years (Jeremiah 29:10)."
+     },
+     "ref": "15:1:1"
+    },
+    {
+     "id": "story-return-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que rend le roi Cyrus aux exilés ?",
+      "en": "What does King Cyrus give back to the exiles?"
+     },
+     "choices": {
+      "fr": [
+       "Les terres de leurs pères",
+       "La couronne de leurs rois",
+       "Les ustensiles de la maison de l'Eternel",
+       "Les rouleaux de la loi"
+      ],
+      "en": [
+       "Their fathers' lands",
+       "Their kings' crown",
+       "The vessels of the house of the Lord",
+       "The scrolls of the law"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Cyrus rend « les ustensiles de la maison de l'Eternel, que Nebucadnetsar avait emportés de Jérusalem ». Ils sont remis à Scheschbatsar, prince de Juda (1:8).",
+      "en": "Cyrus brings out \"the vessels of the house of the Lord, which Nebuchadnezzar had brought forth out of Jerusalem\". They are handed to Sheshbazzar, the prince of Judah (1:8)."
+     },
+     "ref": "15:1:7"
+    },
+    {
+     "id": "story-return-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Pendant combien de temps Esdras lit-il le livre de la loi devant le peuple ?",
+      "en": "How long does Ezra read the book of the law before the people?"
+     },
+     "choices": {
+      "fr": [
+       "Du matin jusqu'au milieu du jour",
+       "Toute la nuit",
+       "Pendant sept jours",
+       "Une heure seulement"
+      ],
+      "en": [
+       "From morning until midday",
+       "All night long",
+       "For seven days",
+       "Only one hour"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Esdras lit « depuis le matin jusqu'au milieu du jour », devant les hommes, les femmes et tous ceux qui pouvaient comprendre, et « tout le peuple fut attentif ».",
+      "en": "Ezra reads \"from the morning until midday\", before the men, the women and all who could understand, \"and the ears of all the people were attentive\"."
+     },
+     "ref": "16:8:3"
+    },
+    {
+     "id": "story-return-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que font les Lévites pendant la lecture ?",
+      "en": "What do the Levites do during the reading?"
+     },
+     "choices": {
+      "fr": [
+       "Ils chantent des psaumes",
+       "Ils offrent des sacrifices",
+       "Ils gardent les portes de la ville",
+       "Ils donnent le sens pour faire comprendre ce qui est lu"
+      ],
+      "en": [
+       "They sing psalms",
+       "They offer sacrifices",
+       "They guard the city gates",
+       "They give the sense so the reading is understood"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ils lisaient distinctement dans le livre de la loi de Dieu, et ils en donnaient le sens pour faire comprendre ce qu'ils avaient lu. »",
+      "en": "\"They read in the book in the law of God distinctly, and gave the sense, and caused them to understand the reading.\""
+     },
+     "ref": "16:8:8"
+    },
+    {
+     "id": "story-return-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "À la fin du passage, le peuple se réjouit parce qu'il a compris les paroles qui lui ont été expliquées.",
+      "en": "At the end of the passage, the people rejoice because they have understood the words explained to them."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai. D'abord en larmes (8:9), le peuple fait de grandes réjouissances, « car ils avaient compris les paroles qu'on leur avait expliquées ».",
+      "en": "True. At first in tears (8:9), the people make great mirth, \"because they had understood the words that were declared unto them\"."
+     },
+     "ref": "16:8:12"
+    }
+   ]
+  },
+  {
+   "id": "story-new-covenant",
+   "title": {
+    "fr": "Une alliance nouvelle",
+    "en": "A new covenant"
+   },
+   "passages": [
+    "24:31:27-37"
+   ],
+   "intro": {
+    "fr": "Au temps de la chute de Jérusalem, Jérémie n'annonce pas seulement le retour d'exil. Il parle de jours où Dieu fera avec son peuple une alliance nouvelle.",
+    "en": "In the days of Jerusalem's fall, Jeremiah does not only announce the return from exile. He speaks of days when God will make a new covenant with his people."
+   },
+   "keyVerse": "24:31:33",
+   "takeaway": {
+    "fr": "Dieu promet une alliance nouvelle, différente de celle de la sortie d'Égypte : sa loi sera écrite dans les cœurs, tous le connaîtront et il pardonnera leur péché. Le Nouveau Testament cite ce passage (Hébreux 8:8-12).",
+    "en": "God promises a new covenant, unlike the one made at the exodus: his law will be written on hearts, all will know him, and he will forgive their sin. The New Testament quotes this passage (Hebrews 8:8-12)."
+   },
+   "questions": [
+    {
+     "id": "story-new-covenant-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Avec qui l'Eternel annonce-t-il qu'il fera une alliance nouvelle ?",
+      "en": "With whom does the Lord say he will make a new covenant?"
+     },
+     "choices": {
+      "fr": [
+       "Avec Babylone et la Perse",
+       "Avec les seuls sacrificateurs",
+       "Avec la maison d'Israël et la maison de Juda",
+       "Avec le roi de Juda"
+      ],
+      "en": [
+       "With Babylon and Persia",
+       "With the priests alone",
+       "With the house of Israel and the house of Judah",
+       "With the king of Judah"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Voici, les jours viennent, dit l'Eternel, Où je ferai avec la maison d'Israël et la maison de Juda Une alliance nouvelle ».",
+      "en": "\"Behold, the days come, saith the Lord, that I will make a new covenant with the house of Israel, and with the house of Judah\"."
+     },
+     "ref": "24:31:31"
+    },
+    {
+     "id": "story-new-covenant-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 31:33, où Dieu mettra-t-il sa loi dans cette alliance nouvelle ?",
+      "en": "According to 31:33, where will God put his law in this new covenant?"
+     },
+     "choices": {
+      "fr": [
+       "Sur de nouvelles tables de pierre",
+       "Dans leur cœur",
+       "Dans un temple rebâti",
+       "Sur les portes de leurs maisons"
+      ],
+      "en": [
+       "On new tables of stone",
+       "In their hearts",
+       "In a rebuilt temple",
+       "On the doors of their houses"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Je mettrai ma loi au dedans d'eux, Je l'écrirai dans leur coeur ». La première alliance, conclue à la sortie d'Égypte, avait été violée (31:32).",
+      "en": "\"I will put my law in their inward parts, and write it in their hearts\". The first covenant, made at the exodus from Egypt, had been broken (31:32)."
+     },
+     "ref": "24:31:33"
+    },
+    {
+     "id": "story-new-covenant-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Jérémie 31:34, chacun devra encore enseigner à son prochain à connaître l'Eternel.",
+      "en": "According to Jeremiah 31:34, everyone will still need to teach his neighbour to know the Lord."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. On n'enseignera plus son prochain en disant « Connaissez l'Eternel! », « Car tous me connaîtront, Depuis le plus petit jusqu'au plus grand ».",
+      "en": "False. They will no longer teach their neighbour saying \"Know the Lord\", \"for they shall all know me, from the least of them unto the greatest of them\"."
+     },
+     "ref": "24:31:34"
+    },
+    {
+     "id": "story-new-covenant-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit l'Eternel à propos du péché de son peuple en 31:34 ?",
+      "en": "What does the Lord say about his people's sin in 31:34?"
+     },
+     "choices": {
+      "fr": [
+       "Il pardonnera leur iniquité et ne se souviendra plus de leur péché",
+       "Il punira leur péché jusqu'à la quatrième génération",
+       "Il exigera de nouveaux sacrifices",
+       "Il oubliera leur péché s'ils rebâtissent le temple"
+      ],
+      "en": [
+       "He will forgive their iniquity and remember their sin no more",
+       "He will punish their sin to the fourth generation",
+       "He will require new sacrifices",
+       "He will forget their sin if they rebuild the temple"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Car je pardonnerai leur iniquité, Et je ne me souviendrai plus de leur péché. » Le pardon est au fondement de cette alliance nouvelle.",
+      "en": "\"For I will forgive their iniquity, and I will remember their sin no more.\" Forgiveness lies at the foundation of this new covenant."
+     },
+     "ref": "24:31:34"
+    },
+    {
+     "id": "story-new-covenant-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 31:28, dans quel but l'Eternel veillera-t-il désormais sur son peuple ?",
+      "en": "According to 31:28, for what purpose will the Lord now watch over his people?"
+     },
+     "choices": {
+      "fr": [
+       "Pour les disperser",
+       "Pour les mettre à l'épreuve",
+       "Pour les juger",
+       "Pour bâtir et pour planter"
+      ],
+      "en": [
+       "To scatter them",
+       "To put them to the test",
+       "To judge them",
+       "To build and to plant"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Après avoir veillé « pour arracher, abattre, détruire », Dieu veillera « pour bâtir et pour planter ». Le jugement de l'exil fait place à la restauration.",
+      "en": "Having watched over them \"to pluck up, and to break down\", God will watch over them \"to build, and to plant\". The judgement of exile gives way to restoration."
+     },
+     "ref": "24:31:28"
+    }
+   ]
+  },
+  {
+   "id": "story-birth",
+   "title": {
+    "fr": "La naissance de Jésus",
+    "en": "The birth of Jesus"
+   },
+   "passages": [
+    "42:2:1-20"
+   ],
+   "intro": {
+    "fr": "Plusieurs siècles après le retour d'exil, la Judée est sous l'autorité de Rome. L'Évangile de Luc raconte la naissance de Jésus à Bethléhem, la ville de David.",
+    "en": "Several centuries after the return from exile, Judea is under Roman rule. The Gospel of Luke tells of the birth of Jesus in Bethlehem, the city of David."
+   },
+   "keyVerse": "42:2:11",
+   "takeaway": {
+    "fr": "Jésus naît à Bethléhem, dans la ville de David, et il est couché dans une crèche. Un ange annonce à des bergers la naissance d'un Sauveur, le Christ, le Seigneur ; ils vont le voir puis racontent ce qu'ils ont entendu.",
+    "en": "Jesus is born in Bethlehem, the city of David, and laid in a manger. An angel announces to shepherds the birth of a Saviour, Christ the Lord; they go to see him and then spread what they have heard."
+   },
+   "questions": [
+    {
+     "id": "story-birth-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Joseph et Marie se rendent-ils à Bethléhem ?",
+      "en": "Why do Joseph and Mary go to Bethlehem?"
+     },
+     "choices": {
+      "fr": [
+       "Pour se faire inscrire lors d'un recensement ordonné par César Auguste",
+       "Pour célébrer la Pâque",
+       "Pour fuir le roi Hérode",
+       "Pour rendre visite à leur famille"
+      ],
+      "en": [
+       "To be registered in a census decreed by Caesar Augustus",
+       "To celebrate the Passover",
+       "To flee from King Herod",
+       "To visit their family"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Un édit de César Auguste ordonne un recensement, et chacun va se faire inscrire dans sa ville. Luc situe ainsi la naissance de Jésus dans l'histoire de l'Empire romain.",
+      "en": "A decree from Caesar Augustus orders that \"all the world should be taxed\", meaning registered, and each one goes to his own city."
+     },
+     "ref": "42:2:1-5"
+    },
+    {
+     "id": "story-birth-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Joseph va-t-il à Bethléhem plutôt qu'ailleurs ?",
+      "en": "Why does Joseph go to Bethlehem rather than anywhere else?"
+     },
+     "choices": {
+      "fr": [
+       "Parce que Marie y était née",
+       "Parce qu'il y travaillait",
+       "Parce qu'il était de la maison et de la famille de David",
+       "Parce que le temple s'y trouvait"
+      ],
+      "en": [
+       "Because Mary was born there",
+       "Because he worked there",
+       "Because he was of the house and lineage of David",
+       "Because the temple was there"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Bethléhem est « la ville de David », et Joseph « était de la maison et de la famille de David ». Le récit relie ainsi Jésus à la promesse faite à David.",
+      "en": "Bethlehem is \"the city of David\", and Joseph \"was of the house and lineage of David\". The account thus links Jesus to the promise made to David."
+     },
+     "ref": "42:2:4"
+    },
+    {
+     "id": "story-birth-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Où Marie couche-t-elle l'enfant, et pourquoi ?",
+      "en": "Where does Mary lay the child, and why?"
+     },
+     "choices": {
+      "fr": [
+       "Dans un berceau, chez des parents",
+       "Dans une maison prêtée par un berger",
+       "Dans le temple, pour le présenter",
+       "Dans une crèche, faute de place à l'hôtellerie"
+      ],
+      "en": [
+       "In a cradle, at relatives' home",
+       "In a house lent by a shepherd",
+       "In the temple, to present him",
+       "In a manger, because there was no room in the inn"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Elle l'emmaillote et le couche « dans une crèche, parce qu'il n'y avait pas de place pour eux dans l'hôtellerie ». Une crèche est une mangeoire pour le bétail.",
+      "en": "She wraps him in swaddling clothes and lays him \"in a manger; because there was no room for them in the inn\". A manger is a feeding trough for animals."
+     },
+     "ref": "42:2:7"
+    },
+    {
+     "id": "story-birth-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment l'ange désigne-t-il l'enfant qui vient de naître ?",
+      "en": "How does the angel describe the newborn child?"
+     },
+     "choices": {
+      "fr": [
+       "Un prophète, fils de Joseph",
+       "Un Sauveur, qui est le Christ, le Seigneur",
+       "Le futur roi de Rome",
+       "Un nouveau Moïse pour Israël"
+      ],
+      "en": [
+       "A prophet, the son of Joseph",
+       "A Saviour, which is Christ the Lord",
+       "The future king of Rome",
+       "A new Moses for Israel"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Aujourd'hui, dans la ville de David, il vous est né un Sauveur, qui est le Christ, le Seigneur. » « Christ » signifie « oint », comme les rois d'Israël.",
+      "en": "\"For unto you is born this day in the city of David a Saviour, which is Christ the Lord.\" \"Christ\" means \"anointed\", as Israel's kings were."
+     },
+     "ref": "42:2:11"
+    },
+    {
+     "id": "story-birth-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Après avoir vu l'enfant, les bergers gardent pour eux ce qu'ils ont entendu.",
+      "en": "After seeing the child, the shepherds keep what they have heard to themselves."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. « Ils racontèrent ce qui leur avait été dit au sujet de ce petit enfant », et tous ceux qui les entendirent furent dans l'étonnement (2:18).",
+      "en": "False. \"They made known abroad the saying which was told them concerning this child\", and all who heard it wondered (2:18)."
+     },
+     "ref": "42:2:17"
+    }
+   ]
+  },
+  {
+   "id": "story-cross",
+   "title": {
+    "fr": "La croix",
+    "en": "The cross"
+   },
+   "passages": [
+    "42:23:33-49"
+   ],
+   "intro": {
+    "fr": "Jésus a enseigné et guéri en Galilée, puis il est monté à Jérusalem. Arrêté et livré au gouverneur romain Pilate, il est conduit au lieu de l'exécution.",
+    "en": "Jesus has taught and healed in Galilee, then gone up to Jerusalem. Arrested and handed over to the Roman governor Pilate, he is led to the place of execution."
+   },
+   "keyVerse": "42:23:46",
+   "takeaway": {
+    "fr": "Jésus est crucifié entre deux malfaiteurs. Il prie pour ceux qui le crucifient, promet le paradis à l'un des malfaiteurs et remet son esprit à son Père ; le centenier reconnaît qu'il était juste.",
+    "en": "Jesus is crucified between two malefactors. He prays for those who crucify him, promises paradise to one of the malefactors and commits his spirit to his Father; the centurion acknowledges that he was righteous."
+   },
+   "questions": [
+    {
+     "id": "story-cross-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle parole de Jésus Luc rapporte-t-il juste après la crucifixion ?",
+      "en": "Which words of Jesus does Luke record right after the crucifixion?"
+     },
+     "choices": {
+      "fr": [
+       "Tout est accompli",
+       "Mon Dieu, pourquoi m'as-tu abandonné ?",
+       "Père, pardonne-leur, car ils ne savent ce qu'ils font",
+       "J'ai soif"
+      ],
+      "en": [
+       "It is finished",
+       "My God, why hast thou forsaken me?",
+       "Father, forgive them; for they know not what they do",
+       "I thirst"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Jésus dit: Père, pardonne-leur, car ils ne savent ce qu'ils font. » Les autres paroles proposées figurent dans d'autres Évangiles, pas dans ce passage de Luc.",
+      "en": "\"Then said Jesus, Father, forgive them; for they know not what they do.\" The other sayings listed appear in other Gospels, not in this passage of Luke."
+     },
+     "ref": "42:23:34"
+    },
+    {
+     "id": "story-cross-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle inscription est placée au-dessus de Jésus ?",
+      "en": "What inscription is placed above Jesus?"
+     },
+     "choices": {
+      "fr": [
+       "Celui-ci est le roi des Juifs",
+       "Celui-ci est le fils de David",
+       "Celui-ci est le prophète de Galilée",
+       "Celui-ci a blasphémé contre Dieu"
+      ],
+      "en": [
+       "This is the King of the Jews",
+       "This is the son of David",
+       "This is the prophet of Galilee",
+       "This man blasphemed against God"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "L'inscription porte : « Celui-ci est le roi des Juifs. » Les soldats s'en moquent : « Si tu es le roi des Juifs, sauve-toi toi-même! » (23:37).",
+      "en": "The superscription reads \"THIS IS THE KING OF THE JEWS\", written in Greek, Latin and Hebrew. The soldiers mock: \"If thou be the king of the Jews, save thyself\" (23:37)."
+     },
+     "ref": "42:23:38"
+    },
+    {
+     "id": "story-cross-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande à Jésus le malfaiteur qui reprend son compagnon ?",
+      "en": "What does the malefactor who rebukes his companion ask of Jesus?"
+     },
+     "choices": {
+      "fr": [
+       "Sauve-toi toi-même, et sauve-nous",
+       "Descends de la croix",
+       "Pardonne-moi tous mes crimes",
+       "Souviens-toi de moi, quand tu viendras dans ton règne"
+      ],
+      "en": [
+       "Save thyself and us",
+       "Come down from the cross",
+       "Forgive me all my crimes",
+       "Remember me when thou comest into thy kingdom"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Il reconnaît que Jésus « n'a rien fait de mal » et lui dit : « Souviens-toi de moi, quand tu viendras dans ton règne. » « Sauve-toi toi-même, et sauve-nous » est l'injure de l'autre malfaiteur (23:39).",
+      "en": "He acknowledges that Jesus \"hath done nothing amiss\" and says, \"Lord, remember me when thou comest into thy kingdom.\" \"Save thyself and us\" is the other malefactor's taunt (23:39)."
+     },
+     "ref": "42:23:42"
+    },
+    {
+     "id": "story-cross-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Luc, pendant les ténèbres, le voile du temple se déchire par le milieu.",
+      "en": "According to Luke, during the darkness the veil of the temple is torn in the middle."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : des ténèbres couvrent la terre de la sixième à la neuvième heure, et « le voile du temple se déchira par le milieu ». Ce voile séparait le lieu très saint du reste du temple.",
+      "en": "True: darkness covers the earth from the sixth to the ninth hour, and \"the veil of the temple was rent in the midst\". This veil separated the most holy place from the rest of the temple."
+     },
+     "ref": "42:23:45"
+    },
+    {
+     "id": "story-cross-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit le centenier en voyant ce qui est arrivé ?",
+      "en": "What does the centurion say when he sees what has happened?"
+     },
+     "choices": {
+      "fr": [
+       "Cet homme était un prophète",
+       "Certainement, cet homme était juste",
+       "Nous avons condamné un roi",
+       "Qu'on le descende de la croix"
+      ],
+      "en": [
+       "This man was a prophet",
+       "Certainly this was a righteous man",
+       "We have condemned a king",
+       "Take him down from the cross"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Le centenier, voyant ce qui était arrivé, glorifia Dieu, et dit: Certainement, cet homme était juste. » Un officier romain reconnaît l'innocence de Jésus.",
+      "en": "\"When the centurion saw what was done, he glorified God, saying, Certainly this was a righteous man.\" A Roman officer acknowledges Jesus' innocence."
+     },
+     "ref": "42:23:47"
+    },
+    {
+     "id": "story-cross-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui se tient à distance pour regarder ce qui se passe ?",
+      "en": "Who stands at a distance watching these things?"
+     },
+     "choices": {
+      "fr": [
+       "Les grands prêtres et les scribes",
+       "Les soldats romains",
+       "Ses connaissances et les femmes venues de Galilée avec lui",
+       "Pilate et Hérode"
+      ],
+      "en": [
+       "The chief priests and the scribes",
+       "The Roman soldiers",
+       "His acquaintances and the women who followed him from Galilee",
+       "Pilate and Herod"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Tous ceux de la connaissance de Jésus, et les femmes qui l'avaient accompagné depuis la Galilée, se tenaient dans l'éloignement ». Ces femmes réapparaissent au tombeau (24:1).",
+      "en": "\"All his acquaintance, and the women that followed him from Galilee, stood afar off, beholding these things.\" These women reappear at the tomb (24:1)."
+     },
+     "ref": "42:23:49"
+    }
+   ]
+  },
+  {
+   "id": "story-resurrection",
+   "title": {
+    "fr": "Le tombeau vide",
+    "en": "The empty tomb"
+   },
+   "passages": [
+    "42:24:1-12"
+   ],
+   "intro": {
+    "fr": "Après sa mort, le corps de Jésus a été déposé dans un sépulcre. Le premier jour de la semaine, les femmes venues de Galilée reviennent au tombeau avec des aromates.",
+    "en": "After his death, Jesus' body was laid in a sepulchre. On the first day of the week, the women from Galilee return to the tomb with spices."
+   },
+   "keyVerse": "42:24:6",
+   "takeaway": {
+    "fr": "Les femmes trouvent le tombeau ouvert et vide ; deux hommes leur annoncent que Jésus est ressuscité, comme il l'avait dit. Les apôtres n'y croient pas d'abord, mais Pierre court au sépulcre et repart étonné.",
+    "en": "The women find the tomb open and empty; two men tell them that Jesus is risen, as he had said. The apostles do not believe at first, but Peter runs to the sepulchre and leaves wondering."
+   },
+   "questions": [
+    {
+     "id": "story-resurrection-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Que trouvent les femmes en arrivant au sépulcre ?",
+      "en": "What do the women find when they reach the sepulchre?"
+     },
+     "choices": {
+      "fr": [
+       "Des gardes endormis devant la pierre",
+       "La pierre roulée et le tombeau vide du corps de Jésus",
+       "Jésus assis devant le tombeau",
+       "Les disciples déjà sur place"
+      ],
+      "en": [
+       "Guards asleep in front of the stone",
+       "The stone rolled away and the body of Jesus gone",
+       "Jesus sitting in front of the tomb",
+       "The disciples already there"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Elles trouvèrent que la pierre avait été roulée de devant le sépulcre; et, étant entrées, elles ne trouvèrent pas le corps du Seigneur Jésus. »",
+      "en": "\"They found the stone rolled away from the sepulchre. And they entered in, and found not the body of the Lord Jesus.\""
+     },
+     "ref": "42:24:2-3"
+    },
+    {
+     "id": "story-resurrection-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question les deux hommes aux habits resplendissants posent-ils aux femmes ?",
+      "en": "What question do the two men in shining garments ask the women?"
+     },
+     "choices": {
+      "fr": [
+       "Pourquoi cherchez-vous parmi les morts celui qui est vivant?",
+       "Qui a roulé la pierre?",
+       "Où sont les disciples?",
+       "Pourquoi pleurez-vous?"
+      ],
+      "en": [
+       "Why seek ye the living among the dead?",
+       "Who rolled away the stone?",
+       "Where are the disciples?",
+       "Why weep ye?"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Pourquoi cherchez-vous parmi les morts celui qui est vivant? Il n'est point ici, mais il est ressuscité » (24:5-6).",
+      "en": "\"Why seek ye the living among the dead? He is not here, but is risen\" (24:5-6)."
+     },
+     "ref": "42:24:5"
+    },
+    {
+     "id": "story-resurrection-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que rappellent les deux hommes aux femmes ?",
+      "en": "What do the two men remind the women of?"
+     },
+     "choices": {
+      "fr": [
+       "La prophétie de Jérémie sur l'alliance nouvelle",
+       "La naissance de Jésus à Bethléhem",
+       "Les ordres de Pilate",
+       "Les paroles de Jésus annonçant qu'il ressusciterait le troisième jour"
+      ],
+      "en": [
+       "Jeremiah's prophecy of the new covenant",
+       "Jesus' birth in Bethlehem",
+       "Pilate's orders",
+       "Jesus' words that he would rise again on the third day"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Jésus avait dit en Galilée : « Il faut que le Fils de l'homme soit livré […] qu'il soit crucifié, et qu'il ressuscite le troisième jour. » Les femmes se souviennent alors de ses paroles (24:8).",
+      "en": "In Galilee Jesus had said, \"The Son of man must be delivered […] and be crucified, and the third day rise again.\" The women then remember his words (24:8)."
+     },
+     "ref": "42:24:7"
+    },
+    {
+     "id": "story-resurrection-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment les apôtres accueillent-ils le récit des femmes ?",
+      "en": "How do the apostles receive the women's report?"
+     },
+     "choices": {
+      "fr": [
+       "Ils partent aussitôt tous ensemble au tombeau",
+       "Ils se réjouissent et louent Dieu",
+       "Ils le tiennent pour des rêveries et ne les croient pas",
+       "Ils vont le rapporter aux grands prêtres"
+      ],
+      "en": [
+       "They all set off together for the tomb at once",
+       "They rejoice and praise God",
+       "It seems to them idle tales, and they do not believe them",
+       "They go and report it to the chief priests"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Ils tinrent ces discours pour des rêveries, et ils ne crurent pas ces femmes. » Parmi elles se trouvaient Marie de Magdala, Jeanne et Marie, mère de Jacques (24:10).",
+      "en": "\"Their words seemed to them as idle tales, and they believed them not.\" Among the women were Mary Magdalene, Joanna and Mary the mother of James (24:10)."
+     },
+     "ref": "42:24:11"
+    },
+    {
+     "id": "story-resurrection-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Pierre court au sépulcre et n'y voit que les linges.",
+      "en": "Peter runs to the sepulchre and sees only the linen clothes."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : Pierre se baisse et « ne vit que les linges qui étaient à terre ». Il s'en va « dans l'étonnement de ce qui était arrivé ».",
+      "en": "True: Peter stoops down and \"beheld the linen clothes laid by themselves\". He departs \"wondering in himself at that which was come to pass\"."
+     },
+     "ref": "42:24:12"
+    }
+   ]
+  },
+  {
+   "id": "story-pentecost",
+   "title": {
+    "fr": "La Pentecôte",
+    "en": "Pentecost"
+   },
+   "passages": [
+    "44:2:1-21"
+   ],
+   "intro": {
+    "fr": "Ressuscité, Jésus a promis à ses disciples qu'ils recevraient le Saint-Esprit (Actes 1:8). Ils sont réunis à Jérusalem le jour de la Pentecôte, une fête juive qui attire des pèlerins de nombreux pays.",
+    "en": "After rising from the dead, Jesus promised his disciples they would receive the Holy Ghost (Acts 1:8). They are gathered in Jerusalem on the day of Pentecost, a Jewish feast that draws pilgrims from many lands."
+   },
+   "keyVerse": "44:2:17",
+   "takeaway": {
+    "fr": "Le Saint-Esprit vient sur les disciples, qui parlent dans les langues des pèlerins venus de nombreuses nations. Pierre explique l'événement par la prophétie de Joël : Dieu répand son Esprit sur toute chair.",
+    "en": "The Holy Ghost comes upon the disciples, who speak in the languages of pilgrims from many nations. Peter explains the event through Joel's prophecy: God pours out his Spirit upon all flesh."
+   },
+   "questions": [
+    {
+     "id": "story-pentecost-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quels signes accompagnent la venue de l'Esprit sur les disciples ?",
+      "en": "What signs accompany the coming of the Spirit upon the disciples?"
+     },
+     "choices": {
+      "fr": [
+       "Un tremblement de terre et une nuée",
+       "Une colombe et une voix du ciel",
+       "Un bruit comme un vent impétueux et des langues semblables à du feu",
+       "Une grande lumière et le son d'une trompette"
+      ],
+      "en": [
+       "An earthquake and a cloud",
+       "A dove and a voice from heaven",
+       "A sound like a rushing mighty wind and tongues like fire",
+       "A great light and the sound of a trumpet"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Un bruit « comme celui d'un vent impétueux » remplit la maison, et « des langues, semblables à des langues de feu » se posent sur chacun d'eux.",
+      "en": "\"A sound from heaven as of a rushing mighty wind\" fills the house, and \"cloven tongues like as of fire\" sit upon each of them."
+     },
+     "ref": "44:2:2-3"
+    },
+    {
+     "id": "story-pentecost-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi la foule est-elle confondue ?",
+      "en": "Why is the crowd confounded?"
+     },
+     "choices": {
+      "fr": [
+       "Chacun entend les disciples parler dans sa propre langue",
+       "Les disciples guérissent des malades",
+       "Le temple se met à trembler",
+       "Les disciples refusent de parler"
+      ],
+      "en": [
+       "Each one hears the disciples speak in his own language",
+       "The disciples heal the sick",
+       "The temple begins to shake",
+       "The disciples refuse to speak"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "La multitude accourt et est confondue « parce que chacun les entendait parler dans sa propre langue ». Or ces disciples sont des Galiléens (2:7).",
+      "en": "The multitude comes together and is confounded \"because that every man heard them speak in his own language\". Yet these disciples are Galileans (2:7)."
+     },
+     "ref": "44:2:6"
+    },
+    {
+     "id": "story-pentecost-3",
+     "kind": "choice",
+     "q": {
+      "fr": "De quoi les auditeurs entendent-ils parler dans leurs langues ?",
+      "en": "What do the listeners hear spoken of in their own tongues?"
+     },
+     "choices": {
+      "fr": [
+       "De la chute de Babylone",
+       "Des lois de Moïse",
+       "De la fin du monde",
+       "Des merveilles de Dieu"
+      ],
+      "en": [
+       "The fall of Babylon",
+       "The laws of Moses",
+       "The end of the world",
+       "The wonderful works of God"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Les pèlerins venus de nombreuses régions disent : « comment les entendons-nous parler dans nos langues des merveilles de Dieu? »",
+      "en": "Pilgrims from many regions say, \"we do hear them speak in our tongues the wonderful works of God\"."
+     },
+     "ref": "44:2:11"
+    },
+    {
+     "id": "story-pentecost-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Pierre reconnaît que les disciples ont bu trop de vin doux.",
+      "en": "Peter admits that the disciples have drunk too much new wine."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux. Pierre répond aux moqueurs : « Ces gens ne sont pas ivres, comme vous le supposez, car c'est la troisième heure du jour », soit environ neuf heures du matin.",
+      "en": "False. Peter answers the mockers, \"these are not drunken, as ye suppose, seeing it is but the third hour of the day\", that is, about nine in the morning."
+     },
+     "ref": "44:2:15"
+    },
+    {
+     "id": "story-pentecost-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel prophète Pierre cite-t-il pour expliquer l'événement ?",
+      "en": "Which prophet does Peter quote to explain the event?"
+     },
+     "choices": {
+      "fr": [
+       "Jérémie",
+       "Joël",
+       "Daniel",
+       "Ezéchiel"
+      ],
+      "en": [
+       "Jeremiah",
+       "Joel",
+       "Daniel",
+       "Ezekiel"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Mais c'est ici ce qui a été dit par le prophète Joël ». La citation qui suit (2:17-21) reprend Joël 2:28-32.",
+      "en": "\"But this is that which was spoken by the prophet Joel\". The quotation that follows (2:17-21) comes from Joel 2:28-32."
+     },
+     "ref": "44:2:16"
+    },
+    {
+     "id": "story-pentecost-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon la prophétie citée, sur qui Dieu répandra-t-il de son Esprit ?",
+      "en": "According to the prophecy quoted, upon whom will God pour out his Spirit?"
+     },
+     "choices": {
+      "fr": [
+       "Sur les seuls prophètes",
+       "Sur les rois et les sacrificateurs",
+       "Sur les habitants de Jérusalem seulement",
+       "Sur toute chair : fils et filles, jeunes gens et vieillards"
+      ],
+      "en": [
+       "On the prophets alone",
+       "On kings and priests",
+       "On the people of Jerusalem only",
+       "On all flesh: sons and daughters, young men and old men"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Je répandrai de mon Esprit sur toute chair; Vos fils et vos filles prophétiseront, Vos jeunes gens auront des visions, Et vos vieillards auront des songes. »",
+      "en": "\"I will pour out of my Spirit upon all flesh: and your sons and your daughters shall prophesy, and your young men shall see visions, and your old men shall dream dreams.\""
+     },
+     "ref": "44:2:17"
+    }
+   ]
+  },
+  {
+   "id": "story-new-creation",
+   "title": {
+    "fr": "Toutes choses nouvelles",
+    "en": "All things new"
+   },
+   "passages": [
+    "66:21:1-7",
+    "66:22:1-5"
+   ],
+   "intro": {
+    "fr": "Le dernier livre de la Bible rapporte les visions de Jean. Ses derniers chapitres décrivent l'aboutissement du récit commencé dans la Genèse : un nouveau ciel et une nouvelle terre.",
+    "en": "The last book of the Bible records John's visions. Its final chapters describe the goal of the story that began in Genesis: a new heaven and a new earth."
+   },
+   "keyVerse": "66:21:5",
+   "takeaway": {
+    "fr": "Jean voit un nouveau ciel, une nouvelle terre et la nouvelle Jérusalem, où Dieu habite avec les hommes. La mort et la douleur ne sont plus, l'arbre de vie réapparaît et il n'y a plus d'anathème.",
+    "en": "John sees a new heaven, a new earth and the new Jerusalem, where God dwells with men. Death and pain are no more, the tree of life reappears, and there is no more curse."
+   },
+   "questions": [
+    {
+     "id": "story-new-creation-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Que voit Jean au début du chapitre 21 ?",
+      "en": "What does John see at the start of chapter 21?"
+     },
+     "choices": {
+      "fr": [
+       "Un nouveau ciel et une nouvelle terre",
+       "Une grande bataille dans le ciel",
+       "Un livre scellé de sept sceaux",
+       "Un temple rebâti à Jérusalem"
+      ],
+      "en": [
+       "A new heaven and a new earth",
+       "A great battle in heaven",
+       "A book sealed with seven seals",
+       "A rebuilt temple in Jerusalem"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Puis je vis un nouveau ciel et une nouvelle terre; car le premier ciel et la première terre avaient disparu ». Le récit biblique, ouvert par la création des cieux et de la terre (Genèse 1:1), se clôt sur leur renouvellement.",
+      "en": "\"And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away\". The story that opened with the creation of heaven and earth (Genesis 1:1) closes with their renewal."
+     },
+     "ref": "66:21:1"
+    },
+    {
+     "id": "story-new-creation-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que proclame la forte voix entendue par Jean en 21:3 ?",
+      "en": "What does the great voice John hears in 21:3 proclaim?"
+     },
+     "choices": {
+      "fr": [
+       "Que le jugement va commencer",
+       "Que les nations sont rassemblées",
+       "Que Dieu habitera avec les hommes, qui seront son peuple",
+       "Que la ville sera bâtie par les hommes"
+      ],
+      "en": [
+       "That the judgement is about to begin",
+       "That the nations are gathered",
+       "That God will dwell with men, and they shall be his people",
+       "That the city will be built by human hands"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Voici le tabernacle de Dieu avec les hommes! Il habitera avec eux, et ils seront son peuple ». La formule rappelle la promesse de l'alliance : « je serai leur Dieu, et ils seront mon peuple » (Jérémie 31:33).",
+      "en": "\"Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people\". This echoes the covenant promise: \"will be their God, and they shall be my people\" (Jeremiah 31:33)."
+     },
+     "ref": "66:21:3"
+    },
+    {
+     "id": "story-new-creation-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 21:4, qu'est-ce qui ne sera plus ?",
+      "en": "According to 21:4, what will be no more?"
+     },
+     "choices": {
+      "fr": [
+       "Le soleil, la lune et les étoiles",
+       "La mort, le deuil, le cri et la douleur",
+       "Les nations et leurs rois",
+       "Le travail et le repos"
+      ],
+      "en": [
+       "The sun, the moon and the stars",
+       "Death, sorrow, crying and pain",
+       "The nations and their kings",
+       "Work and rest"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Dieu « essuiera toute larme de leurs yeux, et la mort ne sera plus, et il n'y aura plus ni deuil, ni cri, ni douleur, car les premières choses ont disparu ».",
+      "en": "\"God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.\""
+     },
+     "ref": "66:21:4"
+    },
+    {
+     "id": "story-new-creation-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment se désigne celui qui est assis sur le trône en 21:6 ?",
+      "en": "How does the one sitting on the throne describe himself in 21:6?"
+     },
+     "choices": {
+      "fr": [
+       "Le roi des rois",
+       "Le berger d'Israël",
+       "Le juge de la terre",
+       "L'alpha et l'oméga, le commencement et la fin"
+      ],
+      "en": [
+       "The King of kings",
+       "The shepherd of Israel",
+       "The judge of the earth",
+       "Alpha and Omega, the beginning and the end"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Je suis l'alpha et l'oméga, le commencement et la fin. » Alpha et oméga sont la première et la dernière lettre de l'alphabet grec.",
+      "en": "\"I am Alpha and Omega, the beginning and the end.\" Alpha and omega are the first and last letters of the Greek alphabet."
+     },
+     "ref": "66:21:6"
+    },
+    {
+     "id": "story-new-creation-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Apocalypse 22:2 mentionne un arbre de vie, comme le jardin d'Éden en Genèse 3.",
+      "en": "Revelation 22:2 mentions a tree of life, as in the garden of Eden in Genesis 3."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : sur les bords du fleuve se trouve « un arbre de vie », dont les feuilles servent « à la guérison des nations ». En Genèse 3:24, le chemin de l'arbre de vie était gardé par des chérubins.",
+      "en": "True: on either side of the river stands \"the tree of life\", whose leaves are \"for the healing of the nations\". In Genesis 3:24, the way to the tree of life was guarded by cherubims."
+     },
+     "ref": "66:22:2"
+    },
+    {
+     "id": "story-new-creation-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi n'aura-t-on plus besoin de lampe ni de lumière dans la ville ?",
+      "en": "Why will there be no need of a lamp or light in the city?"
+     },
+     "choices": {
+      "fr": [
+       "Parce que la ville sera bâtie d'or pur",
+       "Parce que le soleil ne se couchera plus",
+       "Parce que le Seigneur Dieu les éclairera",
+       "Parce que les habitants n'auront plus besoin de voir"
+      ],
+      "en": [
+       "Because the city will be built of pure gold",
+       "Because the sun will never set",
+       "Because the Lord God gives them light",
+       "Because the inhabitants will no longer need to see"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Il n'y aura plus de nuit; et ils n'auront besoin ni de lampe ni de lumière, parce que le Seigneur Dieu les éclairera. » Le récit qui s'ouvrait sur « Que la lumière soit! » (Genèse 1:3) s'achève sur la lumière de Dieu lui-même.",
+      "en": "\"There shall be no night there; and they need no candle, neither light of the sun; for the Lord God giveth them light.\" The story that began with \"Let there be light\" (Genesis 1:3) ends with the light of God himself."
+     },
+     "ref": "66:22:5"
+    }
+   ]
+  }
+ ]
+}

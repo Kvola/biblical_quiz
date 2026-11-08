@@ -1,0 +1,42 @@
+import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import 'bible/bible.dart';
+import 'content/content.dart';
+import 'data/database.dart';
+import 'data/progress_repository.dart';
+import 'data/settings_repository.dart';
+
+/// Fournis dans `main()` via `overrideWithValue`.
+final databaseProvider = Provider<AppDatabase>((ref) => throw UnimplementedError());
+final assetBundleProvider = Provider<AssetBundle>((ref) => rootBundle);
+
+final settingsRepoProvider = Provider((ref) => SettingsRepository(ref.watch(databaseProvider)));
+final progressRepoProvider = Provider((ref) => ProgressRepository(ref.watch(databaseProvider)));
+
+final settingsProvider = StreamProvider<AppSettings>((ref) => ref.watch(settingsRepoProvider).watch());
+
+/// Langue effective du contenu (« fr » ou « en »), posée par l'application
+/// d'après la locale résolue : réglage explicite, sinon langue du téléphone.
+final langProvider = Provider<String>((ref) => 'fr');
+
+final contentProvider = FutureProvider<Content>((ref) => Content.load(ref.watch(assetBundleProvider)));
+
+/// Chaque Bible est chargée à la première demande puis gardée en mémoire.
+final bibleProvider = FutureProvider.family<Bible, Translation>(
+  (ref, t) => Bible.load(ref.watch(assetBundleProvider), t),
+);
+
+final lessonProgressProvider = StreamProvider<Map<String, LessonProgressData>>(
+  (ref) => ref.watch(progressRepoProvider).watchLessons(),
+);
+
+final completedProvider = Provider<Set<String>>(
+  (ref) => ref.watch(lessonProgressProvider).value?.keys.toSet() ?? const {},
+);
+
+final dueProvider = StreamProvider<List<String>>((ref) => ref.watch(progressRepoProvider).watchDue());
+
+final summaryProvider = StreamProvider<ProgressSummary>((ref) => ref.watch(progressRepoProvider).watchSummary());
+
+final favoritesProvider = StreamProvider<List<String>>((ref) => ref.watch(progressRepoProvider).watchFavorites());

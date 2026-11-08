@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" rx="0" fill="#1E3A5F"/>
+  <g id="mark">
+    <!-- rayons -->
+    <g stroke="#C9A227" stroke-width="22" stroke-linecap="round">
+      <line x1="512" y1="170" x2="512" y2="270"/>
+      <line x1="330" y1="230" x2="378" y2="318"/>
+      <line x1="694" y1="230" x2="646" y2="318"/>
+      <line x1="196" y1="300" x2="276" y2="344"/>
+      <line x1="828" y1="300" x2="748" y2="344"/>
+    </g>
+    <!-- livre ouvert -->
+    <path d="M512 430 C430 380 300 370 200 395 L200 770 C300 745 430 755 512 805 Z" fill="#FBF7EF"/>
+    <path d="M512 430 C594 380 724 370 824 395 L824 770 C724 745 594 755 512 805 Z" fill="#F1E8D6"/>
+    <path d="M512 430 L512 805" stroke="#1E3A5F" stroke-width="10"/>
+    <!-- lignes de texte -->
+    <g stroke="#C9B98F" stroke-width="12" stroke-linecap="round">
+      <line x1="260" y1="480" x2="450" y2="500"/>
+      <line x1="260" y1="540" x2="450" y2="560"/>
+      <line x1="260" y1="600" x2="450" y2="620"/>
+      <line x1="574" y1="500" x2="764" y2="480"/>
+      <line x1="574" y1="560" x2="764" y2="540"/>
+    </g>
+    <!-- coche dorée : comprendre -->
+    <circle cx="700" cy="660" r="92" fill="#C9A227"/>
+    <path d="M652 662 L688 698 L752 628" fill="none" stroke="#1E3A5F" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

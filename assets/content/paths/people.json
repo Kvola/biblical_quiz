@@ -1,0 +1,2807 @@
+{
+ "id": "people",
+ "order": 5,
+ "icon": "groups",
+ "title": {
+  "fr": "Des hommes et des femmes",
+  "en": "Men and women of the Bible"
+ },
+ "description": {
+  "fr": "Rencontrer les personnes dont la Bible raconte l'histoire : un épisode clé de leur vie, lu dans le texte.",
+  "en": "Meet the people whose stories the Bible tells: one key episode from each life, read straight from the text."
+ },
+ "lessons": [
+  {
+   "id": "people-noah",
+   "title": {
+    "fr": "Noé construit l'arche",
+    "en": "Noah builds the ark"
+   },
+   "passages": [
+    "1:6:9-22",
+    "1:9:8-17"
+   ],
+   "intro": {
+    "fr": "Noé appartient aux premières générations racontées par la Genèse, bien avant Abraham. Le texte le présente dans un monde corrompu, puis rapporte l'alliance que Dieu conclut avec lui après le déluge.",
+    "en": "Noah belongs to the earliest generations told in Genesis, long before Abraham. The text introduces him in a corrupt world, then reports the covenant God makes with him after the flood."
+   },
+   "keyVerse": "1:6:22",
+   "takeaway": {
+    "fr": "Noé, homme juste, fait tout ce que Dieu lui ordonne pour construire l'arche. Après le déluge, Dieu établit une alliance avec toute chair et en donne pour signe l'arc dans la nue.",
+    "en": "Noah, a just man, does all that God commands him in building the ark. After the flood, God establishes a covenant with all flesh and gives the bow in the cloud as its sign."
+   },
+   "questions": [
+    {
+     "id": "people-noah-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Genèse 6:9 décrit-il Noé ?",
+      "en": "How does Genesis 6:9 describe Noah?"
+     },
+     "choices": {
+      "fr": [
+       "Un roi puissant qui gouvernait les nations",
+       "Un prêtre qui offrait des sacrifices",
+       "Un homme juste et intègre qui marchait avec Dieu",
+       "Un berger qui vivait seul au désert"
+      ],
+      "en": [
+       "A mighty king who ruled the nations",
+       "A priest who offered sacrifices",
+       "A just and perfect man who walked with God",
+       "A shepherd who lived alone in the desert"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le texte dit : « Noé était un homme juste et intègre dans son temps; Noé marchait avec Dieu. » Ce portrait contraste avec la terre corrompue décrite juste après.",
+      "en": "The text says: “Noah was a just man and perfect in his generations, and Noah walked with God.” This portrait contrasts with the corrupt earth described right after."
+     },
+     "ref": "1:6:9"
+    },
+    {
+     "id": "people-noah-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Genèse 6:13, de quoi les hommes ont-ils rempli la terre ?",
+      "en": "According to Genesis 6:13, what have people filled the earth with?"
+     },
+     "choices": {
+      "fr": [
+       "D'idoles",
+       "De violence",
+       "De villes fortifiées",
+       "De mensonges"
+      ],
+      "en": [
+       "Idols",
+       "Violence",
+       "Fortified cities",
+       "Lies"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Dieu dit à Noé : « ils ont rempli la terre de violence ». Le verset 11 l'avait déjà dit : « la terre était pleine de violence ».",
+      "en": "God tells Noah that “the earth is filled with violence through them.” Verse 11 had already said that “the earth was filled with violence.”"
+     },
+     "ref": "1:6:13"
+    },
+    {
+     "id": "people-noah-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Genèse 6:18, seuls Noé et sa femme devaient entrer dans l'arche.",
+      "en": "According to Genesis 6:18, only Noah and his wife were to enter the ark."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Dieu dit : « tu entreras dans l'arche, toi et tes fils, ta femme et les femmes de tes fils avec toi ». Le verset 10 nomme les trois fils : Sem, Cham et Japhet.",
+      "en": "God says: “thou shalt come into the ark, thou, and thy sons, and thy wife, and thy sons’ wives with thee.” Verse 10 names the three sons: Shem, Ham and Japheth."
+     },
+     "ref": "1:6:18"
+    },
+    {
+     "id": "people-noah-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Noé exécuta tout ce que Dieu lui avait ordonné.",
+      "en": "Noah did everything God had commanded him."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Le chapitre 6 se termine ainsi : « C'est ce que fit Noé: il exécuta tout ce que Dieu lui avait ordonné. »",
+      "en": "Chapter 6 ends this way: “Thus did Noah; according to all that God commanded him, so did he.”"
+     },
+     "ref": "1:6:22"
+    },
+    {
+     "id": "people-noah-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel est le signe de l'alliance que Dieu établit après le déluge ?",
+      "en": "What is the sign of the covenant God makes after the flood?"
+     },
+     "choices": {
+      "fr": [
+       "Une colombe portant un rameau",
+       "Un autel de pierres",
+       "Une étoile dans le ciel",
+       "L'arc placé dans la nue"
+      ],
+      "en": [
+       "A dove carrying a branch",
+       "An altar of stones",
+       "A star in the sky",
+       "The bow set in the cloud"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Dieu dit : « j'ai placé mon arc dans la nue, et il servira de signe d'alliance entre moi et la terre. » Quand l'arc paraît, Dieu dit qu'il se souviendra de son alliance (v. 14-16).",
+      "en": "God says: “I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth.” When the bow appears, God says he will remember his covenant (vv. 14-16)."
+     },
+     "ref": "1:9:13"
+    },
+    {
+     "id": "people-noah-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que promet Dieu dans cette alliance ?",
+      "en": "What does God promise in this covenant?"
+     },
+     "choices": {
+      "fr": [
+       "Que la terre ne connaîtra plus la famine",
+       "Qu'il n'y aura plus de déluge pour détruire la terre",
+       "Que les descendants de Noé régneront sur les nations",
+       "Que les animaux ne craindront plus l'homme"
+      ],
+      "en": [
+       "That the earth will never again know famine",
+       "That there will be no more flood to destroy the earth",
+       "That Noah's descendants will rule the nations",
+       "That animals will no longer fear man"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Dieu déclare : « aucune chair ne sera plus exterminée par les eaux du déluge, et il n'y aura plus de déluge pour détruire la terre. » L'alliance concerne Noé, sa postérité et tous les êtres vivants (v. 9-10).",
+      "en": "God declares: “neither shall all flesh be cut off any more by the waters of a flood; neither shall there any more be a flood to destroy the earth.” The covenant includes Noah, his descendants and every living creature (vv. 9-10)."
+     },
+     "ref": "1:9:11"
+    }
+   ]
+  },
+  {
+   "id": "people-abraham",
+   "title": {
+    "fr": "Abraham et Isaac",
+    "en": "Abraham and Isaac"
+   },
+   "passages": [
+    "1:22:1-19"
+   ],
+   "intro": {
+    "fr": "Abraham, ancêtre d'Israël, a reçu de Dieu la promesse d'une grande postérité. Dans sa vieillesse, son fils Isaac lui est né. Genèse 22 raconte comment Dieu met alors Abraham à l'épreuve.",
+    "en": "Abraham, the ancestor of Israel, had received God's promise of many descendants. In his old age his son Isaac was born. Genesis 22 tells how God then puts Abraham to the test."
+   },
+   "keyVerse": "1:22:8",
+   "takeaway": {
+    "fr": "Abraham obéit jusqu'au bout, mais l'ange de l'Eternel arrête sa main et un bélier est offert à la place d'Isaac. Dieu renouvelle alors sa promesse : toutes les nations seront bénies en sa postérité.",
+    "en": "Abraham obeys to the end, but the angel of the Lord stops his hand and a ram is offered in Isaac's place. God then renews his promise: all nations will be blessed in his seed."
+   },
+   "questions": [
+    {
+     "id": "people-abraham-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans quel pays Dieu envoie-t-il Abraham avec son fils ?",
+      "en": "To which land does God send Abraham with his son?"
+     },
+     "choices": {
+      "fr": [
+       "Le pays de Moab",
+       "Le pays de Madian",
+       "Le pays de Morija",
+       "Le pays de Gosen"
+      ],
+      "en": [
+       "The land of Moab",
+       "The land of Midian",
+       "The land of Moriah",
+       "The land of Goshen"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Dieu dit : « va-t'en au pays de Morija, et là offre-le en holocauste sur l'une des montagnes que je te dirai. » Le voyage dure jusqu'au troisième jour (v. 4).",
+      "en": "God says: “get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of.” The journey lasts until the third day (v. 4)."
+     },
+     "ref": "1:22:2"
+    },
+    {
+     "id": "people-abraham-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question Isaac pose-t-il à son père en chemin ?",
+      "en": "What question does Isaac ask his father on the way?"
+     },
+     "choices": {
+      "fr": [
+       "Où est l'agneau pour l'holocauste ?",
+       "Pourquoi les serviteurs restent-ils en arrière ?",
+       "Sur quelle montagne allons-nous ?",
+       "Quand reviendrons-nous à la maison ?"
+      ],
+      "en": [
+       "Where is the lamb for a burnt offering?",
+       "Why are the servants staying behind?",
+       "Which mountain are we going to?",
+       "When will we go back home?"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Isaac remarque : « Voici le feu et le bois; mais où est l'agneau pour l'holocauste? » Il porte lui-même le bois (v. 6).",
+      "en": "Isaac observes: “Behold the fire and the wood: but where is the lamb for a burnt offering?” He is carrying the wood himself (v. 6)."
+     },
+     "ref": "1:22:7"
+    },
+    {
+     "id": "people-abraham-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond Abraham à son fils ?",
+      "en": "How does Abraham answer his son?"
+     },
+     "choices": {
+      "fr": [
+       "Que l'agneau les attend au sommet",
+       "Que les serviteurs apporteront l'agneau",
+       "Qu'il n'y aura pas d'holocauste ce jour-là",
+       "Que Dieu se pourvoira lui-même de l'agneau"
+      ],
+      "en": [
+       "That the lamb is waiting at the top",
+       "That the servants will bring the lamb",
+       "That there will be no burnt offering that day",
+       "That God will provide himself a lamb"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Abraham répond : « Mon fils, Dieu se pourvoira lui-même de l'agneau pour l'holocauste. » Le texte ajoute : « Et ils marchèrent tous deux ensemble. »",
+      "en": "Abraham replies: “My son, God will provide himself a lamb for a burnt offering.” The text adds: “so they went both of them together.”"
+     },
+     "ref": "1:22:8"
+    },
+    {
+     "id": "people-abraham-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'Abraham offre-t-il finalement en holocauste à la place de son fils ?",
+      "en": "What does Abraham finally offer as a burnt offering instead of his son?"
+     },
+     "choices": {
+      "fr": [
+       "Un agneau sorti du troupeau",
+       "Un bélier retenu par les cornes dans un buisson",
+       "Un taureau amené par les serviteurs",
+       "Deux colombes trouvées sur la montagne"
+      ],
+      "en": [
+       "A lamb taken from the flock",
+       "A ram caught in a thicket by its horns",
+       "A bullock brought by the servants",
+       "Two doves found on the mountain"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Abraham « vit derrière lui un bélier retenu dans un buisson par les cornes » et « l'offrit en holocauste à la place de son fils ».",
+      "en": "Abraham saw “behind him a ram caught in a thicket by his horns” and “offered him up for a burnt offering in the stead of his son.”"
+     },
+     "ref": "1:22:13"
+    },
+    {
+     "id": "people-abraham-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel nom Abraham donne-t-il à ce lieu ?",
+      "en": "What name does Abraham give to that place?"
+     },
+     "choices": {
+      "fr": [
+       "Béthel",
+       "Peniel",
+       "Jehova-Jiré",
+       "Ebenézer"
+      ],
+      "en": [
+       "Bethel",
+       "Peniel",
+       "Jehovah-jireh",
+       "Ebenezer"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Abraham donna à ce lieu le nom de Jehova-Jiré. » Le verset explique le dicton : « A la montagne de l'Eternel il sera pourvu », en écho à la réponse d'Abraham au verset 8.",
+      "en": "“Abraham called the name of that place Jehovah-jireh.” The verse adds the saying: “In the mount of the Lord it shall be seen”, echoing the words “God will provide” in verse 8."
+     },
+     "ref": "1:22:14"
+    },
+    {
+     "id": "people-abraham-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Genèse 22:18, toutes les nations seront bénies en la postérité d'Abraham parce qu'il a obéi à la voix de Dieu.",
+      "en": "According to Genesis 22:18, all nations will be blessed in Abraham's seed because he obeyed God's voice."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "L'ange de l'Eternel déclare : « Toutes les nations de la terre seront bénies en ta postérité, parce que tu as obéi à ma voix. »",
+      "en": "The angel of the Lord declares: “in thy seed shall all the nations of the earth be blessed; because thou hast obeyed my voice.”"
+     },
+     "ref": "1:22:18"
+    }
+   ]
+  },
+  {
+   "id": "people-joseph",
+   "title": {
+    "fr": "Joseph se fait reconnaître",
+    "en": "Joseph reveals himself"
+   },
+   "passages": [
+    "1:45:1-15"
+   ],
+   "intro": {
+    "fr": "Joseph, fils préféré de Jacob, avait été vendu par ses frères jaloux et emmené en Egypte (Genèse 37). Des années plus tard, Pharaon lui a confié tout le pays. Pendant une famine, ses frères viennent acheter du blé en Egypte sans le reconnaître.",
+    "en": "Joseph, Jacob's favourite son, had been sold by his jealous brothers and taken to Egypt (Genesis 37). Years later, Pharaoh set him over the whole land. During a famine, his brothers come to Egypt to buy grain without recognizing him."
+   },
+   "keyVerse": "1:45:5",
+   "takeaway": {
+    "fr": "Joseph se fait connaître à ses frères en pleurant. Il leur dit que c'est Dieu qui l'a envoyé devant eux pour leur sauver la vie, et il invite son père à venir vivre près de lui en Egypte.",
+    "en": "Joseph makes himself known to his brothers in tears. He tells them that God sent him ahead of them to preserve life, and he invites his father to come and live near him in Egypt."
+   },
+   "questions": [
+    {
+     "id": "people-joseph-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait Joseph juste avant de se faire connaître à ses frères ?",
+      "en": "What does Joseph do just before making himself known to his brothers?"
+     },
+     "choices": {
+      "fr": [
+       "Il fait arrêter Benjamin",
+       "Il fait sortir tout le monde",
+       "Il fait appeler Pharaon",
+       "Il fait préparer un festin"
+      ],
+      "en": [
+       "He has Benjamin arrested",
+       "He sends everyone out",
+       "He sends for Pharaoh",
+       "He has a feast prepared"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Joseph s'écrie : « Faites sortir tout le monde. » Le texte précise qu'il ne resta personne avec lui quand il se fit connaître à ses frères ; mais ses pleurs furent entendus des Egyptiens (v. 2).",
+      "en": "Joseph cries: “Cause every man to go out from me.” No one stayed with him while he made himself known to his brothers, though the Egyptians heard him weep (v. 2)."
+     },
+     "ref": "1:45:1"
+    },
+    {
+     "id": "people-joseph-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment les frères réagissent-ils quand Joseph dit : « Je suis Joseph! » ?",
+      "en": "How do the brothers react when Joseph says, “I am Joseph”?"
+     },
+     "choices": {
+      "fr": [
+       "Ils se mettent à pleurer de joie",
+       "Ils s'enfuient hors du palais",
+       "Ils l'accusent de mentir",
+       "Ils sont troublés et ne peuvent lui répondre"
+      ],
+      "en": [
+       "They weep for joy",
+       "They run out of the palace",
+       "They accuse him of lying",
+       "They are troubled and cannot answer him"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ses frères ne purent lui répondre, car ils étaient troublés en sa présence. » Joseph doit leur dire de s'approcher (v. 4).",
+      "en": "“His brethren could not answer him; for they were troubled at his presence.” Joseph has to ask them to come near (v. 4)."
+     },
+     "ref": "1:45:3"
+    },
+    {
+     "id": "people-joseph-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Joseph, qui l'a envoyé en Egypte ?",
+      "en": "According to Joseph, who sent him to Egypt?"
+     },
+     "choices": {
+      "fr": [
+       "Dieu",
+       "Ses frères",
+       "Pharaon",
+       "Jacob, son père"
+      ],
+      "en": [
+       "God",
+       "His brothers",
+       "Pharaoh",
+       "His father Jacob"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Joseph reconnaît qu'ils l'ont vendu (v. 4), mais il affirme : « Ce n'est donc pas vous qui m'avez envoyé ici, mais c'est Dieu ». Il le répète trois fois (v. 5, 7 et 8).",
+      "en": "Joseph acknowledges that they sold him (v. 4), but he states: “it was not you that sent me hither, but God.” He says it three times (vv. 5, 7 and 8)."
+     },
+     "ref": "1:45:8"
+    },
+    {
+     "id": "people-joseph-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien d'années de famine restent-elles encore, selon Joseph ?",
+      "en": "According to Joseph, how many years of famine are still to come?"
+     },
+     "choices": {
+      "fr": [
+       "Deux",
+       "Trois",
+       "Cinq",
+       "Sept"
+      ],
+      "en": [
+       "Two",
+       "Three",
+       "Five",
+       "Seven"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Voilà deux ans que la famine est dans le pays; et pendant cinq années encore, il n'y aura ni labour, ni moisson. » Cela fait sept années en tout.",
+      "en": "“These two years hath the famine been in the land: and yet there are five years, in the which there shall neither be earing nor harvest.” That makes seven years in all."
+     },
+     "ref": "1:45:6"
+    },
+    {
+     "id": "people-joseph-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans quel pays Joseph propose-t-il à son père d'habiter ?",
+      "en": "In which land does Joseph offer his father a place to live?"
+     },
+     "choices": {
+      "fr": [
+       "Hébron",
+       "Gosen",
+       "Beer-Schéba",
+       "Sichem"
+      ],
+      "en": [
+       "Hebron",
+       "Goshen",
+       "Beer-sheba",
+       "Shechem"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Joseph fait dire à Jacob : « Tu habiteras dans le pays de Gosen, et tu seras près de moi ». Gosen est une région d'Egypte, où Joseph pourra nourrir toute la famille (v. 11).",
+      "en": "Joseph sends word to Jacob: “thou shalt dwell in the land of Goshen, and thou shalt be near unto me.” Goshen is a region of Egypt, where Joseph can provide for the whole family (v. 11)."
+     },
+     "ref": "1:45:10"
+    },
+    {
+     "id": "people-joseph-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Joseph reproche durement à ses frères de l'avoir vendu.",
+      "en": "Joseph harshly blames his brothers for selling him."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Au contraire, il leur dit : « ne vous affligez pas, et ne soyez pas fâchés de m'avoir vendu », car Dieu l'a envoyé devant eux pour leur sauver la vie.",
+      "en": "On the contrary, he tells them: “be not grieved, nor angry with yourselves, that ye sold me hither”, for God sent him before them to preserve life."
+     },
+     "ref": "1:45:5"
+    }
+   ]
+  },
+  {
+   "id": "people-moses",
+   "title": {
+    "fr": "Moïse sauvé des eaux",
+    "en": "Moses drawn from the water"
+   },
+   "passages": [
+    "2:2:1-15"
+   ],
+   "intro": {
+    "fr": "Les descendants de Jacob se sont multipliés en Egypte, et un nouveau Pharaon les opprime : il ordonne de jeter au fleuve tous les garçons hébreux nouveau-nés (Exode 1). C'est dans ce contexte que naît Moïse.",
+    "en": "Jacob's descendants have multiplied in Egypt, and a new Pharaoh oppresses them: he orders every newborn Hebrew boy to be thrown into the river (Exodus 1). This is when Moses is born."
+   },
+   "keyVerse": "2:2:10",
+   "takeaway": {
+    "fr": "Caché par sa mère puis recueilli par la fille de Pharaon, Moïse est élevé comme son fils. Devenu adulte, il tue un Egyptien qui frappait un Hébreu et doit s'enfuir au pays de Madian.",
+    "en": "Hidden by his mother and then taken in by Pharaoh's daughter, Moses is raised as her son. As a grown man he kills an Egyptian who was beating a Hebrew and must flee to the land of Midian."
+   },
+   "questions": [
+    {
+     "id": "people-moses-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Pendant combien de temps sa mère cache-t-elle l'enfant ?",
+      "en": "How long does his mother hide the child?"
+     },
+     "choices": {
+      "fr": [
+       "Trois mois",
+       "Sept jours",
+       "Quarante jours",
+       "Un an"
+      ],
+      "en": [
+       "Three months",
+       "Seven days",
+       "Forty days",
+       "One year"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Elle vit qu'il était beau, et elle le cacha pendant trois mois. » Ne pouvant plus le cacher, elle le dépose dans une caisse de jonc au bord du fleuve (v. 3).",
+      "en": "“When she saw him that he was a goodly child, she hid him three months.” When she could no longer hide him, she laid him in an ark of bulrushes by the river (v. 3)."
+     },
+     "ref": "2:2:2"
+    },
+    {
+     "id": "people-moses-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui se tient à distance pour voir ce qui arrivera à l'enfant ?",
+      "en": "Who stands at a distance to see what will happen to the child?"
+     },
+     "choices": {
+      "fr": [
+       "Son père",
+       "Son frère",
+       "Sa soeur",
+       "Une voisine hébreue"
+      ],
+      "en": [
+       "His father",
+       "His brother",
+       "His sister",
+       "A Hebrew neighbour"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« La soeur de l'enfant se tint à quelque distance, pour savoir ce qui lui arriverait. » C'est elle qui propose ensuite une nourrice à la fille de Pharaon (v. 7).",
+      "en": "“His sister stood afar off, to wit what would be done to him.” She is the one who later offers Pharaoh's daughter a nurse (v. 7)."
+     },
+     "ref": "2:2:4"
+    },
+    {
+     "id": "people-moses-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui la fille de Pharaon charge-t-elle, sans le savoir, d'allaiter l'enfant ?",
+      "en": "Whom does Pharaoh's daughter, without knowing it, hire to nurse the child?"
+     },
+     "choices": {
+      "fr": [
+       "Une Egyptienne de sa maison",
+       "Une de ses servantes",
+       "La soeur de l'enfant",
+       "La propre mère de l'enfant"
+      ],
+      "en": [
+       "An Egyptian woman of her household",
+       "One of her maids",
+       "The child's sister",
+       "The child's own mother"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "La soeur de l'enfant « alla chercher la mère de l'enfant », et la fille de Pharaon lui dit : « Emporte cet enfant, et allaite-le-moi; je te donnerai ton salaire » (v. 9).",
+      "en": "The sister “went and called the child’s mother”, and Pharaoh's daughter told her: “Take this child away, and nurse it for me, and I will give thee thy wages” (v. 9)."
+     },
+     "ref": "2:2:8"
+    },
+    {
+     "id": "people-moses-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment la fille de Pharaon explique-t-elle le nom de Moïse ?",
+      "en": "How does Pharaoh's daughter explain the name Moses?"
+     },
+     "choices": {
+      "fr": [
+       "Il est né dans la maison de Lévi",
+       "Je l'ai retiré des eaux",
+       "Il pleurait dans la caisse",
+       "Il sera un chef pour les Hébreux"
+      ],
+      "en": [
+       "He was born in the house of Levi",
+       "I drew him out of the water",
+       "He was crying in the ark",
+       "He will be a leader of the Hebrews"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Elle lui donna le nom de Moïse, car, dit-elle, je l'ai retiré des eaux. » Le nom rappelle la façon dont l'enfant a été sauvé.",
+      "en": "“She called his name Moses: and she said, Because I drew him out of the water.” The name recalls how the child was rescued."
+     },
+     "ref": "2:2:10"
+    },
+    {
+     "id": "people-moses-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Moïse s'enfuit-il au pays de Madian ?",
+      "en": "Why does Moses flee to the land of Midian?"
+     },
+     "choices": {
+      "fr": [
+       "Pharaon cherchait à le faire mourir",
+       "Les Hébreux voulaient le chasser",
+       "Une famine frappait l'Egypte",
+       "Sa mère lui avait conseillé de partir"
+      ],
+      "en": [
+       "Pharaoh sought to kill him",
+       "The Hebrews wanted to drive him out",
+       "A famine had struck Egypt",
+       "His mother had advised him to leave"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Après que Moïse a tué un Egyptien (v. 12), « Pharaon apprit ce qui s'était passé, et il cherchait à faire mourir Moïse. » Moïse s'enfuit alors et s'arrête près d'un puits en Madian.",
+      "en": "After Moses killed an Egyptian (v. 12), “when Pharaoh heard this thing, he sought to slay Moses.” Moses fled and sat down by a well in Midian."
+     },
+     "ref": "2:2:15"
+    },
+    {
+     "id": "people-moses-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "En ouvrant la caisse, la fille de Pharaon reconnaît que c'est un enfant des Hébreux.",
+      "en": "When she opens the ark, Pharaoh's daughter recognizes that it is a Hebrew child."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Elle eut pitié du petit garçon qui pleurait et dit : « C'est un enfant des Hébreux! » Elle le sauve pourtant, malgré l'ordre de Pharaon.",
+      "en": "She had compassion on the weeping baby and said: “This is one of the Hebrews’ children.” She saves him anyway, despite Pharaoh's order."
+     },
+     "ref": "2:2:6"
+    }
+   ]
+  },
+  {
+   "id": "people-ruth",
+   "title": {
+    "fr": "Ruth la fidèle",
+    "en": "Ruth stays"
+   },
+   "passages": [
+    "8:1:1-22"
+   ],
+   "intro": {
+    "fr": "Le livre de Ruth se déroule « du temps des juges », avant les rois d'Israël. Une famille de Bethléhem part s'installer au pays voisin de Moab, où les fils épousent des femmes moabites.",
+    "en": "The book of Ruth is set “in the days when the judges ruled”, before Israel had kings. A family from Bethlehem moves to the neighbouring land of Moab, where the sons marry Moabite women."
+   },
+   "keyVerse": "8:1:16",
+   "takeaway": {
+    "fr": "Devenue veuve comme sa belle-mère Naomi, la Moabite Ruth refuse de la quitter et choisit son peuple et son Dieu. Les deux femmes arrivent ensemble à Bethléhem au début de la moisson des orges.",
+    "en": "Widowed like her mother-in-law Naomi, Ruth the Moabitess refuses to leave her and chooses her people and her God. The two women arrive together in Bethlehem at the beginning of barley harvest."
+   },
+   "questions": [
+    {
+     "id": "people-ruth-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Elimélec quitte-t-il Bethléhem avec sa famille ?",
+      "en": "Why does Elimelech leave Bethlehem with his family?"
+     },
+     "choices": {
+      "fr": [
+       "À cause d'une guerre",
+       "À cause d'une famine",
+       "À cause d'une épidémie",
+       "Sur l'ordre du roi"
+      ],
+      "en": [
+       "Because of a war",
+       "Because of a famine",
+       "Because of a plague",
+       "On the king's orders"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Il y eut une famine dans le pays », et l'homme partit faire un séjour au pays de Moab. Naomi reviendra quand elle apprendra que l'Eternel a de nouveau donné du pain à son peuple (v. 6).",
+      "en": "“There was a famine in the land”, and the man went to sojourn in the country of Moab. Naomi returns when she hears that the Lord has again given his people bread (v. 6)."
+     },
+     "ref": "8:1:1"
+    },
+    {
+     "id": "people-ruth-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle belle-fille embrasse Naomi puis retourne vers son peuple ?",
+      "en": "Which daughter-in-law kisses Naomi and then goes back to her people?"
+     },
+     "choices": {
+      "fr": [
+       "Orpa",
+       "Ruth",
+       "Rachel",
+       "Tamar"
+      ],
+      "en": [
+       "Orpah",
+       "Ruth",
+       "Rachel",
+       "Tamar"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Orpa baisa sa belle-mère, mais Ruth s'attacha à elle. » Naomi dit ensuite que sa belle-soeur est retournée « vers son peuple et vers ses dieux » (v. 15).",
+      "en": "“Orpah kissed her mother in law; but Ruth clave unto her.” Naomi then says her sister-in-law has gone back “unto her people, and unto her gods” (v. 15)."
+     },
+     "ref": "8:1:14"
+    },
+    {
+     "id": "people-ruth-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Complétez la parole de Ruth : « ton peuple sera mon peuple, et… »",
+      "en": "Complete Ruth's words: “thy people shall be my people, and…”"
+     },
+     "choices": {
+      "fr": [
+       "ta maison sera ma maison",
+       "ta terre sera ma terre",
+       "ta joie sera ma joie",
+       "ton Dieu sera mon Dieu"
+      ],
+      "en": [
+       "thy house my house",
+       "thy land my land",
+       "thy joy my joy",
+       "thy God my God"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Ruth déclare : « Où tu iras j'irai, où tu demeureras je demeurerai; ton peuple sera mon peuple, et ton Dieu sera mon Dieu ». Elle s'engage jusqu'à la mort (v. 17).",
+      "en": "Ruth declares: “whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God.” She commits herself until death (v. 17)."
+     },
+     "ref": "8:1:16"
+    },
+    {
+     "id": "people-ruth-4",
+     "kind": "choice",
+     "q": {
+      "fr": "De retour à Bethléhem, quel nom Naomi demande-t-elle qu'on lui donne ?",
+      "en": "Back in Bethlehem, what name does Naomi ask to be called?"
+     },
+     "choices": {
+      "fr": [
+       "Léa",
+       "Sara",
+       "Mara",
+       "Ada"
+      ],
+      "en": [
+       "Leah",
+       "Sarah",
+       "Mara",
+       "Adah"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Appelez-moi Mara, car le Tout-Puissant m'a remplie d'amertume. » En hébreu, Mara évoque l'amertume, alors que Naomi évoque ce qui est agréable.",
+      "en": "“Call me Mara: for the Almighty hath dealt very bitterly with me.” In Hebrew, Mara suggests bitterness, while Naomi suggests pleasantness."
+     },
+     "ref": "8:1:20"
+    },
+    {
+     "id": "people-ruth-5",
+     "kind": "choice",
+     "q": {
+      "fr": "À quel moment de l'année Naomi et Ruth arrivent-elles à Bethléhem ?",
+      "en": "At what time of year do Naomi and Ruth arrive in Bethlehem?"
+     },
+     "choices": {
+      "fr": [
+       "Au début de la moisson du blé",
+       "Au commencement de la moisson des orges",
+       "Au temps des vendanges",
+       "À la fête de la Pâque"
+      ],
+      "en": [
+       "At the beginning of wheat harvest",
+       "At the beginning of barley harvest",
+       "At the grape harvest",
+       "At the Passover feast"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Elles arrivèrent à Bethléhem au commencement de la moisson des orges. » Ce détail prépare la suite du livre, où Ruth va glaner dans les champs.",
+      "en": "“They came to Beth-lehem in the beginning of barley harvest.” This detail prepares the rest of the book, where Ruth goes gleaning in the fields."
+     },
+     "ref": "8:1:22"
+    },
+    {
+     "id": "people-ruth-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon ce chapitre, Ruth était une Israélite originaire de Bethléhem.",
+      "en": "According to this chapter, Ruth was an Israelite from Bethlehem."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Ruth est une Moabite : les fils de Naomi « prirent des femmes Moabites » (v. 4), et le chapitre se termine en l'appelant « Ruth la Moabite ».",
+      "en": "Ruth is a Moabite: Naomi's sons “took them wives of the women of Moab” (v. 4), and the chapter ends by calling her “Ruth the Moabitess.”"
+     },
+     "ref": "8:1:22"
+    }
+   ]
+  },
+  {
+   "id": "people-samuel",
+   "title": {
+    "fr": "Samuel entend l'appel",
+    "en": "Samuel hears the call"
+   },
+   "passages": [
+    "9:3:1-21"
+   ],
+   "intro": {
+    "fr": "À la fin de l'époque des juges, le jeune Samuel sert au sanctuaire de Silo auprès du prêtre Eli, devenu âgé. Sa mère Anne l'y avait confié après l'avoir demandé à Dieu (1 Samuel 1).",
+    "en": "At the end of the time of the judges, the young Samuel serves at the sanctuary in Shiloh under the aged priest Eli. His mother Hannah had entrusted him there after asking God for a son (1 Samuel 1)."
+   },
+   "keyVerse": "9:3:10",
+   "takeaway": {
+    "fr": "Appelé trois fois sans comprendre, Samuel apprend d'Eli à répondre : « Parle, car ton serviteur écoute. » Il transmet fidèlement un message difficile, et tout Israël le reconnaît comme prophète.",
+    "en": "Called three times without understanding, Samuel learns from Eli to answer, “Speak; for thy servant heareth.” He faithfully passes on a hard message, and all Israel recognizes him as a prophet."
+   },
+   "questions": [
+    {
+     "id": "people-samuel-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment le texte décrit-il cette époque ?",
+      "en": "How does the text describe that period?"
+     },
+     "choices": {
+      "fr": [
+       "Les prophètes étaient très nombreux",
+       "La parole de l'Eternel était rare",
+       "Israël était en guerre contre l'Egypte",
+       "Le peuple réclamait un roi"
+      ],
+      "en": [
+       "Prophets were very many",
+       "The word of the Lord was rare",
+       "Israel was at war with Egypt",
+       "The people were asking for a king"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« La parole de l'Eternel était rare en ce temps-là, les visions n'étaient pas fréquentes. »",
+      "en": "“The word of the Lord was precious in those days; there was no open vision.” Here “precious” means rare."
+     },
+     "ref": "9:3:1"
+    },
+    {
+     "id": "people-samuel-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de fois Samuel court-il vers Eli avant qu'Eli comprenne que l'Eternel l'appelle ?",
+      "en": "How many times does Samuel go to Eli before Eli realizes that the Lord is calling him?"
+     },
+     "choices": {
+      "fr": [
+       "Une fois",
+       "Deux fois",
+       "Trois fois",
+       "Quatre fois"
+      ],
+      "en": [
+       "Once",
+       "Twice",
+       "Three times",
+       "Four times"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« L'Eternel appela de nouveau Samuel, pour la troisième fois », et c'est alors qu'« Eli comprit que c'était l'Eternel qui appelait l'enfant ». Le verset 7 explique que Samuel ne connaissait pas encore l'Eternel.",
+      "en": "“The Lord called Samuel again the third time”, and then “Eli perceived that the Lord had called the child.” Verse 7 explains that Samuel did not yet know the Lord."
+     },
+     "ref": "9:3:8"
+    },
+    {
+     "id": "people-samuel-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que conseille Eli à Samuel de répondre si on l'appelle encore ?",
+      "en": "What does Eli tell Samuel to answer if he is called again?"
+     },
+     "choices": {
+      "fr": [
+       "Parle, Eternel, car ton serviteur écoute",
+       "Me voici, je suis prêt à partir",
+       "Qui es-tu, et que veux-tu de moi ?",
+       "Va trouver Eli, le prêtre de Silo"
+      ],
+      "en": [
+       "Speak, Lord; for thy servant heareth",
+       "Here am I, ready to go",
+       "Who art thou, and what wilt thou of me?",
+       "Go and find Eli, the priest of Shiloh"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Eli dit : « si l'on t'appelle, tu diras: Parle, Eternel, car ton serviteur écoute. » Au verset 10, Samuel répond : « Parle, car ton serviteur écoute. »",
+      "en": "Eli says: “if he call thee, that thou shalt say, Speak, Lord; for thy servant heareth.” In verse 10, Samuel answers: “Speak; for thy servant heareth.”"
+     },
+     "ref": "9:3:9"
+    },
+    {
+     "id": "people-samuel-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon l'Eternel, pourquoi la maison d'Eli sera-t-elle punie ?",
+      "en": "According to the Lord, why will Eli's house be judged?"
+     },
+     "choices": {
+      "fr": [
+       "Eli avait quitté le sanctuaire de Silo",
+       "Eli avait refusé d'accueillir Samuel",
+       "Eli avait rendu un culte à Baal",
+       "Ses fils se rendaient méprisables et il ne les réprimait pas"
+      ],
+      "en": [
+       "Eli had left the sanctuary at Shiloh",
+       "Eli had refused to take Samuel in",
+       "Eli had worshipped Baal",
+       "His sons made themselves vile and he did not restrain them"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "La punition vient du crime « par lequel ses fils se sont rendus méprisables, sans qu'il les ait réprimés ». Eli en avait connaissance.",
+      "en": "The judgment is for the iniquity Eli knew of, “because his sons made themselves vile, and he restrained them not.”"
+     },
+     "ref": "9:3:13"
+    },
+    {
+     "id": "people-samuel-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Par crainte, Samuel cacha à Eli une partie de ce que l'Eternel lui avait dit.",
+      "en": "Out of fear, Samuel hid part of what the Lord had told him from Eli."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Samuel craignait de parler (v. 15), mais « Samuel lui raconta tout, sans lui rien cacher ». Eli répondit : « C'est l'Eternel, qu'il fasse ce qui lui semblera bon! »",
+      "en": "Samuel was afraid to speak (v. 15), but “Samuel told him every whit, and hid nothing from him.” Eli replied: “It is the Lord: let him do what seemeth him good.”"
+     },
+     "ref": "9:3:18"
+    },
+    {
+     "id": "people-samuel-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que reconnaît tout Israël, de Dan jusqu'à Beer-Schéba ?",
+      "en": "What does all Israel, from Dan to Beer-sheba, recognize?"
+     },
+     "choices": {
+      "fr": [
+       "Que Samuel était établi roi d'Israël",
+       "Que Samuel était établi prophète de l'Eternel",
+       "Que Samuel était établi chef de l'armée",
+       "Que Samuel était établi gardien de l'arche"
+      ],
+      "en": [
+       "That Samuel was established as king of Israel",
+       "That Samuel was established as a prophet of the Lord",
+       "That Samuel was established as head of the army",
+       "That Samuel was established as keeper of the ark"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Tout Israël « reconnut que Samuel était établi prophète de l'Eternel ». Dan au nord et Beer-Schéba au sud désignent tout le pays.",
+      "en": "All Israel “knew that Samuel was established to be a prophet of the Lord.” Dan in the north and Beer-sheba in the south stand for the whole land."
+     },
+     "ref": "9:3:20"
+    }
+   ]
+  },
+  {
+   "id": "people-david",
+   "title": {
+    "fr": "David face à Goliath",
+    "en": "David faces Goliath"
+   },
+   "passages": [
+    "9:17:32-51"
+   ],
+   "intro": {
+    "fr": "Saül est le premier roi d'Israël. Son armée fait face aux Philistins, dont le champion, Goliath de Gath, défie Israël depuis des jours. David, le plus jeune fils d'Isaï de Bethléhem, est un berger venu apporter des vivres à ses frères.",
+    "en": "Saul is Israel's first king. His army faces the Philistines, whose champion, Goliath of Gath, has been defying Israel for days. David, the youngest son of Jesse of Bethlehem, is a shepherd who has come to bring food to his brothers."
+   },
+   "keyVerse": "9:17:47",
+   "takeaway": {
+    "fr": "Sans armure, avec une fronde et une pierre, David abat le Philistin. Il déclare d'avance que l'Eternel ne sauve ni par l'épée ni par la lance, car la victoire lui appartient.",
+    "en": "With no armour, only a sling and a stone, David brings down the Philistine. He declares beforehand that the Lord does not save with sword and spear, for the battle is the Lord's."
+   },
+   "questions": [
+    {
+     "id": "people-david-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle expérience David raconte-t-il à Saül pour le convaincre ?",
+      "en": "What experience does David tell Saul about to convince him?"
+     },
+     "choices": {
+      "fr": [
+       "Il a tué un lion et un ours en gardant les brebis",
+       "Il a déjà combattu dans l'armée de Saül",
+       "Il a vaincu un autre géant philistin",
+       "Il a appris le maniement de l'épée avec ses frères"
+      ],
+      "en": [
+       "He killed a lion and a bear while keeping the sheep",
+       "He had already fought in Saul's army",
+       "He had defeated another Philistine giant",
+       "He had learned swordsmanship from his brothers"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "David explique qu'il gardait les brebis de son père : « ton serviteur a terrassé le lion et l'ours ». Il en conclut que l'Eternel le délivrera aussi du Philistin (v. 37).",
+      "en": "David explains that he kept his father's sheep: “Thy servant slew both the lion and the bear.” He concludes that the Lord will also deliver him from the Philistine (v. 37)."
+     },
+     "ref": "9:17:36"
+    },
+    {
+     "id": "people-david-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi David retire-t-il l'armure de Saül ?",
+      "en": "Why does David take off Saul's armour?"
+     },
+     "choices": {
+      "fr": [
+       "Elle était trop petite pour lui",
+       "Elle appartenait au roi seul",
+       "Il n'y était pas accoutumé",
+       "Le prophète le lui avait interdit"
+      ],
+      "en": [
+       "It was too small for him",
+       "It belonged to the king alone",
+       "He had not tested it",
+       "The prophet had forbidden it"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "David dit : « Je ne puis pas marcher avec cette armure, je n'y suis pas accoutumé. »",
+      "en": "David says: “I cannot go with these; for I have not proved them.” In other words, he had never tried that armour before."
+     },
+     "ref": "9:17:39"
+    },
+    {
+     "id": "people-david-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de pierres David choisit-il dans le torrent ?",
+      "en": "How many stones does David choose from the brook?"
+     },
+     "choices": {
+      "fr": [
+       "Une",
+       "Trois",
+       "Sept",
+       "Cinq"
+      ],
+      "en": [
+       "One",
+       "Three",
+       "Seven",
+       "Five"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "David « choisit dans le torrent cinq pierres polies » et les met dans sa gibecière de berger. Une seule suffira (v. 49).",
+      "en": "David “chose him five smooth stones out of the brook” and put them in his shepherd's bag. Only one will be needed (v. 49)."
+     },
+     "ref": "9:17:40"
+    },
+    {
+     "id": "people-david-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon David, que saura toute cette multitude ?",
+      "en": "According to David, what will all this assembly know?"
+     },
+     "choices": {
+      "fr": [
+       "Que David est plus fort que Goliath",
+       "Que l'Eternel ne sauve ni par l'épée ni par la lance",
+       "Que les dieux des Philistins sont faibles",
+       "Que Saül est le roi choisi par Dieu"
+      ],
+      "en": [
+       "That David is stronger than Goliath",
+       "That the Lord saves not with sword and spear",
+       "That the gods of the Philistines are weak",
+       "That Saul is the king chosen by God"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "David déclare : « toute cette multitude saura que ce n'est ni par l'épée ni par la lance que l'Eternel sauve. Car la victoire appartient à l'Eternel. »",
+      "en": "David declares: “all this assembly shall know that the Lord saveth not with sword and spear: for the battle is the Lord’s.”"
+     },
+     "ref": "9:17:47"
+    },
+    {
+     "id": "people-david-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Où la pierre lancée par David frappe-t-elle le Philistin ?",
+      "en": "Where does David's stone strike the Philistine?"
+     },
+     "choices": {
+      "fr": [
+       "À l'épaule",
+       "À la poitrine",
+       "Au front",
+       "Au genou"
+      ],
+      "en": [
+       "On the shoulder",
+       "On the chest",
+       "On the forehead",
+       "On the knee"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "David « frappa le Philistin au front, et la pierre s'enfonça dans le front du Philistin, qui tomba le visage contre terre ».",
+      "en": "David “smote the Philistine in his forehead, that the stone sunk into his forehead; and he fell upon his face to the earth.”"
+     },
+     "ref": "9:17:49"
+    },
+    {
+     "id": "people-david-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "David avait une épée à la main lorsqu'il terrassa le Philistin avec sa fronde.",
+      "en": "David had a sword in his hand when he brought down the Philistine with his sling."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Le texte souligne qu'il le vainquit « sans avoir d'épée à la main ». Ensuite seulement, David prend l'épée du Philistin lui-même (v. 51).",
+      "en": "The text stresses that “there was no sword in the hand of David.” Only afterwards does David take the Philistine's own sword (v. 51)."
+     },
+     "ref": "9:17:50"
+    }
+   ]
+  },
+  {
+   "id": "people-elijah",
+   "title": {
+    "fr": "Elie sur le mont Carmel",
+    "en": "Elijah on Mount Carmel"
+   },
+   "passages": [
+    "11:18:20-39"
+   ],
+   "intro": {
+    "fr": "Après Salomon, le royaume s'est divisé. Au nord, le roi Achab a laissé se répandre le culte de Baal, et le pays en est à la troisième année de sécheresse. Le prophète Elie convoque le peuple et les prophètes de Baal sur le mont Carmel.",
+    "en": "After Solomon, the kingdom has split. In the north, King Ahab has let the worship of Baal spread, and the land is in the third year of drought. The prophet Elijah summons the people and the prophets of Baal to Mount Carmel."
+   },
+   "keyVerse": "11:18:39",
+   "takeaway": {
+    "fr": "Elie appelle le peuple à cesser d'hésiter entre l'Eternel et Baal. Baal ne répond pas ; le feu de l'Eternel tombe sur l'autel inondé d'eau, et le peuple proclame : « C'est l'Eternel qui est Dieu! »",
+    "en": "Elijah calls the people to stop wavering between the Lord and Baal. Baal does not answer; the fire of the Lord falls on the water-soaked altar, and the people cry, “The Lord, he is the God.”"
+   },
+   "questions": [
+    {
+     "id": "people-elijah-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Que reproche Elie au peuple en disant : « Jusqu'à quand clocherez-vous des deux côtés? »",
+      "en": "What is Elijah blaming the people for when he asks, “How long halt ye between two opinions?”"
+     },
+     "choices": {
+      "fr": [
+       "D'avoir tué les prophètes",
+       "De ne plus offrir de sacrifices",
+       "D'avoir obéi au roi Achab",
+       "D'hésiter entre l'Eternel et Baal"
+      ],
+      "en": [
+       "Killing the prophets",
+       "No longer offering sacrifices",
+       "Obeying King Ahab",
+       "Wavering between the Lord and Baal"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Elie poursuit : « Si l'Eternel est Dieu, allez après lui; si c'est Baal, allez après lui! » « Clocher » signifie boiter : le peuple avance d'un côté puis de l'autre.",
+      "en": "Elijah goes on: “if the Lord be God, follow him: but if Baal, then follow him.” To “halt” means to limp: the people lean one way, then the other."
+     },
+     "ref": "11:18:21"
+    },
+    {
+     "id": "people-elijah-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de prophètes de Baal Elie affronte-t-il ?",
+      "en": "How many prophets of Baal does Elijah face?"
+     },
+     "choices": {
+      "fr": [
+       "Quatre cent cinquante",
+       "Cent",
+       "Douze",
+       "Soixante-dix"
+      ],
+      "en": [
+       "Four hundred and fifty",
+       "One hundred",
+       "Twelve",
+       "Seventy"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Elie dit : « Je suis resté seul des prophètes de l'Eternel, et il y a quatre cent cinquante prophètes de Baal. »",
+      "en": "Elijah says: “I, even I only, remain a prophet of the Lord; but Baal’s prophets are four hundred and fifty men.”"
+     },
+     "ref": "11:18:22"
+    },
+    {
+     "id": "people-elijah-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment saura-t-on qui est Dieu, selon la proposition d'Elie ?",
+      "en": "According to Elijah's proposal, how will they know who is God?"
+     },
+     "choices": {
+      "fr": [
+       "Le dieu qui enverra la pluie",
+       "Le dieu qui fera trembler la montagne",
+       "Le dieu qui répondra par le feu",
+       "Le dieu qui parlera du ciel"
+      ],
+      "en": [
+       "The god who sends rain",
+       "The god who makes the mountain shake",
+       "The god who answers by fire",
+       "The god who speaks from heaven"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Le dieu qui répondra par le feu, c'est celui-là qui sera Dieu. » Tout le peuple approuve : « C'est bien! » Chaque camp doit préparer un taureau sans y mettre le feu (v. 23).",
+      "en": "“The God that answereth by fire, let him be God.” All the people agree: “It is well spoken.” Each side prepares a bullock but puts no fire under it (v. 23)."
+     },
+     "ref": "11:18:24"
+    },
+    {
+     "id": "people-elijah-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de pierres Elie prend-il pour rebâtir l'autel, et pourquoi ce nombre ?",
+      "en": "How many stones does Elijah take to rebuild the altar, and why that number?"
+     },
+     "choices": {
+      "fr": [
+       "Sept, comme les jours de la création",
+       "Douze, d'après le nombre des tribus des fils de Jacob",
+       "Dix, comme les commandements",
+       "Trois, comme les années de sécheresse"
+      ],
+      "en": [
+       "Seven, like the days of creation",
+       "Twelve, after the number of the tribes of the sons of Jacob",
+       "Ten, like the commandments",
+       "Three, like the years of drought"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Elie « prit douze pierres d'après le nombre des tribus des fils de Jacob ». Le verset rappelle que l'Eternel avait donné à Jacob le nom d'Israël.",
+      "en": "Elijah “took twelve stones, according to the number of the tribes of the sons of Jacob.” The verse recalls that the Lord had given Jacob the name Israel."
+     },
+     "ref": "11:18:31"
+    },
+    {
+     "id": "people-elijah-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Elie fait verser de l'eau sur l'holocauste et sur le bois à trois reprises.",
+      "en": "Elijah has water poured on the offering and the wood three times."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Après les quatre cruches d'eau du verset 33, Elie dit : « Faites-le une seconde fois », puis « Faites-le une troisième fois ». L'eau remplit même le fossé (v. 35).",
+      "en": "After the four barrels of water in verse 33, Elijah says, “Do it the second time”, then “Do it the third time.” The water even fills the trench (v. 35)."
+     },
+     "ref": "11:18:34"
+    },
+    {
+     "id": "people-elijah-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que s'écrie le peuple quand le feu de l'Eternel tombe ?",
+      "en": "What do the people cry out when the fire of the Lord falls?"
+     },
+     "choices": {
+      "fr": [
+       "C'est l'Eternel qui est Dieu !",
+       "Vive le roi Achab !",
+       "Elie est un grand prophète !",
+       "Baal nous a abandonnés !"
+      ],
+      "en": [
+       "The Lord, he is the God!",
+       "Long live King Ahab!",
+       "Elijah is a great prophet!",
+       "Baal has forsaken us!"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Le peuple tombe sur sa face et dit : « C'est l'Eternel qui est Dieu! C'est l'Eternel qui est Dieu! » Elie avait prié pour que le peuple le reconnaisse (v. 37).",
+      "en": "The people fall on their faces and say: “The Lord, he is the God; the Lord, he is the God.” Elijah had prayed that the people would know it (v. 37)."
+     },
+     "ref": "11:18:39"
+    }
+   ]
+  },
+  {
+   "id": "people-esther",
+   "title": {
+    "fr": "Esther, pour un temps comme celui-ci",
+    "en": "Esther, for such a time as this"
+   },
+   "passages": [
+    "17:4:1-17"
+   ],
+   "intro": {
+    "fr": "Après l'exil, beaucoup de Juifs vivent dans l'Empire perse. Esther, jeune Juive élevée par son cousin Mardochée, est devenue reine du roi Assuérus. Haman, un haut dignitaire, vient d'obtenir un édit pour exterminer tous les Juifs du royaume (Esther 3).",
+    "en": "After the exile, many Jews live in the Persian Empire. Esther, a young Jewish woman raised by her cousin Mordecai, has become queen to King Ahasuerus. Haman, a high official, has just obtained a decree to destroy all the Jews of the kingdom (Esther 3)."
+   },
+   "keyVerse": "17:4:14",
+   "takeaway": {
+    "fr": "Mardochée presse Esther d'intercéder auprès du roi, au risque de sa vie. Après trois jours de jeûne, elle décide d'entrer chez le roi malgré la loi : « si je dois périr, je périrai ».",
+    "en": "Mordecai urges Esther to plead with the king at the risk of her life. After three days of fasting, she resolves to go in to the king against the law: “if I perish, I perish.”"
+   },
+   "questions": [
+    {
+     "id": "people-esther-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait Mardochée en apprenant ce qui se passe ?",
+      "en": "What does Mordecai do when he learns what is happening?"
+     },
+     "choices": {
+      "fr": [
+       "Il demande audience au roi",
+       "Il déchire ses vêtements et se couvre d'un sac et de cendre",
+       "Il quitte la ville de Suse",
+       "Il rassemble des hommes armés"
+      ],
+      "en": [
+       "He asks to see the king",
+       "He tears his clothes and puts on sackcloth and ashes",
+       "He leaves the city of Shushan",
+       "He gathers armed men"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Mardochée « déchira ses vêtements, s'enveloppa d'un sac et se couvrit de cendre », puis cria dans la ville. Ce sont des signes de deuil, que partagent les Juifs de toutes les provinces (v. 3).",
+      "en": "Mordecai “rent his clothes, and put on sackcloth with ashes” and cried out in the city. These are signs of mourning, shared by Jews in every province (v. 3)."
+     },
+     "ref": "17:4:1"
+    },
+    {
+     "id": "people-esther-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Par qui Esther communique-t-elle avec Mardochée ?",
+      "en": "Through whom does Esther communicate with Mordecai?"
+     },
+     "choices": {
+      "fr": [
+       "Une de ses servantes",
+       "Hathac, un eunuque du roi",
+       "Haman, le favori du roi",
+       "Le gardien de la porte"
+      ],
+      "en": [
+       "One of her maids",
+       "Hatach, one of the king's chamberlains",
+       "Haman, the king's favourite",
+       "The keeper of the gate"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Esther appelle « Hathac, l'un des eunuques que le roi avait placés auprès d'elle », et l'envoie demander à Mardochée ce qui se passe. Hathac fait ensuite l'aller-retour entre eux.",
+      "en": "Esther calls “Hatach, one of the king’s chamberlains, whom he had appointed to attend upon her”, and sends him to ask Mordecai what is wrong. Hatach then carries messages back and forth."
+     },
+     "ref": "17:4:5"
+    },
+    {
+     "id": "people-esther-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Esther hésite-t-elle d'abord à aller voir le roi ?",
+      "en": "Why does Esther at first hesitate to go to the king?"
+     },
+     "choices": {
+      "fr": [
+       "Le roi était parti en guerre",
+       "Haman surveillait le palais",
+       "Entrer sans être appelé était puni de mort",
+       "Elle ne parlait pas la langue du roi"
+      ],
+      "en": [
+       "The king had gone to war",
+       "Haman was watching the palace",
+       "Going in uncalled was punishable by death",
+       "She did not speak the king's language"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "La loi punit de mort quiconque entre chez le roi sans être appelé, sauf si le roi lui tend le sceptre d'or. Or Esther n'a pas été appelée « depuis trente jours ».",
+      "en": "The law put to death anyone who came to the king uncalled, unless the king held out the golden sceptre. And Esther had not been called “these thirty days.”"
+     },
+     "ref": "17:4:11"
+    },
+    {
+     "id": "people-esther-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Mardochée, pourquoi Esther est-elle peut-être devenue reine ?",
+      "en": "According to Mordecai, why might Esther have become queen?"
+     },
+     "choices": {
+      "fr": [
+       "Pour un temps comme celui-ci",
+       "Pour faire honneur à son peuple",
+       "Pour remplacer la reine précédente",
+       "Pour obtenir des richesses pour les Juifs"
+      ],
+      "en": [
+       "For such a time as this",
+       "To bring honour to her people",
+       "To replace the former queen",
+       "To gain wealth for the Jews"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Mardochée lui fait dire : « qui sait si ce n'est pas pour un temps comme celui-ci que tu es parvenue à la royauté? » Il ajoute que, si elle se tait, la délivrance viendra d'ailleurs.",
+      "en": "Mordecai sends word: “who knoweth whether thou art come to the kingdom for such a time as this?” He adds that if she stays silent, deliverance will come from another place."
+     },
+     "ref": "17:4:14"
+    },
+    {
+     "id": "people-esther-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande Esther aux Juifs de Suse avant d'aller chez le roi ?",
+      "en": "What does Esther ask the Jews of Shushan to do before she goes to the king?"
+     },
+     "choices": {
+      "fr": [
+       "De quitter la ville",
+       "D'écrire au roi en sa faveur",
+       "De se préparer à combattre",
+       "De jeûner pour elle pendant trois jours"
+      ],
+      "en": [
+       "To leave the city",
+       "To write to the king on her behalf",
+       "To prepare for battle",
+       "To fast for her for three days"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Esther dit : « jeûnez pour moi, sans manger ni boire pendant trois jours, ni la nuit ni le jour. » Elle jeûnera de même avec ses servantes.",
+      "en": "Esther says: “fast ye for me, and neither eat nor drink three days, night or day.” She and her maidens will fast likewise."
+     },
+     "ref": "17:4:16"
+    },
+    {
+     "id": "people-esther-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Mardochée accepta les vêtements qu'Esther lui envoya pour remplacer son sac.",
+      "en": "Mordecai accepted the clothes Esther sent him to replace his sackcloth."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Esther lui envoya des vêtements pour lui faire ôter son sac, « mais il ne les accepta pas ». Il ne pouvait d'ailleurs pas entrer à la porte du roi vêtu d'un sac (v. 2).",
+      "en": "Esther sent him clothes to take away his sackcloth, “but he received it not.” No one could enter the king's gate clothed in sackcloth (v. 2)."
+     },
+     "ref": "17:4:4"
+    }
+   ]
+  },
+  {
+   "id": "people-daniel",
+   "title": {
+    "fr": "Daniel dans la fosse aux lions",
+    "en": "Daniel in the lions' den"
+   },
+   "passages": [
+    "27:6:1-28"
+   ],
+   "intro": {
+    "fr": "Daniel fait partie des jeunes gens de Juda emmenés en exil à Babylone (Daniel 1). Des années plus tard, sous le roi Darius, il est devenu l'un des plus hauts responsables du royaume.",
+    "en": "Daniel was one of the young men of Judah taken into exile in Babylon (Daniel 1). Years later, under King Darius, he has become one of the highest officials of the kingdom."
+   },
+   "keyVerse": "27:6:10",
+   "takeaway": {
+    "fr": "Malgré le décret, Daniel continue de prier son Dieu trois fois par jour. Jeté dans la fosse, il en sort indemne, et le roi Darius ordonne de craindre le Dieu de Daniel, « le Dieu vivant ».",
+    "en": "Despite the decree, Daniel keeps praying to his God three times a day. Thrown into the den, he comes out unharmed, and King Darius orders everyone to fear the God of Daniel, “the living God.”"
+   },
+   "questions": [
+    {
+     "id": "people-daniel-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi les chefs et les satrapes cherchent-ils à accuser Daniel au sujet de la loi de son Dieu ?",
+      "en": "Why do the presidents and princes look for a charge against Daniel concerning the law of his God?"
+     },
+     "choices": {
+      "fr": [
+       "Daniel avait refusé d'obéir au roi",
+       "Daniel avait volé le trésor royal",
+       "Ils ne trouvaient aucune faute dans sa conduite",
+       "Daniel avait insulté les dieux de Babylone"
+      ],
+      "en": [
+       "Daniel had refused to obey the king",
+       "Daniel had stolen from the royal treasury",
+       "They could find no fault in his conduct",
+       "Daniel had insulted the gods of Babylon"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Ils ne purent trouver aucune occasion de l'accuser « parce qu'il était fidèle ». Ils dirent donc : « Nous ne trouverons aucune occasion contre ce Daniel, à moins que nous n'en trouvions une dans la loi de son Dieu » (v. 5).",
+      "en": "They could find no occasion against him, “forasmuch as he was faithful.” So they said: “We shall not find any occasion against this Daniel, except we find it against him concerning the law of his God” (v. 5)."
+     },
+     "ref": "27:6:4"
+    },
+    {
+     "id": "people-daniel-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que prévoit le décret signé par le roi ?",
+      "en": "What does the decree signed by the king lay down?"
+     },
+     "choices": {
+      "fr": [
+       "Pendant trente jours, on ne doit prier que le roi, sous peine de la fosse aux lions",
+       "Tous les captifs de Juda doivent quitter le royaume",
+       "On doit se prosterner devant une statue d'or",
+       "Nul ne doit se rendre à Jérusalem pendant un an"
+      ],
+      "en": [
+       "For thirty days, petitions may be made only to the king, on pain of the lions' den",
+       "All the captives of Judah must leave the kingdom",
+       "Everyone must bow down before a golden image",
+       "No one may travel to Jerusalem for a year"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Quiconque, « dans l'espace de trente jours, adressera des prières à quelque dieu ou à quelque homme, excepté à toi, ô roi, sera jeté dans la fosse aux lions ». Selon la loi des Mèdes et des Perses, le décret est irrévocable (v. 8).",
+      "en": "“Whosoever shall ask a petition of any God or man for thirty days, save of thee, O king, he shall be cast into the den of lions.” By the law of the Medes and Persians, the decree cannot be changed (v. 8)."
+     },
+     "ref": "27:6:7"
+    },
+    {
+     "id": "people-daniel-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait Daniel quand il apprend que le décret est signé ?",
+      "en": "What does Daniel do when he learns that the decree has been signed?"
+     },
+     "choices": {
+      "fr": [
+       "Il cesse de prier pendant trente jours",
+       "Il va supplier le roi d'annuler le décret",
+       "Il prie en cachette, fenêtres fermées",
+       "Il prie trois fois par jour, fenêtres ouvertes vers Jérusalem, comme avant"
+      ],
+      "en": [
+       "He stops praying for thirty days",
+       "He goes to beg the king to cancel the decree",
+       "He prays in secret, with the windows shut",
+       "He prays three times a day, windows open toward Jerusalem, as before"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Dans sa chambre aux fenêtres ouvertes « dans la direction de Jérusalem », « trois fois le jour il se mettait à genoux, il priait, et il louait son Dieu, comme il le faisait auparavant ».",
+      "en": "With his windows open “toward Jerusalem, he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime.”"
+     },
+     "ref": "27:6:10"
+    },
+    {
+     "id": "people-daniel-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi le roi, qui veut sauver Daniel, ne peut-il pas annuler le décret ?",
+      "en": "Why can't the king, who wants to save Daniel, cancel the decree?"
+     },
+     "choices": {
+      "fr": [
+       "Le décret avait été signé par Nebucadnetsar",
+       "La loi des Mèdes et des Perses rend tout décret royal irrévocable",
+       "Les chefs menaçaient de se révolter",
+       "Daniel refusait d'être gracié"
+      ],
+      "en": [
+       "The decree had been signed by Nebuchadnezzar",
+       "The law of the Medes and Persians makes every royal decree unchangeable",
+       "The officials threatened to revolt",
+       "Daniel refused to be pardoned"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Les hommes rappellent au roi que « la loi des Mèdes et des Perses exige que toute défense ou tout décret confirmé par le roi soit irrévocable ». Le roi s'était pourtant efforcé de sauver Daniel jusqu'au coucher du soleil (v. 14).",
+      "en": "The men remind the king “that the law of the Medes and Persians is, That no decree nor statute which the king establisheth may be changed.” The king had laboured until sunset to deliver Daniel (v. 14)."
+     },
+     "ref": "27:6:15"
+    },
+    {
+     "id": "people-daniel-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "La nuit où Daniel est dans la fosse, le roi Darius jeûne et ne parvient pas à dormir.",
+      "en": "On the night Daniel is in the den, King Darius fasts and cannot sleep."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Le roi « passa la nuit à jeun » et « il ne put se livrer au sommeil ». Au point du jour, il court à la fosse (v. 19).",
+      "en": "The king “passed the night fasting” and “his sleep went from him.” Very early in the morning he hurries to the den (v. 19)."
+     },
+     "ref": "27:6:18"
+    },
+    {
+     "id": "people-daniel-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Daniel explique-t-il qu'il soit sain et sauf ?",
+      "en": "How does Daniel explain that he is safe and sound?"
+     },
+     "choices": {
+      "fr": [
+       "Les lions avaient été nourris la veille",
+       "Le roi avait fait retirer les lions",
+       "Dieu a envoyé son ange et fermé la gueule des lions",
+       "Il s'était caché dans un coin de la fosse"
+      ],
+      "en": [
+       "The lions had been fed the day before",
+       "The king had the lions removed",
+       "God sent his angel and shut the lions' mouths",
+       "He had hidden in a corner of the den"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Daniel dit : « Mon Dieu a envoyé son ange et fermé la gueule des lions, qui ne m'ont fait aucun mal, parce que j'ai été trouvé innocent devant lui ».",
+      "en": "Daniel says: “My God hath sent his angel, and hath shut the lions’ mouths, that they have not hurt me: forasmuch as before him innocency was found in me.”"
+     },
+     "ref": "27:6:22"
+    }
+   ]
+  },
+  {
+   "id": "people-jonah",
+   "title": {
+    "fr": "Jonas, le prophète qui fuyait",
+    "en": "Jonah, the runaway prophet"
+   },
+   "passages": [
+    "32:1:1-17",
+    "32:2:1",
+    "32:2:10",
+    "32:3:1-10"
+   ],
+   "intro": {
+    "fr": "Jonas, fils d'Amitthaï, est un prophète d'Israël. Dieu l'envoie à Ninive, la grande capitale de l'Assyrie, ennemie d'Israël. Le livre raconte sa fuite, puis sa mission.",
+    "en": "Jonah, the son of Amittai, is a prophet of Israel. God sends him to Nineveh, the great capital of Assyria, Israel's enemy. The book tells of his flight, then of his mission."
+   },
+   "keyVerse": "32:3:10",
+   "takeaway": {
+    "fr": "Jonas fuit loin de l'Eternel, mais la tempête et le grand poisson le ramènent à sa mission. Quand Ninive se détourne de sa mauvaise voie, Dieu renonce au mal qu'il avait annoncé.",
+    "en": "Jonah flees from the presence of the Lord, but the storm and the great fish bring him back to his mission. When Nineveh turns from its evil way, God relents from the evil he had announced."
+   },
+   "questions": [
+    {
+     "id": "people-jonah-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Vers quelle ville Jonas s'embarque-t-il pour fuir loin de la face de l'Eternel ?",
+      "en": "To which place does Jonah sail to flee from the presence of the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Ninive",
+       "Tarsis",
+       "Babylone",
+       "Jérusalem"
+      ],
+      "en": [
+       "Nineveh",
+       "Tarshish",
+       "Babylon",
+       "Jerusalem"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Jonas « se leva pour s'enfuir à Tarsis, loin de la face de l'Eternel ». Il s'embarque à Japho, dans la direction opposée à Ninive.",
+      "en": "Jonah “rose up to flee unto Tarshish from the presence of the Lord.” He boards a ship at Joppa, heading the opposite way from Nineveh."
+     },
+     "ref": "32:1:3"
+    },
+    {
+     "id": "people-jonah-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait Jonas pendant que les marins luttent contre la tempête ?",
+      "en": "What is Jonah doing while the sailors fight the storm?"
+     },
+     "choices": {
+      "fr": [
+       "Il dort profondément au fond du navire",
+       "Il prie avec les marins sur le pont",
+       "Il aide à jeter la cargaison",
+       "Il tient le gouvernail"
+      ],
+      "en": [
+       "He is fast asleep in the sides of the ship",
+       "He is praying with the sailors on deck",
+       "He is helping throw the cargo overboard",
+       "He is steering the ship"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Pendant que chacun implore son dieu, « Jonas descendit au fond du navire, se coucha, et s'endormit profondément ». Le pilote vient le réveiller (v. 6).",
+      "en": "While each man cries to his god, “Jonah was gone down into the sides of the ship; and he lay, and was fast asleep.” The shipmaster comes to wake him (v. 6)."
+     },
+     "ref": "32:1:5"
+    },
+    {
+     "id": "people-jonah-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande Jonas aux marins pour que la mer se calme ?",
+      "en": "What does Jonah tell the sailors to do so that the sea will calm down?"
+     },
+     "choices": {
+      "fr": [
+       "De retourner au port de Japho",
+       "D'offrir un sacrifice à l'Eternel",
+       "De tirer au sort une seconde fois",
+       "De le jeter dans la mer"
+      ],
+      "en": [
+       "To go back to the port of Joppa",
+       "To offer a sacrifice to the Lord",
+       "To cast lots a second time",
+       "To throw him into the sea"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Jonas dit : « Prenez-moi, et jetez-moi dans la mer, et la mer se calmera envers vous ». Les marins essaient d'abord de ramer vers la terre (v. 13).",
+      "en": "Jonah says: “Take me up, and cast me forth into the sea; so shall the sea be calm unto you.” The sailors first try to row to land (v. 13)."
+     },
+     "ref": "32:1:12"
+    },
+    {
+     "id": "people-jonah-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de temps Jonas reste-t-il dans le ventre du poisson ?",
+      "en": "How long does Jonah stay in the belly of the fish?"
+     },
+     "choices": {
+      "fr": [
+       "Un jour et une nuit",
+       "Sept jours",
+       "Trois jours et trois nuits",
+       "Quarante jours"
+      ],
+      "en": [
+       "One day and one night",
+       "Seven days",
+       "Three days and three nights",
+       "Forty days"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Jonas fut dans le ventre du poisson trois jours et trois nuits. » Il y prie l'Eternel (2:1), puis le poisson le rejette sur la terre (2:10).",
+      "en": "“Jonah was in the belly of the fish three days and three nights.” There he prays to the Lord (2:1), and then the fish casts him out on dry land (2:10)."
+     },
+     "ref": "32:1:17"
+    },
+    {
+     "id": "people-jonah-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel message Jonas proclame-t-il dans Ninive ?",
+      "en": "What message does Jonah proclaim in Nineveh?"
+     },
+     "choices": {
+      "fr": [
+       "Repentez-vous, et vous serez pardonnés",
+       "Encore quarante jours, et Ninive est détruite",
+       "Le roi de Ninive mourra cette année",
+       "L'Eternel enverra une famine sur la ville"
+      ],
+      "en": [
+       "Repent, and you will be forgiven",
+       "Yet forty days, and Nineveh shall be overthrown",
+       "The king of Nineveh will die this year",
+       "The Lord will send a famine on the city"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Jonas crie : « Encore quarante jours, et Ninive est détruite! » Les gens de Ninive croient à Dieu et publient un jeûne (v. 5).",
+      "en": "Jonah cries: “Yet forty days, and Nineveh shall be overthrown.” The people of Nineveh believe God and proclaim a fast (v. 5)."
+     },
+     "ref": "32:3:4"
+    },
+    {
+     "id": "people-jonah-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "À la fin du chapitre 3, Dieu détruit Ninive comme Jonas l'avait annoncé.",
+      "en": "At the end of chapter 3, God destroys Nineveh as Jonah had announced."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Dieu vit qu'ils revenaient de leur mauvaise voie ; « alors Dieu se repentit du mal qu'il avait résolu de leur faire, et il ne le fit pas ».",
+      "en": "God saw that they turned from their evil way; “and God repented of the evil, that he had said that he would do unto them; and he did it not.”"
+     },
+     "ref": "32:3:10"
+    }
+   ]
+  },
+  {
+   "id": "people-mary",
+   "title": {
+    "fr": "Marie et l'ange Gabriel",
+    "en": "Mary and the angel Gabriel"
+   },
+   "passages": [
+    "42:1:26-38"
+   ],
+   "intro": {
+    "fr": "L'Evangile de Luc s'ouvre sous le règne d'Hérode, roi de Judée. L'ange Gabriel vient d'annoncer au prêtre Zacharie la naissance d'un fils, Jean. Six mois plus tard, il est envoyé à une jeune femme de Galilée nommée Marie.",
+    "en": "Luke's Gospel opens in the days of Herod, king of Judea. The angel Gabriel has just announced to the priest Zacharias the birth of a son, John. Six months later he is sent to a young woman of Galilee named Mary."
+   },
+   "keyVerse": "42:1:38",
+   "takeaway": {
+    "fr": "Gabriel annonce à Marie qu'elle enfantera un fils nommé Jésus, dont le règne n'aura point de fin. Marie demande comment cela se fera, puis répond : « qu'il me soit fait selon ta parole ».",
+    "en": "Gabriel tells Mary that she will bear a son named Jesus, whose kingdom will have no end. Mary asks how this will be, then answers: “be it unto me according to thy word.”"
+   },
+   "questions": [
+    {
+     "id": "people-mary-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans quelle ville l'ange Gabriel est-il envoyé ?",
+      "en": "To which town is the angel Gabriel sent?"
+     },
+     "choices": {
+      "fr": [
+       "Bethléhem",
+       "Jérusalem",
+       "Nazareth",
+       "Capernaüm"
+      ],
+      "en": [
+       "Bethlehem",
+       "Jerusalem",
+       "Nazareth",
+       "Capernaum"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Gabriel est envoyé « dans une ville de Galilée, appelée Nazareth ». La Galilée est la région du nord du pays.",
+      "en": "Gabriel is sent “unto a city of Galilee, named Nazareth.” Galilee is the northern region of the land."
+     },
+     "ref": "42:1:26"
+    },
+    {
+     "id": "people-mary-2",
+     "kind": "choice",
+     "q": {
+      "fr": "À qui Marie est-elle fiancée ?",
+      "en": "To whom is Mary engaged?"
+     },
+     "choices": {
+      "fr": [
+       "À Joseph, de la maison de David",
+       "À Zacharie, un prêtre",
+       "À un homme de la tribu de Lévi",
+       "À Siméon, de Jérusalem"
+      ],
+      "en": [
+       "To Joseph, of the house of David",
+       "To Zacharias, a priest",
+       "To a man of the tribe of Levi",
+       "To Simeon, of Jerusalem"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Marie est « une vierge fiancée à un homme de la maison de David, nommé Joseph ». Ce lien avec David prépare l'annonce du « trône de David » (v. 32).",
+      "en": "Mary is “a virgin espoused to a man whose name was Joseph, of the house of David.” This link with David prepares the promise of “the throne of his father David” (v. 32)."
+     },
+     "ref": "42:1:27"
+    },
+    {
+     "id": "people-mary-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit l'ange au sujet du règne de l'enfant ?",
+      "en": "What does the angel say about the child's reign?"
+     },
+     "choices": {
+      "fr": [
+       "Il régnera sur Rome",
+       "Il régnera quarante ans",
+       "Il régnera après Hérode",
+       "Son règne n'aura point de fin"
+      ],
+      "en": [
+       "He will reign over Rome",
+       "He will reign forty years",
+       "He will reign after Herod",
+       "Of his kingdom there shall be no end"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Il règnera sur la maison de Jacob éternellement, et son règne n'aura point de fin. » La « maison de Jacob » désigne le peuple d'Israël.",
+      "en": "“He shall reign over the house of Jacob for ever; and of his kingdom there shall be no end.” “The house of Jacob” means the people of Israel."
+     },
+     "ref": "42:1:33"
+    },
+    {
+     "id": "people-mary-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question Marie pose-t-elle à l'ange ?",
+      "en": "What question does Mary ask the angel?"
+     },
+     "choices": {
+      "fr": [
+       "Qui es-tu, et d'où viens-tu ?",
+       "Comment cela se fera-t-il, puisque je ne connais point d'homme ?",
+       "Quel signe me donneras-tu ?",
+       "Quand cela arrivera-t-il ?"
+      ],
+      "en": [
+       "Who art thou, and whence comest thou?",
+       "How shall this be, seeing I know not a man?",
+       "What sign wilt thou give me?",
+       "When shall these things be?"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Marie demande : « Comment cela se fera-t-il, puisque je ne connais point d'homme? » L'ange répond que le Saint-Esprit viendra sur elle (v. 35).",
+      "en": "Mary asks: “How shall this be, seeing I know not a man?” The angel answers that the Holy Ghost shall come upon her (v. 35)."
+     },
+     "ref": "42:1:34"
+    },
+    {
+     "id": "people-mary-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle parente de Marie l'ange mentionne-t-il ?",
+      "en": "Which relative of Mary does the angel mention?"
+     },
+     "choices": {
+      "fr": [
+       "Anne",
+       "Marthe",
+       "Elisabeth",
+       "Salomé"
+      ],
+      "en": [
+       "Anna",
+       "Martha",
+       "Elisabeth",
+       "Salome"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "L'ange dit : « Elisabeth, ta parente, a conçu, elle aussi, un fils en sa vieillesse », elle qu'on appelait stérile. Il ajoute : « rien n'est impossible à Dieu » (v. 37).",
+      "en": "The angel says: “thy cousin Elisabeth, she hath also conceived a son in her old age”, she who was called barren. He adds: “with God nothing shall be impossible” (v. 37)."
+     },
+     "ref": "42:1:36"
+    },
+    {
+     "id": "people-mary-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Marie répond : « Je suis la servante du Seigneur; qu'il me soit fait selon ta parole! »",
+      "en": "Mary answers: “Behold the handmaid of the Lord; be it unto me according to thy word.”"
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Ce sont les dernières paroles de Marie dans la scène ; le texte ajoute : « Et l'ange la quitta. »",
+      "en": "These are Mary's last words in the scene; the text adds: “And the angel departed from her.”"
+     },
+     "ref": "42:1:38"
+    }
+   ]
+  },
+  {
+   "id": "people-peter",
+   "title": {
+    "fr": "Pierre, le pêcheur",
+    "en": "Peter the fisherman"
+   },
+   "passages": [
+    "42:5:1-11",
+    "43:21:1-19"
+   ],
+   "intro": {
+    "fr": "Simon, appelé aussi Pierre, est un pêcheur de Galilée. On le retrouve ici dans deux scènes au bord du même lac (Génésareth, ou mer de Tibériade) : au début de son chemin avec Jésus, puis après la résurrection.",
+    "en": "Simon, also called Peter, is a fisherman from Galilee. We meet him here in two scenes by the same lake (Gennesaret, or the sea of Tiberias): at the start of his time with Jesus, and after the resurrection."
+   },
+   "keyVerse": "42:5:10",
+   "takeaway": {
+    "fr": "Après une nuit sans rien prendre, une pêche abondante pousse Simon à tout laisser pour suivre Jésus. Plus tard, au bord du même lac, Jésus lui demande trois fois s'il l'aime, lui confie ses brebis et lui dit : « Suis-moi. »",
+    "en": "After a night of catching nothing, a huge catch leads Simon to leave everything and follow Jesus. Later, by the same lake, Jesus asks him three times if he loves him, entrusts his sheep to him and says, “Follow me.”"
+   },
+   "questions": [
+    {
+     "id": "people-peter-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans les deux scènes, qu'avaient pris les pêcheurs pendant la nuit ?",
+      "en": "In both scenes, what had the fishermen caught during the night?"
+     },
+     "choices": {
+      "fr": [
+       "Rien du tout",
+       "Quelques petits poissons",
+       "Une pêche ordinaire",
+       "Assez pour vendre au marché"
+      ],
+      "en": [
+       "Nothing at all",
+       "A few small fish",
+       "An ordinary catch",
+       "Enough to sell at market"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Simon dit : « nous avons travaillé toute la nuit sans rien prendre; mais, sur ta parole, je jetterai le filet. » En Jean 21:3 aussi, « cette nuit-là ils ne prirent rien ».",
+      "en": "Simon says: “we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net.” In John 21:3 too, “that night they caught nothing.”"
+     },
+     "ref": "42:5:5"
+    },
+    {
+     "id": "people-peter-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Simon Pierre en tombant aux genoux de Jésus après la pêche ?",
+      "en": "What does Simon Peter say as he falls at Jesus' knees after the catch?"
+     },
+     "choices": {
+      "fr": [
+       "Maître, apprends-nous à pêcher ainsi",
+       "Seigneur, reste avec nous dans la barque",
+       "Seigneur, retire-toi de moi, parce que je suis un homme pécheur",
+       "Maître, nous te suivrons partout où tu iras"
+      ],
+      "en": [
+       "Master, teach us to fish like this",
+       "Lord, stay with us in the boat",
+       "Depart from me; for I am a sinful man, O Lord",
+       "Master, we will follow thee wherever thou goest"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Saisi d'épouvante devant la pêche, Simon Pierre dit : « Seigneur, retire-toi de moi, parce que je suis un homme pécheur. »",
+      "en": "Astonished at the catch, Simon Peter says: “Depart from me; for I am a sinful man, O Lord.”"
+     },
+     "ref": "42:5:8"
+    },
+    {
+     "id": "people-peter-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que Jésus annonce-t-il à Simon en Luc 5 ?",
+      "en": "What does Jesus tell Simon in Luke 5?"
+     },
+     "choices": {
+      "fr": [
+       "Tu seras le chef des pêcheurs du lac",
+       "Désormais tu seras pêcheur d'hommes",
+       "Tu ne manqueras plus jamais de poisson",
+       "Tu retourneras bientôt à tes filets"
+      ],
+      "en": [
+       "You will be the head of the lake's fishermen",
+       "From henceforth thou shalt catch men",
+       "You will never again lack fish",
+       "You will soon go back to your nets"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Jésus lui dit : « Ne crains point; désormais tu seras pêcheur d'hommes. » Simon, Jacques et Jean « laissèrent tout, et le suivirent » (v. 11).",
+      "en": "Jesus tells him: “Fear not; from henceforth thou shalt catch men.” Simon, James and John “forsook all, and followed him” (v. 11)."
+     },
+     "ref": "42:5:10"
+    },
+    {
+     "id": "people-peter-4",
+     "kind": "choice",
+     "q": {
+      "fr": "En Jean 21, qui dit le premier : « C'est le Seigneur! » ?",
+      "en": "In John 21, who is the first to say, “It is the Lord”?"
+     },
+     "choices": {
+      "fr": [
+       "Simon Pierre",
+       "Thomas",
+       "Nathanaël",
+       "Le disciple que Jésus aimait"
+      ],
+      "en": [
+       "Simon Peter",
+       "Thomas",
+       "Nathanael",
+       "The disciple whom Jesus loved"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Le disciple que Jésus aimait dit à Pierre: C'est le Seigneur! » Aussitôt, Simon Pierre se jette à la mer pour rejoindre le rivage.",
+      "en": "“That disciple whom Jesus loved saith unto Peter, It is the Lord.” At once Simon Peter casts himself into the sea to reach the shore."
+     },
+     "ref": "43:21:7"
+    },
+    {
+     "id": "people-peter-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de grands poissons le filet tiré par Simon Pierre contient-il ?",
+      "en": "How many great fish are in the net that Simon Peter draws ashore?"
+     },
+     "choices": {
+      "fr": [
+       "Douze",
+       "Cent cinquante-trois",
+       "Soixante-dix",
+       "Deux cents"
+      ],
+      "en": [
+       "Twelve",
+       "A hundred and fifty-three",
+       "Seventy",
+       "Two hundred"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le filet est « plein de cent cinquante-trois grands poissons; et quoiqu'il y en eût tant, le filet ne se rompit point ». En Luc 5:6, au contraire, le filet se rompait.",
+      "en": "The net is “full of great fishes, an hundred and fifty and three: and for all there were so many, yet was not the net broken.” In Luke 5:6, by contrast, the net broke."
+     },
+     "ref": "43:21:11"
+    },
+    {
+     "id": "people-peter-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Après le repas, Jésus demande trois fois à Simon Pierre s'il l'aime.",
+      "en": "After the meal, Jesus asks Simon Peter three times whether he loves him."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Il lui dit pour la troisième fois: Simon, fils de Jonas, m'aimes-tu? » Pierre en est attristé, et chaque fois Jésus lui confie ses agneaux ou ses brebis.",
+      "en": "“He saith unto him the third time, Simon, son of Jonas, lovest thou me?” Peter is grieved, and each time Jesus entrusts his lambs or sheep to him."
+     },
+     "ref": "43:21:17"
+    }
+   ]
+  },
+  {
+   "id": "people-zacchaeus",
+   "title": {
+    "fr": "Zachée dans le sycomore",
+    "en": "Zaccheus in the tree"
+   },
+   "passages": [
+    "42:19:1-10"
+   ],
+   "intro": {
+    "fr": "Jésus monte vers Jérusalem et traverse Jéricho. Là vit Zachée, chef des publicains, c'est-à-dire des collecteurs d'impôts pour le compte de Rome, souvent méprisés par leurs compatriotes.",
+    "en": "Jesus is going up to Jerusalem and passes through Jericho. There lives Zaccheus, chief among the publicans, the tax collectors working for Rome, who were often despised by their own people."
+   },
+   "keyVerse": "42:19:10",
+   "takeaway": {
+    "fr": "Zachée, qui voulait seulement voir Jésus, le reçoit chez lui avec joie et promet de réparer ses torts. Jésus déclare que le Fils de l'homme est venu chercher et sauver ce qui était perdu.",
+    "en": "Zaccheus, who only wanted to see Jesus, welcomes him joyfully into his house and promises to make amends. Jesus declares that the Son of man came to seek and to save that which was lost."
+   },
+   "questions": [
+    {
+     "id": "people-zacchaeus-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui était Zachée ?",
+      "en": "Who was Zaccheus?"
+     },
+     "choices": {
+      "fr": [
+       "Un pharisien de Jéricho",
+       "Un homme riche, chef des publicains",
+       "Un centenier romain",
+       "Un mendiant aveugle"
+      ],
+      "en": [
+       "A Pharisee of Jericho",
+       "A rich man, chief among the publicans",
+       "A Roman centurion",
+       "A blind beggar"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le texte le présente comme « un homme riche, appelé Zachée, chef des publicains ». Les publicains percevaient les taxes et étaient souvent soupçonnés de s'enrichir injustement.",
+      "en": "The text introduces him as “a man named Zaccheus, which was the chief among the publicans, and he was rich.” Publicans collected taxes and were often suspected of getting rich unfairly."
+     },
+     "ref": "42:19:2"
+    },
+    {
+     "id": "people-zacchaeus-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Zachée monte-t-il sur un sycomore ?",
+      "en": "Why does Zaccheus climb a sycamore tree?"
+     },
+     "choices": {
+      "fr": [
+       "Pour se cacher de la foule",
+       "Pour cueillir des fruits",
+       "Pour parler à la foule",
+       "Pour voir Jésus, car il était de petite taille"
+      ],
+      "en": [
+       "To hide from the crowd",
+       "To pick fruit",
+       "To speak to the crowd",
+       "To see Jesus, because he was short"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Zachée ne pouvait voir Jésus « à cause de la foule, car il était de petite taille ». Il courut donc en avant et monta sur un sycomore (v. 4).",
+      "en": "Zaccheus could not see Jesus “for the press, because he was little of stature.” So he ran ahead and climbed a sycomore tree (v. 4)."
+     },
+     "ref": "42:19:3"
+    },
+    {
+     "id": "people-zacchaeus-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que lui dit Jésus en arrivant sous l'arbre ?",
+      "en": "What does Jesus say to him on reaching the tree?"
+     },
+     "choices": {
+      "fr": [
+       "Hâte-toi de descendre, car il faut que je demeure aujourd'hui dans ta maison",
+       "Reste là-haut, et écoute ce que je vais dire",
+       "Descends, et va rendre ce que tu as pris",
+       "Descends, et suis-moi jusqu'à Jérusalem"
+      ],
+      "en": [
+       "Make haste, and come down; for to day I must abide at thy house",
+       "Stay up there, and listen to what I will say",
+       "Come down, and go give back what you have taken",
+       "Come down, and follow me to Jerusalem"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Jésus l'appelle par son nom : « Zachée, hâte-toi de descendre; car il faut que je demeure aujourd'hui dans ta maison. » Zachée le reçoit avec joie (v. 6).",
+      "en": "Jesus calls him by name: “Zaccheus, make haste, and come down; for to day I must abide at thy house.” Zaccheus receives him joyfully (v. 6)."
+     },
+     "ref": "42:19:5"
+    },
+    {
+     "id": "people-zacchaeus-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment la foule réagit-elle ?",
+      "en": "How does the crowd react?"
+     },
+     "choices": {
+      "fr": [
+       "Elle se réjouit avec Zachée",
+       "Elle suit Jésus dans la maison",
+       "Elle murmure : il est allé loger chez un homme pécheur",
+       "Elle demande à Jésus de guérir les malades"
+      ],
+      "en": [
+       "It rejoices with Zaccheus",
+       "It follows Jesus into the house",
+       "It murmurs: he has gone to be the guest of a sinner",
+       "It asks Jesus to heal the sick"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Voyant cela, tous murmuraient, et disaient: Il est allé loger chez un homme pécheur. » Le contraste avec la joie de Zachée est frappant.",
+      "en": "“When they saw it, they all murmured, saying, That he was gone to be guest with a man that is a sinner.” This contrasts sharply with Zaccheus' joy."
+     },
+     "ref": "42:19:7"
+    },
+    {
+     "id": "people-zacchaeus-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que promet Zachée devant le Seigneur ?",
+      "en": "What does Zaccheus promise before the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "De donner tous ses biens au temple",
+       "De rendre le double à ceux qu'il a lésés",
+       "De quitter son métier de publicain",
+       "De donner la moitié de ses biens aux pauvres et de rendre le quadruple"
+      ],
+      "en": [
+       "To give all his goods to the temple",
+       "To repay double to those he has wronged",
+       "To give up his work as a publican",
+       "To give half his goods to the poor and repay fourfold"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Zachée dit : « je donne aux pauvres la moitié de mes biens, et, si j'ai fait tort de quelque chose à quelqu'un, je lui rends le quadruple. »",
+      "en": "Zaccheus says: “the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold.”"
+     },
+     "ref": "42:19:8"
+    },
+    {
+     "id": "people-zacchaeus-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Jésus conclut que le Fils de l'homme est venu chercher et sauver ce qui était perdu.",
+      "en": "Jesus concludes that the Son of man came to seek and to save that which was lost."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Après avoir dit que « le salut est entré aujourd'hui dans cette maison » (v. 9), Jésus ajoute : « Car le Fils de l'homme est venu chercher et sauver ce qui était perdu. »",
+      "en": "After saying that “this day is salvation come to this house” (v. 9), Jesus adds: “For the Son of man is come to seek and to save that which was lost.”"
+     },
+     "ref": "42:19:10"
+    }
+   ]
+  },
+  {
+   "id": "people-paul",
+   "title": {
+    "fr": "Saul sur le chemin de Damas",
+    "en": "Saul on the road to Damascus"
+   },
+   "passages": [
+    "44:9:1-22"
+   ],
+   "intro": {
+    "fr": "Quelques années après la mort et la résurrection de Jésus, ses disciples sont persécutés à Jérusalem. Saul, originaire de Tarse, est l'un de leurs adversaires les plus acharnés. On le connaîtra plus tard sous le nom de Paul.",
+    "en": "A few years after the death and resurrection of Jesus, his disciples are being persecuted in Jerusalem. Saul, from Tarsus, is one of their fiercest opponents. He will later be known as Paul."
+   },
+   "keyVerse": "44:9:15",
+   "takeaway": {
+    "fr": "Sur la route de Damas, Saul rencontre Jésus et devient aveugle. Guéri par l'intermédiaire d'Ananias, l'ancien persécuteur prêche aussitôt que Jésus est le Fils de Dieu.",
+    "en": "On the road to Damascus, Saul meets Jesus and is blinded. Healed through Ananias, the former persecutor immediately preaches that Jesus is the Son of God."
+   },
+   "questions": [
+    {
+     "id": "people-paul-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans quel but Saul se rend-il à Damas ?",
+      "en": "For what purpose is Saul going to Damascus?"
+     },
+     "choices": {
+      "fr": [
+       "Pour y enseigner dans les synagogues",
+       "Pour rencontrer les apôtres",
+       "Pour amener liés à Jérusalem les disciples qu'il trouverait",
+       "Pour fuir la persécution de Jérusalem"
+      ],
+      "en": [
+       "To teach in the synagogues there",
+       "To meet the apostles",
+       "To bring any disciples he found bound to Jerusalem",
+       "To escape persecution in Jerusalem"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Saul a demandé des lettres pour les synagogues de Damas, afin que, s'il trouvait des disciples, « hommes ou femmes, il les amenât liés à Jérusalem ».",
+      "en": "Saul asked for letters to the synagogues of Damascus, so that if he found any of this way, “whether they were men or women, he might bring them bound unto Jerusalem.”"
+     },
+     "ref": "44:9:2"
+    },
+    {
+     "id": "people-paul-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit la voix que Saul entend ?",
+      "en": "What does the voice that Saul hears say?"
+     },
+     "choices": {
+      "fr": [
+       "Saul, Saul, pourquoi me persécutes-tu ?",
+       "Saul, retourne à Jérusalem !",
+       "Saul, tu seras mon apôtre !",
+       "Saul, crois et tu seras sauvé !"
+      ],
+      "en": [
+       "Saul, Saul, why persecutest thou me?",
+       "Saul, go back to Jerusalem!",
+       "Saul, you will be my apostle!",
+       "Saul, believe and you will be saved!"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Saul tombe par terre et entend : « Saul, Saul, pourquoi me persécutes-tu? » La voix se présente ensuite : « Je suis Jésus que tu persécutes » (v. 5).",
+      "en": "Saul falls to the earth and hears: “Saul, Saul, why persecutest thou me?” The voice then says: “I am Jesus whom thou persecutest” (v. 5)."
+     },
+     "ref": "44:9:4"
+    },
+    {
+     "id": "people-paul-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Pendant combien de jours Saul reste-t-il sans voir ?",
+      "en": "For how many days is Saul without sight?"
+     },
+     "choices": {
+      "fr": [
+       "Un jour",
+       "Trois jours",
+       "Sept jours",
+       "Quarante jours"
+      ],
+      "en": [
+       "One day",
+       "Three days",
+       "Seven days",
+       "Forty days"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Il resta trois jours sans voir, et il ne mangea ni ne but. » On l'avait conduit à Damas par la main (v. 8).",
+      "en": "“He was three days without sight, and neither did eat nor drink.” He had been led into Damascus by the hand (v. 8)."
+     },
+     "ref": "44:9:9"
+    },
+    {
+     "id": "people-paul-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Ananias hésite-t-il à aller trouver Saul ?",
+      "en": "Why does Ananias hesitate to go to Saul?"
+     },
+     "choices": {
+      "fr": [
+       "Il ne savait pas où Saul logeait",
+       "Il était lui-même malade",
+       "Il craignait les autorités romaines",
+       "Il avait appris tout le mal que Saul avait fait aux saints"
+      ],
+      "en": [
+       "He did not know where Saul was staying",
+       "He was ill himself",
+       "He feared the Roman authorities",
+       "He had heard how much evil Saul had done to the saints"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Ananias répond : « Seigneur, j'ai appris de plusieurs personnes tous les maux que cet homme a faits à tes saints dans Jérusalem ». Il sait aussi que Saul a le pouvoir de les arrêter (v. 14).",
+      "en": "Ananias answers: “Lord, I have heard by many of this man, how much evil he hath done to thy saints at Jerusalem.” He also knows Saul has authority to arrest them (v. 14)."
+     },
+     "ref": "44:9:13"
+    },
+    {
+     "id": "people-paul-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le Seigneur, devant qui Saul portera-t-il son nom ?",
+      "en": "According to the Lord, before whom will Saul bear his name?"
+     },
+     "choices": {
+      "fr": [
+       "Devant les seuls Juifs de Damas",
+       "Devant le souverain sacrificateur",
+       "Devant les nations, les rois et les fils d'Israël",
+       "Devant les apôtres à Jérusalem"
+      ],
+      "en": [
+       "Before the Jews of Damascus only",
+       "Before the high priest",
+       "Before the Gentiles, and kings, and the children of Israel",
+       "Before the apostles in Jerusalem"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le Seigneur dit : « cet homme est un instrument que j'ai choisi, pour porter mon nom devant les nations, devant les rois, et devant les fils d'Israël ». Les « nations » désignent les peuples non juifs.",
+      "en": "The Lord says: “he is a chosen vessel unto me, to bear my name before the Gentiles, and kings, and the children of Israel.” The Gentiles are the non-Jewish peoples."
+     },
+     "ref": "44:9:15"
+    },
+    {
+     "id": "people-paul-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Après avoir recouvré la vue, Saul prêche aussitôt dans les synagogues que Jésus est le Fils de Dieu.",
+      "en": "After regaining his sight, Saul immediately preaches in the synagogues that Jesus is the Son of God."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Et aussitôt il prêcha dans les synagogues que Jésus est le Fils de Dieu. » Ceux qui l'entendent s'étonnent, car ils savent qu'il persécutait ceux qui invoquent ce nom (v. 21).",
+      "en": "“And straightway he preached Christ in the synagogues, that he is the Son of God.” His hearers are amazed, knowing he had persecuted those who called on this name (v. 21)."
+     },
+     "ref": "44:9:20"
+    }
+   ]
+  },
+  {
+   "id": "people-priscilla",
+   "title": {
+    "fr": "Priscille et Aquilas",
+    "en": "Priscilla and Aquila"
+   },
+   "passages": [
+    "44:18:1-4",
+    "44:18:18-28"
+   ],
+   "intro": {
+    "fr": "Vers le milieu du Ier siècle, l'apôtre Paul voyage autour de la Méditerranée pour annoncer l'Evangile. À Corinthe, en Grèce, il rencontre un couple de Juifs qui deviendront ses compagnons de travail et de voyage.",
+    "en": "Around the middle of the first century, the apostle Paul travels around the Mediterranean to preach the gospel. In Corinth, in Greece, he meets a Jewish couple who become his companions in work and travel."
+   },
+   "keyVerse": "44:18:26",
+   "takeaway": {
+    "fr": "Aquilas et Priscille, faiseurs de tentes, accueillent Paul et voyagent avec lui jusqu'à Ephèse. Là, ils prennent avec eux le prédicateur Apollos pour lui exposer plus exactement la voie de Dieu.",
+    "en": "Aquila and Priscilla, tentmakers, take Paul in and travel with him to Ephesus. There they take the preacher Apollos aside and expound the way of God to him more perfectly."
+   },
+   "questions": [
+    {
+     "id": "people-priscilla-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Aquilas et Priscille avaient-ils récemment quitté l'Italie ?",
+      "en": "Why had Aquila and Priscilla recently left Italy?"
+     },
+     "choices": {
+      "fr": [
+       "Pour suivre l'apôtre Paul",
+       "Parce que Claude avait ordonné à tous les Juifs de sortir de Rome",
+       "Pour faire commerce de tentes en Grèce",
+       "Parce qu'une famine frappait l'Italie"
+      ],
+      "en": [
+       "To follow the apostle Paul",
+       "Because Claudius had commanded all Jews to depart from Rome",
+       "To trade in tents in Greece",
+       "Because a famine had struck Italy"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Ils étaient arrivés d'Italie « parce que Claude avait ordonné à tous les Juifs de sortir de Rome ». Claude était alors l'empereur romain.",
+      "en": "They had come from Italy “because that Claudius had commanded all Jews to depart from Rome.” Claudius was the Roman emperor at the time."
+     },
+     "ref": "44:18:2"
+    },
+    {
+     "id": "people-priscilla-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel métier Paul partageait-il avec Aquilas et Priscille ?",
+      "en": "What trade did Paul share with Aquila and Priscilla?"
+     },
+     "choices": {
+      "fr": [
+       "Pêcheurs",
+       "Potiers",
+       "Marchands de pourpre",
+       "Faiseurs de tentes"
+      ],
+      "en": [
+       "Fishermen",
+       "Potters",
+       "Sellers of purple",
+       "Tentmakers"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Comme il avait le même métier, il demeura chez eux et y travailla: ils étaient faiseurs de tentes. » Le sabbat, Paul enseignait à la synagogue (v. 4).",
+      "en": "“Because he was of the same craft, he abode with them, and wrought: for by their occupation they were tentmakers.” On the sabbath, Paul reasoned in the synagogue (v. 4)."
+     },
+     "ref": "44:18:3"
+    },
+    {
+     "id": "people-priscilla-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans quelle ville Paul laisse-t-il Priscille et Aquilas ?",
+      "en": "In which city does Paul leave Priscilla and Aquila?"
+     },
+     "choices": {
+      "fr": [
+       "Ephèse",
+       "Corinthe",
+       "Antioche",
+       "Jérusalem"
+      ],
+      "en": [
+       "Ephesus",
+       "Corinth",
+       "Antioch",
+       "Jerusalem"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Ils arrivèrent à Ephèse, et Paul y laissa ses compagnons. » Paul poursuit ensuite vers Césarée, Jérusalem et Antioche (v. 22).",
+      "en": "“He came to Ephesus, and left them there.” Paul then goes on to Cesarea, Jerusalem and Antioch (v. 22)."
+     },
+     "ref": "44:18:19"
+    },
+    {
+     "id": "people-priscilla-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment le texte décrit-il Apollos ?",
+      "en": "How does the text describe Apollos?"
+     },
+     "choices": {
+      "fr": [
+       "Un Grec de Corinthe, faiseur de tentes",
+       "Un ancien de l'Eglise de Jérusalem",
+       "Un Juif d'Alexandrie, éloquent et versé dans les Ecritures",
+       "Un Romain récemment arrivé d'Italie"
+      ],
+      "en": [
+       "A Greek of Corinth, a tentmaker",
+       "An elder of the church in Jerusalem",
+       "A Jew of Alexandria, eloquent and mighty in the scriptures",
+       "A Roman lately come from Italy"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Apollos est « un Juif nommé Apollos, originaire d'Alexandrie, homme éloquent et versé dans les Ecritures ». Alexandrie, en Egypte, était un grand centre intellectuel.",
+      "en": "He is “a certain Jew named Apollos, born at Alexandria, an eloquent man, and mighty in the scriptures.” Alexandria, in Egypt, was a great centre of learning."
+     },
+     "ref": "44:18:24"
+    },
+    {
+     "id": "people-priscilla-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que font Aquilas et Priscille après avoir entendu Apollos dans la synagogue ?",
+      "en": "What do Aquila and Priscilla do after hearing Apollos in the synagogue?"
+     },
+     "choices": {
+      "fr": [
+       "Ils le contredisent devant toute l'assemblée",
+       "Ils le prennent avec eux et lui exposent plus exactement la voie de Dieu",
+       "Ils l'envoient chercher Paul à Antioche",
+       "Ils lui demandent de quitter Ephèse"
+      ],
+      "en": [
+       "They contradict him before the whole assembly",
+       "They take him aside and expound the way of God to him more perfectly",
+       "They send him to find Paul in Antioch",
+       "They ask him to leave Ephesus"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Aquilas et Priscille, l'ayant entendu, le prirent avec eux, et lui exposèrent plus exactement la voie de Dieu. » Apollos devient ensuite très utile aux croyants d'Achaïe (v. 27).",
+      "en": "“When Aquila and Priscilla had heard, they took him unto them, and expounded unto him the way of God more perfectly.” Apollos then greatly helps the believers in Achaia (v. 27)."
+     },
+     "ref": "44:18:26"
+    },
+    {
+     "id": "people-priscilla-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le texte, Apollos enseignait avec exactitude ce qui concerne Jésus, bien qu'il ne connût que le baptême de Jean.",
+      "en": "According to the text, Apollos taught diligently about the Lord, though he knew only the baptism of John."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Apollos, « fervent d'esprit, il annonçait et enseignait avec exactitude ce qui concerne Jésus, bien qu'il ne connût que le baptême de Jean ». C'est pourquoi Priscille et Aquilas complètent son instruction (v. 26).",
+      "en": "Apollos, “being fervent in the spirit, he spake and taught diligently the things of the Lord, knowing only the baptism of John.” That is why Priscilla and Aquila complete his instruction (v. 26)."
+     },
+     "ref": "44:18:25"
+    }
+   ]
+  }
+ ]
+}

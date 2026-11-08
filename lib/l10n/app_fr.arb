@@ -1,0 +1,257 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Quiz Biblique",
+  "tagline": "Lire et comprendre la Bible",
+  "navHome": "Accueil",
+  "navPaths": "Parcours",
+  "navBible": "Bible",
+  "navProgress": "Progrès",
+  "close": "Fermer",
+  "cancel": "Annuler",
+  "confirm": "Confirmer",
+  "retry": "Réessayer",
+  "loadError": "Le contenu n’a pas pu être chargé.",
+  "copied": "Copié",
+  "copy": "Copier",
+  "share": "Partager",
+  "addFavorite": "Mettre de côté",
+  "removeFavorite": "Retirer des versets mis de côté",
+  "favoriteAdded": "Verset mis de côté",
+  "favoriteRemoved": "Verset retiré",
+  "undo": "Annuler",
+  "questionsCount": "{count, plural, =1{1 question} other{{count} questions}}",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "versesCount": "{count, plural, =1{1 verset} other{{count} versets}}",
+  "@versesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "welcomeTitle": "Bienvenue",
+  "welcomeIntro": "Ce quiz est un compagnon de lecture : il vous aide à découvrir ce dont parle la Bible.",
+  "welcomeStep1": "Lisez un court passage, directement dans l’application.",
+  "welcomeStep2": "Répondez à quelques questions pour vérifier ce que vous avez compris.",
+  "welcomeStep3": "Chaque réponse est expliquée et renvoie au verset.",
+  "welcomeOffline": "Tout fonctionne sans Internet. Textes : Louis Segond 1910 (français) et King James 1769 (anglais).",
+  "chooseLanguage": "Langue",
+  "start": "Commencer",
+  "streakDays": "{count, plural, =1{1 jour de suite} other{{count} jours de suite}}",
+  "@streakDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "streakStart": "Commencez votre série aujourd’hui",
+  "streakKeep": "Lisez aujourd’hui pour garder votre série",
+  "streakDone": "Bravo, vous avez lu aujourd’hui",
+  "continueTitle": "Continuer",
+  "startTitle": "Pour commencer",
+  "allDone": "Vous avez terminé tous les parcours. Refaites vos leçons préférées ou lisez librement la Bible.",
+  "lessonStart": "Lire et répondre",
+  "reviewTitle": "À revoir",
+  "reviewDue": "{count, plural, =1{1 question à revoir aujourd’hui} other{{count} questions à revoir aujourd’hui}}",
+  "@reviewDue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewStart": "Réviser",
+  "verseOfDay": "Verset du jour",
+  "challengeTitle": "Dans quel livre ?",
+  "challengeSubtitle": "Retrouvez le livre d’où vient chaque verset.",
+  "challengeQuestion": "Dans quel livre se trouve ce verset ?",
+  "play": "Jouer",
+  "settings": "Réglages",
+  "pathsTitle": "Parcours",
+  "lessonsProgress": "{done} / {total} leçons",
+  "@lessonsProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "booksPathTitle": "Les 66 livres",
+  "booksPathSubtitle": "Une fiche par livre : de quoi il parle, qui l’a écrit, et quelques questions.",
+  "bestScore": "Meilleur score : {score} / {total}",
+  "@bestScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "oldTestament": "Ancien Testament",
+  "newTestament": "Nouveau Testament",
+  "readTitle": "À lire",
+  "introTitle": "Avant de lire",
+  "goToQuestions": "J’ai lu : aux questions ({count})",
+  "@goToQuestions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "showParallel": "Afficher aussi l’autre traduction",
+  "questionOf": "Question {index} sur {total}",
+  "@questionOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "trueLabel": "Vrai",
+  "falseLabel": "Faux",
+  "correct": "Bonne réponse !",
+  "incorrect": "Pas tout à fait",
+  "correctAnswerWas": "La bonne réponse : {answer}",
+  "@correctAnswerWas": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+  "readVerse": "Lire {ref}",
+  "@readVerse": {
+    "placeholders": {
+      "ref": {
+        "type": "String"
+      }
+    }
+  },
+  "next": "Suivant",
+  "seeResult": "Voir le résultat",
+  "quitTitle": "Quitter ?",
+  "quitBody": "Vos réponses à cette série ne seront pas enregistrées.",
+  "quit": "Quitter",
+  "stay": "Continuer",
+  "resultScore": "{score} / {total}",
+  "@resultScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "resultPerfect": "Parfait ! Vous avez tout compris.",
+  "resultGood": "Très bien ! Il reste un ou deux points à revoir.",
+  "resultFair": "C’est un début. Relire le passage aide beaucoup.",
+  "resultLow": "Pas de souci : relisez le passage, puis réessayez.",
+  "takeawayTitle": "À retenir",
+  "keyVerseTitle": "Verset clé",
+  "missedTitle": "À revoir",
+  "missedHint": "Ces questions reviendront dans vos révisions.",
+  "rereadPassage": "Relire le passage",
+  "retryQuiz": "Refaire les questions",
+  "nextLesson": "Leçon suivante",
+  "finish": "Terminer",
+  "reviewEmpty": "Rien à revoir aujourd’hui. Les questions ratées reviennent ici le lendemain.",
+  "bookAuthor": "Auteur",
+  "bookPeriod": "Époque",
+  "bookThemes": "Thèmes",
+  "bookChapters": "{count, plural, =1{1 chapitre} other{{count} chapitres}}",
+  "@bookChapters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "readBook": "Lire le livre",
+  "bookQuiz": "Quiz ({count})",
+  "@bookQuiz": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bookInfo": "Fiche du livre",
+  "chooseBook": "Choisir un livre",
+  "chooseChapter": "{book} : choisir un chapitre",
+  "@chooseChapter": {
+    "placeholders": {
+      "book": {
+        "type": "String"
+      }
+    }
+  },
+  "chapterTitle": "{book} {chapter}",
+  "@chapterTitle": {
+    "placeholders": {
+      "book": {
+        "type": "String"
+      },
+      "chapter": {
+        "type": "int"
+      }
+    }
+  },
+  "previousChapter": "Chapitre précédent",
+  "nextChapter": "Chapitre suivant",
+  "textSize": "Taille du texte",
+  "progressTitle": "Vos progrès",
+  "statLessons": "Leçons terminées",
+  "statAnswered": "Réponses données",
+  "statAccuracy": "Bonnes réponses",
+  "statMastered": "Questions acquises",
+  "statStreak": "Série en cours",
+  "statBestStreak": "Meilleure série",
+  "daysShort": "{count, plural, =1{1 jour} other{{count} jours}}",
+  "@daysShort": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "favoritesTitle": "Versets mis de côté",
+  "favoritesEmpty": "Touchez un verset dans la Bible pour le mettre de côté.",
+  "pathsProgressTitle": "Par parcours",
+  "language": "Langue",
+  "languageSystem": "Celle du téléphone",
+  "parallelSetting": "Lecture bilingue",
+  "parallelSettingHint": "Affiche sous chaque verset l’autre traduction (KJV ou Segond).",
+  "textSizePreview": "Au commencement, Dieu créa les cieux et la terre.",
+  "aboutTitle": "À propos",
+  "aboutTexts": "Textes bibliques : Louis Segond 1910 et King James Version 1769, tous deux dans le domaine public.",
+  "aboutContent": "Les questions s’en tiennent à ce que dit le texte, sans prendre parti entre les Églises. Chaque réponse renvoie au verset qui la justifie.",
+  "aboutVersion": "Version {version}",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "resetProgress": "Effacer ma progression",
+  "resetProgressBody": "Leçons terminées, révisions et série seront effacées. Vos versets mis de côté et vos réglages sont conservés. Cette action est définitive.",
+  "resetDone": "Progression effacée"
+}

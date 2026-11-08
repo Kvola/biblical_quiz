@@ -1,0 +1,2006 @@
+{
+ "id": "wisdom",
+ "order": 6,
+ "icon": "spa",
+ "title": {
+  "fr": "Prier et méditer : Psaumes et sagesse",
+  "en": "Pray and reflect: Psalms and wisdom"
+ },
+ "description": {
+  "fr": "Les livres poétiques de la Bible (Psaumes, Proverbes, Ecclésiaste, Job) mettent en mots la louange, la plainte, la confiance et la sagesse.",
+  "en": "The poetic books of the Bible (Psalms, Proverbs, Ecclesiastes, Job) put praise, lament, trust and wisdom into words."
+ },
+ "lessons": [
+  {
+   "id": "wisdom-psalm1",
+   "title": {
+    "fr": "Deux chemins",
+    "en": "Two ways"
+   },
+   "passages": [
+    "19:1:1-6"
+   ],
+   "intro": {
+    "fr": "Le livre des Psaumes s'ouvre sur ce court poème qui oppose deux manières de vivre. La poésie hébraïque procède souvent par parallélisme : un vers est repris, précisé ou contredit par le suivant. Repérez ces paires en lisant.",
+    "en": "The book of Psalms opens with this short poem contrasting two ways of life. Hebrew poetry often works by parallelism: one line is echoed, sharpened or contradicted by the next. Look for these pairs as you read."
+   },
+   "keyVerse": "19:1:6",
+   "takeaway": {
+    "fr": "Le Psaume 1 oppose deux voies : celle de l'homme qui médite la loi de l'Eternel, stable comme un arbre près de l'eau, et celle des méchants, emportés comme la paille.",
+    "en": "Psalm 1 contrasts two ways: that of the one who meditates on the law of the Lord, steady as a tree by the water, and that of the ungodly, blown away like chaff."
+   },
+   "questions": [
+    {
+     "id": "wisdom-psalm1-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 1, quels trois verbes décrivent ce que l'homme heureux évite de faire ?",
+      "en": "According to verse 1, which three verbs describe what the blessed man avoids doing?"
+     },
+     "choices": {
+      "fr": [
+       "Marcher, s'arrêter, s'asseoir",
+       "Courir, tomber, se relever",
+       "Parler, écouter, répondre",
+       "Entrer, rester, sortir"
+      ],
+      "en": [
+       "Walk, stand, sit",
+       "Run, fall, get up",
+       "Speak, listen, answer",
+       "Enter, stay, leave"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Il « ne marche pas selon le conseil des méchants », « ne s'arrête pas sur la voie des pécheurs » et « ne s'assied pas en compagnie des moqueurs ». Les trois vers parallèles vont du passage à l'installation.",
+      "en": "He “walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.” The three parallel lines move from passing by to settling in."
+     },
+     "ref": "19:1:1"
+    },
+    {
+     "id": "wisdom-psalm1-2",
+     "kind": "choice",
+     "q": {
+      "fr": "D'après le verset 2, que fait l'homme heureux de la loi de l'Eternel ?",
+      "en": "According to verse 2, what does the blessed man do with the law of the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Il la récite au temple",
+       "Il la médite jour et nuit",
+       "Il l'enseigne à ses enfants",
+       "Il la copie sur un rouleau"
+      ],
+      "en": [
+       "He recites it in the temple",
+       "He meditates on it day and night",
+       "He teaches it to his children",
+       "He copies it onto a scroll"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le verset parle de celui « qui trouve son plaisir dans la loi de l'Eternel, et qui la médite jour et nuit ». La loi n'est pas présentée comme un fardeau mais comme un plaisir.",
+      "en": "“His delight is in the law of the Lord; and in his law doth he meditate day and night.” The law is presented as a delight, not a burden."
+     },
+     "ref": "19:1:2"
+    },
+    {
+     "id": "wisdom-psalm1-3",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi le juste est-il comparé au verset 3 ?",
+      "en": "What is the righteous man compared to in verse 3?"
+     },
+     "choices": {
+      "fr": [
+       "À un cèdre sur la montagne",
+       "À une vigne dans un jardin",
+       "À un arbre planté près d'un courant d'eau",
+       "À un roseau au bord du fleuve"
+      ],
+      "en": [
+       "A cedar on the mountain",
+       "A vine in a garden",
+       "A tree planted by the rivers of water",
+       "A reed on the riverbank"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Il est « comme un arbre planté près d'un courant d'eau, qui donne son fruit en sa saison ». Dans un pays sec, un arbre près de l'eau reste vert.",
+      "en": "He is “like a tree planted by the rivers of water, that bringeth forth his fruit in his season.” In a dry land, a tree near water stays green."
+     },
+     "ref": "19:1:3"
+    },
+    {
+     "id": "wisdom-psalm1-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Et les méchants, à quoi sont-ils comparés au verset 4 ?",
+      "en": "And what are the ungodly compared to in verse 4?"
+     },
+     "choices": {
+      "fr": [
+       "À la fumée qui monte",
+       "À l'herbe qui sèche",
+       "À la poussière du chemin",
+       "À la paille que le vent dissipe"
+      ],
+      "en": [
+       "Smoke that rises",
+       "Grass that withers",
+       "Dust on the road",
+       "Chaff which the wind drives away"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ils sont comme la paille que le vent dissipe. » Lors du vannage, on lançait le grain en l'air : le grain retombait, la paille légère était emportée. L'image s'oppose à l'arbre enraciné du verset 3.",
+      "en": "They “are like the chaff which the wind driveth away.” When winnowing, grain was tossed into the air: the grain fell back, the light chaff blew away. The image contrasts with the rooted tree of verse 3."
+     },
+     "ref": "19:1:4"
+    },
+    {
+     "id": "wisdom-psalm1-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Le verset 6 affirme que l'Eternel connaît la voie des justes.",
+      "en": "Verse 6 says that the Lord knows the way of the righteous."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« L'Eternel connaît la voie des justes, et la voie des pécheurs mène à la ruine. » Les deux vers s'opposent : c'est un parallélisme antithétique, qui résume tout le psaume.",
+      "en": "“The Lord knoweth the way of the righteous: but the way of the ungodly shall perish.” The two lines are set against each other, an antithetic parallelism that sums up the whole psalm."
+     },
+     "ref": "19:1:6"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-psalm8",
+   "title": {
+    "fr": "L'homme dans la création",
+    "en": "Humanity in creation"
+   },
+   "passages": [
+    "19:8:1-9"
+   ],
+   "intro": {
+    "fr": "Ce psaume de louange commence par une suscription (« Au chef des chantres… Psaume de David »), un titre ancien placé en tête de nombreux psaumes. Devant l'immensité du ciel, le psalmiste s'interroge sur la place de l'homme.",
+    "en": "This psalm of praise opens with a superscription (“To the chief Musician… A Psalm of David”), an ancient heading found at the top of many psalms. Faced with the vastness of the sky, the psalmist wonders about humanity's place."
+   },
+   "keyVerse": "19:8:4",
+   "takeaway": {
+    "fr": "Le Psaume 8 célèbre la grandeur du nom de l'Eternel et s'étonne qu'il prenne soin de l'homme, à qui il a confié la domination sur les oeuvres de ses mains.",
+    "en": "Psalm 8 celebrates the greatness of the Lord's name and marvels that he cares for humanity, to whom he gave dominion over the works of his hands."
+   },
+   "questions": [
+    {
+     "id": "wisdom-psalm8-1",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Le psaume commence et se termine par la même exclamation sur le nom de l'Eternel.",
+      "en": "The psalm begins and ends with the same exclamation about the name of the Lord."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Les versets 1 et 9 disent : « Eternel, notre Seigneur! Que ton nom est magnifique sur toute la terre! » Cette reprise encadre le poème : on parle d'inclusion.",
+      "en": "Verses 1 and 9 both say: “O Lord our Lord, how excellent is thy name in all the earth!” This repetition frames the poem, a device called an inclusio."
+     },
+     "ref": "19:8:9"
+    },
+    {
+     "id": "wisdom-psalm8-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que contemple le psalmiste au verset 3 ?",
+      "en": "What does the psalmist consider in verse 3?"
+     },
+     "choices": {
+      "fr": [
+       "La mer et ses vagues",
+       "Les cieux, la lune et les étoiles",
+       "Les montagnes et les forêts",
+       "Le soleil et les nuages"
+      ],
+      "en": [
+       "The sea and its waves",
+       "The heavens, the moon and the stars",
+       "The mountains and the forests",
+       "The sun and the clouds"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Quand je contemple les cieux, ouvrage de tes mains, la lune et les étoiles que tu as créées. » Le ciel nocturne est décrit comme l'oeuvre de Dieu.",
+      "en": "“When I consider thy heavens, the work of thy fingers, the moon and the stars, which thou hast ordained.” The night sky is described as God's handiwork."
+     },
+     "ref": "19:8:3"
+    },
+    {
+     "id": "wisdom-psalm8-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question naît de cette contemplation au verset 4 ?",
+      "en": "What question arises from this contemplation in verse 4?"
+     },
+     "choices": {
+      "fr": [
+       "Pourquoi les méchants prospèrent-ils ?",
+       "Où se cache la sagesse ?",
+       "Qu'est-ce que l'homme, pour que tu te souviennes de lui ?",
+       "Combien de temps durera la terre ?"
+      ],
+      "en": [
+       "Why do the wicked prosper?",
+       "Where is wisdom hidden?",
+       "What is man, that thou art mindful of him?",
+       "How long will the earth endure?"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Qu'est-ce que l'homme, pour que tu te souviennes de lui? Et le fils de l'homme, pour que tu prennes garde à lui? » Les deux vers parallèles disent la même chose en deux formules.",
+      "en": "“What is man, that thou art mindful of him? and the son of man, that thou visitest him?” The two parallel lines say the same thing in two ways."
+     },
+     "ref": "19:8:4"
+    },
+    {
+     "id": "wisdom-psalm8-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 6, que Dieu a-t-il donné à l'homme ?",
+      "en": "According to verse 6, what has God given to man?"
+     },
+     "choices": {
+      "fr": [
+       "Une vie sans fin sur la terre",
+       "Le pouvoir de créer des étoiles",
+       "Un royaume sur toutes les nations",
+       "La domination sur les oeuvres de ses mains"
+      ],
+      "en": [
+       "Endless life on the earth",
+       "The power to create stars",
+       "A kingdom over all nations",
+       "Dominion over the works of his hands"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Tu lui as donné la domination sur les oeuvres de tes mains, tu as tout mis sous ses pieds. » Le psaume fait écho au récit de la création, où l'homme reçoit la domination sur les animaux (Genèse 1:26-28).",
+      "en": "“Thou madest him to have dominion over the works of thy hands; thou hast put all things under his feet.” The psalm echoes the creation account, where humanity receives dominion over the animals (Genesis 1:26-28)."
+     },
+     "ref": "19:8:6"
+    },
+    {
+     "id": "wisdom-psalm8-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quels êtres vivants le verset 8 mentionne-t-il ?",
+      "en": "Which living creatures does verse 8 mention?"
+     },
+     "choices": {
+      "fr": [
+       "Les oiseaux du ciel et les poissons de la mer",
+       "Les lions et les ours des forêts",
+       "Les serpents et les scorpions du désert",
+       "Les chameaux et les ânes des caravanes"
+      ],
+      "en": [
+       "The fowl of the air and the fish of the sea",
+       "The lions and bears of the forests",
+       "The snakes and scorpions of the desert",
+       "The camels and donkeys of the caravans"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Les oiseaux du ciel et les poissons de la mer, tout ce qui parcourt les sentiers des mers. » Avec les brebis, les boeufs et les animaux des champs (v. 7), toute la création animale est placée sous l'homme.",
+      "en": "“The fowl of the air, and the fish of the sea, and whatsoever passeth through the paths of the seas.” With the sheep, oxen and beasts of the field (v. 7), the whole animal world is set under humanity."
+     },
+     "ref": "19:8:8"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-lament",
+   "title": {
+    "fr": "La plainte confiante",
+    "en": "Trusting lament"
+   },
+   "passages": [
+    "19:13:1-6",
+    "19:42:1-11"
+   ],
+   "intro": {
+    "fr": "Beaucoup de psaumes sont des plaintes : le priant expose sa détresse à Dieu, lui adresse une demande, puis exprime sa confiance. Le Psaume 13 suit ce mouvement en six versets ; le Psaume 42 avance par un refrain répété.",
+    "en": "Many psalms are laments: the one praying sets out his distress before God, makes a request, then expresses trust. Psalm 13 follows this movement in six verses; Psalm 42 moves forward with a repeated refrain."
+   },
+   "keyVerse": "19:42:11",
+   "takeaway": {
+    "fr": "Ces psaumes osent dire à Dieu l'abandon et la tristesse, sans les cacher, et passent de la question « jusques à quand ? » à l'espérance et à la louange.",
+    "en": "These psalms dare to tell God of abandonment and sorrow without hiding them, and move from the question “how long?” to hope and praise."
+   },
+   "questions": [
+    {
+     "id": "wisdom-lament-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle expression revient quatre fois dans les versets 1 et 2 du Psaume 13 ?",
+      "en": "Which phrase occurs four times in verses 1 and 2 of Psalm 13?"
+     },
+     "choices": {
+      "fr": [
+       "Pourquoi",
+       "Où es-tu",
+       "Souviens-toi",
+       "Jusques à quand"
+      ],
+      "en": [
+       "Why",
+       "Where art thou",
+       "Remember",
+       "How long"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Jusques à quand, Eternel! m'oublieras-tu sans cesse? Jusques à quand me cacheras-tu ta face? » La répétition exprime une attente qui semble sans fin.",
+      "en": "“How long wilt thou forget me, O Lord? for ever? how long wilt thou hide thy face from me?” The repetition conveys a waiting that seems endless."
+     },
+     "ref": "19:13:1-2"
+    },
+    {
+     "id": "wisdom-lament-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Au verset 5 du Psaume 13, en quoi le psalmiste dit-il avoir confiance ?",
+      "en": "In Psalm 13:5, what does the psalmist say he has trusted in?"
+     },
+     "choices": {
+      "fr": [
+       "En sa propre force",
+       "En la bonté de Dieu",
+       "En la fidélité de ses amis",
+       "En la puissance du roi"
+      ],
+      "en": [
+       "His own strength",
+       "God's mercy",
+       "The loyalty of his friends",
+       "The power of the king"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Moi, j'ai confiance en ta bonté. » Le ton change : après la plainte (v. 1-2) et la demande (v. 3-4) vient la confiance, puis le chant (v. 6).",
+      "en": "“But I have trusted in thy mercy.” The tone shifts: after the complaint (vv. 1-2) and the request (vv. 3-4) comes trust, then song (v. 6)."
+     },
+     "ref": "19:13:5"
+    },
+    {
+     "id": "wisdom-lament-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Au début du Psaume 42, à quoi le psalmiste compare-t-il son âme qui cherche Dieu ?",
+      "en": "At the start of Psalm 42, what does the psalmist compare his soul longing for God to?"
+     },
+     "choices": {
+      "fr": [
+       "Un oiseau loin de son nid",
+       "Une brebis égarée",
+       "Une biche qui soupire après des courants d'eau",
+       "Une terre desséchée"
+      ],
+      "en": [
+       "A bird far from its nest",
+       "A lost sheep",
+       "A hart panting after the water brooks",
+       "A parched land"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Comme une biche soupire après des courants d'eau, ainsi mon âme soupire après toi, ô Dieu! » Le verset 2 poursuit l'image : « Mon âme a soif de Dieu, du Dieu vivant. »",
+      "en": "“As the hart panteth after the water brooks, so panteth my soul after thee, O God.” Verse 2 continues the image: “My soul thirsteth for God, for the living God.”"
+     },
+     "ref": "19:42:1"
+    },
+    {
+     "id": "wisdom-lament-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question l'entourage répète-t-il au psalmiste (versets 3 et 10) ?",
+      "en": "What question do others keep asking the psalmist (verses 3 and 10)?"
+     },
+     "choices": {
+      "fr": [
+       "Où est ton Dieu ?",
+       "Qui es-tu ?",
+       "Pourquoi pleures-tu ?",
+       "Que cherches-tu ?"
+      ],
+      "en": [
+       "Where is thy God?",
+       "Who art thou?",
+       "Why weepest thou?",
+       "What seekest thou?"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Mes larmes sont ma nourriture jour et nuit, pendant qu'on me dit sans cesse: Où est ton Dieu? » La moquerie revient au verset 10 et accroît la souffrance.",
+      "en": "“My tears have been my meat day and night, while they continually say unto me, Where is thy God?” The taunt returns in verse 10 and deepens the pain."
+     },
+     "ref": "19:42:3"
+    },
+    {
+     "id": "wisdom-lament-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Le Psaume 42 contient un refrain, « Pourquoi t'abats-tu, mon âme… Espère en Dieu », repris aux versets 5 et 11.",
+      "en": "Psalm 42 contains a refrain, “Why art thou cast down, O my soul… hope thou in God”, repeated in verses 5 and 11."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Le psalmiste se parle à lui-même : « Pourquoi t'abats-tu, mon âme, et gémis-tu au dedans de moi? Espère en Dieu, car je le louerai encore. » Le refrain revient comme un appel à l'espérance au milieu de la tristesse.",
+      "en": "The psalmist speaks to himself: “Why art thou cast down, O my soul? and why art thou disquieted within me? hope thou in God: for I shall yet praise him.” The refrain returns as a call to hope in the midst of sorrow."
+     },
+     "ref": "19:42:11"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-psalm46",
+   "title": {
+    "fr": "Dieu, notre refuge",
+    "en": "God our refuge"
+   },
+   "passages": [
+    "19:46:1-11"
+   ],
+   "intro": {
+    "fr": "Ce psaume de confiance chante Dieu présent au milieu de sa cité, même quand le monde est bouleversé. Le mot « Pause » (en hébreu « sélah ») est une indication liturgique ou musicale dont le sens exact est incertain.",
+    "en": "This psalm of trust sings of God present in the midst of his city, even when the world is in upheaval. The word “Selah” is a liturgical or musical marking whose exact meaning is uncertain."
+   },
+   "keyVerse": "19:46:1",
+   "takeaway": {
+    "fr": "Le Psaume 46 affirme que Dieu est un refuge et un secours dans la détresse : l'Eternel des armées est avec son peuple, et c'est lui qui fait cesser les combats.",
+    "en": "Psalm 46 declares that God is a refuge and help in trouble: the Lord of hosts is with his people, and he is the one who makes wars cease."
+   },
+   "questions": [
+    {
+     "id": "wisdom-psalm46-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment le verset 1 décrit-il Dieu pour nous ?",
+      "en": "How does verse 1 describe God for us?"
+     },
+     "choices": {
+      "fr": [
+       "Un juge et un roi",
+       "Un berger et un guide",
+       "Un refuge et un appui",
+       "Un feu et une lumière"
+      ],
+      "en": [
+       "Our judge and king",
+       "Our shepherd and guide",
+       "Our refuge and strength",
+       "Our fire and light"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Dieu est pour nous un refuge et un appui, un secours qui ne manque jamais dans la détresse. » Tout le psaume développe cette affirmation.",
+      "en": "“God is our refuge and strength, a very present help in trouble.” The whole psalm unfolds this statement."
+     },
+     "ref": "19:46:1"
+    },
+    {
+     "id": "wisdom-psalm46-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 2, même dans quelle situation le peuple reste-t-il sans crainte ?",
+      "en": "According to verse 2, even in what situation will the people not fear?"
+     },
+     "choices": {
+      "fr": [
+       "Quand l'ennemi assiège la ville",
+       "Quand la famine frappe le pays",
+       "Quand le roi part en guerre",
+       "Quand la terre est bouleversée et que les montagnes chancellent"
+      ],
+      "en": [
+       "When the enemy besieges the city",
+       "When famine strikes the land",
+       "When the king goes to war",
+       "When the earth is removed and the mountains are carried into the sea"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« C'est pourquoi nous sommes sans crainte quand la terre est bouleversée, et que les montagnes chancellent au coeur des mers. » Même si ce qui paraît le plus stable s'effondre, Dieu reste un refuge.",
+      "en": "“Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea.” Even if the most solid things collapse, God remains a refuge."
+     },
+     "ref": "19:46:2"
+    },
+    {
+     "id": "wisdom-psalm46-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce qui réjouit la cité de Dieu au verset 4 ?",
+      "en": "What makes the city of God glad in verse 4?"
+     },
+     "choices": {
+      "fr": [
+       "Les courants d'un fleuve",
+       "Le son des trompettes",
+       "La lumière du soleil",
+       "Les chants des prêtres"
+      ],
+      "en": [
+       "The streams of a river",
+       "The sound of trumpets",
+       "The light of the sun",
+       "The songs of the priests"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Il est un fleuve dont les courants réjouissent la cité de Dieu. » Face aux flots menaçants des versets 2-3, ce fleuve paisible apporte la vie. Le verset 5 ajoute : « Dieu est au milieu d'elle. »",
+      "en": "“There is a river, the streams whereof shall make glad the city of God.” In contrast with the threatening waters of verses 2-3, this calm river brings life. Verse 5 adds: “God is in the midst of her.”"
+     },
+     "ref": "19:46:4"
+    },
+    {
+     "id": "wisdom-psalm46-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "La phrase « L'Eternel des armées est avec nous » revient deux fois dans le psaume.",
+      "en": "The sentence “The Lord of hosts is with us” occurs twice in the psalm."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Elle forme un refrain aux versets 7 et 11 : « L'Eternel des armées est avec nous, le Dieu de Jacob est pour nous une haute retraite. »",
+      "en": "It forms a refrain in verses 7 and 11: “The Lord of hosts is with us; the God of Jacob is our refuge.”"
+     },
+     "ref": "19:46:11"
+    },
+    {
+     "id": "wisdom-psalm46-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait Dieu selon le verset 9 ?",
+      "en": "What does God do according to verse 9?"
+     },
+     "choices": {
+      "fr": [
+       "Il donne la victoire à son armée",
+       "Il fait cesser les combats jusqu'au bout de la terre",
+       "Il bâtit des murailles autour de la ville",
+       "Il rassemble les nations pour la guerre"
+      ],
+      "en": [
+       "He gives victory to his army",
+       "He makes wars to cease unto the end of the earth",
+       "He builds walls around the city",
+       "He gathers the nations for war"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« C'est lui qui a fait cesser les combats jusqu'au bout de la terre; il a brisé l'arc, et il a rompu la lance. » Dieu détruit les armes elles-mêmes.",
+      "en": "“He maketh wars to cease unto the end of the earth; he breaketh the bow, and cutteth the spear in sunder.” God destroys the weapons themselves."
+     },
+     "ref": "19:46:9"
+    },
+    {
+     "id": "wisdom-psalm46-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle parole de Dieu est rapportée au verset 10 ?",
+      "en": "What word of God is reported in verse 10?"
+     },
+     "choices": {
+      "fr": [
+       "Levez-vous et combattez pour moi",
+       "Fuyez vers les montagnes",
+       "Ne craignez pas, je suis votre roi",
+       "Arrêtez, et sachez que je suis Dieu"
+      ],
+      "en": [
+       "Rise up and fight for me",
+       "Flee to the mountains",
+       "Fear not, I am your king",
+       "Be still, and know that I am God"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Arrêtez, et sachez que je suis Dieu: je domine sur les nations, je domine sur la terre. » Dans ce psaume, Dieu lui-même prend la parole.",
+      "en": "“Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.” Here God himself speaks within the psalm."
+     },
+     "ref": "19:46:10"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-psalm103",
+   "title": {
+    "fr": "Mon âme, bénis l'Eternel",
+    "en": "Bless the Lord, O my soul"
+   },
+   "passages": [
+    "19:103:1-22"
+   ],
+   "intro": {
+    "fr": "Dans ce psaume de louange attribué à David, le psalmiste s'adresse d'abord à sa propre âme. Il énumère les bienfaits de Dieu, puis élargit l'appel à la louange jusqu'aux anges et à toutes les oeuvres de Dieu.",
+    "en": "In this psalm of praise attributed to David, the psalmist first speaks to his own soul. He lists God's benefits, then widens the call to praise to the angels and all God's works."
+   },
+   "keyVerse": "19:103:2",
+   "takeaway": {
+    "fr": "Le Psaume 103 invite à ne pas oublier les bienfaits de l'Eternel : il pardonne, guérit, a compassion comme un père, et sa bonté dure à jamais pour ceux qui le craignent.",
+    "en": "Psalm 103 calls us not to forget the Lord's benefits: he forgives, heals, pities like a father, and his mercy is everlasting upon those who fear him."
+   },
+   "questions": [
+    {
+     "id": "wisdom-psalm103-1",
+     "kind": "choice",
+     "q": {
+      "fr": "À qui le psalmiste s'adresse-t-il au début du psaume ?",
+      "en": "Whom does the psalmist address at the start of the psalm?"
+     },
+     "choices": {
+      "fr": [
+       "Au peuple d'Israël",
+       "Aux prêtres du temple",
+       "Au roi",
+       "À son âme"
+      ],
+      "en": [
+       "The people of Israel",
+       "The priests of the temple",
+       "The king",
+       "His own soul"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Mon âme, bénis l'Eternel! Que tout ce qui est en moi bénisse son saint nom! » Le psalmiste s'exhorte lui-même à la louange, et la même formule clôt le psaume (v. 22).",
+      "en": "“Bless the Lord, O my soul: and all that is within me, bless his holy name.” The psalmist urges himself to praise, and the same words close the psalm (v. 22)."
+     },
+     "ref": "19:103:1"
+    },
+    {
+     "id": "wisdom-psalm103-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Lequel de ces bienfaits est cité au verset 3 ?",
+      "en": "Which of these benefits is mentioned in verse 3?"
+     },
+     "choices": {
+      "fr": [
+       "Il pardonne toutes tes iniquités",
+       "Il multiplie tes troupeaux",
+       "Il agrandit ton territoire",
+       "Il te donne la victoire"
+      ],
+      "en": [
+       "He forgives all your iniquities",
+       "He multiplies your flocks",
+       "He enlarges your territory",
+       "He gives you victory"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« C'est lui qui pardonne toutes tes iniquités, qui guérit toutes tes maladies. » C'est le premier d'une série de bienfaits que l'âme ne doit pas oublier (v. 2).",
+      "en": "“Who forgiveth all thine iniquities; who healeth all thy diseases.” It is the first in a series of benefits the soul must not forget (v. 2)."
+     },
+     "ref": "19:103:3"
+    },
+    {
+     "id": "wisdom-psalm103-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 8, l'Eternel est prompt à la colère.",
+      "en": "According to verse 8, the Lord is quick to anger."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Le texte dit l'inverse : « L'Eternel est miséricordieux et compatissant, lent à la colère et riche en bonté. » La formule reprend celle d'Exode 34:6, au temps de Moïse, que le psaume mentionne au verset 7.",
+      "en": "The text says the opposite: “The Lord is merciful and gracious, slow to anger, and plenteous in mercy.” The wording echoes Exodus 34:6, from the time of Moses, whom the psalm mentions in verse 7."
+     },
+     "ref": "19:103:8"
+    },
+    {
+     "id": "wisdom-psalm103-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 12, à quelle distance Dieu éloigne-t-il de nous nos transgressions ?",
+      "en": "According to verse 12, how far does God remove our transgressions from us?"
+     },
+     "choices": {
+      "fr": [
+       "Jusqu'au fond de la mer",
+       "Autant que l'orient est éloigné de l'occident",
+       "Au-delà des plus hautes montagnes",
+       "Jusqu'aux extrémités de la terre"
+      ],
+      "en": [
+       "To the bottom of the sea",
+       "As far as the east is from the west",
+       "Beyond the highest mountains",
+       "To the ends of the earth"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Autant l'orient est éloigné de l'occident, autant il éloigne de nous nos transgressions. » Le verset 11 utilise une image semblable : la hauteur des cieux au-dessus de la terre.",
+      "en": "“As far as the east is from the west, so far hath he removed our transgressions from us.” Verse 11 uses a similar image: the height of the heavens above the earth."
+     },
+     "ref": "19:103:12"
+    },
+    {
+     "id": "wisdom-psalm103-5",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi le verset 13 compare-t-il la compassion de l'Eternel ?",
+      "en": "What does verse 13 compare the Lord's pity to?"
+     },
+     "choices": {
+      "fr": [
+       "À celle d'un berger pour ses brebis",
+       "À celle d'un roi pour son peuple",
+       "À celle d'un père pour ses enfants",
+       "À celle d'un maître pour ses serviteurs"
+      ],
+      "en": [
+       "A shepherd's pity for his sheep",
+       "A king's pity for his people",
+       "A father's pity for his children",
+       "A master's pity for his servants"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Comme un père a compassion de ses enfants, l'Eternel a compassion de ceux qui le craignent. » Le verset 14 en donne la raison : « il se souvient que nous sommes poussière ».",
+      "en": "“Like as a father pitieth his children, so the Lord pitieth them that fear him.” Verse 14 gives the reason: “he remembereth that we are dust.”"
+     },
+     "ref": "19:103:13"
+    },
+    {
+     "id": "wisdom-psalm103-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui est invité à bénir l'Eternel à la fin du psaume (versets 20 à 22) ?",
+      "en": "Who is called to bless the Lord at the end of the psalm (verses 20-22)?"
+     },
+     "choices": {
+      "fr": [
+       "Les prêtres, les lévites et les chantres",
+       "Les rois, les princes et les juges",
+       "Les anciens, les jeunes gens et les enfants",
+       "Ses anges, ses armées et toutes ses oeuvres"
+      ],
+      "en": [
+       "The priests, the Levites and the singers",
+       "The kings, the princes and the judges",
+       "The elders, the young men and the children",
+       "His angels, his hosts and all his works"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Bénissez l'Eternel, vous ses anges… vous toutes ses armées… vous toutes ses oeuvres. » Commencée dans le coeur d'un seul, la louange s'étend à toute la création, avant de revenir à « Mon âme, bénis l'Eternel! »",
+      "en": "“Bless the Lord, ye his angels… all ye his hosts… all his works.” Begun in one person's heart, the praise spreads to all creation, before returning to “bless the Lord, O my soul.”"
+     },
+     "ref": "19:103:20-22"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-psalm121",
+   "title": {
+    "fr": "D'où vient le secours ?",
+    "en": "Where does help come from?"
+   },
+   "passages": [
+    "19:121:1-8"
+   ],
+   "intro": {
+    "fr": "Ce psaume porte le titre « Cantique des degrés », comme les Psaumes 120 à 134. On les comprend souvent comme des chants de pèlerins montant vers Jérusalem. Le psaume répond à une question posée dès le premier verset.",
+    "en": "This psalm bears the heading “A Song of degrees”, like Psalms 120 to 134. They are often understood as songs of pilgrims going up to Jerusalem. The psalm answers a question raised in its first verse."
+   },
+   "keyVerse": "19:121:2",
+   "takeaway": {
+    "fr": "Le Psaume 121 répond que le secours vient de l'Eternel, créateur du ciel et de la terre, qui garde son peuple sans jamais dormir, jour et nuit, maintenant et à jamais.",
+    "en": "Psalm 121 answers that help comes from the Lord, maker of heaven and earth, who keeps his people without ever sleeping, day and night, now and for evermore."
+   },
+   "questions": [
+    {
+     "id": "wisdom-psalm121-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Vers quoi le psalmiste lève-t-il les yeux au verset 1 ?",
+      "en": "What does the psalmist lift up his eyes to in verse 1?"
+     },
+     "choices": {
+      "fr": [
+       "Vers le ciel",
+       "Vers le temple",
+       "Vers les montagnes",
+       "Vers la mer"
+      ],
+      "en": [
+       "The heavens",
+       "The temple",
+       "The hills",
+       "The sea"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Je lève mes yeux vers les montagnes... D'où me viendra le secours? » Le regard vers les hauteurs ouvre la question à laquelle répond le verset 2.",
+      "en": "“I will lift up mine eyes unto the hills, from whence cometh my help.” Looking to the heights opens the question that verse 2 answers."
+     },
+     "ref": "19:121:1"
+    },
+    {
+     "id": "wisdom-psalm121-2",
+     "kind": "choice",
+     "q": {
+      "fr": "D'où vient le secours, selon le verset 2 ?",
+      "en": "Where does help come from, according to verse 2?"
+     },
+     "choices": {
+      "fr": [
+       "Des rois et des princes",
+       "De l'Eternel, qui a fait les cieux et la terre",
+       "Des murailles de Jérusalem",
+       "De la force de ses propres bras"
+      ],
+      "en": [
+       "From kings and princes",
+       "From the Lord, which made heaven and earth",
+       "From the walls of Jerusalem",
+       "From the strength of his own arms"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Le secours me vient de l'Eternel, qui a fait les cieux et la terre. » Celui qui secourt est le créateur de tout, y compris des montagnes.",
+      "en": "“My help cometh from the Lord, which made heaven and earth.” The one who helps is the maker of all things, the hills included."
+     },
+     "ref": "19:121:2"
+    },
+    {
+     "id": "wisdom-psalm121-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le psaume, celui qui garde Israël ne sommeille ni ne dort.",
+      "en": "According to the psalm, he that keeps Israel neither slumbers nor sleeps."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Voici, il ne sommeille ni ne dort, celui qui garde Israël. » Le verset 3 l'avait déjà dit, et le verset 4 le reprend en l'élargissant à tout Israël : c'est un parallélisme.",
+      "en": "“Behold, he that keepeth Israel shall neither slumber nor sleep.” Verse 3 has already said it, and verse 4 repeats it and widens it to all Israel, an example of parallelism."
+     },
+     "ref": "19:121:4"
+    },
+    {
+     "id": "wisdom-psalm121-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 6, qu'est-ce qui ne frappera pas, le jour comme la nuit ?",
+      "en": "According to verse 6, what shall not smite, by day or by night?"
+     },
+     "choices": {
+      "fr": [
+       "Le soleil et la lune",
+       "Le vent et la pluie",
+       "La chaleur et le froid",
+       "L'ennemi et le voleur"
+      ],
+      "en": [
+       "The sun and the moon",
+       "The wind and the rain",
+       "The heat and the cold",
+       "The enemy and the thief"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Pendant le jour le soleil ne te frappera point, ni la lune pendant la nuit. » Le verset 5 vient de dire que l'Eternel est « ton ombre à ta main droite ».",
+      "en": "“The sun shall not smite thee by day, nor the moon by night.” Verse 5 has just said that the Lord is “thy shade upon thy right hand.”"
+     },
+     "ref": "19:121:6"
+    },
+    {
+     "id": "wisdom-psalm121-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que promet le verset 7 ?",
+      "en": "What does verse 7 promise?"
+     },
+     "choices": {
+      "fr": [
+       "Que l'Eternel donnera la richesse",
+       "Que l'Eternel révélera l'avenir",
+       "Que l'Eternel accordera la victoire",
+       "Que l'Eternel gardera de tout mal"
+      ],
+      "en": [
+       "That the Lord will give wealth",
+       "That the Lord will reveal the future",
+       "That the Lord will grant victory",
+       "That the Lord will preserve from all evil"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« L'Eternel te gardera de tout mal, il gardera ton âme. » La protection annoncée porte sur la personne tout entière.",
+      "en": "“The Lord shall preserve thee from all evil: he shall preserve thy soul.” The promised protection covers the whole person."
+     },
+     "ref": "19:121:7"
+    },
+    {
+     "id": "wisdom-psalm121-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que garde l'Eternel selon le verset 8 ?",
+      "en": "What does the Lord preserve according to verse 8?"
+     },
+     "choices": {
+      "fr": [
+       "Ta maison et ton champ",
+       "Ton départ et ton arrivée",
+       "Ton pain et ton eau",
+       "Tes paroles et tes pensées"
+      ],
+      "en": [
+       "Your house and your field",
+       "Your going out and your coming in",
+       "Your bread and your water",
+       "Your words and your thoughts"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« L'Eternel gardera ton départ et ton arrivée, dès maintenant et à jamais. » Les deux mots opposés désignent tout le parcours, ce qui convient à un chant de voyageurs.",
+      "en": "“The Lord shall preserve thy going out and thy coming in from this time forth, and even for evermore.” The two opposite terms cover the whole journey, fitting for a travellers' song."
+     },
+     "ref": "19:121:8"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-fear",
+   "title": {
+    "fr": "La crainte de l'Eternel",
+    "en": "The fear of the Lord"
+   },
+   "passages": [
+    "20:1:1-9",
+    "20:3:1-12"
+   ],
+   "intro": {
+    "fr": "Le livre des Proverbes rassemble des sentences de sagesse attribuées à Salomon. Ses neuf premiers chapitres prennent la forme de conseils d'un père à son fils. Comme dans les Psaumes, chaque proverbe est souvent fait de deux vers parallèles.",
+    "en": "The book of Proverbs gathers wise sayings attributed to Solomon. Its first nine chapters take the form of a father's advice to his son. As in the Psalms, each proverb is often made of two parallel lines."
+   },
+   "keyVerse": "20:1:7",
+   "takeaway": {
+    "fr": "Selon les Proverbes, la sagesse commence par la crainte de l'Eternel ; elle s'apprend en écoutant ses parents et en se confiant en l'Eternel plutôt qu'en sa propre sagesse.",
+    "en": "According to Proverbs, wisdom begins with the fear of the Lord; it is learned by listening to one's parents and trusting in the Lord rather than one's own understanding."
+   },
+   "questions": [
+    {
+     "id": "wisdom-fear-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 1, à qui ces proverbes sont-ils attribués ?",
+      "en": "According to verse 1, to whom are these proverbs attributed?"
+     },
+     "choices": {
+      "fr": [
+       "À David, fils d'Isaï",
+       "À Moïse, serviteur de Dieu",
+       "À Salomon, fils de David",
+       "À Ezéchias, roi de Juda"
+      ],
+      "en": [
+       "David the son of Jesse",
+       "Moses the servant of God",
+       "Solomon the son of David",
+       "Hezekiah king of Judah"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Proverbes de Salomon, fils de David, roi d'Israël. » Salomon est réputé pour sa sagesse dans les livres des Rois. Les versets 2 à 6 disent ensuite à quoi servent ces proverbes.",
+      "en": "“The proverbs of Solomon the son of David, king of Israel.” Solomon is famed for his wisdom in the books of Kings. Verses 2-6 then explain what these proverbs are for."
+     },
+     "ref": "20:1:1"
+    },
+    {
+     "id": "wisdom-fear-2",
+     "kind": "choice",
+     "q": {
+      "fr": "D'après le verset 7, qu'est-ce que la crainte de l'Eternel ?",
+      "en": "According to verse 7, what is the fear of the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Le commencement de la science",
+       "La fin de toute sagesse",
+       "Le salaire du juste",
+       "La couronne des vieillards"
+      ],
+      "en": [
+       "The beginning of knowledge",
+       "The end of all wisdom",
+       "The wages of the righteous",
+       "The crown of the aged"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« La crainte de l'Eternel est le commencement de la science; les insensés méprisent la sagesse et l'instruction. » La crainte désigne ici le respect de Dieu ; le second vers présente l'attitude opposée.",
+      "en": "“The fear of the Lord is the beginning of knowledge: but fools despise wisdom and instruction.” Fear here means reverence for God; the second line shows the opposite attitude."
+     },
+     "ref": "20:1:7"
+    },
+    {
+     "id": "wisdom-fear-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui le fils doit-il écouter, selon le verset 8 ?",
+      "en": "Whom should the son listen to, according to verse 8?"
+     },
+     "choices": {
+      "fr": [
+       "Le roi et ses conseillers",
+       "Les prêtres et les prophètes",
+       "Ses frères et ses amis",
+       "Son père et sa mère"
+      ],
+      "en": [
+       "The king and his counsellors",
+       "The priests and the prophets",
+       "His brothers and his friends",
+       "His father and his mother"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ecoute, mon fils, l'instruction de ton père, et ne rejette pas l'enseignement de ta mère. » Les deux vers parallèles associent le père et la mère dans la transmission de la sagesse.",
+      "en": "“My son, hear the instruction of thy father, and forsake not the law of thy mother.” The two parallel lines join father and mother in passing on wisdom."
+     },
+     "ref": "20:1:8"
+    },
+    {
+     "id": "wisdom-fear-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande le verset 5 du chapitre 3 ?",
+      "en": "What does verse 5 of chapter 3 ask?"
+     },
+     "choices": {
+      "fr": [
+       "D'étudier la loi jour et nuit",
+       "De se confier en l'Eternel de tout son coeur",
+       "D'offrir des sacrifices chaque matin",
+       "De chercher le conseil des anciens"
+      ],
+      "en": [
+       "To study the law day and night",
+       "To trust in the Lord with all your heart",
+       "To offer sacrifices every morning",
+       "To seek the counsel of the elders"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Confie-toi en l'Eternel de tout ton coeur, et ne t'appuie pas sur ta sagesse. » Le verset 7 dit de même : « Ne sois point sage à tes propres yeux. »",
+      "en": "“Trust in the Lord with all thine heart; and lean not unto thine own understanding.” Verse 7 says likewise: “Be not wise in thine own eyes.”"
+     },
+     "ref": "20:3:5"
+    },
+    {
+     "id": "wisdom-fear-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Avec quoi faut-il honorer l'Eternel, selon le verset 9 du chapitre 3 ?",
+      "en": "With what should one honour the Lord, according to verse 9 of chapter 3?"
+     },
+     "choices": {
+      "fr": [
+       "Avec des chants et des danses",
+       "Avec des jeûnes et des prières",
+       "Avec ses biens et les prémices de son revenu",
+       "Avec de l'encens et des parfums"
+      ],
+      "en": [
+       "With songs and dances",
+       "With fasting and prayers",
+       "With one's substance and the firstfruits of one's increase",
+       "With incense and perfumes"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Honore l'Eternel avec tes biens, et avec les prémices de tout ton revenu. » Les prémices sont les premiers fruits de la récolte, que la loi d'Israël prévoyait d'offrir à Dieu.",
+      "en": "“Honour the Lord with thy substance, and with the firstfruits of all thine increase.” The firstfruits are the first produce of the harvest, which Israel's law set aside for God."
+     },
+     "ref": "20:3:9"
+    },
+    {
+     "id": "wisdom-fear-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon les versets 11 et 12 du chapitre 3, la correction de l'Eternel est liée à son amour.",
+      "en": "According to verses 11 and 12 of chapter 3, the Lord's correction is linked to his love."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Car l'Eternel châtie celui qu'il aime, comme un père l'enfant qu'il chérit. » Ces deux versets sont cités dans l'épître aux Hébreux (12:5-6).",
+      "en": "“For whom the Lord loveth he correcteth; even as a father the son in whom he delighteth.” These two verses are quoted in the epistle to the Hebrews (12:5-6)."
+     },
+     "ref": "20:3:12"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-virtuous",
+   "title": {
+    "fr": "La femme vertueuse",
+    "en": "The virtuous woman"
+   },
+   "passages": [
+    "20:31:10-31"
+   ],
+   "intro": {
+    "fr": "Le livre des Proverbes se termine par ce poème. En hébreu, c'est un acrostiche : chacun des 22 versets commence par une lettre successive de l'alphabet hébreu, ce qui ne se voit pas en traduction.",
+    "en": "The book of Proverbs ends with this poem. In Hebrew it is an acrostic: each of its 22 verses begins with the next letter of the Hebrew alphabet, which cannot be seen in translation."
+   },
+   "keyVerse": "20:31:30",
+   "takeaway": {
+    "fr": "Ce poème décrit une femme travailleuse, avisée, généreuse et sage, et conclut que c'est la femme qui craint l'Eternel qui sera louée.",
+    "en": "This poem portrays a woman who is hard-working, shrewd, generous and wise, and concludes that a woman who fears the Lord shall be praised."
+   },
+   "questions": [
+    {
+     "id": "wisdom-virtuous-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quels matériaux se procure-t-elle au verset 13 ?",
+      "en": "What materials does she seek in verse 13?"
+     },
+     "choices": {
+      "fr": [
+       "De l'or et de l'argent",
+       "De la laine et du lin",
+       "Du bois et de la pierre",
+       "Du blé et de l'orge"
+      ],
+      "en": [
+       "Gold and silver",
+       "Wool and flax",
+       "Wood and stone",
+       "Wheat and barley"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Elle se procure de la laine et du lin, et travaille d'une main joyeuse. » Le filage et le tissage reviennent plus loin (v. 19, 22, 24).",
+      "en": "“She seeketh wool, and flax, and worketh willingly with her hands.” Spinning and weaving come up again later (vv. 19, 22, 24)."
+     },
+     "ref": "20:31:13"
+    },
+    {
+     "id": "wisdom-virtuous-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait-elle après avoir acquis un champ (verset 16) ?",
+      "en": "What does she do after buying a field (verse 16)?"
+     },
+     "choices": {
+      "fr": [
+       "Elle y bâtit une maison",
+       "Elle le revend aussitôt",
+       "Elle le donne à ses fils",
+       "Elle y plante une vigne"
+      ],
+      "en": [
+       "She builds a house on it",
+       "She sells it at once",
+       "She gives it to her sons",
+       "She plants a vineyard"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Elle pense à un champ, et elle l'acquiert; du fruit de son travail elle plante une vigne. » Le poème la montre aussi gérer des affaires et du commerce.",
+      "en": "“She considereth a field, and buyeth it: with the fruit of her hands she planteth a vineyard.” The poem also shows her handling business and trade."
+     },
+     "ref": "20:31:16"
+    },
+    {
+     "id": "wisdom-virtuous-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Envers qui tend-elle la main au verset 20 ?",
+      "en": "To whom does she stretch out her hand in verse 20?"
+     },
+     "choices": {
+      "fr": [
+       "Le malheureux et l'indigent",
+       "Les marchands et les rois",
+       "Ses voisines et ses amies",
+       "Les anciens du pays"
+      ],
+      "en": [
+       "The poor and the needy",
+       "Merchants and kings",
+       "Her neighbours and friends",
+       "The elders of the land"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Elle tend la main au malheureux, elle tend la main à l'indigent. » Son activité profite aussi à ceux qui sont dans le besoin.",
+      "en": "“She stretcheth out her hand to the poor; yea, she reacheth forth her hands to the needy.” Her work also benefits those in need."
+     },
+     "ref": "20:31:20"
+    },
+    {
+     "id": "wisdom-virtuous-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Où son mari est-il considéré, selon le verset 23 ?",
+      "en": "Where is her husband known, according to verse 23?"
+     },
+     "choices": {
+      "fr": [
+       "Au palais, avec les princes",
+       "Au temple, avec les prêtres",
+       "Aux portes, avec les anciens du pays",
+       "Au marché, avec les marchands"
+      ],
+      "en": [
+       "At the palace, among the princes",
+       "At the temple, among the priests",
+       "In the gates, among the elders of the land",
+       "At the market, among the merchants"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Son mari est considéré aux portes, lorsqu'il siège avec les anciens du pays. » Dans les villes antiques, la porte était le lieu des affaires publiques et de la justice.",
+      "en": "“Her husband is known in the gates, when he sitteth among the elders of the land.” In ancient towns the gate was the place of public business and justice."
+     },
+     "ref": "20:31:23"
+    },
+    {
+     "id": "wisdom-virtuous-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que font ses fils au verset 28 ?",
+      "en": "What do her children do in verse 28?"
+     },
+     "choices": {
+      "fr": [
+       "Ils la disent sévère",
+       "Ils la disent riche",
+       "Ils la disent généreuse",
+       "Ils la disent heureuse"
+      ],
+      "en": [
+       "They call her strict",
+       "They call her rich",
+       "They call her generous",
+       "They call her blessed"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ses fils se lèvent, et la disent heureuse; son mari se lève, et lui donne des louanges. » Le poème s'achève sur l'éloge que lui rendent les siens.",
+      "en": "“Her children arise up, and call her blessed; her husband also, and he praiseth her.” The poem closes with the praise of her own family."
+     },
+     "ref": "20:31:28"
+    },
+    {
+     "id": "wisdom-virtuous-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 30, c'est sa beauté qui vaut à cette femme d'être louée.",
+      "en": "According to verse 30, it is her beauty that earns this woman praise."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« La grâce est trompeuse, et la beauté est vaine; la femme qui craint l'Eternel est celle qui sera louée. » Le poème rejoint ainsi le thème du début du livre : la crainte de l'Eternel (1:7).",
+      "en": "“Favour is deceitful, and beauty is vain: but a woman that feareth the Lord, she shall be praised.” The poem thus returns to the theme of the book's opening: the fear of the Lord (1:7)."
+     },
+     "ref": "20:31:30"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-seasons",
+   "title": {
+    "fr": "Un temps pour tout",
+    "en": "A time for everything"
+   },
+   "passages": [
+    "21:3:1-15"
+   ],
+   "intro": {
+    "fr": "L'Ecclésiaste (en hébreu Qohélet, celui qui parle à l'assemblée) observe la vie humaine avec lucidité. Ce chapitre s'ouvre sur un poème construit sur des contraires, suivi d'une réflexion sur le travail et l'oeuvre de Dieu.",
+    "en": "Ecclesiastes (in Hebrew Qoheleth, one who addresses the assembly, rendered “the Preacher”) looks at human life with clear eyes. This chapter opens with a poem built on opposites, followed by a reflection on work and on God's work."
+   },
+   "keyVerse": "21:3:1",
+   "takeaway": {
+    "fr": "Ecclésiaste 3 affirme qu'il y a un temps pour chaque chose sous les cieux, que l'homme ne saisit pas toute l'oeuvre de Dieu, et que jouir du fruit de son travail est un don de Dieu.",
+    "en": "Ecclesiastes 3 says there is a time for every purpose under heaven, that man cannot find out all of God's work, and that enjoying the fruit of one's labour is the gift of God."
+   },
+   "questions": [
+    {
+     "id": "wisdom-seasons-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment le poème des versets 2 à 8 est-il construit ?",
+      "en": "How is the poem in verses 2-8 built?"
+     },
+     "choices": {
+      "fr": [
+       "Par une suite de questions",
+       "Par une liste de commandements",
+       "Par un récit chronologique",
+       "Par des paires de contraires"
+      ],
+      "en": [
+       "As a series of questions",
+       "As a list of commandments",
+       "As a chronological story",
+       "As pairs of opposites"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le poème aligne quatorze paires opposées, de « un temps pour naître, et un temps pour mourir » à « un temps pour la guerre, et un temps pour la paix ». Les deux extrêmes évoquent toute l'étendue de la vie.",
+      "en": "The poem lines up fourteen opposite pairs, from “a time to be born, and a time to die” to “a time of war, and a time of peace.” The two extremes evoke the whole span of life."
+     },
+     "ref": "21:3:2-8"
+    },
+    {
+     "id": "wisdom-seasons-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "La liste mentionne « un temps pour se taire, et un temps pour parler ».",
+      "en": "The list mentions “a time to keep silence, and a time to speak”."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Le verset 7 dit : « un temps pour déchirer, et un temps pour coudre; un temps pour se taire, et un temps pour parler ». La sagesse consiste aussi à discerner le bon moment.",
+      "en": "Verse 7 says: “A time to rend, and a time to sew; a time to keep silence, and a time to speak.” Wisdom also means discerning the right moment."
+     },
+     "ref": "21:3:7"
+    },
+    {
+     "id": "wisdom-seasons-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question est posée au verset 9 ?",
+      "en": "What question is asked in verse 9?"
+     },
+     "choices": {
+      "fr": [
+       "Qui connaît le jour de sa mort ?",
+       "Quel avantage celui qui travaille retire-t-il de sa peine ?",
+       "Pourquoi le juste souffre-t-il ?",
+       "Où peut-on trouver la sagesse ?"
+      ],
+      "en": [
+       "Who knows the day of his death?",
+       "What profit hath he that worketh in that wherein he laboureth?",
+       "Why does the righteous suffer?",
+       "Where can wisdom be found?"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Quel avantage celui qui travaille retire-t-il de sa peine? » Cette question sur le profit du travail revient tout au long du livre.",
+      "en": "“What profit hath he that worketh in that wherein he laboureth?” This question about the profit of labour recurs throughout the book."
+     },
+     "ref": "21:3:9"
+    },
+    {
+     "id": "wisdom-seasons-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 13, que représente le fait de manger, boire et jouir du fruit de son travail ?",
+      "en": "According to verse 13, what is it to eat, drink and enjoy the good of one's labour?"
+     },
+     "choices": {
+      "fr": [
+       "Un don de Dieu",
+       "Une vanité",
+       "Une récompense méritée",
+       "Un piège pour l'homme"
+      ],
+      "en": [
+       "The gift of God",
+       "Vanity",
+       "A deserved reward",
+       "A snare for man"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Si un homme mange et boit et jouit du bien-être au milieu de tout son travail, c'est là un don de Dieu. » Les joies simples de la vie sont reçues comme un cadeau, non comme un dû.",
+      "en": "“That every man should eat and drink, and enjoy the good of all his labour, it is the gift of God.” The simple joys of life are received as a gift, not as something owed."
+     },
+     "ref": "21:3:13"
+    },
+    {
+     "id": "wisdom-seasons-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit le verset 14 de ce que Dieu fait ?",
+      "en": "What does verse 14 say about what God does?"
+     },
+     "choices": {
+      "fr": [
+       "Cela change d'une génération à l'autre",
+       "L'homme peut le comprendre entièrement",
+       "On ne peut rien y ajouter ni rien en retrancher",
+       "Cela ne dure qu'un temps"
+      ],
+      "en": [
+       "It changes from one generation to the next",
+       "Man can understand it completely",
+       "Nothing can be added to it or taken from it",
+       "It lasts only for a while"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« J'ai reconnu que tout ce que Dieu fait durera toujours, qu'il n'y a rien à y ajouter et rien à en retrancher, et que Dieu agit ainsi afin qu'on le craigne. » L'oeuvre de Dieu contraste avec les temps changeants de la vie humaine.",
+      "en": "“Whatsoever God doeth, it shall be for ever: nothing can be put to it, nor any thing taken from it: and God doeth it, that men should fear before him.” God's work contrasts with the changing seasons of human life."
+     },
+     "ref": "21:3:14"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-creator",
+   "title": {
+    "fr": "Souviens-toi de ton créateur",
+    "en": "Remember your Creator"
+   },
+   "passages": [
+    "21:12:1-14"
+   ],
+   "intro": {
+    "fr": "Ce dernier chapitre de l'Ecclésiaste décrit par une suite d'images le déclin de la vieillesse jusqu'à la mort. Il se termine par un épilogue qui parle de l'Ecclésiaste à la troisième personne et donne la conclusion du livre.",
+    "en": "This last chapter of Ecclesiastes uses a series of images to describe the decline of old age up to death. It ends with an epilogue that speaks of the Preacher in the third person and gives the book's conclusion."
+   },
+   "keyVerse": "21:12:13",
+   "takeaway": {
+    "fr": "L'Ecclésiaste invite à se souvenir de son créateur dès la jeunesse, avant le déclin, et conclut : « Crains Dieu et observe ses commandements. »",
+    "en": "Ecclesiastes urges remembering one's Creator in youth, before decline sets in, and concludes: “Fear God, and keep his commandments.”"
+   },
+   "questions": [
+    {
+     "id": "wisdom-creator-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quand faut-il se souvenir de son créateur, selon le verset 1 ?",
+      "en": "When should one remember one's Creator, according to verse 1?"
+     },
+     "choices": {
+      "fr": [
+       "Au jour de sa mort",
+       "Pendant les jours de sa jeunesse",
+       "Après avoir bâti sa maison",
+       "Seulement dans l'épreuve"
+      ],
+      "en": [
+       "On the day of one's death",
+       "In the days of one's youth",
+       "After building one's house",
+       "Only in times of trouble"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Souviens-toi de ton créateur pendant les jours de ta jeunesse, avant que les jours mauvais arrivent. » Les versets suivants décrivent ces jours de déclin.",
+      "en": "“Remember now thy Creator in the days of thy youth, while the evil days come not.” The following verses describe those days of decline."
+     },
+     "ref": "21:12:1"
+    },
+    {
+     "id": "wisdom-creator-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, où retournent la poussière et l'esprit ?",
+      "en": "According to verse 7, where do the dust and the spirit return?"
+     },
+     "choices": {
+      "fr": [
+       "Tous deux à la terre",
+       "La poussière à la mer, l'esprit au vent",
+       "La poussière à la terre, l'esprit à Dieu",
+       "Tous deux au ciel"
+      ],
+      "en": [
+       "Both to the earth",
+       "The dust to the sea, the spirit to the wind",
+       "The dust to the earth, the spirit to God",
+       "Both to heaven"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le texte parle du temps où « la poussière retourne à la terre, comme elle y était, et que l'esprit retourne à Dieu qui l'a donné ». L'image rappelle le récit de la création de l'homme à partir de la poussière (Genèse 2:7 ; 3:19).",
+      "en": "“Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.” The image recalls the account of man made from dust (Genesis 2:7; 3:19)."
+     },
+     "ref": "21:12:7"
+    },
+    {
+     "id": "wisdom-creator-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle exclamation retentit au verset 8, comme au début du livre ?",
+      "en": "What exclamation rings out in verse 8, as at the start of the book?"
+     },
+     "choices": {
+      "fr": [
+       "Vanité des vanités, tout est vanité",
+       "Sagesse des sages, tout est sagesse",
+       "Tout passe, mais la sagesse demeure",
+       "Tout est grâce sous le soleil"
+      ],
+      "en": [
+       "Vanity of vanities; all is vanity",
+       "Wisdom of the wise; all is wisdom",
+       "All passes, but wisdom remains",
+       "All is grace under the sun"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Vanité des vanités, dit l'Ecclésiaste, tout est vanité. » La même formule ouvre le livre (1:2). Le mot hébreu traduit par « vanité » signifie d'abord « buée », « souffle ».",
+      "en": "“Vanity of vanities, saith the preacher; all is vanity.” The same phrase opens the book (1:2). The Hebrew word rendered “vanity” first means “vapour” or “breath”."
+     },
+     "ref": "21:12:8"
+    },
+    {
+     "id": "wisdom-creator-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Le verset 12 affirme qu'on ne finirait pas si l'on voulait faire un grand nombre de livres.",
+      "en": "Verse 12 says that of making many books there is no end."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« On ne finirait pas, si l'on voulait faire un grand nombre de livres, et beaucoup d'étude est une fatigue pour le corps. » L'épilogue met en garde contre une accumulation de savoir sans fin.",
+      "en": "“Of making many books there is no end; and much study is a weariness of the flesh.” The epilogue warns against endlessly piling up learning."
+     },
+     "ref": "21:12:12"
+    },
+    {
+     "id": "wisdom-creator-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle est « la fin du discours » au verset 13 ?",
+      "en": "What is “the conclusion of the whole matter” in verse 13?"
+     },
+     "choices": {
+      "fr": [
+       "Mange et bois, car tout passe",
+       "Cherche la sagesse plus que l'or",
+       "Fuis le monde et ses plaisirs",
+       "Crains Dieu et observe ses commandements"
+      ],
+      "en": [
+       "Eat and drink, for all things pass",
+       "Seek wisdom more than gold",
+       "Flee the world and its pleasures",
+       "Fear God, and keep his commandments"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ecoutons la fin du discours: Crains Dieu et observe ses commandements. C'est là ce que doit faire tout homme. » Après tant de questions, le livre conclut sur ce conseil simple.",
+      "en": "“Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man.” After so many questions, the book ends with this simple counsel."
+     },
+     "ref": "21:12:13"
+    },
+    {
+     "id": "wisdom-creator-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 14, que fera Dieu ?",
+      "en": "According to verse 14, what will God do?"
+     },
+     "choices": {
+      "fr": [
+       "Il récompensera seulement les sages",
+       "Il amènera toute oeuvre en jugement",
+       "Il laissera dans l'oubli ce qui est caché",
+       "Il donnera à chacun une longue vie"
+      ],
+      "en": [
+       "He will reward only the wise",
+       "He will bring every work into judgment",
+       "He will leave hidden things forgotten",
+       "He will give everyone a long life"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Car Dieu amènera toute oeuvre en jugement, au sujet de tout ce qui est caché, soit bien, soit mal. » Rien n'échappe à Dieu, pas même ce qui est caché.",
+      "en": "“For God shall bring every work into judgment, with every secret thing, whether it be good, or whether it be evil.” Nothing escapes God, not even what is hidden."
+     },
+     "ref": "21:12:14"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-job",
+   "title": {
+    "fr": "Job éprouvé",
+    "en": "Job tested"
+   },
+   "passages": [
+    "18:1:6-22"
+   ],
+   "intro": {
+    "fr": "Le livre de Job est un long poème (chapitres 3 à 42) encadré par un récit en prose. Le prologue présente Job, un homme intègre du pays d'Uts (1:1), puis une scène céleste qui précède une série de malheurs.",
+    "en": "The book of Job is a long poem (chapters 3 to 42) framed by a prose narrative. The prologue introduces Job, an upright man from the land of Uz (1:1), then a heavenly scene that precedes a series of disasters."
+   },
+   "keyVerse": "18:1:21",
+   "takeaway": {
+    "fr": "Dépouillé de ses biens et de ses enfants, Job bénit le nom de l'Eternel, et le texte précise qu'en tout cela il ne pécha point.",
+    "en": "Stripped of his possessions and his children, Job blesses the name of the Lord, and the text states that in all this he did not sin."
+   },
+   "questions": [
+    {
+     "id": "wisdom-job-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment l'Eternel décrit-il Job au verset 8 ?",
+      "en": "How does the Lord describe Job in verse 8?"
+     },
+     "choices": {
+      "fr": [
+       "Riche et puissant, aimé de tous",
+       "Sage et savant, ami des rois",
+       "Fort et courageux, chef de guerre",
+       "Intègre et droit, craignant Dieu"
+      ],
+      "en": [
+       "Rich and powerful, loved by all",
+       "Wise and learned, friend of kings",
+       "Strong and brave, a leader in war",
+       "Perfect and upright, fearing God"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Il n'y a personne comme lui sur la terre; c'est un homme intègre et droit, craignant Dieu, et se détournant du mal. » Ce sont les mots mêmes du narrateur au verset 1.",
+      "en": "“There is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil.” These are the narrator's own words in verse 1."
+     },
+     "ref": "18:1:8"
+    },
+    {
+     "id": "wisdom-job-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question Satan pose-t-il au verset 9 ?",
+      "en": "What question does Satan ask in verse 9?"
+     },
+     "choices": {
+      "fr": [
+       "Job connaît-il ta loi ?",
+       "Est-ce d'une manière désintéressée que Job craint Dieu ?",
+       "Job t'offre-t-il des sacrifices ?",
+       "Job est-il plus juste que les autres ?"
+      ],
+      "en": [
+       "Does Job know your law?",
+       "Doth Job fear God for nought?",
+       "Does Job offer you sacrifices?",
+       "Is Job more righteous than others?"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Est-ce d'une manière désintéressée que Job craint Dieu? » Satan suggère que Job sert Dieu parce qu'il est protégé et béni (v. 10). C'est toute la question du livre.",
+      "en": "“Doth Job fear God for nought?” Satan suggests Job serves God because he is protected and blessed (v. 10). This is the question the whole book explores."
+     },
+     "ref": "18:1:9"
+    },
+    {
+     "id": "wisdom-job-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle limite l'Eternel fixe-t-il à Satan au verset 12 ?",
+      "en": "What limit does the Lord set for Satan in verse 12?"
+     },
+     "choices": {
+      "fr": [
+       "Ne pas porter la main sur Job lui-même",
+       "Ne pas toucher à ses enfants",
+       "Ne pas toucher à ses troupeaux",
+       "N'agir que pendant sept jours"
+      ],
+      "en": [
+       "Not to put forth his hand upon Job himself",
+       "Not to touch his children",
+       "Not to touch his flocks",
+       "To act for only seven days"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Tout ce qui lui appartient, je te le livre; seulement, ne porte pas la main sur lui. » Satan ne peut agir que dans les limites fixées par l'Eternel.",
+      "en": "“All that he hath is in thy power; only upon himself put not forth thine hand.” Satan can act only within the limits the Lord sets."
+     },
+     "ref": "18:1:12"
+    },
+    {
+     "id": "wisdom-job-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le premier messager, qui a enlevé les boeufs et les ânesses ?",
+      "en": "According to the first messenger, who took away the oxen and the asses?"
+     },
+     "choices": {
+      "fr": [
+       "Les Chaldéens",
+       "Les Philistins",
+       "Les Sabéens",
+       "Les Amalécites"
+      ],
+      "en": [
+       "The Chaldeans",
+       "The Philistines",
+       "The Sabeans",
+       "The Amalekites"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Des Sabéens se sont jetés dessus, les ont enlevés. » Suivent le feu de Dieu sur les brebis, les Chaldéens qui prennent les chameaux, puis le vent qui fait s'écrouler la maison sur ses enfants.",
+      "en": "“The Sabeans fell upon them, and took them away.” Then come the fire of God on the sheep, the Chaldeans taking the camels, and the wind that brings the house down on his children."
+     },
+     "ref": "18:1:15"
+    },
+    {
+     "id": "wisdom-job-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Job après avoir appris ces malheurs (verset 21) ?",
+      "en": "What does Job say after hearing of these disasters (verse 21)?"
+     },
+     "choices": {
+      "fr": [
+       "L'Eternel a donné, et l'Eternel a ôté; que le nom de l'Eternel soit béni!",
+       "L'Eternel m'a frappé sans raison; je ne veux plus prononcer son nom!",
+       "Mes ennemis ont triomphé de moi; que l'Eternel les punisse!",
+       "J'ai tout perdu par ma propre faute; que mon nom soit oublié!"
+      ],
+      "en": [
+       "The Lord gave, and the Lord hath taken away; blessed be the name of the Lord.",
+       "The Lord has struck me for no reason; I will no longer speak his name.",
+       "My enemies have triumphed over me; may the Lord punish them.",
+       "I have lost everything through my own fault; let my name be forgotten."
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Après s'être prosterné, Job dit : « Je suis sorti nu du sein de ma mère, et nu je retournerai dans le sein de la terre. L'Eternel a donné, et l'Eternel a ôté; que le nom de l'Eternel soit béni! »",
+      "en": "Having fallen down and worshipped, Job says: “Naked came I out of my mother’s womb, and naked shall I return thither: the Lord gave, and the Lord hath taken away; blessed be the name of the Lord.”"
+     },
+     "ref": "18:1:21"
+    },
+    {
+     "id": "wisdom-job-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 22, Job pécha en accusant Dieu d'injustice.",
+      "en": "According to verse 22, Job sinned by blaming God."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« En tout cela, Job ne pécha point et n'attribua rien d'injuste à Dieu. » Le narrateur répond ainsi au défi de Satan : Job n'a pas maudit Dieu.",
+      "en": "“In all this Job sinned not, nor charged God foolishly.” The narrator thus answers Satan's challenge: Job did not curse God."
+     },
+     "ref": "18:1:22"
+    }
+   ]
+  },
+  {
+   "id": "wisdom-whirlwind",
+   "title": {
+    "fr": "Dieu répond à Job",
+    "en": "God answers Job"
+   },
+   "passages": [
+    "18:38:1-18",
+    "18:42:1-6"
+   ],
+   "intro": {
+    "fr": "Après de longs dialogues entre Job et ses amis sur la cause de ses souffrances (chapitres 3 à 37), l'Eternel prend enfin la parole. Sa réponse est une suite de questions sur la création. Au chapitre 42, Job lui répond.",
+    "en": "After long dialogues between Job and his friends about the cause of his suffering (chapters 3 to 37), the Lord finally speaks. His answer is a series of questions about creation. In chapter 42, Job replies."
+   },
+   "keyVerse": "18:42:5",
+   "takeaway": {
+    "fr": "L'Eternel ne donne pas d'explication à Job, mais le questionne sur la création ; Job reconnaît que Dieu peut tout et dit que maintenant son oeil l'a vu.",
+    "en": "The Lord gives Job no explanation but questions him about creation; Job acknowledges that God can do everything and says that now his eye sees him."
+   },
+   "questions": [
+    {
+     "id": "wisdom-whirlwind-1",
+     "kind": "choice",
+     "q": {
+      "fr": "D'où l'Eternel répond-il à Job (38:1) ?",
+      "en": "From where does the Lord answer Job (38:1)?"
+     },
+     "choices": {
+      "fr": [
+       "Du haut d'une montagne",
+       "Dans un songe de la nuit",
+       "Par la bouche d'un prophète",
+       "Du milieu de la tempête"
+      ],
+      "en": [
+       "From the top of a mountain",
+       "In a dream by night",
+       "Through a prophet",
+       "Out of the whirlwind"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« L'Eternel répondit à Job du milieu de la tempête. » Dieu parle directement à Job, qui l'avait souvent appelé à répondre.",
+      "en": "“Then the Lord answered Job out of the whirlwind.” God speaks directly to Job, who had often called on him to answer."
+     },
+     "ref": "18:38:1"
+    },
+    {
+     "id": "wisdom-whirlwind-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question l'Eternel pose-t-il à Job au verset 4 ?",
+      "en": "What question does the Lord ask Job in verse 4?"
+     },
+     "choices": {
+      "fr": [
+       "Pourquoi te plains-tu de moi ?",
+       "Où étais-tu quand je fondais la terre ?",
+       "Qui t'a donné la vie ?",
+       "Combien d'années as-tu vécu ?"
+      ],
+      "en": [
+       "Why do you complain against me?",
+       "Where wast thou when I laid the foundations of the earth?",
+       "Who gave you life?",
+       "How many years have you lived?"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Où étais-tu quand je fondais la terre? Dis-le, si tu as de l'intelligence. » La question rappelle à Job qu'il n'était pas là à l'origine du monde.",
+      "en": "“Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding.” The question reminds Job that he was not there when the world began."
+     },
+     "ref": "18:38:4"
+    },
+    {
+     "id": "wisdom-whirlwind-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, qui poussait des cris de joie quand la terre fut fondée ?",
+      "en": "According to verse 7, who shouted for joy when the earth was founded?"
+     },
+     "choices": {
+      "fr": [
+       "Les premiers hommes",
+       "Les oiseaux du ciel",
+       "Tous les fils de Dieu",
+       "Les rois de la terre"
+      ],
+      "en": [
+       "The first humans",
+       "The birds of the air",
+       "All the sons of God",
+       "The kings of the earth"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Alors que les étoiles du matin éclataient en chants d'allégresse, et que tous les fils de Dieu poussaient des cris de joie. » Les « fils de Dieu » apparaissaient déjà dans la scène céleste du chapitre 1.",
+      "en": "“When the morning stars sang together, and all the sons of God shouted for joy.” The “sons of God” already appeared in the heavenly scene of chapter 1."
+     },
+     "ref": "18:38:7"
+    },
+    {
+     "id": "wisdom-whirlwind-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon les versets 8 à 11, à quoi Dieu a-t-il fixé des limites ?",
+      "en": "According to verses 8-11, what has God set limits for?"
+     },
+     "choices": {
+      "fr": [
+       "À la mer",
+       "Au vent",
+       "À la nuit",
+       "Au feu"
+      ],
+      "en": [
+       "The sea",
+       "The wind",
+       "The night",
+       "The fire"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Dieu a « fermé la mer avec des portes » et lui a dit : « Tu viendras jusqu'ici, tu n'iras pas au delà; ici s'arrêtera l'orgueil de tes flots. » La mer, souvent symbole de chaos, reste sous son contrôle.",
+      "en": "God “shut up the sea with doors” and said: “Hitherto shalt thou come, but no further: and here shall thy proud waves be stayed.” The sea, often a symbol of chaos, remains under his control."
+     },
+     "ref": "18:38:8-11"
+    },
+    {
+     "id": "wisdom-whirlwind-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que reconnaît Job au verset 2 du chapitre 42 ?",
+      "en": "What does Job acknowledge in verse 2 of chapter 42?"
+     },
+     "choices": {
+      "fr": [
+       "Qu'il est innocent",
+       "Que ses amis avaient raison",
+       "Qu'il mérite ses malheurs",
+       "Que Dieu peut tout"
+      ],
+      "en": [
+       "That he is innocent",
+       "That his friends were right",
+       "That he deserves his misfortunes",
+       "That God can do everything"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Je reconnais que tu peux tout, et que rien ne s'oppose à tes pensées. » Au verset 3, Job admet aussi avoir parlé de « merveilles qui me dépassent ».",
+      "en": "“I know that thou canst do every thing, and that no thought can be withholden from thee.” In verse 3 Job also admits he spoke of “things too wonderful for me.”"
+     },
+     "ref": "18:42:2"
+    },
+    {
+     "id": "wisdom-whirlwind-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Au verset 5 du chapitre 42, Job dit qu'il avait seulement entendu parler de Dieu, mais que maintenant son oeil l'a vu.",
+      "en": "In verse 5 of chapter 42, Job says he had only heard of God, but now his eye sees him."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Mon oreille avait entendu parler de toi; mais maintenant mon oeil t'a vu. » La rencontre avec Dieu change la connaissance que Job avait de lui.",
+      "en": "“I have heard of thee by the hearing of the ear: but now mine eye seeth thee.” Meeting God transforms what Job knew of him."
+     },
+     "ref": "18:42:5"
+    }
+   ]
+  }
+ ]
+}

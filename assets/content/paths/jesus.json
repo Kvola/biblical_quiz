@@ -1,0 +1,2613 @@
+{
+ "id": "jesus",
+ "order": 3,
+ "icon": "favorite",
+ "title": {
+  "fr": "Jésus",
+  "en": "Jesus"
+ },
+ "description": {
+  "fr": "Ce que les Évangiles racontent de Jésus : son baptême, ses enseignements, ses miracles, sa mort et sa résurrection, à travers ses paroles et ses actes.",
+  "en": "What the Gospels tell about Jesus: his baptism, his teaching, his miracles, his death and his resurrection, through his words and his deeds."
+ },
+ "lessons": [
+  {
+   "id": "jesus-baptism",
+   "title": {
+    "fr": "Baptême et tentation",
+    "en": "Baptism and temptation"
+   },
+   "passages": [
+    "40:3:13-4:11"
+   ],
+   "intro": {
+    "fr": "Au début de l'Évangile de Matthieu, Jean baptise au bord du Jourdain. Jésus arrive de Galilée pour être baptisé, puis l'Esprit le conduit au désert.",
+    "en": "Early in Matthew's Gospel, John is baptizing by the river Jordan. Jesus comes from Galilee to be baptized, then the Spirit leads him into the wilderness."
+   },
+   "keyVerse": "40:3:17",
+   "takeaway": {
+    "fr": "Au baptême de Jésus, une voix venue des cieux le désigne comme le Fils bien-aimé. Au désert, il répond à chaque tentation du diable par une parole de l'Écriture.",
+    "en": "At Jesus' baptism, a voice from heaven calls him the beloved Son. In the wilderness, he answers each of the devil's temptations with a word of Scripture."
+   },
+   "questions": [
+    {
+     "id": "jesus-baptism-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Jean s'oppose-t-il d'abord à baptiser Jésus ?",
+      "en": "Why does John at first refuse to baptize Jesus?"
+     },
+     "choices": {
+      "fr": [
+       "Jésus n'est pas encore prêt",
+       "La foule est trop nombreuse",
+       "Il dit avoir besoin d'être baptisé par Jésus",
+       "Le Jourdain est en crue"
+      ],
+      "en": [
+       "Jesus is not ready yet",
+       "The crowd is too large",
+       "He says he needs to be baptized by Jesus",
+       "The Jordan is in flood"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Jean déclare : « C'est moi qui ai besoin d'être baptisé par toi, et tu viens à moi! » Jésus lui répond de laisser faire, et Jean cède.",
+      "en": "John says, “I have need to be baptized of thee, and comest thou to me?” Jesus tells him to let it be so, and John gives way."
+     },
+     "ref": "40:3:14"
+    },
+    {
+     "id": "jesus-baptism-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Sortant de l'eau, que voit Jésus descendre sur lui ?",
+      "en": "Coming up out of the water, what does Jesus see descending on him?"
+     },
+     "choices": {
+      "fr": [
+       "Un feu venu du ciel",
+       "L'Esprit de Dieu, comme une colombe",
+       "Un ange vêtu de blanc",
+       "Une nuée lumineuse"
+      ],
+      "en": [
+       "Fire from heaven",
+       "The Spirit of God, like a dove",
+       "An angel dressed in white",
+       "A bright cloud"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Les cieux s'ouvrent et Jésus voit « l'Esprit de Dieu descendre comme une colombe et venir sur lui ». Une voix se fait ensuite entendre des cieux.",
+      "en": "The heavens open and Jesus sees “the Spirit of God descending like a dove, and lighting upon him.” Then a voice speaks from heaven."
+     },
+     "ref": "40:3:16"
+    },
+    {
+     "id": "jesus-baptism-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de temps Jésus jeûne-t-il dans le désert ?",
+      "en": "How long does Jesus fast in the wilderness?"
+     },
+     "choices": {
+      "fr": [
+       "Sept jours",
+       "Douze jours",
+       "Trois jours et trois nuits",
+       "Quarante jours et quarante nuits"
+      ],
+      "en": [
+       "Seven days",
+       "Twelve days",
+       "Three days and three nights",
+       "Forty days and forty nights"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le texte précise qu'il jeûne quarante jours et quarante nuits, puis qu'il a faim. C'est à ce moment que le tentateur s'approche.",
+      "en": "The text says he fasted forty days and forty nights and afterwards was hungry. That is when the tempter comes to him."
+     },
+     "ref": "40:4:2"
+    },
+    {
+     "id": "jesus-baptism-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande le diable lors de la première tentation ?",
+      "en": "What does the devil ask in the first temptation?"
+     },
+     "choices": {
+      "fr": [
+       "Changer des pierres en pains",
+       "Se jeter du haut du temple",
+       "Se prosterner devant lui",
+       "Quitter le désert"
+      ],
+      "en": [
+       "To turn stones into bread",
+       "To throw himself down from the temple",
+       "To bow down and worship him",
+       "To leave the wilderness"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Le tentateur dit : « Si tu es Fils de Dieu, ordonne que ces pierres deviennent des pains. » Jésus répond que l'homme ne vivra pas de pain seulement.",
+      "en": "The tempter says, “If thou be the Son of God, command that these stones be made bread.” Jesus answers that man shall not live by bread alone."
+     },
+     "ref": "40:4:3"
+    },
+    {
+     "id": "jesus-baptism-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que propose le diable à Jésus sur une montagne très élevée ?",
+      "en": "What does the devil offer Jesus on an exceeding high mountain?"
+     },
+     "choices": {
+      "fr": [
+       "Des anges pour le servir",
+       "Le trône de David à Jérusalem",
+       "Tous les royaumes du monde et leur gloire",
+       "Du pain pour toute la foule"
+      ],
+      "en": [
+       "Angels to serve him",
+       "David's throne in Jerusalem",
+       "All the kingdoms of the world and their glory",
+       "Bread for the whole crowd"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le diable lui montre tous les royaumes du monde et leur gloire, et dit : « Je te donnerai toutes ces choses, si tu te prosternes et m'adores. »",
+      "en": "The devil shows him all the kingdoms of the world and their glory, and says, “All these things will I give thee, if thou wilt fall down and worship me.”"
+     },
+     "ref": "40:4:9"
+    },
+    {
+     "id": "jesus-baptism-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "À chacune des trois tentations, Jésus répond en citant ce qui « est écrit ».",
+      "en": "To each of the three temptations, Jesus answers by quoting what “is written.”"
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Jésus répond trois fois par « Il est écrit » (versets 4, 7 et 10). La dernière fois, il dit : « Retire-toi, Satan! » Ces paroles reprennent le Deutéronome.",
+      "en": "Jesus answers three times with “It is written” (verses 4, 7 and 10). The last time he says, “Get thee hence, Satan.” These words come from Deuteronomy."
+     },
+     "ref": "40:4:10"
+    }
+   ]
+  },
+  {
+   "id": "jesus-beatitudes",
+   "title": {
+    "fr": "Les Béatitudes",
+    "en": "The Beatitudes"
+   },
+   "passages": [
+    "40:5:1-16"
+   ],
+   "intro": {
+    "fr": "Ce passage ouvre le Sermon sur la montagne (Matthieu 5 à 7), le premier grand enseignement de Jésus dans cet Évangile. Il s'adresse à ses disciples devant la foule.",
+    "en": "This passage opens the Sermon on the Mount (Matthew 5 to 7), Jesus' first great teaching in this Gospel. He speaks to his disciples in front of the crowd."
+   },
+   "keyVerse": "40:5:3",
+   "takeaway": {
+    "fr": "Jésus déclare « heureux » les pauvres en esprit, les affligés, les miséricordieux ou ceux qui procurent la paix. Il dit à ses disciples qu'ils sont le sel de la terre et la lumière du monde.",
+    "en": "Jesus calls “blessed” the poor in spirit, those who mourn, the merciful and the peacemakers. He tells his disciples that they are the salt of the earth and the light of the world."
+   },
+   "questions": [
+    {
+     "id": "jesus-beatitudes-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Où Jésus se trouve-t-il pour donner cet enseignement ?",
+      "en": "Where is Jesus when he gives this teaching?"
+     },
+     "choices": {
+      "fr": [
+       "Dans une barque, près du rivage",
+       "Assis sur la montagne",
+       "Dans la synagogue de Nazareth",
+       "Dans le temple de Jérusalem"
+      ],
+      "en": [
+       "In a boat near the shore",
+       "Seated on a mountain",
+       "In the synagogue at Nazareth",
+       "In the temple at Jerusalem"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Voyant la foule, Jésus monte sur la montagne et s'assoit ; ses disciples s'approchent de lui. D'où le nom de Sermon sur la montagne.",
+      "en": "Seeing the crowds, Jesus goes up into a mountain and sits down; his disciples come to him. Hence the name Sermon on the Mount."
+     },
+     "ref": "40:5:1"
+    },
+    {
+     "id": "jesus-beatitudes-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Jésus, que recevront les débonnaires ?",
+      "en": "According to Jesus, what will the meek receive?"
+     },
+     "choices": {
+      "fr": [
+       "Le royaume des cieux",
+       "La miséricorde",
+       "La consolation",
+       "La terre en héritage"
+      ],
+      "en": [
+       "The kingdom of heaven",
+       "Mercy",
+       "Comfort",
+       "The earth as an inheritance"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Heureux les débonnaires, car ils hériteront la terre! » Chaque béatitude associe un groupe de personnes à une promesse précise.",
+      "en": "“Blessed are the meek: for they shall inherit the earth.” Each beatitude links a group of people with a specific promise."
+     },
+     "ref": "40:5:5"
+    },
+    {
+     "id": "jesus-beatitudes-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment seront appelés ceux qui procurent la paix ?",
+      "en": "What will the peacemakers be called?"
+     },
+     "choices": {
+      "fr": [
+       "Fils de Dieu",
+       "Lumière du monde",
+       "Sel de la terre",
+       "Amis des prophètes"
+      ],
+      "en": [
+       "Children of God",
+       "Light of the world",
+       "Salt of the earth",
+       "Friends of the prophets"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Heureux ceux qui procurent la paix, car ils seront appelés fils de Dieu! » Les images du sel et de la lumière viennent juste après, adressées aux disciples.",
+      "en": "“Blessed are the peacemakers: for they shall be called the children of God.” The images of salt and light come right after, addressed to the disciples."
+     },
+     "ref": "40:5:9"
+    },
+    {
+     "id": "jesus-beatitudes-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Jésus, le sel qui a perdu sa saveur peut facilement la retrouver.",
+      "en": "According to Jesus, salt that has lost its savour can easily get it back."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Jésus demande : « avec quoi la lui rendra-t-on? » et ajoute que ce sel « ne sert plus qu'à être jeté dehors ».",
+      "en": "Jesus asks, “wherewith shall it be salted?” and adds that such salt is “good for nothing, but to be cast out.”"
+     },
+     "ref": "40:5:13"
+    },
+    {
+     "id": "jesus-beatitudes-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle image Jésus utilise-t-il pour dire que la lumière ne doit pas être cachée ?",
+      "en": "What image does Jesus use to say that light should not be hidden?"
+     },
+     "choices": {
+      "fr": [
+       "Un phare au bord de la mer",
+       "Une étoile dans la nuit",
+       "Une ville située sur une montagne",
+       "Un feu de camp dans le désert"
+      ],
+      "en": [
+       "A lighthouse by the sea",
+       "A star in the night",
+       "A city set on a hill",
+       "A campfire in the wilderness"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Vous êtes la lumière du monde. Une ville située sur une montagne ne peut être cachée. » Il ajoute l'image de la lampe posée sur le chandelier.",
+      "en": "“Ye are the light of the world. A city that is set on an hill cannot be hid.” He adds the image of a candle set on a candlestick."
+     },
+     "ref": "40:5:14"
+    },
+    {
+     "id": "jesus-beatitudes-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 16, pourquoi les disciples doivent-ils faire luire leur lumière ?",
+      "en": "According to verse 16, why should the disciples let their light shine?"
+     },
+     "choices": {
+      "fr": [
+       "Pour être admirés de la foule",
+       "Pour que les hommes voient leurs bonnes oeuvres et glorifient leur Père",
+       "Pour éclairer le chemin des voyageurs",
+       "Pour montrer qu'ils sont plus justes que les scribes"
+      ],
+      "en": [
+       "To be admired by the crowd",
+       "So that people see their good works and glorify their Father",
+       "To light the way for travellers",
+       "To show they are more righteous than the scribes"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Que votre lumière luise ainsi devant les hommes, afin qu'ils voient vos bonnes oeuvres, et qu'ils glorifient votre Père qui est dans les cieux. » La gloire revient au Père, non aux disciples.",
+      "en": "“Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.” The glory goes to the Father, not to the disciples."
+     },
+     "ref": "40:5:16"
+    }
+   ]
+  },
+  {
+   "id": "jesus-enemies",
+   "title": {
+    "fr": "Aimer ses ennemis",
+    "en": "Love your enemies"
+   },
+   "passages": [
+    "40:5:38-48"
+   ],
+   "intro": {
+    "fr": "Toujours dans le sermon sur la montagne, Jésus reprend des paroles connues de ses auditeurs (« Vous avez appris qu'il a été dit… ») et les prolonge par son propre enseignement (« Mais moi, je vous dis… »).",
+    "en": "Still in the Sermon on the Mount, Jesus takes up sayings his hearers know (“Ye have heard that it hath been said…”) and goes further with his own teaching (“But I say unto you…”)."
+   },
+   "keyVerse": "40:5:44",
+   "takeaway": {
+    "fr": "Jésus demande de ne pas rendre le mal pour le mal, d'aimer ses ennemis et de prier pour ceux qui persécutent, à l'image du Père qui fait lever son soleil sur les méchants et sur les bons.",
+    "en": "Jesus asks his hearers not to repay evil, to love their enemies and to pray for those who persecute them, like the Father who makes his sun rise on the evil and on the good."
+   },
+   "questions": [
+    {
+     "id": "jesus-enemies-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle parole connue Jésus cite-t-il au début du passage ?",
+      "en": "What well-known saying does Jesus quote at the start of the passage?"
+     },
+     "choices": {
+      "fr": [
+       "« Tu ne tueras point »",
+       "« Honore ton père et ta mère »",
+       "« oeil pour oeil, et dent pour dent »",
+       "« Tu ne déroberas point »"
+      ],
+      "en": [
+       "“Thou shalt not kill”",
+       "“Honour thy father and thy mother”",
+       "“An eye for an eye, and a tooth for a tooth”",
+       "“Thou shalt not steal”"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Jésus dit : « Vous avez appris qu'il a été dit: oeil pour oeil, et dent pour dent. » Cette règle figure dans la loi de Moïse (Exode 21:24) ; Jésus enseigne ensuite de ne pas résister au méchant.",
+      "en": "Jesus says, “Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth.” This rule is found in the law of Moses (Exodus 21:24); Jesus then teaches not to resist evil."
+     },
+     "ref": "40:5:38"
+    },
+    {
+     "id": "jesus-enemies-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Jésus de faire si quelqu'un te frappe sur la joue droite ?",
+      "en": "What does Jesus say to do if someone strikes you on the right cheek?"
+     },
+     "choices": {
+      "fr": [
+       "Lui présenter aussi l'autre",
+       "Le frapper à son tour",
+       "Le traîner devant le juge",
+       "S'éloigner sans rien dire"
+      ],
+      "en": [
+       "Turn the other cheek to him too",
+       "Strike him back",
+       "Take him before the judge",
+       "Walk away without a word"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Si quelqu'un te frappe sur la joue droite, présente-lui aussi l'autre. » C'est le premier d'une série d'exemples où l'on va au-delà de ce qui est exigé.",
+      "en": "“Whosoever shall smite thee on thy right cheek, turn to him the other also.” It is the first in a series of examples of going beyond what is demanded."
+     },
+     "ref": "40:5:39"
+    },
+    {
+     "id": "jesus-enemies-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Si quelqu'un te force à faire un mille, que faut-il faire selon Jésus ?",
+      "en": "If someone compels you to go a mile, what does Jesus say to do?"
+     },
+     "choices": {
+      "fr": [
+       "Refuser poliment",
+       "Demander un salaire",
+       "Le faire en silence",
+       "En faire deux avec lui"
+      ],
+      "en": [
+       "Politely refuse",
+       "Ask for wages",
+       "Go in silence",
+       "Go two miles with him"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Si quelqu'un te force à faire un mille, fais-en deux avec lui. » À l'époque, un soldat romain pouvait réquisitionner un habitant pour porter une charge.",
+      "en": "“Whosoever shall compel thee to go a mile, go with him twain.” At the time, a Roman soldier could press a local person into carrying a load."
+     },
+     "ref": "40:5:41"
+    },
+    {
+     "id": "jesus-enemies-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel exemple Jésus donne-t-il de la manière d'agir du Père ?",
+      "en": "What example does Jesus give of how the Father acts?"
+     },
+     "choices": {
+      "fr": [
+       "Il récompense seulement les justes",
+       "Il fait lever son soleil sur les méchants et sur les bons",
+       "Il envoie la pluie seulement sur les champs des fidèles",
+       "Il punit aussitôt ceux qui maudissent"
+      ],
+      "en": [
+       "He rewards only the righteous",
+       "He makes his sun rise on the evil and on the good",
+       "He sends rain only on the fields of the faithful",
+       "He punishes at once those who curse"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le Père « fait lever son soleil sur les méchants et sur les bons, et il fait pleuvoir sur les justes et sur les injustes ». Aimer ses ennemis, c'est lui ressembler.",
+      "en": "The Father “maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.” Loving one's enemies means being like him."
+     },
+     "ref": "40:5:45"
+    },
+    {
+     "id": "jesus-enemies-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Jésus, aimer ceux qui nous aiment mérite une récompense particulière.",
+      "en": "According to Jesus, loving those who love us deserves a special reward."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Jésus demande : « Si vous aimez ceux qui vous aiment, quelle récompense méritez-vous? Les publicains aussi n'agissent-ils pas de même? » Les publicains, collecteurs d'impôts, étaient mal vus.",
+      "en": "Jesus asks, “If ye love them which love you, what reward have ye? do not even the publicans the same?” Publicans, the tax collectors, were looked down on."
+     },
+     "ref": "40:5:46"
+    }
+   ]
+  },
+  {
+   "id": "jesus-rock",
+   "title": {
+    "fr": "La maison sur le roc",
+    "en": "The house on the rock"
+   },
+   "passages": [
+    "40:7:15-29"
+   ],
+   "intro": {
+    "fr": "Fin du sermon sur la montagne. Jésus met en garde contre les faux prophètes, puis conclut par une comparaison entre deux bâtisseurs.",
+    "en": "The end of the Sermon on the Mount. Jesus warns against false prophets, then concludes with a comparison between two builders."
+   },
+   "keyVerse": "40:7:24",
+   "takeaway": {
+    "fr": "On reconnaît l'arbre à ses fruits. Celui qui entend les paroles de Jésus et les met en pratique ressemble à l'homme prudent qui a bâti sa maison sur le roc.",
+    "en": "A tree is known by its fruit. Whoever hears Jesus' sayings and does them is like the wise man who built his house upon a rock."
+   },
+   "questions": [
+    {
+     "id": "jesus-rock-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Jésus, comment reconnaîtra-t-on les faux prophètes ?",
+      "en": "According to Jesus, how will false prophets be recognized?"
+     },
+     "choices": {
+      "fr": [
+       "À leurs vêtements",
+       "À leurs fruits",
+       "À leurs paroles",
+       "À leurs miracles"
+      ],
+      "en": [
+       "By their clothing",
+       "By their fruits",
+       "By their words",
+       "By their miracles"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Vous les reconnaîtrez à leurs fruits. » Jésus le répète au verset 20. Leur apparence, au contraire, est trompeuse.",
+      "en": "“Ye shall know them by their fruits.” Jesus repeats it in verse 20. Their appearance, by contrast, is deceiving."
+     },
+     "ref": "40:7:16"
+    },
+    {
+     "id": "jesus-rock-2",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi Jésus compare-t-il les faux prophètes ?",
+      "en": "What does Jesus compare false prophets to?"
+     },
+     "choices": {
+      "fr": [
+       "À des renards dans une vigne",
+       "À des aveugles qui guident des aveugles",
+       "À des serpents cachés dans l'herbe",
+       "À des loups ravisseurs en vêtements de brebis"
+      ],
+      "en": [
+       "Foxes in a vineyard",
+       "The blind leading the blind",
+       "Snakes hidden in the grass",
+       "Ravening wolves in sheep's clothing"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ils viennent à vous en vêtements de brebis, mais au dedans ce sont des loups ravisseurs. » L'image oppose l'apparence douce et la réalité dangereuse.",
+      "en": "They “come to you in sheep’s clothing, but inwardly they are ravening wolves.” The image contrasts a gentle appearance with a dangerous reality."
+     },
+     "ref": "40:7:15"
+    },
+    {
+     "id": "jesus-rock-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 21, qui entrera dans le royaume des cieux ?",
+      "en": "According to verse 21, who will enter the kingdom of heaven?"
+     },
+     "choices": {
+      "fr": [
+       "Celui qui fait la volonté du Père",
+       "Celui qui dit : « Seigneur, Seigneur! »",
+       "Celui qui a fait beaucoup de miracles",
+       "Celui qui a prophétisé au nom de Jésus"
+      ],
+      "en": [
+       "The one who does the will of the Father",
+       "The one who says, “Lord, Lord”",
+       "The one who has done many wonderful works",
+       "The one who has prophesied in Jesus' name"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Ceux qui disent « Seigneur, Seigneur! » n'entreront pas tous, « mais celui-là seul qui fait la volonté de mon Père qui est dans les cieux ».",
+      "en": "Not everyone who says “Lord, Lord” shall enter, “but he that doeth the will of my Father which is in heaven.”"
+     },
+     "ref": "40:7:21"
+    },
+    {
+     "id": "jesus-rock-4",
+     "kind": "choice",
+     "q": {
+      "fr": "À qui ressemble celui qui entend les paroles de Jésus et les met en pratique ?",
+      "en": "Who is like the one who hears Jesus' sayings and does them?"
+     },
+     "choices": {
+      "fr": [
+       "Un berger qui veille sur son troupeau",
+       "Un semeur qui sort pour semer",
+       "Un homme prudent qui a bâti sur le roc",
+       "Un marchand qui cherche de belles perles"
+      ],
+      "en": [
+       "A shepherd watching his flock",
+       "A sower going out to sow",
+       "A wise man who built upon a rock",
+       "A merchant seeking goodly pearls"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Jésus le compare à « un homme prudent qui a bâti sa maison sur le roc ». Celui qui entend sans mettre en pratique ressemble à l'insensé qui a bâti sur le sable.",
+      "en": "Jesus likens him “unto a wise man, which built his house upon a rock.” The one who hears and does not do is like the foolish man who built on the sand."
+     },
+     "ref": "40:7:24"
+    },
+    {
+     "id": "jesus-rock-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "La maison bâtie sur le roc tient bon parce qu'aucune tempête ne l'atteint.",
+      "en": "The house built on the rock stands because no storm reaches it."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "La pluie, les torrents et les vents se jettent contre elle aussi ; elle ne tombe pas « parce qu'elle était fondée sur le roc ». Les deux maisons subissent la même tempête.",
+      "en": "The rain, floods and winds beat upon it too; it does not fall “for it was founded upon a rock.” Both houses face the same storm."
+     },
+     "ref": "40:7:25"
+    },
+    {
+     "id": "jesus-rock-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi la foule est-elle frappée de l'enseignement de Jésus ?",
+      "en": "Why are the people astonished at Jesus' teaching?"
+     },
+     "choices": {
+      "fr": [
+       "Parce qu'il parlait très longtemps",
+       "Parce qu'il enseignait avec autorité, non comme leurs scribes",
+       "Parce qu'il citait tous les prophètes",
+       "Parce qu'il parlait en paraboles"
+      ],
+      "en": [
+       "Because he spoke for a very long time",
+       "Because he taught with authority, not as the scribes",
+       "Because he quoted all the prophets",
+       "Because he spoke in parables"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Car il enseignait comme ayant autorité, et non pas comme leurs scribes. » Les scribes étaient les spécialistes qui copiaient et expliquaient la Loi.",
+      "en": "“For he taught them as one having authority, and not as the scribes.” The scribes were the experts who copied and explained the Law."
+     },
+     "ref": "40:7:29"
+    }
+   ]
+  },
+  {
+   "id": "jesus-samaritan",
+   "title": {
+    "fr": "Le bon Samaritain",
+    "en": "The good Samaritan"
+   },
+   "passages": [
+    "42:10:25-37"
+   ],
+   "intro": {
+    "fr": "Dans l'Évangile de Luc, Jésus est en route vers Jérusalem. Un docteur de la loi, spécialiste des Écritures, vient lui poser une question pour l'éprouver.",
+    "en": "In Luke's Gospel, Jesus is on his way to Jerusalem. A lawyer, an expert in the Scriptures, comes to question him to test him."
+   },
+   "keyVerse": "42:10:27",
+   "takeaway": {
+    "fr": "À la question « qui est mon prochain ? », Jésus répond par une histoire : c'est un Samaritain, et non le sacrificateur ou le Lévite, qui prend soin du blessé. Il conclut : « Va, et toi, fais de même. »",
+    "en": "To the question “who is my neighbour?”, Jesus answers with a story: a Samaritan, not the priest or the Levite, cares for the wounded man. He concludes: “Go, and do thou likewise.”"
+   },
+   "questions": [
+    {
+     "id": "jesus-samaritan-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question le docteur de la loi pose-t-il d'abord à Jésus ?",
+      "en": "What question does the lawyer first ask Jesus?"
+     },
+     "choices": {
+      "fr": [
+       "Quel est le plus grand prophète ?",
+       "Faut-il payer l'impôt à César ?",
+       "Que dois-je faire pour hériter la vie éternelle ?",
+       "Combien de fois dois-je pardonner ?"
+      ],
+      "en": [
+       "Who is the greatest prophet?",
+       "Should we pay tribute to Caesar?",
+       "What shall I do to inherit eternal life?",
+       "How often should I forgive?"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Il demande : « Maître, que dois-je faire pour hériter la vie éternelle? » Jésus le renvoie à ce qui est écrit dans la loi.",
+      "en": "He asks, “Master, what shall I do to inherit eternal life?” Jesus points him back to what is written in the law."
+     },
+     "ref": "42:10:25"
+    },
+    {
+     "id": "jesus-samaritan-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "L'homme du récit est attaqué sur la route qui descend de Jérusalem à Jéricho.",
+      "en": "The man in the story is attacked on the road going down from Jerusalem to Jericho."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Un homme descendait de Jérusalem à Jéricho. Il tomba au milieu des brigands. » Cette route descend fortement à travers une région désertique.",
+      "en": "“A certain man went down from Jerusalem to Jericho, and fell among thieves.” This road drops steeply through desert country."
+     },
+     "ref": "42:10:30"
+    },
+    {
+     "id": "jesus-samaritan-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui passe à côté du blessé sans s'arrêter ?",
+      "en": "Who passes by the wounded man without stopping?"
+     },
+     "choices": {
+      "fr": [
+       "Un sacrificateur et un Lévite",
+       "Deux soldats romains",
+       "Un publicain et un pharisien",
+       "Des marchands en caravane"
+      ],
+      "en": [
+       "A priest and a Levite",
+       "Two Roman soldiers",
+       "A publican and a Pharisee",
+       "Merchants in a caravan"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Un sacrificateur, puis un Lévite, voient l'homme et passent outre (versets 31 et 32). Tous deux étaient au service du temple.",
+      "en": "A priest, then a Levite, see the man and pass by on the other side (verses 31 and 32). Both served at the temple."
+     },
+     "ref": "42:10:32"
+    },
+    {
+     "id": "jesus-samaritan-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait le Samaritain pour le blessé ?",
+      "en": "What does the Samaritan do for the wounded man?"
+     },
+     "choices": {
+      "fr": [
+       "Il va chercher sa famille",
+       "Il prévient les gardes de la ville",
+       "Il lui donne de l'eau et repart",
+       "Il bande ses plaies et le conduit à une hôtellerie"
+      ],
+      "en": [
+       "He goes to fetch his family",
+       "He alerts the city guards",
+       "He gives him water and leaves",
+       "He binds up his wounds and brings him to an inn"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Il banda ses plaies en y versant de l'huile et du vin, le mit sur sa propre monture, le conduisit à une hôtellerie et prit soin de lui. Juifs et Samaritains étaient alors en conflit.",
+      "en": "He bound up his wounds, pouring in oil and wine, set him on his own beast, brought him to an inn and took care of him. Jews and Samaritans were at odds at that time."
+     },
+     "ref": "42:10:34"
+    },
+    {
+     "id": "jesus-samaritan-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Le lendemain, combien le Samaritain donne-t-il à l'hôte ?",
+      "en": "The next day, how much does the Samaritan give the host?"
+     },
+     "choices": {
+      "fr": [
+       "Une pièce d'or",
+       "Deux deniers",
+       "Trente pièces d'argent",
+       "Rien, il promet de payer plus tard"
+      ],
+      "en": [
+       "A gold coin",
+       "Two pence",
+       "Thirty pieces of silver",
+       "Nothing, he promises to pay later"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Il donne deux deniers à l'hôte et promet de rembourser ce qu'il dépensera de plus. Un denier correspondait à peu près au salaire d'une journée de travail.",
+      "en": "He gives the host two pence and promises to repay whatever more he spends. A penny (denarius) was roughly a day's wage."
+     },
+     "ref": "42:10:35"
+    },
+    {
+     "id": "jesus-samaritan-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond le docteur de la loi quand Jésus demande lequel des trois a été le prochain du blessé ?",
+      "en": "What does the lawyer answer when Jesus asks which of the three was neighbour to the wounded man?"
+     },
+     "choices": {
+      "fr": [
+       "Le sacrificateur, car il sert Dieu",
+       "Personne ne l'a été vraiment",
+       "Celui qui a exercé la miséricorde envers lui",
+       "Le Lévite, car il l'a regardé"
+      ],
+      "en": [
+       "The priest, because he serves God",
+       "None of them really was",
+       "He that shewed mercy on him",
+       "The Levite, because he looked at him"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« C'est celui qui a exercé la miséricorde envers lui. » Jésus lui dit alors : « Va, et toi, fais de même. »",
+      "en": "“He that shewed mercy on him.” Then Jesus says to him, “Go, and do thou likewise.”"
+     },
+     "ref": "42:10:37"
+    }
+   ]
+  },
+  {
+   "id": "jesus-storm",
+   "title": {
+    "fr": "La tempête apaisée",
+    "en": "The storm calmed"
+   },
+   "passages": [
+    "41:4:35-5:20"
+   ],
+   "intro": {
+    "fr": "Dans l'Évangile de Marc, après une journée d'enseignement au bord du lac de Galilée, Jésus traverse le lac en barque avec ses disciples, vers le pays des Gadaréniens.",
+    "en": "In Mark's Gospel, after a day of teaching by the lake of Galilee, Jesus crosses the lake by boat with his disciples, towards the country of the Gadarenes."
+   },
+   "keyVerse": "41:4:41",
+   "takeaway": {
+    "fr": "Jésus calme le vent et la mer, et ses disciples se demandent qui il est. De l'autre côté, il délivre un homme possédé, qui va raconter dans la Décapole ce que Jésus a fait pour lui.",
+    "en": "Jesus calms the wind and the sea, and his disciples wonder who he is. On the other side, he frees a possessed man, who goes and tells in Decapolis what Jesus has done for him."
+   },
+   "questions": [
+    {
+     "id": "jesus-storm-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait Jésus pendant que la tempête remplit la barque ?",
+      "en": "What is Jesus doing while the storm fills the boat?"
+     },
+     "choices": {
+      "fr": [
+       "Il dort à la poupe sur le coussin",
+       "Il prie seul à l'avant",
+       "Il aide à vider l'eau",
+       "Il enseigne la foule depuis la barque"
+      ],
+      "en": [
+       "He is asleep on a pillow in the stern",
+       "He is praying alone at the bow",
+       "He is helping bail out water",
+       "He is teaching the crowd from the boat"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Et lui, il dormait à la poupe sur le coussin. » Les disciples le réveillent : « Maître, ne t'inquiètes-tu pas de ce que nous périssons? »",
+      "en": "“He was in the hinder part of the ship, asleep on a pillow.” The disciples wake him: “Master, carest thou not that we perish?”"
+     },
+     "ref": "41:4:38"
+    },
+    {
+     "id": "jesus-storm-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Jésus à la mer ?",
+      "en": "What does Jesus say to the sea?"
+     },
+     "choices": {
+      "fr": [
+       "« Retire-toi! »",
+       "« Ne crains pas! »",
+       "« Arrête-toi là! »",
+       "« Silence! tais-toi! »"
+      ],
+      "en": [
+       "“Depart!”",
+       "“Fear not!”",
+       "“Stop there!”",
+       "“Peace, be still.”"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Il menace le vent et dit à la mer : « Silence! tais-toi! » Le vent cesse et il y a un grand calme.",
+      "en": "He rebukes the wind and says to the sea, “Peace, be still.” The wind ceases and there is a great calm."
+     },
+     "ref": "41:4:39"
+    },
+    {
+     "id": "jesus-storm-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Après le calme, que se demandent les disciples ?",
+      "en": "After the calm, what do the disciples ask one another?"
+     },
+     "choices": {
+      "fr": [
+       "Comment rentrer avant la nuit",
+       "Qui est donc celui-ci, à qui obéissent le vent et la mer",
+       "Pourquoi Jésus s'est endormi",
+       "S'il faut retourner sur l'autre rive"
+      ],
+      "en": [
+       "How to get home before nightfall",
+       "What manner of man this is, that the wind and the sea obey him",
+       "Why Jesus fell asleep",
+       "Whether to go back to the other shore"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Saisis d'une grande frayeur, ils se disent : « Quel est donc celui-ci, à qui obéissent même le vent et la mer? » La question de l'identité de Jésus traverse tout l'Évangile de Marc.",
+      "en": "They feared exceedingly and said, “What manner of man is this, that even the wind and the sea obey him?” The question of who Jesus is runs through Mark's Gospel."
+     },
+     "ref": "41:4:41"
+    },
+    {
+     "id": "jesus-storm-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel nom l'esprit impur donne-t-il quand Jésus le lui demande ?",
+      "en": "What name does the unclean spirit give when Jesus asks?"
+     },
+     "choices": {
+      "fr": [
+       "Béelzébul",
+       "Satan",
+       "Légion",
+       "Le Très-Haut"
+      ],
+      "en": [
+       "Beelzebub",
+       "Satan",
+       "Legion",
+       "The Most High"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Légion est mon nom, lui répondit-il, car nous sommes plusieurs. » Une légion était une grande unité de l'armée romaine.",
+      "en": "“My name is Legion: for we are many.” A legion was a large unit of the Roman army."
+     },
+     "ref": "41:5:9"
+    },
+    {
+     "id": "jesus-storm-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Après la guérison, les habitants du pays supplient Jésus de rester chez eux.",
+      "en": "After the healing, the people of the region beg Jesus to stay with them."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Saisis de frayeur, ils se mettent au contraire « à supplier Jésus de quitter leur territoire ».",
+      "en": "Filled with fear, they instead “began to pray him to depart out of their coasts.”"
+     },
+     "ref": "41:5:17"
+    },
+    {
+     "id": "jesus-storm-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande Jésus à l'homme délivré, qui voulait rester avec lui ?",
+      "en": "What does Jesus tell the freed man, who wanted to stay with him?"
+     },
+     "choices": {
+      "fr": [
+       "De le suivre à Jérusalem",
+       "De garder le silence sur ce qui s'est passé",
+       "D'aller se montrer au sacrificateur",
+       "De rentrer chez lui et de raconter ce que le Seigneur a fait pour lui"
+      ],
+      "en": [
+       "To follow him to Jerusalem",
+       "To keep silent about what happened",
+       "To go and show himself to the priest",
+       "To go home and tell what the Lord has done for him"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Va dans ta maison, vers les tiens, et raconte-leur tout ce que le Seigneur t'a fait. » L'homme le publie ensuite dans la Décapole, une région de dix villes.",
+      "en": "“Go home to thy friends, and tell them how great things the Lord hath done for thee.” The man then spreads it in Decapolis, a region of ten cities."
+     },
+     "ref": "41:5:19"
+    }
+   ]
+  },
+  {
+   "id": "jesus-bread",
+   "title": {
+    "fr": "Cinq pains et deux poissons",
+    "en": "Five loaves and two fishes"
+   },
+   "passages": [
+    "43:6:1-15"
+   ],
+   "intro": {
+    "fr": "L'Évangile de Jean rapporte ce miracle, raconté aussi dans les trois autres Évangiles. Jésus est de l'autre côté de la mer de Galilée, et une grande foule le suit.",
+    "en": "John's Gospel tells of this miracle, which the other three Gospels also report. Jesus is on the far side of the sea of Galilee, and a great crowd is following him."
+   },
+   "keyVerse": "43:6:11",
+   "takeaway": {
+    "fr": "Avec cinq pains d'orge et deux poissons, Jésus nourrit environ cinq mille hommes, et il reste douze paniers. La foule veut alors le faire roi, mais il se retire seul sur la montagne.",
+    "en": "With five barley loaves and two fishes, Jesus feeds about five thousand men, and twelve baskets are left over. The crowd then wants to make him king, but he withdraws alone into a mountain."
+   },
+   "questions": [
+    {
+     "id": "jesus-bread-1",
+     "kind": "choice",
+     "q": {
+      "fr": "À quel disciple Jésus demande-t-il où acheter des pains ?",
+      "en": "Which disciple does Jesus ask where to buy bread?"
+     },
+     "choices": {
+      "fr": [
+       "Pierre",
+       "Jean",
+       "Philippe",
+       "Thomas"
+      ],
+      "en": [
+       "Peter",
+       "John",
+       "Philip",
+       "Thomas"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Jésus dit à Philippe : « Où achèterons-nous des pains, pour que ces gens aient à manger? » Le texte précise qu'il disait cela pour l'éprouver, car il savait ce qu'il allait faire.",
+      "en": "Jesus says to Philip, “Whence shall we buy bread, that these may eat?” The text adds that he said it to prove him, for he knew what he would do."
+     },
+     "ref": "43:6:5"
+    },
+    {
+     "id": "jesus-bread-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle fête juive était proche ?",
+      "en": "Which Jewish feast was near?"
+     },
+     "choices": {
+      "fr": [
+       "La fête des Tabernacles",
+       "La Pentecôte",
+       "La Pâque",
+       "La fête de la Dédicace"
+      ],
+      "en": [
+       "The feast of Tabernacles",
+       "Pentecost",
+       "The Passover",
+       "The feast of Dedication"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Or, la Pâque était proche, la fête des Juifs. » La Pâque commémore la sortie d'Égypte.",
+      "en": "“And the passover, a feast of the Jews, was nigh.” Passover recalls the exodus from Egypt."
+     },
+     "ref": "43:6:4"
+    },
+    {
+     "id": "jesus-bread-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'a le jeune garçon dont parle André ?",
+      "en": "What does the lad that Andrew mentions have?"
+     },
+     "choices": {
+      "fr": [
+       "Cinq pains d'orge et deux poissons",
+       "Sept pains et quelques poissons",
+       "Deux pains et cinq poissons",
+       "Un panier de figues"
+      ],
+      "en": [
+       "Five barley loaves and two small fishes",
+       "Seven loaves and a few fishes",
+       "Two loaves and five fishes",
+       "A basket of figs"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "André, frère de Simon Pierre, dit : « Il y a ici un jeune garçon qui a cinq pains d'orge et deux poissons; mais qu'est-ce que cela pour tant de gens? » L'orge était le pain des gens modestes.",
+      "en": "Andrew, Simon Peter's brother, says, “There is a lad here, which hath five barley loaves, and two small fishes: but what are they among so many?” Barley bread was the food of ordinary people."
+     },
+     "ref": "43:6:9"
+    },
+    {
+     "id": "jesus-bread-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien d'hommes s'assoient dans l'herbe ?",
+      "en": "How many men sit down on the grass?"
+     },
+     "choices": {
+      "fr": [
+       "Environ cinq cents",
+       "Environ cinq mille",
+       "Environ douze mille",
+       "Environ quatre mille"
+      ],
+      "en": [
+       "About five hundred",
+       "About five thousand",
+       "About twelve thousand",
+       "About four thousand"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Ils s'assirent donc, au nombre d'environ cinq mille hommes. » Le texte note qu'il y avait beaucoup d'herbe dans ce lieu.",
+      "en": "“So the men sat down, in number about five thousand.” The text notes there was much grass in the place."
+     },
+     "ref": "43:6:10"
+    },
+    {
+     "id": "jesus-bread-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de paniers remplit-on avec les morceaux qui restent ?",
+      "en": "How many baskets are filled with the leftover fragments?"
+     },
+     "choices": {
+      "fr": [
+       "Cinq",
+       "Sept",
+       "Deux",
+       "Douze"
+      ],
+      "en": [
+       "Five",
+       "Seven",
+       "Two",
+       "Twelve"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Jésus fait ramasser les morceaux « afin que rien ne se perde », et l'on remplit douze paniers avec ce qui reste des cinq pains d'orge.",
+      "en": "Jesus has the fragments gathered “that nothing be lost,” and they fill twelve baskets with what remains of the five barley loaves."
+     },
+     "ref": "43:6:13"
+    },
+    {
+     "id": "jesus-bread-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Après le miracle, Jésus laisse la foule le proclamer roi.",
+      "en": "After the miracle, Jesus lets the crowd proclaim him king."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Sachant qu'ils allaient venir l'enlever pour le faire roi, Jésus « se retira de nouveau sur la montagne, lui seul ».",
+      "en": "Knowing they would come and take him by force to make him a king, Jesus “departed again into a mountain himself alone.”"
+     },
+     "ref": "43:6:15"
+    }
+   ]
+  },
+  {
+   "id": "jesus-who",
+   "title": {
+    "fr": "« Qui dites-vous que je suis ? »",
+    "en": "“Whom say ye that I am?”"
+   },
+   "passages": [
+    "40:16:13-28"
+   ],
+   "intro": {
+    "fr": "Au nord de la Galilée, près de Césarée de Philippe, Jésus interroge ses disciples sur ce que l'on dit de lui. C'est un tournant de l'Évangile de Matthieu : Jésus annonce ensuite sa mort.",
+    "en": "North of Galilee, near Cesarea Philippi, Jesus asks his disciples what people say about him. It is a turning point in Matthew's Gospel: Jesus then announces his death."
+   },
+   "keyVerse": "40:16:16",
+   "takeaway": {
+    "fr": "Selon Pierre, Jésus est « le Christ, le Fils du Dieu vivant ». Jésus annonce alors qu'il doit souffrir, être mis à mort et ressusciter, et invite à le suivre en se chargeant de sa croix.",
+    "en": "According to Peter, Jesus is “the Christ, the Son of the living God.” Jesus then announces that he must suffer, be killed and be raised, and calls people to follow him by taking up their cross."
+   },
+   "questions": [
+    {
+     "id": "jesus-who-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans quelle région se trouve Jésus quand il pose sa question ?",
+      "en": "In what region is Jesus when he asks his question?"
+     },
+     "choices": {
+      "fr": [
+       "La Décapole",
+       "Jérusalem",
+       "Bethléhem",
+       "Le territoire de Césarée de Philippe"
+      ],
+      "en": [
+       "Decapolis",
+       "Jerusalem",
+       "Bethlehem",
+       "The coasts of Cesarea Philippi"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Jésus arrive « dans le territoire de Césarée de Philippe », une ville au pied du mont Hermon, au nord de la Galilée.",
+      "en": "Jesus comes “into the coasts of Cesarea Philippi,” a town at the foot of Mount Hermon, north of Galilee."
+     },
+     "ref": "40:16:13"
+    },
+    {
+     "id": "jesus-who-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon les disciples, que disent les gens au sujet de Jésus ?",
+      "en": "According to the disciples, what do people say about Jesus?"
+     },
+     "choices": {
+      "fr": [
+       "Qu'il est Jean-Baptiste, Elie, Jérémie ou l'un des prophètes",
+       "Qu'il est un simple charpentier",
+       "Qu'il est Moïse revenu",
+       "Qu'il est un ange venu du ciel"
+      ],
+      "en": [
+       "That he is John the Baptist, Elias, Jeremias, or one of the prophets",
+       "That he is just a carpenter",
+       "That he is Moses come back",
+       "That he is an angel from heaven"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Les uns disent que tu es Jean-Baptiste; les autres, Elie; les autres, Jérémie, ou l'un des prophètes. » Tous ces noms sont ceux de prophètes.",
+      "en": "“Some say that thou art John the Baptist: some, Elias; and others, Jeremias, or one of the prophets.” All these names are prophets."
+     },
+     "ref": "40:16:14"
+    },
+    {
+     "id": "jesus-who-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond Simon Pierre quand Jésus demande : « Et vous, qui dites-vous que je suis ? »",
+      "en": "What does Simon Peter answer when Jesus asks, “But whom say ye that I am?”"
+     },
+     "choices": {
+      "fr": [
+       "« Tu es le plus grand des prophètes »",
+       "« Tu es le Christ, le Fils du Dieu vivant »",
+       "« Tu es le fils de David »",
+       "« Tu es le roi d'Israël »"
+      ],
+      "en": [
+       "“Thou art the greatest of the prophets”",
+       "“Thou art the Christ, the Son of the living God”",
+       "“Thou art the son of David”",
+       "“Thou art the King of Israel”"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Pierre répond : « Tu es le Christ, le Fils du Dieu vivant. » « Christ » traduit le mot grec pour « oint », équivalent de l'hébreu « Messie ».",
+      "en": "Peter answers, “Thou art the Christ, the Son of the living God.” “Christ” is the Greek word for “anointed,” the equivalent of the Hebrew “Messiah.”"
+     },
+     "ref": "40:16:16"
+    },
+    {
+     "id": "jesus-who-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce que Jésus commence alors à faire connaître à ses disciples ?",
+      "en": "What does Jesus then begin to show his disciples?"
+     },
+     "choices": {
+      "fr": [
+       "Qu'il va devenir roi à Jérusalem",
+       "Qu'il va retourner à Nazareth",
+       "Qu'il doit souffrir, être mis à mort et ressusciter le troisième jour",
+       "Qu'ils vont tous devenir prophètes"
+      ],
+      "en": [
+       "That he is going to become king in Jerusalem",
+       "That he is going back to Nazareth",
+       "That he must suffer, be killed and be raised again the third day",
+       "That they will all become prophets"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Il annonce qu'il doit aller à Jérusalem, souffrir beaucoup de la part des anciens, des principaux sacrificateurs et des scribes, être mis à mort, et ressusciter le troisième jour.",
+      "en": "He shows that he must go to Jerusalem, suffer many things of the elders, chief priests and scribes, be killed, and be raised again the third day."
+     },
+     "ref": "40:16:21"
+    },
+    {
+     "id": "jesus-who-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Pierre accepte cette annonce sans protester.",
+      "en": "Peter accepts this announcement without protest."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Pierre prend Jésus à part et le reprend : « A Dieu ne plaise, Seigneur! Cela ne t'arrivera pas. » Jésus lui répond durement au verset suivant.",
+      "en": "Peter takes Jesus aside and rebukes him: “Be it far from thee, Lord: this shall not be unto thee.” Jesus answers him sharply in the next verse."
+     },
+     "ref": "40:16:22"
+    },
+    {
+     "id": "jesus-who-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Jésus, que doit faire celui qui veut venir après lui ?",
+      "en": "According to Jesus, what must anyone who wants to come after him do?"
+     },
+     "choices": {
+      "fr": [
+       "Vendre tous ses biens",
+       "Quitter sa ville natale",
+       "Faire des miracles en son nom",
+       "Renoncer à lui-même, se charger de sa croix et le suivre"
+      ],
+      "en": [
+       "Sell all his goods",
+       "Leave his home town",
+       "Do miracles in his name",
+       "Deny himself, take up his cross and follow him"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Si quelqu'un veut venir après moi, qu'il renonce à lui-même, qu'il se charge de sa croix, et qu'il me suive. » Il ajoute que celui qui perdra sa vie à cause de lui la trouvera.",
+      "en": "“If any man will come after me, let him deny himself, and take up his cross, and follow me.” He adds that whoever loses his life for his sake shall find it."
+     },
+     "ref": "40:16:24"
+    }
+   ]
+  },
+  {
+   "id": "jesus-shepherd",
+   "title": {
+    "fr": "Le bon berger",
+    "en": "The good shepherd"
+   },
+   "passages": [
+    "43:10:1-18"
+   ],
+   "intro": {
+    "fr": "Dans l'Évangile de Jean, Jésus est à Jérusalem et parle à des pharisiens. Il utilise une image familière en Israël : le berger, la bergerie et les brebis.",
+    "en": "In John's Gospel, Jesus is in Jerusalem, speaking to Pharisees. He uses an image familiar in Israel: the shepherd, the sheepfold and the sheep."
+   },
+   "keyVerse": "43:10:11",
+   "takeaway": {
+    "fr": "Jésus se présente comme la porte des brebis et comme le bon berger qui connaît ses brebis et donne sa vie pour elles, à la différence du mercenaire qui s'enfuit.",
+    "en": "Jesus presents himself as the door of the sheep and as the good shepherd who knows his sheep and gives his life for them, unlike the hireling who runs away."
+   },
+   "questions": [
+    {
+     "id": "jesus-shepherd-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi les brebis suivent-elles leur berger ?",
+      "en": "Why do the sheep follow their shepherd?"
+     },
+     "choices": {
+      "fr": [
+       "Parce qu'il les nourrit",
+       "Parce qu'elles connaissent sa voix",
+       "Parce qu'il porte un bâton",
+       "Parce que le portier les pousse"
+      ],
+      "en": [
+       "Because he feeds them",
+       "Because they know his voice",
+       "Because he carries a staff",
+       "Because the porter drives them"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le berger marche devant elles, « et les brebis le suivent, parce qu'elles connaissent sa voix ». Elles fuient au contraire la voix d'un étranger.",
+      "en": "The shepherd goes before them, “and the sheep follow him: for they know his voice.” They flee from the voice of a stranger."
+     },
+     "ref": "43:10:4"
+    },
+    {
+     "id": "jesus-shepherd-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Les auditeurs de Jésus comprennent aussitôt cette parabole.",
+      "en": "Jesus' hearers understand this parable at once."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Jésus leur dit cette parabole, mais ils ne comprirent pas de quoi il leur parlait. » Jésus reprend alors son explication.",
+      "en": "“This parable spake Jesus unto them: but they understood not what things they were which he spake unto them.” So Jesus explains further."
+     },
+     "ref": "43:10:6"
+    },
+    {
+     "id": "jesus-shepherd-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Avant de se dire berger, à quoi Jésus se compare-t-il ?",
+      "en": "Before calling himself the shepherd, what does Jesus compare himself to?"
+     },
+     "choices": {
+      "fr": [
+       "Au portier",
+       "Au pâturage",
+       "À la bergerie",
+       "À la porte des brebis"
+      ],
+      "en": [
+       "The porter",
+       "The pasture",
+       "The sheepfold",
+       "The door of the sheep"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Je suis la porte des brebis. » Il ajoute : « Si quelqu'un entre par moi, il sera sauvé; il entrera et il sortira, et il trouvera des pâturages. »",
+      "en": "“I am the door of the sheep.” He adds, “by me if any man enter in, he shall be saved, and shall go in and out, and find pasture.”"
+     },
+     "ref": "43:10:7"
+    },
+    {
+     "id": "jesus-shepherd-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 10, pourquoi Jésus est-il venu ?",
+      "en": "According to verse 10, why has Jesus come?"
+     },
+     "choices": {
+      "fr": [
+       "Pour juger les voleurs",
+       "Afin que les brebis aient la vie, et en abondance",
+       "Pour construire une nouvelle bergerie",
+       "Pour chasser les loups du pays"
+      ],
+      "en": [
+       "To judge the thieves",
+       "That the sheep might have life, and have it more abundantly",
+       "To build a new sheepfold",
+       "To drive the wolves out of the land"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le voleur vient pour dérober, égorger et détruire ; Jésus dit : « moi, je suis venu afin que les brebis aient la vie, et qu'elles soient dans l'abondance ».",
+      "en": "The thief comes to steal, kill and destroy; Jesus says, “I am come that they might have life, and that they might have it more abundantly.”"
+     },
+     "ref": "43:10:10"
+    },
+    {
+     "id": "jesus-shepherd-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait le bon berger pour ses brebis ?",
+      "en": "What does the good shepherd do for the sheep?"
+     },
+     "choices": {
+      "fr": [
+       "Il donne sa vie pour elles",
+       "Il les compte chaque soir",
+       "Il les vend au marché",
+       "Il les confie à un mercenaire"
+      ],
+      "en": [
+       "He gives his life for them",
+       "He counts them every evening",
+       "He sells them at market",
+       "He leaves them with a hireling"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Je suis le bon berger. Le bon berger donne sa vie pour ses brebis. » Jésus le répète aux versets 15, 17 et 18.",
+      "en": "“I am the good shepherd: the good shepherd giveth his life for the sheep.” Jesus repeats this in verses 15, 17 and 18."
+     },
+     "ref": "43:10:11"
+    },
+    {
+     "id": "jesus-shepherd-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait le mercenaire quand il voit venir le loup ?",
+      "en": "What does the hireling do when he sees the wolf coming?"
+     },
+     "choices": {
+      "fr": [
+       "Il appelle le berger",
+       "Il fait rentrer les brebis",
+       "Il abandonne les brebis et prend la fuite",
+       "Il combat le loup"
+      ],
+      "en": [
+       "He calls the shepherd",
+       "He brings the sheep inside",
+       "He leaves the sheep and runs away",
+       "He fights the wolf"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le mercenaire, à qui les brebis n'appartiennent pas, « abandonne les brebis, et prend la fuite », car il ne se met point en peine des brebis.",
+      "en": "The hireling, whose own the sheep are not, “leaveth the sheep, and fleeth,” because he cares not for the sheep."
+     },
+     "ref": "43:10:12"
+    }
+   ]
+  },
+  {
+   "id": "jesus-lazarus",
+   "title": {
+    "fr": "Lazare",
+    "en": "Lazarus"
+   },
+   "passages": [
+    "43:11:17-44"
+   ],
+   "intro": {
+    "fr": "Lazare, l'ami de Jésus, est mort à Béthanie, un village proche de Jérusalem. Jésus arrive auprès de ses soeurs, Marthe et Marie, entourées de nombreux Juifs venus les consoler.",
+    "en": "Lazarus, Jesus' friend, has died in Bethany, a village near Jerusalem. Jesus comes to his sisters, Martha and Mary, surrounded by many Jews who have come to comfort them."
+   },
+   "keyVerse": "43:11:25",
+   "takeaway": {
+    "fr": "Jésus dit à Marthe : « Je suis la résurrection et la vie. » Ému, il pleure, puis il appelle Lazare, qui sort du tombeau après quatre jours.",
+    "en": "Jesus tells Martha, “I am the resurrection, and the life.” Moved, he weeps, then calls Lazarus, who comes out of the tomb after four days."
+   },
+   "questions": [
+    {
+     "id": "jesus-lazarus-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Depuis combien de jours Lazare est-il dans le sépulcre quand Jésus arrive ?",
+      "en": "How many days has Lazarus been in the grave when Jesus arrives?"
+     },
+     "choices": {
+      "fr": [
+       "Un jour",
+       "Trois jours",
+       "Quatre jours",
+       "Sept jours"
+      ],
+      "en": [
+       "One day",
+       "Three days",
+       "Four days",
+       "Seven days"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Jésus trouve que Lazare est « déjà depuis quatre jours dans le sépulcre ». Marthe le rappelle au verset 39 : il sent déjà.",
+      "en": "Jesus finds that he had “lain in the grave four days already.” Martha mentions it again in verse 39: by now he stinks."
+     },
+     "ref": "43:11:17"
+    },
+    {
+     "id": "jesus-lazarus-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelles sont les premières paroles de Marthe à Jésus ?",
+      "en": "What are Martha's first words to Jesus?"
+     },
+     "choices": {
+      "fr": [
+       "« Seigneur, si tu eusses été ici, mon frère ne serait pas mort »",
+       "« Seigneur, pourquoi as-tu tant tardé ? »",
+       "« Seigneur, il est trop tard »",
+       "« Seigneur, ressuscite mon frère »"
+      ],
+      "en": [
+       "“Lord, if thou hadst been here, my brother had not died”",
+       "“Lord, why didst thou tarry so long?”",
+       "“Lord, it is too late”",
+       "“Lord, raise up my brother”"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Marthe dit : « Seigneur, si tu eusses été ici, mon frère ne serait pas mort. » Marie prononce exactement les mêmes mots au verset 32.",
+      "en": "Martha says, “Lord, if thou hadst been here, my brother had not died.” Mary says exactly the same words in verse 32."
+     },
+     "ref": "43:11:21"
+    },
+    {
+     "id": "jesus-lazarus-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que déclare Jésus à Marthe au sujet de lui-même ?",
+      "en": "What does Jesus declare to Martha about himself?"
+     },
+     "choices": {
+      "fr": [
+       "« Je suis le pain de vie »",
+       "« Je suis la lumière du monde »",
+       "« Je suis le bon berger »",
+       "« Je suis la résurrection et la vie »"
+      ],
+      "en": [
+       "“I am the bread of life”",
+       "“I am the light of the world”",
+       "“I am the good shepherd”",
+       "“I am the resurrection, and the life”"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Je suis la résurrection et la vie. Celui qui croit en moi vivra, quand même il serait mort. » Marthe répond qu'elle croit qu'il est le Christ, le Fils de Dieu.",
+      "en": "“I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live.” Martha answers that she believes he is the Christ, the Son of God."
+     },
+     "ref": "43:11:25"
+    },
+    {
+     "id": "jesus-lazarus-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Devant les larmes de Marie et des Juifs, Jésus pleure.",
+      "en": "Seeing Mary and the Jews weeping, Jesus weeps."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Jésus pleura. » C'est l'un des versets les plus courts de la Bible. Les Juifs disent alors : « Voyez comme il l'aimait. »",
+      "en": "“Jesus wept.” It is one of the shortest verses in the Bible. The Jews then say, “Behold how he loved him!”"
+     },
+     "ref": "43:11:35"
+    },
+    {
+     "id": "jesus-lazarus-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Marthe hésite-t-elle quand Jésus demande d'ôter la pierre ?",
+      "en": "Why does Martha hesitate when Jesus asks for the stone to be taken away?"
+     },
+     "choices": {
+      "fr": [
+       "La pierre est trop lourde",
+       "Lazare est mort depuis quatre jours et il sent déjà",
+       "La loi interdit d'ouvrir un tombeau",
+       "Elle a peur des Juifs présents"
+      ],
+      "en": [
+       "The stone is too heavy",
+       "Lazarus has been dead four days and already stinks",
+       "The law forbids opening a tomb",
+       "She is afraid of the Jews standing by"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Marthe dit : « Seigneur, il sent déjà, car il y a quatre jours qu'il est là. » Jésus lui rappelle que si elle croit, elle verra la gloire de Dieu.",
+      "en": "Martha says, “Lord, by this time he stinketh: for he hath been dead four days.” Jesus reminds her that if she believes, she will see the glory of God."
+     },
+     "ref": "43:11:39"
+    },
+    {
+     "id": "jesus-lazarus-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans quel état Lazare sort-il du tombeau ?",
+      "en": "In what state does Lazarus come out of the tomb?"
+     },
+     "choices": {
+      "fr": [
+       "Vêtu de blanc et souriant",
+       "Porté par ses soeurs",
+       "Les pieds et les mains liés de bandes, le visage enveloppé d'un linge",
+       "Seul, après que la foule est partie"
+      ],
+      "en": [
+       "Dressed in white and smiling",
+       "Carried by his sisters",
+       "Bound hand and foot with graveclothes, his face wrapped in a napkin",
+       "Alone, after the crowd had left"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le mort sort « les pieds et les mains liés de bandes, et le visage enveloppé d'un linge ». Jésus dit : « Déliez-le, et laissez-le aller. »",
+      "en": "The dead man comes forth “bound hand and foot with graveclothes: and his face was bound about with a napkin.” Jesus says, “Loose him, and let him go.”"
+     },
+     "ref": "43:11:44"
+    }
+   ]
+  },
+  {
+   "id": "jesus-supper",
+   "title": {
+    "fr": "Le dernier repas",
+    "en": "The last supper"
+   },
+   "passages": [
+    "41:14:12-31"
+   ],
+   "intro": {
+    "fr": "Jésus est à Jérusalem pour la fête de la Pâque, quelques jours avant sa mort. Dans l'Évangile de Marc, il prend un dernier repas avec les douze.",
+    "en": "Jesus is in Jerusalem for the feast of Passover, a few days before his death. In Mark's Gospel, he shares a last meal with the twelve."
+   },
+   "keyVerse": "41:14:22",
+   "takeaway": {
+    "fr": "Pendant le repas de la Pâque, Jésus annonce que l'un des douze le livrera, partage le pain et la coupe, puis prédit que Pierre le reniera trois fois.",
+    "en": "During the Passover meal, Jesus announces that one of the twelve will betray him, shares the bread and the cup, then foretells that Peter will deny him three times."
+   },
+   "questions": [
+    {
+     "id": "jesus-supper-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel jour les disciples demandent-ils où préparer le repas ?",
+      "en": "On what day do the disciples ask where to prepare the meal?"
+     },
+     "choices": {
+      "fr": [
+       "Le jour du sabbat",
+       "Le premier jour des pains sans levain, où l'on immolait la Pâque",
+       "Le jour de la Pentecôte",
+       "Le dernier jour de la fête des Tabernacles"
+      ],
+      "en": [
+       "On the sabbath day",
+       "The first day of unleavened bread, when they killed the passover",
+       "On the day of Pentecost",
+       "The last day of the feast of Tabernacles"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "C'est « le premier jour des pains sans levain, où l'on immolait la Pâque ». Ce jour-là, on sacrifiait l'agneau pascal au temple.",
+      "en": "It is “the first day of unleavened bread, when they killed the passover.” On that day, the Passover lamb was sacrificed at the temple."
+     },
+     "ref": "41:14:12"
+    },
+    {
+     "id": "jesus-supper-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel signe Jésus donne-t-il aux deux disciples envoyés en ville ?",
+      "en": "What sign does Jesus give the two disciples sent into the city?"
+     },
+     "choices": {
+      "fr": [
+       "Une porte marquée de sang",
+       "Un homme portant une cruche d'eau",
+       "Un ânon attaché",
+       "Une lampe allumée à une fenêtre"
+      ],
+      "en": [
+       "A door marked with blood",
+       "A man bearing a pitcher of water",
+       "A colt tied up",
+       "A lamp lit in a window"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Vous rencontrerez un homme portant une cruche d'eau, suivez-le. » Il les mène à une grande chambre haute, meublée et toute prête.",
+      "en": "“There shall meet you a man bearing a pitcher of water: follow him.” He leads them to a large upper room, furnished and prepared."
+     },
+     "ref": "41:14:13"
+    },
+    {
+     "id": "jesus-supper-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que déclare Jésus pendant qu'ils sont à table ?",
+      "en": "What does Jesus declare as they sit at the table?"
+     },
+     "choices": {
+      "fr": [
+       "Que ce repas est le premier d'une longue série",
+       "Qu'il partira seul pour la Galilée",
+       "Que Pierre sera le premier des douze",
+       "Que l'un d'eux, qui mange avec lui, le livrera"
+      ],
+      "en": [
+       "That this meal is the first of many",
+       "That he will leave alone for Galilee",
+       "That Peter will be first among the twelve",
+       "That one of them, who eats with him, will betray him"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Je vous le dis en vérité, l'un de vous, qui mange avec moi, me livrera. » Il précise ensuite que c'est l'un des douze, qui met la main avec lui dans le plat.",
+      "en": "“Verily I say unto you, One of you which eateth with me shall betray me.” He then says it is one of the twelve, who dips with him in the dish."
+     },
+     "ref": "41:14:18"
+    },
+    {
+     "id": "jesus-supper-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment réagissent les disciples à cette annonce ?",
+      "en": "How do the disciples react to this announcement?"
+     },
+     "choices": {
+      "fr": [
+       "Ils s'attristent et demandent l'un après l'autre : « Est-ce moi? »",
+       "Ils accusent aussitôt Judas",
+       "Ils quittent la table en silence",
+       "Ils se mettent à rire, incrédules"
+      ],
+      "en": [
+       "They grow sorrowful and ask one by one, “Is it I?”",
+       "They accuse Judas at once",
+       "They leave the table in silence",
+       "They laugh in disbelief"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Ils commencèrent à s'attrister, et à lui dire, l'un après l'autre: Est-ce moi? » Dans Marc, Jésus ne nomme pas le traître pendant le repas.",
+      "en": "“They began to be sorrowful, and to say unto him one by one, Is it I?” In Mark, Jesus does not name the betrayer during the meal."
+     },
+     "ref": "41:14:19"
+    },
+    {
+     "id": "jesus-supper-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Après avoir chanté, Jésus et les disciples se rendent à la montagne des oliviers.",
+      "en": "After singing, Jesus and the disciples go out to the mount of Olives."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Après avoir chanté les cantiques, ils se rendirent à la montagne des oliviers. » Le repas de la Pâque se terminait par le chant de psaumes.",
+      "en": "“When they had sung an hymn, they went out into the mount of Olives.” The Passover meal traditionally ended with the singing of psalms."
+     },
+     "ref": "41:14:26"
+    },
+    {
+     "id": "jesus-supper-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'annonce Jésus à Pierre, qui affirme ne jamais être scandalisé ?",
+      "en": "What does Jesus tell Peter, who insists he will never be offended?"
+     },
+     "choices": {
+      "fr": [
+       "Qu'il mourra avec lui cette nuit",
+       "Qu'il s'endormira trois fois",
+       "Qu'avant que le coq chante deux fois, il le reniera trois fois",
+       "Qu'il le livrera aux principaux sacrificateurs"
+      ],
+      "en": [
+       "That he will die with him that night",
+       "That he will fall asleep three times",
+       "That before the cock crows twice, he will deny him thrice",
+       "That he will hand him over to the chief priests"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Avant que le coq chante deux fois, tu me renieras trois fois. » Pierre proteste plus fortement encore, et tous disent la même chose.",
+      "en": "“Before the cock crow twice, thou shalt deny me thrice.” Peter protests even more strongly, and they all say the same."
+     },
+     "ref": "41:14:30"
+    }
+   ]
+  },
+  {
+   "id": "jesus-gethsemane",
+   "title": {
+    "fr": "Gethsémané",
+    "en": "Gethsemane"
+   },
+   "passages": [
+    "41:14:32-52"
+   ],
+   "intro": {
+    "fr": "Après le dernier repas, Jésus et ses disciples se rendent de nuit à Gethsémané, sur la montagne des oliviers, en face de Jérusalem.",
+    "en": "After the last supper, Jesus and his disciples go by night to Gethsemane, on the mount of Olives, facing Jerusalem."
+   },
+   "keyVerse": "41:14:36",
+   "takeaway": {
+    "fr": "Dans l'angoisse, Jésus prie que la coupe s'éloigne de lui, tout en s'en remettant à la volonté du Père. Ses disciples s'endorment ; Judas arrive, Jésus est arrêté et tous l'abandonnent.",
+    "en": "In anguish, Jesus prays for the cup to be taken from him, while yielding to the Father's will. His disciples fall asleep; Judas arrives, Jesus is arrested and they all forsake him."
+   },
+   "questions": [
+    {
+     "id": "jesus-gethsemane-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quels disciples Jésus prend-il avec lui un peu plus loin ?",
+      "en": "Which disciples does Jesus take with him further on?"
+     },
+     "choices": {
+      "fr": [
+       "Pierre, Jacques et Jean",
+       "André, Philippe et Thomas",
+       "Pierre et André",
+       "Judas, Jacques et Matthieu"
+      ],
+      "en": [
+       "Peter, James and John",
+       "Andrew, Philip and Thomas",
+       "Peter and Andrew",
+       "Judas, James and Matthew"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Il prit avec lui Pierre, Jacques et Jean, et il commença à éprouver de la frayeur et des angoisses. » Il leur dit : « Mon âme est triste jusqu'à la mort. »",
+      "en": "“He taketh with him Peter and James and John, and began to be sore amazed, and to be very heavy.” He tells them, “My soul is exceeding sorrowful unto death.”"
+     },
+     "ref": "41:14:33"
+    },
+    {
+     "id": "jesus-gethsemane-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment se termine la prière de Jésus ?",
+      "en": "How does Jesus' prayer end?"
+     },
+     "choices": {
+      "fr": [
+       "« Que ma volonté soit faite »",
+       "« Envoie tes anges pour me défendre »",
+       "« Pardonne-leur »",
+       "« Toutefois, non pas ce que je veux, mais ce que tu veux »"
+      ],
+      "en": [
+       "“Let my will be done”",
+       "“Send thine angels to defend me”",
+       "“Forgive them”",
+       "“Nevertheless not what I will, but what thou wilt”"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Jésus dit : « Abba, Père, toutes choses te sont possibles, éloigne de moi cette coupe! Toutefois, non pas ce que je veux, mais ce que tu veux. » « Abba » est le mot araméen pour « père ».",
+      "en": "Jesus says, “Abba, Father, all things are possible unto thee; take away this cup from me: nevertheless not what I will, but what thou wilt.” “Abba” is the Aramaic word for “father.”"
+     },
+     "ref": "41:14:36"
+    },
+    {
+     "id": "jesus-gethsemane-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que trouve Jésus en revenant vers les disciples ?",
+      "en": "What does Jesus find when he comes back to the disciples?"
+     },
+     "choices": {
+      "fr": [
+       "Ils sont partis chercher de l'aide",
+       "Ils prient à genoux",
+       "Ils sont endormis",
+       "Ils discutent entre eux"
+      ],
+      "en": [
+       "They have gone for help",
+       "They are praying on their knees",
+       "They are sleeping",
+       "They are arguing among themselves"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Il les trouve endormis et dit à Pierre : « Simon, tu dors! Tu n'as pu veiller une heure! » Cela se produit trois fois.",
+      "en": "He finds them sleeping and says to Peter, “Simon, sleepest thou? couldest not thou watch one hour?” This happens three times."
+     },
+     "ref": "41:14:37"
+    },
+    {
+     "id": "jesus-gethsemane-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel signe Judas avait-il convenu avec ceux qui venaient arrêter Jésus ?",
+      "en": "What signal had Judas agreed on with those who came to arrest Jesus?"
+     },
+     "choices": {
+      "fr": [
+       "Lever une torche",
+       "Un baiser",
+       "L'appeler par son nom",
+       "Se placer à sa droite"
+      ],
+      "en": [
+       "Raising a torch",
+       "A kiss",
+       "Calling him by name",
+       "Standing at his right"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Judas avait dit : « Celui que je baiserai, c'est lui; saisissez-le. » Arrivé, il s'approche de Jésus et le baise.",
+      "en": "Judas had said, “Whomsoever I shall kiss, that same is he; take him.” When he arrives, he goes to Jesus and kisses him."
+     },
+     "ref": "41:14:44"
+    },
+    {
+     "id": "jesus-gethsemane-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait l'un de ceux qui étaient là au moment de l'arrestation ?",
+      "en": "What does one of those standing by do at the arrest?"
+     },
+     "choices": {
+      "fr": [
+       "Il tire l'épée et coupe l'oreille du serviteur du souverain sacrificateur",
+       "Il court prévenir les autres disciples",
+       "Il supplie les soldats de relâcher Jésus",
+       "Il se livre à la place de Jésus"
+      ],
+      "en": [
+       "He draws a sword and cuts off the ear of a servant of the high priest",
+       "He runs to warn the other disciples",
+       "He begs the soldiers to release Jesus",
+       "He gives himself up in Jesus' place"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Un de ceux qui étaient là, tirant l'épée, frappa le serviteur du souverain sacrificateur, et lui emporta l'oreille. » Marc ne donne pas le nom de cet homme.",
+      "en": "“One of them that stood by drew a sword, and smote a servant of the high priest, and cut off his ear.” Mark does not name this man."
+     },
+     "ref": "41:14:47"
+    },
+    {
+     "id": "jesus-gethsemane-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Au moment de l'arrestation, les disciples restent tous auprès de Jésus.",
+      "en": "At the arrest, all the disciples stay with Jesus."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Alors tous l'abandonnèrent, et prirent la fuite. » Jésus l'avait annoncé en se rendant à la montagne des oliviers, après le repas (Marc 14:27).",
+      "en": "“And they all forsook him, and fled.” Jesus had foretold this on the way to the mount of Olives, after the meal (Mark 14:27)."
+     },
+     "ref": "41:14:50"
+    }
+   ]
+  },
+  {
+   "id": "jesus-cross",
+   "title": {
+    "fr": "La crucifixion",
+    "en": "The crucifixion"
+   },
+   "passages": [
+    "43:19:16-42"
+   ],
+   "intro": {
+    "fr": "Après son procès devant le gouverneur romain Pilate, Jésus est livré pour être crucifié. L'Évangile de Jean raconte sa mort et sa mise au tombeau, la veille du sabbat.",
+    "en": "After his trial before the Roman governor Pilate, Jesus is handed over to be crucified. John's Gospel tells of his death and burial, on the eve of the sabbath."
+   },
+   "keyVerse": "43:19:30",
+   "takeaway": {
+    "fr": "Jésus est crucifié au Golgotha sous l'inscription « roi des Juifs ». Il confie sa mère au disciple qu'il aimait, dit « Tout est accompli » et meurt ; Joseph d'Arimathée et Nicodème le déposent dans un sépulcre neuf.",
+    "en": "Jesus is crucified at Golgotha under the title “King of the Jews.” He entrusts his mother to the disciple he loved, says “It is finished” and dies; Joseph of Arimathea and Nicodemus lay him in a new sepulchre."
+   },
+   "questions": [
+    {
+     "id": "jesus-cross-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment s'appelle en hébreu le lieu où Jésus est crucifié ?",
+      "en": "What is the Hebrew name of the place where Jesus is crucified?"
+     },
+     "choices": {
+      "fr": [
+       "Gethsémané",
+       "Béthanie",
+       "Golgotha",
+       "Sion"
+      ],
+      "en": [
+       "Gethsemane",
+       "Bethany",
+       "Golgotha",
+       "Zion"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Jésus, portant sa croix, arrive « au lieu du crâne, qui se nomme en hébreu Golgotha ». Le verset 20 précise que ce lieu était près de la ville.",
+      "en": "Bearing his cross, Jesus goes to “a place called the place of a skull, which is called in the Hebrew Golgotha.” Verse 20 says it was near the city."
+     },
+     "ref": "43:19:17"
+    },
+    {
+     "id": "jesus-cross-2",
+     "kind": "choice",
+     "q": {
+      "fr": "En quelles langues l'inscription placée sur la croix est-elle écrite ?",
+      "en": "In which languages is the title on the cross written?"
+     },
+     "choices": {
+      "fr": [
+       "En hébreu, en grec et en latin",
+       "En hébreu seulement",
+       "En araméen et en grec",
+       "En latin et en égyptien"
+      ],
+      "en": [
+       "In Hebrew, Greek and Latin",
+       "In Hebrew only",
+       "In Aramaic and Greek",
+       "In Latin and Egyptian"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "L'inscription de Pilate, « Jésus de Nazareth, roi des Juifs », était « en hébreu, en grec et en latin », et beaucoup de Juifs la lurent.",
+      "en": "Pilate's title, “JESUS OF NAZARETH THE KING OF THE JEWS,” was “written in Hebrew, and Greek, and Latin,” and many of the Jews read it."
+     },
+     "ref": "43:19:20"
+    },
+    {
+     "id": "jesus-cross-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que font les soldats de la tunique sans couture de Jésus ?",
+      "en": "What do the soldiers do with Jesus' seamless coat?"
+     },
+     "choices": {
+      "fr": [
+       "Ils la déchirent en quatre parts",
+       "Ils la rendent à sa mère",
+       "Ils la brûlent",
+       "Ils la tirent au sort"
+      ],
+      "en": [
+       "They tear it into four parts",
+       "They give it back to his mother",
+       "They burn it",
+       "They cast lots for it"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Ils disent : « Ne la déchirons pas, mais tirons au sort à qui elle sera. » Jean y voit l'accomplissement d'une parole de l'Écriture (Psaume 22:18).",
+      "en": "They say, “Let us not rend it, but cast lots for it, whose it shall be.” John sees in this the fulfilment of a scripture (Psalm 22:18)."
+     },
+     "ref": "43:19:24"
+    },
+    {
+     "id": "jesus-cross-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Jésus au disciple qu'il aimait, debout près de sa mère ?",
+      "en": "What does Jesus say to the disciple he loved, standing near his mother?"
+     },
+     "choices": {
+      "fr": [
+       "« Va annoncer ces choses »",
+       "« Voilà ta mère »",
+       "« Souviens-toi de moi »",
+       "« Ne pleure pas »"
+      ],
+      "en": [
+       "“Go and tell these things”",
+       "“Behold thy mother!”",
+       "“Remember me”",
+       "“Weep not”"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Après avoir dit à sa mère « Femme, voilà ton fils », Jésus dit au disciple : « Voilà ta mère. » Dès ce moment, le disciple la prend chez lui.",
+      "en": "After saying to his mother, “Woman, behold thy son!”, Jesus says to the disciple, “Behold thy mother!” From that hour the disciple takes her to his own home."
+     },
+     "ref": "43:19:27"
+    },
+    {
+     "id": "jesus-cross-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle est la dernière parole de Jésus rapportée par Jean ?",
+      "en": "What are Jesus' last words as reported by John?"
+     },
+     "choices": {
+      "fr": [
+       "« J'ai soif »",
+       "« Père, je remets mon esprit entre tes mains »",
+       "« Tout est accompli »",
+       "« La paix soit avec vous »"
+      ],
+      "en": [
+       "“I thirst”",
+       "“Father, into thy hands I commend my spirit”",
+       "“It is finished”",
+       "“Peace be unto you”"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Après avoir pris le vinaigre, Jésus dit : « Tout est accompli. » Puis, baissant la tête, il rend l'esprit. « J'ai soif » vient juste avant (verset 28).",
+      "en": "After receiving the vinegar, Jesus says, “It is finished,” then bows his head and gives up the ghost. “I thirst” comes just before (verse 28)."
+     },
+     "ref": "43:19:30"
+    },
+    {
+     "id": "jesus-cross-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Jésus est déposé dans un sépulcre neuf, situé dans un jardin près du lieu de la crucifixion.",
+      "en": "Jesus is laid in a new sepulchre, in a garden near the place of crucifixion."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Il y avait là un jardin, « et dans le jardin un sépulcre neuf, où personne encore n'avait été mis ». Joseph d'Arimathée et Nicodème y déposent le corps.",
+      "en": "There was a garden there, “and in the garden a new sepulchre, wherein was never man yet laid.” Joseph of Arimathea and Nicodemus lay the body there."
+     },
+     "ref": "43:19:41"
+    }
+   ]
+  },
+  {
+   "id": "jesus-tomb",
+   "title": {
+    "fr": "Le tombeau vide",
+    "en": "The empty tomb"
+   },
+   "passages": [
+    "43:20:1-18"
+   ],
+   "intro": {
+    "fr": "Le sabbat est passé. Dans l'Évangile de Jean, Marie de Magdala, qui se tenait près de la croix, revient au sépulcre au petit matin.",
+    "en": "The sabbath is over. In John's Gospel, Mary Magdalene, who stood by the cross, returns to the sepulchre early in the morning."
+   },
+   "keyVerse": "43:20:16",
+   "takeaway": {
+    "fr": "Marie de Magdala trouve le tombeau ouvert ; Pierre et l'autre disciple y voient les bandes. Jésus apparaît à Marie, qui le reconnaît quand il l'appelle par son nom, et elle va l'annoncer aux disciples.",
+    "en": "Mary Magdalene finds the tomb open; Peter and the other disciple see the linen clothes inside. Jesus appears to Mary, who recognizes him when he calls her by name, and she goes to tell the disciples."
+   },
+   "questions": [
+    {
+     "id": "jesus-tomb-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quand Marie de Magdala se rend-elle au sépulcre ?",
+      "en": "When does Mary Magdalene go to the sepulchre?"
+     },
+     "choices": {
+      "fr": [
+       "Le soir du sabbat",
+       "Le premier jour de la semaine, au matin, quand il fait encore obscur",
+       "Trois jours après le sabbat, à midi",
+       "La nuit même de la crucifixion"
+      ],
+      "en": [
+       "On the evening of the sabbath",
+       "The first day of the week, early, while it is still dark",
+       "Three days after the sabbath, at noon",
+       "The very night of the crucifixion"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Le premier jour de la semaine, Marie de Magdala se rendit au sépulcre dès le matin, comme il faisait encore obscur. » Elle voit que la pierre est ôtée.",
+      "en": "“The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre.” She sees that the stone has been taken away."
+     },
+     "ref": "43:20:1"
+    },
+    {
+     "id": "jesus-tomb-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui arrive le premier au sépulcre ?",
+      "en": "Who reaches the sepulchre first?"
+     },
+     "choices": {
+      "fr": [
+       "Simon Pierre",
+       "Marie de Magdala, avec Pierre",
+       "Thomas",
+       "L'autre disciple, qui court plus vite que Pierre"
+      ],
+      "en": [
+       "Simon Peter",
+       "Mary Magdalene, with Peter",
+       "Thomas",
+       "The other disciple, who outruns Peter"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Les deux courent ensemble, « mais l'autre disciple courut plus vite que Pierre, et arriva le premier au sépulcre ». Il regarde, mais n'entre pas tout de suite.",
+      "en": "Both run together, “and the other disciple did outrun Peter, and came first to the sepulchre.” He looks in but does not go in at first."
+     },
+     "ref": "43:20:4"
+    },
+    {
+     "id": "jesus-tomb-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce que Pierre remarque en entrant dans le sépulcre ?",
+      "en": "What does Peter notice when he goes into the sepulchre?"
+     },
+     "choices": {
+      "fr": [
+       "Les bandes à terre et le linge de la tête plié à part",
+       "Deux anges assis",
+       "Le corps de Jésus enveloppé",
+       "Des soldats endormis"
+      ],
+      "en": [
+       "The linen clothes lying and the head napkin wrapped together apart",
+       "Two angels sitting",
+       "Jesus' body wrapped up",
+       "Soldiers asleep"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Il voit les bandes à terre, « et le linge qu'on avait mis sur la tête de Jésus, non pas avec les bandes, mais plié dans un lieu à part ».",
+      "en": "He sees the linen clothes lying, “and the napkin, that was about his head, not lying with the linen clothes, but wrapped together in a place by itself.”"
+     },
+     "ref": "43:20:7"
+    },
+    {
+     "id": "jesus-tomb-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quand Jésus lui parle, pour qui Marie le prend-elle d'abord ?",
+      "en": "When Jesus speaks to her, who does Mary first take him to be?"
+     },
+     "choices": {
+      "fr": [
+       "Un ange",
+       "Un soldat romain",
+       "Le jardinier",
+       "Un des disciples"
+      ],
+      "en": [
+       "An angel",
+       "A Roman soldier",
+       "The gardener",
+       "One of the disciples"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Elle, pensant que c'était le jardinier », lui demande où il a mis le corps. Le sépulcre se trouvait dans un jardin (19:41).",
+      "en": "“She, supposing him to be the gardener,” asks him where he has laid the body. The sepulchre was in a garden (19:41)."
+     },
+     "ref": "43:20:15"
+    },
+    {
+     "id": "jesus-tomb-5",
+     "kind": "choice",
+     "q": {
+      "fr": "À quel moment Marie reconnaît-elle Jésus ?",
+      "en": "At what moment does Mary recognize Jesus?"
+     },
+     "choices": {
+      "fr": [
+       "Quand il lui montre ses mains",
+       "Quand il l'appelle par son nom : « Marie! »",
+       "Quand il rompt le pain",
+       "Quand les anges le lui disent"
+      ],
+      "en": [
+       "When he shows her his hands",
+       "When he calls her by name: “Mary”",
+       "When he breaks bread",
+       "When the angels tell her"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Jésus lui dit : « Marie! » Elle se retourne et répond en hébreu : « Rabbouni! », c'est-à-dire « Maître! »",
+      "en": "Jesus says, “Mary.” She turns and answers, “Rabboni; which is to say, Master.”"
+     },
+     "ref": "43:20:16"
+    },
+    {
+     "id": "jesus-tomb-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Marie de Magdala va annoncer aux disciples qu'elle a vu le Seigneur.",
+      "en": "Mary Magdalene goes and tells the disciples that she has seen the Lord."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Marie de Magdala alla annoncer aux disciples qu'elle avait vu le Seigneur, et qu'il lui avait dit ces choses. » Jésus l'avait envoyée vers ses « frères ».",
+      "en": "“Mary Magdalene came and told the disciples that she had seen the Lord, and that he had spoken these things unto her.” Jesus had sent her to his “brethren.”"
+     },
+     "ref": "43:20:18"
+    }
+   ]
+  },
+  {
+   "id": "jesus-sending",
+   "title": {
+    "fr": "Thomas et l'envoi",
+    "en": "Thomas and the sending"
+   },
+   "passages": [
+    "43:20:19-31",
+    "40:28:16-20"
+   ],
+   "intro": {
+    "fr": "Deux finales d'Évangile. Dans Jean, Jésus apparaît aux disciples enfermés par crainte, puis à Thomas huit jours plus tard. Dans Matthieu, il retrouve les onze sur une montagne de Galilée.",
+    "en": "Two Gospel endings. In John, Jesus appears to the disciples behind shut doors, then to Thomas eight days later. In Matthew, he meets the eleven on a mountain in Galilee."
+   },
+   "keyVerse": "40:28:20",
+   "takeaway": {
+    "fr": "Jésus apparaît à ses disciples, et Thomas, qui doutait, s'écrie : « Mon Seigneur et mon Dieu! » Dans Matthieu, Jésus envoie les onze vers toutes les nations et promet d'être avec eux tous les jours.",
+    "en": "Jesus appears to his disciples, and Thomas, who had doubted, cries out, “My Lord and my God.” In Matthew, Jesus sends the eleven to all nations and promises to be with them always."
+   },
+   "questions": [
+    {
+     "id": "jesus-sending-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelles sont les premières paroles de Jésus aux disciples enfermés ?",
+      "en": "What are Jesus' first words to the disciples behind shut doors?"
+     },
+     "choices": {
+      "fr": [
+       "« Pourquoi avez-vous douté ? »",
+       "« Ne craignez pas »",
+       "« La paix soit avec vous! »",
+       "« Me voici »"
+      ],
+      "en": [
+       "“Wherefore did ye doubt?”",
+       "“Fear not”",
+       "“Peace be unto you”",
+       "“Here am I”"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Les portes étant fermées par crainte des Juifs, Jésus se présente au milieu d'eux et dit : « La paix soit avec vous! » Il le répète aux versets 21 et 26.",
+      "en": "With the doors shut for fear of the Jews, Jesus stands in their midst and says, “Peace be unto you.” He says it again in verses 21 and 26."
+     },
+     "ref": "43:20:19"
+    },
+    {
+     "id": "jesus-sending-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que réclame Thomas pour croire que les disciples ont vu le Seigneur ?",
+      "en": "What does Thomas demand before he will believe the disciples have seen the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Voir la marque des clous et mettre sa main dans son côté",
+       "Entendre Jésus l'appeler par son nom",
+       "Voir le tombeau vide de ses propres yeux",
+       "Manger avec Jésus"
+      ],
+      "en": [
+       "To see the print of the nails and thrust his hand into his side",
+       "To hear Jesus call him by name",
+       "To see the empty tomb with his own eyes",
+       "To eat with Jesus"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Thomas dit : « Si je ne vois dans ses mains la marque des clous, et si je ne mets mon doigt dans la marque des clous, et si je ne mets ma main dans son côté, je ne croirai point. »",
+      "en": "Thomas says, “Except I shall see in his hands the print of the nails, and put my finger into the print of the nails, and thrust my hand into his side, I will not believe.”"
+     },
+     "ref": "43:20:25"
+    },
+    {
+     "id": "jesus-sending-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond Thomas quand Jésus l'invite à avancer son doigt ?",
+      "en": "What does Thomas answer when Jesus invites him to reach out his finger?"
+     },
+     "choices": {
+      "fr": [
+       "« Pardonne-moi, Seigneur »",
+       "« Maintenant je vois »",
+       "« Tu es vraiment ressuscité »",
+       "« Mon Seigneur et mon Dieu! »"
+      ],
+      "en": [
+       "“Forgive me, Lord”",
+       "“Now I see”",
+       "“Thou art risen indeed”",
+       "“My Lord and my God”"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Thomas répond : « Mon Seigneur et mon Dieu! » Jésus dit ensuite : « Heureux ceux qui n'ont pas vu, et qui ont cru! »",
+      "en": "Thomas answers, “My Lord and my God.” Jesus then says, “Blessed are they that have not seen, and yet have believed.”"
+     },
+     "ref": "43:20:28"
+    },
+    {
+     "id": "jesus-sending-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Jean 20:31, pourquoi ces choses ont-elles été écrites ?",
+      "en": "According to John 20:31, why were these things written?"
+     },
+     "choices": {
+      "fr": [
+       "Pour conserver l'histoire d'Israël",
+       "Afin que vous croyiez que Jésus est le Christ, le Fils de Dieu, et ayez la vie en son nom",
+       "Pour répondre aux questions des pharisiens",
+       "Pour raconter tous les miracles de Jésus"
+      ],
+      "en": [
+       "To preserve the history of Israel",
+       "That ye might believe that Jesus is the Christ, the Son of God, and have life through his name",
+       "To answer the Pharisees' questions",
+       "To record all of Jesus' miracles"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "L'auteur explique son but : « afin que vous croyiez que Jésus est le Christ, le Fils de Dieu, et qu'en croyant vous ayez la vie en son nom ». Il précise juste avant que beaucoup d'autres miracles ne sont pas écrits.",
+      "en": "The author states his purpose: “that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.” Just before, he notes that many other signs are not written."
+     },
+     "ref": "43:20:31"
+    },
+    {
+     "id": "jesus-sending-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Matthieu, quand les onze voient Jésus en Galilée, aucun d'eux n'a de doute.",
+      "en": "According to Matthew, when the eleven see Jesus in Galilee, none of them doubts."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Quand ils le virent, ils se prosternèrent devant lui. Mais quelques-uns eurent des doutes. » Matthieu, comme Jean avec Thomas, mentionne le doute des disciples.",
+      "en": "“When they saw him, they worshipped him: but some doubted.” Like John with Thomas, Matthew mentions the disciples' doubt."
+     },
+     "ref": "40:28:17"
+    },
+    {
+     "id": "jesus-sending-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle promesse termine l'Évangile de Matthieu ?",
+      "en": "What promise ends the Gospel of Matthew?"
+     },
+     "choices": {
+      "fr": [
+       "« Je reviendrai bientôt »",
+       "« Je vous enverrai un consolateur »",
+       "« Je suis avec vous tous les jours, jusqu'à la fin du monde »",
+       "« Vous ferez de plus grandes oeuvres »"
+      ],
+      "en": [
+       "“I will come again soon”",
+       "“I will send you a comforter”",
+       "“I am with you alway, even unto the end of the world”",
+       "“Ye shall do greater works”"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Après avoir envoyé les disciples vers toutes les nations, Jésus dit : « Et voici, je suis avec vous tous les jours, jusqu'à la fin du monde. »",
+      "en": "After sending the disciples to all nations, Jesus says, “And, lo, I am with you alway, even unto the end of the world.”"
+     },
+     "ref": "40:28:20"
+    }
+   ]
+  }
+ ]
+}

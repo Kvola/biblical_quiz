@@ -18,9 +18,14 @@ mkdir -p dist
 cp "$out/app-arm64-v8a-release.apk" "dist/QuizBiblique-$version.apk"
 cp "$out/app-armeabi-v7a-release.apk" "dist/QuizBiblique-$version-ancien.apk"
 
+# Empreintes SHA-256 : permettent de vérifier qu'un APK reçu (WhatsApp, Drive…)
+# est bien celui-ci (`shasum -a 256 -c QuizBiblique-<version>.sha256` dans dist/).
+(cd dist && shasum -a 256 "QuizBiblique-$version.apk" "QuizBiblique-$version-ancien.apk" > "QuizBiblique-$version.sha256")
+
 if [ -f android/key.properties ]; then
   echo "Signé avec la clé de publication (android/key.properties)."
 else
   echo "ATTENTION : signé avec la clé de DÉVELOPPEMENT (android/key.properties absent)."
 fi
 ls -lh dist/QuizBiblique-"$version"*.apk | awk '{print $5, $9}'
+echo "Empreintes : dist/QuizBiblique-$version.sha256"

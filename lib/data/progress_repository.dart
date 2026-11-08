@@ -48,8 +48,9 @@ class ProgressRepository {
     await db.transaction(() async {
       for (final r in records) {
         if (r.questionId.startsWith(BookChallenge.idPrefix)) continue;
-        final existing = await (db.select(db.questionStats)..where((t) => t.questionId.equals(r.questionId)))
-            .getSingleOrNull();
+        final existing = await (db.select(
+          db.questionStats,
+        )..where((t) => t.questionId.equals(r.questionId))).getSingleOrNull();
         // Une même question répondue deux fois le même jour (leçon refaite
         // aussitôt) ne fait pas avancer la révision : ce serait de la mémoire
         // immédiate, pas un apprentissage.
@@ -57,38 +58,46 @@ class ProgressRepository {
         final next = sameDayRepeat
             ? (box: existing.box, dueDay: existing.dueDay)
             : Leitner.next(box: existing?.box ?? -1, correct: r.correct, today: day);
-        await db.into(db.questionStats).insertOnConflictUpdate(
-          QuestionStatsCompanion.insert(
-            questionId: r.questionId,
-            box: next.box,
-            dueDay: Value(next.dueDay),
-            correct: Value((existing?.correct ?? 0) + (r.correct ? 1 : 0)),
-            wrong: Value((existing?.wrong ?? 0) + (r.correct ? 0 : 1)),
-            lastDay: day,
-          ),
-        );
+        await db
+            .into(db.questionStats)
+            .insertOnConflictUpdate(
+              QuestionStatsCompanion.insert(
+                questionId: r.questionId,
+                box: next.box,
+                dueDay: Value(next.dueDay),
+                correct: Value((existing?.correct ?? 0) + (r.correct ? 1 : 0)),
+                wrong: Value((existing?.wrong ?? 0) + (r.correct ? 0 : 1)),
+                lastDay: day,
+              ),
+            );
       }
 
       final score = records.where((r) => r.correct).length;
       if (lessonId != null) {
         final prev = await (db.select(db.lessonProgress)..where((t) => t.lessonId.equals(lessonId))).getSingleOrNull();
-        await db.into(db.lessonProgress).insertOnConflictUpdate(
-          LessonProgressCompanion.insert(
-            lessonId: lessonId,
-            bestScore: prev == null || score > prev.bestScore ? score : prev.bestScore,
-            lastScore: score,
-            total: total ?? records.length,
-            attempts: (prev?.attempts ?? 0) + 1,
-            firstCompletedDay: prev?.firstCompletedDay ?? day,
-            lastDay: day,
-          ),
-        );
+        await db
+            .into(db.lessonProgress)
+            .insertOnConflictUpdate(
+              LessonProgressCompanion.insert(
+                lessonId: lessonId,
+                bestScore: prev == null || score > prev.bestScore ? score : prev.bestScore,
+                lastScore: score,
+                total: total ?? records.length,
+                attempts: (prev?.attempts ?? 0) + 1,
+                firstCompletedDay: prev?.firstCompletedDay ?? day,
+                lastDay: day,
+              ),
+            );
       }
 
       await db.customInsert(
         'INSERT INTO activity_days (day, answered, lessons) VALUES (?, ?, ?) '
         'ON CONFLICT(day) DO UPDATE SET answered = answered + excluded.answered, lessons = lessons + excluded.lessons',
-        variables: [Variable.withInt(day), Variable.withInt(records.length), Variable.withInt(lessonId == null ? 0 : 1)],
+        variables: [
+          Variable.withInt(day),
+          Variable.withInt(records.length),
+          Variable.withInt(lessonId == null ? 0 : 1),
+        ],
         updates: {db.activityDays},
       );
     });
@@ -147,9 +156,9 @@ class ProgressRepository {
   Future<bool> toggleFavorite(String ref) => db.transaction(() async {
     final deleted = await (db.delete(db.favorites)..where((t) => t.ref.equals(ref))).go();
     if (deleted > 0) return false;
-    await db.into(db.favorites).insert(
-      FavoritesCompanion.insert(ref: ref, createdAt: DateTime.now().millisecondsSinceEpoch),
-    );
+    await db
+        .into(db.favorites)
+        .insert(FavoritesCompanion.insert(ref: ref, createdAt: DateTime.now().millisecondsSinceEpoch));
     return true;
   });
 

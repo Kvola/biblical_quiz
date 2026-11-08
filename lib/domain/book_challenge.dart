@@ -39,8 +39,10 @@ class BookChallenge {
   static bool isCompleteSentence(String text) => RegExp(r'[.!?»"”]$').hasMatch(text.trim());
 
   /// Versets candidats qui forment une phrase complète dans [bible].
-  static List<VerseRef> readableCandidates(Content content, Bible bible) =>
-      [for (final r in candidates(content)) if (isCompleteSentence(bible.text(r))) r];
+  static List<VerseRef> readableCandidates(Content content, Bible bible) => [
+    for (final r in candidates(content))
+      if (isCompleteSentence(bible.text(r))) r,
+  ];
 
   static List<Question> build({
     required Content content,
@@ -79,10 +81,9 @@ class BookChallenge {
 
   static List<BookName> _distractors(BookName correct, Random rnd) {
     final sameGenre = books.where((b) => b.id != correct.id && b.genre == correct.genre).toList()..shuffle(rnd);
-    final sameTestament = books
-        .where((b) => b.id != correct.id && b.genre != correct.genre && b.testament == correct.testament)
-        .toList()
-      ..shuffle(rnd);
+    final sameTestament =
+        books.where((b) => b.id != correct.id && b.genre != correct.genre && b.testament == correct.testament).toList()
+          ..shuffle(rnd);
     final others = books.where((b) => b.id != correct.id && b.testament != correct.testament).toList()..shuffle(rnd);
     // Deux du même genre si possible, puis le même Testament, puis le reste.
     final picked = <BookName>[...sameGenre.take(2)];

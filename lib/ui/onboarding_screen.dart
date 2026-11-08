@@ -27,8 +27,16 @@ class OnboardingScreen extends ConsumerWidget {
               ),
             ),
             const SizedBox(height: 20),
-            Text(l.appTitle, textAlign: TextAlign.center, style: text.headlineMedium?.copyWith(fontWeight: FontWeight.w700)),
-            Text(l.tagline, textAlign: TextAlign.center, style: text.titleMedium?.copyWith(color: QuizColors.gold)),
+            Text(
+              l.appTitle,
+              textAlign: TextAlign.center,
+              style: text.headlineMedium?.copyWith(fontWeight: FontWeight.w700),
+            ),
+            Text(
+              l.tagline,
+              textAlign: TextAlign.center,
+              style: text.titleMedium?.copyWith(color: context.palette.accentText),
+            ),
             const SizedBox(height: 24),
             Text(l.welcomeIntro, style: text.bodyLarge),
             const SizedBox(height: 16),
@@ -38,14 +46,26 @@ class OnboardingScreen extends ConsumerWidget {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    CircleAvatar(radius: 14, backgroundColor: QuizColors.night, child: Text('${i + 1}', style: const TextStyle(color: Colors.white))),
+                    CircleAvatar(
+                      radius: 14,
+                      backgroundColor: Theme.of(context).colorScheme.primary,
+                      child: Text('${i + 1}', style: TextStyle(color: Theme.of(context).colorScheme.onPrimary)),
+                    ),
                     const SizedBox(width: 12),
-                    Expanded(child: Padding(padding: const EdgeInsets.only(top: 4), child: Text(step, style: text.bodyLarge))),
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.only(top: 4),
+                        child: Text(step, style: text.bodyLarge),
+                      ),
+                    ),
                   ],
                 ),
               ),
             const SizedBox(height: 8),
-            Text(l.welcomeOffline, style: text.bodyMedium?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant)),
+            Text(
+              l.welcomeOffline,
+              style: text.bodyMedium?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
+            ),
             const SizedBox(height: 24),
             Text(l.chooseLanguage, style: text.titleSmall),
             const SizedBox(height: 8),

@@ -26,7 +26,8 @@ class ResultHeader extends StatelessWidget {
         : ratio >= 0.5
         ? l.resultFair
         : l.resultLow;
-    final color = ratio >= 0.75 ? QuizColors.olive : (ratio >= 0.5 ? QuizColors.gold : QuizColors.crimson);
+    final p = context.palette;
+    final color = ratio >= 0.75 ? p.success : (ratio >= 0.5 ? p.accentIcon : p.error);
     final text = Theme.of(context).textTheme;
     final missed = session.missed;
 
@@ -48,7 +49,10 @@ class ResultHeader extends StatelessWidget {
                   backgroundColor: color.withValues(alpha: 0.15),
                 ),
                 Center(
-                  child: Text(l.resultScore(score, total), style: text.headlineMedium?.copyWith(fontWeight: FontWeight.w700)),
+                  child: Text(
+                    l.resultScore(score, total),
+                    style: text.headlineMedium?.copyWith(fontWeight: FontWeight.w700),
+                  ),
                 ),
               ],
             ),
@@ -94,9 +98,11 @@ class _MissedTile extends StatelessWidget {
               const SizedBox(height: 6),
               Row(
                 children: [
-                  const Icon(Icons.check, size: 18, color: QuizColors.olive),
+                  Icon(Icons.check, size: 18, color: context.palette.success),
                   const SizedBox(width: 6),
-                  Expanded(child: Text(answer, style: const TextStyle(fontWeight: FontWeight.w600))),
+                  Expanded(
+                    child: Text(answer, style: const TextStyle(fontWeight: FontWeight.w600)),
+                  ),
                 ],
               ),
             ],

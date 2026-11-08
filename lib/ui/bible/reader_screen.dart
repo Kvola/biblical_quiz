@@ -23,13 +23,18 @@ Future<void> openReaderAt(BuildContext context, WidgetRef ref, int book, int cha
 /// Lecture libre de la Bible, chapitre par chapitre.
 ///
 /// En onglet, il reprend là où on s'était arrêté. Lire un chapitre au moins
-/// [_activeAfter] compte comme activité du jour (la série).
+/// [_ReaderScreenState._activeAfter], lecteur visible et application au
+/// premier plan, compte comme activité du jour (la série).
 class ReaderScreen extends ConsumerStatefulWidget {
-  const ReaderScreen({super.key, this.initialBook, this.initialChapter, this.highlightVerse});
+  const ReaderScreen({super.key, this.initialBook, this.initialChapter, this.highlightVerse, this.active = true});
 
   final int? initialBook;
   final int? initialChapter;
   final int? highlightVerse;
+
+  /// Faux quand le lecteur est un onglet non affiché : les onglets restent
+  /// construits (IndexedStack), et un onglet caché ne lit pas.
+  final bool active;
 
   @override
   ConsumerState<ReaderScreen> createState() => _ReaderScreenState();
@@ -42,6 +47,7 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
   int? _chapter;
   int? _highlight;
   Timer? _activeTimer;
+  late final AppLifecycleListener _lifecycle;
   final _scroll = ScrollController();
 
   @override
@@ -50,11 +56,21 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
     _book = widget.initialBook;
     _chapter = widget.initialChapter;
     _highlight = widget.highlightVerse;
+    // Application en arrière-plan : on ne lit pas.
+    _lifecycle = AppLifecycleListener(onShow: _armActivity, onHide: _disarm);
+    WidgetsBinding.instance.addPostFrameCallback((_) => _armActivity());
+  }
+
+  @override
+  void didUpdateWidget(ReaderScreen old) {
+    super.didUpdateWidget(old);
+    if (widget.active != old.active) widget.active ? _armActivity() : _disarm();
   }
 
   @override
   void dispose() {
-    _activeTimer?.cancel();
+    _disarm();
+    _lifecycle.dispose();
     _scroll.dispose();
     super.dispose();
   }
@@ -71,9 +87,16 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
     _armActivity();
   }
 
+  /// (Re)démarre le compte des secondes de lecture du chapitre affiché.
   void _armActivity() {
-    _activeTimer?.cancel();
+    _disarm();
+    if (!mounted || !widget.active) return;
     _activeTimer = Timer(_activeAfter, () => ref.read(progressRepoProvider).markActive());
+  }
+
+  void _disarm() {
+    _activeTimer?.cancel();
+    _activeTimer = null;
   }
 
   Future<void> _pickBook(Bible bible) async {
@@ -81,7 +104,8 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
       context: context,
       isScrollControlled: true,
       showDragHandle: true,
-      builder: (_) => _BookPicker(bible: bible),
+      useSafeArea: true,
+      builder: (_) => SafeArea(top: false, child: _BookPicker(bible: bible)),
     );
     if (picked != null) _go(bible, picked.$1, picked.$2);
   }
@@ -102,7 +126,6 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
         if (_book == null && settings != null) {
           _book = settings.readerBook;
           _chapter = settings.readerChapter.clamp(1, bible.chapterCount(settings.readerBook));
-          WidgetsBinding.instance.addPostFrameCallback((_) => _armActivity());
         }
         final book = _book ?? 43, chapter = _chapter ?? 1;
         final count = bible.chapterCount(book);
@@ -137,45 +160,48 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
               ),
             ],
           ),
-          body: CustomScrollView(
-            controller: _scroll,
-            slivers: [
-              _ChapterSliver(
-                verseRef: ref0,
-                highlight: _highlight,
-                onVerseTap: (v) => showVerseSheet(context, VerseRef.single(v.book, v.chapter, v.number)),
-              ),
-              SliverToBoxAdapter(
-                child: Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 24, 16, 32),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: OutlinedButton.icon(
-                          onPressed: hasPrev
-                              ? () => chapter > 1
-                                    ? _go(bible, book, chapter - 1)
-                                    : _go(bible, book - 1, bible.chapterCount(book - 1))
-                              : null,
-                          icon: const Icon(Icons.chevron_left),
-                          label: Text(l.previousChapter, overflow: TextOverflow.ellipsis),
+          body: SafeArea(
+            top: false,
+            child: CustomScrollView(
+              controller: _scroll,
+              slivers: [
+                _ChapterSliver(
+                  verseRef: ref0,
+                  highlight: _highlight,
+                  onVerseTap: (v) => showVerseSheet(context, VerseRef.single(v.book, v.chapter, v.number)),
+                ),
+                SliverToBoxAdapter(
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 24, 16, 32),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: OutlinedButton.icon(
+                            onPressed: hasPrev
+                                ? () => chapter > 1
+                                      ? _go(bible, book, chapter - 1)
+                                      : _go(bible, book - 1, bible.chapterCount(book - 1))
+                                : null,
+                            icon: const Icon(Icons.chevron_left),
+                            label: Text(l.previousChapter, overflow: TextOverflow.ellipsis),
+                          ),
                         ),
-                      ),
-                      const SizedBox(width: 12),
-                      Expanded(
-                        child: FilledButton.icon(
-                          onPressed: hasNext
-                              ? () => chapter < count ? _go(bible, book, chapter + 1) : _go(bible, book + 1, 1)
-                              : null,
-                          icon: const Icon(Icons.chevron_right),
-                          label: Text(l.nextChapter, overflow: TextOverflow.ellipsis),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: FilledButton.icon(
+                            onPressed: hasNext
+                                ? () => chapter < count ? _go(bible, book, chapter + 1) : _go(bible, book + 1, 1)
+                                : null,
+                            icon: const Icon(Icons.chevron_right),
+                            label: Text(l.nextChapter, overflow: TextOverflow.ellipsis),
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         );
       },

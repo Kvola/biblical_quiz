@@ -33,7 +33,11 @@ class PassageSliver extends ConsumerWidget {
       return SliverToBoxAdapter(
         child: SizedBox(
           height: 160,
-          child: AsyncBody(value: bible, builder: (_) => const SizedBox(), onRetry: () => ref.invalidate(bibleProvider(t))),
+          child: AsyncBody(
+            value: bible,
+            builder: (_) => const SizedBox(),
+            onRetry: () => ref.invalidate(bibleProvider(t)),
+          ),
         ),
       );
     }
@@ -71,9 +75,8 @@ class _Heading extends StatelessWidget {
     padding: const EdgeInsets.fromLTRB(20, 20, 20, 6),
     child: Text(
       text,
-      style: Theme.of(
-        context,
-      ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700, color: Theme.of(context).colorScheme.primary),
+      style: Theme.of(context).textTheme.titleMedium
+          ?.copyWith(fontWeight: FontWeight.w700, color: Theme.of(context).colorScheme.primary),
     ),
   );
 }
@@ -92,7 +95,14 @@ class _ChapterMark extends StatelessWidget {
 
 /// Un verset : numéro en exposant, texte serif, et l'autre traduction en dessous si demandée.
 class VerseTile extends StatelessWidget {
-  const VerseTile({super.key, required this.verse, required this.scale, this.secondary, this.onTap, this.highlighted = false});
+  const VerseTile({
+    super.key,
+    required this.verse,
+    required this.scale,
+    this.secondary,
+    this.onTap,
+    this.highlighted = false,
+  });
 
   final Verse verse;
   final double scale;
@@ -107,7 +117,7 @@ class VerseTile extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-        color: highlighted ? QuizColors.gold.withValues(alpha: 0.18) : null,
+        color: highlighted ? context.palette.highlight : null,
         padding: EdgeInsets.fromLTRB(20, verse.paragraph ? 10 : 2, 20, 2),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

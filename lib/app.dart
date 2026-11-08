@@ -14,11 +14,17 @@ class BibleQuizApp extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final code = ref.watch(settingsProvider.select((s) => s.value?.localeCode));
     final onboarded = ref.watch(settingsProvider.select((s) => s.value?.onboarded));
+    final themeMode = ref.watch(settingsProvider.select((s) => s.value?.themeMode));
     return MaterialApp(
       onGenerateTitle: (c) => AppLocalizations.of(c).appTitle,
       debugShowCheckedModeBanner: false,
       theme: buildTheme(Brightness.light),
       darkTheme: buildTheme(Brightness.dark),
+      themeMode: switch (themeMode) {
+        'light' => ThemeMode.light,
+        'dark' => ThemeMode.dark,
+        _ => ThemeMode.system,
+      },
       locale: code == null ? null : Locale(code),
       supportedLocales: AppLocalizations.supportedLocales,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
@@ -26,6 +32,7 @@ class BibleQuizApp extends ConsumerWidget {
       localeResolutionCallback: (device, supported) =>
           device?.languageCode == 'en' ? const Locale('en') : const Locale('fr'),
       home: switch (onboarded) {
+        // Le temps d'ouvrir la base (quelques millisecondes) : fond de la marque.
         null => const Scaffold(backgroundColor: QuizColors.night),
         false => const OnboardingScreen(),
         true => const Shell(),

@@ -419,6 +419,18 @@ class AppLocalizationsFr extends AppLocalizations {
   String get languageSystem => 'Celle du téléphone';
 
   @override
+  String get themeTitle => 'Thème';
+
+  @override
+  String get themeSystem => 'Celui du téléphone';
+
+  @override
+  String get themeLight => 'Clair';
+
+  @override
+  String get themeDark => 'Sombre';
+
+  @override
   String get parallelSetting => 'Lecture bilingue';
 
   @override

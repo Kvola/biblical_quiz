@@ -185,7 +185,13 @@ class BookInfoText {
 
 /// Fiche d'un livre de la Bible, avec ses quelques questions.
 class BookInfo {
-  const BookInfo({required this.id, required this.keyVerse, required this.fr, required this.en, required this.questions});
+  const BookInfo({
+    required this.id,
+    required this.keyVerse,
+    required this.fr,
+    required this.en,
+    required this.questions,
+  });
 
   final int id;
   final VerseRef keyVerse;

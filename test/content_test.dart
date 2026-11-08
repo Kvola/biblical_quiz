@@ -11,8 +11,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 /// Lecture directe des fichiers (sans AssetBundle) : rapide, et les tests
 /// échouent sur le fichier exact en cause.
-Bible loadBible(Translation t) =>
-    Bible.fromTsv(t, utf8.decode(gzip.decode(File(t.asset).readAsBytesSync())));
+Bible loadBible(Translation t) => Bible.fromTsv(t, utf8.decode(gzip.decode(File(t.asset).readAsBytesSync())));
 
 Content loadContent() {
   final paths = (Directory('assets/content/paths').listSync().whereType<File>().where((f) => f.path.endsWith('.json')))

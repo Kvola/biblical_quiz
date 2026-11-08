@@ -15,9 +15,7 @@ const reviewBatch = 12;
 Future<void> openReview(BuildContext context, WidgetRef ref) async {
   final content = await ref.read(contentProvider.future);
   final due = ref.read(dueProvider).value ?? const [];
-  final questions = <Question>[
-    for (final id in due) ?content.question(id),
-  ].take(reviewBatch).toList();
+  final questions = <Question>[for (final id in due) ?content.question(id)].take(reviewBatch).toList();
   if (!context.mounted) return;
   if (questions.isEmpty) {
     context.toast(context.l10n.reviewEmpty);
@@ -40,12 +38,8 @@ Future<void> openBookChallenge(BuildContext context, WidgetRef ref) async {
   if (!context.mounted || questions.isEmpty) return;
   await Navigator.of(context).push(
     MaterialPageRoute(
-      builder: (_) => QuizScreen(
-        title: l.challengeTitle,
-        headline: l.challengeQuestion,
-        questions: questions,
-        trackReview: false,
-      ),
+      builder: (_) =>
+          QuizScreen(title: l.challengeTitle, headline: l.challengeQuestion, questions: questions, trackReview: false),
     ),
   );
 }

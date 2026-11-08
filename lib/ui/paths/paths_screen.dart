@@ -19,32 +19,35 @@ class PathsScreen extends ConsumerWidget {
     final completed = ref.watch(completedProvider);
     return Scaffold(
       appBar: AppBar(title: Text(l.pathsTitle)),
-      body: AsyncBody(
-        value: ref.watch(contentProvider),
-        onRetry: () => ref.invalidate(contentProvider),
-        builder: (content) => ListView(
-          padding: const EdgeInsets.fromLTRB(16, 4, 16, 24),
-          children: [
-            for (final p in content.paths) ...[
+      body: SafeArea(
+        top: false,
+        child: AsyncBody(
+          value: ref.watch(contentProvider),
+          onRetry: () => ref.invalidate(contentProvider),
+          builder: (content) => ListView(
+            padding: const EdgeInsets.fromLTRB(16, 4, 16, 24),
+            children: [
+              for (final p in content.paths) ...[
+                _PathCard(
+                  icon: pathIcon(p.icon),
+                  title: p.title.of(lang),
+                  description: p.description.of(lang),
+                  done: p.lessons.where((x) => completed.contains(x.id)).length,
+                  total: p.lessons.length,
+                  onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => PathScreen(pathId: p.id))),
+                ),
+                const SizedBox(height: 12),
+              ],
               _PathCard(
-                icon: pathIcon(p.icon),
-                title: p.title.of(lang),
-                description: p.description.of(lang),
-                done: p.lessons.where((x) => completed.contains(x.id)).length,
-                total: p.lessons.length,
-                onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => PathScreen(pathId: p.id))),
+                icon: Icons.library_books_outlined,
+                title: l.booksPathTitle,
+                description: l.booksPathSubtitle,
+                done: content.books.where((b) => completed.contains(b.lessonId)).length,
+                total: content.books.length,
+                onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const BooksScreen())),
               ),
-              const SizedBox(height: 12),
             ],
-            _PathCard(
-              icon: Icons.library_books_outlined,
-              title: l.booksPathTitle,
-              description: l.booksPathSubtitle,
-              done: content.books.where((b) => completed.contains(b.lessonId)).length,
-              total: content.books.length,
-              onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const BooksScreen())),
-            ),
-          ],
+          ),
         ),
       ),
     );
@@ -100,7 +103,7 @@ class _PathCard extends StatelessWidget {
                       child: LinearProgressIndicator(
                         value: total == 0 ? 0 : done / total,
                         minHeight: 6,
-                        color: done == total ? QuizColors.olive : scheme.primary,
+                        color: done == total ? context.palette.success : scheme.primary,
                       ),
                     ),
                     const SizedBox(height: 4),
@@ -131,22 +134,25 @@ class PathScreen extends ConsumerWidget {
     final next = content!.nextInPath(pathId, progress.keys.toSet());
     return Scaffold(
       appBar: AppBar(title: Text(path.title.of(lang))),
-      body: ListView(
-        padding: const EdgeInsets.fromLTRB(16, 0, 16, 24),
-        children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(4, 0, 4, 12),
-            child: Text(path.description.of(lang), style: Theme.of(context).textTheme.bodyLarge),
-          ),
-          for (final (i, lesson) in path.lessons.indexed)
-            _LessonTile(
-              number: i + 1,
-              lesson: lesson,
-              bestScore: progress[lesson.id]?.bestScore,
-              total: progress[lesson.id]?.total,
-              isNext: lesson.id == next?.id,
+      body: SafeArea(
+        top: false,
+        child: ListView(
+          padding: const EdgeInsets.fromLTRB(16, 0, 16, 24),
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(4, 0, 4, 12),
+              child: Text(path.description.of(lang), style: Theme.of(context).textTheme.bodyLarge),
             ),
-        ],
+            for (final (i, lesson) in path.lessons.indexed)
+              _LessonTile(
+                number: i + 1,
+                lesson: lesson,
+                bestScore: progress[lesson.id]?.bestScore,
+                total: progress[lesson.id]?.total,
+                isNext: lesson.id == next?.id,
+              ),
+          ],
+        ),
       ),
     );
   }
@@ -172,14 +178,14 @@ class _LessonTile extends ConsumerWidget {
         shape: isNext
             ? RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(16),
-                side: const BorderSide(color: QuizColors.gold, width: 2),
+                side: BorderSide(color: context.palette.accentIcon, width: 2),
               )
             : null,
         child: ListTile(
           contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
           leading: CircleAvatar(
-            backgroundColor: done ? QuizColors.olive : scheme.primary.withValues(alpha: 0.1),
-            foregroundColor: done ? Colors.white : scheme.primary,
+            backgroundColor: done ? context.palette.successContainer : scheme.primary.withValues(alpha: 0.12),
+            foregroundColor: done ? context.palette.onSuccessContainer : scheme.primary,
             child: done ? const Icon(Icons.check) : Text('$number'),
           ),
           title: Text(lesson.title.of(lang), style: const TextStyle(fontWeight: FontWeight.w600)),

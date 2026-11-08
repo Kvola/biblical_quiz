@@ -142,6 +142,10 @@ S = {
     # Réglages
     'language': ('Langue', 'Language'),
     'languageSystem': ('Celle du téléphone', 'Phone language'),
+    'themeTitle': ('Thème', 'Theme'),
+    'themeSystem': ('Celui du téléphone', 'Phone setting'),
+    'themeLight': ('Clair', 'Light'),
+    'themeDark': ('Sombre', 'Dark'),
     'parallelSetting': ('Lecture bilingue', 'Bilingual reading'),
     'parallelSettingHint': ('Affiche sous chaque verset l’autre traduction (KJV ou Segond).',
                             'Shows the other translation (Segond or KJV) under each verse.'),

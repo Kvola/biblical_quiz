@@ -48,11 +48,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
 
   Future<void> _finish(QuizSession s) async {
     setState(() => _done = true);
-    await ref.read(progressRepoProvider).recordQuiz(
-      lessonId: widget.lessonId,
-      records: s.records,
-      total: s.length,
-    );
+    await ref.read(progressRepoProvider).recordQuiz(lessonId: widget.lessonId, records: s.records, total: s.length);
   }
 
   @override
@@ -67,31 +63,34 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
       },
       child: Scaffold(
         appBar: AppBar(title: Text(widget.title)),
-        body: _done
-            ? ListView(
-                padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
-                children: [
-                  ResultHeader(session: _session, showMissedHint: widget.trackReview),
-                  ...?widget.resultExtras?.call(context),
-                  const SizedBox(height: 24),
-                  OutlinedButton(
-                    onPressed: () => setState(() {
-                      _session = _newSession();
-                      _done = false;
-                    }),
-                    child: Text(l.retryQuiz),
-                  ),
-                  const SizedBox(height: 10),
-                  FilledButton(onPressed: () => Navigator.of(context).pop(), child: Text(l.finish)),
-                ],
-              )
-            : QuizView(
-                key: ObjectKey(_session),
-                session: _session,
-                headline: widget.headline,
-                onFinished: _finish,
-                onProgress: () => setState(() {}),
-              ),
+        body: SafeArea(
+          top: false,
+          child: _done
+              ? ListView(
+                  padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
+                  children: [
+                    ResultHeader(session: _session, showMissedHint: widget.trackReview),
+                    ...?widget.resultExtras?.call(context),
+                    const SizedBox(height: 24),
+                    OutlinedButton(
+                      onPressed: () => setState(() {
+                        _session = _newSession();
+                        _done = false;
+                      }),
+                      child: Text(l.retryQuiz),
+                    ),
+                    const SizedBox(height: 10),
+                    FilledButton(onPressed: () => Navigator.of(context).pop(), child: Text(l.finish)),
+                  ],
+                )
+              : QuizView(
+                  key: ObjectKey(_session),
+                  session: _session,
+                  headline: widget.headline,
+                  onFinished: _finish,
+                  onProgress: () => setState(() {}),
+                ),
+        ),
       ),
     );
   }

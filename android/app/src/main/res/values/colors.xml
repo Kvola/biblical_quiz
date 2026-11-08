@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ic_launcher_background">#1E3A5F</color>
+    <!-- Écran de lancement : même fond que l'application au premier plan. -->
+    <color name="launch_background">#1E3A5F</color>
 </resources>

@@ -758,6 +758,30 @@ abstract class AppLocalizations {
   /// **'Celle du téléphone'**
   String get languageSystem;
 
+  /// No description provided for @themeTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Thème'**
+  String get themeTitle;
+
+  /// No description provided for @themeSystem.
+  ///
+  /// In fr, this message translates to:
+  /// **'Celui du téléphone'**
+  String get themeSystem;
+
+  /// No description provided for @themeLight.
+  ///
+  /// In fr, this message translates to:
+  /// **'Clair'**
+  String get themeLight;
+
+  /// No description provided for @themeDark.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sombre'**
+  String get themeDark;
+
   /// No description provided for @parallelSetting.
   ///
   /// In fr, this message translates to:

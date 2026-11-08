@@ -123,10 +123,7 @@ class _QuizViewState extends State<QuizView> {
             padding: const EdgeInsets.fromLTRB(20, 8, 20, 12),
             child: SizedBox(
               width: double.infinity,
-              child: FilledButton(
-                onPressed: answered ? _next : null,
-                child: Text(s.isLast ? l.seeResult : l.next),
-              ),
+              child: FilledButton(onPressed: answered ? _next : null, child: Text(s.isLast ? l.seeResult : l.next)),
             ),
           ),
         ),
@@ -149,8 +146,8 @@ class _OptionButton extends StatelessWidget {
     final scheme = Theme.of(context).colorScheme;
     final (Color border, Color? fill, IconData? icon) = switch (state) {
       _OptionState.idle => (scheme.outline, null, null),
-      _OptionState.correct => (QuizColors.olive, QuizColors.olive.withValues(alpha: 0.14), Icons.check_circle),
-      _OptionState.wrong => (QuizColors.crimson, QuizColors.crimson.withValues(alpha: 0.12), Icons.cancel),
+      _OptionState.correct => (context.palette.success, context.palette.successContainer, Icons.check_circle),
+      _OptionState.wrong => (context.palette.error, context.palette.errorContainer, Icons.cancel),
       _OptionState.dimmed => (scheme.outlineVariant, null, null),
     };
     return Semantics(
@@ -202,7 +199,7 @@ class _Explanation extends StatelessWidget {
   Widget build(BuildContext context) {
     final l = context.l10n;
     final lang = context.lang;
-    final color = correct ? QuizColors.olive : QuizColors.crimson;
+    final color = correct ? context.palette.success : context.palette.error;
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(16),

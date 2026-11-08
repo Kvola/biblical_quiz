@@ -33,7 +33,7 @@ Soit **669 questions**, toutes en français et en anglais.
 - **Défi « Dans quel livre ? »** : retrouver le livre d'un verset clé (questions construites à partir du texte embarqué : justes par construction).
 - **Bible** : lecture libre chapitre par chapitre, reprise là où on s'était arrêté ; toucher un verset pour le copier, le partager ou le mettre de côté.
 - **Progrès** : série, leçons, réponses, taux de réussite, questions acquises, versets mis de côté.
-- **Réglages** : langue (la traduction biblique suit la langue), taille du texte, lecture bilingue, effacement de la progression.
+- **Réglages** : langue (la traduction biblique suit la langue), thème (celui du téléphone, clair ou sombre), taille du texte, lecture bilingue, effacement de la progression.
 
 ## Fiabilité
 
@@ -41,6 +41,13 @@ Soit **669 questions**, toutes en français et en anglais.
 - **Bibles alignées** : `scripts/build_bible.py` refuse de construire si les deux traductions n'ont pas exactement les mêmes 31 102 versets.
 - **Progression** : SQLite (Drift), écritures transactionnelles (une leçon terminée met à jour d'un bloc la leçon, chaque question et le jour), migrations versionnées. Une série abandonnée en cours de route n'est pas enregistrée.
 - **Tests** : logique pure (références, séries, révision, quiz), Bibles et contenu, base de données, et parcours de bout en bout dans l'interface (FR et EN).
+
+## Couleurs, mode sombre et bords d'écran
+
+- **Palette sémantique** (`QuizPalette` dans `lib/core/theme.dart`) : chaque couleur (bonne réponse, erreur, or d'une étiquette, carte d'accueil…) a une valeur pour le mode clair et une pour le mode sombre. Les écrans n'emploient jamais directement les couleurs de marque (`QuizColors`) pour un texte ou une icône.
+- **Contraste vérifié par test** (`test/theme_contrast_test.dart`) : dans les deux modes, chaque texte atteint au moins 4,5:1 sur son fond et chaque icône ou bordure 3:1 (WCAG AA).
+- **Bords d'écran** : Android 15+ affiche l'application jusqu'aux bords. Le corps de chaque écran et chaque feuille du bas respecte les zones de sécurité (barre de gestes, encoche), pour qu'aucun bouton ne passe dessous ; un test le vérifie en simulant une barre de gestes.
+- **Écran de lancement** aux couleurs de l'application, en clair et en sombre, y compris sur Android 12+.
 
 ## Architecture
 
@@ -73,6 +80,8 @@ python3 scripts/build_bible.py                    # après modification de data/
 python3 scripts/validate_content.py               # après toute modification du contenu
 python3 scripts/verse.py 43:3:16 1:1:1-5          # afficher un passage dans les deux traductions
 python3 scripts/export_review.py                  # cahier de relecture -> build/relecture.html
+swift scripts/svg2png.swift branding/icon-foreground.svg assets/branding/icon-foreground.png 1024
+                                                  # SVG -> PNG transparent (ne pas utiliser Quick Look : fond blanc)
 dart run flutter_launcher_icons                   # après modification des icônes
 flutter test
 flutter run

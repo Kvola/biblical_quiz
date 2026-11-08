@@ -15,7 +15,9 @@ Future<void> showVerseSheet(BuildContext context, VerseRef ref) => showModalBott
   context: context,
   isScrollControlled: true,
   showDragHandle: true,
-  builder: (_) => VerseSheet(verseRef: ref),
+  // Pas sous la barre d'état en haut, ni sous la barre de gestes en bas.
+  useSafeArea: true,
+  builder: (_) => SafeArea(top: false, child: VerseSheet(verseRef: ref)),
 );
 
 String shareText(Bible bible, VerseRef ref, String lang) {

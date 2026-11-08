@@ -33,21 +33,24 @@ class HomeScreen extends ConsumerWidget {
           ),
         ],
       ),
-      body: AsyncBody(
-        value: content,
-        onRetry: () => ref.invalidate(contentProvider),
-        builder: (c) => ListView(
-          padding: const EdgeInsets.fromLTRB(16, 4, 16, 24),
-          children: [
-            const _StreakCard(),
-            const SizedBox(height: 12),
-            _ContinueCard(content: c),
-            const _ReviewCard(),
-            const SizedBox(height: 12),
-            _VerseOfDayCard(content: c),
-            const SizedBox(height: 12),
-            const _ChallengeCard(),
-          ],
+      body: SafeArea(
+        top: false,
+        child: AsyncBody(
+          value: content,
+          onRetry: () => ref.invalidate(contentProvider),
+          builder: (c) => ListView(
+            padding: const EdgeInsets.fromLTRB(16, 4, 16, 24),
+            children: [
+              const _StreakCard(),
+              const SizedBox(height: 12),
+              _ContinueCard(content: c),
+              const _ReviewCard(),
+              const SizedBox(height: 12),
+              _VerseOfDayCard(content: c),
+              const SizedBox(height: 12),
+              const _ChallengeCard(),
+            ],
+          ),
         ),
       ),
     );
@@ -67,8 +70,11 @@ class _StreakCard extends ConsumerWidget {
       child: ListTile(
         contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
         leading: CircleAvatar(
-          backgroundColor: QuizColors.gold.withValues(alpha: 0.2),
-          child: Icon(Icons.local_fire_department, color: streak > 0 ? QuizColors.gold : Colors.grey),
+          backgroundColor: context.palette.accentIcon.withValues(alpha: 0.18),
+          child: Icon(
+            Icons.local_fire_department,
+            color: streak > 0 ? context.palette.accentIcon : Theme.of(context).colorScheme.onSurfaceVariant,
+          ),
         ),
         title: Text(
           streak == 0 ? l.streakStart : l.streakDays(streak),
@@ -99,8 +105,9 @@ class _ContinueCard extends ConsumerWidget {
       );
     }
     final path = content.path(next.pathId)!;
+    final p = context.palette;
     return Card(
-      color: Theme.of(context).colorScheme.primary,
+      color: p.heroBackground,
       child: Padding(
         padding: const EdgeInsets.all(18),
         child: Column(
@@ -108,22 +115,22 @@ class _ContinueCard extends ConsumerWidget {
           children: [
             Text(
               (completed.isEmpty ? l.startTitle : l.continueTitle).toUpperCase(),
-              style: text.labelMedium?.copyWith(color: QuizColors.gold, letterSpacing: 1.2),
+              style: text.labelMedium?.copyWith(color: p.heroAccent, letterSpacing: 1.2),
             ),
             const SizedBox(height: 6),
-            Text(path.title.of(lang), style: text.bodyMedium?.copyWith(color: Colors.white70)),
+            Text(path.title.of(lang), style: text.bodyMedium?.copyWith(color: p.heroMuted)),
             Text(
               next.title.of(lang),
-              style: text.headlineSmall?.copyWith(color: Colors.white, fontWeight: FontWeight.w700),
+              style: text.headlineSmall?.copyWith(color: p.heroForeground, fontWeight: FontWeight.w700),
             ),
             const SizedBox(height: 4),
             Text(
               next.passages.map((r) => refLabel(r, lang)).join(' · '),
-              style: text.bodySmall?.copyWith(color: Colors.white70),
+              style: text.bodySmall?.copyWith(color: p.heroMuted),
             ),
             const SizedBox(height: 14),
             FilledButton.icon(
-              style: FilledButton.styleFrom(backgroundColor: QuizColors.gold, foregroundColor: QuizColors.ink),
+              style: FilledButton.styleFrom(backgroundColor: p.heroButton, foregroundColor: p.onHeroButton),
               icon: const Icon(Icons.menu_book),
               label: Text(l.lessonStart),
               onPressed: () => LessonScreen.open(context, ref, next),
@@ -148,7 +155,7 @@ class _ReviewCard extends ConsumerWidget {
       child: Card(
         child: ListTile(
           contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
-          leading: const Icon(Icons.replay, color: QuizColors.olive),
+          leading: Icon(Icons.replay, color: context.palette.success),
           title: Text(l.reviewTitle, style: const TextStyle(fontWeight: FontWeight.w700)),
           subtitle: Text(l.reviewDue(due.length)),
           trailing: FilledButton.tonal(onPressed: () => openReview(context, ref), child: Text(l.reviewStart)),
@@ -187,16 +194,13 @@ class _VerseOfDayCard extends ConsumerWidget {
             children: [
               Row(
                 children: [
-                  const Icon(Icons.wb_twilight, color: QuizColors.gold, size: 20),
+                  Icon(Icons.wb_twilight, color: context.palette.accentIcon, size: 20),
                   const SizedBox(width: 8),
                   Text(l.verseOfDay, style: Theme.of(context).textTheme.labelLarge),
                 ],
               ),
               const SizedBox(height: 10),
-              Text(
-                bible.text(ref0),
-                style: scriptureStyle(context, 1.0).copyWith(fontStyle: FontStyle.italic),
-              ),
+              Text(bible.text(ref0), style: scriptureStyle(context, 1.0).copyWith(fontStyle: FontStyle.italic)),
               const SizedBox(height: 8),
               Text(
                 refLabel(ref0, lang),
@@ -219,7 +223,7 @@ class _ChallengeCard extends ConsumerWidget {
     return Card(
       child: ListTile(
         contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
-        leading: const Icon(Icons.travel_explore, color: QuizColors.night),
+        leading: Icon(Icons.travel_explore, color: context.palette.brandIcon),
         title: Text(l.challengeTitle, style: const TextStyle(fontWeight: FontWeight.w700)),
         subtitle: Text(l.challengeSubtitle),
         trailing: FilledButton.tonal(onPressed: () => openBookChallenge(context, ref), child: Text(l.play)),

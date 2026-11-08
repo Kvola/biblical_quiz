@@ -22,36 +22,39 @@ class BooksScreen extends ConsumerWidget {
     final completed = ref.watch(completedProvider);
     return Scaffold(
       appBar: AppBar(title: Text(l.booksPathTitle)),
-      body: AsyncBody(
-        value: ref.watch(contentProvider),
-        builder: (content) => ListView(
-          padding: const EdgeInsets.fromLTRB(16, 0, 16, 24),
-          children: [
-            for (final testament in Testament.values) ...[
-              SectionTitle(testament == Testament.old ? l.oldTestament : l.newTestament),
-              for (final b in content.books.where((b) => bookById(b.id).testament == testament))
-                ListTile(
-                  contentPadding: const EdgeInsets.symmetric(horizontal: 4),
-                  leading: CircleAvatar(
-                    radius: 18,
-                    backgroundColor: completed.contains(b.lessonId)
-                        ? QuizColors.olive
-                        : Theme.of(context).colorScheme.primary.withValues(alpha: 0.08),
-                    child: completed.contains(b.lessonId)
-                        ? const Icon(Icons.check, color: Colors.white, size: 18)
-                        : Text(
-                            bookById(b.id).abbr(lang),
-                            style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700),
-                          ),
+      body: SafeArea(
+        top: false,
+        child: AsyncBody(
+          value: ref.watch(contentProvider),
+          builder: (content) => ListView(
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 24),
+            children: [
+              for (final testament in Testament.values) ...[
+                SectionTitle(testament == Testament.old ? l.oldTestament : l.newTestament),
+                for (final b in content.books.where((b) => bookById(b.id).testament == testament))
+                  ListTile(
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 4),
+                    leading: CircleAvatar(
+                      radius: 18,
+                      backgroundColor: completed.contains(b.lessonId)
+                          ? context.palette.successContainer
+                          : Theme.of(context).colorScheme.primary.withValues(alpha: 0.12),
+                      child: completed.contains(b.lessonId)
+                          ? Icon(Icons.check, color: context.palette.onSuccessContainer, size: 18)
+                          : Text(
+                              bookById(b.id).abbr(lang),
+                              style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700),
+                            ),
+                    ),
+                    title: Text(bookById(b.id).name(lang)),
+                    subtitle: Text(b.of(lang).themes.join(' · '), maxLines: 1, overflow: TextOverflow.ellipsis),
+                    trailing: const Icon(Icons.chevron_right),
+                    onTap: () =>
+                        Navigator.of(context).push(MaterialPageRoute(builder: (_) => BookScreen(bookId: b.id))),
                   ),
-                  title: Text(bookById(b.id).name(lang)),
-                  subtitle: Text(b.of(lang).themes.join(' · '), maxLines: 1, overflow: TextOverflow.ellipsis),
-                  trailing: const Icon(Icons.chevron_right),
-                  onTap: () =>
-                      Navigator.of(context).push(MaterialPageRoute(builder: (_) => BookScreen(bookId: b.id))),
-                ),
+              ],
             ],
-          ],
+          ),
         ),
       ),
     );
@@ -76,61 +79,66 @@ class BookScreen extends ConsumerWidget {
     final text = Theme.of(context).textTheme;
     return Scaffold(
       appBar: AppBar(title: Text(name)),
-      body: ListView(
-        padding: const EdgeInsets.fromLTRB(20, 0, 20, 32),
-        children: [
-          if (bible != null) Text(l.bookChapters(bible.chapterCount(bookId)), style: text.bodySmall),
-          const SizedBox(height: 8),
-          Text(t.summary, style: text.bodyLarge?.copyWith(height: 1.5)),
-          const SizedBox(height: 16),
-          _Fact(label: l.bookAuthor, value: t.author),
-          _Fact(label: l.bookPeriod, value: t.period),
-          const SizedBox(height: 8),
-          Wrap(spacing: 8, runSpacing: 8, children: [for (final th in t.themes) Chip(label: Text(th))]),
-          SectionTitle(l.keyVerseTitle),
-          Card(
-            child: InkWell(
-              borderRadius: BorderRadius.circular(16),
-              onTap: () => showVerseSheet(context, info.keyVerse),
-              child: Padding(
-                padding: const EdgeInsets.all(16),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    if (bible != null)
+      body: SafeArea(
+        top: false,
+        child: ListView(
+          padding: const EdgeInsets.fromLTRB(20, 0, 20, 32),
+          children: [
+            if (bible != null) Text(l.bookChapters(bible.chapterCount(bookId)), style: text.bodySmall),
+            const SizedBox(height: 8),
+            Text(t.summary, style: text.bodyLarge?.copyWith(height: 1.5)),
+            const SizedBox(height: 16),
+            _Fact(label: l.bookAuthor, value: t.author),
+            _Fact(label: l.bookPeriod, value: t.period),
+            const SizedBox(height: 8),
+            Wrap(spacing: 8, runSpacing: 8, children: [for (final th in t.themes) Chip(label: Text(th))]),
+            SectionTitle(l.keyVerseTitle),
+            Card(
+              child: InkWell(
+                borderRadius: BorderRadius.circular(16),
+                onTap: () => showVerseSheet(context, info.keyVerse),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      if (bible != null)
+                        Text(
+                          bible.text(info.keyVerse),
+                          style: scriptureStyle(context, 1.0).copyWith(fontStyle: FontStyle.italic),
+                        ),
+                      const SizedBox(height: 8),
                       Text(
-                        bible.text(info.keyVerse),
-                        style: scriptureStyle(context, 1.0).copyWith(fontStyle: FontStyle.italic),
+                        refLabel(info.keyVerse, lang),
+                        style: TextStyle(fontWeight: FontWeight.w700, color: Theme.of(context).colorScheme.primary),
                       ),
-                    const SizedBox(height: 8),
-                    Text(
-                      refLabel(info.keyVerse, lang),
-                      style: TextStyle(fontWeight: FontWeight.w700, color: Theme.of(context).colorScheme.primary),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
             ),
-          ),
-          const SizedBox(height: 24),
-          FilledButton.icon(
-            icon: const Icon(Icons.quiz_outlined),
-            label: Text(l.bookQuiz(info.questions.length)),
-            onPressed: () => _openQuiz(context, info, name),
-          ),
-          const SizedBox(height: 10),
-          OutlinedButton.icon(
-            icon: const Icon(Icons.menu_book_outlined),
-            label: Text(l.readBook),
-            onPressed: () => openReaderAt(context, ref, bookId, 1),
-          ),
-        ],
+            const SizedBox(height: 24),
+            FilledButton.icon(
+              icon: const Icon(Icons.quiz_outlined),
+              label: Text(l.bookQuiz(info.questions.length)),
+              onPressed: () => _openQuiz(context, info, name),
+            ),
+            const SizedBox(height: 10),
+            OutlinedButton.icon(
+              icon: const Icon(Icons.menu_book_outlined),
+              label: Text(l.readBook),
+              onPressed: () => openReaderAt(context, ref, bookId, 1),
+            ),
+          ],
+        ),
       ),
     );
   }
 
   void _openQuiz(BuildContext context, BookInfo info, String name) => Navigator.of(context).push(
-    MaterialPageRoute(builder: (_) => QuizScreen(title: name, questions: info.questions, lessonId: info.lessonId)),
+    MaterialPageRoute(
+      builder: (_) => QuizScreen(title: name, questions: info.questions, lessonId: info.lessonId),
+    ),
   );
 }
 
@@ -146,7 +154,10 @@ class _Fact extends StatelessWidget {
     child: Text.rich(
       TextSpan(
         children: [
-          TextSpan(text: '$label : ', style: const TextStyle(fontWeight: FontWeight.w700)),
+          TextSpan(
+            text: '$label : ',
+            style: const TextStyle(fontWeight: FontWeight.w700),
+          ),
           TextSpan(text: value),
         ],
       ),

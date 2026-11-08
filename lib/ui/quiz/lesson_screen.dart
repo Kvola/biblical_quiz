@@ -5,6 +5,7 @@ import '../../bible/bible.dart';
 import '../../content/models.dart';
 import '../../core/books.dart';
 import '../../core/theme.dart';
+import '../../core/verse_ref.dart';
 import '../../domain/quiz_session.dart';
 import '../../providers.dart';
 import '../common.dart';
@@ -62,15 +63,23 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
           title: Text(lesson.title.of(lang)),
           actions: [if (_stage == _Stage.read) const _ParallelToggle()],
         ),
-        body: switch (_stage) {
-          _Stage.read => _ReadStage(lesson: lesson, onDone: _startQuiz),
-          _Stage.quiz => QuizView(key: ObjectKey(s), session: s!, onFinished: _finish, onProgress: () => setState(() {})),
-          _Stage.result => _ResultStage(
-            lesson: lesson,
-            session: s!,
-            onReread: () => setState(() => _stage = _Stage.read),
-          ),
-        },
+        body: SafeArea(
+          top: false,
+          child: switch (_stage) {
+            _Stage.read => _ReadStage(lesson: lesson, onDone: _startQuiz),
+            _Stage.quiz => QuizView(
+              key: ObjectKey(s),
+              session: s!,
+              onFinished: _finish,
+              onProgress: () => setState(() {}),
+            ),
+            _Stage.result => _ResultStage(
+              lesson: lesson,
+              session: s!,
+              onReread: () => setState(() => _stage = _Stage.read),
+            ),
+          },
+        ),
       ),
     );
   }
@@ -121,7 +130,7 @@ class _ReadStage extends ConsumerWidget {
                         children: [
                           Text(
                             l.introTitle,
-                            style: Theme.of(context).textTheme.labelLarge?.copyWith(color: QuizColors.gold),
+                            style: Theme.of(context).textTheme.labelLarge?.copyWith(color: context.palette.accentText),
                           ),
                           const SizedBox(height: 6),
                           Text(lesson.intro.of(lang), style: const TextStyle(height: 1.4)),
@@ -139,7 +148,10 @@ class _ReadStage extends ConsumerWidget {
                   ),
                 ),
               ),
-              PassageSliver(refs: lesson.passages),
+              PassageSliver(
+                refs: lesson.passages,
+                onVerseTap: (v) => showVerseSheet(context, VerseRef.single(v.book, v.chapter, v.number)),
+              ),
               const SliverToBoxAdapter(child: SizedBox(height: 24)),
             ],
           ),
@@ -212,9 +224,8 @@ class _ResultStage extends ConsumerWidget {
         const SizedBox(height: 24),
         if (next != null) ...[
           FilledButton(
-            onPressed: () => Navigator.of(
-              context,
-            ).pushReplacement(MaterialPageRoute(builder: (_) => LessonScreen(lesson: next))),
+            onPressed: () =>
+                Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => LessonScreen(lesson: next))),
             child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 6),
               child: Column(

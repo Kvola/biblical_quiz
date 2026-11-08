@@ -116,5 +116,11 @@ void main() {
     await settings.setOnboarded();
     s = await settings.watch().first;
     expect((s.textScale, s.readerBook, s.readerChapter, s.onboarded), (AppSettings.maxScale, 19, 23, true));
+    expect(s.themeMode, 'system');
+    await settings.setThemeMode('dark');
+    expect((await settings.watch().first).themeMode, 'dark');
+    await settings.setThemeMode('system');
+    expect((await settings.watch().first).themeMode, 'system');
+    expect((await settings.raw()).containsKey('theme'), isFalse);
   });
 }

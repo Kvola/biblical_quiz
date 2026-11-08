@@ -1,4 +1,3 @@
-
 import 'database.dart';
 
 class AppSettings {
@@ -10,6 +9,7 @@ class AppSettings {
     this.readerBook = 43,
     this.readerChapter = 1,
     this.onboarded = false,
+    this.themeMode = 'system',
   });
 
   /// null : langue du téléphone.
@@ -24,6 +24,9 @@ class AppSettings {
   final int readerBook;
   final int readerChapter;
   final bool onboarded;
+
+  /// « system » (celui du téléphone), « light » ou « dark ».
+  final String themeMode;
 
   static const minScale = 0.85, maxScale = 1.6;
 
@@ -43,6 +46,11 @@ class AppSettings {
       readerBook: book >= 1 && book <= 66 ? book : 43,
       readerChapter: chapter >= 1 ? chapter : 1,
       onboarded: m['onboarded'] == '1',
+      themeMode: switch (m['theme']) {
+        'light' => 'light',
+        'dark' => 'dark',
+        _ => 'system',
+      },
     );
   }
 }
@@ -52,10 +60,8 @@ class SettingsRepository {
 
   final AppDatabase db;
 
-  Stream<AppSettings> watch() => db
-      .select(db.settingsEntries)
-      .watch()
-      .map((rows) => AppSettings.fromMap({for (final r in rows) r.key: r.value}));
+  Stream<AppSettings> watch() =>
+      db.select(db.settingsEntries).watch().map((rows) => AppSettings.fromMap({for (final r in rows) r.key: r.value}));
 
   Future<void> _set(String key, String? value) async {
     if (value == null) {
@@ -71,6 +77,7 @@ class SettingsRepository {
   Future<void> setParallel(bool v) => _set('parallel', v ? '1' : '0');
   Future<void> setLastPath(String id) => _set('lastPathId', id);
   Future<void> setOnboarded() => _set('onboarded', '1');
+  Future<void> setThemeMode(String mode) => _set('theme', mode == 'system' ? null : mode);
 
   Future<void> setReaderPosition(int book, int chapter) => db.transaction(() async {
     await _set('readerBook', '$book');
@@ -78,6 +85,7 @@ class SettingsRepository {
   });
 
   /// Pour les tests.
-  Future<Map<String, String>> raw() async =>
-      {for (final r in await db.select(db.settingsEntries).get()) r.key: r.value};
+  Future<Map<String, String>> raw() async => {
+    for (final r in await db.select(db.settingsEntries).get()) r.key: r.value,
+  };
 }

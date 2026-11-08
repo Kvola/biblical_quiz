@@ -7,10 +7,5 @@ import 'providers.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(
-    ProviderScope(
-      overrides: [databaseProvider.overrideWithValue(AppDatabase())],
-      child: const BibleQuizApp(),
-    ),
-  );
+  runApp(ProviderScope(overrides: [databaseProvider.overrideWithValue(AppDatabase())], child: const BibleQuizApp()));
 }

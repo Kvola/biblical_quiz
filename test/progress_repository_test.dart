@@ -123,4 +123,26 @@ void main() {
     expect((await settings.watch().first).themeMode, 'system');
     expect((await settings.raw()).containsKey('theme'), isFalse);
   });
+
+  test('recherches récentes : en tête, sans doublon, bornées, effaçables', () async {
+    final settings = SettingsRepository(db);
+    for (var i = 0; i < 12; i++) {
+      await settings.addRecentSearch('mot $i');
+    }
+    await settings.addRecentSearch('  MOT 5 ');
+    var s = await settings.watch().first;
+    expect(s.recentSearches.length, AppSettings.maxRecentSearches);
+    expect(s.recentSearches.first, 'MOT 5');
+    expect(s.recentSearches.where((x) => x.toLowerCase() == 'mot 5').length, 1);
+    await settings.removeRecentSearch('MOT 5');
+    s = await settings.watch().first;
+    expect(s.recentSearches.contains('MOT 5'), isFalse);
+    await settings.clearRecentSearches();
+    expect((await settings.watch().first).recentSearches, isEmpty);
+    // Valeur illisible : liste vide, pas d'erreur.
+    await db
+        .into(db.settingsEntries)
+        .insertOnConflictUpdate(SettingsEntriesCompanion.insert(key: 'recentSearches', value: '{abîmé'));
+    expect((await settings.watch().first).recentSearches, isEmpty);
+  });
 }

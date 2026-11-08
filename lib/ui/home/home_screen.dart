@@ -12,6 +12,7 @@ import '../../providers.dart';
 import '../common.dart';
 import '../launchers.dart';
 import '../quiz/lesson_screen.dart';
+import '../search/search_screen.dart';
 import '../settings/settings_screen.dart';
 import '../widgets/verse_sheet.dart';
 
@@ -26,6 +27,11 @@ class HomeScreen extends ConsumerWidget {
       appBar: AppBar(
         title: Text(l.appTitle, style: const TextStyle(fontWeight: FontWeight.w700)),
         actions: [
+          IconButton(
+            tooltip: l.searchTitle,
+            icon: const Icon(Icons.search),
+            onPressed: () => SearchScreen.open(context),
+          ),
           IconButton(
             tooltip: l.settings,
             icon: const Icon(Icons.settings_outlined),

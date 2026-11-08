@@ -680,6 +680,174 @@ abstract class AppLocalizations {
   /// **'Taille du texte'**
   String get textSize;
 
+  /// No description provided for @searchTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rechercher'**
+  String get searchTitle;
+
+  /// No description provided for @searchHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mots, \"expression exacte\" ou référence'**
+  String get searchHint;
+
+  /// No description provided for @searchClear.
+  ///
+  /// In fr, this message translates to:
+  /// **'Effacer'**
+  String get searchClear;
+
+  /// No description provided for @searchResults.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =0{Aucun verset} =1{1 verset} other{{count} versets}}'**
+  String searchResults(int count);
+
+  /// No description provided for @searchResultsFiltered.
+  ///
+  /// In fr, this message translates to:
+  /// **'{shown} sur {total} versets'**
+  String searchResultsFiltered(int shown, int total);
+
+  /// No description provided for @searchNoResult.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun verset ne contient tous ces mots. Essayez moins de mots, ou désactivez « Mots entiers ».'**
+  String get searchNoResult;
+
+  /// No description provided for @searchAll.
+  ///
+  /// In fr, this message translates to:
+  /// **'Toute la Bible'**
+  String get searchAll;
+
+  /// No description provided for @searchOld.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ancien Testament'**
+  String get searchOld;
+
+  /// No description provided for @searchNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouveau Testament'**
+  String get searchNew;
+
+  /// No description provided for @searchBook.
+  ///
+  /// In fr, this message translates to:
+  /// **'Livre…'**
+  String get searchBook;
+
+  /// No description provided for @searchAllBooks.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tous les livres'**
+  String get searchAllBooks;
+
+  /// No description provided for @searchWholeWords.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mots entiers'**
+  String get searchWholeWords;
+
+  /// No description provided for @searchIn.
+  ///
+  /// In fr, this message translates to:
+  /// **'Chercher dans : {name}'**
+  String searchIn(String name);
+
+  /// No description provided for @searchGoTo.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aller à {ref}'**
+  String searchGoTo(String ref);
+
+  /// No description provided for @searchRecent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Recherches récentes'**
+  String get searchRecent;
+
+  /// No description provided for @searchClearRecent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tout effacer'**
+  String get searchClearRecent;
+
+  /// No description provided for @searchTipsTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Comment chercher'**
+  String get searchTipsTitle;
+
+  /// No description provided for @searchTipWords.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plusieurs mots : les versets qui les contiennent tous, dans n’importe quel ordre.'**
+  String get searchTipWords;
+
+  /// No description provided for @searchTipPhrase.
+  ///
+  /// In fr, this message translates to:
+  /// **'Entre guillemets : l’expression exacte, ponctuation comprise ou non.'**
+  String get searchTipPhrase;
+
+  /// No description provided for @searchTipExclude.
+  ///
+  /// In fr, this message translates to:
+  /// **'Un tiret devant un mot l’exclut.'**
+  String get searchTipExclude;
+
+  /// No description provided for @searchTipAccents.
+  ///
+  /// In fr, this message translates to:
+  /// **'Accents et majuscules ne comptent pas ; un mot trouve aussi les mots qui commencent par lui (pardon → pardonne).'**
+  String get searchTipAccents;
+
+  /// No description provided for @searchTipRef.
+  ///
+  /// In fr, this message translates to:
+  /// **'Une référence ouvre directement le passage.'**
+  String get searchTipRef;
+
+  /// No description provided for @searchExampleWords.
+  ///
+  /// In fr, this message translates to:
+  /// **'berger brebis'**
+  String get searchExampleWords;
+
+  /// No description provided for @searchExamplePhrase.
+  ///
+  /// In fr, this message translates to:
+  /// **'\"que la lumière soit\"'**
+  String get searchExamplePhrase;
+
+  /// No description provided for @searchExampleExclude.
+  ///
+  /// In fr, this message translates to:
+  /// **'berger -loup'**
+  String get searchExampleExclude;
+
+  /// No description provided for @searchExampleRef.
+  ///
+  /// In fr, this message translates to:
+  /// **'Jean 3:16'**
+  String get searchExampleRef;
+
+  /// No description provided for @searchPreparing.
+  ///
+  /// In fr, this message translates to:
+  /// **'Préparation de la recherche…'**
+  String get searchPreparing;
+
+  /// No description provided for @searchMoreResults.
+  ///
+  /// In fr, this message translates to:
+  /// **'Affiner la recherche pour voir les autres versets ({count, plural, =1{1 de plus} other{{count} de plus}}).'**
+  String searchMoreResults(int count);
+
   /// No description provided for @progressTitle.
   ///
   /// In fr, this message translates to:

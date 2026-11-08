@@ -217,6 +217,72 @@
   "previousChapter": "Previous chapter",
   "nextChapter": "Next chapter",
   "textSize": "Text size",
+  "searchTitle": "Search",
+  "searchHint": "Words, \"exact phrase\" or reference",
+  "searchClear": "Clear",
+  "searchResults": "{count, plural, =0{No verses} =1{1 verse} other{{count} verses}}",
+  "@searchResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchResultsFiltered": "{shown} of {total} verses",
+  "@searchResultsFiltered": {
+    "placeholders": {
+      "shown": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "searchNoResult": "No verse contains all these words. Try fewer words, or turn off “Whole words”.",
+  "searchAll": "Whole Bible",
+  "searchOld": "Old Testament",
+  "searchNew": "New Testament",
+  "searchBook": "Book…",
+  "searchAllBooks": "All books",
+  "searchWholeWords": "Whole words",
+  "searchIn": "Search in: {name}",
+  "@searchIn": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "searchGoTo": "Go to {ref}",
+  "@searchGoTo": {
+    "placeholders": {
+      "ref": {
+        "type": "String"
+      }
+    }
+  },
+  "searchRecent": "Recent searches",
+  "searchClearRecent": "Clear all",
+  "searchTipsTitle": "How to search",
+  "searchTipWords": "Several words: verses containing all of them, in any order.",
+  "searchTipPhrase": "In quotes: the exact phrase, with or without punctuation.",
+  "searchTipExclude": "A dash before a word excludes it.",
+  "searchTipAccents": "Accents and capitals do not matter; a word also finds words starting with it (forgive → forgiveness).",
+  "searchTipRef": "A reference opens the passage directly.",
+  "searchExampleWords": "shepherd sheep",
+  "searchExamplePhrase": "\"let there be light\"",
+  "searchExampleExclude": "shepherd -wolf",
+  "searchExampleRef": "John 3:16",
+  "searchPreparing": "Preparing search…",
+  "searchMoreResults": "Refine the search to see the other verses ({count, plural, =1{1 more} other{{count} more}}).",
+  "@searchMoreResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "progressTitle": "Your progress",
   "statLessons": "Lessons completed",
   "statAnswered": "Answers given",

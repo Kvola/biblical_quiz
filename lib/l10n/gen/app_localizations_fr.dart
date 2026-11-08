@@ -371,6 +371,117 @@ class AppLocalizationsFr extends AppLocalizations {
   String get textSize => 'Taille du texte';
 
   @override
+  String get searchTitle => 'Rechercher';
+
+  @override
+  String get searchHint => 'Mots, \"expression exacte\" ou référence';
+
+  @override
+  String get searchClear => 'Effacer';
+
+  @override
+  String searchResults(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count versets',
+      one: '1 verset',
+      zero: 'Aucun verset',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String searchResultsFiltered(int shown, int total) {
+    return '$shown sur $total versets';
+  }
+
+  @override
+  String get searchNoResult =>
+      'Aucun verset ne contient tous ces mots. Essayez moins de mots, ou désactivez « Mots entiers ».';
+
+  @override
+  String get searchAll => 'Toute la Bible';
+
+  @override
+  String get searchOld => 'Ancien Testament';
+
+  @override
+  String get searchNew => 'Nouveau Testament';
+
+  @override
+  String get searchBook => 'Livre…';
+
+  @override
+  String get searchAllBooks => 'Tous les livres';
+
+  @override
+  String get searchWholeWords => 'Mots entiers';
+
+  @override
+  String searchIn(String name) {
+    return 'Chercher dans : $name';
+  }
+
+  @override
+  String searchGoTo(String ref) {
+    return 'Aller à $ref';
+  }
+
+  @override
+  String get searchRecent => 'Recherches récentes';
+
+  @override
+  String get searchClearRecent => 'Tout effacer';
+
+  @override
+  String get searchTipsTitle => 'Comment chercher';
+
+  @override
+  String get searchTipWords =>
+      'Plusieurs mots : les versets qui les contiennent tous, dans n’importe quel ordre.';
+
+  @override
+  String get searchTipPhrase =>
+      'Entre guillemets : l’expression exacte, ponctuation comprise ou non.';
+
+  @override
+  String get searchTipExclude => 'Un tiret devant un mot l’exclut.';
+
+  @override
+  String get searchTipAccents =>
+      'Accents et majuscules ne comptent pas ; un mot trouve aussi les mots qui commencent par lui (pardon → pardonne).';
+
+  @override
+  String get searchTipRef => 'Une référence ouvre directement le passage.';
+
+  @override
+  String get searchExampleWords => 'berger brebis';
+
+  @override
+  String get searchExamplePhrase => '\"que la lumière soit\"';
+
+  @override
+  String get searchExampleExclude => 'berger -loup';
+
+  @override
+  String get searchExampleRef => 'Jean 3:16';
+
+  @override
+  String get searchPreparing => 'Préparation de la recherche…';
+
+  @override
+  String searchMoreResults(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count de plus',
+      one: '1 de plus',
+    );
+    return 'Affiner la recherche pour voir les autres versets ($_temp0).';
+  }
+
+  @override
   String get progressTitle => 'Vos progrès';
 
   @override

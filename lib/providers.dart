@@ -1,3 +1,5 @@
+import 'dart:isolate';
+
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -6,6 +8,7 @@ import 'content/content.dart';
 import 'data/database.dart';
 import 'data/progress_repository.dart';
 import 'data/settings_repository.dart';
+import 'domain/search.dart';
 
 /// Fournis dans `main()` via `overrideWithValue`.
 final databaseProvider = Provider<AppDatabase>((ref) => throw UnimplementedError());
@@ -40,3 +43,12 @@ final dueProvider = StreamProvider<List<String>>((ref) => ref.watch(progressRepo
 final summaryProvider = StreamProvider<ProgressSummary>((ref) => ref.watch(progressRepoProvider).watchSummary());
 
 final favoritesProvider = StreamProvider<List<String>>((ref) => ref.watch(progressRepoProvider).watchFavorites());
+
+/// Index de recherche d'une traduction : construit une fois, hors du fil de
+/// l'interface (normalisation des 31 102 versets), puis gardé en mémoire.
+final searchIndexProvider = FutureProvider.family<SearchIndex, Translation>((ref, t) async {
+  final bible = await ref.watch(bibleProvider(t).future);
+  final texts = [for (final v in bible.allVerses) v.text];
+  final normalized = await Isolate.run(() => SearchIndex.normalizeAll(texts));
+  return SearchIndex(bible, normalized);
+});

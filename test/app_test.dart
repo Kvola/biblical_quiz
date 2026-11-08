@@ -193,6 +193,35 @@ void main() {
     await teardown(tester, db);
   });
 
+  testWidgets('recherche : expression, ouverture du verset, référence, historique', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+    final db = await pumpApp(tester, settings: {'onboarded': '1'});
+    await waitFor(tester, find.byTooltip('Rechercher'));
+
+    await tester.tap(find.byTooltip('Rechercher'));
+    await settle(tester);
+    await tester.enterText(find.byType(TextField), '"que la lumière soit"');
+    await waitFor(tester, find.text('Genèse 1:3'));
+    expect(find.textContaining('verset'), findsWidgets);
+
+    // Ouvrir le résultat : le lecteur s'ouvre sur Genèse 1.
+    await tester.tap(find.text('Genèse 1:3'));
+    await waitFor(tester, find.text('Genèse 1'));
+    final recent = await tester.runAsync(
+      () => (db.select(db.settingsEntries)..where((t) => t.key.equals('recentSearches'))).getSingleOrNull(),
+    );
+    expect(recent?.value, contains('que la lumière soit'));
+    await tester.binding.handlePopRoute();
+    await settle(tester);
+
+    // Une référence propose d'y aller, sans recherche de mots.
+    await tester.enterText(find.byType(TextField), 'Jn 3:16');
+    await waitFor(tester, find.text('Aller à Jean 3:16'));
+    await teardown(tester, db);
+  });
+
   testWidgets('l’anglais affiche la King James', (tester) async {
     // Téléphone en français, mais anglais choisi dans les réglages : le réglage l'emporte.
     final db = await pumpApp(tester, settings: {'locale': 'en', 'onboarded': '1'});

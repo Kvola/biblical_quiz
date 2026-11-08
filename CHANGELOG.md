@@ -2,6 +2,17 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.2.0 (build 3) — 8 novembre 2026
+
+- **Recherche de versets**, hors ligne, dans la Segond et la King James :
+  - plusieurs mots (tous présents, dans n'importe quel ordre), `"expression exacte"`, `-mot` pour exclure ;
+  - accents et majuscules ignorés ; un mot trouve aussi ceux qui commencent par lui (option « Mots entiers ») ;
+  - filtres : toute la Bible, Ancien ou Nouveau Testament, un livre ; recherche dans l'autre traduction ;
+  - répartition des résultats par livre (touchez un livre pour filtrer), mots trouvés surlignés ;
+  - une référence (« Jean 3:16 », « Jn 3 16 », « 1 Co 13 ») ouvre directement le passage ;
+  - recherches récentes ; appui long sur un résultat : copier, partager, mettre de côté.
+- **Lecteur** : ouvert sur un verset (recherche, verset mis de côté), il défile jusqu'à lui et le surligne.
+
 ## 1.1.0 (build 2) — 8 novembre 2026
 
 - **Mode sombre lisible** : palette déclinée en clair et en sombre, contraste vérifié (WCAG AA) pour chaque texte et chaque icône. La carte « Pour commencer » de l'accueil, illisible en sombre, et plusieurs icônes invisibles sont corrigées ; l'or des étiquettes, trop pâle en mode clair aussi.

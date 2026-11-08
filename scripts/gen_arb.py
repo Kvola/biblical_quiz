@@ -127,6 +127,41 @@ S = {
     'previousChapter': ('Chapitre précédent', 'Previous chapter'),
     'nextChapter': ('Chapitre suivant', 'Next chapter'),
     'textSize': ('Taille du texte', 'Text size'),
+    # Recherche
+    'searchTitle': ('Rechercher', 'Search'),
+    'searchHint': ('Mots, "expression exacte" ou référence', 'Words, "exact phrase" or reference'),
+    'searchClear': ('Effacer', 'Clear'),
+    'searchResults': ('{count, plural, =0{Aucun verset} =1{1 verset} other{{count} versets}}',
+                      '{count, plural, =0{No verses} =1{1 verse} other{{count} verses}}'),
+    'searchResultsFiltered': ('{shown} sur {total} versets', '{shown} of {total} verses'),
+    'searchNoResult': ('Aucun verset ne contient tous ces mots. Essayez moins de mots, ou désactivez « Mots entiers ».',
+                       'No verse contains all these words. Try fewer words, or turn off “Whole words”.'),
+    'searchAll': ('Toute la Bible', 'Whole Bible'),
+    'searchOld': ('Ancien Testament', 'Old Testament'),
+    'searchNew': ('Nouveau Testament', 'New Testament'),
+    'searchBook': ('Livre…', 'Book…'),
+    'searchAllBooks': ('Tous les livres', 'All books'),
+    'searchWholeWords': ('Mots entiers', 'Whole words'),
+    'searchIn': ('Chercher dans : {name}', 'Search in: {name}'),
+    'searchGoTo': ('Aller à {ref}', 'Go to {ref}'),
+    'searchRecent': ('Recherches récentes', 'Recent searches'),
+    'searchClearRecent': ('Tout effacer', 'Clear all'),
+    'searchTipsTitle': ('Comment chercher', 'How to search'),
+    'searchTipWords': ('Plusieurs mots : les versets qui les contiennent tous, dans n’importe quel ordre.',
+                       'Several words: verses containing all of them, in any order.'),
+    'searchTipPhrase': ('Entre guillemets : l’expression exacte, ponctuation comprise ou non.',
+                        'In quotes: the exact phrase, with or without punctuation.'),
+    'searchTipExclude': ('Un tiret devant un mot l’exclut.', 'A dash before a word excludes it.'),
+    'searchTipAccents': ('Accents et majuscules ne comptent pas ; un mot trouve aussi les mots qui commencent par lui (pardon → pardonne).',
+                         'Accents and capitals do not matter; a word also finds words starting with it (forgive → forgiveness).'),
+    'searchTipRef': ('Une référence ouvre directement le passage.', 'A reference opens the passage directly.'),
+    'searchExampleWords': ('berger brebis', 'shepherd sheep'),
+    'searchExamplePhrase': ('"que la lumière soit"', '"let there be light"'),
+    'searchExampleExclude': ('berger -loup', 'shepherd -wolf'),
+    'searchExampleRef': ('Jean 3:16', 'John 3:16'),
+    'searchPreparing': ('Préparation de la recherche…', 'Preparing search…'),
+    'searchMoreResults': ('Affiner la recherche pour voir les autres versets ({count, plural, =1{1 de plus} other{{count} de plus}}).',
+                          'Refine the search to see the other verses ({count, plural, =1{1 more} other{{count} more}}).'),
     # Progrès
     'progressTitle': ('Vos progrès', 'Your progress'),
     'statLessons': ('Leçons terminées', 'Lessons completed'),
@@ -165,7 +200,7 @@ S = {
 
 def placeholders(text):
     names = []
-    for m in re.finditer(r'\{([A-Za-z]\w*)(,\s*plural)?', text):
+    for m in re.finditer(r'\{([A-Za-z]\w*)(?:\}|,\s*plural)', text):
         if m.group(1) not in names and m.group(1) not in ('other',):
             names.append(m.group(1))
     # Dans un pluriel, les {count} intérieurs ne sont pas de nouveaux paramètres.
@@ -180,7 +215,7 @@ def build(index):
         ph = placeholders(pair[0])
         if ph:
             arb[f'@{key}'] = {'placeholders': {
-                p: {'type': 'int'} if p in ('count', 'done', 'total', 'score', 'index', 'chapter') else {'type': 'String'}
+                p: {'type': 'int'} if p in ('count', 'done', 'total', 'score', 'index', 'chapter', 'shown') else {'type': 'String'}
                 for p in ph}}
     return arb
 

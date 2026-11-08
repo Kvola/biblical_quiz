@@ -80,6 +80,14 @@ class Bible {
     return books;
   }
 
+  /// Tous les versets dans l'ordre canonique (calculé une fois, à la demande).
+  late final List<Verse> allVerses = [
+    for (final b in _books)
+      for (final c in b) ...c,
+  ];
+
+  int get verseCount => allVerses.length;
+
   int chapterCount(int book) => _books[book - 1].length;
 
   List<Verse> chapter(int book, int chapter) => _books[book - 1][chapter - 1];

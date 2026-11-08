@@ -109,7 +109,7 @@ class QuizPalette extends ThemeExtension<QuizPalette> {
     heroAccent: Color(0xFFF0D683),
     heroButton: Color(0xFFE8CB6A),
     onHeroButton: QuizColors.ink,
-    highlight: Color(0x38E8CB6A),
+    highlight: Color(0x55E8CB6A),
     card: QuizColors.darkCard,
   );
 

@@ -9,6 +9,7 @@ import '../../core/verse_ref.dart';
 import '../../providers.dart';
 import '../common.dart';
 import '../widgets/passage_view.dart';
+import '../search/search_screen.dart';
 import '../widgets/verse_sheet.dart';
 
 /// Ouvre le lecteur sur un chapitre précis (depuis une fiche de livre ou un favori).
@@ -48,6 +49,8 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
   int? _highlight;
   Timer? _activeTimer;
   late final AppLifecycleListener _lifecycle;
+  final _highlightKey = GlobalKey();
+  bool _scrollToHighlight = false;
   final _scroll = ScrollController();
 
   @override
@@ -56,6 +59,7 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
     _book = widget.initialBook;
     _chapter = widget.initialChapter;
     _highlight = widget.highlightVerse;
+    _scrollToHighlight = _highlight != null;
     // Application en arrière-plan : on ne lit pas.
     _lifecycle = AppLifecycleListener(onShow: _armActivity, onHide: _disarm);
     WidgetsBinding.instance.addPostFrameCallback((_) => _armActivity());
@@ -128,6 +132,16 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
           _chapter = settings.readerChapter.clamp(1, bible.chapterCount(settings.readerBook));
         }
         final book = _book ?? 43, chapter = _chapter ?? 1;
+        if (_scrollToHighlight) {
+          _scrollToHighlight = false;
+          // Une fois le chapitre dessiné : amener le verset surligné vers le haut de l'écran.
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            final c = _highlightKey.currentContext;
+            if (c != null && c.mounted) {
+              Scrollable.ensureVisible(c, alignment: 0.2, duration: const Duration(milliseconds: 300));
+            }
+          });
+        }
         final count = bible.chapterCount(book);
         final title = l.chapterTitle(bookById(book).name(lang), chapter);
         final hasPrev = chapter > 1 || book > 1;
@@ -153,6 +167,11 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
             ),
             actions: [
               IconButton(
+                tooltip: l.searchTitle,
+                icon: const Icon(Icons.search),
+                onPressed: () => SearchScreen.open(context),
+              ),
+              IconButton(
                 tooltip: l.showParallel,
                 isSelected: settings?.parallel ?? false,
                 icon: const Icon(Icons.translate),
@@ -168,6 +187,7 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
                 _ChapterSliver(
                   verseRef: ref0,
                   highlight: _highlight,
+                  highlightKey: _highlightKey,
                   onVerseTap: (v) => showVerseSheet(context, VerseRef.single(v.book, v.chapter, v.number)),
                 ),
                 SliverToBoxAdapter(
@@ -211,10 +231,11 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
 
 /// Le chapitre courant, avec un verset éventuellement surligné (venu d'un favori).
 class _ChapterSliver extends ConsumerWidget {
-  const _ChapterSliver({required this.verseRef, required this.onVerseTap, this.highlight});
+  const _ChapterSliver({required this.verseRef, required this.onVerseTap, this.highlight, this.highlightKey});
 
   final VerseRef verseRef;
   final int? highlight;
+  final GlobalKey? highlightKey;
   final void Function(Verse) onVerseTap;
 
   @override
@@ -227,17 +248,23 @@ class _ChapterSliver extends ConsumerWidget {
     final bible = ref.watch(bibleProvider(t)).value;
     final other = (settings?.parallel ?? false) ? ref.watch(bibleProvider(t.other)).value : null;
     if (bible == null) return const SliverToBoxAdapter(child: SizedBox.shrink());
-    return SliverList.list(
-      children: [
-        for (final v in bible.passage(verseRef))
-          VerseTile(
-            verse: v,
-            scale: settings?.textScale ?? 1.0,
-            secondary: other?.verse(v.book, v.chapter, v.number)?.text,
-            highlighted: v.number == highlight,
-            onTap: () => onVerseTap(v),
-          ),
-      ],
+    // Chapitre construit d'un bloc (176 versets au plus, Psaume 119) : le verset
+    // surligné existe donc dès le premier affichage, et l'on peut défiler jusqu'à lui.
+    return SliverToBoxAdapter(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          for (final v in bible.passage(verseRef))
+            VerseTile(
+              key: v.number == highlight ? highlightKey : null,
+              verse: v,
+              scale: settings?.textScale ?? 1.0,
+              secondary: other?.verse(v.book, v.chapter, v.number)?.text,
+              highlighted: v.number == highlight,
+              onTap: () => onVerseTap(v),
+            ),
+        ],
+      ),
     );
   }
 }

@@ -217,6 +217,72 @@
   "previousChapter": "Chapitre précédent",
   "nextChapter": "Chapitre suivant",
   "textSize": "Taille du texte",
+  "searchTitle": "Rechercher",
+  "searchHint": "Mots, \"expression exacte\" ou référence",
+  "searchClear": "Effacer",
+  "searchResults": "{count, plural, =0{Aucun verset} =1{1 verset} other{{count} versets}}",
+  "@searchResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchResultsFiltered": "{shown} sur {total} versets",
+  "@searchResultsFiltered": {
+    "placeholders": {
+      "shown": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "searchNoResult": "Aucun verset ne contient tous ces mots. Essayez moins de mots, ou désactivez « Mots entiers ».",
+  "searchAll": "Toute la Bible",
+  "searchOld": "Ancien Testament",
+  "searchNew": "Nouveau Testament",
+  "searchBook": "Livre…",
+  "searchAllBooks": "Tous les livres",
+  "searchWholeWords": "Mots entiers",
+  "searchIn": "Chercher dans : {name}",
+  "@searchIn": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "searchGoTo": "Aller à {ref}",
+  "@searchGoTo": {
+    "placeholders": {
+      "ref": {
+        "type": "String"
+      }
+    }
+  },
+  "searchRecent": "Recherches récentes",
+  "searchClearRecent": "Tout effacer",
+  "searchTipsTitle": "Comment chercher",
+  "searchTipWords": "Plusieurs mots : les versets qui les contiennent tous, dans n’importe quel ordre.",
+  "searchTipPhrase": "Entre guillemets : l’expression exacte, ponctuation comprise ou non.",
+  "searchTipExclude": "Un tiret devant un mot l’exclut.",
+  "searchTipAccents": "Accents et majuscules ne comptent pas ; un mot trouve aussi les mots qui commencent par lui (pardon → pardonne).",
+  "searchTipRef": "Une référence ouvre directement le passage.",
+  "searchExampleWords": "berger brebis",
+  "searchExamplePhrase": "\"que la lumière soit\"",
+  "searchExampleExclude": "berger -loup",
+  "searchExampleRef": "Jean 3:16",
+  "searchPreparing": "Préparation de la recherche…",
+  "searchMoreResults": "Affiner la recherche pour voir les autres versets ({count, plural, =1{1 de plus} other{{count} de plus}}).",
+  "@searchMoreResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "progressTitle": "Vos progrès",
   "statLessons": "Leçons terminées",
   "statAnswered": "Réponses données",

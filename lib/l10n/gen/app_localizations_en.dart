@@ -369,6 +369,117 @@ class AppLocalizationsEn extends AppLocalizations {
   String get textSize => 'Text size';
 
   @override
+  String get searchTitle => 'Search';
+
+  @override
+  String get searchHint => 'Words, \"exact phrase\" or reference';
+
+  @override
+  String get searchClear => 'Clear';
+
+  @override
+  String searchResults(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count verses',
+      one: '1 verse',
+      zero: 'No verses',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String searchResultsFiltered(int shown, int total) {
+    return '$shown of $total verses';
+  }
+
+  @override
+  String get searchNoResult =>
+      'No verse contains all these words. Try fewer words, or turn off “Whole words”.';
+
+  @override
+  String get searchAll => 'Whole Bible';
+
+  @override
+  String get searchOld => 'Old Testament';
+
+  @override
+  String get searchNew => 'New Testament';
+
+  @override
+  String get searchBook => 'Book…';
+
+  @override
+  String get searchAllBooks => 'All books';
+
+  @override
+  String get searchWholeWords => 'Whole words';
+
+  @override
+  String searchIn(String name) {
+    return 'Search in: $name';
+  }
+
+  @override
+  String searchGoTo(String ref) {
+    return 'Go to $ref';
+  }
+
+  @override
+  String get searchRecent => 'Recent searches';
+
+  @override
+  String get searchClearRecent => 'Clear all';
+
+  @override
+  String get searchTipsTitle => 'How to search';
+
+  @override
+  String get searchTipWords =>
+      'Several words: verses containing all of them, in any order.';
+
+  @override
+  String get searchTipPhrase =>
+      'In quotes: the exact phrase, with or without punctuation.';
+
+  @override
+  String get searchTipExclude => 'A dash before a word excludes it.';
+
+  @override
+  String get searchTipAccents =>
+      'Accents and capitals do not matter; a word also finds words starting with it (forgive → forgiveness).';
+
+  @override
+  String get searchTipRef => 'A reference opens the passage directly.';
+
+  @override
+  String get searchExampleWords => 'shepherd sheep';
+
+  @override
+  String get searchExamplePhrase => '\"let there be light\"';
+
+  @override
+  String get searchExampleExclude => 'shepherd -wolf';
+
+  @override
+  String get searchExampleRef => 'John 3:16';
+
+  @override
+  String get searchPreparing => 'Preparing search…';
+
+  @override
+  String searchMoreResults(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count more',
+      one: '1 more',
+    );
+    return 'Refine the search to see the other verses ($_temp0).';
+  }
+
+  @override
   String get progressTitle => 'Your progress';
 
   @override

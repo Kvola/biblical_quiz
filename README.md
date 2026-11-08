@@ -31,6 +31,7 @@ Soit **669 questions**, toutes en français et en anglais.
 - **Leçon** : intro de contexte, lecture du passage (lecture bilingue possible : l'autre traduction sous chaque verset), questions avec correction et explication immédiates, « à retenir » et verset clé.
 - **Révision espacée** : une question ratée revient le lendemain, puis de plus en plus rarement quand elle est réussie (boîtes de Leitner : 1, 3, 7, 16, 35 jours), jusqu'à être « acquise ».
 - **Défi « Dans quel livre ? »** : retrouver le livre d'un verset clé (questions construites à partir du texte embarqué : justes par construction).
+- **Recherche** : par mots (tous présents, dans n'importe quel ordre), `"expression exacte"` ou `-mot` exclu, sans tenir compte des accents ni des majuscules, dans toute la Bible, un Testament ou un livre, en Segond ou en King James ; résultats répartis par livre et surlignés ; une référence (« Jean 3:16 », « 1 Co 13 ») ouvre le passage ; recherches récentes.
 - **Bible** : lecture libre chapitre par chapitre, reprise là où on s'était arrêté ; toucher un verset pour le copier, le partager ou le mettre de côté.
 - **Progrès** : série, leçons, réponses, taux de réussite, questions acquises, versets mis de côté.
 - **Réglages** : langue (la traduction biblique suit la langue), thème (celui du téléphone, clair ou sombre), taille du texte, lecture bilingue, effacement de la progression.

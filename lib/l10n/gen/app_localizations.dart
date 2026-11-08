@@ -665,13 +665,13 @@ abstract class AppLocalizations {
   /// No description provided for @previousChapter.
   ///
   /// In fr, this message translates to:
-  /// **'Chapitre précédent'**
+  /// **'Précédent'**
   String get previousChapter;
 
   /// No description provided for @nextChapter.
   ///
   /// In fr, this message translates to:
-  /// **'Chapitre suivant'**
+  /// **'Suivant'**
   String get nextChapter;
 
   /// No description provided for @textSize.
@@ -1201,6 +1201,54 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'{count, plural, =0{Aucun chapitre lu} =1{1 chapitre lu} other{{count} chapitres lus}}'**
   String chaptersReadTotal(int count);
+
+  /// No description provided for @testThisChapter.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tester ce chapitre'**
+  String get testThisChapter;
+
+  /// No description provided for @chapterQuizTooFew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ce chapitre est trop court pour un quiz. Essayez un quiz sur le livre entier.'**
+  String get chapterQuizTooFew;
+
+  /// No description provided for @bibleReadingTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ma lecture de la Bible'**
+  String get bibleReadingTitle;
+
+  /// No description provided for @bibleReadingTotal.
+  ///
+  /// In fr, this message translates to:
+  /// **'{done, plural, =0{Aucun chapitre lu sur {total}} =1{1 chapitre lu sur {total}} other{{done} chapitres lus sur {total}}}'**
+  String bibleReadingTotal(int done, int total);
+
+  /// No description provided for @bibleReadingHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Touchez un livre pour voir ses chapitres.'**
+  String get bibleReadingHint;
+
+  /// No description provided for @bookReadSemantics.
+  ///
+  /// In fr, this message translates to:
+  /// **'{name} : {done} chapitres lus sur {total}'**
+  String bookReadSemantics(String name, int done, int total);
+
+  /// No description provided for @booksStarted.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =0{Aucun livre commencé} =1{1 livre commencé} other{{count} livres commencés}}'**
+  String booksStarted(int count);
+
+  /// No description provided for @booksFinished.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =0{aucun terminé} =1{1 terminé} other{{count} terminés}}'**
+  String booksFinished(int count);
 }
 
 class _AppLocalizationsDelegate

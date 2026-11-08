@@ -254,6 +254,32 @@ void main() {
     expect([for (final r in rows) (r.book, r.chapter, r.manual)], [(43, 1, false)]);
     expect(find.text('Chapitre lu'), findsOneWidget);
 
+    // Juste après la lecture : un petit quiz sur CE chapitre.
+    await tester.tap(find.text('Tester ce chapitre'));
+    await waitFor(tester, find.text('Quiz : Jean 1'));
+    await waitFor(tester, find.textContaining('Question 1 sur'));
+    expect(find.textContaining('sur 5'), findsWidgets);
+    await tester.binding.handlePopRoute();
+    await settle(tester);
+
+    // Progrès : la lecture de la Bible, livre par livre.
+    await tester.tap(find.text('Progrès'));
+    await settle(tester);
+    final total = find.text('1 chapitre lu sur 1189');
+    await tester.scrollUntilVisible(total, 400, scrollable: find.byType(Scrollable).first);
+    expect(total, findsOneWidget);
+    final jn = find.bySemanticsLabel('Jean : 1 chapitres lus sur 21');
+    await tester.scrollUntilVisible(jn, 300, scrollable: find.byType(Scrollable).first);
+    // Encore un peu : la tuile ne doit pas rester sous la barre de navigation.
+    await tester.drag(find.byType(Scrollable).first, const Offset(0, -250));
+    await settle(tester);
+    await tester.tap(jn);
+    await settle(tester);
+    expect(find.text('1 / 21 chapitres lus'), findsOneWidget);
+    expect(find.text('Quiz sur ce livre'), findsOneWidget);
+    await tester.binding.handlePopRoute();
+    await settle(tester);
+
     // Le quiz propose Jean (lu) et porte sur ce qui a été lu.
     await tester.tap(find.text('Accueil'));
     await settle(tester);

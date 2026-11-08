@@ -2,7 +2,7 @@ name: biblical_quiz
 description: "Quiz biblique — lire et comprendre la Bible (Louis Segond 1910 / King James 1769)."
 publish_to: 'none'
 
-version: 1.3.0+4
+version: 1.4.0+5
 
 environment:
   sdk: ^3.13.7

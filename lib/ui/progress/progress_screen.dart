@@ -9,6 +9,7 @@ import '../../providers.dart';
 import '../bible/reader_screen.dart';
 import '../common.dart';
 import '../launchers.dart';
+import 'bible_reading_section.dart';
 
 class ProgressScreen extends ConsumerWidget {
   const ProgressScreen({super.key});
@@ -97,6 +98,7 @@ class ProgressScreen extends ConsumerWidget {
                   ),
                 ),
             ],
+            if (bible != null) ...[SectionTitle(l.bibleReadingTitle), BibleReadingSection(bible: bible)],
             SectionTitle(l.favoritesTitle),
             if (favorites.isEmpty)
               Padding(padding: const EdgeInsets.symmetric(horizontal: 4), child: Text(l.favoritesEmpty))

@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../bible/bible.dart';
 import '../../core/books.dart';
 import '../../core/verse_ref.dart';
+import '../../domain/reading_quiz.dart';
 import '../../providers.dart';
 import '../common.dart';
 import '../widgets/passage_view.dart';
@@ -252,21 +253,41 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
                 SliverToBoxAdapter(
                   child: Padding(
                     padding: const EdgeInsets.fromLTRB(16, 24, 16, 0),
-                    child: Center(
-                      child: isRead
-                          ? FilledButton.tonalIcon(
-                              onPressed: () => ref.read(progressRepoProvider).unmarkRead(book, chapter),
-                              icon: const Icon(Icons.check_circle),
-                              label: Text(l.chapterRead),
-                            )
-                          : OutlinedButton.icon(
-                              onPressed: () {
-                                _markedThisView = true;
-                                ref.read(progressRepoProvider).markChapterRead(book, chapter, manual: true);
-                              },
-                              icon: const Icon(Icons.check_circle_outline),
-                              label: Text(l.markChapterRead),
-                            ),
+                    child: Wrap(
+                      alignment: WrapAlignment.center,
+                      spacing: 12,
+                      runSpacing: 10,
+                      children: [
+                        if (isRead)
+                          FilledButton.tonalIcon(
+                            onPressed: () => ref.read(progressRepoProvider).unmarkRead(book, chapter),
+                            icon: const Icon(Icons.check_circle),
+                            label: Text(l.chapterRead),
+                          )
+                        else
+                          OutlinedButton.icon(
+                            onPressed: () {
+                              _markedThisView = true;
+                              ref.read(progressRepoProvider).markChapterRead(book, chapter, manual: true);
+                            },
+                            icon: const Icon(Icons.check_circle_outline),
+                            label: Text(l.markChapterRead),
+                          ),
+                        // Juste après la lecture : vérifier ce qu'on a retenu de CE chapitre.
+                        OutlinedButton.icon(
+                          onPressed: () => openReadingQuiz(
+                            context,
+                            ref,
+                            scope: ReadingScope({book: {chapter}}),
+                            count: 5,
+                            title: l.readingQuizNamed(title),
+                            tooFew: l.chapterQuizTooFew,
+                            bible: bible,
+                          ),
+                          icon: const Icon(Icons.quiz_outlined),
+                          label: Text(l.testThisChapter),
+                        ),
+                      ],
                     ),
                   ),
                 ),

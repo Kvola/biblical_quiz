@@ -124,8 +124,9 @@ S = {
     'chooseBook': ('Choisir un livre', 'Choose a book'),
     'chooseChapter': ('{book} : choisir un chapitre', '{book}: choose a chapter'),
     'chapterTitle': ('{book} {chapter}', '{book} {chapter}'),
-    'previousChapter': ('Chapitre précédent', 'Previous chapter'),
-    'nextChapter': ('Chapitre suivant', 'Next chapter'),
+    # Courts : les deux boutons se partagent la largeur d'un téléphone (« Chapitre précéd… » était coupé).
+    'previousChapter': ('Précédent', 'Previous'),
+    'nextChapter': ('Suivant', 'Next'),
     'textSize': ('Taille du texte', 'Text size'),
     # Recherche
     'searchTitle': ('Rechercher', 'Search'),
@@ -233,6 +234,18 @@ S = {
     'quizOnThisBook': ('Quiz sur ce livre', 'Quiz on this book'),
     'chaptersReadTotal': ('{count, plural, =0{Aucun chapitre lu} =1{1 chapitre lu} other{{count} chapitres lus}}',
                           '{count, plural, =0{No chapter read} =1{1 chapter read} other{{count} chapters read}}'),
+    'testThisChapter': ('Tester ce chapitre', 'Test this chapter'),
+    'chapterQuizTooFew': ('Ce chapitre est trop court pour un quiz. Essayez un quiz sur le livre entier.',
+                          'This chapter is too short for a quiz. Try a quiz on the whole book.'),
+    'bibleReadingTitle': ('Ma lecture de la Bible', 'My Bible reading'),
+    'bibleReadingTotal': ('{done, plural, =0{Aucun chapitre lu sur {total}} =1{1 chapitre lu sur {total}} other{{done} chapitres lus sur {total}}}',
+                          '{done, plural, =0{No chapter read out of {total}} =1{1 chapter read out of {total}} other{{done} chapters read out of {total}}}'),
+    'bibleReadingHint': ('Touchez un livre pour voir ses chapitres.', 'Tap a book to see its chapters.'),
+    'bookReadSemantics': ('{name} : {done} chapitres lus sur {total}', '{name}: {done} of {total} chapters read'),
+    'booksStarted': ('{count, plural, =0{Aucun livre commencé} =1{1 livre commencé} other{{count} livres commencés}}',
+                     '{count, plural, =0{No book started} =1{1 book started} other{{count} books started}}'),
+    'booksFinished': ('{count, plural, =0{aucun terminé} =1{1 terminé} other{{count} terminés}}',
+                      '{count, plural, =0{none finished} =1{1 finished} other{{count} finished}}'),
 }
 
 

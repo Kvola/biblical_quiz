@@ -214,8 +214,8 @@
       }
     }
   },
-  "previousChapter": "Previous chapter",
-  "nextChapter": "Next chapter",
+  "previousChapter": "Previous",
+  "nextChapter": "Next",
   "textSize": "Text size",
   "searchTitle": "Search",
   "searchHint": "Words, \"exact phrase\" or reference",
@@ -388,6 +388,51 @@
   "quizOnThisBook": "Quiz on this book",
   "chaptersReadTotal": "{count, plural, =0{No chapter read} =1{1 chapter read} other{{count} chapters read}}",
   "@chaptersReadTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "testThisChapter": "Test this chapter",
+  "chapterQuizTooFew": "This chapter is too short for a quiz. Try a quiz on the whole book.",
+  "bibleReadingTitle": "My Bible reading",
+  "bibleReadingTotal": "{done, plural, =0{No chapter read out of {total}} =1{1 chapter read out of {total}} other{{done} chapters read out of {total}}}",
+  "@bibleReadingTotal": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "bibleReadingHint": "Tap a book to see its chapters.",
+  "bookReadSemantics": "{name}: {done} of {total} chapters read",
+  "@bookReadSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "booksStarted": "{count, plural, =0{No book started} =1{1 book started} other{{count} books started}}",
+  "@booksStarted": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "booksFinished": "{count, plural, =0{none finished} =1{1 finished} other{{count} finished}}",
+  "@booksFinished": {
     "placeholders": {
       "count": {
         "type": "int"

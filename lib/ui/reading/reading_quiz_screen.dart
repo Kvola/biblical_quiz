@@ -61,33 +61,13 @@ class _ReadingQuizScreenState extends ConsumerState<ReadingQuizScreen> {
       return;
     }
     final scope = ReadingScope({for (final b in selected) b: onlyRead ? (read[b] ?? <int>{}) : null});
-    setState(() => _busy = true);
-    final content = await ref.read(contentProvider.future);
-    final count = _count;
-    List<Question> questions;
-    try {
-      // Plusieurs livres = des milliers de versets à analyser : hors du fil de l'interface.
-      questions = await Isolate.run(() => ReadingQuiz.build(content: content, bible: bible, lang: lang, scope: scope, count: count));
-    } catch (_) {
-      questions = ReadingQuiz.build(content: content, bible: bible, lang: lang, scope: scope, count: count);
-    }
-    if (!mounted) return;
-    setState(() => _busy = false);
-    if (questions.length < 3) {
-      context.toast(l.readingQuizTooFew);
-      return;
-    }
     final name = selected.length == 1 ? bookById(selected.single).name(lang) : l.readingQuizBooksCount(selected.length);
-    await Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => QuizScreen(
-          title: l.readingQuizNamed(name),
-          questions: questions,
-          shuffleQuestions: true,
-          showSource: true,
-        ),
-      ),
-    );
+    setState(() => _busy = true);
+    await openReadingQuiz(context, ref, scope: scope, count: _count, title: l.readingQuizNamed(name), bible: bible,
+        tooFew: l.readingQuizTooFew, onBuilt: () {
+      if (mounted) setState(() => _busy = false);
+    });
+    if (mounted) setState(() => _busy = false);
   }
 
   @override
@@ -319,4 +299,40 @@ class _BookTile extends StatelessWidget {
       ),
     );
   }
+}
+
+/// Construit un quiz de lecture (hors du fil de l'interface) puis l'ouvre.
+/// [tooFew] : message si la portée ne donne pas au moins trois questions.
+Future<void> openReadingQuiz(
+  BuildContext context,
+  WidgetRef ref, {
+  required ReadingScope scope,
+  required int count,
+  required String title,
+  required String tooFew,
+  Bible? bible,
+  VoidCallback? onBuilt,
+}) async {
+  final lang = context.lang;
+  final nav = Navigator.of(context);
+  final content = await ref.read(contentProvider.future);
+  final Bible b = bible ?? await ref.read(bibleProvider(Translation.forLang(lang)).future);
+  List<Question> questions;
+  try {
+    // Plusieurs livres = des milliers de versets à analyser : hors du fil de l'interface.
+    questions = await Isolate.run(() => ReadingQuiz.build(content: content, bible: b, lang: lang, scope: scope, count: count));
+  } catch (_) {
+    questions = ReadingQuiz.build(content: content, bible: b, lang: lang, scope: scope, count: count);
+  }
+  onBuilt?.call();
+  if (!context.mounted) return;
+  if (questions.length < 3) {
+    context.toast(tooFew);
+    return;
+  }
+  await nav.push(
+    MaterialPageRoute(
+      builder: (_) => QuizScreen(title: title, questions: questions, shuffleQuestions: true, showSource: true),
+    ),
+  );
 }

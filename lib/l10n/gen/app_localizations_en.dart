@@ -360,10 +360,10 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get previousChapter => 'Previous chapter';
+  String get previousChapter => 'Previous';
 
   @override
-  String get nextChapter => 'Next chapter';
+  String get nextChapter => 'Next';
 
   @override
   String get textSize => 'Text size';
@@ -699,6 +699,60 @@ class AppLocalizationsEn extends AppLocalizations {
       other: '$count chapters read',
       one: '1 chapter read',
       zero: 'No chapter read',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get testThisChapter => 'Test this chapter';
+
+  @override
+  String get chapterQuizTooFew =>
+      'This chapter is too short for a quiz. Try a quiz on the whole book.';
+
+  @override
+  String get bibleReadingTitle => 'My Bible reading';
+
+  @override
+  String bibleReadingTotal(int done, int total) {
+    String _temp0 = intl.Intl.pluralLogic(
+      done,
+      locale: localeName,
+      other: '$done chapters read out of $total',
+      one: '1 chapter read out of $total',
+      zero: 'No chapter read out of $total',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get bibleReadingHint => 'Tap a book to see its chapters.';
+
+  @override
+  String bookReadSemantics(String name, int done, int total) {
+    return '$name: $done of $total chapters read';
+  }
+
+  @override
+  String booksStarted(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count books started',
+      one: '1 book started',
+      zero: 'No book started',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String booksFinished(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count finished',
+      one: '1 finished',
+      zero: 'none finished',
     );
     return '$_temp0';
   }

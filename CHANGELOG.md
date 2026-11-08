@@ -2,6 +2,14 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.4.0 (build 5) — 8 novembre 2026
+
+- **Tester ce chapitre** : en bas de chaque chapitre du lecteur, un quiz de 5 questions sur ce chapitre seulement.
+- **Ma lecture de la Bible** (onglet Progrès) : chapitres lus sur 1 189, livres commencés et terminés, avancement par Testament,
+  et les 66 livres en tuiles remplies selon les chapitres lus. Toucher un livre montre ses chapitres (lus en vert) :
+  ouvrir un chapitre dans le lecteur, ou lancer un quiz sur ce livre.
+- Lecteur : boutons « Précédent » / « Suivant » (le libellé long était coupé).
+
 ## 1.3.0 (build 4) — 8 novembre 2026
 
 - **Quiz sur mes lectures** (Accueil, ou « Quiz sur ce livre » dans le lecteur) : un quiz sur un ou plusieurs livres choisis.

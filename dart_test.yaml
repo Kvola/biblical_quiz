@@ -1,0 +1,4 @@
+tags:
+  # Démonstrations (sorties à relire, pas des tests) : flutter test --run-skipped --tags demo
+  demo:
+    skip: "Démonstration : à lancer avec --run-skipped --tags demo"

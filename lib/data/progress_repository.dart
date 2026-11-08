@@ -1,6 +1,5 @@
 import 'package:drift/drift.dart';
 
-import '../domain/book_challenge.dart';
 import '../domain/days.dart';
 import '../domain/quiz_session.dart';
 import '../domain/review.dart';
@@ -47,7 +46,8 @@ class ProgressRepository {
     final day = today;
     await db.transaction(() async {
       for (final r in records) {
-        if (r.questionId.startsWith(BookChallenge.idPrefix)) continue;
+        // Questions fabriquées (défi des livres, quiz de lecture : préfixe « gen- ») : pas de révision.
+        if (r.questionId.startsWith('gen-')) continue;
         final existing = await (db.select(
           db.questionStats,
         )..where((t) => t.questionId.equals(r.questionId))).getSingleOrNull();
@@ -167,5 +167,36 @@ class ProgressRepository {
     await db.delete(db.lessonProgress).go();
     await db.delete(db.questionStats).go();
     await db.delete(db.activityDays).go();
+    await db.delete(db.readChapters).go();
   });
+
+  // -- Chapitres lus -------------------------------------------------------
+  /// Chapitres lus, par livre.
+  Stream<Map<int, Set<int>>> watchReadChapters() => db.select(db.readChapters).watch().map((rows) {
+    final out = <int, Set<int>>{};
+    for (final r in rows) {
+      (out[r.book] ??= <int>{}).add(r.chapter);
+    }
+    return out;
+  });
+
+  /// Note un chapitre comme lu (relu : seule la date de dernière lecture change).
+  Future<void> markChapterRead(int book, int chapter, {bool manual = false}) => markChaptersRead(book, [chapter], manual: manual);
+
+  Future<void> markChaptersRead(int book, Iterable<int> chapters, {bool manual = false}) => db.transaction(() async {
+    final day = today;
+    for (final c in chapters) {
+      await db.customInsert(
+        'INSERT INTO read_chapters (book, chapter, first_day, last_day, manual) VALUES (?, ?, ?, ?, ?) '
+        'ON CONFLICT(book, chapter) DO UPDATE SET last_day = excluded.last_day',
+        variables: [Variable.withInt(book), Variable.withInt(c), Variable.withInt(day), Variable.withInt(day),
+          Variable.withBool(manual)],
+        updates: {db.readChapters},
+      );
+    }
+  });
+
+  /// Retire la marque « lu » (un chapitre, ou tout le livre si [chapter] est null).
+  Future<void> unmarkRead(int book, [int? chapter]) =>
+      (db.delete(db.readChapters)..where((t) => t.book.equals(book) & (chapter == null ? const Constant(true) : t.chapter.equals(chapter)))).go();
 }

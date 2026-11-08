@@ -1001,7 +1001,7 @@ abstract class AppLocalizations {
   /// No description provided for @resetProgressBody.
   ///
   /// In fr, this message translates to:
-  /// **'Leçons terminées, révisions et série seront effacées. Vos versets mis de côté et vos réglages sont conservés. Cette action est définitive.'**
+  /// **'Leçons terminées, révisions, série et chapitres lus seront effacés. Vos versets mis de côté et vos réglages sont conservés. Cette action est définitive.'**
   String get resetProgressBody;
 
   /// No description provided for @resetDone.
@@ -1009,6 +1009,198 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Progression effacée'**
   String get resetDone;
+
+  /// No description provided for @readingQuizTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Quiz sur mes lectures'**
+  String get readingQuizTitle;
+
+  /// No description provided for @readingQuizSubtitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Un quiz sur le ou les livres que vous avez lus'**
+  String get readingQuizSubtitle;
+
+  /// No description provided for @readingQuizIntro.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisissez un ou plusieurs livres. Les questions relues viennent d’abord ; d’autres, tirées du texte même, complètent le quiz.'**
+  String get readingQuizIntro;
+
+  /// No description provided for @readingQuizBooks.
+  ///
+  /// In fr, this message translates to:
+  /// **'Livres du quiz'**
+  String get readingQuizBooks;
+
+  /// No description provided for @selectMyReading.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mes lectures'**
+  String get selectMyReading;
+
+  /// No description provided for @selectNone.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun'**
+  String get selectNone;
+
+  /// No description provided for @genreLaw.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pentateuque'**
+  String get genreLaw;
+
+  /// No description provided for @genreHistory.
+  ///
+  /// In fr, this message translates to:
+  /// **'Livres historiques'**
+  String get genreHistory;
+
+  /// No description provided for @genrePoetry.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poétiques'**
+  String get genrePoetry;
+
+  /// No description provided for @genreProphets.
+  ///
+  /// In fr, this message translates to:
+  /// **'Prophètes'**
+  String get genreProphets;
+
+  /// No description provided for @genreGospels.
+  ///
+  /// In fr, this message translates to:
+  /// **'Évangiles'**
+  String get genreGospels;
+
+  /// No description provided for @genreActs.
+  ///
+  /// In fr, this message translates to:
+  /// **'Actes'**
+  String get genreActs;
+
+  /// No description provided for @genreEpistles.
+  ///
+  /// In fr, this message translates to:
+  /// **'Épîtres'**
+  String get genreEpistles;
+
+  /// No description provided for @genreApocalyptic.
+  ///
+  /// In fr, this message translates to:
+  /// **'Apocalypse'**
+  String get genreApocalyptic;
+
+  /// No description provided for @chaptersReadOf.
+  ///
+  /// In fr, this message translates to:
+  /// **'{done} / {total} chapitres lus'**
+  String chaptersReadOf(int done, int total);
+
+  /// No description provided for @scopeRead.
+  ///
+  /// In fr, this message translates to:
+  /// **'Chapitres lus'**
+  String get scopeRead;
+
+  /// No description provided for @scopeWhole.
+  ///
+  /// In fr, this message translates to:
+  /// **'Livres entiers'**
+  String get scopeWhole;
+
+  /// No description provided for @scopeReadHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Les questions portent seulement sur les chapitres que vous avez lus.'**
+  String get scopeReadHint;
+
+  /// No description provided for @scopeWholeHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Les questions portent sur l’ensemble des livres choisis.'**
+  String get scopeWholeHint;
+
+  /// No description provided for @questionCountLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nombre de questions'**
+  String get questionCountLabel;
+
+  /// No description provided for @startReadingQuiz.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =1{Commencer · 1 livre} other{Commencer · {count} livres}}'**
+  String startReadingQuiz(int count);
+
+  /// No description provided for @readingQuizPickOne.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisissez au moins un livre.'**
+  String get readingQuizPickOne;
+
+  /// No description provided for @readingQuizTooFew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pas assez de matière pour un quiz : ajoutez des chapitres, ou choisissez « Livres entiers ».'**
+  String get readingQuizTooFew;
+
+  /// No description provided for @readingQuizNamed.
+  ///
+  /// In fr, this message translates to:
+  /// **'Quiz : {name}'**
+  String readingQuizNamed(String name);
+
+  /// No description provided for @readingQuizBooksCount.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =1{1 livre} other{{count} livres}}'**
+  String readingQuizBooksCount(int count);
+
+  /// No description provided for @fromTheText.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tiré du texte'**
+  String get fromTheText;
+
+  /// No description provided for @markChapterRead.
+  ///
+  /// In fr, this message translates to:
+  /// **'Marquer comme lu'**
+  String get markChapterRead;
+
+  /// No description provided for @chapterRead.
+  ///
+  /// In fr, this message translates to:
+  /// **'Chapitre lu'**
+  String get chapterRead;
+
+  /// No description provided for @markBookRead.
+  ///
+  /// In fr, this message translates to:
+  /// **'Marquer tout le livre comme lu'**
+  String get markBookRead;
+
+  /// No description provided for @unmarkBookRead.
+  ///
+  /// In fr, this message translates to:
+  /// **'Retirer « lu » pour ce livre'**
+  String get unmarkBookRead;
+
+  /// No description provided for @quizOnThisBook.
+  ///
+  /// In fr, this message translates to:
+  /// **'Quiz sur ce livre'**
+  String get quizOnThisBook;
+
+  /// No description provided for @chaptersReadTotal.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =0{Aucun chapitre lu} =1{1 chapitre lu} other{{count} chapitres lus}}'**
+  String chaptersReadTotal(int count);
 }
 
 class _AppLocalizationsDelegate

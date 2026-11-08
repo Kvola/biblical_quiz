@@ -10,6 +10,7 @@ import '../../providers.dart';
 import '../common.dart';
 import '../widgets/passage_view.dart';
 import '../search/search_screen.dart';
+import '../reading/reading_quiz_screen.dart';
 import '../widgets/verse_sheet.dart';
 
 /// Ouvre le lecteur sur un chapitre précis (depuis une fiche de livre ou un favori).
@@ -26,6 +27,10 @@ Future<void> openReaderAt(BuildContext context, WidgetRef ref, int book, int cha
 /// En onglet, il reprend là où on s'était arrêté. Lire un chapitre au moins
 /// [_ReaderScreenState._activeAfter], lecteur visible et application au
 /// premier plan, compte comme activité du jour (la série).
+///
+/// Un chapitre est noté « lu » quand on y a passé assez de temps (≈ 8 mots par
+/// seconde, entre 20 s et 3 min : on écarte le simple survol) ET qu'on en a vu
+/// la fin. Le bouton en bas du chapitre permet aussi de le marquer (ou non) à la main.
 class ReaderScreen extends ConsumerStatefulWidget {
   const ReaderScreen({super.key, this.initialBook, this.initialChapter, this.highlightVerse, this.active = true});
 
@@ -53,9 +58,15 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
   bool _scrollToHighlight = false;
   final _scroll = ScrollController();
 
+  // Chapitre « lu » : temps suffisant + fin atteinte, une fois par affichage du chapitre.
+  Timer? _readTimer;
+  int _wordCount = 0;
+  bool _timeOk = false, _endOk = false, _markedThisView = false;
+
   @override
   void initState() {
     super.initState();
+    _scroll.addListener(_onScroll);
     _book = widget.initialBook;
     _chapter = widget.initialChapter;
     _highlight = widget.highlightVerse;
@@ -88,7 +99,34 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
     });
     ref.read(settingsRepoProvider).setReaderPosition(book, c);
     if (_scroll.hasClients) _scroll.jumpTo(0);
+    _timeOk = _endOk = _markedThisView = false;
     _armActivity();
+  }
+
+  /// Temps de lecture demandé pour noter le chapitre comme lu.
+  Duration get _readAfter => Duration(seconds: (_wordCount / 8).round().clamp(20, 180));
+
+  void _onScroll() {
+    if (_endOk || !_scroll.hasClients) return;
+    if (_scroll.position.extentAfter < 240) {
+      _endOk = true;
+      _maybeMarkRead();
+    }
+  }
+
+  /// Chapitre court, tout entier à l'écran : la fin est déjà visible.
+  void _checkFitsScreen() {
+    if (!mounted || _endOk || !_scroll.hasClients) return;
+    if (_scroll.position.maxScrollExtent < 240) {
+      _endOk = true;
+      _maybeMarkRead();
+    }
+  }
+
+  void _maybeMarkRead() {
+    if (_markedThisView || !_timeOk || !_endOk || _book == null || _chapter == null) return;
+    _markedThisView = true;
+    ref.read(progressRepoProvider).markChapterRead(_book!, _chapter!);
   }
 
   /// (Re)démarre le compte des secondes de lecture du chapitre affiché.
@@ -96,11 +134,19 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
     _disarm();
     if (!mounted || !widget.active) return;
     _activeTimer = Timer(_activeAfter, () => ref.read(progressRepoProvider).markActive());
+    if (!_timeOk) {
+      _readTimer = Timer(_readAfter, () {
+        _timeOk = true;
+        _maybeMarkRead();
+      });
+    }
   }
 
   void _disarm() {
     _activeTimer?.cancel();
     _activeTimer = null;
+    _readTimer?.cancel();
+    _readTimer = null;
   }
 
   Future<void> _pickBook(Bible bible) async {
@@ -148,6 +194,14 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
         final hasNext = chapter < count || book < 66;
         final verses = bible.chapter(book, chapter);
         final ref0 = VerseRef(book, chapter, 1, chapter, verses.length);
+        final words = verses.fold<int>(0, (n, v) => n + v.text.split(' ').length);
+        if (words != _wordCount) {
+          // Nouveau chapitre (ou première mesure) : la durée demandée suit sa longueur.
+          _wordCount = words;
+          if (!_timeOk) WidgetsBinding.instance.addPostFrameCallback((_) => _armActivity());
+        }
+        WidgetsBinding.instance.addPostFrameCallback((_) => _checkFitsScreen());
+        final isRead = ref.watch(readChaptersProvider).value?[book]?.contains(chapter) ?? false;
 
         return Scaffold(
           appBar: AppBar(
@@ -172,6 +226,11 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
                 onPressed: () => SearchScreen.open(context),
               ),
               IconButton(
+                tooltip: l.quizOnThisBook,
+                icon: const Icon(Icons.quiz_outlined),
+                onPressed: () => ReadingQuizScreen.open(context, books: {book}),
+              ),
+              IconButton(
                 tooltip: l.showParallel,
                 isSelected: settings?.parallel ?? false,
                 icon: const Icon(Icons.translate),
@@ -192,7 +251,28 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
                 ),
                 SliverToBoxAdapter(
                   child: Padding(
-                    padding: const EdgeInsets.fromLTRB(16, 24, 16, 32),
+                    padding: const EdgeInsets.fromLTRB(16, 24, 16, 0),
+                    child: Center(
+                      child: isRead
+                          ? FilledButton.tonalIcon(
+                              onPressed: () => ref.read(progressRepoProvider).unmarkRead(book, chapter),
+                              icon: const Icon(Icons.check_circle),
+                              label: Text(l.chapterRead),
+                            )
+                          : OutlinedButton.icon(
+                              onPressed: () {
+                                _markedThisView = true;
+                                ref.read(progressRepoProvider).markChapterRead(book, chapter, manual: true);
+                              },
+                              icon: const Icon(Icons.check_circle_outline),
+                              label: Text(l.markChapterRead),
+                            ),
+                    ),
+                  ),
+                ),
+                SliverToBoxAdapter(
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 16, 16, 32),
                     child: Row(
                       children: [
                         Expanded(

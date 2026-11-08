@@ -573,8 +573,138 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get resetProgressBody =>
-      'Leçons terminées, révisions et série seront effacées. Vos versets mis de côté et vos réglages sont conservés. Cette action est définitive.';
+      'Leçons terminées, révisions, série et chapitres lus seront effacés. Vos versets mis de côté et vos réglages sont conservés. Cette action est définitive.';
 
   @override
   String get resetDone => 'Progression effacée';
+
+  @override
+  String get readingQuizTitle => 'Quiz sur mes lectures';
+
+  @override
+  String get readingQuizSubtitle =>
+      'Un quiz sur le ou les livres que vous avez lus';
+
+  @override
+  String get readingQuizIntro =>
+      'Choisissez un ou plusieurs livres. Les questions relues viennent d’abord ; d’autres, tirées du texte même, complètent le quiz.';
+
+  @override
+  String get readingQuizBooks => 'Livres du quiz';
+
+  @override
+  String get selectMyReading => 'Mes lectures';
+
+  @override
+  String get selectNone => 'Aucun';
+
+  @override
+  String get genreLaw => 'Pentateuque';
+
+  @override
+  String get genreHistory => 'Livres historiques';
+
+  @override
+  String get genrePoetry => 'Poétiques';
+
+  @override
+  String get genreProphets => 'Prophètes';
+
+  @override
+  String get genreGospels => 'Évangiles';
+
+  @override
+  String get genreActs => 'Actes';
+
+  @override
+  String get genreEpistles => 'Épîtres';
+
+  @override
+  String get genreApocalyptic => 'Apocalypse';
+
+  @override
+  String chaptersReadOf(int done, int total) {
+    return '$done / $total chapitres lus';
+  }
+
+  @override
+  String get scopeRead => 'Chapitres lus';
+
+  @override
+  String get scopeWhole => 'Livres entiers';
+
+  @override
+  String get scopeReadHint =>
+      'Les questions portent seulement sur les chapitres que vous avez lus.';
+
+  @override
+  String get scopeWholeHint =>
+      'Les questions portent sur l’ensemble des livres choisis.';
+
+  @override
+  String get questionCountLabel => 'Nombre de questions';
+
+  @override
+  String startReadingQuiz(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Commencer · $count livres',
+      one: 'Commencer · 1 livre',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get readingQuizPickOne => 'Choisissez au moins un livre.';
+
+  @override
+  String get readingQuizTooFew =>
+      'Pas assez de matière pour un quiz : ajoutez des chapitres, ou choisissez « Livres entiers ».';
+
+  @override
+  String readingQuizNamed(String name) {
+    return 'Quiz : $name';
+  }
+
+  @override
+  String readingQuizBooksCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count livres',
+      one: '1 livre',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get fromTheText => 'Tiré du texte';
+
+  @override
+  String get markChapterRead => 'Marquer comme lu';
+
+  @override
+  String get chapterRead => 'Chapitre lu';
+
+  @override
+  String get markBookRead => 'Marquer tout le livre comme lu';
+
+  @override
+  String get unmarkBookRead => 'Retirer « lu » pour ce livre';
+
+  @override
+  String get quizOnThisBook => 'Quiz sur ce livre';
+
+  @override
+  String chaptersReadTotal(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count chapitres lus',
+      one: '1 chapitre lu',
+      zero: 'Aucun chapitre lu',
+    );
+    return '$_temp0';
+  }
 }

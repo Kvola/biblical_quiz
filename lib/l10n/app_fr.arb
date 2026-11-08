@@ -322,6 +322,76 @@
     }
   },
   "resetProgress": "Effacer ma progression",
-  "resetProgressBody": "Leçons terminées, révisions et série seront effacées. Vos versets mis de côté et vos réglages sont conservés. Cette action est définitive.",
-  "resetDone": "Progression effacée"
+  "resetProgressBody": "Leçons terminées, révisions, série et chapitres lus seront effacés. Vos versets mis de côté et vos réglages sont conservés. Cette action est définitive.",
+  "resetDone": "Progression effacée",
+  "readingQuizTitle": "Quiz sur mes lectures",
+  "readingQuizSubtitle": "Un quiz sur le ou les livres que vous avez lus",
+  "readingQuizIntro": "Choisissez un ou plusieurs livres. Les questions relues viennent d’abord ; d’autres, tirées du texte même, complètent le quiz.",
+  "readingQuizBooks": "Livres du quiz",
+  "selectMyReading": "Mes lectures",
+  "selectNone": "Aucun",
+  "genreLaw": "Pentateuque",
+  "genreHistory": "Livres historiques",
+  "genrePoetry": "Poétiques",
+  "genreProphets": "Prophètes",
+  "genreGospels": "Évangiles",
+  "genreActs": "Actes",
+  "genreEpistles": "Épîtres",
+  "genreApocalyptic": "Apocalypse",
+  "chaptersReadOf": "{done} / {total} chapitres lus",
+  "@chaptersReadOf": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "scopeRead": "Chapitres lus",
+  "scopeWhole": "Livres entiers",
+  "scopeReadHint": "Les questions portent seulement sur les chapitres que vous avez lus.",
+  "scopeWholeHint": "Les questions portent sur l’ensemble des livres choisis.",
+  "questionCountLabel": "Nombre de questions",
+  "startReadingQuiz": "{count, plural, =1{Commencer · 1 livre} other{Commencer · {count} livres}}",
+  "@startReadingQuiz": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "readingQuizPickOne": "Choisissez au moins un livre.",
+  "readingQuizTooFew": "Pas assez de matière pour un quiz : ajoutez des chapitres, ou choisissez « Livres entiers ».",
+  "readingQuizNamed": "Quiz : {name}",
+  "@readingQuizNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "readingQuizBooksCount": "{count, plural, =1{1 livre} other{{count} livres}}",
+  "@readingQuizBooksCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "fromTheText": "Tiré du texte",
+  "markChapterRead": "Marquer comme lu",
+  "chapterRead": "Chapitre lu",
+  "markBookRead": "Marquer tout le livre comme lu",
+  "unmarkBookRead": "Retirer « lu » pour ce livre",
+  "quizOnThisBook": "Quiz sur ce livre",
+  "chaptersReadTotal": "{count, plural, =0{Aucun chapitre lu} =1{1 chapitre lu} other{{count} chapitres lus}}",
+  "@chaptersReadTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
 }

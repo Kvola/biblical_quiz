@@ -233,4 +233,43 @@ void main() {
     expect(find.textContaining('In the beginning was the Word'), findsOneWidget);
     await teardown(tester, db);
   });
+
+  testWidgets('chapitre lu (lecture réelle), puis quiz sur mes lectures', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+    final db = await pumpApp(tester, settings: {'onboarded': '1'});
+    await waitFor(tester, find.text('Lire et répondre'));
+    Future<List<ReadChapter>> readRows() async => (await tester.runAsync(() => db.select(db.readChapters).get()))!;
+
+    // Jean 1 : aller au bout du chapitre ne suffit pas, il faut aussi y passer le temps de lecture.
+    await tester.tap(find.text('Bible'));
+    await waitFor(tester, find.textContaining('Au commencement était la Parole'));
+    await tester.scrollUntilVisible(find.text('Marquer comme lu'), 400, scrollable: find.byType(Scrollable).last);
+    await settle(tester);
+    expect(await readRows(), isEmpty, reason: 'un simple survol ne compte pas');
+    await tester.pump(const Duration(seconds: 181));
+    await settle(tester);
+    final rows = await readRows();
+    expect([for (final r in rows) (r.book, r.chapter, r.manual)], [(43, 1, false)]);
+    expect(find.text('Chapitre lu'), findsOneWidget);
+
+    // Le quiz propose Jean (lu) et porte sur ce qui a été lu.
+    await tester.tap(find.text('Accueil'));
+    await settle(tester);
+    final card = find.ancestor(of: find.text('Quiz sur mes lectures'), matching: find.byType(ListTile));
+    await tester.scrollUntilVisible(card, 300, scrollable: find.byType(Scrollable).first);
+    expect(find.descendant(of: card, matching: find.textContaining('1 chapitre lu')), findsOneWidget);
+    await tester.tap(find.descendant(of: card, matching: find.byType(FilledButton)));
+    await settle(tester);
+    expect(find.text('Commencer · 1 livre'), findsOneWidget);
+    await tester.scrollUntilVisible(find.text('1 / 21 chapitres lus'), 500, scrollable: find.byType(Scrollable).first);
+    expect(find.text('1 / 21 chapitres lus'), findsOneWidget);
+    await tester.tap(find.text('Commencer · 1 livre'));
+    await waitFor(tester, find.textContaining('Question 1'));
+    // Chaque question indique son passage (Jean 1) ou qu'elle est tirée du texte.
+    expect(find.byWidgetPredicate((w) => w is Chip), findsOneWidget);
+    expect(find.textContaining('Jean 1').evaluate().isNotEmpty || find.text('Tiré du texte').evaluate().isNotEmpty, isTrue);
+    await teardown(tester, db);
+  });
 }

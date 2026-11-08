@@ -3,6 +3,8 @@ import 'package:biblical_quiz/data/progress_repository.dart';
 import 'package:biblical_quiz/data/settings_repository.dart';
 import 'package:biblical_quiz/domain/quiz_session.dart';
 import 'package:biblical_quiz/domain/review.dart';
+import 'dart:io';
+
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -144,5 +146,61 @@ void main() {
         .into(db.settingsEntries)
         .insertOnConflictUpdate(SettingsEntriesCompanion.insert(key: 'recentSearches', value: '{abîmé'));
     expect((await settings.watch().first).recentSearches, isEmpty);
+  });
+
+  group('Chapitres lus', () {
+    test('noter, relire, retirer ; un livre entier', () async {
+      await repo.markChapterRead(43, 3);
+      today = 20261110;
+      await repo.markChapterRead(43, 3); // relu : pas de doublon
+      await repo.markChaptersRead(65, [1], manual: true);
+      expect(await repo.watchReadChapters().first, {43: {3}, 65: {1}});
+      final row = await (db.select(db.readChapters)..where((t) => t.book.equals(43))).getSingle();
+      expect((row.firstDay, row.lastDay, row.manual), (20261108, 20261110, false), reason: 'première et dernière lecture');
+
+      await repo.markChaptersRead(43, [1, 2, 3, 4], manual: true);
+      expect((await repo.watchReadChapters().first)[43], {1, 2, 3, 4});
+      await repo.unmarkRead(43, 2);
+      expect((await repo.watchReadChapters().first)[43], {1, 3, 4});
+      await repo.unmarkRead(43);
+      expect(await repo.watchReadChapters().first, {65: {1}});
+    });
+
+    test('« Effacer ma progression » efface aussi les chapitres lus', () async {
+      await repo.markChapterRead(1, 1);
+      await repo.resetProgress();
+      expect(await repo.watchReadChapters().first, isEmpty);
+    });
+
+    test('les questions tirées du texte ne vont pas en révision', () async {
+      await repo.recordQuiz(records: const [
+        AnswerRecord('gen-read-cloze-1:1:1-dieu', false),
+        AnswerRecord('gen-book-43:3:16', false),
+        AnswerRecord('story-creation-q1', false),
+      ]);
+      expect(await db.select(db.questionStats).get().then((r) => r.map((e) => e.questionId).toList()), ['story-creation-q1']);
+    });
+
+    test('migration 1 → 2 : la table apparaît, la progression est conservée', () async {
+      final dir = await Directory.systemTemp.createTemp('bq');
+      final file = File('${dir.path}/v1.sqlite');
+      // Base « 1.2.0 » : mêmes tables sans read_chapters, version de schéma 1.
+      final old = AppDatabase.forTesting(NativeDatabase(file));
+      await old.into(old.lessonProgress).insert(LessonProgressCompanion.insert(
+        lessonId: 'story-creation', bestScore: 4, lastScore: 4, total: 5, attempts: 1, firstCompletedDay: 20261101, lastDay: 20261101));
+      await old.customStatement('DROP TABLE read_chapters');
+      await old.customStatement('PRAGMA user_version = 1');
+      await old.close();
+
+      final upgraded = AppDatabase.forTesting(NativeDatabase(file));
+      final repo2 = ProgressRepository(upgraded, today: () => 20261108);
+      expect((await repo2.watchLessons().first).keys, ['story-creation']);
+      await repo2.markChapterRead(19, 23);
+      expect(await repo2.watchReadChapters().first, {19: {23}});
+      final version = await upgraded.customSelect('PRAGMA user_version').getSingle();
+      expect(version.data.values.first, 2);
+      await upgraded.close();
+      await dir.delete(recursive: true);
+    });
   });
 }

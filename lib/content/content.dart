@@ -63,6 +63,9 @@ class Content {
 
   Iterable<Lesson> get allLessons => paths.expand((p) => p.lessons);
 
+  /// Toutes les questions relues (leçons et fiches des livres).
+  Iterable<Question> get allQuestions => _questions.values.map((e) => e.$1);
+
   int get questionCount => _questions.length;
 
   /// Première leçon non terminée d'un parcours, ou null s'il est fini.

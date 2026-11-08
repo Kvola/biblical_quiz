@@ -10,6 +10,7 @@ import '../../domain/book_challenge.dart';
 import '../../domain/days.dart';
 import '../../providers.dart';
 import '../common.dart';
+import '../reading/reading_quiz_screen.dart';
 import '../launchers.dart';
 import '../quiz/lesson_screen.dart';
 import '../search/search_screen.dart';
@@ -53,6 +54,8 @@ class HomeScreen extends ConsumerWidget {
               const _ReviewCard(),
               const SizedBox(height: 12),
               _VerseOfDayCard(content: c),
+              const SizedBox(height: 12),
+              const _ReadingQuizCard(),
               const SizedBox(height: 12),
               const _ChallengeCard(),
             ],
@@ -215,6 +218,26 @@ class _VerseOfDayCard extends ConsumerWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+class _ReadingQuizCard extends ConsumerWidget {
+  const _ReadingQuizCard();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l = context.l10n;
+    final read = ref.watch(readChaptersProvider).value ?? const {};
+    final chapters = read.values.fold<int>(0, (n, c) => n + c.length);
+    return Card(
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+        leading: Icon(Icons.history_edu, color: context.palette.brandIcon),
+        title: Text(l.readingQuizTitle, style: const TextStyle(fontWeight: FontWeight.w700)),
+        subtitle: Text(chapters == 0 ? l.readingQuizSubtitle : '${l.readingQuizSubtitle} · ${l.chaptersReadTotal(chapters)}'),
+        trailing: FilledButton.tonal(onPressed: () => ReadingQuizScreen.open(context), child: Text(l.play)),
       ),
     );
   }

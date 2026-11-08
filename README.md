@@ -30,6 +30,7 @@ Soit **669 questions**, toutes en français et en anglais.
 - **Accueil** : la leçon suivante, la série de jours de lecture, les questions à revoir, le verset du jour.
 - **Leçon** : intro de contexte, lecture du passage (lecture bilingue possible : l'autre traduction sous chaque verset), questions avec correction et explication immédiates, « à retenir » et verset clé.
 - **Révision espacée** : une question ratée revient le lendemain, puis de plus en plus rarement quand elle est réussie (boîtes de Leitner : 1, 3, 7, 16, 35 jours), jusqu'à être « acquise ».
+- **Quiz sur mes lectures** : sur un ou plusieurs livres (chapitres lus ou livres entiers). Questions relues d'abord, complétées par des questions tirées du texte (compléter un verset, situer un verset parmi les livres choisis, ordre du récit), signalées « Tiré du texte » ; aucun verset n'est jamais modifié. Les chapitres lus sont notés par le lecteur (temps suffisant et fin du chapitre atteinte) ou à la main.
 - **Défi « Dans quel livre ? »** : retrouver le livre d'un verset clé (questions construites à partir du texte embarqué : justes par construction).
 - **Recherche** : par mots (tous présents, dans n'importe quel ordre), `"expression exacte"` ou `-mot` exclu, sans tenir compte des accents ni des majuscules, dans toute la Bible, un Testament ou un livre, en Segond ou en King James ; résultats répartis par livre et surlignés ; une référence (« Jean 3:16 », « 1 Co 13 ») ouvre le passage ; recherches récentes.
 - **Bible** : lecture libre chapitre par chapitre, reprise là où on s'était arrêté ; toucher un verset pour le copier, le partager ou le mettre de côté.
@@ -41,6 +42,7 @@ Soit **669 questions**, toutes en français et en anglais.
 - **Contenu vérifié automatiquement** (`scripts/validate_content.py`, exécuté aussi par les tests et avant chaque APK) : format, langues, chaque référence existe dans les deux Bibles, la référence d'une question est dans le passage lu, bonnes réponses et propositions cohérentes, ids uniques, et **chaque citation entre guillemets d'une explication ou d'une bonne réponse existe mot pour mot dans la traduction de sa langue**.
 - **Bibles alignées** : `scripts/build_bible.py` refuse de construire si les deux traductions n'ont pas exactement les mêmes 31 102 versets.
 - **Progression** : SQLite (Drift), écritures transactionnelles (une leçon terminée met à jour d'un bloc la leçon, chaque question et le jour), migrations versionnées. Une série abandonnée en cours de route n'est pas enregistrée.
+- **Questions tirées du texte** (`lib/domain/reading_quiz.dart`) : `test/reading_quiz_test.dart` vérifie sur les 66 livres, en FR et en EN, que remettre la bonne réponse dans le blanc redonne exactement le verset et qu'aucune proposition incorrecte n'y figure. Pour relire des exemples : `flutter test --run-skipped --tags demo`.
 - **Tests** : logique pure (références, séries, révision, quiz), Bibles et contenu, base de données, et parcours de bout en bout dans l'interface (FR et EN).
 
 ## Couleurs, mode sombre et bords d'écran

@@ -2,6 +2,18 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.3.0 (build 4) — 8 novembre 2026
+
+- **Quiz sur mes lectures** (Accueil, ou « Quiz sur ce livre » dans le lecteur) : un quiz sur un ou plusieurs livres choisis.
+  - Raccourcis : « Mes lectures » et chaque genre (Pentateuque, Évangiles, Épîtres…) ; sur les chapitres lus ou les livres entiers ; 10, 15 ou 20 questions.
+  - Les questions relues viennent d'abord (avec leur passage, « Jean 6 ») ; des questions tirées du texte même complètent le quiz,
+    signalées « Tiré du texte » : compléter un verset, « Dans quel livre ? » parmi les livres choisis, ordre du récit.
+  - Ces questions sont justes par construction et vérifiées par les tests sur les 66 livres (FR et EN) : le verset n'est jamais modifié,
+    les propositions incorrectes sont des mots, des livres ou des passages réels. Elles ne vont pas en révision.
+- **Chapitres lus** : notés tout seuls par le lecteur (temps de lecture suffisant et fin du chapitre atteinte), ou à la main
+  (« Marquer comme lu » en bas du chapitre, ou tout un livre depuis le quiz) pour une lecture dans une Bible papier.
+- « Effacer ma progression » efface aussi les chapitres lus. Base de données : version 2 (migration sans perte).
+
 ## 1.2.0 (build 3) — 8 novembre 2026
 
 - **Recherche de versets**, hors ligne, dans la Segond et la King James :

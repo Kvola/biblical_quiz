@@ -44,6 +44,9 @@ final summaryProvider = StreamProvider<ProgressSummary>((ref) => ref.watch(progr
 
 final favoritesProvider = StreamProvider<List<String>>((ref) => ref.watch(progressRepoProvider).watchFavorites());
 
+/// Chapitres lus, par livre (lecteur ou marque manuelle).
+final readChaptersProvider = StreamProvider<Map<int, Set<int>>>((ref) => ref.watch(progressRepoProvider).watchReadChapters());
+
 /// Index de recherche d'une traduction : construit une fois, hors du fil de
 /// l'interface (normalisation des 31 102 versets), puis gardé en mémoire.
 final searchIndexProvider = FutureProvider.family<SearchIndex, Translation>((ref, t) async {

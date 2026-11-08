@@ -49,6 +49,19 @@ class Favorites extends Table {
   Set<Column> get primaryKey => {ref};
 }
 
+/// Chapitres lus : notés automatiquement par le lecteur (temps passé et fin du
+/// chapitre atteinte) ou à la main (lecture dans une Bible papier).
+class ReadChapters extends Table {
+  IntColumn get book => integer()();
+  IntColumn get chapter => integer()();
+  IntColumn get firstDay => integer()(); // AAAAMMJJ
+  IntColumn get lastDay => integer()();
+  BoolColumn get manual => boolean().withDefault(const Constant(false))();
+
+  @override
+  Set<Column> get primaryKey => {book, chapter};
+}
+
 class SettingsEntries extends Table {
   TextColumn get key => text()();
   TextColumn get value => text()();
@@ -57,20 +70,22 @@ class SettingsEntries extends Table {
   Set<Column> get primaryKey => {key};
 }
 
-@DriftDatabase(tables: [LessonProgress, QuestionStats, ActivityDays, Favorites, SettingsEntries])
+@DriftDatabase(tables: [LessonProgress, QuestionStats, ActivityDays, Favorites, SettingsEntries, ReadChapters])
 class AppDatabase extends _$AppDatabase {
   AppDatabase([QueryExecutor? executor]) : super(executor ?? driftDatabase(name: 'biblical_quiz'));
 
   AppDatabase.forTesting(super.executor);
 
   @override
-  int get schemaVersion => 1;
+  int get schemaVersion => 2;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
     onCreate: (m) => m.createAll(),
     // Chaque future version ajoute ici sa marche (if (from < 2) …) : on ne
     // recrée jamais une table, la progression des utilisateurs y vit.
-    onUpgrade: (m, from, to) async {},
+    onUpgrade: (m, from, to) async {
+      if (from < 2) await m.createTable(readChapters); // 1.3.0 : chapitres lus
+    },
   );
 }

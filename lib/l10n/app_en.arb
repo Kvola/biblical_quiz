@@ -322,6 +322,76 @@
     }
   },
   "resetProgress": "Erase my progress",
-  "resetProgressBody": "Completed lessons, reviews and streak will be erased. Your saved verses and settings are kept. This cannot be undone.",
-  "resetDone": "Progress erased"
+  "resetProgressBody": "Completed lessons, reviews, streak and chapters read will be erased. Your saved verses and settings are kept. This cannot be undone.",
+  "resetDone": "Progress erased",
+  "readingQuizTitle": "Quiz on my reading",
+  "readingQuizSubtitle": "A quiz on the book or books you have read",
+  "readingQuizIntro": "Choose one or more books. Reviewed questions come first; others, drawn from the text itself, complete the quiz.",
+  "readingQuizBooks": "Books in the quiz",
+  "selectMyReading": "My reading",
+  "selectNone": "None",
+  "genreLaw": "Pentateuch",
+  "genreHistory": "Historical books",
+  "genrePoetry": "Poetry",
+  "genreProphets": "Prophets",
+  "genreGospels": "Gospels",
+  "genreActs": "Acts",
+  "genreEpistles": "Epistles",
+  "genreApocalyptic": "Revelation",
+  "chaptersReadOf": "{done} / {total} chapters read",
+  "@chaptersReadOf": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "scopeRead": "Chapters read",
+  "scopeWhole": "Whole books",
+  "scopeReadHint": "Questions cover only the chapters you have read.",
+  "scopeWholeHint": "Questions cover the whole of the chosen books.",
+  "questionCountLabel": "Number of questions",
+  "startReadingQuiz": "{count, plural, =1{Start · 1 book} other{Start · {count} books}}",
+  "@startReadingQuiz": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "readingQuizPickOne": "Choose at least one book.",
+  "readingQuizTooFew": "Not enough material for a quiz: add chapters, or choose “Whole books”.",
+  "readingQuizNamed": "Quiz: {name}",
+  "@readingQuizNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "readingQuizBooksCount": "{count, plural, =1{1 book} other{{count} books}}",
+  "@readingQuizBooksCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "fromTheText": "From the text",
+  "markChapterRead": "Mark as read",
+  "chapterRead": "Chapter read",
+  "markBookRead": "Mark the whole book as read",
+  "unmarkBookRead": "Clear “read” for this book",
+  "quizOnThisBook": "Quiz on this book",
+  "chaptersReadTotal": "{count, plural, =0{No chapter read} =1{1 chapter read} other{{count} chapters read}}",
+  "@chaptersReadTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
 }

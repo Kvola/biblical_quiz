@@ -3,12 +3,15 @@
 part of 'database.dart';
 
 // ignore_for_file: type=lint
-class $LessonProgressTable extends LessonProgress with TableInfo<$LessonProgressTable, LessonProgressData> {
+class $LessonProgressTable extends LessonProgress
+    with TableInfo<$LessonProgressTable, LessonProgressData> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
   $LessonProgressTable(this.attachedDatabase, [this._alias]);
-  static const VerificationMeta _lessonIdMeta = const VerificationMeta('lessonId');
+  static const VerificationMeta _lessonIdMeta = const VerificationMeta(
+    'lessonId',
+  );
   @override
   late final GeneratedColumn<String> lessonId = GeneratedColumn<String>(
     'lesson_id',
@@ -17,7 +20,9 @@ class $LessonProgressTable extends LessonProgress with TableInfo<$LessonProgress
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _bestScoreMeta = const VerificationMeta('bestScore');
+  static const VerificationMeta _bestScoreMeta = const VerificationMeta(
+    'bestScore',
+  );
   @override
   late final GeneratedColumn<int> bestScore = GeneratedColumn<int>(
     'best_score',
@@ -26,7 +31,9 @@ class $LessonProgressTable extends LessonProgress with TableInfo<$LessonProgress
     type: DriftSqlType.int,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _lastScoreMeta = const VerificationMeta('lastScore');
+  static const VerificationMeta _lastScoreMeta = const VerificationMeta(
+    'lastScore',
+  );
   @override
   late final GeneratedColumn<int> lastScore = GeneratedColumn<int>(
     'last_score',
@@ -44,7 +51,9 @@ class $LessonProgressTable extends LessonProgress with TableInfo<$LessonProgress
     type: DriftSqlType.int,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _attemptsMeta = const VerificationMeta('attempts');
+  static const VerificationMeta _attemptsMeta = const VerificationMeta(
+    'attempts',
+  );
   @override
   late final GeneratedColumn<int> attempts = GeneratedColumn<int>(
     'attempts',
@@ -53,7 +62,9 @@ class $LessonProgressTable extends LessonProgress with TableInfo<$LessonProgress
     type: DriftSqlType.int,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _firstCompletedDayMeta = const VerificationMeta('firstCompletedDay');
+  static const VerificationMeta _firstCompletedDayMeta = const VerificationMeta(
+    'firstCompletedDay',
+  );
   @override
   late final GeneratedColumn<int> firstCompletedDay = GeneratedColumn<int>(
     'first_completed_day',
@@ -62,7 +73,9 @@ class $LessonProgressTable extends LessonProgress with TableInfo<$LessonProgress
     type: DriftSqlType.int,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _lastDayMeta = const VerificationMeta('lastDay');
+  static const VerificationMeta _lastDayMeta = const VerificationMeta(
+    'lastDay',
+  );
   @override
   late final GeneratedColumn<int> lastDay = GeneratedColumn<int>(
     'last_day',
@@ -72,51 +85,83 @@ class $LessonProgressTable extends LessonProgress with TableInfo<$LessonProgress
     requiredDuringInsert: true,
   );
   @override
-  List<GeneratedColumn> get $columns => [lessonId, bestScore, lastScore, total, attempts, firstCompletedDay, lastDay];
+  List<GeneratedColumn> get $columns => [
+    lessonId,
+    bestScore,
+    lastScore,
+    total,
+    attempts,
+    firstCompletedDay,
+    lastDay,
+  ];
   @override
   String get aliasedName => _alias ?? actualTableName;
   @override
   String get actualTableName => $name;
   static const String $name = 'lesson_progress';
   @override
-  VerificationContext validateIntegrity(Insertable<LessonProgressData> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<LessonProgressData> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('lesson_id')) {
-      context.handle(_lessonIdMeta, lessonId.isAcceptableOrUnknown(data['lesson_id']!, _lessonIdMeta));
+      context.handle(
+        _lessonIdMeta,
+        lessonId.isAcceptableOrUnknown(data['lesson_id']!, _lessonIdMeta),
+      );
     } else if (isInserting) {
       context.missing(_lessonIdMeta);
     }
     if (data.containsKey('best_score')) {
-      context.handle(_bestScoreMeta, bestScore.isAcceptableOrUnknown(data['best_score']!, _bestScoreMeta));
+      context.handle(
+        _bestScoreMeta,
+        bestScore.isAcceptableOrUnknown(data['best_score']!, _bestScoreMeta),
+      );
     } else if (isInserting) {
       context.missing(_bestScoreMeta);
     }
     if (data.containsKey('last_score')) {
-      context.handle(_lastScoreMeta, lastScore.isAcceptableOrUnknown(data['last_score']!, _lastScoreMeta));
+      context.handle(
+        _lastScoreMeta,
+        lastScore.isAcceptableOrUnknown(data['last_score']!, _lastScoreMeta),
+      );
     } else if (isInserting) {
       context.missing(_lastScoreMeta);
     }
     if (data.containsKey('total')) {
-      context.handle(_totalMeta, total.isAcceptableOrUnknown(data['total']!, _totalMeta));
+      context.handle(
+        _totalMeta,
+        total.isAcceptableOrUnknown(data['total']!, _totalMeta),
+      );
     } else if (isInserting) {
       context.missing(_totalMeta);
     }
     if (data.containsKey('attempts')) {
-      context.handle(_attemptsMeta, attempts.isAcceptableOrUnknown(data['attempts']!, _attemptsMeta));
+      context.handle(
+        _attemptsMeta,
+        attempts.isAcceptableOrUnknown(data['attempts']!, _attemptsMeta),
+      );
     } else if (isInserting) {
       context.missing(_attemptsMeta);
     }
     if (data.containsKey('first_completed_day')) {
       context.handle(
         _firstCompletedDayMeta,
-        firstCompletedDay.isAcceptableOrUnknown(data['first_completed_day']!, _firstCompletedDayMeta),
+        firstCompletedDay.isAcceptableOrUnknown(
+          data['first_completed_day']!,
+          _firstCompletedDayMeta,
+        ),
       );
     } else if (isInserting) {
       context.missing(_firstCompletedDayMeta);
     }
     if (data.containsKey('last_day')) {
-      context.handle(_lastDayMeta, lastDay.isAcceptableOrUnknown(data['last_day']!, _lastDayMeta));
+      context.handle(
+        _lastDayMeta,
+        lastDay.isAcceptableOrUnknown(data['last_day']!, _lastDayMeta),
+      );
     } else if (isInserting) {
       context.missing(_lastDayMeta);
     }
@@ -129,16 +174,34 @@ class $LessonProgressTable extends LessonProgress with TableInfo<$LessonProgress
   LessonProgressData map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return LessonProgressData(
-      lessonId: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}lesson_id'])!,
-      bestScore: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}best_score'])!,
-      lastScore: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}last_score'])!,
-      total: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}total'])!,
-      attempts: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}attempts'])!,
+      lessonId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}lesson_id'],
+      )!,
+      bestScore: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}best_score'],
+      )!,
+      lastScore: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}last_score'],
+      )!,
+      total: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}total'],
+      )!,
+      attempts: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}attempts'],
+      )!,
       firstCompletedDay: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
         data['${effectivePrefix}first_completed_day'],
       )!,
-      lastDay: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}last_day'])!,
+      lastDay: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}last_day'],
+      )!,
     );
   }
 
@@ -148,7 +211,8 @@ class $LessonProgressTable extends LessonProgress with TableInfo<$LessonProgress
   }
 }
 
-class LessonProgressData extends DataClass implements Insertable<LessonProgressData> {
+class LessonProgressData extends DataClass
+    implements Insertable<LessonProgressData> {
   final String lessonId;
   final int bestScore;
   final int lastScore;
@@ -190,7 +254,10 @@ class LessonProgressData extends DataClass implements Insertable<LessonProgressD
     );
   }
 
-  factory LessonProgressData.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory LessonProgressData.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return LessonProgressData(
       lessonId: serializer.fromJson<String>(json['lessonId']),
@@ -240,7 +307,9 @@ class LessonProgressData extends DataClass implements Insertable<LessonProgressD
       lastScore: data.lastScore.present ? data.lastScore.value : this.lastScore,
       total: data.total.present ? data.total.value : this.total,
       attempts: data.attempts.present ? data.attempts.value : this.attempts,
-      firstCompletedDay: data.firstCompletedDay.present ? data.firstCompletedDay.value : this.firstCompletedDay,
+      firstCompletedDay: data.firstCompletedDay.present
+          ? data.firstCompletedDay.value
+          : this.firstCompletedDay,
       lastDay: data.lastDay.present ? data.lastDay.value : this.lastDay,
     );
   }
@@ -260,7 +329,15 @@ class LessonProgressData extends DataClass implements Insertable<LessonProgressD
   }
 
   @override
-  int get hashCode => Object.hash(lessonId, bestScore, lastScore, total, attempts, firstCompletedDay, lastDay);
+  int get hashCode => Object.hash(
+    lessonId,
+    bestScore,
+    lastScore,
+    total,
+    attempts,
+    firstCompletedDay,
+    lastDay,
+  );
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
@@ -399,12 +476,15 @@ class LessonProgressCompanion extends UpdateCompanion<LessonProgressData> {
   }
 }
 
-class $QuestionStatsTable extends QuestionStats with TableInfo<$QuestionStatsTable, QuestionStat> {
+class $QuestionStatsTable extends QuestionStats
+    with TableInfo<$QuestionStatsTable, QuestionStat> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
   $QuestionStatsTable(this.attachedDatabase, [this._alias]);
-  static const VerificationMeta _questionIdMeta = const VerificationMeta('questionId');
+  static const VerificationMeta _questionIdMeta = const VerificationMeta(
+    'questionId',
+  );
   @override
   late final GeneratedColumn<String> questionId = GeneratedColumn<String>(
     'question_id',
@@ -431,7 +511,9 @@ class $QuestionStatsTable extends QuestionStats with TableInfo<$QuestionStatsTab
     type: DriftSqlType.int,
     requiredDuringInsert: false,
   );
-  static const VerificationMeta _correctMeta = const VerificationMeta('correct');
+  static const VerificationMeta _correctMeta = const VerificationMeta(
+    'correct',
+  );
   @override
   late final GeneratedColumn<int> correct = GeneratedColumn<int>(
     'correct',
@@ -451,7 +533,9 @@ class $QuestionStatsTable extends QuestionStats with TableInfo<$QuestionStatsTab
     requiredDuringInsert: false,
     defaultValue: const Constant(0),
   );
-  static const VerificationMeta _lastDayMeta = const VerificationMeta('lastDay');
+  static const VerificationMeta _lastDayMeta = const VerificationMeta(
+    'lastDay',
+  );
   @override
   late final GeneratedColumn<int> lastDay = GeneratedColumn<int>(
     'last_day',
@@ -461,37 +545,65 @@ class $QuestionStatsTable extends QuestionStats with TableInfo<$QuestionStatsTab
     requiredDuringInsert: true,
   );
   @override
-  List<GeneratedColumn> get $columns => [questionId, box, dueDay, correct, wrong, lastDay];
+  List<GeneratedColumn> get $columns => [
+    questionId,
+    box,
+    dueDay,
+    correct,
+    wrong,
+    lastDay,
+  ];
   @override
   String get aliasedName => _alias ?? actualTableName;
   @override
   String get actualTableName => $name;
   static const String $name = 'question_stats';
   @override
-  VerificationContext validateIntegrity(Insertable<QuestionStat> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<QuestionStat> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('question_id')) {
-      context.handle(_questionIdMeta, questionId.isAcceptableOrUnknown(data['question_id']!, _questionIdMeta));
+      context.handle(
+        _questionIdMeta,
+        questionId.isAcceptableOrUnknown(data['question_id']!, _questionIdMeta),
+      );
     } else if (isInserting) {
       context.missing(_questionIdMeta);
     }
     if (data.containsKey('box')) {
-      context.handle(_boxMeta, box.isAcceptableOrUnknown(data['box']!, _boxMeta));
+      context.handle(
+        _boxMeta,
+        box.isAcceptableOrUnknown(data['box']!, _boxMeta),
+      );
     } else if (isInserting) {
       context.missing(_boxMeta);
     }
     if (data.containsKey('due_day')) {
-      context.handle(_dueDayMeta, dueDay.isAcceptableOrUnknown(data['due_day']!, _dueDayMeta));
+      context.handle(
+        _dueDayMeta,
+        dueDay.isAcceptableOrUnknown(data['due_day']!, _dueDayMeta),
+      );
     }
     if (data.containsKey('correct')) {
-      context.handle(_correctMeta, correct.isAcceptableOrUnknown(data['correct']!, _correctMeta));
+      context.handle(
+        _correctMeta,
+        correct.isAcceptableOrUnknown(data['correct']!, _correctMeta),
+      );
     }
     if (data.containsKey('wrong')) {
-      context.handle(_wrongMeta, wrong.isAcceptableOrUnknown(data['wrong']!, _wrongMeta));
+      context.handle(
+        _wrongMeta,
+        wrong.isAcceptableOrUnknown(data['wrong']!, _wrongMeta),
+      );
     }
     if (data.containsKey('last_day')) {
-      context.handle(_lastDayMeta, lastDay.isAcceptableOrUnknown(data['last_day']!, _lastDayMeta));
+      context.handle(
+        _lastDayMeta,
+        lastDay.isAcceptableOrUnknown(data['last_day']!, _lastDayMeta),
+      );
     } else if (isInserting) {
       context.missing(_lastDayMeta);
     }
@@ -504,12 +616,30 @@ class $QuestionStatsTable extends QuestionStats with TableInfo<$QuestionStatsTab
   QuestionStat map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return QuestionStat(
-      questionId: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}question_id'])!,
-      box: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}box'])!,
-      dueDay: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}due_day']),
-      correct: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}correct'])!,
-      wrong: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}wrong'])!,
-      lastDay: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}last_day'])!,
+      questionId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}question_id'],
+      )!,
+      box: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}box'],
+      )!,
+      dueDay: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}due_day'],
+      ),
+      correct: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}correct'],
+      )!,
+      wrong: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}wrong'],
+      )!,
+      lastDay: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}last_day'],
+      )!,
     );
   }
 
@@ -552,14 +682,19 @@ class QuestionStat extends DataClass implements Insertable<QuestionStat> {
     return QuestionStatsCompanion(
       questionId: Value(questionId),
       box: Value(box),
-      dueDay: dueDay == null && nullToAbsent ? const Value.absent() : Value(dueDay),
+      dueDay: dueDay == null && nullToAbsent
+          ? const Value.absent()
+          : Value(dueDay),
       correct: Value(correct),
       wrong: Value(wrong),
       lastDay: Value(lastDay),
     );
   }
 
-  factory QuestionStat.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory QuestionStat.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return QuestionStat(
       questionId: serializer.fromJson<String>(json['questionId']),
@@ -600,7 +735,9 @@ class QuestionStat extends DataClass implements Insertable<QuestionStat> {
   );
   QuestionStat copyWithCompanion(QuestionStatsCompanion data) {
     return QuestionStat(
-      questionId: data.questionId.present ? data.questionId.value : this.questionId,
+      questionId: data.questionId.present
+          ? data.questionId.value
+          : this.questionId,
       box: data.box.present ? data.box.value : this.box,
       dueDay: data.dueDay.present ? data.dueDay.value : this.dueDay,
       correct: data.correct.present ? data.correct.value : this.correct,
@@ -623,7 +760,8 @@ class QuestionStat extends DataClass implements Insertable<QuestionStat> {
   }
 
   @override
-  int get hashCode => Object.hash(questionId, box, dueDay, correct, wrong, lastDay);
+  int get hashCode =>
+      Object.hash(questionId, box, dueDay, correct, wrong, lastDay);
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
@@ -746,7 +884,8 @@ class QuestionStatsCompanion extends UpdateCompanion<QuestionStat> {
   }
 }
 
-class $ActivityDaysTable extends ActivityDays with TableInfo<$ActivityDaysTable, ActivityDay> {
+class $ActivityDaysTable extends ActivityDays
+    with TableInfo<$ActivityDaysTable, ActivityDay> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
@@ -760,7 +899,9 @@ class $ActivityDaysTable extends ActivityDays with TableInfo<$ActivityDaysTable,
     type: DriftSqlType.int,
     requiredDuringInsert: false,
   );
-  static const VerificationMeta _answeredMeta = const VerificationMeta('answered');
+  static const VerificationMeta _answeredMeta = const VerificationMeta(
+    'answered',
+  );
   @override
   late final GeneratedColumn<int> answered = GeneratedColumn<int>(
     'answered',
@@ -770,7 +911,9 @@ class $ActivityDaysTable extends ActivityDays with TableInfo<$ActivityDaysTable,
     requiredDuringInsert: false,
     defaultValue: const Constant(0),
   );
-  static const VerificationMeta _lessonsMeta = const VerificationMeta('lessons');
+  static const VerificationMeta _lessonsMeta = const VerificationMeta(
+    'lessons',
+  );
   @override
   late final GeneratedColumn<int> lessons = GeneratedColumn<int>(
     'lessons',
@@ -788,17 +931,29 @@ class $ActivityDaysTable extends ActivityDays with TableInfo<$ActivityDaysTable,
   String get actualTableName => $name;
   static const String $name = 'activity_days';
   @override
-  VerificationContext validateIntegrity(Insertable<ActivityDay> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<ActivityDay> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('day')) {
-      context.handle(_dayMeta, day.isAcceptableOrUnknown(data['day']!, _dayMeta));
+      context.handle(
+        _dayMeta,
+        day.isAcceptableOrUnknown(data['day']!, _dayMeta),
+      );
     }
     if (data.containsKey('answered')) {
-      context.handle(_answeredMeta, answered.isAcceptableOrUnknown(data['answered']!, _answeredMeta));
+      context.handle(
+        _answeredMeta,
+        answered.isAcceptableOrUnknown(data['answered']!, _answeredMeta),
+      );
     }
     if (data.containsKey('lessons')) {
-      context.handle(_lessonsMeta, lessons.isAcceptableOrUnknown(data['lessons']!, _lessonsMeta));
+      context.handle(
+        _lessonsMeta,
+        lessons.isAcceptableOrUnknown(data['lessons']!, _lessonsMeta),
+      );
     }
     return context;
   }
@@ -809,9 +964,18 @@ class $ActivityDaysTable extends ActivityDays with TableInfo<$ActivityDaysTable,
   ActivityDay map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return ActivityDay(
-      day: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}day'])!,
-      answered: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}answered'])!,
-      lessons: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}lessons'])!,
+      day: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}day'],
+      )!,
+      answered: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}answered'],
+      )!,
+      lessons: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}lessons'],
+      )!,
     );
   }
 
@@ -825,7 +989,11 @@ class ActivityDay extends DataClass implements Insertable<ActivityDay> {
   final int day;
   final int answered;
   final int lessons;
-  const ActivityDay({required this.day, required this.answered, required this.lessons});
+  const ActivityDay({
+    required this.day,
+    required this.answered,
+    required this.lessons,
+  });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
@@ -836,10 +1004,17 @@ class ActivityDay extends DataClass implements Insertable<ActivityDay> {
   }
 
   ActivityDaysCompanion toCompanion(bool nullToAbsent) {
-    return ActivityDaysCompanion(day: Value(day), answered: Value(answered), lessons: Value(lessons));
+    return ActivityDaysCompanion(
+      day: Value(day),
+      answered: Value(answered),
+      lessons: Value(lessons),
+    );
   }
 
-  factory ActivityDay.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory ActivityDay.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return ActivityDay(
       day: serializer.fromJson<int>(json['day']),
@@ -857,8 +1032,11 @@ class ActivityDay extends DataClass implements Insertable<ActivityDay> {
     };
   }
 
-  ActivityDay copyWith({int? day, int? answered, int? lessons}) =>
-      ActivityDay(day: day ?? this.day, answered: answered ?? this.answered, lessons: lessons ?? this.lessons);
+  ActivityDay copyWith({int? day, int? answered, int? lessons}) => ActivityDay(
+    day: day ?? this.day,
+    answered: answered ?? this.answered,
+    lessons: lessons ?? this.lessons,
+  );
   ActivityDay copyWithCompanion(ActivityDaysCompanion data) {
     return ActivityDay(
       day: data.day.present ? data.day.value : this.day,
@@ -902,7 +1080,11 @@ class ActivityDaysCompanion extends UpdateCompanion<ActivityDay> {
     this.answered = const Value.absent(),
     this.lessons = const Value.absent(),
   });
-  static Insertable<ActivityDay> custom({Expression<int>? day, Expression<int>? answered, Expression<int>? lessons}) {
+  static Insertable<ActivityDay> custom({
+    Expression<int>? day,
+    Expression<int>? answered,
+    Expression<int>? lessons,
+  }) {
     return RawValuesInsertable({
       if (day != null) 'day': day,
       if (answered != null) 'answered': answered,
@@ -910,7 +1092,11 @@ class ActivityDaysCompanion extends UpdateCompanion<ActivityDay> {
     });
   }
 
-  ActivityDaysCompanion copyWith({Value<int>? day, Value<int>? answered, Value<int>? lessons}) {
+  ActivityDaysCompanion copyWith({
+    Value<int>? day,
+    Value<int>? answered,
+    Value<int>? lessons,
+  }) {
     return ActivityDaysCompanion(
       day: day ?? this.day,
       answered: answered ?? this.answered,
@@ -944,7 +1130,8 @@ class ActivityDaysCompanion extends UpdateCompanion<ActivityDay> {
   }
 }
 
-class $FavoritesTable extends Favorites with TableInfo<$FavoritesTable, Favorite> {
+class $FavoritesTable extends Favorites
+    with TableInfo<$FavoritesTable, Favorite> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
@@ -958,7 +1145,9 @@ class $FavoritesTable extends Favorites with TableInfo<$FavoritesTable, Favorite
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _createdAtMeta = const VerificationMeta('createdAt');
+  static const VerificationMeta _createdAtMeta = const VerificationMeta(
+    'createdAt',
+  );
   @override
   late final GeneratedColumn<int> createdAt = GeneratedColumn<int>(
     'created_at',
@@ -975,16 +1164,25 @@ class $FavoritesTable extends Favorites with TableInfo<$FavoritesTable, Favorite
   String get actualTableName => $name;
   static const String $name = 'favorites';
   @override
-  VerificationContext validateIntegrity(Insertable<Favorite> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<Favorite> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('ref')) {
-      context.handle(_refMeta, ref.isAcceptableOrUnknown(data['ref']!, _refMeta));
+      context.handle(
+        _refMeta,
+        ref.isAcceptableOrUnknown(data['ref']!, _refMeta),
+      );
     } else if (isInserting) {
       context.missing(_refMeta);
     }
     if (data.containsKey('created_at')) {
-      context.handle(_createdAtMeta, createdAt.isAcceptableOrUnknown(data['created_at']!, _createdAtMeta));
+      context.handle(
+        _createdAtMeta,
+        createdAt.isAcceptableOrUnknown(data['created_at']!, _createdAtMeta),
+      );
     } else if (isInserting) {
       context.missing(_createdAtMeta);
     }
@@ -997,8 +1195,14 @@ class $FavoritesTable extends Favorites with TableInfo<$FavoritesTable, Favorite
   Favorite map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return Favorite(
-      ref: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}ref'])!,
-      createdAt: attachedDatabase.typeMapping.read(DriftSqlType.int, data['${effectivePrefix}created_at'])!,
+      ref: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}ref'],
+      )!,
+      createdAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}created_at'],
+      )!,
     );
   }
 
@@ -1024,7 +1228,10 @@ class Favorite extends DataClass implements Insertable<Favorite> {
     return FavoritesCompanion(ref: Value(ref), createdAt: Value(createdAt));
   }
 
-  factory Favorite.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory Favorite.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return Favorite(
       ref: serializer.fromJson<String>(json['ref']),
@@ -1034,7 +1241,10 @@ class Favorite extends DataClass implements Insertable<Favorite> {
   @override
   Map<String, dynamic> toJson({ValueSerializer? serializer}) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
-    return <String, dynamic>{'ref': serializer.toJson<String>(ref), 'createdAt': serializer.toJson<int>(createdAt)};
+    return <String, dynamic>{
+      'ref': serializer.toJson<String>(ref),
+      'createdAt': serializer.toJson<int>(createdAt),
+    };
   }
 
   Favorite copyWith({String? ref, int? createdAt}) =>
@@ -1059,7 +1269,10 @@ class Favorite extends DataClass implements Insertable<Favorite> {
   int get hashCode => Object.hash(ref, createdAt);
   @override
   bool operator ==(Object other) =>
-      identical(this, other) || (other is Favorite && other.ref == this.ref && other.createdAt == this.createdAt);
+      identical(this, other) ||
+      (other is Favorite &&
+          other.ref == this.ref &&
+          other.createdAt == this.createdAt);
 }
 
 class FavoritesCompanion extends UpdateCompanion<Favorite> {
@@ -1071,10 +1284,17 @@ class FavoritesCompanion extends UpdateCompanion<Favorite> {
     this.createdAt = const Value.absent(),
     this.rowid = const Value.absent(),
   });
-  FavoritesCompanion.insert({required String ref, required int createdAt, this.rowid = const Value.absent()})
-    : ref = Value(ref),
-      createdAt = Value(createdAt);
-  static Insertable<Favorite> custom({Expression<String>? ref, Expression<int>? createdAt, Expression<int>? rowid}) {
+  FavoritesCompanion.insert({
+    required String ref,
+    required int createdAt,
+    this.rowid = const Value.absent(),
+  }) : ref = Value(ref),
+       createdAt = Value(createdAt);
+  static Insertable<Favorite> custom({
+    Expression<String>? ref,
+    Expression<int>? createdAt,
+    Expression<int>? rowid,
+  }) {
     return RawValuesInsertable({
       if (ref != null) 'ref': ref,
       if (createdAt != null) 'created_at': createdAt,
@@ -1082,8 +1302,16 @@ class FavoritesCompanion extends UpdateCompanion<Favorite> {
     });
   }
 
-  FavoritesCompanion copyWith({Value<String>? ref, Value<int>? createdAt, Value<int>? rowid}) {
-    return FavoritesCompanion(ref: ref ?? this.ref, createdAt: createdAt ?? this.createdAt, rowid: rowid ?? this.rowid);
+  FavoritesCompanion copyWith({
+    Value<String>? ref,
+    Value<int>? createdAt,
+    Value<int>? rowid,
+  }) {
+    return FavoritesCompanion(
+      ref: ref ?? this.ref,
+      createdAt: createdAt ?? this.createdAt,
+      rowid: rowid ?? this.rowid,
+    );
   }
 
   @override
@@ -1112,7 +1340,8 @@ class FavoritesCompanion extends UpdateCompanion<Favorite> {
   }
 }
 
-class $SettingsEntriesTable extends SettingsEntries with TableInfo<$SettingsEntriesTable, SettingsEntry> {
+class $SettingsEntriesTable extends SettingsEntries
+    with TableInfo<$SettingsEntriesTable, SettingsEntry> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
@@ -1143,16 +1372,25 @@ class $SettingsEntriesTable extends SettingsEntries with TableInfo<$SettingsEntr
   String get actualTableName => $name;
   static const String $name = 'settings_entries';
   @override
-  VerificationContext validateIntegrity(Insertable<SettingsEntry> instance, {bool isInserting = false}) {
+  VerificationContext validateIntegrity(
+    Insertable<SettingsEntry> instance, {
+    bool isInserting = false,
+  }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
     if (data.containsKey('key')) {
-      context.handle(_keyMeta, key.isAcceptableOrUnknown(data['key']!, _keyMeta));
+      context.handle(
+        _keyMeta,
+        key.isAcceptableOrUnknown(data['key']!, _keyMeta),
+      );
     } else if (isInserting) {
       context.missing(_keyMeta);
     }
     if (data.containsKey('value')) {
-      context.handle(_valueMeta, value.isAcceptableOrUnknown(data['value']!, _valueMeta));
+      context.handle(
+        _valueMeta,
+        value.isAcceptableOrUnknown(data['value']!, _valueMeta),
+      );
     } else if (isInserting) {
       context.missing(_valueMeta);
     }
@@ -1165,8 +1403,14 @@ class $SettingsEntriesTable extends SettingsEntries with TableInfo<$SettingsEntr
   SettingsEntry map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return SettingsEntry(
-      key: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}key'])!,
-      value: attachedDatabase.typeMapping.read(DriftSqlType.string, data['${effectivePrefix}value'])!,
+      key: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}key'],
+      )!,
+      value: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}value'],
+      )!,
     );
   }
 
@@ -1192,7 +1436,10 @@ class SettingsEntry extends DataClass implements Insertable<SettingsEntry> {
     return SettingsEntriesCompanion(key: Value(key), value: Value(value));
   }
 
-  factory SettingsEntry.fromJson(Map<String, dynamic> json, {ValueSerializer? serializer}) {
+  factory SettingsEntry.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return SettingsEntry(
       key: serializer.fromJson<String>(json['key']),
@@ -1202,7 +1449,10 @@ class SettingsEntry extends DataClass implements Insertable<SettingsEntry> {
   @override
   Map<String, dynamic> toJson({ValueSerializer? serializer}) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
-    return <String, dynamic>{'key': serializer.toJson<String>(key), 'value': serializer.toJson<String>(value)};
+    return <String, dynamic>{
+      'key': serializer.toJson<String>(key),
+      'value': serializer.toJson<String>(value),
+    };
   }
 
   SettingsEntry copyWith({String? key, String? value}) =>
@@ -1227,7 +1477,10 @@ class SettingsEntry extends DataClass implements Insertable<SettingsEntry> {
   int get hashCode => Object.hash(key, value);
   @override
   bool operator ==(Object other) =>
-      identical(this, other) || (other is SettingsEntry && other.key == this.key && other.value == this.value);
+      identical(this, other) ||
+      (other is SettingsEntry &&
+          other.key == this.key &&
+          other.value == this.value);
 }
 
 class SettingsEntriesCompanion extends UpdateCompanion<SettingsEntry> {
@@ -1239,9 +1492,12 @@ class SettingsEntriesCompanion extends UpdateCompanion<SettingsEntry> {
     this.value = const Value.absent(),
     this.rowid = const Value.absent(),
   });
-  SettingsEntriesCompanion.insert({required String key, required String value, this.rowid = const Value.absent()})
-    : key = Value(key),
-      value = Value(value);
+  SettingsEntriesCompanion.insert({
+    required String key,
+    required String value,
+    this.rowid = const Value.absent(),
+  }) : key = Value(key),
+       value = Value(value);
   static Insertable<SettingsEntry> custom({
     Expression<String>? key,
     Expression<String>? value,
@@ -1254,8 +1510,16 @@ class SettingsEntriesCompanion extends UpdateCompanion<SettingsEntry> {
     });
   }
 
-  SettingsEntriesCompanion copyWith({Value<String>? key, Value<String>? value, Value<int>? rowid}) {
-    return SettingsEntriesCompanion(key: key ?? this.key, value: value ?? this.value, rowid: rowid ?? this.rowid);
+  SettingsEntriesCompanion copyWith({
+    Value<String>? key,
+    Value<String>? value,
+    Value<int>? rowid,
+  }) {
+    return SettingsEntriesCompanion(
+      key: key ?? this.key,
+      value: value ?? this.value,
+      rowid: rowid ?? this.rowid,
+    );
   }
 
   @override
@@ -1284,6 +1548,370 @@ class SettingsEntriesCompanion extends UpdateCompanion<SettingsEntry> {
   }
 }
 
+class $ReadChaptersTable extends ReadChapters
+    with TableInfo<$ReadChaptersTable, ReadChapter> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $ReadChaptersTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _bookMeta = const VerificationMeta('book');
+  @override
+  late final GeneratedColumn<int> book = GeneratedColumn<int>(
+    'book',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _chapterMeta = const VerificationMeta(
+    'chapter',
+  );
+  @override
+  late final GeneratedColumn<int> chapter = GeneratedColumn<int>(
+    'chapter',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _firstDayMeta = const VerificationMeta(
+    'firstDay',
+  );
+  @override
+  late final GeneratedColumn<int> firstDay = GeneratedColumn<int>(
+    'first_day',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _lastDayMeta = const VerificationMeta(
+    'lastDay',
+  );
+  @override
+  late final GeneratedColumn<int> lastDay = GeneratedColumn<int>(
+    'last_day',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _manualMeta = const VerificationMeta('manual');
+  @override
+  late final GeneratedColumn<bool> manual = GeneratedColumn<bool>(
+    'manual',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("manual" IN (0, 1))',
+    ),
+    defaultValue: const Constant(false),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    book,
+    chapter,
+    firstDay,
+    lastDay,
+    manual,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'read_chapters';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<ReadChapter> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('book')) {
+      context.handle(
+        _bookMeta,
+        book.isAcceptableOrUnknown(data['book']!, _bookMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_bookMeta);
+    }
+    if (data.containsKey('chapter')) {
+      context.handle(
+        _chapterMeta,
+        chapter.isAcceptableOrUnknown(data['chapter']!, _chapterMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_chapterMeta);
+    }
+    if (data.containsKey('first_day')) {
+      context.handle(
+        _firstDayMeta,
+        firstDay.isAcceptableOrUnknown(data['first_day']!, _firstDayMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_firstDayMeta);
+    }
+    if (data.containsKey('last_day')) {
+      context.handle(
+        _lastDayMeta,
+        lastDay.isAcceptableOrUnknown(data['last_day']!, _lastDayMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_lastDayMeta);
+    }
+    if (data.containsKey('manual')) {
+      context.handle(
+        _manualMeta,
+        manual.isAcceptableOrUnknown(data['manual']!, _manualMeta),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {book, chapter};
+  @override
+  ReadChapter map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return ReadChapter(
+      book: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}book'],
+      )!,
+      chapter: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}chapter'],
+      )!,
+      firstDay: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}first_day'],
+      )!,
+      lastDay: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}last_day'],
+      )!,
+      manual: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}manual'],
+      )!,
+    );
+  }
+
+  @override
+  $ReadChaptersTable createAlias(String alias) {
+    return $ReadChaptersTable(attachedDatabase, alias);
+  }
+}
+
+class ReadChapter extends DataClass implements Insertable<ReadChapter> {
+  final int book;
+  final int chapter;
+  final int firstDay;
+  final int lastDay;
+  final bool manual;
+  const ReadChapter({
+    required this.book,
+    required this.chapter,
+    required this.firstDay,
+    required this.lastDay,
+    required this.manual,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['book'] = Variable<int>(book);
+    map['chapter'] = Variable<int>(chapter);
+    map['first_day'] = Variable<int>(firstDay);
+    map['last_day'] = Variable<int>(lastDay);
+    map['manual'] = Variable<bool>(manual);
+    return map;
+  }
+
+  ReadChaptersCompanion toCompanion(bool nullToAbsent) {
+    return ReadChaptersCompanion(
+      book: Value(book),
+      chapter: Value(chapter),
+      firstDay: Value(firstDay),
+      lastDay: Value(lastDay),
+      manual: Value(manual),
+    );
+  }
+
+  factory ReadChapter.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return ReadChapter(
+      book: serializer.fromJson<int>(json['book']),
+      chapter: serializer.fromJson<int>(json['chapter']),
+      firstDay: serializer.fromJson<int>(json['firstDay']),
+      lastDay: serializer.fromJson<int>(json['lastDay']),
+      manual: serializer.fromJson<bool>(json['manual']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'book': serializer.toJson<int>(book),
+      'chapter': serializer.toJson<int>(chapter),
+      'firstDay': serializer.toJson<int>(firstDay),
+      'lastDay': serializer.toJson<int>(lastDay),
+      'manual': serializer.toJson<bool>(manual),
+    };
+  }
+
+  ReadChapter copyWith({
+    int? book,
+    int? chapter,
+    int? firstDay,
+    int? lastDay,
+    bool? manual,
+  }) => ReadChapter(
+    book: book ?? this.book,
+    chapter: chapter ?? this.chapter,
+    firstDay: firstDay ?? this.firstDay,
+    lastDay: lastDay ?? this.lastDay,
+    manual: manual ?? this.manual,
+  );
+  ReadChapter copyWithCompanion(ReadChaptersCompanion data) {
+    return ReadChapter(
+      book: data.book.present ? data.book.value : this.book,
+      chapter: data.chapter.present ? data.chapter.value : this.chapter,
+      firstDay: data.firstDay.present ? data.firstDay.value : this.firstDay,
+      lastDay: data.lastDay.present ? data.lastDay.value : this.lastDay,
+      manual: data.manual.present ? data.manual.value : this.manual,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ReadChapter(')
+          ..write('book: $book, ')
+          ..write('chapter: $chapter, ')
+          ..write('firstDay: $firstDay, ')
+          ..write('lastDay: $lastDay, ')
+          ..write('manual: $manual')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(book, chapter, firstDay, lastDay, manual);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is ReadChapter &&
+          other.book == this.book &&
+          other.chapter == this.chapter &&
+          other.firstDay == this.firstDay &&
+          other.lastDay == this.lastDay &&
+          other.manual == this.manual);
+}
+
+class ReadChaptersCompanion extends UpdateCompanion<ReadChapter> {
+  final Value<int> book;
+  final Value<int> chapter;
+  final Value<int> firstDay;
+  final Value<int> lastDay;
+  final Value<bool> manual;
+  final Value<int> rowid;
+  const ReadChaptersCompanion({
+    this.book = const Value.absent(),
+    this.chapter = const Value.absent(),
+    this.firstDay = const Value.absent(),
+    this.lastDay = const Value.absent(),
+    this.manual = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  ReadChaptersCompanion.insert({
+    required int book,
+    required int chapter,
+    required int firstDay,
+    required int lastDay,
+    this.manual = const Value.absent(),
+    this.rowid = const Value.absent(),
+  }) : book = Value(book),
+       chapter = Value(chapter),
+       firstDay = Value(firstDay),
+       lastDay = Value(lastDay);
+  static Insertable<ReadChapter> custom({
+    Expression<int>? book,
+    Expression<int>? chapter,
+    Expression<int>? firstDay,
+    Expression<int>? lastDay,
+    Expression<bool>? manual,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (book != null) 'book': book,
+      if (chapter != null) 'chapter': chapter,
+      if (firstDay != null) 'first_day': firstDay,
+      if (lastDay != null) 'last_day': lastDay,
+      if (manual != null) 'manual': manual,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  ReadChaptersCompanion copyWith({
+    Value<int>? book,
+    Value<int>? chapter,
+    Value<int>? firstDay,
+    Value<int>? lastDay,
+    Value<bool>? manual,
+    Value<int>? rowid,
+  }) {
+    return ReadChaptersCompanion(
+      book: book ?? this.book,
+      chapter: chapter ?? this.chapter,
+      firstDay: firstDay ?? this.firstDay,
+      lastDay: lastDay ?? this.lastDay,
+      manual: manual ?? this.manual,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (book.present) {
+      map['book'] = Variable<int>(book.value);
+    }
+    if (chapter.present) {
+      map['chapter'] = Variable<int>(chapter.value);
+    }
+    if (firstDay.present) {
+      map['first_day'] = Variable<int>(firstDay.value);
+    }
+    if (lastDay.present) {
+      map['last_day'] = Variable<int>(lastDay.value);
+    }
+    if (manual.present) {
+      map['manual'] = Variable<bool>(manual.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ReadChaptersCompanion(')
+          ..write('book: $book, ')
+          ..write('chapter: $chapter, ')
+          ..write('firstDay: $firstDay, ')
+          ..write('lastDay: $lastDay, ')
+          ..write('manual: $manual, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(e);
   $AppDatabaseManager get managers => $AppDatabaseManager(this);
@@ -1291,9 +1919,13 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $QuestionStatsTable questionStats = $QuestionStatsTable(this);
   late final $ActivityDaysTable activityDays = $ActivityDaysTable(this);
   late final $FavoritesTable favorites = $FavoritesTable(this);
-  late final $SettingsEntriesTable settingsEntries = $SettingsEntriesTable(this);
+  late final $SettingsEntriesTable settingsEntries = $SettingsEntriesTable(
+    this,
+  );
+  late final $ReadChaptersTable readChapters = $ReadChaptersTable(this);
   @override
-  Iterable<TableInfo<Table, Object?>> get allTables => allSchemaEntities.whereType<TableInfo<Table, Object?>>();
+  Iterable<TableInfo<Table, Object?>> get allTables =>
+      allSchemaEntities.whereType<TableInfo<Table, Object?>>();
   @override
   List<DatabaseSchemaEntity> get allSchemaEntities => [
     lessonProgress,
@@ -1301,31 +1933,35 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     activityDays,
     favorites,
     settingsEntries,
+    readChapters,
   ];
 }
 
-typedef $$LessonProgressTableCreateCompanionBuilder = LessonProgressCompanion Function({
-  required String lessonId,
-  required int bestScore,
-  required int lastScore,
-  required int total,
-  required int attempts,
-  required int firstCompletedDay,
-  required int lastDay,
-  Value<int> rowid,
-});
-typedef $$LessonProgressTableUpdateCompanionBuilder = LessonProgressCompanion Function({
-  Value<String> lessonId,
-  Value<int> bestScore,
-  Value<int> lastScore,
-  Value<int> total,
-  Value<int> attempts,
-  Value<int> firstCompletedDay,
-  Value<int> lastDay,
-  Value<int> rowid,
-});
+typedef $$LessonProgressTableCreateCompanionBuilder =
+    LessonProgressCompanion Function({
+      required String lessonId,
+      required int bestScore,
+      required int lastScore,
+      required int total,
+      required int attempts,
+      required int firstCompletedDay,
+      required int lastDay,
+      Value<int> rowid,
+    });
+typedef $$LessonProgressTableUpdateCompanionBuilder =
+    LessonProgressCompanion Function({
+      Value<String> lessonId,
+      Value<int> bestScore,
+      Value<int> lastScore,
+      Value<int> total,
+      Value<int> attempts,
+      Value<int> firstCompletedDay,
+      Value<int> lastDay,
+      Value<int> rowid,
+    });
 
-class $$LessonProgressTableFilterComposer extends Composer<_$AppDatabase, $LessonProgressTable> {
+class $$LessonProgressTableFilterComposer
+    extends Composer<_$AppDatabase, $LessonProgressTable> {
   $$LessonProgressTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -1333,28 +1969,44 @@ class $$LessonProgressTableFilterComposer extends Composer<_$AppDatabase, $Lesso
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<String> get lessonId =>
-      $composableBuilder(column: $table.lessonId, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get lessonId => $composableBuilder(
+    column: $table.lessonId,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get bestScore =>
-      $composableBuilder(column: $table.bestScore, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get bestScore => $composableBuilder(
+    column: $table.bestScore,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get lastScore =>
-      $composableBuilder(column: $table.lastScore, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get lastScore => $composableBuilder(
+    column: $table.lastScore,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get total => $composableBuilder(column: $table.total, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get total => $composableBuilder(
+    column: $table.total,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get attempts =>
-      $composableBuilder(column: $table.attempts, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get attempts => $composableBuilder(
+    column: $table.attempts,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get firstCompletedDay =>
-      $composableBuilder(column: $table.firstCompletedDay, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get firstCompletedDay => $composableBuilder(
+    column: $table.firstCompletedDay,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get lastDay =>
-      $composableBuilder(column: $table.lastDay, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get lastDay => $composableBuilder(
+    column: $table.lastDay,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
-class $$LessonProgressTableOrderingComposer extends Composer<_$AppDatabase, $LessonProgressTable> {
+class $$LessonProgressTableOrderingComposer
+    extends Composer<_$AppDatabase, $LessonProgressTable> {
   $$LessonProgressTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -1362,29 +2014,44 @@ class $$LessonProgressTableOrderingComposer extends Composer<_$AppDatabase, $Les
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<String> get lessonId =>
-      $composableBuilder(column: $table.lessonId, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get lessonId => $composableBuilder(
+    column: $table.lessonId,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get bestScore =>
-      $composableBuilder(column: $table.bestScore, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get bestScore => $composableBuilder(
+    column: $table.bestScore,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get lastScore =>
-      $composableBuilder(column: $table.lastScore, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get lastScore => $composableBuilder(
+    column: $table.lastScore,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get total =>
-      $composableBuilder(column: $table.total, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get total => $composableBuilder(
+    column: $table.total,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get attempts =>
-      $composableBuilder(column: $table.attempts, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get attempts => $composableBuilder(
+    column: $table.attempts,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get firstCompletedDay =>
-      $composableBuilder(column: $table.firstCompletedDay, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get firstCompletedDay => $composableBuilder(
+    column: $table.firstCompletedDay,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get lastDay =>
-      $composableBuilder(column: $table.lastDay, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get lastDay => $composableBuilder(
+    column: $table.lastDay,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$LessonProgressTableAnnotationComposer extends Composer<_$AppDatabase, $LessonProgressTable> {
+class $$LessonProgressTableAnnotationComposer
+    extends Composer<_$AppDatabase, $LessonProgressTable> {
   $$LessonProgressTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -1392,20 +2059,28 @@ class $$LessonProgressTableAnnotationComposer extends Composer<_$AppDatabase, $L
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<String> get lessonId => $composableBuilder(column: $table.lessonId, builder: (column) => column);
+  GeneratedColumn<String> get lessonId =>
+      $composableBuilder(column: $table.lessonId, builder: (column) => column);
 
-  GeneratedColumn<int> get bestScore => $composableBuilder(column: $table.bestScore, builder: (column) => column);
+  GeneratedColumn<int> get bestScore =>
+      $composableBuilder(column: $table.bestScore, builder: (column) => column);
 
-  GeneratedColumn<int> get lastScore => $composableBuilder(column: $table.lastScore, builder: (column) => column);
+  GeneratedColumn<int> get lastScore =>
+      $composableBuilder(column: $table.lastScore, builder: (column) => column);
 
-  GeneratedColumn<int> get total => $composableBuilder(column: $table.total, builder: (column) => column);
+  GeneratedColumn<int> get total =>
+      $composableBuilder(column: $table.total, builder: (column) => column);
 
-  GeneratedColumn<int> get attempts => $composableBuilder(column: $table.attempts, builder: (column) => column);
+  GeneratedColumn<int> get attempts =>
+      $composableBuilder(column: $table.attempts, builder: (column) => column);
 
-  GeneratedColumn<int> get firstCompletedDay =>
-      $composableBuilder(column: $table.firstCompletedDay, builder: (column) => column);
+  GeneratedColumn<int> get firstCompletedDay => $composableBuilder(
+    column: $table.firstCompletedDay,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<int> get lastDay => $composableBuilder(column: $table.lastDay, builder: (column) => column);
+  GeneratedColumn<int> get lastDay =>
+      $composableBuilder(column: $table.lastDay, builder: (column) => column);
 }
 
 class $$LessonProgressTableTableManager
@@ -1419,18 +2094,30 @@ class $$LessonProgressTableTableManager
           $$LessonProgressTableAnnotationComposer,
           $$LessonProgressTableCreateCompanionBuilder,
           $$LessonProgressTableUpdateCompanionBuilder,
-          (LessonProgressData, BaseReferences<_$AppDatabase, $LessonProgressTable, LessonProgressData>),
+          (
+            LessonProgressData,
+            BaseReferences<
+              _$AppDatabase,
+              $LessonProgressTable,
+              LessonProgressData
+            >,
+          ),
           LessonProgressData,
           PrefetchHooks Function()
         > {
-  $$LessonProgressTableTableManager(_$AppDatabase db, $LessonProgressTable table)
-    : super(
+  $$LessonProgressTableTableManager(
+    _$AppDatabase db,
+    $LessonProgressTable table,
+  ) : super(
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$LessonProgressTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$LessonProgressTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () => $$LessonProgressTableAnnotationComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$LessonProgressTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$LessonProgressTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$LessonProgressTableAnnotationComposer($db: db, $table: table),
           updateCompanionCallback:
               ({
                 Value<String> lessonId = const Value.absent(),
@@ -1475,7 +2162,11 @@ class $$LessonProgressTableTableManager
               .map(
                 (e) => (
                   e.readTable<$LessonProgressTable, LessonProgressData>(table),
-                  BaseReferences<_$AppDatabase, $LessonProgressTable, LessonProgressData>(db, table, e),
+                  BaseReferences<
+                    _$AppDatabase,
+                    $LessonProgressTable,
+                    LessonProgressData
+                  >(db, table, e),
                 ),
               )
               .toList(),
@@ -1494,30 +2185,36 @@ typedef $$LessonProgressTableProcessedTableManager =
       $$LessonProgressTableAnnotationComposer,
       $$LessonProgressTableCreateCompanionBuilder,
       $$LessonProgressTableUpdateCompanionBuilder,
-      (LessonProgressData, BaseReferences<_$AppDatabase, $LessonProgressTable, LessonProgressData>),
+      (
+        LessonProgressData,
+        BaseReferences<_$AppDatabase, $LessonProgressTable, LessonProgressData>,
+      ),
       LessonProgressData,
       PrefetchHooks Function()
     >;
-typedef $$QuestionStatsTableCreateCompanionBuilder = QuestionStatsCompanion Function({
-  required String questionId,
-  required int box,
-  Value<int?> dueDay,
-  Value<int> correct,
-  Value<int> wrong,
-  required int lastDay,
-  Value<int> rowid,
-});
-typedef $$QuestionStatsTableUpdateCompanionBuilder = QuestionStatsCompanion Function({
-  Value<String> questionId,
-  Value<int> box,
-  Value<int?> dueDay,
-  Value<int> correct,
-  Value<int> wrong,
-  Value<int> lastDay,
-  Value<int> rowid,
-});
+typedef $$QuestionStatsTableCreateCompanionBuilder =
+    QuestionStatsCompanion Function({
+      required String questionId,
+      required int box,
+      Value<int?> dueDay,
+      Value<int> correct,
+      Value<int> wrong,
+      required int lastDay,
+      Value<int> rowid,
+    });
+typedef $$QuestionStatsTableUpdateCompanionBuilder =
+    QuestionStatsCompanion Function({
+      Value<String> questionId,
+      Value<int> box,
+      Value<int?> dueDay,
+      Value<int> correct,
+      Value<int> wrong,
+      Value<int> lastDay,
+      Value<int> rowid,
+    });
 
-class $$QuestionStatsTableFilterComposer extends Composer<_$AppDatabase, $QuestionStatsTable> {
+class $$QuestionStatsTableFilterComposer
+    extends Composer<_$AppDatabase, $QuestionStatsTable> {
   $$QuestionStatsTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -1525,24 +2222,39 @@ class $$QuestionStatsTableFilterComposer extends Composer<_$AppDatabase, $Questi
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<String> get questionId =>
-      $composableBuilder(column: $table.questionId, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get questionId => $composableBuilder(
+    column: $table.questionId,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get box => $composableBuilder(column: $table.box, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get box => $composableBuilder(
+    column: $table.box,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get dueDay =>
-      $composableBuilder(column: $table.dueDay, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get dueDay => $composableBuilder(
+    column: $table.dueDay,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get correct =>
-      $composableBuilder(column: $table.correct, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get correct => $composableBuilder(
+    column: $table.correct,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get wrong => $composableBuilder(column: $table.wrong, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get wrong => $composableBuilder(
+    column: $table.wrong,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get lastDay =>
-      $composableBuilder(column: $table.lastDay, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get lastDay => $composableBuilder(
+    column: $table.lastDay,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
-class $$QuestionStatsTableOrderingComposer extends Composer<_$AppDatabase, $QuestionStatsTable> {
+class $$QuestionStatsTableOrderingComposer
+    extends Composer<_$AppDatabase, $QuestionStatsTable> {
   $$QuestionStatsTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -1550,25 +2262,39 @@ class $$QuestionStatsTableOrderingComposer extends Composer<_$AppDatabase, $Ques
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<String> get questionId =>
-      $composableBuilder(column: $table.questionId, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get questionId => $composableBuilder(
+    column: $table.questionId,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get box => $composableBuilder(column: $table.box, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get box => $composableBuilder(
+    column: $table.box,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get dueDay =>
-      $composableBuilder(column: $table.dueDay, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get dueDay => $composableBuilder(
+    column: $table.dueDay,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get correct =>
-      $composableBuilder(column: $table.correct, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get correct => $composableBuilder(
+    column: $table.correct,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get wrong =>
-      $composableBuilder(column: $table.wrong, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get wrong => $composableBuilder(
+    column: $table.wrong,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get lastDay =>
-      $composableBuilder(column: $table.lastDay, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get lastDay => $composableBuilder(
+    column: $table.lastDay,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$QuestionStatsTableAnnotationComposer extends Composer<_$AppDatabase, $QuestionStatsTable> {
+class $$QuestionStatsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $QuestionStatsTable> {
   $$QuestionStatsTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -1576,17 +2302,25 @@ class $$QuestionStatsTableAnnotationComposer extends Composer<_$AppDatabase, $Qu
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<String> get questionId => $composableBuilder(column: $table.questionId, builder: (column) => column);
+  GeneratedColumn<String> get questionId => $composableBuilder(
+    column: $table.questionId,
+    builder: (column) => column,
+  );
 
-  GeneratedColumn<int> get box => $composableBuilder(column: $table.box, builder: (column) => column);
+  GeneratedColumn<int> get box =>
+      $composableBuilder(column: $table.box, builder: (column) => column);
 
-  GeneratedColumn<int> get dueDay => $composableBuilder(column: $table.dueDay, builder: (column) => column);
+  GeneratedColumn<int> get dueDay =>
+      $composableBuilder(column: $table.dueDay, builder: (column) => column);
 
-  GeneratedColumn<int> get correct => $composableBuilder(column: $table.correct, builder: (column) => column);
+  GeneratedColumn<int> get correct =>
+      $composableBuilder(column: $table.correct, builder: (column) => column);
 
-  GeneratedColumn<int> get wrong => $composableBuilder(column: $table.wrong, builder: (column) => column);
+  GeneratedColumn<int> get wrong =>
+      $composableBuilder(column: $table.wrong, builder: (column) => column);
 
-  GeneratedColumn<int> get lastDay => $composableBuilder(column: $table.lastDay, builder: (column) => column);
+  GeneratedColumn<int> get lastDay =>
+      $composableBuilder(column: $table.lastDay, builder: (column) => column);
 }
 
 class $$QuestionStatsTableTableManager
@@ -1600,7 +2334,10 @@ class $$QuestionStatsTableTableManager
           $$QuestionStatsTableAnnotationComposer,
           $$QuestionStatsTableCreateCompanionBuilder,
           $$QuestionStatsTableUpdateCompanionBuilder,
-          (QuestionStat, BaseReferences<_$AppDatabase, $QuestionStatsTable, QuestionStat>),
+          (
+            QuestionStat,
+            BaseReferences<_$AppDatabase, $QuestionStatsTable, QuestionStat>,
+          ),
           QuestionStat,
           PrefetchHooks Function()
         > {
@@ -1609,9 +2346,12 @@ class $$QuestionStatsTableTableManager
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$QuestionStatsTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$QuestionStatsTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () => $$QuestionStatsTableAnnotationComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$QuestionStatsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$QuestionStatsTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$QuestionStatsTableAnnotationComposer($db: db, $table: table),
           updateCompanionCallback:
               ({
                 Value<String> questionId = const Value.absent(),
@@ -1652,7 +2392,11 @@ class $$QuestionStatsTableTableManager
               .map(
                 (e) => (
                   e.readTable<$QuestionStatsTable, QuestionStat>(table),
-                  BaseReferences<_$AppDatabase, $QuestionStatsTable, QuestionStat>(db, table, e),
+                  BaseReferences<
+                    _$AppDatabase,
+                    $QuestionStatsTable,
+                    QuestionStat
+                  >(db, table, e),
                 ),
               )
               .toList(),
@@ -1671,22 +2415,28 @@ typedef $$QuestionStatsTableProcessedTableManager =
       $$QuestionStatsTableAnnotationComposer,
       $$QuestionStatsTableCreateCompanionBuilder,
       $$QuestionStatsTableUpdateCompanionBuilder,
-      (QuestionStat, BaseReferences<_$AppDatabase, $QuestionStatsTable, QuestionStat>),
+      (
+        QuestionStat,
+        BaseReferences<_$AppDatabase, $QuestionStatsTable, QuestionStat>,
+      ),
       QuestionStat,
       PrefetchHooks Function()
     >;
-typedef $$ActivityDaysTableCreateCompanionBuilder = ActivityDaysCompanion Function({
-  Value<int> day,
-  Value<int> answered,
-  Value<int> lessons,
-});
-typedef $$ActivityDaysTableUpdateCompanionBuilder = ActivityDaysCompanion Function({
-  Value<int> day,
-  Value<int> answered,
-  Value<int> lessons,
-});
+typedef $$ActivityDaysTableCreateCompanionBuilder =
+    ActivityDaysCompanion Function({
+      Value<int> day,
+      Value<int> answered,
+      Value<int> lessons,
+    });
+typedef $$ActivityDaysTableUpdateCompanionBuilder =
+    ActivityDaysCompanion Function({
+      Value<int> day,
+      Value<int> answered,
+      Value<int> lessons,
+    });
 
-class $$ActivityDaysTableFilterComposer extends Composer<_$AppDatabase, $ActivityDaysTable> {
+class $$ActivityDaysTableFilterComposer
+    extends Composer<_$AppDatabase, $ActivityDaysTable> {
   $$ActivityDaysTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -1694,16 +2444,24 @@ class $$ActivityDaysTableFilterComposer extends Composer<_$AppDatabase, $Activit
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<int> get day => $composableBuilder(column: $table.day, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get day => $composableBuilder(
+    column: $table.day,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get answered =>
-      $composableBuilder(column: $table.answered, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get answered => $composableBuilder(
+    column: $table.answered,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get lessons =>
-      $composableBuilder(column: $table.lessons, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get lessons => $composableBuilder(
+    column: $table.lessons,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
-class $$ActivityDaysTableOrderingComposer extends Composer<_$AppDatabase, $ActivityDaysTable> {
+class $$ActivityDaysTableOrderingComposer
+    extends Composer<_$AppDatabase, $ActivityDaysTable> {
   $$ActivityDaysTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -1711,16 +2469,24 @@ class $$ActivityDaysTableOrderingComposer extends Composer<_$AppDatabase, $Activ
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<int> get day => $composableBuilder(column: $table.day, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get day => $composableBuilder(
+    column: $table.day,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get answered =>
-      $composableBuilder(column: $table.answered, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get answered => $composableBuilder(
+    column: $table.answered,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get lessons =>
-      $composableBuilder(column: $table.lessons, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get lessons => $composableBuilder(
+    column: $table.lessons,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$ActivityDaysTableAnnotationComposer extends Composer<_$AppDatabase, $ActivityDaysTable> {
+class $$ActivityDaysTableAnnotationComposer
+    extends Composer<_$AppDatabase, $ActivityDaysTable> {
   $$ActivityDaysTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -1728,11 +2494,14 @@ class $$ActivityDaysTableAnnotationComposer extends Composer<_$AppDatabase, $Act
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<int> get day => $composableBuilder(column: $table.day, builder: (column) => column);
+  GeneratedColumn<int> get day =>
+      $composableBuilder(column: $table.day, builder: (column) => column);
 
-  GeneratedColumn<int> get answered => $composableBuilder(column: $table.answered, builder: (column) => column);
+  GeneratedColumn<int> get answered =>
+      $composableBuilder(column: $table.answered, builder: (column) => column);
 
-  GeneratedColumn<int> get lessons => $composableBuilder(column: $table.lessons, builder: (column) => column);
+  GeneratedColumn<int> get lessons =>
+      $composableBuilder(column: $table.lessons, builder: (column) => column);
 }
 
 class $$ActivityDaysTableTableManager
@@ -1746,7 +2515,10 @@ class $$ActivityDaysTableTableManager
           $$ActivityDaysTableAnnotationComposer,
           $$ActivityDaysTableCreateCompanionBuilder,
           $$ActivityDaysTableUpdateCompanionBuilder,
-          (ActivityDay, BaseReferences<_$AppDatabase, $ActivityDaysTable, ActivityDay>),
+          (
+            ActivityDay,
+            BaseReferences<_$AppDatabase, $ActivityDaysTable, ActivityDay>,
+          ),
           ActivityDay,
           PrefetchHooks Function()
         > {
@@ -1755,24 +2527,41 @@ class $$ActivityDaysTableTableManager
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$ActivityDaysTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$ActivityDaysTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () => $$ActivityDaysTableAnnotationComposer($db: db, $table: table),
-          updateCompanionCallback: ({
-            Value<int> day = const Value.absent(),
-            Value<int> answered = const Value.absent(),
-            Value<int> lessons = const Value.absent(),
-          }) => ActivityDaysCompanion(day: day, answered: answered, lessons: lessons),
-          createCompanionCallback: ({
-            Value<int> day = const Value.absent(),
-            Value<int> answered = const Value.absent(),
-            Value<int> lessons = const Value.absent(),
-          }) => ActivityDaysCompanion.insert(day: day, answered: answered, lessons: lessons),
+          createFilteringComposer: () =>
+              $$ActivityDaysTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$ActivityDaysTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$ActivityDaysTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> day = const Value.absent(),
+                Value<int> answered = const Value.absent(),
+                Value<int> lessons = const Value.absent(),
+              }) => ActivityDaysCompanion(
+                day: day,
+                answered: answered,
+                lessons: lessons,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> day = const Value.absent(),
+                Value<int> answered = const Value.absent(),
+                Value<int> lessons = const Value.absent(),
+              }) => ActivityDaysCompanion.insert(
+                day: day,
+                answered: answered,
+                lessons: lessons,
+              ),
           withReferenceMapper: (p0) => p0
               .map(
                 (e) => (
                   e.readTable<$ActivityDaysTable, ActivityDay>(table),
-                  BaseReferences<_$AppDatabase, $ActivityDaysTable, ActivityDay>(db, table, e),
+                  BaseReferences<
+                    _$AppDatabase,
+                    $ActivityDaysTable,
+                    ActivityDay
+                  >(db, table, e),
                 ),
               )
               .toList(),
@@ -1791,7 +2580,10 @@ typedef $$ActivityDaysTableProcessedTableManager =
       $$ActivityDaysTableAnnotationComposer,
       $$ActivityDaysTableCreateCompanionBuilder,
       $$ActivityDaysTableUpdateCompanionBuilder,
-      (ActivityDay, BaseReferences<_$AppDatabase, $ActivityDaysTable, ActivityDay>),
+      (
+        ActivityDay,
+        BaseReferences<_$AppDatabase, $ActivityDaysTable, ActivityDay>,
+      ),
       ActivityDay,
       PrefetchHooks Function()
     >;
@@ -1806,7 +2598,8 @@ typedef $$FavoritesTableUpdateCompanionBuilder = FavoritesCompanion Function({
   Value<int> rowid,
 });
 
-class $$FavoritesTableFilterComposer extends Composer<_$AppDatabase, $FavoritesTable> {
+class $$FavoritesTableFilterComposer
+    extends Composer<_$AppDatabase, $FavoritesTable> {
   $$FavoritesTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -1814,13 +2607,19 @@ class $$FavoritesTableFilterComposer extends Composer<_$AppDatabase, $FavoritesT
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<String> get ref => $composableBuilder(column: $table.ref, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get ref => $composableBuilder(
+    column: $table.ref,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<int> get createdAt =>
-      $composableBuilder(column: $table.createdAt, builder: (column) => ColumnFilters(column));
+  ColumnFilters<int> get createdAt => $composableBuilder(
+    column: $table.createdAt,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
-class $$FavoritesTableOrderingComposer extends Composer<_$AppDatabase, $FavoritesTable> {
+class $$FavoritesTableOrderingComposer
+    extends Composer<_$AppDatabase, $FavoritesTable> {
   $$FavoritesTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -1828,14 +2627,19 @@ class $$FavoritesTableOrderingComposer extends Composer<_$AppDatabase, $Favorite
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<String> get ref =>
-      $composableBuilder(column: $table.ref, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get ref => $composableBuilder(
+    column: $table.ref,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<int> get createdAt =>
-      $composableBuilder(column: $table.createdAt, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<int> get createdAt => $composableBuilder(
+    column: $table.createdAt,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$FavoritesTableAnnotationComposer extends Composer<_$AppDatabase, $FavoritesTable> {
+class $$FavoritesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $FavoritesTable> {
   $$FavoritesTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -1843,9 +2647,11 @@ class $$FavoritesTableAnnotationComposer extends Composer<_$AppDatabase, $Favori
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<String> get ref => $composableBuilder(column: $table.ref, builder: (column) => column);
+  GeneratedColumn<String> get ref =>
+      $composableBuilder(column: $table.ref, builder: (column) => column);
 
-  GeneratedColumn<int> get createdAt => $composableBuilder(column: $table.createdAt, builder: (column) => column);
+  GeneratedColumn<int> get createdAt =>
+      $composableBuilder(column: $table.createdAt, builder: (column) => column);
 }
 
 class $$FavoritesTableTableManager
@@ -1868,24 +2674,41 @@ class $$FavoritesTableTableManager
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$FavoritesTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$FavoritesTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () => $$FavoritesTableAnnotationComposer($db: db, $table: table),
-          updateCompanionCallback: ({
-            Value<String> ref = const Value.absent(),
-            Value<int> createdAt = const Value.absent(),
-            Value<int> rowid = const Value.absent(),
-          }) => FavoritesCompanion(ref: ref, createdAt: createdAt, rowid: rowid),
-          createCompanionCallback: ({
-            required String ref,
-            required int createdAt,
-            Value<int> rowid = const Value.absent(),
-          }) => FavoritesCompanion.insert(ref: ref, createdAt: createdAt, rowid: rowid),
+          createFilteringComposer: () =>
+              $$FavoritesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$FavoritesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$FavoritesTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<String> ref = const Value.absent(),
+                Value<int> createdAt = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => FavoritesCompanion(
+                ref: ref,
+                createdAt: createdAt,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required String ref,
+                required int createdAt,
+                Value<int> rowid = const Value.absent(),
+              }) => FavoritesCompanion.insert(
+                ref: ref,
+                createdAt: createdAt,
+                rowid: rowid,
+              ),
           withReferenceMapper: (p0) => p0
               .map(
                 (e) => (
                   e.readTable<$FavoritesTable, Favorite>(table),
-                  BaseReferences<_$AppDatabase, $FavoritesTable, Favorite>(db, table, e),
+                  BaseReferences<_$AppDatabase, $FavoritesTable, Favorite>(
+                    db,
+                    table,
+                    e,
+                  ),
                 ),
               )
               .toList(),
@@ -1908,18 +2731,21 @@ typedef $$FavoritesTableProcessedTableManager =
       Favorite,
       PrefetchHooks Function()
     >;
-typedef $$SettingsEntriesTableCreateCompanionBuilder = SettingsEntriesCompanion Function({
-  required String key,
-  required String value,
-  Value<int> rowid,
-});
-typedef $$SettingsEntriesTableUpdateCompanionBuilder = SettingsEntriesCompanion Function({
-  Value<String> key,
-  Value<String> value,
-  Value<int> rowid,
-});
+typedef $$SettingsEntriesTableCreateCompanionBuilder =
+    SettingsEntriesCompanion Function({
+      required String key,
+      required String value,
+      Value<int> rowid,
+    });
+typedef $$SettingsEntriesTableUpdateCompanionBuilder =
+    SettingsEntriesCompanion Function({
+      Value<String> key,
+      Value<String> value,
+      Value<int> rowid,
+    });
 
-class $$SettingsEntriesTableFilterComposer extends Composer<_$AppDatabase, $SettingsEntriesTable> {
+class $$SettingsEntriesTableFilterComposer
+    extends Composer<_$AppDatabase, $SettingsEntriesTable> {
   $$SettingsEntriesTableFilterComposer({
     required super.$db,
     required super.$table,
@@ -1927,13 +2753,19 @@ class $$SettingsEntriesTableFilterComposer extends Composer<_$AppDatabase, $Sett
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnFilters<String> get key => $composableBuilder(column: $table.key, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get key => $composableBuilder(
+    column: $table.key,
+    builder: (column) => ColumnFilters(column),
+  );
 
-  ColumnFilters<String> get value =>
-      $composableBuilder(column: $table.value, builder: (column) => ColumnFilters(column));
+  ColumnFilters<String> get value => $composableBuilder(
+    column: $table.value,
+    builder: (column) => ColumnFilters(column),
+  );
 }
 
-class $$SettingsEntriesTableOrderingComposer extends Composer<_$AppDatabase, $SettingsEntriesTable> {
+class $$SettingsEntriesTableOrderingComposer
+    extends Composer<_$AppDatabase, $SettingsEntriesTable> {
   $$SettingsEntriesTableOrderingComposer({
     required super.$db,
     required super.$table,
@@ -1941,14 +2773,19 @@ class $$SettingsEntriesTableOrderingComposer extends Composer<_$AppDatabase, $Se
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  ColumnOrderings<String> get key =>
-      $composableBuilder(column: $table.key, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get key => $composableBuilder(
+    column: $table.key,
+    builder: (column) => ColumnOrderings(column),
+  );
 
-  ColumnOrderings<String> get value =>
-      $composableBuilder(column: $table.value, builder: (column) => ColumnOrderings(column));
+  ColumnOrderings<String> get value => $composableBuilder(
+    column: $table.value,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$SettingsEntriesTableAnnotationComposer extends Composer<_$AppDatabase, $SettingsEntriesTable> {
+class $$SettingsEntriesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $SettingsEntriesTable> {
   $$SettingsEntriesTableAnnotationComposer({
     required super.$db,
     required super.$table,
@@ -1956,9 +2793,11 @@ class $$SettingsEntriesTableAnnotationComposer extends Composer<_$AppDatabase, $
     super.$addJoinBuilderToRootComposer,
     super.$removeJoinBuilderFromRootComposer,
   });
-  GeneratedColumn<String> get key => $composableBuilder(column: $table.key, builder: (column) => column);
+  GeneratedColumn<String> get key =>
+      $composableBuilder(column: $table.key, builder: (column) => column);
 
-  GeneratedColumn<String> get value => $composableBuilder(column: $table.value, builder: (column) => column);
+  GeneratedColumn<String> get value =>
+      $composableBuilder(column: $table.value, builder: (column) => column);
 }
 
 class $$SettingsEntriesTableTableManager
@@ -1972,33 +2811,50 @@ class $$SettingsEntriesTableTableManager
           $$SettingsEntriesTableAnnotationComposer,
           $$SettingsEntriesTableCreateCompanionBuilder,
           $$SettingsEntriesTableUpdateCompanionBuilder,
-          (SettingsEntry, BaseReferences<_$AppDatabase, $SettingsEntriesTable, SettingsEntry>),
+          (
+            SettingsEntry,
+            BaseReferences<_$AppDatabase, $SettingsEntriesTable, SettingsEntry>,
+          ),
           SettingsEntry,
           PrefetchHooks Function()
         > {
-  $$SettingsEntriesTableTableManager(_$AppDatabase db, $SettingsEntriesTable table)
-    : super(
+  $$SettingsEntriesTableTableManager(
+    _$AppDatabase db,
+    $SettingsEntriesTable table,
+  ) : super(
         TableManagerState(
           db: db,
           table: table,
-          createFilteringComposer: () => $$SettingsEntriesTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () => $$SettingsEntriesTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () => $$SettingsEntriesTableAnnotationComposer($db: db, $table: table),
+          createFilteringComposer: () =>
+              $$SettingsEntriesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$SettingsEntriesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$SettingsEntriesTableAnnotationComposer($db: db, $table: table),
           updateCompanionCallback: ({
             Value<String> key = const Value.absent(),
             Value<String> value = const Value.absent(),
             Value<int> rowid = const Value.absent(),
           }) => SettingsEntriesCompanion(key: key, value: value, rowid: rowid),
-          createCompanionCallback: ({
-            required String key,
-            required String value,
-            Value<int> rowid = const Value.absent(),
-          }) => SettingsEntriesCompanion.insert(key: key, value: value, rowid: rowid),
+          createCompanionCallback:
+              ({
+                required String key,
+                required String value,
+                Value<int> rowid = const Value.absent(),
+              }) => SettingsEntriesCompanion.insert(
+                key: key,
+                value: value,
+                rowid: rowid,
+              ),
           withReferenceMapper: (p0) => p0
               .map(
                 (e) => (
                   e.readTable<$SettingsEntriesTable, SettingsEntry>(table),
-                  BaseReferences<_$AppDatabase, $SettingsEntriesTable, SettingsEntry>(db, table, e),
+                  BaseReferences<
+                    _$AppDatabase,
+                    $SettingsEntriesTable,
+                    SettingsEntry
+                  >(db, table, e),
                 ),
               )
               .toList(),
@@ -2017,18 +2873,236 @@ typedef $$SettingsEntriesTableProcessedTableManager =
       $$SettingsEntriesTableAnnotationComposer,
       $$SettingsEntriesTableCreateCompanionBuilder,
       $$SettingsEntriesTableUpdateCompanionBuilder,
-      (SettingsEntry, BaseReferences<_$AppDatabase, $SettingsEntriesTable, SettingsEntry>),
+      (
+        SettingsEntry,
+        BaseReferences<_$AppDatabase, $SettingsEntriesTable, SettingsEntry>,
+      ),
       SettingsEntry,
+      PrefetchHooks Function()
+    >;
+typedef $$ReadChaptersTableCreateCompanionBuilder =
+    ReadChaptersCompanion Function({
+      required int book,
+      required int chapter,
+      required int firstDay,
+      required int lastDay,
+      Value<bool> manual,
+      Value<int> rowid,
+    });
+typedef $$ReadChaptersTableUpdateCompanionBuilder =
+    ReadChaptersCompanion Function({
+      Value<int> book,
+      Value<int> chapter,
+      Value<int> firstDay,
+      Value<int> lastDay,
+      Value<bool> manual,
+      Value<int> rowid,
+    });
+
+class $$ReadChaptersTableFilterComposer
+    extends Composer<_$AppDatabase, $ReadChaptersTable> {
+  $$ReadChaptersTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get book => $composableBuilder(
+    column: $table.book,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get chapter => $composableBuilder(
+    column: $table.chapter,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get firstDay => $composableBuilder(
+    column: $table.firstDay,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get lastDay => $composableBuilder(
+    column: $table.lastDay,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get manual => $composableBuilder(
+    column: $table.manual,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$ReadChaptersTableOrderingComposer
+    extends Composer<_$AppDatabase, $ReadChaptersTable> {
+  $$ReadChaptersTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get book => $composableBuilder(
+    column: $table.book,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get chapter => $composableBuilder(
+    column: $table.chapter,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get firstDay => $composableBuilder(
+    column: $table.firstDay,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get lastDay => $composableBuilder(
+    column: $table.lastDay,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get manual => $composableBuilder(
+    column: $table.manual,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$ReadChaptersTableAnnotationComposer
+    extends Composer<_$AppDatabase, $ReadChaptersTable> {
+  $$ReadChaptersTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get book =>
+      $composableBuilder(column: $table.book, builder: (column) => column);
+
+  GeneratedColumn<int> get chapter =>
+      $composableBuilder(column: $table.chapter, builder: (column) => column);
+
+  GeneratedColumn<int> get firstDay =>
+      $composableBuilder(column: $table.firstDay, builder: (column) => column);
+
+  GeneratedColumn<int> get lastDay =>
+      $composableBuilder(column: $table.lastDay, builder: (column) => column);
+
+  GeneratedColumn<bool> get manual =>
+      $composableBuilder(column: $table.manual, builder: (column) => column);
+}
+
+class $$ReadChaptersTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $ReadChaptersTable,
+          ReadChapter,
+          $$ReadChaptersTableFilterComposer,
+          $$ReadChaptersTableOrderingComposer,
+          $$ReadChaptersTableAnnotationComposer,
+          $$ReadChaptersTableCreateCompanionBuilder,
+          $$ReadChaptersTableUpdateCompanionBuilder,
+          (
+            ReadChapter,
+            BaseReferences<_$AppDatabase, $ReadChaptersTable, ReadChapter>,
+          ),
+          ReadChapter,
+          PrefetchHooks Function()
+        > {
+  $$ReadChaptersTableTableManager(_$AppDatabase db, $ReadChaptersTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$ReadChaptersTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$ReadChaptersTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$ReadChaptersTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> book = const Value.absent(),
+                Value<int> chapter = const Value.absent(),
+                Value<int> firstDay = const Value.absent(),
+                Value<int> lastDay = const Value.absent(),
+                Value<bool> manual = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ReadChaptersCompanion(
+                book: book,
+                chapter: chapter,
+                firstDay: firstDay,
+                lastDay: lastDay,
+                manual: manual,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required int book,
+                required int chapter,
+                required int firstDay,
+                required int lastDay,
+                Value<bool> manual = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ReadChaptersCompanion.insert(
+                book: book,
+                chapter: chapter,
+                firstDay: firstDay,
+                lastDay: lastDay,
+                manual: manual,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$ReadChaptersTable, ReadChapter>(table),
+                  BaseReferences<
+                    _$AppDatabase,
+                    $ReadChaptersTable,
+                    ReadChapter
+                  >(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$ReadChaptersTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $ReadChaptersTable,
+      ReadChapter,
+      $$ReadChaptersTableFilterComposer,
+      $$ReadChaptersTableOrderingComposer,
+      $$ReadChaptersTableAnnotationComposer,
+      $$ReadChaptersTableCreateCompanionBuilder,
+      $$ReadChaptersTableUpdateCompanionBuilder,
+      (
+        ReadChapter,
+        BaseReferences<_$AppDatabase, $ReadChaptersTable, ReadChapter>,
+      ),
+      ReadChapter,
       PrefetchHooks Function()
     >;
 
 class $AppDatabaseManager {
   final _$AppDatabase _db;
   $AppDatabaseManager(this._db);
-  $$LessonProgressTableTableManager get lessonProgress => $$LessonProgressTableTableManager(_db, _db.lessonProgress);
-  $$QuestionStatsTableTableManager get questionStats => $$QuestionStatsTableTableManager(_db, _db.questionStats);
-  $$ActivityDaysTableTableManager get activityDays => $$ActivityDaysTableTableManager(_db, _db.activityDays);
-  $$FavoritesTableTableManager get favorites => $$FavoritesTableTableManager(_db, _db.favorites);
+  $$LessonProgressTableTableManager get lessonProgress =>
+      $$LessonProgressTableTableManager(_db, _db.lessonProgress);
+  $$QuestionStatsTableTableManager get questionStats =>
+      $$QuestionStatsTableTableManager(_db, _db.questionStats);
+  $$ActivityDaysTableTableManager get activityDays =>
+      $$ActivityDaysTableTableManager(_db, _db.activityDays);
+  $$FavoritesTableTableManager get favorites =>
+      $$FavoritesTableTableManager(_db, _db.favorites);
   $$SettingsEntriesTableTableManager get settingsEntries =>
       $$SettingsEntriesTableTableManager(_db, _db.settingsEntries);
+  $$ReadChaptersTableTableManager get readChapters =>
+      $$ReadChaptersTableTableManager(_db, _db.readChapters);
 }

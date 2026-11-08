@@ -10,7 +10,14 @@ import '../widgets/verse_sheet.dart';
 /// Pose les questions une à une : choix, correction immédiate, explication
 /// et renvoi au verset, puis « Suivant ». Appelle [onFinished] une seule fois.
 class QuizView extends StatefulWidget {
-  const QuizView({super.key, required this.session, required this.onFinished, this.onProgress, this.headline});
+  const QuizView({
+    super.key,
+    required this.session,
+    required this.onFinished,
+    this.onProgress,
+    this.headline,
+    this.showSource = false,
+  });
 
   final QuizSession session;
   final void Function(QuizSession session) onFinished;
@@ -21,6 +28,11 @@ class QuizView extends StatefulWidget {
 
   /// Texte fixe au-dessus de chaque question (ex. « Dans quel livre se trouve ce verset ? »).
   final String? headline;
+
+  /// Quiz de lecture : rappelle le passage de chaque question relue (« Jean 6 ») —
+  /// écrite pour suivre une lecture, elle peut ne pas le nommer — et signale les
+  /// questions tirées du texte.
+  final bool showSource;
 
   @override
   State<QuizView> createState() => _QuizViewState();
@@ -87,6 +99,24 @@ class _QuizViewState extends State<QuizView> {
             children: [
               Text(l.questionOf(s.index + 1, s.length), style: text.labelLarge),
               const SizedBox(height: 8),
+              if (widget.showSource) ...[
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Chip(
+                    visualDensity: VisualDensity.compact,
+                    avatar: Icon(q.id.startsWith('gen-') ? Icons.auto_stories_outlined : Icons.menu_book_outlined, size: 18),
+                    label: Text(
+                      q.id.startsWith('gen-')
+                          ? l.fromTheText
+                          // Livres d'un seul chapitre (Abdias, Philémon, 2 et 3 Jean, Jude) : le nom suffit.
+                          : const {31, 57, 63, 64, 65}.contains(q.ref.book)
+                          ? bookById(q.ref.book).name(lang)
+                          : '${bookById(q.ref.book).name(lang)} ${q.ref.startChapter}',
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 8),
+              ],
               if (widget.headline != null) ...[
                 Text(widget.headline!, style: text.titleMedium?.copyWith(fontWeight: FontWeight.w700)),
                 const SizedBox(height: 10),

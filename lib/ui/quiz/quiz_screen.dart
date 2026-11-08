@@ -22,6 +22,7 @@ class QuizScreen extends ConsumerStatefulWidget {
     this.shuffleQuestions = false,
     this.resultExtras,
     this.trackReview = true,
+    this.showSource = false,
   });
 
   final String title;
@@ -35,6 +36,9 @@ class QuizScreen extends ConsumerStatefulWidget {
 
   /// Les questions fabriquées (défi) n'ont pas de suivi de révision.
   final bool trackReview;
+
+  /// Quiz de lecture : passage de chaque question et mention « Tiré du texte ».
+  final bool showSource;
 
   @override
   ConsumerState<QuizScreen> createState() => _QuizScreenState();
@@ -87,6 +91,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                   key: ObjectKey(_session),
                   session: _session,
                   headline: widget.headline,
+                  showSource: widget.showSource,
                   onFinished: _finish,
                   onProgress: () => setState(() {}),
                 ),

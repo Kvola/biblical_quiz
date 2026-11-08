@@ -570,8 +570,136 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get resetProgressBody =>
-      'Completed lessons, reviews and streak will be erased. Your saved verses and settings are kept. This cannot be undone.';
+      'Completed lessons, reviews, streak and chapters read will be erased. Your saved verses and settings are kept. This cannot be undone.';
 
   @override
   String get resetDone => 'Progress erased';
+
+  @override
+  String get readingQuizTitle => 'Quiz on my reading';
+
+  @override
+  String get readingQuizSubtitle => 'A quiz on the book or books you have read';
+
+  @override
+  String get readingQuizIntro =>
+      'Choose one or more books. Reviewed questions come first; others, drawn from the text itself, complete the quiz.';
+
+  @override
+  String get readingQuizBooks => 'Books in the quiz';
+
+  @override
+  String get selectMyReading => 'My reading';
+
+  @override
+  String get selectNone => 'None';
+
+  @override
+  String get genreLaw => 'Pentateuch';
+
+  @override
+  String get genreHistory => 'Historical books';
+
+  @override
+  String get genrePoetry => 'Poetry';
+
+  @override
+  String get genreProphets => 'Prophets';
+
+  @override
+  String get genreGospels => 'Gospels';
+
+  @override
+  String get genreActs => 'Acts';
+
+  @override
+  String get genreEpistles => 'Epistles';
+
+  @override
+  String get genreApocalyptic => 'Revelation';
+
+  @override
+  String chaptersReadOf(int done, int total) {
+    return '$done / $total chapters read';
+  }
+
+  @override
+  String get scopeRead => 'Chapters read';
+
+  @override
+  String get scopeWhole => 'Whole books';
+
+  @override
+  String get scopeReadHint =>
+      'Questions cover only the chapters you have read.';
+
+  @override
+  String get scopeWholeHint => 'Questions cover the whole of the chosen books.';
+
+  @override
+  String get questionCountLabel => 'Number of questions';
+
+  @override
+  String startReadingQuiz(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Start · $count books',
+      one: 'Start · 1 book',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get readingQuizPickOne => 'Choose at least one book.';
+
+  @override
+  String get readingQuizTooFew =>
+      'Not enough material for a quiz: add chapters, or choose “Whole books”.';
+
+  @override
+  String readingQuizNamed(String name) {
+    return 'Quiz: $name';
+  }
+
+  @override
+  String readingQuizBooksCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count books',
+      one: '1 book',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get fromTheText => 'From the text';
+
+  @override
+  String get markChapterRead => 'Mark as read';
+
+  @override
+  String get chapterRead => 'Chapter read';
+
+  @override
+  String get markBookRead => 'Mark the whole book as read';
+
+  @override
+  String get unmarkBookRead => 'Clear “read” for this book';
+
+  @override
+  String get quizOnThisBook => 'Quiz on this book';
+
+  @override
+  String chaptersReadTotal(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count chapters read',
+      one: '1 chapter read',
+      zero: 'No chapter read',
+    );
+    return '$_temp0';
+  }
 }

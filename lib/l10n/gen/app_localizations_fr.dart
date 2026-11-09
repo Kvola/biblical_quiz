@@ -781,4 +781,24 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get updateLater => 'Plus tard';
+
+  @override
+  String get webInstallTitle => 'Installez l’application Android';
+
+  @override
+  String get webInstallBody =>
+      'Plus fluide au quotidien, et vos données ne dépendent plus du navigateur.';
+
+  @override
+  String get webInstallAction => 'Installer';
+
+  @override
+  String get homeScreenTitle => 'Ajoutez l’application à l’écran d’accueil';
+
+  @override
+  String get homeScreenBody =>
+      'Touchez Partager (le carré avec une flèche), puis « Sur l’écran d’accueil ». L’application s’ouvrira en plein écran et vos données seront mieux conservées.';
+
+  @override
+  String get homeScreenDismiss => 'Compris';
 }

@@ -1279,6 +1279,42 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Plus tard'**
   String get updateLater;
+
+  /// No description provided for @webInstallTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Installez l’application Android'**
+  String get webInstallTitle;
+
+  /// No description provided for @webInstallBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plus fluide au quotidien, et vos données ne dépendent plus du navigateur.'**
+  String get webInstallBody;
+
+  /// No description provided for @webInstallAction.
+  ///
+  /// In fr, this message translates to:
+  /// **'Installer'**
+  String get webInstallAction;
+
+  /// No description provided for @homeScreenTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajoutez l’application à l’écran d’accueil'**
+  String get homeScreenTitle;
+
+  /// No description provided for @homeScreenBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Touchez Partager (le carré avec une flèche), puis « Sur l’écran d’accueil ». L’application s’ouvrira en plein écran et vos données seront mieux conservées.'**
+  String get homeScreenBody;
+
+  /// No description provided for @homeScreenDismiss.
+  ///
+  /// In fr, this message translates to:
+  /// **'Compris'**
+  String get homeScreenDismiss;
 }
 
 class _AppLocalizationsDelegate

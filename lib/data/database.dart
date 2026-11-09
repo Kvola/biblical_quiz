@@ -1,6 +1,8 @@
 import 'package:drift/drift.dart';
 import 'package:drift_flutter/drift_flutter.dart';
 
+import 'web_database.dart';
+
 part 'database.g.dart';
 
 /// Une leçon (ou une fiche de livre « book-N ») terminée au moins une fois.
@@ -72,7 +74,7 @@ class SettingsEntries extends Table {
 
 @DriftDatabase(tables: [LessonProgress, QuestionStats, ActivityDays, Favorites, SettingsEntries, ReadChapters])
 class AppDatabase extends _$AppDatabase {
-  AppDatabase([QueryExecutor? executor]) : super(executor ?? driftDatabase(name: 'biblical_quiz'));
+  AppDatabase([QueryExecutor? executor]) : super(executor ?? driftDatabase(name: 'biblical_quiz', web: webDatabaseOptions()));
 
   AppDatabase.forTesting(super.executor);
 

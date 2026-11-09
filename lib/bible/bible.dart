@@ -1,10 +1,10 @@
 import 'dart:convert';
-import 'dart:io' show gzip;
-import 'dart:isolate';
 
 import 'package:flutter/services.dart' show AssetBundle;
 
+import '../core/background.dart';
 import '../core/verse_ref.dart';
+import 'gunzip.dart';
 
 /// Les deux traductions embarquées. La langue du contenu choisit la traduction.
 enum Translation {
@@ -48,7 +48,7 @@ class Bible {
     final data = await bundle.load(t.asset);
     final bytes = data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
     // Décompression et découpage hors du fil de l'interface (~300 ms sur un téléphone modeste).
-    final books = await Isolate.run(() => parseTsv(utf8.decode(gzip.decode(bytes))));
+    final books = await runInBackground(() => parseTsv(utf8.decode(gunzip(bytes))));
     return Bible._(t, books);
   }
 

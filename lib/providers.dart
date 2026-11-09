@@ -1,11 +1,10 @@
-import 'dart:isolate';
-
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'bible/bible.dart';
 import 'content/content.dart';
 import 'core/app_update.dart';
+import 'core/background.dart';
 import 'data/database.dart';
 import 'data/progress_repository.dart';
 import 'data/settings_repository.dart';
@@ -18,6 +17,9 @@ final assetBundleProvider = Provider<AssetBundle>((ref) => rootBundle);
 /// Vérification des nouvelles versions : null = aucune (tests, iOS, ordinateur).
 /// Activée dans `main()` sur Android ; sans réseau, l'application n'en voit rien.
 final appUpdateCheckerProvider = Provider<AppUpdateChecker?>((ref) => null);
+
+/// Web : page de téléchargement de l'application Android à proposer (null = rien).
+final webInstallUrlProvider = Provider<Uri?>((ref) => null);
 
 final settingsRepoProvider = Provider((ref) => SettingsRepository(ref.watch(databaseProvider)));
 final progressRepoProvider = Provider((ref) => ProgressRepository(ref.watch(databaseProvider)));
@@ -57,6 +59,6 @@ final readChaptersProvider = StreamProvider<Map<int, Set<int>>>((ref) => ref.wat
 final searchIndexProvider = FutureProvider.family<SearchIndex, Translation>((ref, t) async {
   final bible = await ref.watch(bibleProvider(t).future);
   final texts = [for (final v in bible.allVerses) v.text];
-  final normalized = await Isolate.run(() => SearchIndex.normalizeAll(texts));
+  final normalized = await runInBackground(() => SearchIndex.normalizeAll(texts));
   return SearchIndex(bible, normalized);
 });

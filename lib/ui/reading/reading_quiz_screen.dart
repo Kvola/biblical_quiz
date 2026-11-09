@@ -1,10 +1,9 @@
-import 'dart:isolate';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../bible/bible.dart';
 import '../../content/models.dart';
+import '../../core/background.dart';
 import '../../core/books.dart';
 import '../../core/theme.dart';
 import '../../domain/reading_quiz.dart';
@@ -320,7 +319,7 @@ Future<void> openReadingQuiz(
   List<Question> questions;
   try {
     // Plusieurs livres = des milliers de versets à analyser : hors du fil de l'interface.
-    questions = await Isolate.run(() => ReadingQuiz.build(content: content, bible: b, lang: lang, scope: scope, count: count));
+    questions = await runInBackground(() => ReadingQuiz.build(content: content, bible: b, lang: lang, scope: scope, count: count));
   } catch (_) {
     questions = ReadingQuiz.build(content: content, bible: b, lang: lang, scope: scope, count: count);
   }

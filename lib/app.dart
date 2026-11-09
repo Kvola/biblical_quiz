@@ -36,6 +36,7 @@ class BibleQuizApp extends ConsumerWidget {
       builder: (context, child) => AppUpdateHost(
         checker: ref.watch(appUpdateCheckerProvider),
         strings: appUpdateStrings,
+        webInstallUrl: ref.watch(webInstallUrlProvider),
         child: child ?? const SizedBox.shrink(),
       ),
       home: switch (onboarded) {
@@ -56,5 +57,12 @@ AppUpdateStrings appUpdateStrings(BuildContext context) {
     requiredHint: l.updateRequiredHint,
     download: l.updateDownload,
     later: l.updateLater,
+    webInstallTitle: l.webInstallTitle,
+    webInstallBody: l.webInstallBody,
+    webInstallAction: l.webInstallAction,
+    webInstallDismiss: l.updateLater,
+    homeScreenTitle: l.homeScreenTitle,
+    homeScreenBody: l.homeScreenBody,
+    homeScreenDismiss: l.homeScreenDismiss,
   );
 }

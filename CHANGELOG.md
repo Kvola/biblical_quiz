@@ -2,6 +2,11 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.5.0 (build 6) — 9 novembre 2026
+
+- **Bandeau « nouvelle version »** (Android) : quand une version plus récente est publiée sur la page de téléchargement, un bandeau propose de la télécharger (« Plus tard » le masque pour cette version). Vérification au plus toutes les 12 h, silencieuse hors connexion ; une mise à jour déclarée obligatoire par le serveur ne peut pas être masquée. Le quiz reste entièrement utilisable sans Internet.
+- Permission Internet déclarée (elle manquait aux APK de publication : seule la vérification des nouvelles versions s'en sert).
+
 ## 1.4.0 (build 5) — 8 novembre 2026
 
 - **Tester ce chapitre** : en bas de chaque chapitre du lecteur, un quiz de 5 questions sur ce chapitre seulement.

@@ -286,6 +286,9 @@ void main() {
     final card = find.ancestor(of: find.text('Quiz sur mes lectures'), matching: find.byType(ListTile));
     await tester.scrollUntilVisible(card, 300, scrollable: find.byType(Scrollable).first);
     expect(find.descendant(of: card, matching: find.textContaining('1 chapitre lu')), findsOneWidget);
+    // Encore un peu : le bouton ne doit pas rester sous la barre de navigation.
+    await tester.drag(find.byType(Scrollable).first, const Offset(0, -250));
+    await settle(tester);
     await tester.tap(find.descendant(of: card, matching: find.byType(FilledButton)));
     await settle(tester);
     expect(find.text('Commencer · 1 livre'), findsOneWidget);

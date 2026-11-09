@@ -2,7 +2,7 @@ name: biblical_quiz
 description: "Quiz biblique — lire et comprendre la Bible (Louis Segond 1910 / King James 1769)."
 publish_to: 'none'
 
-version: 1.4.0+5
+version: 1.5.0+6
 
 environment:
   sdk: ^3.13.7
@@ -19,6 +19,10 @@ dependencies:
   path_provider: ^2.1.6
   intl: ^0.20.3
   share_plus: ^13.3.1
+  http: ^1.6.0
+  package_info_plus: ^10.2.2
+  url_launcher: ^6.3.3
+  shared_preferences: ^2.5.6
 
 dev_dependencies:
   flutter_test:

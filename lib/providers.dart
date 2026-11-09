@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'bible/bible.dart';
 import 'content/content.dart';
+import 'core/app_update.dart';
 import 'data/database.dart';
 import 'data/progress_repository.dart';
 import 'data/settings_repository.dart';
@@ -13,6 +14,10 @@ import 'domain/search.dart';
 /// Fournis dans `main()` via `overrideWithValue`.
 final databaseProvider = Provider<AppDatabase>((ref) => throw UnimplementedError());
 final assetBundleProvider = Provider<AssetBundle>((ref) => rootBundle);
+
+/// Vérification des nouvelles versions : null = aucune (tests, iOS, ordinateur).
+/// Activée dans `main()` sur Android ; sans réseau, l'application n'en voit rien.
+final appUpdateCheckerProvider = Provider<AppUpdateChecker?>((ref) => null);
 
 final settingsRepoProvider = Provider((ref) => SettingsRepository(ref.watch(databaseProvider)));
 final progressRepoProvider = Provider((ref) => ProgressRepository(ref.watch(databaseProvider)));

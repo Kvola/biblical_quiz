@@ -761,4 +761,24 @@ class AppLocalizationsFr extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String updateAvailable(String version) {
+    return 'Version $version disponible';
+  }
+
+  @override
+  String updateRequired(String version) {
+    return 'Mise à jour obligatoire : version $version';
+  }
+
+  @override
+  String get updateRequiredHint =>
+      'Cette version n’est plus prise en charge : installez la nouvelle pour continuer.';
+
+  @override
+  String get updateDownload => 'Télécharger';
+
+  @override
+  String get updateLater => 'Plus tard';
 }

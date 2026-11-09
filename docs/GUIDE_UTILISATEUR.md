@@ -25,6 +25,7 @@ Ce guide commence par une visite rapide, puis présente **10 exemples complets**
    8. [Garder un verset et le partager](#exemple-8--garder-un-verset-et-le-partager)
    9. [Suivre vos progrès](#exemple-9--suivre-vos-progrès)
    10. [Adapter l'application à vos besoins](#exemple-10--adapter-lapplication-à-vos-besoins)
+- [Utiliser l'application dans le navigateur](#utiliser-lapplication-dans-le-navigateur)
 - [Questions fréquentes](#questions-fréquentes)
 
 ---
@@ -320,6 +321,40 @@ Sur l'**Accueil**, touchez la roue dentée en haut à droite pour ouvrir les **R
 Tout en bas des **Réglages**, le bouton **Effacer ma progression** efface les leçons terminées, les révisions, la série et les chapitres lus. Vos versets mis de côté et vos réglages sont conservés. Touchez **Confirmer** pour effacer, ou **Annuler**.
 
 > **Bon à savoir** : cette action est définitive. Elle peut servir, par exemple, avant de prêter le téléphone à une autre personne qui veut commencer depuis le début.
+
+---
+
+## Utiliser l'application dans le navigateur
+
+Quiz Biblique existe aussi en **version web** : elle s'ouvre dans le navigateur, sans rien installer. C'est la solution pour un **iPhone**, un **iPad** ou un **ordinateur**, où l'application Android ne s'installe pas.
+
+**L'ouvrir**
+
+1. Ouvrez la page https://iyf.ebng.world/apps/quiz-biblique dans votre navigateur (Safari, Chrome, Edge…).
+2. Touchez **Ouvrir dans le navigateur**. L'adresse directe est https://iyf.ebng.world/apps/quiz-biblique/web/
+
+
+**La mettre sur l'écran d'accueil**
+
+Ainsi, vous la retrouvez comme une application, elle s'ouvre en plein écran, et le navigateur conserve mieux vos données.
+
+- **iPhone ou iPad (Safari)** : touchez **Partager** (le carré avec une flèche vers le haut), puis **Sur l'écran d'accueil**, puis **Ajouter**. Le bandeau **Ajoutez l'application à l'écran d'accueil** vous le rappelle ; touchez **Compris** pour le masquer.
+- **Ordinateur (Chrome ou Edge)** : cliquez sur l'icône d'installation à droite de la barre d'adresse, puis sur **Installer**.
+- **Android (Chrome)** : menu **⋮**, puis **Ajouter à l'écran d'accueil**. Sur Android, l'application à télécharger reste toutefois la plus complète.
+
+**Les mises à jour**
+
+Rien à faire : à chaque ouverture avec Internet, vous avez la dernière version.
+
+**Sans Internet**
+
+Après une première ouverture avec Internet, la version web fonctionne **sans connexion**, comme l'application : leçons, Bible, quiz et recherche.
+
+**Vos progrès**
+
+Ils sont gardés **dans ce navigateur, sur cet appareil**. Ils ne passent pas d'un appareil à l'autre, ni de l'application Android à la version web : chaque appareil a ses propres progrès.
+
+> **Attention (iPhone)** : si la version web n'est pas sur l'écran d'accueil et que vous ne l'ouvrez pas pendant plusieurs semaines, Safari peut effacer vos progrès. Mettez-la sur l'écran d'accueil.
 
 ---
 

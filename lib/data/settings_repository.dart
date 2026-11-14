@@ -13,7 +13,23 @@ class AppSettings {
     this.onboarded = false,
     this.themeMode = 'system',
     this.recentSearches = const [],
+    this.keepScreenOn = true,
+    this.notesLastBackup,
+    this.notesReminderDismissed,
+    this.verseImageLight = false,
   });
+
+  /// Image à partager : fond clair (crème, texte bleu) au lieu du fond bleu nuit.
+  final bool verseImageLight;
+
+  /// Garder l'écran allumé tant qu'une note de prédication est ouverte.
+  final bool keepScreenOn;
+
+  /// Dernière sauvegarde des notes (millisecondes), null = jamais.
+  final int? notesLastBackup;
+
+  /// Dernier « Plus tard » sur le rappel de sauvegarde (millisecondes).
+  final int? notesReminderDismissed;
 
   /// null : langue du téléphone.
   final String? localeCode;
@@ -66,6 +82,10 @@ class AppSettings {
       readerChapter: chapter >= 1 ? chapter : 1,
       onboarded: m['onboarded'] == '1',
       recentSearches: _decodeList(m['recentSearches']),
+      keepScreenOn: m['keepScreenOn'] != '0',
+      notesLastBackup: int.tryParse(m['notesLastBackup'] ?? ''),
+      notesReminderDismissed: int.tryParse(m['notesReminderDismissed'] ?? ''),
+      verseImageLight: m['verseImageLight'] == '1',
       themeMode: switch (m['theme']) {
         'light' => 'light',
         'dark' => 'dark',
@@ -98,6 +118,10 @@ class SettingsRepository {
   Future<void> setLastPath(String id) => _set('lastPathId', id);
   Future<void> setOnboarded() => _set('onboarded', '1');
   Future<void> setThemeMode(String mode) => _set('theme', mode == 'system' ? null : mode);
+  Future<void> setVerseImageLight(bool v) => _set('verseImageLight', v ? '1' : null);
+  Future<void> setKeepScreenOn(bool v) => _set('keepScreenOn', v ? null : '0');
+  Future<void> setNotesLastBackup(DateTime when) => _set('notesLastBackup', '${when.millisecondsSinceEpoch}');
+  Future<void> setNotesReminderDismissed(DateTime when) => _set('notesReminderDismissed', '${when.millisecondsSinceEpoch}');
 
   /// Place [query] en tête des recherches récentes (sans doublon, casse ignorée).
   Future<void> addRecentSearch(String query) => db.transaction(() async {

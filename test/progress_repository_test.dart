@@ -126,6 +126,23 @@ void main() {
     expect((await settings.raw()).containsKey('theme'), isFalse);
   });
 
+  test('réglages des notes : écran allumé par défaut, sauvegarde et rappel datés', () async {
+    final settings = SettingsRepository(db);
+    var s = await settings.watch().first;
+    expect(s.keepScreenOn, isTrue);
+    expect((s.notesLastBackup, s.notesReminderDismissed), (null, null));
+    await settings.setKeepScreenOn(false);
+    await settings.setNotesLastBackup(DateTime.fromMillisecondsSinceEpoch(1000));
+    await settings.setNotesReminderDismissed(DateTime.fromMillisecondsSinceEpoch(2000));
+    s = await settings.watch().first;
+    expect((s.keepScreenOn, s.notesLastBackup, s.notesReminderDismissed), (false, 1000, 2000));
+    await settings.setKeepScreenOn(true);
+    expect((await settings.watch().first).keepScreenOn, isTrue);
+    expect((await settings.watch().first).verseImageLight, isFalse, reason: 'fond sombre par défaut');
+    await settings.setVerseImageLight(true);
+    expect((await settings.watch().first).verseImageLight, isTrue);
+  });
+
   test('recherches récentes : en tête, sans doublon, bornées, effaçables', () async {
     final settings = SettingsRepository(db);
     for (var i = 0; i < 12; i++) {

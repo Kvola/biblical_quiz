@@ -2,6 +2,12 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.8.0 (build 9) — 15 novembre 2026
+
+- **Image à partager** : un verset (depuis n'importe quel verset, ou un passage d'une note avec le titre de la prédication) sur une carte 4:5 aux couleurs de l'application, en PNG 1080 × 1350, à envoyer par WhatsApp ou ailleurs. Passage long coupé proprement (« … ») et signalé. Deux styles, retenus d'une fois sur l'autre : **fond sombre** (bleu nuit) ou **fond clair** (crème), contrastes de texte ≥ 5:1. Aussi depuis les **versets mis de côté** (onglet Progrès).
+- **Garder l'écran allumé** devient un réglage (Réglages → Notes de prédication, et directement dans la note), actif par défaut, suivi en direct.
+- **Rappel de sauvegarde des notes** : un encadré discret dans l'onglet Notes, une semaine après la première note puis un mois après chaque sauvegarde ; « Plus tard » le fait taire un mois.
+
 ## 1.7.0 (build 8) — 15 novembre 2026
 
 - **Notes de prédication** (nouvel onglet **Notes**) : titre, jour, prédicateur, lieu, notes libres et **passages associés**.

@@ -18,6 +18,7 @@ import '../../domain/ref_finder.dart';
 import '../../providers.dart';
 import '../common.dart';
 import '../reading/reading_quiz_screen.dart';
+import '../share/verse_image.dart';
 import '../widgets/passage_view.dart';
 import '../widgets/verse_sheet.dart';
 import 'add_passage_dialog.dart';
@@ -61,7 +62,8 @@ class _NoteScreenState extends ConsumerState<NoteScreen> {
   final _dirty = <String>{};
 
   /// Pendant une prédication, le téléphone ne doit pas se verrouiller entre
-  /// deux phrases : l'écran reste allumé tant que la note est ouverte.
+  /// deux phrases : l'écran reste allumé tant que la note est ouverte, sauf si
+  /// le réglage « Garder l'écran allumé » est désactivé (suivi en direct).
   static Future<void> _keepAwake(bool on) async {
     try {
       await WakelockPlus.toggle(enable: on);
@@ -73,7 +75,11 @@ class _NoteScreenState extends ConsumerState<NoteScreen> {
   @override
   void initState() {
     super.initState();
-    unawaited(_keepAwake(true));
+    ref.listenManual(
+      settingsProvider.select((s) => s.value?.keepScreenOn ?? true),
+      (_, on) => unawaited(_keepAwake(on)),
+      fireImmediately: true,
+    );
     _load();
     for (final (key, c) in [('title', _title), ('preacher', _preacher), ('place', _place), ('body', _body)]) {
       c.addListener(() {
@@ -169,13 +175,20 @@ class _NoteScreenState extends ConsumerState<NoteScreen> {
           mainAxisSize: MainAxisSize.min,
           children: [
             ListTile(leading: const Icon(Icons.chat_outlined), title: Text(l.shareWhatsApp), onTap: () => Navigator.of(ctx).pop('whatsapp')),
+            if (note.refs.isNotEmpty)
+              ListTile(leading: const Icon(Icons.image_outlined), title: Text(l.shareImage), onTap: () => Navigator.of(ctx).pop('image')),
             ListTile(leading: const Icon(Icons.share), title: Text(l.shareOther), onTap: () => Navigator.of(ctx).pop('other')),
             ListTile(leading: const Icon(Icons.copy), title: Text(l.copyText), onTap: () => Navigator.of(ctx).pop('copy')),
           ],
         ),
       ),
     );
-    if (choice == null) return;
+    if (choice == null || !mounted) return;
+    if (choice == 'image') {
+      final title = _title.text.trim();
+      await VerseImageScreen.open(context, note.refs, title: title.isEmpty ? null : title);
+      return;
+    }
     await _save();
     final bible = await ref.read(bibleProvider(Translation.forLang(lang)).future);
     final fresh = await _repo.get(widget.noteId) ?? note;
@@ -401,13 +414,15 @@ class _NoteScreenState extends ConsumerState<NoteScreen> {
                       Text(l.noteAutosave, style: text.bodySmall?.copyWith(color: scheme.onSurfaceVariant)),
                     ],
                   ),
-                  const SizedBox(height: 4),
-                  Row(
-                    children: [
-                      Icon(Icons.light_mode_outlined, size: 16, color: scheme.onSurfaceVariant),
-                      const SizedBox(width: 6),
-                      Flexible(child: Text(l.noteAwake, style: text.bodySmall?.copyWith(color: scheme.onSurfaceVariant))),
-                    ],
+                  SwitchListTile(
+                    key: const ValueKey('note-keep-screen-on'),
+                    contentPadding: EdgeInsets.zero,
+                    dense: true,
+                    secondary: const Icon(Icons.light_mode_outlined),
+                    title: Text(l.keepScreenOnSetting),
+                    subtitle: Text(l.keepScreenOnHint),
+                    value: ref.watch(settingsProvider.select((s) => s.value?.keepScreenOn ?? true)),
+                    onChanged: (v) => ref.read(settingsRepoProvider).setKeepScreenOn(v),
                   ),
                 ],
               ),

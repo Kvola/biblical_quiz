@@ -385,6 +385,56 @@ class AppLocalizationsEn extends AppLocalizations {
   String get noteShareFooter => 'Notes taken with Bible Quiz';
 
   @override
+  String get keepScreenOnSetting => 'Keep the screen on';
+
+  @override
+  String get keepScreenOnHint =>
+      'While a sermon note is open, the phone does not lock.';
+
+  @override
+  String get shareImage => 'Image to share';
+
+  @override
+  String get shareImageTitle => 'Verse image';
+
+  @override
+  String get shareImageAction => 'Share the image';
+
+  @override
+  String get imageDark => 'Dark';
+
+  @override
+  String get imageLight => 'Light';
+
+  @override
+  String get shareImageFailed => 'The image could not be created.';
+
+  @override
+  String get shareImageLong =>
+      'Long passage: only the beginning fits on the image.';
+
+  @override
+  String get backupReminderNever =>
+      'Your notes are not backed up yet. A backup lets you find them again if you change phones.';
+
+  @override
+  String backupReminderDays(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count days',
+      one: '1 day',
+    );
+    return 'Your notes were last backed up $_temp0 ago. Consider making a new backup.';
+  }
+
+  @override
+  String get backupNow => 'Back up';
+
+  @override
+  String get later => 'Later';
+
+  @override
   String get shareWhatsApp => 'WhatsApp';
 
   @override
@@ -402,9 +452,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get noteQuizTooFew => 'These passages are too short for a quiz.';
-
-  @override
-  String get noteAwake => 'The screen stays on while the note is open';
 
   @override
   String get addPassageHint => 'E.g. John 3:16-18, Ps 23, 1 Cor 13';

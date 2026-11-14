@@ -204,13 +204,32 @@
   "notePassageRemoved": "Passage removed",
   "notePassageAdded": "Passage added",
   "noteShareFooter": "Notes taken with Bible Quiz",
+  "keepScreenOnSetting": "Keep the screen on",
+  "keepScreenOnHint": "While a sermon note is open, the phone does not lock.",
+  "shareImage": "Image to share",
+  "shareImageTitle": "Verse image",
+  "shareImageAction": "Share the image",
+  "imageDark": "Dark",
+  "imageLight": "Light",
+  "shareImageFailed": "The image could not be created.",
+  "shareImageLong": "Long passage: only the beginning fits on the image.",
+  "backupReminderNever": "Your notes are not backed up yet. A backup lets you find them again if you change phones.",
+  "backupReminderDays": "Your notes were last backed up {count, plural, =1{1 day} other{{count} days}} ago. Consider making a new backup.",
+  "@backupReminderDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "backupNow": "Back up",
+  "later": "Later",
   "shareWhatsApp": "WhatsApp",
   "shareOther": "Another app (email, SMS…)",
   "copyText": "Copy the text",
   "whatsappFailed": "WhatsApp could not be opened: choose another app.",
   "noteQuiz": "Test these passages",
   "noteQuizTooFew": "These passages are too short for a quiz.",
-  "noteAwake": "The screen stays on while the note is open",
   "addPassageHint": "E.g. John 3:16-18, Ps 23, 1 Cor 13",
   "addPassageInvalid": "Reference not recognised. Write the book, chapter, then verses: John 3:16-18.",
   "addPassageAdd": "Add",

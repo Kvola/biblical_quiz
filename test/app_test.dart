@@ -368,7 +368,18 @@ void main() {
     await waitFor(tester, find.text('Né de nouveau'));
     await tester.tap(find.text('Né de nouveau'));
     await waitFor(tester, find.text('Tester ces passages'));
-    expect(find.text('L’écran reste allumé tant que la note est ouverte'), findsOneWidget);
+    // Écran allumé : réglable depuis la note (même réglage que dans Réglages).
+    await tester.ensureVisible(find.byKey(const ValueKey('note-keep-screen-on')));
+    expect(tester.widget<SwitchListTile>(find.byKey(const ValueKey('note-keep-screen-on'))).value, isTrue);
+    await tester.tap(find.byKey(const ValueKey('note-keep-screen-on')));
+    await settle(tester);
+    expect(tester.widget<SwitchListTile>(find.byKey(const ValueKey('note-keep-screen-on'))).value, isFalse);
+    final keep = await tester.runAsync(
+      () => (db.select(db.settingsEntries)..where((t) => t.key.equals('keepScreenOn'))).getSingleOrNull(),
+    );
+    expect(keep?.value, '0');
+    await tester.drag(find.byType(Scrollable).last, const Offset(0, 2000));
+    await settle(tester);
 
     // Partager : trois choix ; « Copier le texte » met la note dans le presse-papiers.
     String? copied;
@@ -391,6 +402,54 @@ void main() {
     await tester.tap(find.text('Tester ces passages'));
     await waitFor(tester, find.textContaining('Question 1 sur'));
     expect(find.text('Quiz : Né de nouveau'), findsOneWidget);
+    await teardown(tester, db);
+  });
+
+  testWidgets('notes : rappel de sauvegarde, « Plus tard » le fait taire', (tester) async {
+    final db = await pumpApp(tester, settings: {'onboarded': '1'});
+    // Une note créée il y a dix jours, jamais sauvegardée.
+    await tester.runAsync(
+      () => NotesRepository(db, now: () => DateTime.now().subtract(const Duration(days: 10))).create(title: 'Ancienne'),
+    );
+    await waitFor(tester, find.text('Lire et répondre'));
+    await tester.tap(find.text('Notes'));
+    await waitFor(tester, find.byKey(const ValueKey('backup-reminder')));
+    expect(find.textContaining('pas encore sauvegardées'), findsOneWidget);
+    await tester.tap(find.text('Plus tard'));
+    await settle(tester);
+    expect(find.byKey(const ValueKey('backup-reminder')), findsNothing);
+    final dismissed = await tester.runAsync(
+      () => (db.select(db.settingsEntries)..where((t) => t.key.equals('notesReminderDismissed'))).getSingleOrNull(),
+    );
+    expect(dismissed, isNotNull);
+    await teardown(tester, db);
+  });
+
+  testWidgets('versets mis de côté : image à partager, style clair retenu', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+    final db = await pumpApp(tester, settings: {'onboarded': '1'});
+    await tester.runAsync(() => db.into(db.favorites).insert(FavoritesCompanion.insert(ref: '43:11:35', createdAt: 1)));
+    await waitFor(tester, find.text('Lire et répondre'));
+    await tester.tap(find.text('Progrès'));
+    await settle(tester);
+    final image = find.byTooltip('Image à partager');
+    // Liste principale de l'onglet (les grilles internes ne défilent pas).
+    final main = find.byWidgetPredicate(
+      (w) => w is Scrollable && w.axisDirection == AxisDirection.down && w.physics is! NeverScrollableScrollPhysics,
+    );
+    await tester.scrollUntilVisible(image, 300, scrollable: main.first);
+    await tester.tap(image);
+    await waitFor(tester, find.text('Image du verset'));
+    expect(find.text('« Jésus pleura. »'), findsOneWidget);
+    await tester.tap(find.text('Fond clair'));
+    await settle(tester);
+    final style = await tester.runAsync(
+      () => (db.select(db.settingsEntries)..where((t) => t.key.equals('verseImageLight'))).getSingleOrNull(),
+    );
+    expect(style?.value, '1');
+    expect(tester.widget<Text>(find.text('« Jésus pleura. »')).style?.color, const Color(0xFF1E3A5F));
     await teardown(tester, db);
   });
 

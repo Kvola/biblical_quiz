@@ -282,11 +282,13 @@ Sous la zone de saisie, des boutons permettent de chercher dans **Toute la Bible
 > **Situation** : Aya a trouvé un verset qui l'encourage. Elle veut le garder et l'envoyer à une amie.
 
 1. Dans un passage ou dans l'onglet **Bible**, touchez le verset.
-2. Une fenêtre s'ouvre en bas de l'écran, avec le texte du verset et trois boutons :
+2. Une fenêtre s'ouvre en bas de l'écran, avec le texte du verset et ces boutons :
    - **Mettre de côté** : le verset est gardé dans vos **Versets mis de côté** ;
    - **Copier** : le verset et sa référence sont copiés, prêts à coller dans un message ;
-   - **Partager** : le verset part directement dans l'application de votre choix, par exemple WhatsApp.
-3. Pour retrouver vos versets, ouvrez l'onglet **Progrès**, rubrique **Versets mis de côté**. Touchez un verset pour l'ouvrir dans son chapitre.
+   - **Partager** : le verset part directement dans l'application de votre choix, par exemple WhatsApp ;
+   - **Image à partager** : le verset sur une belle image, à envoyer dans un groupe WhatsApp ou à publier. Choisissez **Fond sombre** (bleu nuit, texte crème) ou **Fond clair** (crème, texte bleu nuit) : votre choix est gardé pour la fois suivante. Touchez **Partager l'image** ;
+   - **Ajouter à une note** : voir l'exemple 11.
+3. Pour retrouver vos versets, ouvrez l'onglet **Progrès**, rubrique **Versets mis de côté**. Touchez un verset pour l'ouvrir dans son chapitre, ou l'icône d'image pour en faire une **image à partager**.
 
 Le **Verset du jour**, sur l'**Accueil**, change chaque jour. Touchez-le pour le garder ou le partager de la même façon.
 
@@ -329,6 +331,7 @@ Sur l'**Accueil**, touchez la roue dentée en haut à droite pour ouvrir les **R
 | **Thème** | **Celui du téléphone**, **Clair** ou **Sombre**. |
 | **Taille du texte** | Glissez le curseur pour agrandir ou réduire le texte biblique. Un verset d'exemple montre le résultat. |
 | **Lecture bilingue** | Affiche sous chaque verset l'autre traduction (KJV ou Segond). |
+| **Garder l'écran allumé** | Rubrique **Notes de prédication** : tant qu'une note est ouverte, le téléphone ne se verrouille pas. Désactivez-le pour économiser la batterie. |
 | **À propos** | Les textes utilisés et le numéro de version de l'application. |
 
 **Effacer ma progression**
@@ -350,7 +353,7 @@ Tout en bas des **Réglages**, le bouton **Effacer ma progression** efface les l
 3. Si vous le souhaitez, écrivez le **Prédicateur** et le **Lieu, Église**.
 4. Dans **Notes**, écrivez ce que vous retenez, à votre rythme.
 
-Tout est **enregistré automatiquement** : il n'y a pas de bouton à toucher, et rien n'est perdu si vous quittez l'écran. Tant que la note est ouverte, **l'écran reste allumé** : le téléphone ne se verrouille pas pendant la prédication.
+Tout est **enregistré automatiquement** : il n'y a pas de bouton à toucher, et rien n'est perdu si vous quittez l'écran. Tant que la note est ouverte, **l'écran reste allumé** : le téléphone ne se verrouille pas pendant la prédication. Pour économiser la batterie, désactivez **Garder l'écran allumé** en bas de la note, ou dans **Réglages → Notes de prédication**.
 
 > **Bon à savoir** : pour aller plus vite, dictez vos notes. Touchez le champ **Notes**, puis le **micro** du clavier, et parlez : le texte s'écrit tout seul. Relisez-le ensuite, la dictée se trompe parfois sur les noms propres.
 
@@ -372,6 +375,7 @@ En lisant, touchez un verset, puis **Ajouter à une note** : choisissez une note
 - L'onglet **Notes** liste vos notes, la plus récente prédication d'abord. Le champ **Rechercher dans mes notes** trouve un mot du titre, du prédicateur, du lieu, des notes ou des passages.
 - Dans une note, l'icône de partage propose :
   - **WhatsApp** : la note s'ouvre dans WhatsApp, mise en forme (titre et passages en gras), prête à envoyer à un contact ou à un groupe ;
+  - **Image à partager** : un passage de la note sur une image, avec le titre de la prédication (choisissez le passage s'il y en a plusieurs) ;
   - **Autre application (e-mail, SMS…)** : la note en texte simple ;
   - **Copier le texte** : pour la coller où vous voulez.
 
@@ -379,7 +383,7 @@ En lisant, touchez un verset, puis **Ajouter à une note** : choisissez une note
 - **Tester ces passages**, sous les passages de la note : un quiz sur les chapitres des passages lus pendant la prédication, pour vérifier ce que vous avez retenu.
 - Le menu **⋮** de l'onglet **Notes** propose **Sauvegarder mes notes** (un fichier à garder dans Drive, à vous envoyer par e-mail…) et **Restaurer une sauvegarde**. Restaurer n'efface rien : une note déjà présente n'est remplacée que si la sauvegarde en a une version plus récente.
 
-> **Bon à savoir** : vos notes restent sur votre téléphone. Sauvegardez-les de temps en temps : c'est ce qui permet de les retrouver sur un nouveau téléphone. **Effacer ma progression** ne touche pas à vos notes.
+> **Bon à savoir** : vos notes restent sur votre téléphone. Sauvegardez-les de temps en temps : c'est ce qui permet de les retrouver sur un nouveau téléphone. Pour ne pas l'oublier, l'onglet **Notes** vous le rappelle par un encadré : une semaine après votre première note, puis un mois après chaque sauvegarde. **Plus tard** le fait taire pour un mois. **Effacer ma progression** ne touche pas à vos notes.
 
 ---
 

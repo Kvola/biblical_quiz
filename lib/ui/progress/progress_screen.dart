@@ -9,6 +9,7 @@ import '../../providers.dart';
 import '../bible/reader_screen.dart';
 import '../common.dart';
 import '../launchers.dart';
+import '../share/verse_image.dart';
 import 'bible_reading_section.dart';
 
 class ProgressScreen extends ConsumerWidget {
@@ -112,19 +113,29 @@ class ProgressScreen extends ConsumerWidget {
                       subtitle: bible == null
                           ? null
                           : Text(bible.text(r), maxLines: 3, overflow: TextOverflow.ellipsis),
-                      trailing: IconButton(
-                        tooltip: l.removeFavorite,
-                        icon: const Icon(Icons.bookmark_remove_outlined),
-                        onPressed: () async {
-                          final repo = ref.read(progressRepoProvider);
-                          await repo.toggleFavorite(code);
-                          if (context.mounted) {
-                            context.toast(
-                              l.favoriteRemoved,
-                              action: SnackBarAction(label: l.undo, onPressed: () => repo.toggleFavorite(code)),
-                            );
-                          }
-                        },
+                      trailing: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          IconButton(
+                            tooltip: l.shareImage,
+                            icon: const Icon(Icons.image_outlined),
+                            onPressed: () => VerseImageScreen.open(context, [r]),
+                          ),
+                          IconButton(
+                            tooltip: l.removeFavorite,
+                            icon: const Icon(Icons.bookmark_remove_outlined),
+                            onPressed: () async {
+                              final repo = ref.read(progressRepoProvider);
+                              await repo.toggleFavorite(code);
+                              if (context.mounted) {
+                                context.toast(
+                                  l.favoriteRemoved,
+                                  action: SnackBarAction(label: l.undo, onPressed: () => repo.toggleFavorite(code)),
+                                );
+                              }
+                            },
+                          ),
+                        ],
                       ),
                       onTap: () => openReaderAt(context, ref, r.book, r.startChapter, verse: r.startVerse),
                     ),

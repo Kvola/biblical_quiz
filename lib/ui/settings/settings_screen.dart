@@ -7,7 +7,7 @@ import '../../providers.dart';
 import '../common.dart';
 
 /// Version affichée dans « À propos » (tenue à jour avec pubspec.yaml ; vérifiée par un test).
-const appVersion = '1.7.0';
+const appVersion = '1.8.0';
 
 class SettingsScreen extends ConsumerStatefulWidget {
   const SettingsScreen({super.key});
@@ -82,6 +82,14 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
               subtitle: Text(l.parallelSettingHint),
               value: s.parallel,
               onChanged: repo.setParallel,
+            ),
+            SectionTitle(l.notesTitle),
+            SwitchListTile(
+              key: const ValueKey('setting-keep-screen-on'),
+              title: Text(l.keepScreenOnSetting),
+              subtitle: Text(l.keepScreenOnHint),
+              value: s.keepScreenOn,
+              onChanged: repo.setKeepScreenOn,
             ),
             SectionTitle(l.aboutTitle),
             Padding(

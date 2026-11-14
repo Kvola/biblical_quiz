@@ -204,13 +204,32 @@
   "notePassageRemoved": "Passage retiré",
   "notePassageAdded": "Passage ajouté",
   "noteShareFooter": "Notes prises avec Quiz Biblique",
+  "keepScreenOnSetting": "Garder l’écran allumé",
+  "keepScreenOnHint": "Tant qu’une note de prédication est ouverte, le téléphone ne se verrouille pas.",
+  "shareImage": "Image à partager",
+  "shareImageTitle": "Image du verset",
+  "shareImageAction": "Partager l’image",
+  "imageDark": "Fond sombre",
+  "imageLight": "Fond clair",
+  "shareImageFailed": "L’image n’a pas pu être créée.",
+  "shareImageLong": "Passage long : seul le début figure sur l’image.",
+  "backupReminderNever": "Vos notes ne sont pas encore sauvegardées. Une sauvegarde permet de les retrouver si vous changez de téléphone.",
+  "backupReminderDays": "Dernière sauvegarde de vos notes il y a {count, plural, =1{1 jour} other{{count} jours}}. Pensez à en faire une nouvelle.",
+  "@backupReminderDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "backupNow": "Sauvegarder",
+  "later": "Plus tard",
   "shareWhatsApp": "WhatsApp",
   "shareOther": "Autre application (e-mail, SMS…)",
   "copyText": "Copier le texte",
   "whatsappFailed": "WhatsApp n’a pas pu s’ouvrir : choisissez une autre application.",
   "noteQuiz": "Tester ces passages",
   "noteQuizTooFew": "Ces passages sont trop courts pour un quiz.",
-  "noteAwake": "L’écran reste allumé tant que la note est ouverte",
   "addPassageHint": "Ex. : Jean 3:16-18, Ps 23, 1 Co 13",
   "addPassageInvalid": "Référence non reconnue. Écrivez le livre, le chapitre puis les versets : Jean 3:16-18.",
   "addPassageAdd": "Ajouter",

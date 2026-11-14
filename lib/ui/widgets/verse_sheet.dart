@@ -12,6 +12,7 @@ import '../../providers.dart';
 import '../common.dart';
 import '../notes/add_to_note.dart';
 import '../notes/note_screen.dart';
+import '../share/verse_image.dart';
 import 'printed_note.dart';
 
 /// Ouvre une feuille qui montre une référence et propose copier / partager / mettre de côté.
@@ -105,6 +106,11 @@ class VerseSheet extends ConsumerWidget {
                   icon: const Icon(Icons.share),
                   label: Text(l.share),
                   onPressed: () => SharePlus.instance.share(ShareParams(text: shareText(b, verseRef, context.lang))),
+                ),
+                OutlinedButton.icon(
+                  icon: const Icon(Icons.image_outlined),
+                  label: Text(l.shareImage),
+                  onPressed: () => VerseImageScreen.open(context, [verseRef]),
                 ),
                 OutlinedButton.icon(
                   icon: const Icon(Icons.edit_note),

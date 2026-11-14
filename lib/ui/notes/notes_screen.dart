@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/books.dart';
 import '../../core/file_save.dart';
 import '../../data/notes_repository.dart';
+import '../../domain/backup_reminder.dart';
 import '../../domain/search.dart' show normalize;
 import '../common.dart';
 import '../../providers.dart';
@@ -48,7 +49,9 @@ class _NotesScreenState extends ConsumerState<NotesScreen> {
     final json = await repo.exportJson();
     final now = DateTime.now();
     String two(int n) => n.toString().padLeft(2, '0');
-    await saveTextFile('notes-quiz-biblique-${now.year}-${two(now.month)}-${two(now.day)}.json', json, subject: l.notesTitle);
+    final saved = await saveTextFile('notes-quiz-biblique-${now.year}-${two(now.month)}-${two(now.day)}.json', json, subject: l.notesTitle);
+    // Fichier remis à une application (Drive, e-mail…) : le rappel repart pour 30 jours.
+    if (saved) await ref.read(settingsRepoProvider).setNotesLastBackup(DateTime.now());
   }
 
   Future<void> _restore() async {
@@ -120,9 +123,29 @@ class _NotesScreenState extends ConsumerState<NotesScreen> {
             final visible = [for (final n in all) if (!n.isBlank) n];
             if (visible.isEmpty) return const _Empty();
             final shown = [for (final n in visible) if (matches(n, _search.text)) n];
+            final settings = ref.watch(settingsProvider).value;
+            DateTime? at(int? ms) => ms == null ? null : DateTime.fromMillisecondsSinceEpoch(ms);
+            final oldest = visible.map((n) => n.createdAt).reduce((a, b) => a < b ? a : b);
+            final lastBackup = at(settings?.notesLastBackup);
+            final now = DateTime.now();
+            final remind = settings != null &&
+                BackupReminder.isDue(
+                  now: now,
+                  oldestNote: at(oldest),
+                  lastBackup: lastBackup,
+                  dismissed: at(settings.notesReminderDismissed),
+                );
             return ListView(
               padding: const EdgeInsets.fromLTRB(16, 4, 16, 96),
               children: [
+                if (remind)
+                  _BackupReminderCard(
+                    message: lastBackup == null
+                        ? l.backupReminderNever
+                        : l.backupReminderDays(BackupReminder.daysSince(lastBackup, now)),
+                    onBackup: _backup,
+                    onLater: () => ref.read(settingsRepoProvider).setNotesReminderDismissed(DateTime.now()),
+                  ),
                 TextField(
                   controller: _search,
                   onChanged: (_) => setState(() {}),
@@ -149,6 +172,51 @@ class _NotesScreenState extends ConsumerState<NotesScreen> {
               ],
             );
           },
+        ),
+      ),
+    );
+  }
+}
+
+/// Rappel discret de sauvegarde (voir BackupReminder).
+class _BackupReminderCard extends StatelessWidget {
+  const _BackupReminderCard({required this.message, required this.onBackup, required this.onLater});
+
+  final String message;
+  final VoidCallback onBackup;
+  final VoidCallback onLater;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final scheme = Theme.of(context).colorScheme;
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 12),
+      child: Card(
+        key: const ValueKey('backup-reminder'),
+        color: scheme.secondaryContainer,
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(16, 14, 8, 4),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Icon(Icons.cloud_upload_outlined, color: scheme.onSecondaryContainer),
+                  const SizedBox(width: 12),
+                  Expanded(child: Text(message, style: TextStyle(color: scheme.onSecondaryContainer))),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  TextButton(onPressed: onLater, child: Text(l.later)),
+                  FilledButton.tonal(onPressed: onBackup, child: Text(l.backupNow)),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );

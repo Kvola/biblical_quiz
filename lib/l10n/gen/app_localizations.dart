@@ -722,6 +722,84 @@ abstract class AppLocalizations {
   /// **'Notes prises avec Quiz Biblique'**
   String get noteShareFooter;
 
+  /// No description provided for @keepScreenOnSetting.
+  ///
+  /// In fr, this message translates to:
+  /// **'Garder l’écran allumé'**
+  String get keepScreenOnSetting;
+
+  /// No description provided for @keepScreenOnHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tant qu’une note de prédication est ouverte, le téléphone ne se verrouille pas.'**
+  String get keepScreenOnHint;
+
+  /// No description provided for @shareImage.
+  ///
+  /// In fr, this message translates to:
+  /// **'Image à partager'**
+  String get shareImage;
+
+  /// No description provided for @shareImageTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Image du verset'**
+  String get shareImageTitle;
+
+  /// No description provided for @shareImageAction.
+  ///
+  /// In fr, this message translates to:
+  /// **'Partager l’image'**
+  String get shareImageAction;
+
+  /// No description provided for @imageDark.
+  ///
+  /// In fr, this message translates to:
+  /// **'Fond sombre'**
+  String get imageDark;
+
+  /// No description provided for @imageLight.
+  ///
+  /// In fr, this message translates to:
+  /// **'Fond clair'**
+  String get imageLight;
+
+  /// No description provided for @shareImageFailed.
+  ///
+  /// In fr, this message translates to:
+  /// **'L’image n’a pas pu être créée.'**
+  String get shareImageFailed;
+
+  /// No description provided for @shareImageLong.
+  ///
+  /// In fr, this message translates to:
+  /// **'Passage long : seul le début figure sur l’image.'**
+  String get shareImageLong;
+
+  /// No description provided for @backupReminderNever.
+  ///
+  /// In fr, this message translates to:
+  /// **'Vos notes ne sont pas encore sauvegardées. Une sauvegarde permet de les retrouver si vous changez de téléphone.'**
+  String get backupReminderNever;
+
+  /// No description provided for @backupReminderDays.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dernière sauvegarde de vos notes il y a {count, plural, =1{1 jour} other{{count} jours}}. Pensez à en faire une nouvelle.'**
+  String backupReminderDays(int count);
+
+  /// No description provided for @backupNow.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sauvegarder'**
+  String get backupNow;
+
+  /// No description provided for @later.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plus tard'**
+  String get later;
+
   /// No description provided for @shareWhatsApp.
   ///
   /// In fr, this message translates to:
@@ -757,12 +835,6 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Ces passages sont trop courts pour un quiz.'**
   String get noteQuizTooFew;
-
-  /// No description provided for @noteAwake.
-  ///
-  /// In fr, this message translates to:
-  /// **'L’écran reste allumé tant que la note est ouverte'**
-  String get noteAwake;
 
   /// No description provided for @addPassageHint.
   ///

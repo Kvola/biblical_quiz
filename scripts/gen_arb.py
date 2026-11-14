@@ -377,6 +377,24 @@ S = {
 }
 
 
+# Jeu en ligne : textes dans des fichiers à part (même format), fusionnés ici.
+import sys as _sys  # noqa: E402
+_sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from arb_online import ONLINE  # noqa: E402
+from arb_tournament import TOURNAMENT  # noqa: E402
+
+for _extra in (ONLINE, TOURNAMENT):
+    _dup = set(_extra) & set(S)
+    if _dup:
+        raise SystemExit(f'Clés en double : {sorted(_dup)}')
+    S.update(_extra)
+
+INT_PLACEHOLDERS = {
+    'count', 'done', 'total', 'score', 'index', 'chapter', 'shown',
+    'n', 'max', 'min', 'seconds', 'minutes', 'points', 'round', 'rank', 'players', 'available', 'need', 'played', 'won',
+}
+
+
 def placeholders(text):
     names = []
     for m in re.finditer(r'\{([A-Za-z]\w*)(?:\}|,\s*plural)', text):
@@ -394,7 +412,7 @@ def build(index):
         ph = placeholders(pair[0])
         if ph:
             arb[f'@{key}'] = {'placeholders': {
-                p: {'type': 'int'} if p in ('count', 'done', 'total', 'score', 'index', 'chapter', 'shown') else {'type': 'String'}
+                p: {'type': 'int'} if p in INT_PLACEHOLDERS else {'type': 'String'}
                 for p in ph}}
     return arb
 

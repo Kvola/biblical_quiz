@@ -1083,4 +1083,1012 @@ class AppLocalizationsFr extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get onlineTitle => 'Jouer avec d’autres';
+
+  @override
+  String get onlineCardSubtitle =>
+      'Matchs et tournois en ligne sur les passages de votre choix';
+
+  @override
+  String get onlineIntro =>
+      'Affrontez d’autres lecteurs, seul ou en équipe, sur un ou plusieurs passages de la Bible. Le premier qui prend la main répond ; une bonne réponse rapporte 10 points, une erreur en coûte 5.';
+
+  @override
+  String get onlineOptional =>
+      'Le jeu en ligne est facultatif : tout le reste de l’application fonctionne sans compte et sans Internet.';
+
+  @override
+  String get onlineBecomePlayer => 'Devenir joueur';
+
+  @override
+  String get onlineAccountHint =>
+      'Il faut un numéro de téléphone (code reçu par WhatsApp) et un pseudo.';
+
+  @override
+  String get onlineCreateMatch => 'Créer un match';
+
+  @override
+  String get onlineJoin => 'Rejoindre';
+
+  @override
+  String get onlineJoinTitle => 'Rejoindre avec un code';
+
+  @override
+  String get onlineJoinHint => 'Code à 6 caractères';
+
+  @override
+  String get onlineCreateTournament => 'Créer un tournoi';
+
+  @override
+  String get onlineOpenMatches => 'Matchs ouverts';
+
+  @override
+  String get onlineOpenTournaments => 'Tournois ouverts';
+
+  @override
+  String get onlineNoOpenMatch =>
+      'Aucun match ouvert pour l’instant. Créez-en un et partagez son code.';
+
+  @override
+  String get onlineMyTournaments => 'Mes tournois';
+
+  @override
+  String get onlineInvitations => 'Invitations';
+
+  @override
+  String get onlineHistory => 'Mes matchs';
+
+  @override
+  String get onlineNoHistory => 'Vos matchs terminés s’afficheront ici.';
+
+  @override
+  String get onlineProfile => 'Mon profil de joueur';
+
+  @override
+  String get onlineProjection => 'Écran de projection';
+
+  @override
+  String get onlineProjectionHint =>
+      'Affichez un match en grand (vidéoprojecteur, télévision), sans compte.';
+
+  @override
+  String get onlineCurrentMatch => 'Vous avez un match en cours';
+
+  @override
+  String onlineCurrentTournament(String name) {
+    return 'Vous participez au tournoi « $name »';
+  }
+
+  @override
+  String get onlineResume => 'Reprendre';
+
+  @override
+  String onlineStats(int played, int won) {
+    String _temp0 = intl.Intl.pluralLogic(
+      played,
+      locale: localeName,
+      other: '$played matchs',
+      one: '1 match',
+      zero: 'Aucun match',
+    );
+    String _temp1 = intl.Intl.pluralLogic(
+      won,
+      locale: localeName,
+      other: '$won gagnés',
+      one: '1 gagné',
+      zero: 'aucun gagné',
+    );
+    return '$_temp0 · $_temp1';
+  }
+
+  @override
+  String get onlineOffline =>
+      'Pas de connexion au serveur. Vérifiez Internet puis réessayez.';
+
+  @override
+  String onlinePlayers(int players, int max) {
+    return '$players/$max joueurs';
+  }
+
+  @override
+  String onlineBy(String name) {
+    return 'par $name';
+  }
+
+  @override
+  String get onlineModeSolo => 'Individuel';
+
+  @override
+  String get onlineModeTeam => 'Par équipes';
+
+  @override
+  String get onlineRealtimeOff =>
+      'Connexion lente : l’affichage peut avoir un peu de retard.';
+
+  @override
+  String get signInTitle => 'Devenir joueur';
+
+  @override
+  String get signInPhone => 'Votre numéro de téléphone';
+
+  @override
+  String get signInCountry => 'Pays';
+
+  @override
+  String get signInSendCode => 'Recevoir le code par WhatsApp';
+
+  @override
+  String signInCodeSent(String phone) {
+    return 'Code envoyé au $phone';
+  }
+
+  @override
+  String get signInCode => 'Code reçu';
+
+  @override
+  String get signInVerify => 'Valider';
+
+  @override
+  String get signInResend => 'Renvoyer le code';
+
+  @override
+  String get signInChangeNumber => 'Changer de numéro';
+
+  @override
+  String get signInPrivacy =>
+      'Votre numéro sert seulement à protéger votre compte. Les autres joueurs ne voient que votre pseudo.';
+
+  @override
+  String get pseudoTitle => 'Choisissez votre pseudo';
+
+  @override
+  String get pseudoLabel => 'Pseudo';
+
+  @override
+  String get pseudoHint => '3 à 20 caractères, visible par les autres joueurs';
+
+  @override
+  String get pseudoSave => 'C’est parti';
+
+  @override
+  String get profileRename => 'Changer de pseudo';
+
+  @override
+  String get profileSignOut => 'Se déconnecter';
+
+  @override
+  String get profileDelete => 'Supprimer mon compte joueur';
+
+  @override
+  String get profileDeleteConfirm =>
+      'Votre pseudo et votre historique seront effacés, et vous quitterez la partie en cours. Vos lectures et vos progrès dans l’application ne sont pas touchés.';
+
+  @override
+  String get profileDeleted => 'Compte joueur supprimé';
+
+  @override
+  String profileTournamentsWon(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count tournois gagnés',
+      one: '1 tournoi gagné',
+      zero: 'Aucun tournoi gagné',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get report => 'Signaler ce pseudo';
+
+  @override
+  String get reportReason => 'Pourquoi ? (facultatif)';
+
+  @override
+  String get reportSent => 'Signalement envoyé. Merci.';
+
+  @override
+  String get createMatchTitle => 'Nouveau match';
+
+  @override
+  String get createPassages => 'Passages';
+
+  @override
+  String get createAddPassage => 'Ajouter un passage';
+
+  @override
+  String get createNoPassage =>
+      'Choisissez au moins un passage sur lequel porteront les questions.';
+
+  @override
+  String createAvailable(int available) {
+    return '$available questions possibles sur ces passages';
+  }
+
+  @override
+  String get createNotEnough =>
+      'Pas assez de questions : ajoutez ou élargissez un passage, ou réduisez le nombre de questions.';
+
+  @override
+  String get createBible => 'Bible du match';
+
+  @override
+  String createQuestions(int n) {
+    return 'Questions : $n';
+  }
+
+  @override
+  String createQuestionTime(int seconds) {
+    return 'Temps par question : $seconds s';
+  }
+
+  @override
+  String createHandTime(int seconds) {
+    return 'Temps pour répondre après avoir pris la main : $seconds s';
+  }
+
+  @override
+  String createMaxPlayers(int n) {
+    return 'Joueurs au plus : $n';
+  }
+
+  @override
+  String get createPublic => 'Visible dans les matchs ouverts';
+
+  @override
+  String get createPublicHint =>
+      'Sinon, seuls ceux qui ont le code peuvent entrer.';
+
+  @override
+  String get createSubmit => 'Créer le match';
+
+  @override
+  String get passagePickerTitle => 'Choisir un passage';
+
+  @override
+  String get passageBook => 'Livre';
+
+  @override
+  String get passageFromChapter => 'Du chapitre';
+
+  @override
+  String get passageToChapter => 'au chapitre';
+
+  @override
+  String get passageVerses => 'Seulement certains versets';
+
+  @override
+  String get passageFromVerse => 'Du verset';
+
+  @override
+  String get passageToVerse => 'au verset';
+
+  @override
+  String get passageAdd => 'Ajouter';
+
+  @override
+  String get lobbyTitle => 'Salle d’attente';
+
+  @override
+  String get lobbyCode => 'Code du match';
+
+  @override
+  String get lobbyShareHint =>
+      'Les autres joueurs saisissent ce code dans Jouer → Rejoindre, ou scannent le QR code avec l’appareil photo.';
+
+  @override
+  String get lobbyShareWhatsApp => 'Inviter par WhatsApp';
+
+  @override
+  String lobbyShareText(String passages, String code, String link) {
+    return 'Rejoins-moi pour un match de Quiz Biblique ($passages) ! Code : $code\n$link';
+  }
+
+  @override
+  String get lobbyPlayers => 'Joueurs';
+
+  @override
+  String lobbyWaitCreator(String name) {
+    return 'En attente du lancement par $name…';
+  }
+
+  @override
+  String get lobbyStart => 'Lancer le match';
+
+  @override
+  String get lobbyNeedPlayers => 'Il faut au moins 2 joueurs.';
+
+  @override
+  String get lobbyLeave => 'Quitter';
+
+  @override
+  String get lobbyLeaveConfirm => 'Quitter ce match ?';
+
+  @override
+  String get lobbyLeaveRunning =>
+      'Si vous quittez un match en cours, vous l’abandonnez.';
+
+  @override
+  String get lobbyKick => 'Retirer du match';
+
+  @override
+  String get lobbyCreator => 'créateur';
+
+  @override
+  String lobbySettings(int n, int seconds, String hand) {
+    return '$n questions · $seconds s par question · main : $hand s';
+  }
+
+  @override
+  String get lobbyCancelled => 'Ce match a été annulé.';
+
+  @override
+  String get lobbyNoTeam => 'Sans équipe';
+
+  @override
+  String get lobbyNoTeamHint =>
+      'Les joueurs sans équipe ne jouent pas : demandez à entrer dans une équipe, ou créez-la.';
+
+  @override
+  String get teamCreate => 'Créer une équipe';
+
+  @override
+  String get teamName => 'Nom de l’équipe';
+
+  @override
+  String get teamCaptain => 'capitaine';
+
+  @override
+  String get teamInvite => 'Inviter un joueur';
+
+  @override
+  String get teamInviteSearch => 'Pseudo du joueur';
+
+  @override
+  String get teamInviteBusy => 'déjà en partie';
+
+  @override
+  String get teamInvited => 'invité';
+
+  @override
+  String get teamRequested => 'demande à entrer';
+
+  @override
+  String get teamAccept => 'Accepter';
+
+  @override
+  String get teamDecline => 'Refuser';
+
+  @override
+  String get teamRemove => 'Retirer';
+
+  @override
+  String get teamAskJoin => 'Demander à entrer';
+
+  @override
+  String get teamLeave => 'Quitter l’équipe';
+
+  @override
+  String get teamRename => 'Renommer';
+
+  @override
+  String teamMembers(int n) {
+    return '$n joueurs';
+  }
+
+  @override
+  String teamInvitation(String captain, String team) {
+    return '$captain vous invite dans l’équipe « $team »';
+  }
+
+  @override
+  String teamSizeHint(int min, int max) {
+    return 'De $min à $max joueurs par équipe.';
+  }
+
+  @override
+  String get playCountdown => 'Prêts ?';
+
+  @override
+  String playQuestion(int index, int total) {
+    return 'Question $index sur $total';
+  }
+
+  @override
+  String get playTiebreak =>
+      'Question décisive : la première bonne réponse l’emporte';
+
+  @override
+  String get playBuzz => 'Je réponds !';
+
+  @override
+  String get playYourHand => 'À vous ! Choisissez la réponse';
+
+  @override
+  String playHandOf(String name) {
+    return '$name a la main';
+  }
+
+  @override
+  String get playLocked => 'Vous ne pouvez plus répondre à cette question';
+
+  @override
+  String get playLockedTeam =>
+      'Votre équipe ne peut plus répondre à cette question';
+
+  @override
+  String get playPaused => 'Chrono en pause';
+
+  @override
+  String get playCorrect => 'Bonne réponse ! +10';
+
+  @override
+  String get playWrong => 'Mauvaise réponse : −5';
+
+  @override
+  String playWonBy(String name) {
+    return '$name a trouvé';
+  }
+
+  @override
+  String get playNobody => 'Personne n’a trouvé';
+
+  @override
+  String playAnswerWas(String answer) {
+    return 'Réponse : $answer';
+  }
+
+  @override
+  String get playTimeout => 'Temps écoulé';
+
+  @override
+  String get playFromText => 'Tiré du texte';
+
+  @override
+  String get playSpectator => 'Vous regardez ce match';
+
+  @override
+  String get playScores => 'Scores';
+
+  @override
+  String playHandLost(String name) {
+    return '$name a laissé filer la main : −5';
+  }
+
+  @override
+  String playAnsweredWrong(String name) {
+    return '$name s’est trompé : −5';
+  }
+
+  @override
+  String playPoints(int points) {
+    return '$points pts';
+  }
+
+  @override
+  String get playLeft => 'a quitté';
+
+  @override
+  String get playOffline => 'hors ligne';
+
+  @override
+  String get resultTitle => 'Résultats';
+
+  @override
+  String resultWinner(String name) {
+    return '$name gagne !';
+  }
+
+  @override
+  String get resultYouWin => 'Vous avez gagné !';
+
+  @override
+  String get resultDraw => 'Égalité';
+
+  @override
+  String resultRank(int rank) {
+    return '$rankᵉ';
+  }
+
+  @override
+  String get resultFirst => '1ᵉʳ';
+
+  @override
+  String get resultAbandon => 'Match arrêté : un camp a quitté la partie.';
+
+  @override
+  String get resultIdle => 'Match clos faute d’activité.';
+
+  @override
+  String get resultTiebreak => 'Départagé par une question décisive.';
+
+  @override
+  String get resultTiebreakRule =>
+      'Égalité parfaite : départagé au règlement (moins d’erreurs, puis rapidité).';
+
+  @override
+  String get resultReview => 'Revoir les questions';
+
+  @override
+  String get resultRematch => 'Revanche';
+
+  @override
+  String get resultRematchSent =>
+      'Nouveau match créé : les autres joueurs reçoivent le code.';
+
+  @override
+  String get resultBack => 'Retour';
+
+  @override
+  String get resultReadPassage => 'Lire le passage';
+
+  @override
+  String get projectionCodePrompt => 'Code du match à afficher';
+
+  @override
+  String get projectionShow => 'Afficher';
+
+  @override
+  String projectionWaiting(String code) {
+    return 'En attente des joueurs — code $code';
+  }
+
+  @override
+  String eventInvitation(String captain, String team) {
+    return '$captain vous invite dans l’équipe « $team »';
+  }
+
+  @override
+  String eventRequest(String pseudo) {
+    return '$pseudo demande à entrer dans votre équipe';
+  }
+
+  @override
+  String get eventDuelReady => 'Tournoi : votre duel vous attend !';
+
+  @override
+  String eventRematch(String code) {
+    return 'Revanche proposée : code $code';
+  }
+
+  @override
+  String get eventSee => 'Voir';
+
+  @override
+  String get errNetwork => 'Pas de connexion Internet.';
+
+  @override
+  String get errServer =>
+      'Le serveur ne répond pas correctement. Réessayez plus tard.';
+
+  @override
+  String get errHandTaken => 'Trop tard : un autre joueur a pris la main.';
+
+  @override
+  String get errLocked => 'Vous ne pouvez plus répondre à cette question.';
+
+  @override
+  String get errTooLate => 'Le temps est écoulé.';
+
+  @override
+  String get errNoHand => 'Vous n’avez plus la main.';
+
+  @override
+  String get errFull => 'C’est complet.';
+
+  @override
+  String get errServerBusy =>
+      'Trop de parties en cours en ce moment. Réessayez dans quelques minutes.';
+
+  @override
+  String get errUnknownCode => 'Aucun match ni tournoi avec ce code.';
+
+  @override
+  String get errBadCode => 'Code incorrect ou expiré.';
+
+  @override
+  String get errBanned => 'Votre compte joueur est suspendu.';
+
+  @override
+  String get errRateLimited =>
+      'Trop de tentatives. Réessayez dans quelques minutes.';
+
+  @override
+  String get tourCreateTitle => 'Nouveau tournoi';
+
+  @override
+  String get tourName => 'Nom du tournoi';
+
+  @override
+  String get tourNameHint => 'Par ex. : Tournoi des jeunes — Évangile de Jean';
+
+  @override
+  String get tourNameTooShort => '3 caractères au moins';
+
+  @override
+  String get tourFormat => 'Formule';
+
+  @override
+  String get tourModeSolo => 'Entre joueurs';
+
+  @override
+  String get tourModeTeam => 'Entre équipes';
+
+  @override
+  String get tourModeSoloHint =>
+      'Chaque joueur s’inscrit seul ; les duels opposent deux joueurs.';
+
+  @override
+  String get tourModeTeamHint =>
+      'Les joueurs forment des équipes ; les duels opposent deux équipes.';
+
+  @override
+  String get tourBible => 'Bible du tournoi';
+
+  @override
+  String get tourBibleFr => 'Louis Segond 1910';
+
+  @override
+  String get tourBibleEn => 'King James';
+
+  @override
+  String tourEntriesRange(int min, int max) {
+    return 'Participants : de $min à $max';
+  }
+
+  @override
+  String get tourEntriesTeamHint => 'Une équipe compte pour un participant.';
+
+  @override
+  String tourQuestionsPerDuel(int n) {
+    return 'Questions par duel : $n';
+  }
+
+  @override
+  String get tourForfeitDelay => 'Délai pour confirmer « Prêt »';
+
+  @override
+  String get tourForfeitHint =>
+      'Quand un duel s’ouvre, chaque camp a ce délai pour se déclarer prêt. Sinon, il perd par forfait.';
+
+  @override
+  String tourMinutesValue(int minutes) {
+    String _temp0 = intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: '$minutes minutes',
+      one: '1 minute',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String tourHoursValue(int n) {
+    String _temp0 = intl.Intl.pluralLogic(
+      n,
+      locale: localeName,
+      other: '$n heures',
+      one: '1 heure',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get tourPublic => 'Visible dans les tournois ouverts';
+
+  @override
+  String get tourPublicHint =>
+      'Sinon, seuls ceux qui ont le code peuvent s’inscrire.';
+
+  @override
+  String get tourPlay => 'Je joue aussi';
+
+  @override
+  String get tourPlaySoloHint =>
+      'Vous êtes inscrit d’office. Sinon, vous organisez seulement.';
+
+  @override
+  String get tourPlayTeamHint =>
+      'Vous créez votre équipe et en êtes le capitaine.';
+
+  @override
+  String get tourNeedPassage => 'Choisissez au moins un passage.';
+
+  @override
+  String get tourCreateSubmit => 'Créer le tournoi';
+
+  @override
+  String get tourTitle => 'Tournoi';
+
+  @override
+  String get tourCode => 'Code du tournoi';
+
+  @override
+  String tourShareText(String name, String passages, String code) {
+    return 'Inscris-toi au tournoi « $name » de Quiz Biblique ($passages) ! Code : $code';
+  }
+
+  @override
+  String get tourStateRegistration => 'Inscriptions ouvertes';
+
+  @override
+  String get tourStateRunning => 'En cours';
+
+  @override
+  String get tourStateFinished => 'Terminé';
+
+  @override
+  String get tourStateCancelled => 'Annulé';
+
+  @override
+  String get tourOrganizer => 'Organisateur';
+
+  @override
+  String tourOrganizedBy(String name) {
+    return 'Organisé par $name';
+  }
+
+  @override
+  String get tourRules => 'Règlement';
+
+  @override
+  String tourRulesDuel(int n, int seconds) {
+    return '$n questions par duel · $seconds s par question';
+  }
+
+  @override
+  String tourRulesHand(int seconds) {
+    return 'Après avoir pris la main : $seconds s pour répondre';
+  }
+
+  @override
+  String tourRulesForfeit(int minutes) {
+    return '« Prêt » à confirmer dans les $minutes min, sinon forfait';
+  }
+
+  @override
+  String tourRulesEntries(int min, int max) {
+    return 'De $min à $max participants';
+  }
+
+  @override
+  String get tourRulesElimination =>
+      'Élimination directe : le perdant de chaque duel est éliminé.';
+
+  @override
+  String tourPlayers(int count, int max) {
+    return 'Joueurs inscrits : $count/$max';
+  }
+
+  @override
+  String tourTeams(int count, int max) {
+    return 'Équipes inscrites : $count/$max';
+  }
+
+  @override
+  String get tourNoEntries =>
+      'Personne n’est encore inscrit. Partagez le code !';
+
+  @override
+  String get tourYou => 'vous';
+
+  @override
+  String get tourRegister => 'M’inscrire';
+
+  @override
+  String get tourUnregister => 'Me désinscrire';
+
+  @override
+  String get tourUnregisterConfirm => 'Vous désinscrire de ce tournoi ?';
+
+  @override
+  String get tourRegistered =>
+      'Vous êtes inscrit. Le tournoi commencera quand l’organisateur le lancera.';
+
+  @override
+  String get tourFull => 'Le tournoi est complet.';
+
+  @override
+  String get tourTeamHint =>
+      'Créez votre équipe et invitez vos coéquipiers, ou demandez à entrer dans une équipe ci-dessous.';
+
+  @override
+  String tourTeamIncomplete(int min) {
+    return 'Équipe incomplète : il faut $min joueurs au moins, sinon elle ne sera pas retenue au lancement.';
+  }
+
+  @override
+  String get tourOrganize => 'Organisation';
+
+  @override
+  String get tourStart => 'Lancer le tournoi';
+
+  @override
+  String get tourStartConfirm => 'Lancer le tournoi ?';
+
+  @override
+  String get tourStartBody =>
+      'Les inscriptions seront closes et le tableau tiré au sort.';
+
+  @override
+  String tourStartBodyTeam(int min) {
+    return 'Les inscriptions seront closes et le tableau tiré au sort. Les équipes de moins de $min joueurs ne seront pas retenues.';
+  }
+
+  @override
+  String tourNeedEntries(int min, int count) {
+    return 'Il faut au moins $min participants pour lancer (inscrits : $count).';
+  }
+
+  @override
+  String get tourCancel => 'Annuler le tournoi';
+
+  @override
+  String get tourCancelConfirm => 'Annuler ce tournoi ?';
+
+  @override
+  String get tourCancelBody =>
+      'Tous les participants seront prévenus. C’est définitif.';
+
+  @override
+  String get tourRoundPassages => 'Passages par tour';
+
+  @override
+  String get tourRoundPassagesHint =>
+      'Vous pouvez choisir d’autres passages pour un tour, tant que ses duels n’ont pas commencé. Sans choix, les passages du tournoi s’appliquent.';
+
+  @override
+  String get tourRoundDefault => 'Passages du tournoi';
+
+  @override
+  String get tourRoundStarted => 'Ce tour a commencé';
+
+  @override
+  String get tourRoundReset => 'Revenir aux passages du tournoi';
+
+  @override
+  String get tourSave => 'Enregistrer';
+
+  @override
+  String get tourSaved => 'Passages enregistrés';
+
+  @override
+  String tourRound(int round) {
+    return 'Tour $round';
+  }
+
+  @override
+  String get tourFinal => 'Finale';
+
+  @override
+  String get tourSemiFinals => 'Demi-finales';
+
+  @override
+  String get tourQuarterFinals => 'Quarts de finale';
+
+  @override
+  String get tourBracket => 'Tableau';
+
+  @override
+  String get tourYourDuel => 'Votre duel';
+
+  @override
+  String tourAgainst(String name) {
+    return 'Contre $name';
+  }
+
+  @override
+  String tourForfeitIn(String time) {
+    return 'Forfait dans $time';
+  }
+
+  @override
+  String get tourDeadlinePassed => 'Délai écoulé, résultat en cours…';
+
+  @override
+  String get tourReady => 'Prêt !';
+
+  @override
+  String get tourReadyHint =>
+      'Le duel commence dès que les deux camps sont prêts.';
+
+  @override
+  String get tourYouReady => 'Vous êtes prêt';
+
+  @override
+  String get tourTeamReady => 'Votre équipe est prête';
+
+  @override
+  String tourOpponentReady(String name) {
+    return '$name est prêt';
+  }
+
+  @override
+  String tourOpponentWaiting(String name) {
+    return '$name n’a pas encore confirmé';
+  }
+
+  @override
+  String get tourJoinDuel => 'Rejoindre le duel';
+
+  @override
+  String get tourDuelPlaying => 'Votre duel est en cours';
+
+  @override
+  String get tourWaitingNext =>
+      'Qualifié ! En attente de votre prochain adversaire.';
+
+  @override
+  String tourEliminatedAt(int round) {
+    return 'Vous êtes éliminé au tour $round. Merci d’avoir joué !';
+  }
+
+  @override
+  String get tourEliminated => 'Vous êtes éliminé. Merci d’avoir joué !';
+
+  @override
+  String get tourSpectator => 'Vous suivez ce tournoi.';
+
+  @override
+  String get tourAbandon => 'Abandonner le tournoi';
+
+  @override
+  String get tourAbandonBody => 'Votre duel en cours ou à venir sera perdu.';
+
+  @override
+  String get tourAbandonTeamBody =>
+      'Vous quittez votre équipe ; elle continue sans vous.';
+
+  @override
+  String get tourBye => 'Exempt';
+
+  @override
+  String get tourByeWin => 'Qualifié d’office';
+
+  @override
+  String get tourTbd => 'À déterminer';
+
+  @override
+  String get tourForfeitResult => 'Forfait';
+
+  @override
+  String get tourDoubleForfeit => 'Double forfait';
+
+  @override
+  String get tourDuelPending => 'À venir';
+
+  @override
+  String get tourDuelReadyWait => 'En attente des joueurs';
+
+  @override
+  String get tourDuelLive => 'En cours';
+
+  @override
+  String tourDuelSemantics(String a, String b) {
+    return '$a contre $b';
+  }
+
+  @override
+  String tourDuelWinnerSemantics(String name) {
+    return 'vainqueur : $name';
+  }
+
+  @override
+  String get tourEliminatedTag => 'éliminé';
+
+  @override
+  String tourWinner(String name) {
+    return '$name remporte le tournoi !';
+  }
+
+  @override
+  String get tourYouWon => 'Vous avez gagné le tournoi !';
+
+  @override
+  String get tourNoWinner => 'Tournoi terminé sans vainqueur.';
+
+  @override
+  String get tourCancelled => 'Ce tournoi a été annulé.';
 }

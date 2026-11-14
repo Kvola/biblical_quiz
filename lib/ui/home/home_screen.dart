@@ -12,6 +12,7 @@ import '../../providers.dart';
 import '../common.dart';
 import '../reading/reading_quiz_screen.dart';
 import '../launchers.dart';
+import '../online/online_home_screen.dart';
 import '../quiz/lesson_screen.dart';
 import '../search/search_screen.dart';
 import '../settings/settings_screen.dart';
@@ -50,6 +51,8 @@ class HomeScreen extends ConsumerWidget {
             children: [
               const _StreakCard(),
               const SizedBox(height: 12),
+              const _OnlineCard(),
+              const SizedBox(height: 12),
               _ContinueCard(content: c),
               const _ReviewCard(),
               const SizedBox(height: 12),
@@ -61,6 +64,29 @@ class HomeScreen extends ConsumerWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// Le jeu en ligne (facultatif) : matchs et tournois sur des passages choisis.
+class _OnlineCard extends StatelessWidget {
+  const _OnlineCard();
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    return Card(
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+        leading: CircleAvatar(
+          backgroundColor: context.palette.accentIcon.withValues(alpha: 0.18),
+          child: Icon(Icons.groups, color: context.palette.accentIcon),
+        ),
+        title: Text(l.onlineTitle, style: const TextStyle(fontWeight: FontWeight.w700)),
+        subtitle: Text(l.onlineCardSubtitle),
+        trailing: const Icon(Icons.chevron_right),
+        onTap: () => OnlineHomeScreen.open(context),
       ),
     );
   }

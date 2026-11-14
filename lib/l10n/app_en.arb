@@ -601,5 +601,716 @@
         "type": "int"
       }
     }
-  }
+  },
+  "onlineTitle": "Play with others",
+  "onlineCardSubtitle": "Online matches and tournaments on the passages you choose",
+  "onlineIntro": "Take on other readers, alone or in a team, on one or more Bible passages. The first to grab the hand answers; a right answer earns 10 points, a wrong one costs 5.",
+  "onlineOptional": "Online play is optional: the rest of the app works without an account or Internet.",
+  "onlineBecomePlayer": "Become a player",
+  "onlineAccountHint": "You need a phone number (code sent by WhatsApp) and a nickname.",
+  "onlineCreateMatch": "Create a match",
+  "onlineJoin": "Join",
+  "onlineJoinTitle": "Join with a code",
+  "onlineJoinHint": "6-character code",
+  "onlineCreateTournament": "Create a tournament",
+  "onlineOpenMatches": "Open matches",
+  "onlineOpenTournaments": "Open tournaments",
+  "onlineNoOpenMatch": "No open match right now. Create one and share its code.",
+  "onlineMyTournaments": "My tournaments",
+  "onlineInvitations": "Invitations",
+  "onlineHistory": "My matches",
+  "onlineNoHistory": "Your finished matches will show here.",
+  "onlineProfile": "My player profile",
+  "onlineProjection": "Projection screen",
+  "onlineProjectionHint": "Show a match on a big screen (projector, TV), no account needed.",
+  "onlineCurrentMatch": "You have a match in progress",
+  "onlineCurrentTournament": "You are in the “{name}” tournament",
+  "@onlineCurrentTournament": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "onlineResume": "Resume",
+  "onlineStats": "{played, plural, =0{No match} =1{1 match} other{{played} matches}} · {won, plural, =0{none won} =1{1 won} other{{won} won}}",
+  "@onlineStats": {
+    "placeholders": {
+      "played": {
+        "type": "int"
+      },
+      "won": {
+        "type": "int"
+      }
+    }
+  },
+  "onlineOffline": "Cannot reach the server. Check the Internet and try again.",
+  "onlinePlayers": "{players}/{max} players",
+  "@onlinePlayers": {
+    "placeholders": {
+      "players": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "onlineBy": "by {name}",
+  "@onlineBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "onlineModeSolo": "Individual",
+  "onlineModeTeam": "Teams",
+  "onlineRealtimeOff": "Slow connection: the display may lag a little.",
+  "signInTitle": "Become a player",
+  "signInPhone": "Your phone number",
+  "signInCountry": "Country",
+  "signInSendCode": "Get the code on WhatsApp",
+  "signInCodeSent": "Code sent to {phone}",
+  "@signInCodeSent": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "signInCode": "Code received",
+  "signInVerify": "Confirm",
+  "signInResend": "Send the code again",
+  "signInChangeNumber": "Change number",
+  "signInPrivacy": "Your number only protects your account. Other players only see your nickname.",
+  "pseudoTitle": "Choose your nickname",
+  "pseudoLabel": "Nickname",
+  "pseudoHint": "3 to 20 characters, visible to other players",
+  "pseudoSave": "Let’s go",
+  "profileRename": "Change nickname",
+  "profileSignOut": "Sign out",
+  "profileDelete": "Delete my player account",
+  "profileDeleteConfirm": "Your nickname and history will be erased, and you will leave the current game. Your reading and progress in the app are not affected.",
+  "profileDeleted": "Player account deleted",
+  "profileTournamentsWon": "{count, plural, =0{No tournament won} =1{1 tournament won} other{{count} tournaments won}}",
+  "@profileTournamentsWon": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "report": "Report this nickname",
+  "reportReason": "Why? (optional)",
+  "reportSent": "Report sent. Thank you.",
+  "createMatchTitle": "New match",
+  "createPassages": "Passages",
+  "createAddPassage": "Add a passage",
+  "createNoPassage": "Choose at least one passage for the questions.",
+  "createAvailable": "{available} possible questions on these passages",
+  "@createAvailable": {
+    "placeholders": {
+      "available": {
+        "type": "int"
+      }
+    }
+  },
+  "createNotEnough": "Not enough questions: add or widen a passage, or lower the number of questions.",
+  "createBible": "Bible for the match",
+  "createQuestions": "Questions: {n}",
+  "@createQuestions": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "createQuestionTime": "Time per question: {seconds} s",
+  "@createQuestionTime": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "createHandTime": "Time to answer after grabbing the hand: {seconds} s",
+  "@createHandTime": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "createMaxPlayers": "Players at most: {n}",
+  "@createMaxPlayers": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "createPublic": "Listed in open matches",
+  "createPublicHint": "Otherwise, only people with the code can join.",
+  "createSubmit": "Create the match",
+  "passagePickerTitle": "Choose a passage",
+  "passageBook": "Book",
+  "passageFromChapter": "From chapter",
+  "passageToChapter": "to chapter",
+  "passageVerses": "Only some verses",
+  "passageFromVerse": "From verse",
+  "passageToVerse": "to verse",
+  "passageAdd": "Add",
+  "lobbyTitle": "Waiting room",
+  "lobbyCode": "Match code",
+  "lobbyShareHint": "Other players type this code under Play → Join, or scan the QR code with their camera.",
+  "lobbyShareWhatsApp": "Invite via WhatsApp",
+  "lobbyShareText": "Join me for a Bible Quiz match ({passages})! Code: {code}\n{link}",
+  "@lobbyShareText": {
+    "placeholders": {
+      "passages": {
+        "type": "String"
+      },
+      "code": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "lobbyPlayers": "Players",
+  "lobbyWaitCreator": "Waiting for {name} to start…",
+  "@lobbyWaitCreator": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "lobbyStart": "Start the match",
+  "lobbyNeedPlayers": "At least 2 players are needed.",
+  "lobbyLeave": "Leave",
+  "lobbyLeaveConfirm": "Leave this match?",
+  "lobbyLeaveRunning": "Leaving a match in progress means giving up.",
+  "lobbyKick": "Remove from the match",
+  "lobbyCreator": "creator",
+  "lobbySettings": "{n} questions · {seconds} s per question · hand: {hand} s",
+  "@lobbySettings": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      },
+      "hand": {
+        "type": "String"
+      }
+    }
+  },
+  "lobbyCancelled": "This match was cancelled.",
+  "lobbyNoTeam": "Without a team",
+  "lobbyNoTeamHint": "Players without a team do not play: ask to join a team, or create one.",
+  "teamCreate": "Create a team",
+  "teamName": "Team name",
+  "teamCaptain": "captain",
+  "teamInvite": "Invite a player",
+  "teamInviteSearch": "Player’s nickname",
+  "teamInviteBusy": "already playing",
+  "teamInvited": "invited",
+  "teamRequested": "asks to join",
+  "teamAccept": "Accept",
+  "teamDecline": "Decline",
+  "teamRemove": "Remove",
+  "teamAskJoin": "Ask to join",
+  "teamLeave": "Leave the team",
+  "teamRename": "Rename",
+  "teamMembers": "{n} players",
+  "@teamMembers": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "teamInvitation": "{captain} invites you to the “{team}” team",
+  "@teamInvitation": {
+    "placeholders": {
+      "captain": {
+        "type": "String"
+      },
+      "team": {
+        "type": "String"
+      }
+    }
+  },
+  "teamSizeHint": "{min} to {max} players per team.",
+  "@teamSizeHint": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "playCountdown": "Ready?",
+  "playQuestion": "Question {index} of {total}",
+  "@playQuestion": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "playTiebreak": "Tiebreaker: the first right answer wins",
+  "playBuzz": "I’ll answer!",
+  "playYourHand": "Your turn! Pick the answer",
+  "playHandOf": "{name} has the hand",
+  "@playHandOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "playLocked": "You can no longer answer this question",
+  "playLockedTeam": "Your team can no longer answer this question",
+  "playPaused": "Timer paused",
+  "playCorrect": "Right answer! +10",
+  "playWrong": "Wrong answer: −5",
+  "playWonBy": "{name} got it",
+  "@playWonBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "playNobody": "Nobody got it",
+  "playAnswerWas": "Answer: {answer}",
+  "@playAnswerWas": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+  "playTimeout": "Time is up",
+  "playFromText": "From the text",
+  "playSpectator": "You are watching this match",
+  "playScores": "Scores",
+  "playHandLost": "{name} let the hand go: −5",
+  "@playHandLost": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "playAnsweredWrong": "{name} was wrong: −5",
+  "@playAnsweredWrong": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "playPoints": "{points} pts",
+  "@playPoints": {
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "playLeft": "left",
+  "playOffline": "offline",
+  "resultTitle": "Results",
+  "resultWinner": "{name} wins!",
+  "@resultWinner": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "resultYouWin": "You won!",
+  "resultDraw": "Draw",
+  "resultRank": "#{rank}",
+  "@resultRank": {
+    "placeholders": {
+      "rank": {
+        "type": "int"
+      }
+    }
+  },
+  "resultFirst": "#1",
+  "resultAbandon": "Match stopped: one side left the game.",
+  "resultIdle": "Match closed for lack of activity.",
+  "resultTiebreak": "Decided by a tiebreaker.",
+  "resultTiebreakRule": "Perfect tie: decided by the rules (fewer mistakes, then speed).",
+  "resultReview": "Review the questions",
+  "resultRematch": "Rematch",
+  "resultRematchSent": "New match created: the other players get the code.",
+  "resultBack": "Back",
+  "resultReadPassage": "Read the passage",
+  "projectionCodePrompt": "Code of the match to show",
+  "projectionShow": "Show",
+  "projectionWaiting": "Waiting for players — code {code}",
+  "@projectionWaiting": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "eventInvitation": "{captain} invites you to the “{team}” team",
+  "@eventInvitation": {
+    "placeholders": {
+      "captain": {
+        "type": "String"
+      },
+      "team": {
+        "type": "String"
+      }
+    }
+  },
+  "eventRequest": "{pseudo} asks to join your team",
+  "@eventRequest": {
+    "placeholders": {
+      "pseudo": {
+        "type": "String"
+      }
+    }
+  },
+  "eventDuelReady": "Tournament: your duel is waiting!",
+  "eventRematch": "Rematch offered: code {code}",
+  "@eventRematch": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "eventSee": "See",
+  "errNetwork": "No Internet connection.",
+  "errServer": "The server is not responding properly. Try again later.",
+  "errHandTaken": "Too late: another player grabbed the hand.",
+  "errLocked": "You can no longer answer this question.",
+  "errTooLate": "Time is up.",
+  "errNoHand": "You no longer have the hand.",
+  "errFull": "It is full.",
+  "errServerBusy": "Too many games in progress right now. Try again in a few minutes.",
+  "errUnknownCode": "No match or tournament with this code.",
+  "errBadCode": "Wrong or expired code.",
+  "errBanned": "Your player account is suspended.",
+  "errRateLimited": "Too many attempts. Try again in a few minutes.",
+  "tourCreateTitle": "New tournament",
+  "tourName": "Tournament name",
+  "tourNameHint": "E.g. Youth tournament — Gospel of John",
+  "tourNameTooShort": "At least 3 characters",
+  "tourFormat": "Format",
+  "tourModeSolo": "Players",
+  "tourModeTeam": "Teams",
+  "tourModeSoloHint": "Each player registers alone; duels pit two players against each other.",
+  "tourModeTeamHint": "Players form teams; duels pit two teams against each other.",
+  "tourBible": "Bible for the tournament",
+  "tourBibleFr": "Louis Segond 1910",
+  "tourBibleEn": "King James",
+  "tourEntriesRange": "Participants: {min} to {max}",
+  "@tourEntriesRange": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "tourEntriesTeamHint": "A team counts as one participant.",
+  "tourQuestionsPerDuel": "Questions per duel: {n}",
+  "@tourQuestionsPerDuel": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tourForfeitDelay": "Time to confirm “Ready”",
+  "tourForfeitHint": "When a duel opens, each side has this long to say it is ready. Otherwise it loses by forfeit.",
+  "tourMinutesValue": "{minutes, plural, =1{1 minute} other{{minutes} minutes}}",
+  "@tourMinutesValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tourHoursValue": "{n, plural, =1{1 hour} other{{n} hours}}",
+  "@tourHoursValue": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tourPublic": "Listed in open tournaments",
+  "tourPublicHint": "Otherwise, only people with the code can register.",
+  "tourPlay": "I play too",
+  "tourPlaySoloHint": "You are registered right away. Otherwise, you only organize.",
+  "tourPlayTeamHint": "You create your team and are its captain.",
+  "tourNeedPassage": "Choose at least one passage.",
+  "tourCreateSubmit": "Create the tournament",
+  "tourTitle": "Tournament",
+  "tourCode": "Tournament code",
+  "tourShareText": "Sign up for the “{name}” Bible Quiz tournament ({passages})! Code: {code}",
+  "@tourShareText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "passages": {
+        "type": "String"
+      },
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "tourStateRegistration": "Registration open",
+  "tourStateRunning": "In progress",
+  "tourStateFinished": "Finished",
+  "tourStateCancelled": "Cancelled",
+  "tourOrganizer": "Organizer",
+  "tourOrganizedBy": "Organized by {name}",
+  "@tourOrganizedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tourRules": "Rules",
+  "tourRulesDuel": "{n} questions per duel · {seconds} s per question",
+  "@tourRulesDuel": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "tourRulesHand": "After grabbing the hand: {seconds} s to answer",
+  "@tourRulesHand": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "tourRulesForfeit": "Confirm “Ready” within {minutes} min, or forfeit",
+  "@tourRulesForfeit": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tourRulesEntries": "{min} to {max} participants",
+  "@tourRulesEntries": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "tourRulesElimination": "Single elimination: the loser of each duel is out.",
+  "tourPlayers": "Registered players: {count}/{max}",
+  "@tourPlayers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "tourTeams": "Registered teams: {count}/{max}",
+  "@tourTeams": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "tourNoEntries": "Nobody has registered yet. Share the code!",
+  "tourYou": "you",
+  "tourRegister": "Register",
+  "tourUnregister": "Withdraw",
+  "tourUnregisterConfirm": "Withdraw from this tournament?",
+  "tourRegistered": "You are registered. The tournament starts when the organizer launches it.",
+  "tourFull": "The tournament is full.",
+  "tourTeamHint": "Create your team and invite teammates, or ask to join a team below.",
+  "tourTeamIncomplete": "Incomplete team: it needs at least {min} players, or it will be left out at the start.",
+  "@tourTeamIncomplete": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "tourOrganize": "Organization",
+  "tourStart": "Start the tournament",
+  "tourStartConfirm": "Start the tournament?",
+  "tourStartBody": "Registration will close and the bracket will be drawn.",
+  "tourStartBodyTeam": "Registration will close and the bracket will be drawn. Teams with fewer than {min} players will be left out.",
+  "@tourStartBodyTeam": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "tourNeedEntries": "At least {min} participants are needed to start (registered: {count}).",
+  "@tourNeedEntries": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tourCancel": "Cancel the tournament",
+  "tourCancelConfirm": "Cancel this tournament?",
+  "tourCancelBody": "All participants will be notified. This cannot be undone.",
+  "tourRoundPassages": "Passages per round",
+  "tourRoundPassagesHint": "You can choose other passages for a round, as long as its duels have not started. Otherwise, the tournament passages apply.",
+  "tourRoundDefault": "Tournament passages",
+  "tourRoundStarted": "This round has started",
+  "tourRoundReset": "Back to the tournament passages",
+  "tourSave": "Save",
+  "tourSaved": "Passages saved",
+  "tourRound": "Round {round}",
+  "@tourRound": {
+    "placeholders": {
+      "round": {
+        "type": "int"
+      }
+    }
+  },
+  "tourFinal": "Final",
+  "tourSemiFinals": "Semi-finals",
+  "tourQuarterFinals": "Quarter-finals",
+  "tourBracket": "Bracket",
+  "tourYourDuel": "Your duel",
+  "tourAgainst": "Against {name}",
+  "@tourAgainst": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tourForfeitIn": "Forfeit in {time}",
+  "@tourForfeitIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tourDeadlinePassed": "Time is up, settling the result…",
+  "tourReady": "Ready!",
+  "tourReadyHint": "The duel starts as soon as both sides are ready.",
+  "tourYouReady": "You are ready",
+  "tourTeamReady": "Your team is ready",
+  "tourOpponentReady": "{name} is ready",
+  "@tourOpponentReady": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tourOpponentWaiting": "{name} has not confirmed yet",
+  "@tourOpponentWaiting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tourJoinDuel": "Join the duel",
+  "tourDuelPlaying": "Your duel is in progress",
+  "tourWaitingNext": "Through! Waiting for your next opponent.",
+  "tourEliminatedAt": "You were knocked out in round {round}. Thanks for playing!",
+  "@tourEliminatedAt": {
+    "placeholders": {
+      "round": {
+        "type": "int"
+      }
+    }
+  },
+  "tourEliminated": "You are knocked out. Thanks for playing!",
+  "tourSpectator": "You are following this tournament.",
+  "tourAbandon": "Leave the tournament",
+  "tourAbandonBody": "Your current or next duel will be lost.",
+  "tourAbandonTeamBody": "You leave your team; it carries on without you.",
+  "tourBye": "Bye",
+  "tourByeWin": "Advances on a bye",
+  "tourTbd": "To be decided",
+  "tourForfeitResult": "Forfeit",
+  "tourDoubleForfeit": "Double forfeit",
+  "tourDuelPending": "Upcoming",
+  "tourDuelReadyWait": "Waiting for players",
+  "tourDuelLive": "Live",
+  "tourDuelSemantics": "{a} versus {b}",
+  "@tourDuelSemantics": {
+    "placeholders": {
+      "a": {
+        "type": "String"
+      },
+      "b": {
+        "type": "String"
+      }
+    }
+  },
+  "tourDuelWinnerSemantics": "winner: {name}",
+  "@tourDuelWinnerSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tourEliminatedTag": "out",
+  "tourWinner": "{name} wins the tournament!",
+  "@tourWinner": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tourYouWon": "You won the tournament!",
+  "tourNoWinner": "Tournament ended without a winner.",
+  "tourCancelled": "This tournament was cancelled."
 }

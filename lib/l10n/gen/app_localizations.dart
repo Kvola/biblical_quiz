@@ -578,6 +578,324 @@ abstract class AppLocalizations {
   /// **'Compris'**
   String get homeScreenDismiss;
 
+  /// No description provided for @navNotes.
+  ///
+  /// In fr, this message translates to:
+  /// **'Notes'**
+  String get navNotes;
+
+  /// No description provided for @notesTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Notes de prédication'**
+  String get notesTitle;
+
+  /// No description provided for @notesEmptyTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune note pour l’instant'**
+  String get notesEmptyTitle;
+
+  /// No description provided for @notesEmptyBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pendant une prédication, notez ce que vous retenez et associez-y les passages lus. Vos notes restent sur votre téléphone.'**
+  String get notesEmptyBody;
+
+  /// No description provided for @notesNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvelle note'**
+  String get notesNew;
+
+  /// No description provided for @notesSearch.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rechercher dans mes notes'**
+  String get notesSearch;
+
+  /// No description provided for @notesNoMatch.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune note ne correspond.'**
+  String get notesNoMatch;
+
+  /// No description provided for @noteUntitled.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sans titre'**
+  String get noteUntitled;
+
+  /// No description provided for @noteTitleHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Titre ou thème de la prédication'**
+  String get noteTitleHint;
+
+  /// No description provided for @notePreacherHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Prédicateur'**
+  String get notePreacherHint;
+
+  /// No description provided for @notePlaceHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Lieu, Église'**
+  String get notePlaceHint;
+
+  /// No description provided for @noteDateTooltip.
+  ///
+  /// In fr, this message translates to:
+  /// **'Jour de la prédication'**
+  String get noteDateTooltip;
+
+  /// No description provided for @notePassages.
+  ///
+  /// In fr, this message translates to:
+  /// **'Passages'**
+  String get notePassages;
+
+  /// No description provided for @noteAddPassage.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajouter un passage'**
+  String get noteAddPassage;
+
+  /// No description provided for @noteBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Notes'**
+  String get noteBody;
+
+  /// No description provided for @noteBodyHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ce que vous retenez… Les références que vous tapez (Jean 3:16, Ps 23) sont repérées.'**
+  String get noteBodyHint;
+
+  /// No description provided for @noteFoundRefs.
+  ///
+  /// In fr, this message translates to:
+  /// **'Repérés dans vos notes : touchez pour ajouter'**
+  String get noteFoundRefs;
+
+  /// No description provided for @noteReadPassages.
+  ///
+  /// In fr, this message translates to:
+  /// **'Lire les passages'**
+  String get noteReadPassages;
+
+  /// No description provided for @noteDelete.
+  ///
+  /// In fr, this message translates to:
+  /// **'Supprimer la note'**
+  String get noteDelete;
+
+  /// No description provided for @noteDeleted.
+  ///
+  /// In fr, this message translates to:
+  /// **'Note supprimée'**
+  String get noteDeleted;
+
+  /// No description provided for @noteAutosave.
+  ///
+  /// In fr, this message translates to:
+  /// **'Enregistrée automatiquement'**
+  String get noteAutosave;
+
+  /// No description provided for @notePassageRemoved.
+  ///
+  /// In fr, this message translates to:
+  /// **'Passage retiré'**
+  String get notePassageRemoved;
+
+  /// No description provided for @notePassageAdded.
+  ///
+  /// In fr, this message translates to:
+  /// **'Passage ajouté'**
+  String get notePassageAdded;
+
+  /// No description provided for @noteShareFooter.
+  ///
+  /// In fr, this message translates to:
+  /// **'Notes prises avec Quiz Biblique'**
+  String get noteShareFooter;
+
+  /// No description provided for @shareWhatsApp.
+  ///
+  /// In fr, this message translates to:
+  /// **'WhatsApp'**
+  String get shareWhatsApp;
+
+  /// No description provided for @shareOther.
+  ///
+  /// In fr, this message translates to:
+  /// **'Autre application (e-mail, SMS…)'**
+  String get shareOther;
+
+  /// No description provided for @copyText.
+  ///
+  /// In fr, this message translates to:
+  /// **'Copier le texte'**
+  String get copyText;
+
+  /// No description provided for @whatsappFailed.
+  ///
+  /// In fr, this message translates to:
+  /// **'WhatsApp n’a pas pu s’ouvrir : choisissez une autre application.'**
+  String get whatsappFailed;
+
+  /// No description provided for @noteQuiz.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tester ces passages'**
+  String get noteQuiz;
+
+  /// No description provided for @noteQuizTooFew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ces passages sont trop courts pour un quiz.'**
+  String get noteQuizTooFew;
+
+  /// No description provided for @noteAwake.
+  ///
+  /// In fr, this message translates to:
+  /// **'L’écran reste allumé tant que la note est ouverte'**
+  String get noteAwake;
+
+  /// No description provided for @addPassageHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ex. : Jean 3:16-18, Ps 23, 1 Co 13'**
+  String get addPassageHint;
+
+  /// No description provided for @addPassageInvalid.
+  ///
+  /// In fr, this message translates to:
+  /// **'Référence non reconnue. Écrivez le livre, le chapitre puis les versets : Jean 3:16-18.'**
+  String get addPassageInvalid;
+
+  /// No description provided for @addPassageAdd.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajouter'**
+  String get addPassageAdd;
+
+  /// No description provided for @addPassageNumbering.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ce passage est numéroté autrement selon les Bibles. D’où viennent ces numéros ?'**
+  String get addPassageNumbering;
+
+  /// No description provided for @addPassagePrinted.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ma Bible imprimée (Segond)'**
+  String get addPassagePrinted;
+
+  /// No description provided for @addPassageApp.
+  ///
+  /// In fr, this message translates to:
+  /// **'L’application'**
+  String get addPassageApp;
+
+  /// No description provided for @addToNote.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajouter à une note'**
+  String get addToNote;
+
+  /// No description provided for @addToNoteTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajouter {ref} à…'**
+  String addToNoteTitle(String ref);
+
+  /// No description provided for @addedToNote.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajouté à « {title} »'**
+  String addedToNote(String title);
+
+  /// No description provided for @alreadyInNote.
+  ///
+  /// In fr, this message translates to:
+  /// **'Déjà dans « {title} »'**
+  String alreadyInNote(String title);
+
+  /// No description provided for @open.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ouvrir'**
+  String get open;
+
+  /// No description provided for @inYourNotes.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dans vos notes'**
+  String get inYourNotes;
+
+  /// No description provided for @notesBackup.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sauvegarder mes notes'**
+  String get notesBackup;
+
+  /// No description provided for @notesRestore.
+  ///
+  /// In fr, this message translates to:
+  /// **'Restaurer une sauvegarde'**
+  String get notesRestore;
+
+  /// No description provided for @notesBackupHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Vos notes restent sur ce téléphone. Sauvegardez-les de temps en temps (Drive, e-mail…) pour les retrouver sur un autre appareil.'**
+  String get notesBackupHint;
+
+  /// No description provided for @notesBackupEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune note à sauvegarder.'**
+  String get notesBackupEmpty;
+
+  /// No description provided for @notesRestoreAdded.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =0{aucune nouvelle note} =1{1 nouvelle note} other{{count} nouvelles notes}}'**
+  String notesRestoreAdded(int count);
+
+  /// No description provided for @notesRestoreUpdated.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =0{aucune mise à jour} =1{1 mise à jour} other{{count} mises à jour}}'**
+  String notesRestoreUpdated(int count);
+
+  /// No description provided for @notesRestoreDone.
+  ///
+  /// In fr, this message translates to:
+  /// **'Restauration terminée : {result}.'**
+  String notesRestoreDone(String result);
+
+  /// No description provided for @notesRestoreInvalid.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ce fichier n’est pas une sauvegarde de notes du Quiz Biblique.'**
+  String get notesRestoreInvalid;
+
+  /// No description provided for @notesRestoreNewer.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cette sauvegarde vient d’une version plus récente : mettez l’application à jour.'**
+  String get notesRestoreNewer;
+
+  /// No description provided for @notesRestoreError.
+  ///
+  /// In fr, this message translates to:
+  /// **'Le fichier n’a pas pu être lu.'**
+  String get notesRestoreError;
+
   /// No description provided for @pathReviewTitle.
   ///
   /// In fr, this message translates to:

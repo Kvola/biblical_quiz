@@ -34,6 +34,23 @@ void main() {
     expect(p('32:1:1-17'), '32:1:1-2:1');
   });
 
+  test('d’une Segond imprimée vers l’application', () {
+    String? back(String code) => n.fromPrinted(VerseRef.parse(code))?.code;
+    expect(back('19:51:12'), '19:51:10', reason: '« crée en moi un cœur pur »');
+    expect(back('19:19:8'), '19:19:7');
+    expect(back('19:19:8-15'), '19:19:7-14');
+    expect(back('19:51:2'), '19:51:1', reason: 'titre : verset 1 de l’application');
+    expect(back('32:2:1'), '32:1:17', reason: 'Jonas 2:1 imprimé = Jonas 1:17');
+    expect(back('32:2:2-11'), '32:2:1-10');
+    expect(back('43:3:16'), isNull, reason: 'mêmes numéros');
+    expect(back('19:23:1'), isNull);
+    // Aller-retour : chaque verset d'un chapitre listé revient sur lui-même.
+    for (final code in ['19:19:7', '19:51:10', '32:1:17', '18:41:1', '2:8:5']) {
+      final r = VerseRef.parse(code);
+      expect(n.fromPrinted(n.printed(r)!), r, reason: code);
+    }
+  });
+
   test('numérotation identique : rien à signaler', () {
     for (final code in ['19:1:1', '19:23:1-6', '19:119:97-112', '43:3:16', '1:1:1-31', '41:9:50', '66:22:21']) {
       expect(p(code), isNull, reason: code);

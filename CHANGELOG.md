@@ -2,6 +2,21 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.7.0 (build 8) — 15 novembre 2026
+
+- **Notes de prédication** (nouvel onglet **Notes**) : titre, jour, prédicateur, lieu, notes libres et **passages associés**.
+  - Enregistrement automatique pendant la frappe ; une note quittée vide disparaît.
+  - Passages : saisie souple (« Jean 3:16-18 », « Ps 23 », « 1 Co 13.4-7 », « Jean 3, 16 », « Jude 3 »), aperçu du texte avant d'ajouter, référence impossible refusée. Les références tapées dans les notes sont repérées et proposées en un toucher.
+  - Bibles Segond imprimées : « Psaume 51:12 » lu sur papier devient Psaumes 51:10 dans l'application (choix proposé, texte affiché).
+  - Depuis un verset : **Ajouter à une note**, et **Dans vos notes** (les notes qui le citent).
+  - **Lire les passages** d'une note à la suite ; recherche dans les notes.
+  - **Partager** : **WhatsApp** (note mise en forme, titre et passages en gras, prête à envoyer à un contact ou un groupe ; WhatsApp Web dans le navigateur), autre application (texte simple) ou copier. Passages courts cités en entier.
+  - **Tester ces passages** : quiz sur les chapitres des passages de la note.
+  - **Écran allumé** tant qu'une note est ouverte (le téléphone ne se verrouille pas pendant la prédication).
+  - Guide : dicter ses notes avec le micro du clavier.
+  - **Sauvegarder / Restaurer** (fichier JSON) : restauration sans doublon, qui n'écrase jamais une version plus récente.
+- Base de données : schéma 3 (tables des notes), migration testée depuis les versions précédentes.
+
 ## 1.6.0 (build 7) — 14 novembre 2026
 
 - **Six nouveaux parcours, « Le chemin de la foi »**, à suivre dans l'ordre : **Le péché** (8 leçons), **La loi** (9), **La repentance** (10), **La justice** (9), **La nouvelle naissance** (9) et **La vie par la foi** (10). Soit 55 leçons et 326 questions de plus, en français et en anglais, qui alimentent aussi « À revoir » et le « Quiz sur mes lectures ».

@@ -246,6 +246,13 @@ final Map<String, int> _bookKeys = () {
   return m;
 }();
 
+/// Numéro du livre dont [name] est le nom ou l'abréviation (français ou anglais,
+/// accents et casse ignorés : « Ésaïe », « esaie », « 1 Co », « 1co », « Ps »), ou null.
+int? bookIdFromName(String name) {
+  final n = normalize(name).trim();
+  return _bookKeys[n] ?? _bookKeys[n.replaceAll(' ', '')];
+}
+
 /// Reconnaît une référence. Renvoie null si le texte n'en est pas une ou si
 /// elle n'existe pas dans [bible]. Un chapitre seul renvoie son premier verset
 /// (et [chapterOnly] vrai).

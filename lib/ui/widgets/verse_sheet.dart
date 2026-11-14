@@ -7,8 +7,11 @@ import '../../bible/bible.dart';
 import '../../core/books.dart';
 import '../../core/theme.dart';
 import '../../core/verse_ref.dart';
+import '../../data/notes_repository.dart';
 import '../../providers.dart';
 import '../common.dart';
+import '../notes/add_to_note.dart';
+import '../notes/note_screen.dart';
 import 'printed_note.dart';
 
 /// Ouvre une feuille qui montre une référence et propose copier / partager / mettre de côté.
@@ -39,6 +42,10 @@ class VerseSheet extends ConsumerWidget {
     final isFavorite = favorites.contains(verseRef.code);
     final scale = ref.watch(settingsProvider).value?.textScale ?? 1.0;
     final l = context.l10n;
+    final citing = [
+      for (final n in ref.watch(notesProvider).value ?? const <SermonNote>[])
+        if (!n.isBlank && n.refs.any((r) => NotesRepository.overlaps(r, verseRef))) n,
+    ];
 
     return DraggableScrollableSheet(
       expand: false,
@@ -99,8 +106,27 @@ class VerseSheet extends ConsumerWidget {
                   label: Text(l.share),
                   onPressed: () => SharePlus.instance.share(ShareParams(text: shareText(b, verseRef, context.lang))),
                 ),
+                OutlinedButton.icon(
+                  icon: const Icon(Icons.edit_note),
+                  label: Text(l.addToNote),
+                  onPressed: () => addVerseToNote(context, ref, verseRef),
+                ),
               ],
             ),
+            // Notes de prédication qui citent ce passage.
+            if (citing.isNotEmpty) ...[
+              const SizedBox(height: 16),
+              Text(l.inYourNotes, style: Theme.of(context).textTheme.titleSmall),
+              for (final n in citing.take(5))
+                ListTile(
+                  contentPadding: EdgeInsets.zero,
+                  dense: true,
+                  leading: const Icon(Icons.edit_note),
+                  title: Text(n.title.trim().isEmpty ? l.noteUntitled : n.title.trim(), maxLines: 1, overflow: TextOverflow.ellipsis),
+                  subtitle: Text(MaterialLocalizations.of(context).formatMediumDate(n.date)),
+                  onTap: () => NoteScreen.open(context, n.id),
+                ),
+            ],
           ],
         ),
       ),

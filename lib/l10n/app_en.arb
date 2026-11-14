@@ -180,6 +180,101 @@
   "homeScreenTitle": "Add the app to your Home Screen",
   "homeScreenBody": "Tap Share (the square with an arrow), then “Add to Home Screen”. The app will open full screen and your data will be kept more reliably.",
   "homeScreenDismiss": "Got it",
+  "navNotes": "Notes",
+  "notesTitle": "Sermon notes",
+  "notesEmptyTitle": "No notes yet",
+  "notesEmptyBody": "During a sermon, write down what you take away and link the passages that were read. Your notes stay on your phone.",
+  "notesNew": "New note",
+  "notesSearch": "Search my notes",
+  "notesNoMatch": "No note matches.",
+  "noteUntitled": "Untitled",
+  "noteTitleHint": "Sermon title or theme",
+  "notePreacherHint": "Preacher",
+  "notePlaceHint": "Place, church",
+  "noteDateTooltip": "Day of the sermon",
+  "notePassages": "Passages",
+  "noteAddPassage": "Add a passage",
+  "noteBody": "Notes",
+  "noteBodyHint": "What you take away… References you type (John 3:16, Ps 23) are detected.",
+  "noteFoundRefs": "Found in your notes: tap to add",
+  "noteReadPassages": "Read the passages",
+  "noteDelete": "Delete note",
+  "noteDeleted": "Note deleted",
+  "noteAutosave": "Saved automatically",
+  "notePassageRemoved": "Passage removed",
+  "notePassageAdded": "Passage added",
+  "noteShareFooter": "Notes taken with Bible Quiz",
+  "shareWhatsApp": "WhatsApp",
+  "shareOther": "Another app (email, SMS…)",
+  "copyText": "Copy the text",
+  "whatsappFailed": "WhatsApp could not be opened: choose another app.",
+  "noteQuiz": "Test these passages",
+  "noteQuizTooFew": "These passages are too short for a quiz.",
+  "noteAwake": "The screen stays on while the note is open",
+  "addPassageHint": "E.g. John 3:16-18, Ps 23, 1 Cor 13",
+  "addPassageInvalid": "Reference not recognised. Write the book, chapter, then verses: John 3:16-18.",
+  "addPassageAdd": "Add",
+  "addPassageNumbering": "This passage is numbered differently in some Bibles. Where do these numbers come from?",
+  "addPassagePrinted": "My printed Bible (Segond)",
+  "addPassageApp": "The app",
+  "addToNote": "Add to a note",
+  "addToNoteTitle": "Add {ref} to…",
+  "@addToNoteTitle": {
+    "placeholders": {
+      "ref": {
+        "type": "String"
+      }
+    }
+  },
+  "addedToNote": "Added to “{title}”",
+  "@addedToNote": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "alreadyInNote": "Already in “{title}”",
+  "@alreadyInNote": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "open": "Open",
+  "inYourNotes": "In your notes",
+  "notesBackup": "Back up my notes",
+  "notesRestore": "Restore a backup",
+  "notesBackupHint": "Your notes stay on this phone. Back them up from time to time (Drive, email…) to find them on another device.",
+  "notesBackupEmpty": "No notes to back up.",
+  "notesRestoreAdded": "{count, plural, =0{no new notes} =1{1 new note} other{{count} new notes}}",
+  "@notesRestoreAdded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notesRestoreUpdated": "{count, plural, =0{no updates} =1{1 update} other{{count} updates}}",
+  "@notesRestoreUpdated": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notesRestoreDone": "Restore complete: {result}.",
+  "@notesRestoreDone": {
+    "placeholders": {
+      "result": {
+        "type": "String"
+      }
+    }
+  },
+  "notesRestoreInvalid": "This file is not a Bible Quiz notes backup.",
+  "notesRestoreNewer": "This backup comes from a newer version: update the app.",
+  "notesRestoreError": "The file could not be read.",
   "pathReviewTitle": "Path review",
   "pathReviewSubtitle": "{count, plural, =1{1 question} other{{count} questions}} from every lesson in the path",
   "@pathReviewSubtitle": {

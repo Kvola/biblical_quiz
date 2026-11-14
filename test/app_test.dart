@@ -1,11 +1,13 @@
 import 'package:biblical_quiz/app.dart';
+import 'package:biblical_quiz/core/verse_ref.dart';
+import 'package:biblical_quiz/data/notes_repository.dart';
 import 'package:biblical_quiz/data/database.dart';
 import 'package:biblical_quiz/providers.dart';
 import 'package:biblical_quiz/ui/settings/settings_screen.dart';
 import 'package:drift/drift.dart' show DatabaseConnection, driftRuntimeOptions;
 import 'package:drift/native.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show PlatformAssetBundle;
+import 'package:flutter/services.dart' show PlatformAssetBundle, SystemChannels;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -277,6 +279,132 @@ void main() {
     await waitFor(tester, find.textContaining('The heavens declare'));
     await settle(tester);
     expect(find.textContaining('numbered differently'), findsNothing);
+    await teardown(tester, db);
+  });
+
+  testWidgets('notes de prédication : écrire, passages repérés, Bible imprimée, enregistrement', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+    final db = await pumpApp(tester, settings: {'onboarded': '1'});
+    await waitFor(tester, find.text('Lire et répondre'));
+
+    await tester.tap(find.text('Notes'));
+    await waitFor(tester, find.text('Aucune note pour l’instant'));
+    await tester.tap(find.text('Nouvelle note'));
+    await waitFor(tester, find.byKey(const ValueKey('note-title')));
+
+    await tester.enterText(find.byKey(const ValueKey('note-title')), 'Un cœur nouveau');
+    await tester.enterText(find.byKey(const ValueKey('note-preacher')), 'Pasteur K.');
+    await tester.enterText(find.byKey(const ValueKey('note-body')), 'Lire Jean 3:3 puis Ézéchiel 36:26.');
+    await settle(tester);
+
+    // Références repérées dans le texte : un toucher les ajoute aux passages.
+    await waitFor(tester, find.text('Repérés dans vos notes : touchez pour ajouter'));
+    await tester.tap(find.widgetWithText(ActionChip, 'Jean 3:3'));
+    await settle(tester);
+    expect(find.widgetWithText(InputChip, 'Jean 3:3'), findsOneWidget);
+    expect(find.widgetWithText(ActionChip, 'Jean 3:3'), findsNothing);
+
+    // Psaume 51:12 noté depuis une Segond imprimée = Psaume 51:10 dans l'application.
+    await tester.tap(find.byKey(const ValueKey('note-add-passage')));
+    await settle(tester);
+    await tester.enterText(find.descendant(of: find.byType(AlertDialog), matching: find.byType(TextField)), 'Ps 51:12');
+    await settle(tester);
+    expect(find.text('Ma Bible imprimée (Segond)'), findsOneWidget);
+    await tester.tap(find.widgetWithText(FilledButton, 'Ajouter'));
+    await settle(tester);
+    expect(find.widgetWithText(InputChip, 'Psaumes 51:10'), findsOneWidget);
+
+    // « Ps 51:12 » tapé dans les notes et ajouté (comme 51:10) n'est plus proposé.
+    await tester.enterText(find.byKey(const ValueKey('note-body')), 'Lire Jean 3:3 puis Ézéchiel 36:26 et Ps 51:12.');
+    await settle(tester);
+    expect(find.widgetWithText(ActionChip, 'Psaumes 51:12'), findsNothing);
+    expect(find.widgetWithText(ActionChip, 'Ézéchiel 36:26'), findsOneWidget);
+
+    // Une référence inconnue est refusée.
+    await tester.tap(find.byKey(const ValueKey('note-add-passage')));
+    await settle(tester);
+    await tester.enterText(find.descendant(of: find.byType(AlertDialog), matching: find.byType(TextField)), 'Jean 22:1');
+    await settle(tester);
+    expect(find.textContaining('Référence non reconnue'), findsOneWidget);
+    await tester.tap(find.text('Annuler'));
+    await settle(tester);
+
+    // Enregistrement automatique, puis retour à la liste.
+    await tester.pump(const Duration(seconds: 1));
+    await settle(tester);
+    await tester.binding.handlePopRoute();
+    await settle(tester);
+    await waitFor(tester, find.text('Un cœur nouveau'));
+    expect(find.textContaining('Pasteur K.'), findsOneWidget);
+    expect(find.textContaining('Jn 3:3 · Ps 51:10'), findsOneWidget);
+
+    final rows = (await tester.runAsync(() => db.select(db.sermonNotes).get()))!;
+    expect(rows.single.body, 'Lire Jean 3:3 puis Ézéchiel 36:26 et Ps 51:12.');
+    final refs = (await tester.runAsync(() => db.select(db.sermonNoteRefs).get()))!;
+    expect([for (final r in refs) r.ref], ['43:3:3', '19:51:10']);
+
+    // Recherche dans les notes.
+    await tester.enterText(find.byType(TextField).first, 'pasteur');
+    await settle(tester);
+    expect(find.text('Un cœur nouveau'), findsOneWidget);
+    await tester.enterText(find.byType(TextField).first, 'introuvable');
+    await settle(tester);
+    expect(find.text('Aucune note ne correspond.'), findsOneWidget);
+    await teardown(tester, db);
+  });
+
+  testWidgets('notes : partager (WhatsApp, autre, copier) et tester les passages', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+    final db = await pumpApp(tester, settings: {'onboarded': '1'});
+    await tester.runAsync(
+      () => NotesRepository(db).create(title: 'Né de nouveau', refs: [VerseRef.parse('43:3:1-15')], body: 'Nicodème.'),
+    );
+    await waitFor(tester, find.text('Lire et répondre'));
+    await tester.tap(find.text('Notes'));
+    await waitFor(tester, find.text('Né de nouveau'));
+    await tester.tap(find.text('Né de nouveau'));
+    await waitFor(tester, find.text('Tester ces passages'));
+    expect(find.text('L’écran reste allumé tant que la note est ouverte'), findsOneWidget);
+
+    // Partager : trois choix ; « Copier le texte » met la note dans le presse-papiers.
+    String? copied;
+    tester.binding.defaultBinaryMessenger.setMockMethodCallHandler(SystemChannels.platform, (call) async {
+      if (call.method == 'Clipboard.setData') copied = (call.arguments as Map)['text'] as String?;
+      return null;
+    });
+    addTearDown(() => tester.binding.defaultBinaryMessenger.setMockMethodCallHandler(SystemChannels.platform, null));
+    await tester.tap(find.byTooltip('Partager'));
+    await settle(tester);
+    expect(find.text('WhatsApp'), findsOneWidget);
+    expect(find.text('Autre application (e-mail, SMS…)'), findsOneWidget);
+    await tester.tap(find.text('Copier le texte'));
+    await settle(tester);
+    expect(copied, startsWith('Né de nouveau\n'));
+    expect(copied, contains('• Jean 3:1-15\n'), reason: '15 versets : la référence seule');
+    expect(copied, isNot(contains('*')), reason: 'texte brut hors WhatsApp');
+
+    // Tester ces passages : un quiz sur Jean 3.
+    await tester.tap(find.text('Tester ces passages'));
+    await waitFor(tester, find.textContaining('Question 1 sur'));
+    expect(find.text('Quiz : Né de nouveau'), findsOneWidget);
+    await teardown(tester, db);
+  });
+
+  testWidgets('notes : une note quittée vide disparaît', (tester) async {
+    final db = await pumpApp(tester, settings: {'onboarded': '1'});
+    await waitFor(tester, find.text('Lire et répondre'));
+    await tester.tap(find.text('Notes'));
+    await waitFor(tester, find.text('Nouvelle note'));
+    await tester.tap(find.text('Nouvelle note'));
+    await waitFor(tester, find.byKey(const ValueKey('note-title')));
+    await tester.binding.handlePopRoute();
+    await settle(tester);
+    expect(await tester.runAsync(() => db.select(db.sermonNotes).get()), isEmpty);
+    expect(find.text('Aucune note pour l’instant'), findsOneWidget);
     await teardown(tester, db);
   });
 

@@ -180,6 +180,101 @@
   "homeScreenTitle": "Ajoutez l’application à l’écran d’accueil",
   "homeScreenBody": "Touchez Partager (le carré avec une flèche), puis « Sur l’écran d’accueil ». L’application s’ouvrira en plein écran et vos données seront mieux conservées.",
   "homeScreenDismiss": "Compris",
+  "navNotes": "Notes",
+  "notesTitle": "Notes de prédication",
+  "notesEmptyTitle": "Aucune note pour l’instant",
+  "notesEmptyBody": "Pendant une prédication, notez ce que vous retenez et associez-y les passages lus. Vos notes restent sur votre téléphone.",
+  "notesNew": "Nouvelle note",
+  "notesSearch": "Rechercher dans mes notes",
+  "notesNoMatch": "Aucune note ne correspond.",
+  "noteUntitled": "Sans titre",
+  "noteTitleHint": "Titre ou thème de la prédication",
+  "notePreacherHint": "Prédicateur",
+  "notePlaceHint": "Lieu, Église",
+  "noteDateTooltip": "Jour de la prédication",
+  "notePassages": "Passages",
+  "noteAddPassage": "Ajouter un passage",
+  "noteBody": "Notes",
+  "noteBodyHint": "Ce que vous retenez… Les références que vous tapez (Jean 3:16, Ps 23) sont repérées.",
+  "noteFoundRefs": "Repérés dans vos notes : touchez pour ajouter",
+  "noteReadPassages": "Lire les passages",
+  "noteDelete": "Supprimer la note",
+  "noteDeleted": "Note supprimée",
+  "noteAutosave": "Enregistrée automatiquement",
+  "notePassageRemoved": "Passage retiré",
+  "notePassageAdded": "Passage ajouté",
+  "noteShareFooter": "Notes prises avec Quiz Biblique",
+  "shareWhatsApp": "WhatsApp",
+  "shareOther": "Autre application (e-mail, SMS…)",
+  "copyText": "Copier le texte",
+  "whatsappFailed": "WhatsApp n’a pas pu s’ouvrir : choisissez une autre application.",
+  "noteQuiz": "Tester ces passages",
+  "noteQuizTooFew": "Ces passages sont trop courts pour un quiz.",
+  "noteAwake": "L’écran reste allumé tant que la note est ouverte",
+  "addPassageHint": "Ex. : Jean 3:16-18, Ps 23, 1 Co 13",
+  "addPassageInvalid": "Référence non reconnue. Écrivez le livre, le chapitre puis les versets : Jean 3:16-18.",
+  "addPassageAdd": "Ajouter",
+  "addPassageNumbering": "Ce passage est numéroté autrement selon les Bibles. D’où viennent ces numéros ?",
+  "addPassagePrinted": "Ma Bible imprimée (Segond)",
+  "addPassageApp": "L’application",
+  "addToNote": "Ajouter à une note",
+  "addToNoteTitle": "Ajouter {ref} à…",
+  "@addToNoteTitle": {
+    "placeholders": {
+      "ref": {
+        "type": "String"
+      }
+    }
+  },
+  "addedToNote": "Ajouté à « {title} »",
+  "@addedToNote": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "alreadyInNote": "Déjà dans « {title} »",
+  "@alreadyInNote": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "open": "Ouvrir",
+  "inYourNotes": "Dans vos notes",
+  "notesBackup": "Sauvegarder mes notes",
+  "notesRestore": "Restaurer une sauvegarde",
+  "notesBackupHint": "Vos notes restent sur ce téléphone. Sauvegardez-les de temps en temps (Drive, e-mail…) pour les retrouver sur un autre appareil.",
+  "notesBackupEmpty": "Aucune note à sauvegarder.",
+  "notesRestoreAdded": "{count, plural, =0{aucune nouvelle note} =1{1 nouvelle note} other{{count} nouvelles notes}}",
+  "@notesRestoreAdded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notesRestoreUpdated": "{count, plural, =0{aucune mise à jour} =1{1 mise à jour} other{{count} mises à jour}}",
+  "@notesRestoreUpdated": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notesRestoreDone": "Restauration terminée : {result}.",
+  "@notesRestoreDone": {
+    "placeholders": {
+      "result": {
+        "type": "String"
+      }
+    }
+  },
+  "notesRestoreInvalid": "Ce fichier n’est pas une sauvegarde de notes du Quiz Biblique.",
+  "notesRestoreNewer": "Cette sauvegarde vient d’une version plus récente : mettez l’application à jour.",
+  "notesRestoreError": "Le fichier n’a pas pu être lu.",
   "pathReviewTitle": "Bilan du parcours",
   "pathReviewSubtitle": "{count, plural, =1{1 question tirée} other{{count} questions tirées}} de toutes les leçons du parcours",
   "@pathReviewSubtitle": {

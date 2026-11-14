@@ -1912,6 +1912,805 @@ class ReadChaptersCompanion extends UpdateCompanion<ReadChapter> {
   }
 }
 
+class $SermonNotesTable extends SermonNotes
+    with TableInfo<$SermonNotesTable, SermonNoteRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $SermonNotesTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _uidMeta = const VerificationMeta('uid');
+  @override
+  late final GeneratedColumn<String> uid = GeneratedColumn<String>(
+    'uid',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways('UNIQUE'),
+  );
+  static const VerificationMeta _titleMeta = const VerificationMeta('title');
+  @override
+  late final GeneratedColumn<String> title = GeneratedColumn<String>(
+    'title',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _preacherMeta = const VerificationMeta(
+    'preacher',
+  );
+  @override
+  late final GeneratedColumn<String> preacher = GeneratedColumn<String>(
+    'preacher',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _placeMeta = const VerificationMeta('place');
+  @override
+  late final GeneratedColumn<String> place = GeneratedColumn<String>(
+    'place',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _dayMeta = const VerificationMeta('day');
+  @override
+  late final GeneratedColumn<int> day = GeneratedColumn<int>(
+    'day',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _bodyMeta = const VerificationMeta('body');
+  @override
+  late final GeneratedColumn<String> body = GeneratedColumn<String>(
+    'body',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _createdAtMeta = const VerificationMeta(
+    'createdAt',
+  );
+  @override
+  late final GeneratedColumn<int> createdAt = GeneratedColumn<int>(
+    'created_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _updatedAtMeta = const VerificationMeta(
+    'updatedAt',
+  );
+  @override
+  late final GeneratedColumn<int> updatedAt = GeneratedColumn<int>(
+    'updated_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    uid,
+    title,
+    preacher,
+    place,
+    day,
+    body,
+    createdAt,
+    updatedAt,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'sermon_notes';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<SermonNoteRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('uid')) {
+      context.handle(
+        _uidMeta,
+        uid.isAcceptableOrUnknown(data['uid']!, _uidMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_uidMeta);
+    }
+    if (data.containsKey('title')) {
+      context.handle(
+        _titleMeta,
+        title.isAcceptableOrUnknown(data['title']!, _titleMeta),
+      );
+    }
+    if (data.containsKey('preacher')) {
+      context.handle(
+        _preacherMeta,
+        preacher.isAcceptableOrUnknown(data['preacher']!, _preacherMeta),
+      );
+    }
+    if (data.containsKey('place')) {
+      context.handle(
+        _placeMeta,
+        place.isAcceptableOrUnknown(data['place']!, _placeMeta),
+      );
+    }
+    if (data.containsKey('day')) {
+      context.handle(
+        _dayMeta,
+        day.isAcceptableOrUnknown(data['day']!, _dayMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_dayMeta);
+    }
+    if (data.containsKey('body')) {
+      context.handle(
+        _bodyMeta,
+        body.isAcceptableOrUnknown(data['body']!, _bodyMeta),
+      );
+    }
+    if (data.containsKey('created_at')) {
+      context.handle(
+        _createdAtMeta,
+        createdAt.isAcceptableOrUnknown(data['created_at']!, _createdAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_createdAtMeta);
+    }
+    if (data.containsKey('updated_at')) {
+      context.handle(
+        _updatedAtMeta,
+        updatedAt.isAcceptableOrUnknown(data['updated_at']!, _updatedAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_updatedAtMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  SermonNoteRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return SermonNoteRow(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      uid: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}uid'],
+      )!,
+      title: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}title'],
+      )!,
+      preacher: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}preacher'],
+      )!,
+      place: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}place'],
+      )!,
+      day: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}day'],
+      )!,
+      body: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}body'],
+      )!,
+      createdAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}created_at'],
+      )!,
+      updatedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}updated_at'],
+      )!,
+    );
+  }
+
+  @override
+  $SermonNotesTable createAlias(String alias) {
+    return $SermonNotesTable(attachedDatabase, alias);
+  }
+}
+
+class SermonNoteRow extends DataClass implements Insertable<SermonNoteRow> {
+  final int id;
+  final String uid;
+  final String title;
+  final String preacher;
+  final String place;
+  final int day;
+  final String body;
+  final int createdAt;
+  final int updatedAt;
+  const SermonNoteRow({
+    required this.id,
+    required this.uid,
+    required this.title,
+    required this.preacher,
+    required this.place,
+    required this.day,
+    required this.body,
+    required this.createdAt,
+    required this.updatedAt,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    map['uid'] = Variable<String>(uid);
+    map['title'] = Variable<String>(title);
+    map['preacher'] = Variable<String>(preacher);
+    map['place'] = Variable<String>(place);
+    map['day'] = Variable<int>(day);
+    map['body'] = Variable<String>(body);
+    map['created_at'] = Variable<int>(createdAt);
+    map['updated_at'] = Variable<int>(updatedAt);
+    return map;
+  }
+
+  SermonNotesCompanion toCompanion(bool nullToAbsent) {
+    return SermonNotesCompanion(
+      id: Value(id),
+      uid: Value(uid),
+      title: Value(title),
+      preacher: Value(preacher),
+      place: Value(place),
+      day: Value(day),
+      body: Value(body),
+      createdAt: Value(createdAt),
+      updatedAt: Value(updatedAt),
+    );
+  }
+
+  factory SermonNoteRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return SermonNoteRow(
+      id: serializer.fromJson<int>(json['id']),
+      uid: serializer.fromJson<String>(json['uid']),
+      title: serializer.fromJson<String>(json['title']),
+      preacher: serializer.fromJson<String>(json['preacher']),
+      place: serializer.fromJson<String>(json['place']),
+      day: serializer.fromJson<int>(json['day']),
+      body: serializer.fromJson<String>(json['body']),
+      createdAt: serializer.fromJson<int>(json['createdAt']),
+      updatedAt: serializer.fromJson<int>(json['updatedAt']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'uid': serializer.toJson<String>(uid),
+      'title': serializer.toJson<String>(title),
+      'preacher': serializer.toJson<String>(preacher),
+      'place': serializer.toJson<String>(place),
+      'day': serializer.toJson<int>(day),
+      'body': serializer.toJson<String>(body),
+      'createdAt': serializer.toJson<int>(createdAt),
+      'updatedAt': serializer.toJson<int>(updatedAt),
+    };
+  }
+
+  SermonNoteRow copyWith({
+    int? id,
+    String? uid,
+    String? title,
+    String? preacher,
+    String? place,
+    int? day,
+    String? body,
+    int? createdAt,
+    int? updatedAt,
+  }) => SermonNoteRow(
+    id: id ?? this.id,
+    uid: uid ?? this.uid,
+    title: title ?? this.title,
+    preacher: preacher ?? this.preacher,
+    place: place ?? this.place,
+    day: day ?? this.day,
+    body: body ?? this.body,
+    createdAt: createdAt ?? this.createdAt,
+    updatedAt: updatedAt ?? this.updatedAt,
+  );
+  SermonNoteRow copyWithCompanion(SermonNotesCompanion data) {
+    return SermonNoteRow(
+      id: data.id.present ? data.id.value : this.id,
+      uid: data.uid.present ? data.uid.value : this.uid,
+      title: data.title.present ? data.title.value : this.title,
+      preacher: data.preacher.present ? data.preacher.value : this.preacher,
+      place: data.place.present ? data.place.value : this.place,
+      day: data.day.present ? data.day.value : this.day,
+      body: data.body.present ? data.body.value : this.body,
+      createdAt: data.createdAt.present ? data.createdAt.value : this.createdAt,
+      updatedAt: data.updatedAt.present ? data.updatedAt.value : this.updatedAt,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SermonNoteRow(')
+          ..write('id: $id, ')
+          ..write('uid: $uid, ')
+          ..write('title: $title, ')
+          ..write('preacher: $preacher, ')
+          ..write('place: $place, ')
+          ..write('day: $day, ')
+          ..write('body: $body, ')
+          ..write('createdAt: $createdAt, ')
+          ..write('updatedAt: $updatedAt')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    id,
+    uid,
+    title,
+    preacher,
+    place,
+    day,
+    body,
+    createdAt,
+    updatedAt,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is SermonNoteRow &&
+          other.id == this.id &&
+          other.uid == this.uid &&
+          other.title == this.title &&
+          other.preacher == this.preacher &&
+          other.place == this.place &&
+          other.day == this.day &&
+          other.body == this.body &&
+          other.createdAt == this.createdAt &&
+          other.updatedAt == this.updatedAt);
+}
+
+class SermonNotesCompanion extends UpdateCompanion<SermonNoteRow> {
+  final Value<int> id;
+  final Value<String> uid;
+  final Value<String> title;
+  final Value<String> preacher;
+  final Value<String> place;
+  final Value<int> day;
+  final Value<String> body;
+  final Value<int> createdAt;
+  final Value<int> updatedAt;
+  const SermonNotesCompanion({
+    this.id = const Value.absent(),
+    this.uid = const Value.absent(),
+    this.title = const Value.absent(),
+    this.preacher = const Value.absent(),
+    this.place = const Value.absent(),
+    this.day = const Value.absent(),
+    this.body = const Value.absent(),
+    this.createdAt = const Value.absent(),
+    this.updatedAt = const Value.absent(),
+  });
+  SermonNotesCompanion.insert({
+    this.id = const Value.absent(),
+    required String uid,
+    this.title = const Value.absent(),
+    this.preacher = const Value.absent(),
+    this.place = const Value.absent(),
+    required int day,
+    this.body = const Value.absent(),
+    required int createdAt,
+    required int updatedAt,
+  }) : uid = Value(uid),
+       day = Value(day),
+       createdAt = Value(createdAt),
+       updatedAt = Value(updatedAt);
+  static Insertable<SermonNoteRow> custom({
+    Expression<int>? id,
+    Expression<String>? uid,
+    Expression<String>? title,
+    Expression<String>? preacher,
+    Expression<String>? place,
+    Expression<int>? day,
+    Expression<String>? body,
+    Expression<int>? createdAt,
+    Expression<int>? updatedAt,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (uid != null) 'uid': uid,
+      if (title != null) 'title': title,
+      if (preacher != null) 'preacher': preacher,
+      if (place != null) 'place': place,
+      if (day != null) 'day': day,
+      if (body != null) 'body': body,
+      if (createdAt != null) 'created_at': createdAt,
+      if (updatedAt != null) 'updated_at': updatedAt,
+    });
+  }
+
+  SermonNotesCompanion copyWith({
+    Value<int>? id,
+    Value<String>? uid,
+    Value<String>? title,
+    Value<String>? preacher,
+    Value<String>? place,
+    Value<int>? day,
+    Value<String>? body,
+    Value<int>? createdAt,
+    Value<int>? updatedAt,
+  }) {
+    return SermonNotesCompanion(
+      id: id ?? this.id,
+      uid: uid ?? this.uid,
+      title: title ?? this.title,
+      preacher: preacher ?? this.preacher,
+      place: place ?? this.place,
+      day: day ?? this.day,
+      body: body ?? this.body,
+      createdAt: createdAt ?? this.createdAt,
+      updatedAt: updatedAt ?? this.updatedAt,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (uid.present) {
+      map['uid'] = Variable<String>(uid.value);
+    }
+    if (title.present) {
+      map['title'] = Variable<String>(title.value);
+    }
+    if (preacher.present) {
+      map['preacher'] = Variable<String>(preacher.value);
+    }
+    if (place.present) {
+      map['place'] = Variable<String>(place.value);
+    }
+    if (day.present) {
+      map['day'] = Variable<int>(day.value);
+    }
+    if (body.present) {
+      map['body'] = Variable<String>(body.value);
+    }
+    if (createdAt.present) {
+      map['created_at'] = Variable<int>(createdAt.value);
+    }
+    if (updatedAt.present) {
+      map['updated_at'] = Variable<int>(updatedAt.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SermonNotesCompanion(')
+          ..write('id: $id, ')
+          ..write('uid: $uid, ')
+          ..write('title: $title, ')
+          ..write('preacher: $preacher, ')
+          ..write('place: $place, ')
+          ..write('day: $day, ')
+          ..write('body: $body, ')
+          ..write('createdAt: $createdAt, ')
+          ..write('updatedAt: $updatedAt')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $SermonNoteRefsTable extends SermonNoteRefs
+    with TableInfo<$SermonNoteRefsTable, SermonNoteRefRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $SermonNoteRefsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _noteIdMeta = const VerificationMeta('noteId');
+  @override
+  late final GeneratedColumn<int> noteId = GeneratedColumn<int>(
+    'note_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'REFERENCES sermon_notes (id) ON DELETE CASCADE',
+    ),
+  );
+  static const VerificationMeta _positionMeta = const VerificationMeta(
+    'position',
+  );
+  @override
+  late final GeneratedColumn<int> position = GeneratedColumn<int>(
+    'position',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _refMeta = const VerificationMeta('ref');
+  @override
+  late final GeneratedColumn<String> ref = GeneratedColumn<String>(
+    'ref',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [noteId, position, ref];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'sermon_note_refs';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<SermonNoteRefRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('note_id')) {
+      context.handle(
+        _noteIdMeta,
+        noteId.isAcceptableOrUnknown(data['note_id']!, _noteIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_noteIdMeta);
+    }
+    if (data.containsKey('position')) {
+      context.handle(
+        _positionMeta,
+        position.isAcceptableOrUnknown(data['position']!, _positionMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_positionMeta);
+    }
+    if (data.containsKey('ref')) {
+      context.handle(
+        _refMeta,
+        ref.isAcceptableOrUnknown(data['ref']!, _refMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_refMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {noteId, position};
+  @override
+  SermonNoteRefRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return SermonNoteRefRow(
+      noteId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}note_id'],
+      )!,
+      position: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}position'],
+      )!,
+      ref: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}ref'],
+      )!,
+    );
+  }
+
+  @override
+  $SermonNoteRefsTable createAlias(String alias) {
+    return $SermonNoteRefsTable(attachedDatabase, alias);
+  }
+}
+
+class SermonNoteRefRow extends DataClass
+    implements Insertable<SermonNoteRefRow> {
+  final int noteId;
+  final int position;
+  final String ref;
+  const SermonNoteRefRow({
+    required this.noteId,
+    required this.position,
+    required this.ref,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['note_id'] = Variable<int>(noteId);
+    map['position'] = Variable<int>(position);
+    map['ref'] = Variable<String>(ref);
+    return map;
+  }
+
+  SermonNoteRefsCompanion toCompanion(bool nullToAbsent) {
+    return SermonNoteRefsCompanion(
+      noteId: Value(noteId),
+      position: Value(position),
+      ref: Value(ref),
+    );
+  }
+
+  factory SermonNoteRefRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return SermonNoteRefRow(
+      noteId: serializer.fromJson<int>(json['noteId']),
+      position: serializer.fromJson<int>(json['position']),
+      ref: serializer.fromJson<String>(json['ref']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'noteId': serializer.toJson<int>(noteId),
+      'position': serializer.toJson<int>(position),
+      'ref': serializer.toJson<String>(ref),
+    };
+  }
+
+  SermonNoteRefRow copyWith({int? noteId, int? position, String? ref}) =>
+      SermonNoteRefRow(
+        noteId: noteId ?? this.noteId,
+        position: position ?? this.position,
+        ref: ref ?? this.ref,
+      );
+  SermonNoteRefRow copyWithCompanion(SermonNoteRefsCompanion data) {
+    return SermonNoteRefRow(
+      noteId: data.noteId.present ? data.noteId.value : this.noteId,
+      position: data.position.present ? data.position.value : this.position,
+      ref: data.ref.present ? data.ref.value : this.ref,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SermonNoteRefRow(')
+          ..write('noteId: $noteId, ')
+          ..write('position: $position, ')
+          ..write('ref: $ref')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(noteId, position, ref);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is SermonNoteRefRow &&
+          other.noteId == this.noteId &&
+          other.position == this.position &&
+          other.ref == this.ref);
+}
+
+class SermonNoteRefsCompanion extends UpdateCompanion<SermonNoteRefRow> {
+  final Value<int> noteId;
+  final Value<int> position;
+  final Value<String> ref;
+  final Value<int> rowid;
+  const SermonNoteRefsCompanion({
+    this.noteId = const Value.absent(),
+    this.position = const Value.absent(),
+    this.ref = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  SermonNoteRefsCompanion.insert({
+    required int noteId,
+    required int position,
+    required String ref,
+    this.rowid = const Value.absent(),
+  }) : noteId = Value(noteId),
+       position = Value(position),
+       ref = Value(ref);
+  static Insertable<SermonNoteRefRow> custom({
+    Expression<int>? noteId,
+    Expression<int>? position,
+    Expression<String>? ref,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (noteId != null) 'note_id': noteId,
+      if (position != null) 'position': position,
+      if (ref != null) 'ref': ref,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  SermonNoteRefsCompanion copyWith({
+    Value<int>? noteId,
+    Value<int>? position,
+    Value<String>? ref,
+    Value<int>? rowid,
+  }) {
+    return SermonNoteRefsCompanion(
+      noteId: noteId ?? this.noteId,
+      position: position ?? this.position,
+      ref: ref ?? this.ref,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (noteId.present) {
+      map['note_id'] = Variable<int>(noteId.value);
+    }
+    if (position.present) {
+      map['position'] = Variable<int>(position.value);
+    }
+    if (ref.present) {
+      map['ref'] = Variable<String>(ref.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SermonNoteRefsCompanion(')
+          ..write('noteId: $noteId, ')
+          ..write('position: $position, ')
+          ..write('ref: $ref, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(e);
   $AppDatabaseManager get managers => $AppDatabaseManager(this);
@@ -1923,6 +2722,8 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     this,
   );
   late final $ReadChaptersTable readChapters = $ReadChaptersTable(this);
+  late final $SermonNotesTable sermonNotes = $SermonNotesTable(this);
+  late final $SermonNoteRefsTable sermonNoteRefs = $SermonNoteRefsTable(this);
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -1934,7 +2735,19 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     favorites,
     settingsEntries,
     readChapters,
+    sermonNotes,
+    sermonNoteRefs,
   ];
+  @override
+  StreamQueryUpdateRules get streamUpdateRules => const StreamQueryUpdateRules([
+    WritePropagation(
+      on: TableUpdateQuery.onTableName(
+        'sermon_notes',
+        limitUpdateKind: UpdateKind.delete,
+      ),
+      result: [TableUpdate('sermon_note_refs', kind: UpdateKind.delete)],
+    ),
+  ]);
 }
 
 typedef $$LessonProgressTableCreateCompanionBuilder =
@@ -3089,6 +3902,664 @@ typedef $$ReadChaptersTableProcessedTableManager =
       ReadChapter,
       PrefetchHooks Function()
     >;
+typedef $$SermonNotesTableCreateCompanionBuilder =
+    SermonNotesCompanion Function({
+      Value<int> id,
+      required String uid,
+      Value<String> title,
+      Value<String> preacher,
+      Value<String> place,
+      required int day,
+      Value<String> body,
+      required int createdAt,
+      required int updatedAt,
+    });
+typedef $$SermonNotesTableUpdateCompanionBuilder =
+    SermonNotesCompanion Function({
+      Value<int> id,
+      Value<String> uid,
+      Value<String> title,
+      Value<String> preacher,
+      Value<String> place,
+      Value<int> day,
+      Value<String> body,
+      Value<int> createdAt,
+      Value<int> updatedAt,
+    });
+
+final class $$SermonNotesTableReferences
+    extends BaseReferences<_$AppDatabase, $SermonNotesTable, SermonNoteRow> {
+  $$SermonNotesTableReferences(super.$_db, super.$_table, super.$_typedResult);
+
+  static MultiTypedResultKey<$SermonNoteRefsTable, List<SermonNoteRefRow>>
+  _sermonNoteRefsRefsTable(_$AppDatabase db) => MultiTypedResultKey.fromTable(
+    db.sermonNoteRefs,
+    aliasName: 'sermon_notes__id__sermon_note_refs__note_id',
+  );
+
+  $$SermonNoteRefsTableProcessedTableManager get sermonNoteRefsRefs {
+    final manager = $$SermonNoteRefsTableTableManager(
+      $_db,
+      $_db.sermonNoteRefs,
+    ).filter((f) => f.noteId.id.sqlEquals($_itemColumn<int>('id')!));
+
+    final cache = $_typedResult.readTableOrNull(_sermonNoteRefsRefsTable($_db));
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: cache),
+    );
+  }
+}
+
+class $$SermonNotesTableFilterComposer
+    extends Composer<_$AppDatabase, $SermonNotesTable> {
+  $$SermonNotesTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get uid => $composableBuilder(
+    column: $table.uid,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get preacher => $composableBuilder(
+    column: $table.preacher,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get place => $composableBuilder(
+    column: $table.place,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get day => $composableBuilder(
+    column: $table.day,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get body => $composableBuilder(
+    column: $table.body,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get createdAt => $composableBuilder(
+    column: $table.createdAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  Expression<bool> sermonNoteRefsRefs(
+    Expression<bool> Function($$SermonNoteRefsTableFilterComposer f) f,
+  ) {
+    final $$SermonNoteRefsTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.id,
+      referencedTable: $db.sermonNoteRefs,
+      getReferencedColumn: (t) => t.noteId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$SermonNoteRefsTableFilterComposer(
+            $db: $db,
+            $table: $db.sermonNoteRefs,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return f(composer);
+  }
+}
+
+class $$SermonNotesTableOrderingComposer
+    extends Composer<_$AppDatabase, $SermonNotesTable> {
+  $$SermonNotesTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get uid => $composableBuilder(
+    column: $table.uid,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get preacher => $composableBuilder(
+    column: $table.preacher,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get place => $composableBuilder(
+    column: $table.place,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get day => $composableBuilder(
+    column: $table.day,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get body => $composableBuilder(
+    column: $table.body,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get createdAt => $composableBuilder(
+    column: $table.createdAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$SermonNotesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $SermonNotesTable> {
+  $$SermonNotesTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get uid =>
+      $composableBuilder(column: $table.uid, builder: (column) => column);
+
+  GeneratedColumn<String> get title =>
+      $composableBuilder(column: $table.title, builder: (column) => column);
+
+  GeneratedColumn<String> get preacher =>
+      $composableBuilder(column: $table.preacher, builder: (column) => column);
+
+  GeneratedColumn<String> get place =>
+      $composableBuilder(column: $table.place, builder: (column) => column);
+
+  GeneratedColumn<int> get day =>
+      $composableBuilder(column: $table.day, builder: (column) => column);
+
+  GeneratedColumn<String> get body =>
+      $composableBuilder(column: $table.body, builder: (column) => column);
+
+  GeneratedColumn<int> get createdAt =>
+      $composableBuilder(column: $table.createdAt, builder: (column) => column);
+
+  GeneratedColumn<int> get updatedAt =>
+      $composableBuilder(column: $table.updatedAt, builder: (column) => column);
+
+  Expression<T> sermonNoteRefsRefs<T extends Object>(
+    Expression<T> Function($$SermonNoteRefsTableAnnotationComposer a) f,
+  ) {
+    final $$SermonNoteRefsTableAnnotationComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.id,
+      referencedTable: $db.sermonNoteRefs,
+      getReferencedColumn: (t) => t.noteId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$SermonNoteRefsTableAnnotationComposer(
+            $db: $db,
+            $table: $db.sermonNoteRefs,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return f(composer);
+  }
+}
+
+class $$SermonNotesTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $SermonNotesTable,
+          SermonNoteRow,
+          $$SermonNotesTableFilterComposer,
+          $$SermonNotesTableOrderingComposer,
+          $$SermonNotesTableAnnotationComposer,
+          $$SermonNotesTableCreateCompanionBuilder,
+          $$SermonNotesTableUpdateCompanionBuilder,
+          (SermonNoteRow, $$SermonNotesTableReferences),
+          SermonNoteRow,
+          PrefetchHooks Function({bool sermonNoteRefsRefs})
+        > {
+  $$SermonNotesTableTableManager(_$AppDatabase db, $SermonNotesTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$SermonNotesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$SermonNotesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$SermonNotesTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<String> uid = const Value.absent(),
+                Value<String> title = const Value.absent(),
+                Value<String> preacher = const Value.absent(),
+                Value<String> place = const Value.absent(),
+                Value<int> day = const Value.absent(),
+                Value<String> body = const Value.absent(),
+                Value<int> createdAt = const Value.absent(),
+                Value<int> updatedAt = const Value.absent(),
+              }) => SermonNotesCompanion(
+                id: id,
+                uid: uid,
+                title: title,
+                preacher: preacher,
+                place: place,
+                day: day,
+                body: body,
+                createdAt: createdAt,
+                updatedAt: updatedAt,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                required String uid,
+                Value<String> title = const Value.absent(),
+                Value<String> preacher = const Value.absent(),
+                Value<String> place = const Value.absent(),
+                required int day,
+                Value<String> body = const Value.absent(),
+                required int createdAt,
+                required int updatedAt,
+              }) => SermonNotesCompanion.insert(
+                id: id,
+                uid: uid,
+                title: title,
+                preacher: preacher,
+                place: place,
+                day: day,
+                body: body,
+                createdAt: createdAt,
+                updatedAt: updatedAt,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$SermonNotesTable, SermonNoteRow>(table),
+                  $$SermonNotesTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: ({sermonNoteRefsRefs = false}) {
+            return PrefetchHooks(
+              db: db,
+              explicitlyWatchedTables: [
+                if (sermonNoteRefsRefs) db.sermonNoteRefs,
+              ],
+              addJoins: null,
+              getPrefetchedDataCallback: (items) async {
+                return [
+                  if (sermonNoteRefsRefs)
+                    await $_getPrefetchedDataByColumns<
+                      SermonNoteRow,
+                      $SermonNotesTable,
+                      SermonNoteRefRow,
+                      $SermonNoteRefsTable
+                    >(
+                      currentTable: table,
+                      referencedTable: $$SermonNotesTableReferences
+                          ._sermonNoteRefsRefsTable(db),
+                      managerFromTypedResult: (p0) =>
+                          $$SermonNotesTableReferences(
+                            db,
+                            table,
+                            p0,
+                          ).sermonNoteRefsRefs,
+                      currentColumn: 'id',
+                      referencedColumn: 'note_id',
+                      typedResults: items,
+                    ),
+                ];
+              },
+            );
+          },
+        ),
+      );
+}
+
+typedef $$SermonNotesTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $SermonNotesTable,
+      SermonNoteRow,
+      $$SermonNotesTableFilterComposer,
+      $$SermonNotesTableOrderingComposer,
+      $$SermonNotesTableAnnotationComposer,
+      $$SermonNotesTableCreateCompanionBuilder,
+      $$SermonNotesTableUpdateCompanionBuilder,
+      (SermonNoteRow, $$SermonNotesTableReferences),
+      SermonNoteRow,
+      PrefetchHooks Function({bool sermonNoteRefsRefs})
+    >;
+typedef $$SermonNoteRefsTableCreateCompanionBuilder =
+    SermonNoteRefsCompanion Function({
+      required int noteId,
+      required int position,
+      required String ref,
+      Value<int> rowid,
+    });
+typedef $$SermonNoteRefsTableUpdateCompanionBuilder =
+    SermonNoteRefsCompanion Function({
+      Value<int> noteId,
+      Value<int> position,
+      Value<String> ref,
+      Value<int> rowid,
+    });
+
+final class $$SermonNoteRefsTableReferences
+    extends
+        BaseReferences<_$AppDatabase, $SermonNoteRefsTable, SermonNoteRefRow> {
+  $$SermonNoteRefsTableReferences(
+    super.$_db,
+    super.$_table,
+    super.$_typedResult,
+  );
+
+  static $SermonNotesTable _noteIdTable(_$AppDatabase db) =>
+      db.sermonNotes.createAlias('sermon_note_refs__note_id__sermon_notes__id');
+
+  $$SermonNotesTableProcessedTableManager get noteId {
+    final $_column = $_itemColumn<int>('note_id')!;
+
+    final manager = $$SermonNotesTableTableManager(
+      $_db,
+      $_db.sermonNotes,
+    ).filter((f) => f.id.sqlEquals($_column));
+    final item = $_typedResult.readTableOrNull(_noteIdTable($_db));
+    if (item == null) return manager;
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: [item]),
+    );
+  }
+}
+
+class $$SermonNoteRefsTableFilterComposer
+    extends Composer<_$AppDatabase, $SermonNoteRefsTable> {
+  $$SermonNoteRefsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get position => $composableBuilder(
+    column: $table.position,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get ref => $composableBuilder(
+    column: $table.ref,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  $$SermonNotesTableFilterComposer get noteId {
+    final $$SermonNotesTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.noteId,
+      referencedTable: $db.sermonNotes,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$SermonNotesTableFilterComposer(
+            $db: $db,
+            $table: $db.sermonNotes,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$SermonNoteRefsTableOrderingComposer
+    extends Composer<_$AppDatabase, $SermonNoteRefsTable> {
+  $$SermonNoteRefsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get position => $composableBuilder(
+    column: $table.position,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get ref => $composableBuilder(
+    column: $table.ref,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  $$SermonNotesTableOrderingComposer get noteId {
+    final $$SermonNotesTableOrderingComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.noteId,
+      referencedTable: $db.sermonNotes,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$SermonNotesTableOrderingComposer(
+            $db: $db,
+            $table: $db.sermonNotes,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$SermonNoteRefsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $SermonNoteRefsTable> {
+  $$SermonNoteRefsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get position =>
+      $composableBuilder(column: $table.position, builder: (column) => column);
+
+  GeneratedColumn<String> get ref =>
+      $composableBuilder(column: $table.ref, builder: (column) => column);
+
+  $$SermonNotesTableAnnotationComposer get noteId {
+    final $$SermonNotesTableAnnotationComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.noteId,
+      referencedTable: $db.sermonNotes,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$SermonNotesTableAnnotationComposer(
+            $db: $db,
+            $table: $db.sermonNotes,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$SermonNoteRefsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $SermonNoteRefsTable,
+          SermonNoteRefRow,
+          $$SermonNoteRefsTableFilterComposer,
+          $$SermonNoteRefsTableOrderingComposer,
+          $$SermonNoteRefsTableAnnotationComposer,
+          $$SermonNoteRefsTableCreateCompanionBuilder,
+          $$SermonNoteRefsTableUpdateCompanionBuilder,
+          (SermonNoteRefRow, $$SermonNoteRefsTableReferences),
+          SermonNoteRefRow,
+          PrefetchHooks Function({bool noteId})
+        > {
+  $$SermonNoteRefsTableTableManager(
+    _$AppDatabase db,
+    $SermonNoteRefsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$SermonNoteRefsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$SermonNoteRefsTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$SermonNoteRefsTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> noteId = const Value.absent(),
+                Value<int> position = const Value.absent(),
+                Value<String> ref = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => SermonNoteRefsCompanion(
+                noteId: noteId,
+                position: position,
+                ref: ref,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required int noteId,
+                required int position,
+                required String ref,
+                Value<int> rowid = const Value.absent(),
+              }) => SermonNoteRefsCompanion.insert(
+                noteId: noteId,
+                position: position,
+                ref: ref,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$SermonNoteRefsTable, SermonNoteRefRow>(table),
+                  $$SermonNoteRefsTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: ({noteId = false}) {
+            return PrefetchHooks(
+              db: db,
+              explicitlyWatchedTables: [],
+              addJoins:
+                  <
+                    T extends TableManagerState<
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic
+                    >
+                  >(state) {
+                    if (noteId) {
+                      state = state.withJoin(
+                        currentTable: table,
+                        currentColumn: table.noteId,
+                        referencedTable: $$SermonNoteRefsTableReferences
+                            ._noteIdTable(db),
+                        referencedColumn: $$SermonNoteRefsTableReferences
+                            ._noteIdTable(db)
+                            .id,
+                      ) as T;
+                    }
+
+                    return state;
+                  },
+              getPrefetchedDataCallback: (items) async {
+                return [];
+              },
+            );
+          },
+        ),
+      );
+}
+
+typedef $$SermonNoteRefsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $SermonNoteRefsTable,
+      SermonNoteRefRow,
+      $$SermonNoteRefsTableFilterComposer,
+      $$SermonNoteRefsTableOrderingComposer,
+      $$SermonNoteRefsTableAnnotationComposer,
+      $$SermonNoteRefsTableCreateCompanionBuilder,
+      $$SermonNoteRefsTableUpdateCompanionBuilder,
+      (SermonNoteRefRow, $$SermonNoteRefsTableReferences),
+      SermonNoteRefRow,
+      PrefetchHooks Function({bool noteId})
+    >;
 
 class $AppDatabaseManager {
   final _$AppDatabase _db;
@@ -3105,4 +4576,8 @@ class $AppDatabaseManager {
       $$SettingsEntriesTableTableManager(_db, _db.settingsEntries);
   $$ReadChaptersTableTableManager get readChapters =>
       $$ReadChaptersTableTableManager(_db, _db.readChapters);
+  $$SermonNotesTableTableManager get sermonNotes =>
+      $$SermonNotesTableTableManager(_db, _db.sermonNotes);
+  $$SermonNoteRefsTableTableManager get sermonNoteRefs =>
+      $$SermonNoteRefsTableTableManager(_db, _db.sermonNoteRefs);
 }

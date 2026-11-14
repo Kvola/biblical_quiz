@@ -25,6 +25,7 @@ Ce guide commence par une visite rapide, puis présente **10 exemples complets**
    8. [Garder un verset et le partager](#exemple-8--garder-un-verset-et-le-partager)
    9. [Suivre vos progrès](#exemple-9--suivre-vos-progrès)
    10. [Adapter l'application à vos besoins](#exemple-10--adapter-lapplication-à-vos-besoins)
+   11. [Prendre des notes pendant une prédication](#exemple-11--prendre-des-notes-pendant-une-prédication)
 - [Utiliser l'application dans le navigateur](#utiliser-lapplication-dans-le-navigateur)
 - [Questions fréquentes](#questions-fréquentes)
 
@@ -32,13 +33,14 @@ Ce guide commence par une visite rapide, puis présente **10 exemples complets**
 
 ## Visite rapide
 
-Quiz Biblique est organisée en **4 onglets**, en bas de l'écran :
+Quiz Biblique est organisée en **5 onglets**, en bas de l'écran :
 
 | Onglet | À quoi il sert |
 |---|---|
 | **Accueil** | La leçon à suivre, votre série de jours, les questions **À revoir**, le **Verset du jour**, le **Quiz sur mes lectures** et le défi **Dans quel livre ?**. En haut à droite, la loupe ouvre **Rechercher** et la roue dentée ouvre les **Réglages**. |
 | **Parcours** | Les leçons, rangées en parcours et en deux sections (**Découvrir la Bible** et **Le chemin de la foi**), et **Les 66 livres** : une fiche par livre de la Bible. |
 | **Bible** | La lecture libre de la Bible, chapitre par chapitre. L'application reprend là où vous vous étiez arrêté. |
+| **Notes** | Vos **notes de prédication**, avec les passages cités. |
 | **Progrès** | **Vos progrès** : série, leçons terminées, bonnes réponses, **Ma lecture de la Bible** et vos **Versets mis de côté**. |
 
 Les parcours proposés, dans la section **Découvrir la Bible** :
@@ -337,6 +339,50 @@ Tout en bas des **Réglages**, le bouton **Effacer ma progression** efface les l
 
 ---
 
+## Exemple 11 : prendre des notes pendant une prédication
+
+> **Situation** : dimanche, à l'église, le pasteur prêche sur « Un cœur nouveau ». Il fait lire Ézéchiel 36:26 et le Psaume 51:12. Aya veut garder ce qu'elle retient, avec les passages.
+
+**Créer la note**
+
+1. Ouvrez l'onglet **Notes**, puis touchez **Nouvelle note**.
+2. En haut, écrivez le titre : *Un cœur nouveau*. Le jour de la prédication est celui d'aujourd'hui ; touchez-le pour le changer.
+3. Si vous le souhaitez, écrivez le **Prédicateur** et le **Lieu, Église**.
+4. Dans **Notes**, écrivez ce que vous retenez, à votre rythme.
+
+Tout est **enregistré automatiquement** : il n'y a pas de bouton à toucher, et rien n'est perdu si vous quittez l'écran. Tant que la note est ouverte, **l'écran reste allumé** : le téléphone ne se verrouille pas pendant la prédication.
+
+> **Bon à savoir** : pour aller plus vite, dictez vos notes. Touchez le champ **Notes**, puis le **micro** du clavier, et parlez : le texte s'écrit tout seul. Relisez-le ensuite, la dictée se trompe parfois sur les noms propres.
+
+**Associer les passages**
+
+- Touchez **Ajouter un passage**, puis écrivez la référence : *Ez 36:26*, *Jean 3:16-18*, *Ps 23* (tout le psaume), *1 Co 13:4-7*… Le début du texte s'affiche pour vérifier ; touchez **Ajouter**.
+- Plus simple encore : tapez les références directement dans vos notes (*« Lire Ézéchiel 36:26 »*). L'application les repère et les propose sous le texte : **touchez-en une pour l'ajouter**.
+- Touchez un passage ajouté pour le lire ; la petite croix le retire (**Annuler** le remet).
+- L'icône en forme de livre, en haut, ouvre **Lire les passages** : tous les passages de la note, à la suite.
+
+> **Bon à savoir** : beaucoup de Bibles Segond imprimées numérotent les Psaumes autrement (le titre y compte comme verset 1). Si vous écrivez *Psaume 51:12*, l'application demande d'où vient ce numéro : choisissez **Ma Bible imprimée (Segond)** si vous l'avez lu dans votre Bible, et elle ajoute le bon verset (*Psaumes 51:10* dans l'application, « Ô Dieu ! crée en moi un cœur pur »).
+
+**Depuis la Bible**
+
+En lisant, touchez un verset, puis **Ajouter à une note** : choisissez une note récente ou **Nouvelle note**. Sous le verset, **Dans vos notes** rappelle les notes qui le citent déjà.
+
+**Retrouver, partager, sauvegarder**
+
+- L'onglet **Notes** liste vos notes, la plus récente prédication d'abord. Le champ **Rechercher dans mes notes** trouve un mot du titre, du prédicateur, du lieu, des notes ou des passages.
+- Dans une note, l'icône de partage propose :
+  - **WhatsApp** : la note s'ouvre dans WhatsApp, mise en forme (titre et passages en gras), prête à envoyer à un contact ou à un groupe ;
+  - **Autre application (e-mail, SMS…)** : la note en texte simple ;
+  - **Copier le texte** : pour la coller où vous voulez.
+
+  Les passages courts (5 versets au plus) sont cités en entier ; les plus longs, par leur référence.
+- **Tester ces passages**, sous les passages de la note : un quiz sur les chapitres des passages lus pendant la prédication, pour vérifier ce que vous avez retenu.
+- Le menu **⋮** de l'onglet **Notes** propose **Sauvegarder mes notes** (un fichier à garder dans Drive, à vous envoyer par e-mail…) et **Restaurer une sauvegarde**. Restaurer n'efface rien : une note déjà présente n'est remplacée que si la sauvegarde en a une version plus récente.
+
+> **Bon à savoir** : vos notes restent sur votre téléphone. Sauvegardez-les de temps en temps : c'est ce qui permet de les retrouver sur un nouveau téléphone. **Effacer ma progression** ne touche pas à vos notes.
+
+---
+
 ## Utiliser l'application dans le navigateur
 
 Quiz Biblique existe aussi en **version web** : elle s'ouvre dans le navigateur, sans rien installer. C'est la solution pour un **iPhone**, un **iPad** ou un **ordinateur**, où l'application Android ne s'installe pas.
@@ -402,6 +448,12 @@ L'application numérote les versets comme la King James, pour que le français e
 
 **À quoi sert le Bilan du parcours ?**
 À vérifier ce que vous avez retenu de tout un parcours : 10 questions tirées de ses différentes leçons, chacune avec son passage indiqué. Les questions ratées reviennent ensuite dans **À revoir**, comme celles des leçons.
+
+**Mes notes de prédication sont-elles envoyées quelque part ?**
+Non. Elles restent sur votre téléphone. Elles n'en sortent que si vous les partagez ou si vous les sauvegardez vous-même (menu **⋮** de l'onglet **Notes**).
+
+**Comment retrouver mes notes sur un nouveau téléphone ?**
+Sur l'ancien téléphone : onglet **Notes**, menu **⋮**, **Sauvegarder mes notes**, puis envoyez le fichier vers Drive ou par e-mail. Sur le nouveau : installez l'application, puis **Notes**, menu **⋮**, **Restaurer une sauvegarde**, et choisissez ce fichier.
 
 **Puis-je lire en français et en anglais en même temps ?**
 Oui. Activez **Réglages → Lecture bilingue**, ou touchez l'icône de traduction en haut d'une leçon ou de l'onglet **Bible**.

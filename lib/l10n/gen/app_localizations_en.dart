@@ -311,6 +311,199 @@ class AppLocalizationsEn extends AppLocalizations {
   String get homeScreenDismiss => 'Got it';
 
   @override
+  String get navNotes => 'Notes';
+
+  @override
+  String get notesTitle => 'Sermon notes';
+
+  @override
+  String get notesEmptyTitle => 'No notes yet';
+
+  @override
+  String get notesEmptyBody =>
+      'During a sermon, write down what you take away and link the passages that were read. Your notes stay on your phone.';
+
+  @override
+  String get notesNew => 'New note';
+
+  @override
+  String get notesSearch => 'Search my notes';
+
+  @override
+  String get notesNoMatch => 'No note matches.';
+
+  @override
+  String get noteUntitled => 'Untitled';
+
+  @override
+  String get noteTitleHint => 'Sermon title or theme';
+
+  @override
+  String get notePreacherHint => 'Preacher';
+
+  @override
+  String get notePlaceHint => 'Place, church';
+
+  @override
+  String get noteDateTooltip => 'Day of the sermon';
+
+  @override
+  String get notePassages => 'Passages';
+
+  @override
+  String get noteAddPassage => 'Add a passage';
+
+  @override
+  String get noteBody => 'Notes';
+
+  @override
+  String get noteBodyHint =>
+      'What you take away… References you type (John 3:16, Ps 23) are detected.';
+
+  @override
+  String get noteFoundRefs => 'Found in your notes: tap to add';
+
+  @override
+  String get noteReadPassages => 'Read the passages';
+
+  @override
+  String get noteDelete => 'Delete note';
+
+  @override
+  String get noteDeleted => 'Note deleted';
+
+  @override
+  String get noteAutosave => 'Saved automatically';
+
+  @override
+  String get notePassageRemoved => 'Passage removed';
+
+  @override
+  String get notePassageAdded => 'Passage added';
+
+  @override
+  String get noteShareFooter => 'Notes taken with Bible Quiz';
+
+  @override
+  String get shareWhatsApp => 'WhatsApp';
+
+  @override
+  String get shareOther => 'Another app (email, SMS…)';
+
+  @override
+  String get copyText => 'Copy the text';
+
+  @override
+  String get whatsappFailed =>
+      'WhatsApp could not be opened: choose another app.';
+
+  @override
+  String get noteQuiz => 'Test these passages';
+
+  @override
+  String get noteQuizTooFew => 'These passages are too short for a quiz.';
+
+  @override
+  String get noteAwake => 'The screen stays on while the note is open';
+
+  @override
+  String get addPassageHint => 'E.g. John 3:16-18, Ps 23, 1 Cor 13';
+
+  @override
+  String get addPassageInvalid =>
+      'Reference not recognised. Write the book, chapter, then verses: John 3:16-18.';
+
+  @override
+  String get addPassageAdd => 'Add';
+
+  @override
+  String get addPassageNumbering =>
+      'This passage is numbered differently in some Bibles. Where do these numbers come from?';
+
+  @override
+  String get addPassagePrinted => 'My printed Bible (Segond)';
+
+  @override
+  String get addPassageApp => 'The app';
+
+  @override
+  String get addToNote => 'Add to a note';
+
+  @override
+  String addToNoteTitle(String ref) {
+    return 'Add $ref to…';
+  }
+
+  @override
+  String addedToNote(String title) {
+    return 'Added to “$title”';
+  }
+
+  @override
+  String alreadyInNote(String title) {
+    return 'Already in “$title”';
+  }
+
+  @override
+  String get open => 'Open';
+
+  @override
+  String get inYourNotes => 'In your notes';
+
+  @override
+  String get notesBackup => 'Back up my notes';
+
+  @override
+  String get notesRestore => 'Restore a backup';
+
+  @override
+  String get notesBackupHint =>
+      'Your notes stay on this phone. Back them up from time to time (Drive, email…) to find them on another device.';
+
+  @override
+  String get notesBackupEmpty => 'No notes to back up.';
+
+  @override
+  String notesRestoreAdded(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count new notes',
+      one: '1 new note',
+      zero: 'no new notes',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String notesRestoreUpdated(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count updates',
+      one: '1 update',
+      zero: 'no updates',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String notesRestoreDone(String result) {
+    return 'Restore complete: $result.';
+  }
+
+  @override
+  String get notesRestoreInvalid =>
+      'This file is not a Bible Quiz notes backup.';
+
+  @override
+  String get notesRestoreNewer =>
+      'This backup comes from a newer version: update the app.';
+
+  @override
+  String get notesRestoreError => 'The file could not be read.';
+
+  @override
   String get pathReviewTitle => 'Path review';
 
   @override

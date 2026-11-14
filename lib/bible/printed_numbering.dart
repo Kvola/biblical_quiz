@@ -21,8 +21,8 @@ class PrintedNumbering {
 
   static const asset = 'assets/bible/lsg_printed.json';
 
-  static const empty = PrintedNumbering._empty();
-  const PrintedNumbering._empty() : _chapters = const {};
+  /// Aucune différence (tests, table pas encore chargée).
+  static final empty = PrintedNumbering(const {});
 
   final Map<String, List<List<int>>> _chapters;
 
@@ -52,6 +52,45 @@ class PrintedNumbering {
       return ((r[2], r[3]), (r[4], r[5]));
     }
     return null;
+  }
+
+  /// Index inverse (livre, chapitre imprimé, verset imprimé) -> (chapitre, verset)
+  /// de l'application, construit à la première demande.
+  late final Map<(int, int, int), (int, int)> _inverse = () {
+    final out = <(int, int, int), (int, int)>{};
+    for (final e in _chapters.entries) {
+      final [book, chapter] = e.key.split(':').map(int.parse).toList();
+      for (final r in e.value) {
+        if (r[1] > r[0]) {
+          for (var v = r[0]; v <= r[1]; v++) {
+            out[(book, r[2], r[3] + v - r[0])] = (chapter, v);
+          }
+        } else if (r[2] == r[4]) {
+          // Un verset de l'application qui couvre plusieurs versets imprimés (Ps 51:1 = 51:1-3).
+          for (var pv = r[3]; pv <= r[5]; pv++) {
+            out.putIfAbsent((book, r[2], pv), () => (chapter, r[0]));
+          }
+        } else {
+          out.putIfAbsent((book, r[2], r[3]), () => (chapter, r[0]));
+          out.putIfAbsent((book, r[4], r[5]), () => (chapter, r[0]));
+        }
+      }
+    }
+    return out;
+  }();
+
+  /// Une référence lue dans une Segond imprimée (« Psaume 51:12 »), traduite en
+  /// numéros de l'application (Ps 51:10). Null si les numéros sont les mêmes ou
+  /// si ce verset imprimé n'est pas connu (on garde alors la référence telle quelle).
+  VerseRef? fromPrinted(VerseRef printed) {
+    final s = _inverse[(printed.book, printed.startChapter, printed.startVerse)];
+    final e = _inverse[(printed.book, printed.endChapter, printed.endVerse)];
+    if (s == null && e == null) return null;
+    final start = s ?? (printed.startChapter, printed.startVerse);
+    final end = e ?? (printed.endChapter, printed.endVerse);
+    if (end.$1 * 1000 + end.$2 < start.$1 * 1000 + start.$2) return null;
+    final app = VerseRef(printed.book, start.$1, start.$2, end.$1, end.$2);
+    return app == printed ? null : app;
   }
 
   /// La même référence avec les numéros d'une Segond imprimée, ou null s'ils

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'bible/reader_screen.dart';
 import 'common.dart';
 import 'home/home_screen.dart';
+import 'notes/notes_screen.dart';
 import 'paths/paths_screen.dart';
 import 'progress/progress_screen.dart';
 
@@ -27,6 +28,7 @@ class _ShellState extends State<Shell> {
           const HomeScreen(),
           const PathsScreen(),
           ReaderScreen(active: _index == 2),
+          const NotesScreen(),
           const ProgressScreen(),
         ],
       ),
@@ -48,6 +50,11 @@ class _ShellState extends State<Shell> {
             icon: const Icon(Icons.menu_book_outlined),
             selectedIcon: const Icon(Icons.menu_book),
             label: l.navBible,
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.edit_note_outlined),
+            selectedIcon: const Icon(Icons.edit_note),
+            label: l.navNotes,
           ),
           NavigationDestination(
             icon: const Icon(Icons.insights_outlined),

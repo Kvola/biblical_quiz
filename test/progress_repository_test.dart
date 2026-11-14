@@ -181,7 +181,7 @@ void main() {
       expect(await db.select(db.questionStats).get().then((r) => r.map((e) => e.questionId).toList()), ['story-creation-q1']);
     });
 
-    test('migration 1 → 2 : la table apparaît, la progression est conservée', () async {
+    test('migration 1 → actuelle : la table apparaît, la progression est conservée', () async {
       final dir = await Directory.systemTemp.createTemp('bq');
       final file = File('${dir.path}/v1.sqlite');
       // Base « 1.2.0 » : mêmes tables sans read_chapters, version de schéma 1.
@@ -189,6 +189,8 @@ void main() {
       await old.into(old.lessonProgress).insert(LessonProgressCompanion.insert(
         lessonId: 'story-creation', bestScore: 4, lastScore: 4, total: 5, attempts: 1, firstCompletedDay: 20261101, lastDay: 20261101));
       await old.customStatement('DROP TABLE read_chapters');
+      await old.customStatement('DROP TABLE sermon_note_refs'); // 1.7.0
+      await old.customStatement('DROP TABLE sermon_notes');
       await old.customStatement('PRAGMA user_version = 1');
       await old.close();
 
@@ -198,7 +200,8 @@ void main() {
       await repo2.markChapterRead(19, 23);
       expect(await repo2.watchReadChapters().first, {19: {23}});
       final version = await upgraded.customSelect('PRAGMA user_version').getSingle();
-      expect(version.data.values.first, 2);
+      expect(version.data.values.first, upgraded.schemaVersion);
+      expect(await upgraded.select(upgraded.sermonNotes).get(), isEmpty, reason: 'tables des notes créées');
       await upgraded.close();
       await dir.delete(recursive: true);
     });

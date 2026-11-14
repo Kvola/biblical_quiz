@@ -7,6 +7,7 @@ import 'content/content.dart';
 import 'core/app_update.dart';
 import 'core/background.dart';
 import 'data/database.dart';
+import 'data/notes_repository.dart';
 import 'data/progress_repository.dart';
 import 'data/settings_repository.dart';
 import 'domain/search.dart';
@@ -24,6 +25,11 @@ final webInstallUrlProvider = Provider<Uri?>((ref) => null);
 
 final settingsRepoProvider = Provider((ref) => SettingsRepository(ref.watch(databaseProvider)));
 final progressRepoProvider = Provider((ref) => ProgressRepository(ref.watch(databaseProvider)));
+
+final notesRepoProvider = Provider((ref) => NotesRepository(ref.watch(databaseProvider)));
+
+/// Notes de prédication, la plus récente prédication d'abord.
+final notesProvider = StreamProvider<List<SermonNote>>((ref) => ref.watch(notesRepoProvider).watchAll());
 
 final settingsProvider = StreamProvider<AppSettings>((ref) => ref.watch(settingsRepoProvider).watch());
 

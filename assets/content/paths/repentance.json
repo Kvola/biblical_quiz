@@ -1,0 +1,1782 @@
+{
+ "id": "repentance",
+ "order": 9,
+ "icon": "u_turn_left",
+ "group": "faith-way",
+ "title": {
+  "fr": "La repentance",
+  "en": "Repentance"
+ },
+ "description": {
+  "fr": "Se repentir, c'est revenir à Dieu, changer de direction. Ce qu'en disent les prophètes, Jésus et les apôtres : l'appel à revenir, les fruits qui l'accompagnent, la joie du ciel et la patience de Dieu.",
+  "en": "To repent is to turn back to God and change direction. What the prophets, Jesus and the apostles say about it: the call to return, the fruit that goes with it, the joy in heaven and God's patience."
+ },
+ "lessons": [
+  {
+   "id": "repentance-return",
+   "title": {
+    "fr": "Revenez à moi de tout votre cœur",
+    "en": "Turn to me with all your heart"
+   },
+   "passages": [
+    "29:2:12-19"
+   ],
+   "intro": {
+    "fr": "Le prophète Joël décrit un pays ravagé par les sauterelles et annonce le jour de l'Eternel (chapitres 1 et 2). Au cœur de cette menace, Dieu appelle son peuple à revenir à lui.",
+    "en": "The prophet Joel describes a land laid waste by locusts and announces the day of the Lord (chapters 1 and 2). In the midst of this threat, God calls his people to turn back to him."
+   },
+   "keyVerse": "29:2:13",
+   "takeaway": {
+    "fr": "Joël appelle tout le peuple à revenir à Dieu de tout son cœur, en déchirant le cœur et non les vêtements. Il fonde cet appel sur le caractère de Dieu, compatissant et lent à la colère.",
+    "en": "Joel calls the whole people to turn to God with all their heart, rending their hearts and not their garments. He grounds this call in God's character: gracious, merciful and slow to anger."
+   },
+   "questions": [
+    {
+     "id": "repentance-return-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Outre « de tout votre cœur », comment Dieu demande-t-il à son peuple de revenir à lui au verset 12 ?",
+      "en": "Besides “with all your heart”, how does God ask his people to turn to him in verse 12?"
+     },
+     "choices": {
+      "fr": [
+       "Avec des holocaustes et des offrandes",
+       "Avec des chants et des instruments",
+       "Avec des jeûnes et des pleurs",
+       "Avec des dons d'or et d'argent"
+      ],
+      "en": [
+       "With burnt offerings and sacrifices",
+       "With songs and instruments",
+       "With fasting and weeping",
+       "With gifts of gold and silver"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Revenez à moi de tout votre coeur, Avec des jeûnes, avec des pleurs et des lamentations! » Le jeûne et les pleurs étaient des signes de deuil et d'humiliation devant Dieu.",
+      "en": "“Turn ye even to me with all your heart, and with fasting, and with weeping, and with mourning.” Fasting and weeping were signs of grief and of humbling oneself before God."
+     },
+     "ref": "29:2:12"
+    },
+    {
+     "id": "repentance-return-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 13, que faut-il déchirer, et non les vêtements ?",
+      "en": "According to verse 13, what are they to rend, and not their garments?"
+     },
+     "choices": {
+      "fr": [
+       "Les cœurs",
+       "Les sacs",
+       "Les voiles",
+       "Les tentes"
+      ],
+      "en": [
+       "Their hearts",
+       "Their sackcloth",
+       "Their veils",
+       "Their tents"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Déchirez vos coeurs et non vos vêtements. » Déchirer ses vêtements était un geste de deuil (Jacob le fait en Genèse 37:34) ; le prophète demande un changement intérieur, pas seulement un signe extérieur.",
+      "en": "“Rend your heart, and not your garments.” Tearing one's clothes was a gesture of mourning (Jacob does so in Genesis 37:34); the prophet asks for an inner change, not just an outward sign."
+     },
+     "ref": "29:2:13"
+    },
+    {
+     "id": "repentance-return-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle raison le prophète donne-t-il pour revenir à l'Eternel ?",
+      "en": "What reason does the prophet give for turning to the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Il est terrible dans sa colère",
+       "Il réclame des sacrifices",
+       "Il est compatissant et miséricordieux",
+       "Il a déjà tout pardonné"
+      ],
+      "en": [
+       "He is terrible in his anger",
+       "He demands sacrifices",
+       "He is gracious and merciful",
+       "He has already forgiven everything"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Car il est compatissant et miséricordieux, Lent à la colère et riche en bonté. » Ces mots reprennent la description de Dieu proclamée à Moïse en Exode 34:6.",
+      "en": "“For he is gracious and merciful, slow to anger, and of great kindness.” These words echo the description of God proclaimed to Moses in Exodus 34:6."
+     },
+     "ref": "29:2:13"
+    },
+    {
+     "id": "repentance-return-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Le prophète garantit que Dieu enverra sa bénédiction si le peuple jeûne.",
+      "en": "The prophet guarantees that God will send his blessing if the people fast."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Le prophète ne promet rien d'automatique : « Qui sait s'il ne reviendra pas et ne se repentira pas, Et s'il ne laissera pas après lui la bénédiction ». Il laisse la décision à Dieu.",
+      "en": "The prophet promises nothing automatic: “Who knoweth if he will return and repent, and leave a blessing behind him”. He leaves the decision to God."
+     },
+     "ref": "29:2:14"
+    },
+    {
+     "id": "repentance-return-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Parmi ceux qu'il faut assembler pour le jeûne, qui le verset 16 nomme-t-il ?",
+      "en": "Among those to be gathered for the fast, whom does verse 16 name?"
+     },
+     "choices": {
+      "fr": [
+       "Les étrangers en séjour",
+       "Les nourrissons à la mamelle",
+       "Les malades de la ville",
+       "Les prisonniers"
+      ],
+      "en": [
+       "The strangers living among them",
+       "Babies still at the breast",
+       "The sick of the city",
+       "The prisoners"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Assemblez le peuple […] Assemblez les vieillards, Assemblez les enfants, Même les nourrissons à la mamelle! » Même les jeunes mariés doivent quitter leur chambre : personne n'est dispensé.",
+      "en": "“Gather the people […] assemble the elders, gather the children, and those that suck the breasts.” Even the bride and bridegroom must leave their chamber: no one is exempt."
+     },
+     "ref": "29:2:16"
+    },
+    {
+     "id": "repentance-return-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond l'Eternel à son peuple au verset 19 ?",
+      "en": "What does the Lord answer his people in verse 19?"
+     },
+     "choices": {
+      "fr": [
+       "Il enverra une armée pour les délivrer de leurs ennemis",
+       "Il leur donnera un nouveau roi",
+       "Il fera tomber la manne du ciel",
+       "Il enverra du blé, du vin nouveau et de l'huile"
+      ],
+      "en": [
+       "He will send an army to rescue them from their enemies",
+       "He will give them a new king",
+       "He will make manna fall from heaven",
+       "He will send grain, new wine and oil"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Voici, je vous enverrai du blé, Du moût et de l'huile, Et vous en serez rassasiés ». C'est la réponse exacte au fléau du chapitre 1, où « les blés sont détruits, Le moût est tari, l'huile est desséchée ».",
+      "en": "“Behold, I will send you corn, and wine, and oil, and ye shall be satisfied therewith.” This answers the disaster of chapter 1, where “the corn is wasted: the new wine is dried up, the oil languisheth.”"
+     },
+     "ref": "29:2:19"
+    }
+   ]
+  },
+  {
+   "id": "repentance-come",
+   "title": {
+    "fr": "Venez et plaidons",
+    "en": "Come now, and let us reason together"
+   },
+   "passages": [
+    "23:1:16-20",
+    "23:55:6-9"
+   ],
+   "intro": {
+    "fr": "Esaïe prophétise à Jérusalem au VIIIe siècle av. J.-C. Au chapitre 1, il reproche au peuple de multiplier les prières avec des mains « pleines de sang » ; au chapitre 55, il invite à chercher l'Eternel.",
+    "en": "Isaiah prophesied in Jerusalem in the 8th century BC. In chapter 1 he rebukes the people for making many prayers while their “hands are full of blood”; in chapter 55 he invites them to seek the Lord."
+   },
+   "keyVerse": "23:1:18",
+   "takeaway": {
+    "fr": "Esaïe appelle à cesser de faire le mal et à apprendre à faire le bien, et annonce que des péchés rouges comme le cramoisi deviendront blancs comme la neige. Il invite le méchant à abandonner sa voie et à revenir à Dieu, qui pardonne.",
+    "en": "Isaiah calls the people to cease to do evil and learn to do well, and announces that sins red as scarlet shall be white as snow. He invites the wicked to forsake his way and return to God, who pardons."
+   },
+   "questions": [
+    {
+     "id": "repentance-come-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 17, qu'est-ce que le peuple doit apprendre à faire ?",
+      "en": "According to verse 17, what must the people learn to do?"
+     },
+     "choices": {
+      "fr": [
+       "Offrir davantage de sacrifices",
+       "Jeûner chaque semaine",
+       "Se retirer loin des villes",
+       "Protéger l'opprimé et la veuve"
+      ],
+      "en": [
+       "Offer more sacrifices",
+       "Fast every week",
+       "Withdraw far from the cities",
+       "Help the oppressed and the widow"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Apprenez à faire le bien, recherchez la justice, Protégez l'opprimé; Faites droit à l'orphelin, Défendez la veuve. » Revenir à Dieu se traduit ici en actes concrets envers les plus faibles.",
+      "en": "“Learn to do well; seek judgment, relieve the oppressed, judge the fatherless, plead for the widow.” Here, turning back to God is expressed in concrete acts toward the weakest."
+     },
+     "ref": "23:1:17"
+    },
+    {
+     "id": "repentance-come-2",
+     "kind": "choice",
+     "q": {
+      "fr": "« Si vos péchés sont comme le cramoisi », que deviendront-ils ?",
+      "en": "“Though your sins be as scarlet”, what shall they become?"
+     },
+     "choices": {
+      "fr": [
+       "Purs comme l'or",
+       "Blancs comme la neige",
+       "Clairs comme le cristal",
+       "Légers comme la plume"
+      ],
+      "en": [
+       "Pure as gold",
+       "White as snow",
+       "Clear as crystal",
+       "Light as a feather"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Si vos péchés sont comme le cramoisi, ils deviendront blancs comme la neige; S'ils sont rouges comme la pourpre, ils deviendront comme la laine. » Le cramoisi et la pourpre étaient des teintures d'un rouge vif.",
+      "en": "“Though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool.” Scarlet and crimson were vivid red dyes."
+     },
+     "ref": "23:1:18"
+    },
+    {
+     "id": "repentance-come-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon les versets 19 et 20, le peuple mangera les meilleures productions du pays, qu'il obéisse ou non.",
+      "en": "According to verses 19 and 20, the people will eat the good of the land whether they obey or not."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Deux issues sont opposées : « Si vous avez de la bonne volonté et si vous êtes dociles, Vous mangerez les meilleures productions du pays; Mais si vous résistez et si vous êtes rebelles, Vous serez dévorés par le glaive ».",
+      "en": "Two outcomes are set side by side: “If ye be willing and obedient, ye shall eat the good of the land: But if ye refuse and rebel, ye shall be devoured with the sword”."
+     },
+     "ref": "23:1:20"
+    },
+    {
+     "id": "repentance-come-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Esaïe 55:6, quand faut-il chercher l'Eternel ?",
+      "en": "According to Isaiah 55:6, when should the Lord be sought?"
+     },
+     "choices": {
+      "fr": [
+       "Pendant qu'il se trouve",
+       "Seulement au temple",
+       "Après avoir offert un sacrifice",
+       "Une fois par an, au jour du jeûne"
+      ],
+      "en": [
+       "While he may be found",
+       "Only in the temple",
+       "After offering a sacrifice",
+       "Once a year, on the fast day"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Cherchez l'Eternel pendant qu'il se trouve; Invoquez-le, tandis qu'il est près. » L'invitation est pressante : il y a un temps pour répondre.",
+      "en": "“Seek ye the Lord while he may be found, call ye upon him while he is near.” The invitation is urgent: there is a time to respond."
+     },
+     "ref": "23:55:6"
+    },
+    {
+     "id": "repentance-come-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Esaïe 55:7, que doit faire le méchant ?",
+      "en": "According to Isaiah 55:7, what must the wicked do?"
+     },
+     "choices": {
+      "fr": [
+       "Offrir un sacrifice pour sa faute",
+       "Abandonner sa voie et retourner à l'Eternel",
+       "Quitter le pays pour un temps",
+       "Attendre patiemment le jugement"
+      ],
+      "en": [
+       "Offer a sacrifice for his guilt",
+       "Forsake his way and return to the Lord",
+       "Leave the land for a while",
+       "Wait patiently for judgment"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Que le méchant abandonne sa voie, Et l'homme d'iniquité ses pensées; Qu'il retourne à l'Eternel ». Le changement concerne à la fois la conduite (la voie) et la manière de penser.",
+      "en": "“Let the wicked forsake his way, and the unrighteous man his thoughts: and let him return unto the Lord”. The change concerns both conduct (the way) and thinking."
+     },
+     "ref": "23:55:7"
+    },
+    {
+     "id": "repentance-come-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Dieu accueillera-t-il celui qui revient, selon le verset 7 ?",
+      "en": "How will God receive the one who returns, according to verse 7?"
+     },
+     "choices": {
+      "fr": [
+       "Il le jugera d'abord selon ses fautes passées",
+       "Il exigera d'abord une réparation",
+       "Il aura pitié de lui et lui pardonnera",
+       "Il le tiendra à l'écart un temps"
+      ],
+      "en": [
+       "He will first judge him by his past sins",
+       "He will first demand compensation",
+       "He will have mercy on him and pardon him",
+       "He will keep him at a distance for a while"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Il retourne « à l'Eternel, qui aura pitié de lui, A notre Dieu, qui ne se lasse pas de pardonner ». La King James dit que Dieu pardonnera abondamment ; le verset 8 ajoute que les pensées de Dieu ne sont pas celles des hommes.",
+      "en": "He returns “unto the Lord, and he will have mercy upon him; and to our God, for he will abundantly pardon.” Verse 8 adds that God's thoughts are not man's thoughts."
+     },
+     "ref": "23:55:7"
+    }
+   ]
+  },
+  {
+   "id": "repentance-turn",
+   "title": {
+    "fr": "Pourquoi mourriez-vous ?",
+    "en": "Why will ye die?"
+   },
+   "passages": [
+    "26:18:21-32"
+   ],
+   "intro": {
+    "fr": "Ezéchiel prophétise parmi les exilés de Babylone au VIe siècle av. J.-C. Au chapitre 18, il répond à un proverbe qui circulait : « Les pères ont mangé des raisins verts, et les dents des enfants en ont été agacées », et affirme que chacun répond de sa propre conduite.",
+    "en": "Ezekiel prophesied among the exiles in Babylon in the 6th century BC. In chapter 18 he answers a popular proverb, “The fathers have eaten sour grapes, and the children's teeth are set on edge”, and declares that each person answers for his own conduct."
+   },
+   "keyVerse": "26:18:32",
+   "takeaway": {
+    "fr": "Selon Ezéchiel, le méchant qui se détourne de ses péchés vivra, et ses transgressions seront oubliées. Dieu déclare qu'il ne désire pas la mort de celui qui meurt et appelle : « Convertissez-vous donc, et vivez. »",
+    "en": "According to Ezekiel, the wicked man who turns from his sins shall live, and his transgressions shall not be mentioned. God declares that he has no pleasure in the death of him that dieth and calls: “turn yourselves, and live ye.”"
+   },
+   "questions": [
+    {
+     "id": "repentance-turn-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 21, que se passe-t-il si le méchant revient de tous ses péchés ?",
+      "en": "According to verse 21, what happens if the wicked man turns from all his sins?"
+     },
+     "choices": {
+      "fr": [
+       "Il sera puni moins sévèrement",
+       "Il devra d'abord payer pour ses fautes",
+       "Il restera marqué par son passé",
+       "Il vivra, il ne mourra pas"
+      ],
+      "en": [
+       "He will be punished less severely",
+       "He must first pay for his sins",
+       "He will stay marked by his past",
+       "He will live and not die"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Si le méchant revient de tous les péchés qu'il a commis, s'il observe toutes mes lois et pratique la droiture et la justice, il vivra, il ne mourra pas. » Revenir, c'est se détourner du mal et pratiquer le bien.",
+      "en": "“If the wicked will turn from all his sins that he hath committed, and keep all my statutes, and do that which is lawful and right, he shall surely live, he shall not die.” Turning means leaving evil and doing what is right."
+     },
+     "ref": "26:18:21"
+    },
+    {
+     "id": "repentance-turn-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 22, les fautes passées du méchant qui revient lui seront encore rappelées.",
+      "en": "According to verse 22, the past sins of the wicked man who turns back will still be held against him."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Toutes les transgressions qu'il a commises seront oubliées; il vivra ». La King James dit qu'elles ne lui seront pas mentionnées.",
+      "en": "“All his transgressions that he hath committed, they shall not be mentioned unto him: in his righteousness that he hath done he shall live.”"
+     },
+     "ref": "26:18:22"
+    },
+    {
+     "id": "repentance-turn-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 23, que désire Dieu pour le méchant ?",
+      "en": "According to verse 23, what does God desire for the wicked?"
+     },
+     "choices": {
+      "fr": [
+       "Qu'il meure à cause de ses fautes",
+       "Qu'il change de conduite et qu'il vive",
+       "Qu'il soit retranché du peuple pour toujours",
+       "Qu'il soit livré à ses ennemis"
+      ],
+      "en": [
+       "That he should die for his sins",
+       "That he should turn from his ways and live",
+       "That he should be cut off from the people for ever",
+       "That he should be handed over to his enemies"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Dieu pose la question : « Ce que je désire, est-ce que le méchant meure? […] N'est-ce pas qu'il change de conduite et qu'il vive? » La réponse attendue est évidente.",
+      "en": "God asks: “Have I any pleasure at all that the wicked should die? […] and not that he should return from his ways, and live?” The expected answer is obvious."
+     },
+     "ref": "26:18:23"
+    },
+    {
+     "id": "repentance-turn-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que reproche la maison d'Israël au Seigneur, au verset 25 ?",
+      "en": "What does the house of Israel accuse the Lord of in verse 25?"
+     },
+     "choices": {
+      "fr": [
+       "Sa voie n'est pas droite",
+       "Il les a oubliés en exil",
+       "Il n'écoute plus leurs prières",
+       "Il a rompu son alliance"
+      ],
+      "en": [
+       "His way is not fair",
+       "He has forgotten them in exile",
+       "He no longer hears their prayers",
+       "He has broken his covenant"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Vous dites: La voie du Seigneur n'est pas droite. » Dieu retourne le reproche : « Ne sont-ce pas plutôt vos voies qui ne sont pas droites? » En anglais, la King James dit que cette voie n'est pas équitable (not equal).",
+      "en": "“Yet ye say, The way of the Lord is not equal.” Here “equal” means fair. God turns the charge around: “are not your ways unequal?”"
+     },
+     "ref": "26:18:25"
+    },
+    {
+     "id": "repentance-turn-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que doivent-ils se faire, selon le verset 31 ?",
+      "en": "What are they to make for themselves, according to verse 31?"
+     },
+     "choices": {
+      "fr": [
+       "Un temple nouveau",
+       "Une loi nouvelle",
+       "Un cœur nouveau et un esprit nouveau",
+       "Une alliance nouvelle"
+      ],
+      "en": [
+       "A new temple",
+       "A new law",
+       "A new heart and a new spirit",
+       "A new covenant"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Rejetez loin de vous toutes les transgressions par lesquelles vous avez péché; faites-vous un coeur nouveau et un esprit nouveau. » Plus loin, en Ezéchiel 36:26, c'est Dieu qui promet : « Je vous donnerai un coeur nouveau ».",
+      "en": "“Cast away from you all your transgressions […] and make you a new heart and a new spirit.” Later, in Ezekiel 36:26, it is God who promises: “A new heart also will I give you”."
+     },
+     "ref": "26:18:31"
+    },
+    {
+     "id": "repentance-turn-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Sur quel appel se termine le chapitre, au verset 32 ?",
+      "en": "With what call does the chapter end in verse 32?"
+     },
+     "choices": {
+      "fr": [
+       "Préparez-vous au jugement",
+       "Offrez des sacrifices pour vos fautes",
+       "Attendez que je vous délivre",
+       "Convertissez-vous, et vivez"
+      ],
+      "en": [
+       "Prepare yourselves for judgment",
+       "Offer sacrifices for your sins",
+       "Wait until I deliver you",
+       "Turn yourselves, and live"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Car je ne désire pas la mort de celui qui meurt, dit le Seigneur, l'Eternel. Convertissez-vous donc, et vivez. » Le mot hébreu traduit par « se convertir » signifie revenir, faire demi-tour.",
+      "en": "“For I have no pleasure in the death of him that dieth, saith the Lord God: wherefore turn yourselves, and live ye.” The Hebrew verb translated “turn” means to go back, to turn around."
+     },
+     "ref": "26:18:32"
+    }
+   ]
+  },
+  {
+   "id": "repentance-fruit",
+   "title": {
+    "fr": "Des fruits dignes de la repentance",
+    "en": "Fruits worthy of repentance"
+   },
+   "passages": [
+    "42:3:1-14"
+   ],
+   "intro": {
+    "fr": "Luc situe avec précision dans l'histoire le début de la prédication de Jean, fils de Zacharie. Des foules viennent à lui dans la région du Jourdain.",
+    "en": "Luke places the start of the preaching of John, the son of Zacharias, precisely in history. Crowds come to him in the region of the Jordan."
+   },
+   "keyVerse": "42:3:8",
+   "takeaway": {
+    "fr": "Jean appelle à produire des fruits dignes de la repentance. À ceux qui demandent « que devons-nous faire ? », il répond par des gestes concrets : partager, ne pas exiger plus que dû, ne pas extorquer.",
+    "en": "John calls for fruits worthy of repentance. To those who ask “what shall we do?” he answers with concrete actions: share, take no more than is due, do violence to no one."
+   },
+   "questions": [
+    {
+     "id": "repentance-fruit-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 3, que prêchait Jean dans la région du Jourdain ?",
+      "en": "According to verse 3, what was John preaching in the region of the Jordan?"
+     },
+     "choices": {
+      "fr": [
+       "La purification du temple de Jérusalem",
+       "La révolte du peuple contre l'occupant romain",
+       "Le baptême de repentance",
+       "Le retour des exilés dans leur pays"
+      ],
+      "en": [
+       "The cleansing of the temple in Jerusalem",
+       "A revolt of the people against Roman rule",
+       "The baptism of repentance",
+       "The return of the exiles to their land"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Jean alla « dans tout le pays des environs du Jourdain, prêchant le baptême de repentance, pour la rémission des péchés ». Luc lie ainsi son baptême à la repentance.",
+      "en": "John “came into all the country about Jordan, preaching the baptism of repentance for the remission of sins”. Luke thus links his baptism with repentance."
+     },
+     "ref": "42:3:3"
+    },
+    {
+     "id": "repentance-fruit-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel prophète Luc cite-t-il pour présenter Jean ?",
+      "en": "Which prophet does Luke quote to introduce John?"
+     },
+     "choices": {
+      "fr": [
+       "Jérémie",
+       "Malachie",
+       "Ezéchiel",
+       "Esaïe"
+      ],
+      "en": [
+       "Jeremiah",
+       "Malachi",
+       "Ezekiel",
+       "Isaiah"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Luc cite « le livre des paroles d'Esaïe, le prophète: C'est la voix de celui qui crie dans le désert: Préparez le chemin du Seigneur ». Il s'agit d'Esaïe 40:3-5.",
+      "en": "Luke quotes “the book of the words of Esaias the prophet, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord”. Esaias is the Greek form of Isaiah; the passage is Isaiah 40:3-5."
+     },
+     "ref": "42:3:4"
+    },
+    {
+     "id": "repentance-fruit-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Au verset 8, quelle assurance Jean demande-t-il de ne pas mettre en avant ?",
+      "en": "In verse 8, what claim does John tell them not to rely on?"
+     },
+     "choices": {
+      "fr": [
+       "Nous avons été baptisés",
+       "Nous avons Abraham pour père",
+       "Nous offrons des sacrifices",
+       "Nous connaissons la loi"
+      ],
+      "en": [
+       "We have been baptized",
+       "We have Abraham as our father",
+       "We offer sacrifices",
+       "We know the law"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Produisez donc des fruits dignes de la repentance, et ne vous mettez pas à dire en vous-mêmes: Nous avons Abraham pour père! Car je vous déclare que de ces pierres Dieu peut susciter des enfants à Abraham. »",
+      "en": "“Bring forth therefore fruits worthy of repentance, and begin not to say within yourselves, We have Abraham to our father: for I say unto you, That God is able of these stones to raise up children unto Abraham.”"
+     },
+     "ref": "42:3:8"
+    },
+    {
+     "id": "repentance-fruit-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond Jean à la foule qui demande « Que devons-nous donc faire ? »",
+      "en": "What does John answer when the crowd asks, “What shall we do then?”"
+     },
+     "choices": {
+      "fr": [
+       "Partager avec qui n'a rien",
+       "Donner la dîme de tous ses biens au temple",
+       "Quitter leur métier",
+       "Jeûner deux fois par semaine"
+      ],
+      "en": [
+       "Share with those who have none",
+       "Give a tenth of everything to the temple",
+       "Leave their trade",
+       "Fast twice a week"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Que celui qui a deux tuniques partage avec celui qui n'en a point, et que celui qui a de quoi manger agisse de même. » La tunique était le vêtement porté sous le manteau.",
+      "en": "“He that hath two coats, let him impart to him that hath none; and he that hath meat, let him do likewise.” Here “meat” means food in general."
+     },
+     "ref": "42:3:11"
+    },
+    {
+     "id": "repentance-fruit-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande Jean aux publicains ?",
+      "en": "What does John tell the publicans (tax collectors)?"
+     },
+     "choices": {
+      "fr": [
+       "De quitter leur métier sur-le-champ",
+       "De donner tous leurs biens aux pauvres",
+       "De ne pas exiger plus que dû",
+       "De ne plus travailler pour Rome"
+      ],
+      "en": [
+       "To give up their work at once",
+       "To give all their goods to the poor",
+       "To collect no more than is due",
+       "To stop working for Rome"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« N'exigez rien au delà de ce qui vous a été ordonné. » Les publicains percevaient taxes et péages ; Jean ne leur demande pas de quitter leur métier, mais de ne pas prendre plus que dû.",
+      "en": "“Exact no more than that which is appointed you.” Publicans collected taxes and tolls; John does not tell them to leave their work, but to take no more than is due."
+     },
+     "ref": "42:3:13"
+    },
+    {
+     "id": "repentance-fruit-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Jean demande aux soldats de quitter l'armée.",
+      "en": "John tells the soldiers to leave the army."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Il leur répond : « Ne commettez ni extorsion ni fraude envers personne, et contentez-vous de votre solde. » Il ne leur demande pas de quitter leur service.",
+      "en": "He answers: “Do violence to no man, neither accuse any falsely; and be content with your wages.” He does not tell them to leave their service."
+     },
+     "ref": "42:3:14"
+    }
+   ]
+  },
+  {
+   "id": "repentance-call",
+   "title": {
+    "fr": "Appeler les pécheurs",
+    "en": "Calling sinners"
+   },
+   "passages": [
+    "41:1:14-15",
+    "42:5:27-32"
+   ],
+   "intro": {
+    "fr": "Marc résume en deux versets la première prédication de Jésus en Galilée. Luc raconte ensuite comment Jésus appelle Lévi, un publicain, et partage un repas chez lui.",
+    "en": "Mark sums up Jesus' first preaching in Galilee in two verses. Luke then tells how Jesus calls Levi, a publican, and shares a meal in his house."
+   },
+   "keyVerse": "42:5:32",
+   "takeaway": {
+    "fr": "Jésus annonce que le royaume de Dieu est proche et appelle à se repentir et à croire à la bonne nouvelle. Il déclare être venu appeler à la repentance non des justes, mais des pécheurs.",
+    "en": "Jesus announces that the kingdom of God is at hand and calls people to repent and believe the gospel. He declares that he came to call not the righteous, but sinners, to repentance."
+   },
+   "questions": [
+    {
+     "id": "repentance-call-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Marc 1:15, quelles deux choses Jésus demande-t-il ?",
+      "en": "According to Mark 1:15, what two things does Jesus call for?"
+     },
+     "choices": {
+      "fr": [
+       "Prier et jeûner davantage",
+       "Se repentir et croire à la bonne nouvelle",
+       "Aller au temple et offrir un sacrifice",
+       "Vendre tous ses biens et le suivre sans tarder"
+      ],
+      "en": [
+       "Pray and fast more",
+       "Repent and believe the gospel",
+       "Go to the temple and offer a sacrifice",
+       "Sell everything and follow him without delay"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Repentez-vous, et croyez à la bonne nouvelle. » Le mot « Evangile » (v. 14) signifie justement « bonne nouvelle ».",
+      "en": "“Repent ye, and believe the gospel.” The word “gospel” means “good news”."
+     },
+     "ref": "41:1:15"
+    },
+    {
+     "id": "repentance-call-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Marc 1:15, quelle annonce accompagne l'appel à se repentir ?",
+      "en": "According to Mark 1:15, what announcement goes with the call to repent?"
+     },
+     "choices": {
+      "fr": [
+       "Le temple sera bientôt détruit",
+       "Le jugement a déjà eu lieu",
+       "Rome va bientôt tomber",
+       "Le royaume de Dieu est proche"
+      ],
+      "en": [
+       "The temple will soon be destroyed",
+       "The judgment has already taken place",
+       "Rome will soon fall",
+       "The kingdom of God is at hand"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Le temps est accompli, et le royaume de Dieu est proche. » L'appel à la repentance est lié à cette annonce.",
+      "en": "“The time is fulfilled, and the kingdom of God is at hand.” The call to repent is tied to this announcement."
+     },
+     "ref": "41:1:15"
+    },
+    {
+     "id": "repentance-call-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel était le métier de Lévi ?",
+      "en": "What was Levi's occupation?"
+     },
+     "choices": {
+      "fr": [
+       "Pêcheur",
+       "Charpentier",
+       "Publicain",
+       "Scribe"
+      ],
+      "en": [
+       "Fisherman",
+       "Carpenter",
+       "Publican (tax collector)",
+       "Scribe"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Jésus « vit un publicain, nommé Lévi, assis au lieu des péages ». Les publicains percevaient taxes et péages. L'Evangile de Matthieu (9:9) appelle cet homme Matthieu.",
+      "en": "Jesus “saw a publican, named Levi, sitting at the receipt of custom”, that is, at the tax booth. Matthew's Gospel (9:9) calls this man Matthew."
+     },
+     "ref": "42:5:27"
+    },
+    {
+     "id": "repentance-call-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Lévi demande un temps de réflexion avant de suivre Jésus.",
+      "en": "Levi asks for time to think before following Jesus."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Sa réponse est immédiate : « Et, laissant tout, il se leva, et le suivit. »",
+      "en": "His response is immediate: “And he left all, rose up, and followed him.”"
+     },
+     "ref": "42:5:28"
+    },
+    {
+     "id": "repentance-call-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que reprochent les pharisiens et les scribes aux disciples ?",
+      "en": "What do the Pharisees and scribes complain about to the disciples?"
+     },
+     "choices": {
+      "fr": [
+       "De ne pas se laver les mains avant le repas",
+       "De manger avec les publicains et les pécheurs",
+       "De ne pas payer l'impôt du temple",
+       "De parler avec des Samaritains"
+      ],
+      "en": [
+       "Not washing their hands before the meal",
+       "Eating with publicans and sinners",
+       "Not paying the temple tax",
+       "Talking with Samaritans"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Pourquoi mangez-vous et buvez-vous avec les publicains et les gens de mauvaise vie? » Là où la Segond dit « gens de mauvaise vie », la King James dit simplement pécheurs (sinners). Partager un repas était un signe d'accueil.",
+      "en": "“Why do ye eat and drink with publicans and sinners?” Sharing a meal was a sign of acceptance."
+     },
+     "ref": "42:5:30"
+    },
+    {
+     "id": "repentance-call-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui Jésus dit-il être venu appeler à la repentance ?",
+      "en": "Whom does Jesus say he came to call to repentance?"
+     },
+     "choices": {
+      "fr": [
+       "Les pécheurs",
+       "Les justes",
+       "Les prêtres",
+       "Les disciples de Jean"
+      ],
+      "en": [
+       "Sinners",
+       "The righteous",
+       "The priests",
+       "John's disciples"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Je ne suis pas venu appeler à la repentance des justes, mais des pécheurs. » Il vient de dire : « Ce ne sont pas ceux qui se portent bien qui ont besoin de médecin, mais les malades. »",
+      "en": "“I came not to call the righteous, but sinners to repentance.” He has just said: “They that are whole need not a physician; but they that are sick.”"
+     },
+     "ref": "42:5:32"
+    }
+   ]
+  },
+  {
+   "id": "repentance-urgent",
+   "title": {
+    "fr": "Si vous ne vous repentez",
+    "en": "Except ye repent"
+   },
+   "passages": [
+    "42:13:1-9"
+   ],
+   "intro": {
+    "fr": "On rapporte à Jésus un événement récent : des Galiléens tués sur l'ordre de Pilate alors qu'ils offraient leurs sacrifices. Jésus y ajoute un autre drame, puis raconte une parabole.",
+    "en": "Jesus is told of a recent event: Galileans killed on Pilate's orders as they offered their sacrifices. Jesus adds another disaster, then tells a parable."
+   },
+   "keyVerse": "42:13:3",
+   "takeaway": {
+    "fr": "Jésus refuse de voir dans ces drames la preuve que les victimes étaient plus coupables que les autres, et appelle chacun à se repentir. Dans la parabole, le figuier stérile reçoit encore une année pour porter du fruit.",
+    "en": "Jesus refuses to see these disasters as proof that the victims were guiltier than others, and calls everyone to repent. In the parable, the barren fig tree is given one more year to bear fruit."
+   },
+   "questions": [
+    {
+     "id": "repentance-urgent-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'était-il arrivé aux Galiléens dont on parle à Jésus ?",
+      "en": "What had happened to the Galileans Jesus was told about?"
+     },
+     "choices": {
+      "fr": [
+       "Pilate avait mêlé leur sang à celui de leurs sacrifices",
+       "Une tour était tombée sur eux",
+       "Ils avaient péri dans une tempête sur le lac de Génésareth",
+       "Ils avaient été frappés par la famine"
+      ],
+      "en": [
+       "Pilate had mingled their blood with their sacrifices",
+       "A tower had fallen on them",
+       "They had died in a storm on the lake of Gennesaret",
+       "They had been struck by famine"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "On raconte « ce qui était arrivé à des Galiléens dont Pilate avait mêlé le sang avec celui de leurs sacrifices ». Pilate était le gouverneur romain de la Judée. La tour, elle, concerne un autre drame (v. 4).",
+      "en": "They told him “of the Galileans, whose blood Pilate had mingled with their sacrifices.” Pilate was the Roman governor of Judea. The tower belongs to another disaster (v. 4)."
+     },
+     "ref": "42:13:1"
+    },
+    {
+     "id": "repentance-urgent-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Jésus, ces Galiléens ont souffert ainsi parce qu'ils étaient plus pécheurs que les autres Galiléens.",
+      "en": "According to Jesus, these Galileans suffered because they were greater sinners than the other Galileans."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Jésus pose la question puis répond : « Non, je vous le dis. » Il refuse de mesurer la culpabilité d'après le malheur subi.",
+      "en": "Jesus asks the question, then answers: “I tell you, Nay”. He refuses to measure guilt by the misfortune suffered."
+     },
+     "ref": "42:13:3"
+    },
+    {
+     "id": "repentance-urgent-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de personnes la tour de Siloé a-t-elle tuées ?",
+      "en": "How many people did the tower in Siloam kill?"
+     },
+     "choices": {
+      "fr": [
+       "Sept",
+       "Douze",
+       "Dix-huit",
+       "Quarante"
+      ],
+      "en": [
+       "Seven",
+       "Twelve",
+       "Eighteen",
+       "Forty"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Ces dix-huit personnes sur qui est tombée la tour de Siloé et qu'elle a tuées ». Siloé est un quartier de Jérusalem, connu aussi pour son réservoir (Jean 9:7).",
+      "en": "“Those eighteen, upon whom the tower in Siloam fell, and slew them”. Siloam was a part of Jerusalem, also known for its pool (John 9:7)."
+     },
+     "ref": "42:13:4"
+    },
+    {
+     "id": "repentance-urgent-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle parole Jésus répète-t-il après chacun des deux drames ?",
+      "en": "What does Jesus say after each of the two disasters?"
+     },
+     "choices": {
+      "fr": [
+       "Ces gens ont reçu ce qu'ils méritaient",
+       "Si vous ne vous repentez, vous périrez tous également",
+       "Nul ne peut échapper à son destin",
+       "Dieu protège toujours les justes"
+      ],
+      "en": [
+       "Those people got what they deserved",
+       "Except ye repent, ye shall all likewise perish",
+       "No one can escape his fate",
+       "God always protects the righteous"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "À deux reprises (v. 3 et 5) : « Non, je vous le dis. Mais si vous ne vous repentez, vous périrez tous également. » Au lieu de juger les victimes, Jésus renvoie ses auditeurs à leur propre situation.",
+      "en": "Twice (vv. 3 and 5): “I tell you, Nay: but, except ye repent, ye shall all likewise perish.” Instead of judging the victims, Jesus turns his hearers to their own situation."
+     },
+     "ref": "42:13:5"
+    },
+    {
+     "id": "repentance-urgent-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Depuis combien d'années le propriétaire cherche-t-il du fruit sur le figuier ?",
+      "en": "For how many years has the owner been looking for fruit on the fig tree?"
+     },
+     "choices": {
+      "fr": [
+       "Un an",
+       "Sept ans",
+       "Dix ans",
+       "Trois ans"
+      ],
+      "en": [
+       "One year",
+       "Seven years",
+       "Ten years",
+       "Three years"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Voilà trois ans que je viens chercher du fruit à ce figuier, et je n'en trouve point. Coupe-le: pourquoi occupe-t-il la terre inutilement? »",
+      "en": "“Behold, these three years I come seeking fruit on this fig tree, and find none: cut it down; why cumbereth it the ground?”"
+     },
+     "ref": "42:13:7"
+    },
+    {
+     "id": "repentance-urgent-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que propose le vigneron ?",
+      "en": "What does the vinedresser suggest?"
+     },
+     "choices": {
+      "fr": [
+       "Le couper tout de suite",
+       "Le laisser encore un an et le soigner",
+       "Le transplanter dans une meilleure terre",
+       "Le remplacer par une vigne"
+      ],
+      "en": [
+       "Cut it down at once",
+       "Leave it one more year and tend it",
+       "Move it to better soil",
+       "Replace it with a vine"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Seigneur, laisse-le encore cette année; je creuserai tout autour, et j'y mettrai du fumier. Peut-être à l'avenir donnera-t-il du fruit; sinon, tu le couperas. » Le délai est accordé, mais il a une limite.",
+      "en": "“Lord, let it alone this year also, till I shall dig about it, and dung it: And if it bear fruit, well: and if not, then after that thou shalt cut it down.” A delay is granted, but it has a limit."
+     },
+     "ref": "42:13:8"
+    }
+   ]
+  },
+  {
+   "id": "repentance-joy",
+   "title": {
+    "fr": "La joie du ciel",
+    "en": "Joy in heaven"
+   },
+   "passages": [
+    "42:15:4-10"
+   ],
+   "intro": {
+    "fr": "Les pharisiens et les scribes murmurent : « Cet homme accueille des gens de mauvaise vie, et mange avec eux » (Luc 15:2). Jésus répond par trois paraboles ; voici les deux premières, la brebis et la drachme perdues.",
+    "en": "The Pharisees and scribes murmur: “This man receiveth sinners, and eateth with them” (Luke 15:2). Jesus answers with three parables; here are the first two, the lost sheep and the lost coin."
+   },
+   "keyVerse": "42:15:7",
+   "takeaway": {
+    "fr": "Dans les deux paraboles, ce qui était perdu est cherché jusqu'à être retrouvé, puis on se réjouit avec d'autres. Jésus affirme qu'il y a de la joie au ciel pour un seul pécheur qui se repent.",
+    "en": "In both parables, what was lost is searched for until it is found, and then others are invited to rejoice. Jesus says there is joy in heaven over one sinner that repents."
+   },
+   "questions": [
+    {
+     "id": "repentance-joy-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait l'homme qui a perdu une de ses cent brebis ?",
+      "en": "What does the man who has lost one of his hundred sheep do?"
+     },
+     "choices": {
+      "fr": [
+       "Il attend qu'elle revienne d'elle-même",
+       "Il se contente des quatre-vingt-dix-neuf qui lui restent",
+       "Il laisse les autres pour chercher celle qui est perdue",
+       "Il envoie un serviteur la chercher"
+      ],
+      "en": [
+       "He waits for it to come back by itself",
+       "He makes do with the ninety-nine he has left",
+       "He leaves the others to look for the lost one",
+       "He sends a servant to look for it"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Il « ne laisse les quatre-vingt-dix-neuf autres dans le désert pour aller après celle qui est perdue, jusqu'à ce qu'il la retrouve ». Il cherche jusqu'au bout.",
+      "en": "He will “leave the ninety and nine in the wilderness, and go after that which is lost, until he find it”. He keeps searching until he finds it."
+     },
+     "ref": "42:15:4"
+    },
+    {
+     "id": "repentance-joy-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment le berger ramène-t-il la brebis retrouvée ?",
+      "en": "How does the shepherd bring back the sheep he has found?"
+     },
+     "choices": {
+      "fr": [
+       "Sur ses épaules, avec joie",
+       "En la poussant devant lui",
+       "Attachée par une corde",
+       "Dans un chariot"
+      ],
+      "en": [
+       "On his shoulders, rejoicing",
+       "Driving it ahead of him",
+       "Tied with a rope",
+       "In a cart"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Lorsqu'il l'a retrouvée, il la met avec joie sur ses épaules ». Pas de reproche à la brebis : il la porte lui-même.",
+      "en": "“And when he hath found it, he layeth it on his shoulders, rejoicing.” There is no rebuke for the sheep: he carries it himself."
+     },
+     "ref": "42:15:5"
+    },
+    {
+     "id": "repentance-joy-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, la joie dans le ciel pour un seul pécheur qui se repent est plus grande que pour qui ?",
+      "en": "According to verse 7, the joy in heaven over one sinner that repents is greater than over whom?"
+     },
+     "choices": {
+      "fr": [
+       "Les anges de Dieu",
+       "Cent brebis retrouvées",
+       "Les prêtres du temple",
+       "Quatre-vingt-dix-neuf justes"
+      ],
+      "en": [
+       "The angels of God",
+       "A hundred sheep found",
+       "The priests of the temple",
+       "Ninety-nine just persons"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Il y aura plus de joie dans le ciel pour un seul pécheur qui se repent, que pour quatre-vingt-dix-neuf justes qui n'ont pas besoin de repentance. » Jésus applique lui-même la parabole à la repentance.",
+      "en": "“Joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance.” Jesus himself applies the parable to repentance."
+     },
+     "ref": "42:15:7"
+    },
+    {
+     "id": "repentance-joy-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que fait la femme qui a perdu une de ses dix drachmes ?",
+      "en": "What does the woman who has lost one of her ten silver coins do?"
+     },
+     "choices": {
+      "fr": [
+       "Elle attend le jour pour chercher",
+       "Elle allume une lampe et balaie la maison",
+       "Elle demande à ses voisines de l'aider à chercher",
+       "Elle accuse sa servante"
+      ],
+      "en": [
+       "She waits for daylight to search",
+       "She lights a lamp and sweeps the house",
+       "She asks her neighbors to help her search",
+       "She blames her servant"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Elle « allume une lampe, […] balaie la maison, et […] cherche avec soin, jusqu'à ce qu'elle la retrouve ». La drachme était une pièce d'argent grecque ; la King James dit pièce d'argent (piece of silver).",
+      "en": "She will “light a candle, and sweep the house, and seek diligently till she find it”. The coin was a Greek silver drachma."
+     },
+     "ref": "42:15:8"
+    },
+    {
+     "id": "repentance-joy-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Après avoir retrouvé sa drachme, la femme garde sa joie pour elle.",
+      "en": "After finding her coin, the woman keeps her joy to herself."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Elle appelle ses amies et ses voisines, et dit: Réjouissez-vous avec moi, car j'ai retrouvé la drachme que j'avais perdue. » Comme le berger, elle invite les autres à partager sa joie.",
+      "en": "“She calleth her friends and her neighbours together, saying, Rejoice with me; for I have found the piece which I had lost.” Like the shepherd, she invites others to share her joy."
+     },
+     "ref": "42:15:9"
+    },
+    {
+     "id": "repentance-joy-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 10, où y a-t-il de la joie pour un seul pécheur qui se repent ?",
+      "en": "According to verse 10, where is there joy over one sinner that repents?"
+     },
+     "choices": {
+      "fr": [
+       "Dans le temple de Jérusalem",
+       "Dans la synagogue",
+       "Devant les anges de Dieu",
+       "Parmi les pharisiens"
+      ],
+      "en": [
+       "In the temple at Jerusalem",
+       "In the synagogue",
+       "In the presence of the angels of God",
+       "Among the Pharisees"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Il y a de la joie devant les anges de Dieu pour un seul pécheur qui se repent. » Cette joie contraste avec les murmures des pharisiens et des scribes (v. 2).",
+      "en": "“There is joy in the presence of the angels of God over one sinner that repenteth.” This joy contrasts with the murmuring of the Pharisees and scribes (v. 2)."
+     },
+     "ref": "42:15:10"
+    }
+   ]
+  },
+  {
+   "id": "repentance-peter",
+   "title": {
+    "fr": "Pour que vos péchés soient effacés",
+    "en": "That your sins may be blotted out"
+   },
+   "passages": [
+    "44:3:12-21"
+   ],
+   "intro": {
+    "fr": "Pierre et Jean viennent de guérir, à la porte du temple, un homme boiteux de naissance (Actes 3:1-11). La foule accourt, et Pierre prend la parole.",
+    "en": "Peter and John have just healed a man lame from birth at the gate of the temple (Acts 3:1-11). The crowd gathers, and Peter speaks."
+   },
+   "keyVerse": "44:3:19",
+   "takeaway": {
+    "fr": "Pierre rappelle au peuple qu'il a renié Jésus, que Dieu a ressuscité, tout en reconnaissant qu'il a agi par ignorance. Il l'appelle à se repentir et à se convertir pour que ses péchés soient effacés.",
+    "en": "Peter reminds the people that they denied Jesus, whom God raised from the dead, while acknowledging that they acted in ignorance. He calls them to repent and be converted so that their sins may be blotted out."
+   },
+   "questions": [
+    {
+     "id": "repentance-peter-1",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi Pierre refuse-t-il qu'on attribue la guérison de l'homme ?",
+      "en": "What does Peter refuse to let the healing be credited to?"
+     },
+     "choices": {
+      "fr": [
+       "À l'intervention d'un ange",
+       "Au hasard",
+       "À leur propre puissance ou à leur piété",
+       "À un remède des médecins"
+      ],
+      "en": [
+       "The work of an angel",
+       "Chance",
+       "Their own power or holiness",
+       "A doctor's remedy"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Pourquoi avez-vous les regards fixés sur nous, comme si c'était par notre propre puissance ou par notre piété que nous eussions fait marcher cet homme? » Au verset 16, il attribue la guérison au nom de Jésus et à la foi en lui.",
+      "en": "“Why look ye so earnestly on us, as though by our own power or holiness we had made this man to walk?” In verse 16 he credits the healing to the name of Jesus and faith in him."
+     },
+     "ref": "44:3:12"
+    },
+    {
+     "id": "repentance-peter-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Pierre, qui le peuple a-t-il demandé qu'on lui relâche à la place de Jésus ?",
+      "en": "According to Peter, whom did the people ask to be released instead of Jesus?"
+     },
+     "choices": {
+      "fr": [
+       "Un meurtrier",
+       "Un prophète",
+       "Un sacrificateur",
+       "Un soldat romain"
+      ],
+      "en": [
+       "A murderer",
+       "A prophet",
+       "A priest",
+       "A Roman soldier"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Vous avez renié le Saint et le Juste, et vous avez demandé qu'on vous accordât la grâce d'un meurtrier. » Les Evangiles nomment cet homme Barabbas (Luc 23:18-19).",
+      "en": "“But ye denied the Holy One and the Just, and desired a murderer to be granted unto you”. The Gospels name this man Barabbas (Luke 23:18-19)."
+     },
+     "ref": "44:3:14"
+    },
+    {
+     "id": "repentance-peter-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel titre Pierre donne-t-il à Jésus au verset 15 ?",
+      "en": "What title does Peter give Jesus in verse 15?"
+     },
+     "choices": {
+      "fr": [
+       "Le Fils de David",
+       "Le Roi des Juifs",
+       "Le Fils de l'homme",
+       "Le Prince de la vie"
+      ],
+      "en": [
+       "The Son of David",
+       "The King of the Jews",
+       "The Son of man",
+       "The Prince of life"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Vous avez fait mourir le Prince de la vie, que Dieu a ressuscité des morts; nous en sommes témoins. » Le contraste est saisissant : on a fait mourir celui qui est la source de la vie.",
+      "en": "“And killed the Prince of life, whom God hath raised from the dead; whereof we are witnesses.” The contrast is striking: they put to death the very source of life."
+     },
+     "ref": "44:3:15"
+    },
+    {
+     "id": "repentance-peter-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Pierre dit que le peuple et ses chefs ont agi par ignorance.",
+      "en": "Peter says that the people and their rulers acted in ignorance."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Et maintenant, frères, je sais que vous avez agi par ignorance, ainsi que vos chefs. » Pierre ne nie pas leur faute, mais il les appelle « frères » et ouvre la porte à la repentance.",
+      "en": "“And now, brethren, I wot that through ignorance ye did it, as did also your rulers.” Peter does not deny their guilt, but he calls them “brethren” and opens the way to repentance."
+     },
+     "ref": "44:3:17"
+    },
+    {
+     "id": "repentance-peter-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 19, dans quel but faut-il se repentir et se convertir ?",
+      "en": "According to verse 19, for what purpose should they repent and be converted?"
+     },
+     "choices": {
+      "fr": [
+       "Pour être admis dans le temple",
+       "Pour que leurs péchés soient effacés",
+       "Pour échapper aux autorités",
+       "Pour recevoir à leur tour le pouvoir de guérir"
+      ],
+      "en": [
+       "To be admitted into the temple",
+       "That their sins may be blotted out",
+       "To escape the authorities",
+       "To receive the power to heal in their turn"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Repentez-vous donc et convertissez-vous, pour que vos péchés soient effacés, afin que des temps de rafraîchissement viennent de la part du Seigneur ». « Effacer » évoque une dette ou une écriture qu'on raye.",
+      "en": "“Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord”. To blot out is to wipe away something written, such as a record of debt."
+     },
+     "ref": "44:3:19"
+    },
+    {
+     "id": "repentance-peter-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Pierre, qu'est-ce que Dieu avait annoncé d'avance par tous ses prophètes ?",
+      "en": "According to Peter, what had God foretold by the mouth of all his prophets?"
+     },
+     "choices": {
+      "fr": [
+       "Que son Christ devait souffrir",
+       "Que le temple serait rebâti",
+       "Que Rome serait vaincue",
+       "Que les apôtres feraient des miracles"
+      ],
+      "en": [
+       "That his Christ should suffer",
+       "That the temple would be rebuilt",
+       "That Rome would be defeated",
+       "That the apostles would work miracles"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Mais Dieu a accompli de la sorte ce qu'il avait annoncé d'avance par la bouche de tous ses prophètes, que son Christ devait souffrir. » « Christ » signifie « oint », comme l'hébreu « Messie ».",
+      "en": "“But those things, which God before had shewed by the mouth of all his prophets, that Christ should suffer, he hath so fulfilled.” “Christ” means “anointed”, like the Hebrew word Messiah."
+     },
+     "ref": "44:3:18"
+    }
+   ]
+  },
+  {
+   "id": "repentance-sorrow",
+   "title": {
+    "fr": "La tristesse selon Dieu",
+    "en": "Godly sorrow"
+   },
+   "passages": [
+    "47:7:5-11"
+   ],
+   "intro": {
+    "fr": "Paul avait écrit aux Corinthiens une lettre sévère, « avec beaucoup de larmes » (2 Corinthiens 2:4). Inquiet de leur réaction, il attend des nouvelles en Macédoine.",
+    "en": "Paul had written the Corinthians a severe letter “with many tears” (2 Corinthians 2:4). Anxious about their reaction, he waits for news in Macedonia."
+   },
+   "keyVerse": "47:7:10",
+   "takeaway": {
+    "fr": "Paul distingue deux tristesses : la tristesse selon Dieu, qui produit une repentance à salut, et la tristesse du monde, qui produit la mort. Il se réjouit que la tristesse des Corinthiens les ait conduits à la repentance.",
+    "en": "Paul distinguishes two kinds of sorrow: godly sorrow, which works repentance to salvation, and the sorrow of the world, which works death. He rejoices that the Corinthians' sorrow led them to repentance."
+   },
+   "questions": [
+    {
+     "id": "repentance-sorrow-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Par l'arrivée de qui Dieu a-t-il consolé Paul en Macédoine ?",
+      "en": "By whose arrival did God comfort Paul in Macedonia?"
+     },
+     "choices": {
+      "fr": [
+       "Timothée",
+       "Silas",
+       "Barnabas",
+       "Tite"
+      ],
+      "en": [
+       "Timothy",
+       "Silas",
+       "Barnabas",
+       "Titus"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Mais Dieu, qui console ceux qui sont abattus, nous a consolés par l'arrivée de Tite ». Tite apportait des nouvelles de Corinthe.",
+      "en": "“Nevertheless God, that comforteth those that are cast down, comforted us by the coming of Titus”. Titus brought news from Corinth."
+     },
+     "ref": "47:7:6"
+    },
+    {
+     "id": "repentance-sorrow-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce que Tite a raconté à Paul au sujet des Corinthiens ?",
+      "en": "What did Titus tell Paul about the Corinthians?"
+     },
+     "choices": {
+      "fr": [
+       "Leur colère persistante contre lui",
+       "Leur désir ardent et leurs larmes",
+       "Leur indifférence à sa lettre",
+       "Leur projet de rompre avec lui"
+      ],
+      "en": [
+       "Their lasting anger against him",
+       "Their longing and their mourning",
+       "Their indifference to his letter",
+       "Their plan to break with him"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Il nous a raconté votre ardent désir, vos larmes, votre zèle pour moi, en sorte que ma joie a été d'autant plus grande. » Là où la Segond dit larmes, la King James parle de deuil (mourning).",
+      "en": "“He told us your earnest desire, your mourning, your fervent mind toward me; so that I rejoiced the more.”"
+     },
+     "ref": "47:7:7"
+    },
+    {
+     "id": "repentance-sorrow-3",
+     "kind": "choice",
+     "q": {
+      "fr": "De quoi Paul se réjouit-il, selon le verset 9 ?",
+      "en": "According to verse 9, what does Paul rejoice over?"
+     },
+     "choices": {
+      "fr": [
+       "Qu'ils aient été attristés",
+       "Qu'ils lui aient écrit en retour",
+       "Que leur tristesse les ait portés à la repentance",
+       "Qu'ils aient puni sévèrement tous ses adversaires"
+      ],
+      "en": [
+       "That they were made sorry",
+       "That they wrote back to him",
+       "That their sorrow led them to repentance",
+       "That they severely punished all his opponents"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Je me réjouis à cette heure, non pas de ce que vous avez été attristés, mais de ce que votre tristesse vous a portés à la repentance ». Paul précise bien que la tristesse elle-même n'est pas ce qui le réjouit.",
+      "en": "“Now I rejoice, not that ye were made sorry, but that ye sorrowed to repentance”. Paul makes clear that the sorrow itself is not what makes him glad."
+     },
+     "ref": "47:7:9"
+    },
+    {
+     "id": "repentance-sorrow-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 10, que produit la tristesse selon Dieu ?",
+      "en": "According to verse 10, what does godly sorrow work?"
+     },
+     "choices": {
+      "fr": [
+       "Une repentance à salut",
+       "Le découragement",
+       "La mort",
+       "L'oubli de la faute"
+      ],
+      "en": [
+       "Repentance to salvation",
+       "Discouragement",
+       "Death",
+       "Forgetting the wrong"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« La tristesse selon Dieu produit une repentance à salut dont on ne se repent jamais, tandis que la tristesse du monde produit la mort. » Paul oppose deux tristesses et leurs fruits.",
+      "en": "“For godly sorrow worketh repentance to salvation not to be repented of: but the sorrow of the world worketh death.” Paul contrasts two kinds of sorrow and what each produces."
+     },
+     "ref": "47:7:10"
+    },
+    {
+     "id": "repentance-sorrow-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Paul, toute tristesse conduit à la repentance.",
+      "en": "According to Paul, every kind of sorrow leads to repentance."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Paul distingue : la tristesse selon Dieu produit la repentance, mais « la tristesse du monde produit la mort ».",
+      "en": "Paul makes a distinction: godly sorrow works repentance, but “the sorrow of the world worketh death.”"
+     },
+     "ref": "47:7:10"
+    },
+    {
+     "id": "repentance-sorrow-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Parmi ces dispositions, laquelle Paul cite-t-il comme produite chez les Corinthiens par la tristesse selon Dieu ?",
+      "en": "Which of these does Paul list as produced in the Corinthians by godly sorrow?"
+     },
+     "choices": {
+      "fr": [
+       "L'orgueil",
+       "La paresse",
+       "La jalousie",
+       "Le zèle"
+      ],
+      "en": [
+       "Pride",
+       "Laziness",
+       "Jealousy",
+       "Zeal"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Cette même tristesse selon Dieu, quel empressement n'a-t-elle pas produit en vous! Quelle justification, quelle indignation, quelle crainte, quel désir ardent, quel zèle, quelle punition! » La repentance se voit à ce qu'elle produit.",
+      "en": "“That ye sorrowed after a godly sort, what carefulness it wrought in you, yea, what clearing of yourselves, yea, what indignation, yea, what fear, yea, what vehement desire, yea, what zeal”. Repentance shows itself in what it produces."
+     },
+     "ref": "47:7:11"
+    }
+   ]
+  },
+  {
+   "id": "repentance-patience",
+   "title": {
+    "fr": "La patience du Seigneur",
+    "en": "The longsuffering of the Lord"
+   },
+   "passages": [
+    "61:3:8-15"
+   ],
+   "intro": {
+    "fr": "Pierre répond à des moqueurs qui disent : « Où est la promesse de son avènement? » (2 Pierre 3:4). Il explique pourquoi le jour du Seigneur semble tarder.",
+    "en": "Peter answers scoffers who say, “Where is the promise of his coming?” (2 Peter 3:4). He explains why the day of the Lord seems slow to come."
+   },
+   "keyVerse": "61:3:9",
+   "takeaway": {
+    "fr": "Selon Pierre, le Seigneur ne tarde pas : il use de patience, ne voulant pas qu'aucun périsse, mais que tous arrivent à la repentance. Il invite à considérer cette patience comme le salut.",
+    "en": "According to Peter, the Lord is not slack: he is longsuffering, not willing that any should perish, but that all should come to repentance. He urges readers to count this patience as salvation."
+   },
+   "questions": [
+    {
+     "id": "repentance-patience-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, devant le Seigneur, un jour est comme combien d'années ?",
+      "en": "According to verse 8, with the Lord one day is as how many years?"
+     },
+     "choices": {
+      "fr": [
+       "Cent ans",
+       "Mille ans",
+       "Quarante ans",
+       "Sept ans"
+      ],
+      "en": [
+       "A hundred years",
+       "A thousand years",
+       "Forty years",
+       "Seven years"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Devant le Seigneur, un jour est comme mille ans, et mille ans sont comme un jour. » La même idée se trouve au Psaume 90:4 : « mille ans sont, à tes yeux, Comme le jour d'hier ».",
+      "en": "“One day is with the Lord as a thousand years, and a thousand years as one day.” The same idea appears in Psalm 90:4: “a thousand years in thy sight are but as yesterday”."
+     },
+     "ref": "61:3:8"
+    },
+    {
+     "id": "repentance-patience-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Pierre, pourquoi le Seigneur semble-t-il tarder ?",
+      "en": "According to Peter, why does the Lord seem slow?"
+     },
+     "choices": {
+      "fr": [
+       "Il a oublié sa promesse",
+       "Il n'a pas encore fixé de date",
+       "Il use de patience envers eux",
+       "Il attend que le temple soit rebâti"
+      ],
+      "en": [
+       "He has forgotten his promise",
+       "He has not yet set a date",
+       "He is being patient with them",
+       "He is waiting for the temple to be rebuilt"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Le Seigneur ne tarde pas dans l'accomplissement de la promesse, comme quelques-uns le croient; mais il use de patience envers vous ». Ce qui ressemble à un retard est de la patience.",
+      "en": "“The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward”. What looks like delay is patience."
+     },
+     "ref": "61:3:9"
+    },
+    {
+     "id": "repentance-patience-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, que veut le Seigneur ?",
+      "en": "According to verse 9, what does the Lord want?"
+     },
+     "choices": {
+      "fr": [
+       "Que le jour vienne au plus vite",
+       "Que tous arrivent à la repentance",
+       "Que les moqueurs soient punis",
+       "Que seuls les justes soient épargnés"
+      ],
+      "en": [
+       "That the day come as soon as possible",
+       "That all should come to repentance",
+       "That the scoffers be punished",
+       "That only the righteous be spared"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Il use de patience, « ne voulant pas qu'aucun périsse, mais voulant que tous arrivent à la repentance ». La patience de Dieu laisse le temps de revenir à lui.",
+      "en": "He is longsuffering, “not willing that any should perish, but that all should come to repentance.” God's patience leaves time to turn back to him."
+     },
+     "ref": "61:3:9"
+    },
+    {
+     "id": "repentance-patience-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment viendra le jour du Seigneur, selon le verset 10 ?",
+      "en": "How will the day of the Lord come, according to verse 10?"
+     },
+     "choices": {
+      "fr": [
+       "Comme un voleur",
+       "Comme l'aurore",
+       "Comme un roi en cortège",
+       "Comme la pluie du printemps"
+      ],
+      "en": [
+       "As a thief",
+       "As the dawn",
+       "As a king in procession",
+       "As the spring rain"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Le jour du Seigneur viendra comme un voleur ». L'image dit qu'il viendra sans prévenir ; la King James ajoute : dans la nuit (in the night). Jésus emploie la même image (Matthieu 24:43-44).",
+      "en": "“But the day of the Lord will come as a thief in the night”. The image means it will come without warning. Jesus uses the same image (Matthew 24:43-44)."
+     },
+     "ref": "61:3:10"
+    },
+    {
+     "id": "repentance-patience-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 13, qu'attendent les croyants d'après la promesse ?",
+      "en": "According to verse 13, what do believers look for according to the promise?"
+     },
+     "choices": {
+      "fr": [
+       "Le rétablissement du royaume d'Israël à Jérusalem",
+       "Un temple reconstruit",
+       "De nouveaux cieux et une nouvelle terre",
+       "La fin de l'Empire romain"
+      ],
+      "en": [
+       "The restoration of the kingdom of Israel in Jerusalem",
+       "A rebuilt temple",
+       "New heavens and a new earth",
+       "The fall of the Roman Empire"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Nous attendons, selon sa promesse, de nouveaux cieux et une nouvelle terre, où la justice habitera. » Cette promesse se trouve déjà en Esaïe 65:17.",
+      "en": "“We, according to his promise, look for new heavens and a new earth, wherein dwelleth righteousness.” This promise is already found in Isaiah 65:17."
+     },
+     "ref": "61:3:13"
+    },
+    {
+     "id": "repentance-patience-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Pierre invite-t-il à considérer la patience du Seigneur ?",
+      "en": "How does Peter tell his readers to regard the Lord's patience?"
+     },
+     "choices": {
+      "fr": [
+       "Comme un signe d'indifférence",
+       "Comme une faiblesse",
+       "Comme la preuve qu'il ne viendra pas",
+       "Comme leur salut"
+      ],
+      "en": [
+       "As a sign of indifference",
+       "As a weakness",
+       "As proof that he will not come",
+       "As salvation"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Croyez que la patience de notre Seigneur est votre salut, comme notre bien-aimé frère Paul vous l'a aussi écrit ». Pierre se réfère ici aux lettres de Paul.",
+      "en": "“And account that the longsuffering of our Lord is salvation; even as our beloved brother Paul also […] hath written unto you”. Peter refers here to Paul's letters."
+     },
+     "ref": "61:3:15"
+    }
+   ]
+  }
+ ]
+}

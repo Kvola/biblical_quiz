@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../bible/bible.dart';
+import '../../content/content.dart';
 import '../../content/models.dart';
 import '../../core/books.dart';
 import '../../core/theme.dart';
@@ -9,7 +10,9 @@ import '../../core/verse_ref.dart';
 import '../../domain/quiz_session.dart';
 import '../../providers.dart';
 import '../common.dart';
+import '../launchers.dart';
 import '../widgets/passage_view.dart';
+import '../widgets/printed_note.dart';
 import '../widgets/verse_sheet.dart';
 import 'quiz_view.dart';
 import 'result_view.dart';
@@ -216,6 +219,7 @@ class _ResultStage extends ConsumerWidget {
                     refLabel(lesson.keyVerse, lang),
                     style: TextStyle(fontWeight: FontWeight.w700, color: Theme.of(context).colorScheme.primary),
                   ),
+                  PrintedRefNote(lesson.keyVerse),
                 ],
               ),
             ),
@@ -242,6 +246,8 @@ class _ResultStage extends ConsumerWidget {
           ),
           const SizedBox(height: 10),
         ],
+        // Dernière leçon du parcours : le bilan, puis le parcours suivant de la section.
+        if (next == null && content != null) ..._endOfPath(context, ref, content, lesson),
         OutlinedButton(onPressed: onReread, child: Text(l.rereadPassage)),
         const SizedBox(height: 10),
         if (next == null)
@@ -251,4 +257,56 @@ class _ResultStage extends ConsumerWidget {
       ],
     );
   }
+}
+
+List<Widget> _endOfPath(BuildContext context, WidgetRef ref, Content content, Lesson lesson) {
+  final l = context.l10n;
+  final lang = context.lang;
+  final path = content.path(lesson.pathId);
+  if (path == null) return const [];
+  // Le résultat de cette leçon s'enregistre en ce moment : on la compte comme faite.
+  final completed = {...ref.watch(completedProvider), lesson.id};
+  final nextPath = content.nextPathInGroup(path.id, completed);
+  final first = nextPath == null ? null : content.nextInPath(nextPath.id, completed);
+  return [
+    FilledButton.tonal(
+      onPressed: () => openPathReview(context, path),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 6),
+        child: Column(
+          children: [
+            Text(l.pathReviewAction),
+            Text(
+              l.pathReviewSubtitle(pathReviewCount(path)),
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w400),
+            ),
+          ],
+        ),
+      ),
+    ),
+    const SizedBox(height: 10),
+    if (nextPath != null && first != null) ...[
+      FilledButton(
+        onPressed: () {
+          ref.read(settingsRepoProvider).setLastPath(first.pathId);
+          Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => LessonScreen(lesson: first)));
+        },
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 6),
+          child: Column(
+            children: [
+              Text(l.nextPath),
+              Text(
+                '${nextPath.title.of(lang)} — ${first.title.of(lang)}',
+                textAlign: TextAlign.center,
+                style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w400),
+              ),
+            ],
+          ),
+        ),
+      ),
+      const SizedBox(height: 10),
+    ],
+  ];
 }

@@ -9,6 +9,7 @@ import '../../core/theme.dart';
 import '../../core/verse_ref.dart';
 import '../../providers.dart';
 import '../common.dart';
+import 'printed_note.dart';
 
 /// Ouvre une feuille qui montre une référence et propose copier / partager / mettre de côté.
 Future<void> showVerseSheet(BuildContext context, VerseRef ref) => showModalBottomSheet<void>(
@@ -53,6 +54,7 @@ class VerseSheet extends ConsumerWidget {
               '${refLabel(verseRef, context.lang)} · ${t.shortName}',
               style: Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
             ),
+            PrintedRefNote(verseRef, padding: const EdgeInsets.only(top: 4)),
             const SizedBox(height: 12),
             for (final v in b.passage(verseRef))
               Padding(

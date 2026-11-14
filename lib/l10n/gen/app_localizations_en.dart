@@ -252,6 +252,88 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String printedRef(String ref) {
+    return 'Printed Segond: $ref';
+  }
+
+  @override
+  String get printedNoteTitle => 'Verse numbers';
+
+  @override
+  String get printedNoteBody =>
+      'Verse numbers in the app follow the King James Version, so that French and English share the same references.\n\nMany printed French Segond Bibles number a few passages differently. In the Psalms especially, the psalm’s title often counts as verse 1: Psalm 19:7 in the app is Psalm 19:8 in a printed Segond.\n\nWhen that happens, the app also shows the printed Segond number.';
+
+  @override
+  String get printedChapterBanner =>
+      'In a printed Segond, the verses of this chapter are numbered differently. Tap a verse to see its printed number.';
+
+  @override
+  String get printedMore => 'Learn more';
+
+  @override
+  String updateAvailable(String version) {
+    return 'Version $version available';
+  }
+
+  @override
+  String updateRequired(String version) {
+    return 'Update required: version $version';
+  }
+
+  @override
+  String get updateRequiredHint =>
+      'This version is no longer supported: install the new one to continue.';
+
+  @override
+  String get updateDownload => 'Download';
+
+  @override
+  String get updateLater => 'Later';
+
+  @override
+  String get webInstallTitle => 'Install the Android app';
+
+  @override
+  String get webInstallBody =>
+      'Smoother every day, and your data no longer depends on the browser.';
+
+  @override
+  String get webInstallAction => 'Install';
+
+  @override
+  String get homeScreenTitle => 'Add the app to your Home Screen';
+
+  @override
+  String get homeScreenBody =>
+      'Tap Share (the square with an arrow), then “Add to Home Screen”. The app will open full screen and your data will be kept more reliably.';
+
+  @override
+  String get homeScreenDismiss => 'Got it';
+
+  @override
+  String get pathReviewTitle => 'Path review';
+
+  @override
+  String pathReviewSubtitle(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count questions',
+      one: '1 question',
+    );
+    return '$_temp0 from every lesson in the path';
+  }
+
+  @override
+  String get pathReviewHint => 'Best once you have finished the lessons';
+
+  @override
+  String get pathReviewAction => 'Take the path review';
+
+  @override
+  String get nextPath => 'Next path';
+
+  @override
   String get next => 'Next';
 
   @override
@@ -756,44 +838,4 @@ class AppLocalizationsEn extends AppLocalizations {
     );
     return '$_temp0';
   }
-
-  @override
-  String updateAvailable(String version) {
-    return 'Version $version available';
-  }
-
-  @override
-  String updateRequired(String version) {
-    return 'Update required: version $version';
-  }
-
-  @override
-  String get updateRequiredHint =>
-      'This version is no longer supported: install the new one to continue.';
-
-  @override
-  String get updateDownload => 'Download';
-
-  @override
-  String get updateLater => 'Later';
-
-  @override
-  String get webInstallTitle => 'Install the Android app';
-
-  @override
-  String get webInstallBody =>
-      'Smoother every day, and your data no longer depends on the browser.';
-
-  @override
-  String get webInstallAction => 'Install';
-
-  @override
-  String get homeScreenTitle => 'Add the app to your Home Screen';
-
-  @override
-  String get homeScreenBody =>
-      'Tap Share (the square with an arrow), then “Add to Home Screen”. The app will open full screen and your data will be kept more reliably.';
-
-  @override
-  String get homeScreenDismiss => 'Got it';
 }

@@ -21,7 +21,11 @@ Content loadContent() {
       .cast<Map<String, dynamic>>()
       .map(BookInfo.parse)
       .toList();
-  return Content(paths, books);
+  final groups = (jsonDecode(File('assets/content/groups.json').readAsStringSync()) as List)
+      .cast<Map<String, dynamic>>()
+      .map(PathGroup.parse)
+      .toList();
+  return Content(paths, books, groups);
 }
 
 void main() {
@@ -99,6 +103,49 @@ void main() {
     final first = content.paths.first.lessons.first;
     expect(content.suggestedNext({}, null)?.id, first.id);
     expect(content.suggestedNext({first.id}, null)?.id, content.paths.first.lessons[1].id);
+  });
+
+  test('groupes : chaque parcours a un groupe connu, et chacun apparaît une seule fois', () {
+    expect(content.groups, isNotEmpty);
+    final known = {for (final g in content.groups) g.id};
+    for (final p in content.paths) {
+      expect(known, contains(p.group), reason: p.id);
+    }
+    final listed = [for (final g in content.groups) ...content.pathsOf(g).map((p) => p.id)];
+    expect(listed, [for (final p in content.paths) p.id], reason: 'tous, dans l\'ordre, sans doublon');
+    // « Le chemin de la foi » : les parcours se suivent dans l'ordre logique.
+    final way = content.groups.firstWhere((g) => g.id == 'faith-way');
+    expect(content.pathsOf(way).map((p) => p.id), ['sin', 'law', 'repentance', 'justice', 'new-birth', 'faith-life']);
+  });
+
+  test('groupes : un parcours au groupe inconnu reste visible (dans le dernier groupe)', () {
+    final lost = LearningPath(
+      id: 'x', order: 99, icon: 'spa', title: const LText('x', 'x'), description: const LText('x', 'x'),
+      lessons: const [], group: 'inconnu',
+    );
+    final c = Content([...content.paths, lost], content.books, content.groups);
+    expect(c.pathsOf(c.groups.last).map((p) => p.id), contains('x'));
+    expect(c.pathsOf(c.groups.first).map((p) => p.id), isNot(contains('x')));
+  });
+
+  test('chemin de la foi : un parcours fini mène au suivant de la section', () {
+    Set<String> done(List<String> pathIds) => {
+      for (final id in pathIds) ...content.path(id)!.lessons.map((l) => l.id),
+    };
+    // « Le péché » fini, dernier parcours ouvert : on propose « La loi », pas « Le grand récit ».
+    expect(content.nextPathInGroup('sin', done(['sin']))?.id, 'law');
+    expect(content.suggestedNext(done(['sin']), 'sin')?.id, content.path('law')!.lessons.first.id);
+    // Un parcours suivant déjà fini est sauté.
+    expect(content.nextPathInGroup('sin', done(['sin', 'law']))?.id, 'repentance');
+    // Dernier parcours de la section fini : on revient au premier non terminé de la section.
+    expect(content.nextPathInGroup('faith-life', done(['faith-life']))?.id, 'sin');
+    // Toute la section finie : rien dans la section, la suggestion repart du début.
+    final way = done(['sin', 'law', 'repentance', 'justice', 'new-birth', 'faith-life']);
+    expect(content.nextPathInGroup('faith-life', way), isNull);
+    expect(content.suggestedNext(way, 'faith-life')?.id, content.paths.first.lessons.first.id);
+    // Parcours en cours : on le continue.
+    final one = {content.path('law')!.lessons.first.id};
+    expect(content.suggestedNext(one, 'law')?.id, content.path('law')!.lessons[1].id);
   });
 
   test('défi des livres : bonne réponse = livre du verset', () {

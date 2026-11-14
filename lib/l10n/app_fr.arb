@@ -143,6 +143,55 @@
       }
     }
   },
+  "printedRef": "Segond imprimée : {ref}",
+  "@printedRef": {
+    "placeholders": {
+      "ref": {
+        "type": "String"
+      }
+    }
+  },
+  "printedNoteTitle": "Numéros des versets",
+  "printedNoteBody": "Les numéros de versets de l’application suivent ceux de la King James, pour que le français et l’anglais aient les mêmes références.\n\nBeaucoup de Bibles Segond imprimées numérotent quelques passages autrement. Dans les Psaumes surtout, le titre du psaume y compte souvent comme verset 1 : le Psaume 19:7 de l’application est le Psaume 19:8 dans votre Bible.\n\nQuand c’est le cas, l’application indique aussi le numéro de la Segond imprimée.",
+  "printedChapterBanner": "Dans une Segond imprimée, les versets de ce chapitre sont numérotés autrement. Touchez un verset pour voir son numéro sur papier.",
+  "printedMore": "En savoir plus",
+  "updateAvailable": "Version {version} disponible",
+  "@updateAvailable": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "updateRequired": "Mise à jour obligatoire : version {version}",
+  "@updateRequired": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "updateRequiredHint": "Cette version n’est plus prise en charge : installez la nouvelle pour continuer.",
+  "updateDownload": "Télécharger",
+  "updateLater": "Plus tard",
+  "webInstallTitle": "Installez l’application Android",
+  "webInstallBody": "Plus fluide au quotidien, et vos données ne dépendent plus du navigateur.",
+  "webInstallAction": "Installer",
+  "homeScreenTitle": "Ajoutez l’application à l’écran d’accueil",
+  "homeScreenBody": "Touchez Partager (le carré avec une flèche), puis « Sur l’écran d’accueil ». L’application s’ouvrira en plein écran et vos données seront mieux conservées.",
+  "homeScreenDismiss": "Compris",
+  "pathReviewTitle": "Bilan du parcours",
+  "pathReviewSubtitle": "{count, plural, =1{1 question tirée} other{{count} questions tirées}} de toutes les leçons du parcours",
+  "@pathReviewSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pathReviewHint": "Idéal une fois les leçons terminées",
+  "pathReviewAction": "Faire le bilan du parcours",
+  "nextPath": "Parcours suivant",
   "next": "Suivant",
   "seeResult": "Voir le résultat",
   "quitTitle": "Quitter ?",
@@ -438,30 +487,5 @@
         "type": "int"
       }
     }
-  },
-  "updateAvailable": "Version {version} disponible",
-  "@updateAvailable": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "updateRequired": "Mise à jour obligatoire : version {version}",
-  "@updateRequired": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "updateRequiredHint": "Cette version n’est plus prise en charge : installez la nouvelle pour continuer.",
-  "updateDownload": "Télécharger",
-  "updateLater": "Plus tard",
-  "webInstallTitle": "Installez l’application Android",
-  "webInstallBody": "Plus fluide au quotidien, et vos données ne dépendent plus du navigateur.",
-  "webInstallAction": "Installer",
-  "homeScreenTitle": "Ajoutez l’application à l’écran d’accueil",
-  "homeScreenBody": "Touchez Partager (le carré avec une flèche), puis « Sur l’écran d’accueil ». L’application s’ouvrira en plein écran et vos données seront mieux conservées.",
-  "homeScreenDismiss": "Compris"
+  }
 }

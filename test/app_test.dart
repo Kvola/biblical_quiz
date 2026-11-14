@@ -222,6 +222,64 @@ void main() {
     await teardown(tester, db);
   });
 
+  testWidgets('parcours groupés, bilan d’un parcours', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+    final db = await pumpApp(tester, settings: {'onboarded': '1'});
+    await waitFor(tester, find.text('Lire et répondre'));
+
+    await tester.tap(find.text('Parcours'));
+    await waitFor(tester, find.text('Découvrir la Bible'));
+    final list = find.byType(Scrollable).last;
+    await tester.scrollUntilVisible(find.text('Le chemin de la foi'), 400, scrollable: list);
+    await tester.scrollUntilVisible(find.text('La nouvelle naissance'), 300, scrollable: list);
+    await tester.tap(find.text('La nouvelle naissance'));
+    await settle(tester);
+
+    // En bas du parcours : le bilan, 10 questions tirées de toutes les leçons.
+    await tester.scrollUntilVisible(find.text('Bilan du parcours'), 300, scrollable: find.byType(Scrollable).last);
+    expect(find.textContaining('10 questions tirées de toutes les leçons'), findsOneWidget);
+    await tester.ensureVisible(find.text('Bilan du parcours'));
+    await settle(tester);
+    await tester.tap(find.text('Bilan du parcours'));
+    await waitFor(tester, find.text('Question 1 sur 10'));
+    expect(find.textContaining('Bilan du parcours — La nouvelle naissance'), findsOneWidget);
+    await teardown(tester, db);
+  });
+
+  testWidgets('Segond imprimée : numéros signalés en français, pas en anglais', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+    // Lecteur ouvert sur le Psaume 19 (titre compté comme verset 1 sur papier).
+    var db = await pumpApp(tester, settings: {'onboarded': '1', 'readerBook': '19', 'readerChapter': '19'});
+    await waitFor(tester, find.text('Lire et répondre'));
+    await tester.tap(find.text('Bible'));
+    await waitFor(tester, find.textContaining('Les cieux racontent'));
+    await waitFor(tester, find.textContaining('les versets de ce chapitre sont numérotés autrement'));
+
+    // Un verset touché : son numéro sur papier, et l'explication.
+    final verse = find.textContaining('La loi de l\'Eternel est parfaite', findRichText: true);
+    await tester.scrollUntilVisible(verse, 300, scrollable: find.byType(Scrollable).last);
+    await tester.tap(verse.first);
+    await waitFor(tester, find.text('Segond imprimée : Psaumes 19:8'));
+    await settle(tester);
+    await tester.tap(find.text('Segond imprimée : Psaumes 19:8').last, warnIfMissed: true);
+    await settle(tester);
+    await waitFor(tester, find.text('Numéros des versets'));
+    await teardown(tester, db);
+
+    // En anglais, la King James est la référence : rien à signaler.
+    db = await pumpApp(tester, settings: {'onboarded': '1', 'locale': 'en', 'readerBook': '19', 'readerChapter': '19'});
+    await waitFor(tester, find.text('Bible'));
+    await tester.tap(find.text('Bible'));
+    await waitFor(tester, find.textContaining('The heavens declare'));
+    await settle(tester);
+    expect(find.textContaining('numbered differently'), findsNothing);
+    await teardown(tester, db);
+  });
+
   testWidgets('l’anglais affiche la King James', (tester) async {
     // Téléphone en français, mais anglais choisi dans les réglages : le réglage l'emporte.
     final db = await pumpApp(tester, settings: {'locale': 'en', 'onboarded': '1'});

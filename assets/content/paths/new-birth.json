@@ -1,0 +1,1564 @@
+{
+ "id": "new-birth",
+ "order": 11,
+ "icon": "eco",
+ "group": "faith-way",
+ "title": {
+  "fr": "La nouvelle naissance",
+  "en": "The new birth"
+ },
+ "description": {
+  "fr": "« Il faut que vous naissiez de nouveau » : ce parcours suit ce que la Bible dit de la naissance qui vient de Dieu, du cœur que Dieu promet de renouveler, de la nouvelle créature en Christ et de ceux qu'elle appelle enfants de Dieu.",
+  "en": "“Ye must be born again”: this path follows what the Bible says about the birth that comes from God, the heart God promises to renew, the new creature in Christ, and those it calls children of God."
+ },
+ "lessons": [
+  {
+   "id": "new-birth-heart",
+   "title": {
+    "fr": "Un cœur circoncis",
+    "en": "A circumcised heart"
+   },
+   "passages": [
+    "5:30:1-10"
+   ],
+   "intro": {
+    "fr": "À la fin du Deutéronome, Moïse parle au peuple d'Israël dans les plaines de Moab, avant l'entrée dans le pays promis. Il envisage un temps où le peuple, après avoir connu la bénédiction et la malédiction, se retrouverait dispersé parmi les nations.",
+    "en": "Near the end of Deuteronomy, Moses speaks to the people of Israel in the plains of Moab, before they enter the promised land. He looks ahead to a time when the people, having known both the blessing and the curse, would find themselves scattered among the nations."
+   },
+   "keyVerse": "5:30:6",
+   "takeaway": {
+    "fr": "Moïse annonce que, si le peuple dispersé revient à l'Eternel, celui-ci le rassemblera et le ramènera dans le pays. Il promet que l'Eternel circoncira son cœur, pour qu'il l'aime de tout son cœur et qu'il vive.",
+    "en": "Moses announces that if the scattered people return to the Lord, he will gather them and bring them back to the land. He promises that the Lord will circumcise their heart, so that they love him with all their heart and live."
+   },
+   "questions": [
+    {
+     "id": "new-birth-heart-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 1, où se trouve le peuple lorsqu'il prend à cœur la bénédiction et la malédiction ?",
+      "en": "According to verse 1, where are the people when they call the blessing and the curse to mind?"
+     },
+     "choices": {
+      "fr": [
+       "Au pied du mont Sinaï",
+       "Dans le désert, avant d'entrer au pays",
+       "Parmi les nations où l'Eternel l'a chassé",
+       "Dans le temple de Jérusalem"
+      ],
+      "en": [
+       "At the foot of Mount Sinai",
+       "In the wilderness, before entering the land",
+       "Among the nations where the Lord has driven them",
+       "In the temple at Jerusalem"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Moïse parle de ce qui arrivera « au milieu de toutes les nations chez lesquelles l'Eternel, ton Dieu, t'aura chassé ». Il envisage un peuple déjà dispersé, loin de son pays.",
+      "en": "Moses speaks of what will happen “among all the nations, whither the Lord thy God hath driven thee.” He pictures a people already scattered, far from their land."
+     },
+     "ref": "5:30:1"
+    },
+    {
+     "id": "new-birth-heart-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 3, que fera l'Eternel si le peuple revient à lui ?",
+      "en": "According to verse 3, what will the Lord do if the people return to him?"
+     },
+     "choices": {
+      "fr": [
+       "Il lui donnera un roi comme aux autres nations",
+       "Il ramènera ses captifs et le rassemblera",
+       "Il lui donnera une loi nouvelle",
+       "Il lui enverra un prophète comme Moïse"
+      ],
+      "en": [
+       "He will give them a king like the other nations",
+       "He will turn their captivity and gather them",
+       "He will give them a new law",
+       "He will send them a prophet like Moses"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« L'Eternel, ton Dieu, ramènera tes captifs et aura compassion de toi, il te rassemblera encore du milieu de tous les peuples. » Le verset 5 ajoute qu'il le ramènera dans le pays de ses pères.",
+      "en": "“The Lord thy God will turn thy captivity, and have compassion upon thee, and will return and gather thee from all the nations.” Verse 5 adds that he will bring them back to the land of their fathers."
+     },
+     "ref": "5:30:3"
+    },
+    {
+     "id": "new-birth-heart-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 4, même exilé à l'autre extrémité du ciel, le peuple pourra être rassemblé par l'Eternel.",
+      "en": "According to verse 4, even if the people are driven out to the farthest parts of heaven, the Lord can gather them."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Quand tu serais exilé à l'autre extrémité du ciel, l'Eternel, ton Dieu, te rassemblera de là. » L'expression désigne les régions les plus lointaines : aucune distance n'est un obstacle.",
+      "en": "“If any of thine be driven out unto the outmost parts of heaven, from thence will the Lord thy God gather thee.” The phrase refers to the most distant regions: no distance is an obstacle."
+     },
+     "ref": "5:30:4"
+    },
+    {
+     "id": "new-birth-heart-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 6, que fera l'Eternel au cœur du peuple et de sa postérité ?",
+      "en": "According to verse 6, what will the Lord do to the heart of the people and of their descendants?"
+     },
+     "choices": {
+      "fr": [
+       "Il l'éprouvera",
+       "Il l'endurcira",
+       "Il le brisera",
+       "Il le circoncira"
+      ],
+      "en": [
+       "He will test it",
+       "He will harden it",
+       "He will break it",
+       "He will circumcise it"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« L'Eternel, ton Dieu, circoncira ton coeur et le coeur de ta postérité. » Plus haut, Moïse avait ordonné : « Vous circoncirez donc votre coeur » (Deutéronome 10:16) ; ici, c'est l'Eternel lui-même qui promet de le faire.",
+      "en": "“The Lord thy God will circumcise thine heart, and the heart of thy seed.” Earlier Moses had commanded: “Circumcise therefore the foreskin of your heart” (Deuteronomy 10:16); here the Lord himself promises to do it."
+     },
+     "ref": "5:30:6"
+    },
+    {
+     "id": "new-birth-heart-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 6, quel sera le résultat de ce que l'Eternel fera au cœur ?",
+      "en": "According to verse 6, what will result from what the Lord does to the heart?"
+     },
+     "choices": {
+      "fr": [
+       "Le peuple l'aimera de tout son cœur, et il vivra",
+       "Le peuple ne sera plus jamais chassé du pays",
+       "Le peuple saura toute la loi par cœur",
+       "Le peuple n'aura plus besoin de prophètes"
+      ],
+      "en": [
+       "The people will love him with all their heart, and live",
+       "The people will never again be driven from the land",
+       "The people will know the whole law by heart",
+       "The people will no longer need prophets"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Le verset poursuit : « et tu aimeras l'Eternel, ton Dieu, de tout ton coeur et de toute ton âme, afin que tu vives. » Le cœur circoncis est celui qui aime Dieu tout entier.",
+      "en": "The verse goes on: “to love the Lord thy God with all thine heart, and with all thy soul, that thou mayest live.” The circumcised heart is one that loves God wholly."
+     },
+     "ref": "5:30:6"
+    }
+   ]
+  },
+  {
+   "id": "new-birth-children",
+   "title": {
+    "fr": "Devenir enfants de Dieu",
+    "en": "Becoming children of God"
+   },
+   "passages": [
+    "43:1:9-14"
+   ],
+   "intro": {
+    "fr": "Jean ouvre son Évangile en présentant « la Parole », qui était au commencement avec Dieu et en qui était la vie, la lumière des hommes. Ce passage dit comment cette lumière a été accueillie lorsqu'elle est venue dans le monde.",
+    "en": "John opens his Gospel by introducing “the Word,” who was in the beginning with God and in whom was life, the light of men. This passage tells how that light was received when it came into the world."
+   },
+   "keyVerse": "43:1:12",
+   "takeaway": {
+    "fr": "Selon Jean, le monde n'a pas connu la Parole et les siens ne l'ont pas reçue ; mais ceux qui l'ont reçue, ceux qui croient en son nom, ont reçu le pouvoir de devenir enfants de Dieu, nés non du sang ni de la volonté humaine, mais de Dieu.",
+    "en": "According to John, the world did not know the Word and his own did not receive him; but those who received him, who believe on his name, were given power to become sons of God, born not of blood nor of human will, but of God."
+   },
+   "questions": [
+    {
+     "id": "new-birth-children-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 11, comment « les siens » ont-ils accueilli la Parole quand elle est venue chez eux ?",
+      "en": "According to verse 11, how did “his own” respond when the Word came to them?"
+     },
+     "choices": {
+      "fr": [
+       "Ils l'ont reconnue aussitôt",
+       "Ils ne l'ont point reçue",
+       "Ils l'ont annoncée aux nations",
+       "Ils l'ont suivie jusqu'au désert"
+      ],
+      "en": [
+       "They recognized him at once",
+       "They did not receive him",
+       "They proclaimed him to the nations",
+       "They followed him into the wilderness"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Elle est venue chez les siens, et les siens ne l'ont point reçue. » Le verset 10 dit déjà que « le monde ne l'a point connue », bien qu'il ait été fait par elle.",
+      "en": "“He came unto his own, and his own received him not.” Verse 10 already says that “the world knew him not,” although the world was made by him."
+     },
+     "ref": "43:1:11"
+    },
+    {
+     "id": "new-birth-children-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 12, qu'a-t-elle donné à tous ceux qui l'ont reçue ?",
+      "en": "According to verse 12, what did he give to all who received him?"
+     },
+     "choices": {
+      "fr": [
+       "Le pouvoir de faire des miracles",
+       "La connaissance de tous les mystères",
+       "Le pouvoir de devenir enfants de Dieu",
+       "Le droit d'entrer dans le sanctuaire"
+      ],
+      "en": [
+       "Power to work miracles",
+       "Knowledge of all mysteries",
+       "Power to become the sons of God",
+       "The right to enter the sanctuary"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Mais à tous ceux qui l'ont reçue, à ceux qui croient en son nom, elle a donné le pouvoir de devenir enfants de Dieu. » Ce qu'ils deviennent est un don de la Parole.",
+      "en": "“But as many as received him, to them gave he power to become the sons of God.” What they become is a gift from the Word."
+     },
+     "ref": "43:1:12"
+    },
+    {
+     "id": "new-birth-children-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment le verset 12 décrit-il ceux qui l'ont reçue ?",
+      "en": "How does verse 12 describe those who received him?"
+     },
+     "choices": {
+      "fr": [
+       "Ceux qui croient en son nom",
+       "Ceux qui descendent d'Abraham",
+       "Ceux qui l'ont vue de leurs yeux",
+       "Ceux qui observent toute la loi"
+      ],
+      "en": [
+       "Those who believe on his name",
+       "Those who descend from Abraham",
+       "Those who saw him with their own eyes",
+       "Those who keep the whole law"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Jean précise : « à ceux qui croient en son nom ». Recevoir la Parole et croire en son nom sont mis en parallèle dans le même verset.",
+      "en": "John specifies: “even to them that believe on his name.” Receiving the Word and believing on his name are set side by side in the same verse."
+     },
+     "ref": "43:1:12"
+    },
+    {
+     "id": "new-birth-children-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 13, de qui ou de quoi ces enfants de Dieu sont-ils nés ?",
+      "en": "According to verse 13, of whom or of what were these children of God born?"
+     },
+     "choices": {
+      "fr": [
+       "Du sang de leurs pères",
+       "De la volonté de la chair",
+       "De la volonté de l'homme",
+       "De Dieu"
+      ],
+      "en": [
+       "Of their fathers' blood",
+       "Of the will of the flesh",
+       "Of the will of man",
+       "Of God"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Ils sont nés « non du sang, ni de la volonté de la chair, ni de la volonté de l'homme, mais de Dieu ». Jean écarte trois origines humaines pour n'en garder qu'une.",
+      "en": "They were born “not of blood, nor of the will of the flesh, nor of the will of man, but of God.” John rules out three human origins and keeps only one."
+     },
+     "ref": "43:1:13"
+    },
+    {
+     "id": "new-birth-children-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 14, qu'est-il arrivé à la Parole ?",
+      "en": "According to verse 14, what happened to the Word?"
+     },
+     "choices": {
+      "fr": [
+       "Elle a été gravée sur des tables de pierre",
+       "Elle a été faite chair et a habité parmi nous",
+       "Elle est restée cachée aux sages et aux savants",
+       "Elle a été confiée aux seuls prophètes"
+      ],
+      "en": [
+       "He was engraved on tablets of stone",
+       "He was made flesh and dwelt among us",
+       "He remained hidden from the wise and prudent",
+       "He was entrusted to the prophets alone"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Et la parole a été faite chair, et elle a habité parmi nous, pleine de grâce et de vérité. » Celui qui donne de devenir enfants de Dieu est venu vivre parmi les hommes.",
+      "en": "“And the Word was made flesh, and dwelt among us… full of grace and truth.” The one who gives power to become sons of God came to live among men."
+     },
+     "ref": "43:1:14"
+    }
+   ]
+  },
+  {
+   "id": "new-birth-nicodemus",
+   "title": {
+    "fr": "Il faut naître de nouveau",
+    "en": "You must be born again"
+   },
+   "passages": [
+    "43:3:1-15"
+   ],
+   "intro": {
+    "fr": "Jésus est à Jérusalem, où il a accompli des miracles. Un pharisien, membre des autorités juives, vient lui parler ; la conversation porte sur ce qu'il faut pour voir le royaume de Dieu.",
+    "en": "Jesus is in Jerusalem, where he has done miracles. A Pharisee, one of the Jewish leaders, comes to speak with him; their conversation turns to what is needed to see the kingdom of God."
+   },
+   "keyVerse": "43:3:3",
+   "takeaway": {
+    "fr": "Jésus déclare à Nicodème qu'un homme qui ne naît de nouveau ne peut voir le royaume de Dieu, et compare celui qui est né de l'Esprit au vent. Il annonce que le Fils de l'homme doit être élevé comme le serpent dans le désert, afin que quiconque croit en lui ait la vie éternelle.",
+    "en": "Jesus tells Nicodemus that unless a man is born again he cannot see the kingdom of God, and compares one born of the Spirit to the wind. He announces that the Son of man must be lifted up like the serpent in the wilderness, so that whoever believes in him should have eternal life."
+   },
+   "questions": [
+    {
+     "id": "new-birth-nicodemus-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui est Nicodème, selon le verset 1 ?",
+      "en": "According to verse 1, who is Nicodemus?"
+     },
+     "choices": {
+      "fr": [
+       "Un publicain de Jéricho",
+       "Un centenier romain",
+       "Un pharisien, chef des Juifs",
+       "Un disciple de Jean-Baptiste"
+      ],
+      "en": [
+       "A tax collector from Jericho",
+       "A Roman centurion",
+       "A Pharisee, a ruler of the Jews",
+       "A disciple of John the Baptist"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Il y eut un homme d'entre les pharisiens, nommé Nicodème, un chef des Juifs. » Jésus l'appelle plus loin « le docteur d'Israël » (verset 10) : c'est un maître reconnu de la loi.",
+      "en": "“There was a man of the Pharisees, named Nicodemus, a ruler of the Jews.” Further on Jesus calls him “a master of Israel” (verse 10): he is a recognized teacher of the law."
+     },
+     "ref": "43:3:1"
+    },
+    {
+     "id": "new-birth-nicodemus-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Nicodème vient trouver Jésus de nuit.",
+      "en": "Nicodemus comes to Jesus by night."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Le verset 2 dit qu'il « vint, lui, auprès de Jésus, de nuit ». Il reconnaît en Jésus « un docteur venu de Dieu » à cause des miracles qu'il fait.",
+      "en": "Verse 2 says he “came to Jesus by night.” He acknowledges Jesus as “a teacher come from God” because of the miracles he does."
+     },
+     "ref": "43:3:2"
+    },
+    {
+     "id": "new-birth-nicodemus-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 3, qu'est-ce qu'un homme ne peut pas faire s'il ne naît de nouveau ?",
+      "en": "According to verse 3, what can a man not do unless he is born again?"
+     },
+     "choices": {
+      "fr": [
+       "Comprendre les Ecritures",
+       "Voir le royaume de Dieu",
+       "Prier comme il faut",
+       "Entrer dans le temple"
+      ],
+      "en": [
+       "Understand the Scriptures",
+       "See the kingdom of God",
+       "Pray as he ought",
+       "Enter the temple"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Si un homme ne naît de nouveau, il ne peut voir le royaume de Dieu. » Jésus répond ainsi à Nicodème, qui venait de parler de ses miracles.",
+      "en": "“Except a man be born again, he cannot see the kingdom of God.” This is how Jesus answers Nicodemus, who had just spoken of his miracles."
+     },
+     "ref": "43:3:3"
+    },
+    {
+     "id": "new-birth-nicodemus-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle question Nicodème pose-t-il en réponse, au verset 4 ?",
+      "en": "What question does Nicodemus ask in reply, in verse 4?"
+     },
+     "choices": {
+      "fr": [
+       "Comment un homme peut-il naître quand il est vieux ?",
+       "Quel signe montres-tu pour que nous croyions ?",
+       "Quel est le plus grand des commandements ?",
+       "Qui est mon prochain, selon la loi ?"
+      ],
+      "en": [
+       "How can a man be born when he is old?",
+       "What sign do you show, that we may believe?",
+       "Which is the greatest commandment?",
+       "Who is my neighbour, according to the law?"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Nicodème demande : « Comment un homme peut-il naître quand il est vieux? Peut-il rentrer dans le sein de sa mère et naître? » Sa question porte sur une seconde naissance physique.",
+      "en": "Nicodemus asks: “How can a man be born when he is old? can he enter the second time into his mother’s womb, and be born?” His question is about a second physical birth."
+     },
+     "ref": "43:3:4"
+    },
+    {
+     "id": "new-birth-nicodemus-5",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi Jésus compare-t-il tout homme qui est né de l'Esprit, au verset 8 ?",
+      "en": "In verse 8, what does Jesus compare everyone born of the Spirit to?"
+     },
+     "choices": {
+      "fr": [
+       "À une semence qui pousse en secret",
+       "À une lampe posée sur un chandelier",
+       "À un arbre qui porte de bons fruits",
+       "Au vent qui souffle où il veut"
+      ],
+      "en": [
+       "A seed that grows in secret",
+       "A lamp set on a lampstand",
+       "A tree that bears good fruit",
+       "The wind that blows where it will"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Le vent souffle où il veut, et tu en entends le bruit; mais tu ne sais d'où il vient, ni où il va. Il en est ainsi de tout homme qui est né de l'Esprit. » En grec, le même mot (pneuma) signifie « vent » et « esprit ».",
+      "en": "“The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit.” In Greek the same word (pneuma) means both “wind” and “spirit.”"
+     },
+     "ref": "43:3:8"
+    },
+    {
+     "id": "new-birth-nicodemus-6",
+     "kind": "choice",
+     "q": {
+      "fr": "À quel épisode de l'histoire d'Israël Jésus compare-t-il le fait que le Fils de l'homme doit être élevé ?",
+      "en": "To which event in Israel's history does Jesus compare the lifting up of the Son of man?"
+     },
+     "choices": {
+      "fr": [
+       "La manne tombée dans le désert",
+       "Le serpent élevé par Moïse dans le désert",
+       "Le bâton de Moïse levé sur la mer",
+       "L'arche portée autour de Jéricho"
+      ],
+      "en": [
+       "The manna that fell in the wilderness",
+       "The serpent Moses lifted up in the wilderness",
+       "Moses' rod raised over the sea",
+       "The ark carried around Jericho"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Comme Moïse éleva le serpent dans le désert, il faut de même que le Fils de l'homme soit élevé, afin que quiconque croit en lui ait la vie éternelle. » Dans Nombres 21:9, « quiconque avait été mordu par un serpent, et regardait le serpent d'airain, conservait la vie ».",
+      "en": "“As Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up.” In Numbers 21:9, “if a serpent had bitten any man, when he beheld the serpent of brass, he lived.”"
+     },
+     "ref": "43:3:14"
+    }
+   ]
+  },
+  {
+   "id": "new-birth-word",
+   "title": {
+    "fr": "Régénérés par la parole",
+    "en": "Born again by the word"
+   },
+   "passages": [
+    "60:1:22-2:3"
+   ],
+   "intro": {
+    "fr": "L'apôtre Pierre écrit à des chrétiens dispersés dans plusieurs provinces d'Asie Mineure. Il vient de leur rappeler qu'ils ont été rachetés par le sang précieux de Christ, et il en tire des conséquences pour leur vie commune.",
+    "en": "The apostle Peter writes to Christians scattered across several provinces of Asia Minor. He has just reminded them that they were redeemed with the precious blood of Christ, and he now draws out what this means for their life together."
+   },
+   "keyVerse": "60:1:23",
+   "takeaway": {
+    "fr": "Pierre écrit que ses lecteurs ont été régénérés par une semence incorruptible, la parole vivante et permanente de Dieu, annoncée par l'Evangile. Comme des nouveau-nés, ils doivent rejeter le mal et désirer le lait spirituel pour grandir.",
+    "en": "Peter writes that his readers have been born again of incorruptible seed, the living and abiding word of God, preached to them by the gospel. Like newborn babes, they are to lay aside evil and desire the pure milk so as to grow."
+   },
+   "questions": [
+    {
+     "id": "new-birth-word-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Au verset 22, à quoi Pierre exhorte-t-il ceux qui ont purifié leurs âmes ?",
+      "en": "In verse 22, what does Peter urge those who have purified their souls to do?"
+     },
+     "choices": {
+      "fr": [
+       "À fuir les villes des païens",
+       "À garder le silence devant leurs juges",
+       "À s'aimer ardemment les uns les autres",
+       "À attendre en repos le retour du Seigneur"
+      ],
+      "en": [
+       "To flee the cities of the Gentiles",
+       "To keep silent before their judges",
+       "To love one another fervently",
+       "To wait quietly for the Lord's return"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Pierre écrit : « aimez-vous ardemment les uns les autres, de tout votre coeur ». Ils ont purifié leurs âmes « pour avoir un amour fraternel sincère ».",
+      "en": "Peter writes: “see that ye love one another with a pure heart fervently.” They have purified their souls “unto unfeigned love of the brethren.”"
+     },
+     "ref": "60:1:22"
+    },
+    {
+     "id": "new-birth-word-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 23, par quoi les lecteurs de Pierre ont-ils été régénérés ?",
+      "en": "According to verse 23, by what have Peter's readers been born again?"
+     },
+     "choices": {
+      "fr": [
+       "Par la parole de Dieu",
+       "Par la tradition reçue de leurs pères",
+       "Par la sagesse et la force des hommes",
+       "Par une semence corruptible et périssable"
+      ],
+      "en": [
+       "By the word of God",
+       "By the tradition received from their fathers",
+       "By the wisdom and strength of men",
+       "By a corruptible, perishable seed"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Vous avez été régénérés, non par une semence corruptible, mais par une semence incorruptible, par la parole vivante et permanente de Dieu. » Pierre compare la parole à une semence qui ne périt pas.",
+      "en": "“Being born again, not of corruptible seed, but of incorruptible, by the word of God, which liveth and abideth for ever.” Peter compares the word to a seed that does not perish."
+     },
+     "ref": "60:1:23"
+    },
+    {
+     "id": "new-birth-word-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 24, à quoi « toute chair » est-elle comparée ?",
+      "en": "According to verse 24, what is “all flesh” compared to?"
+     },
+     "choices": {
+      "fr": [
+       "À la poussière du chemin",
+       "À l'ombre qui passe",
+       "À la fumée qui monte",
+       "À l'herbe"
+      ],
+      "en": [
+       "The dust of the road",
+       "A passing shadow",
+       "Rising smoke",
+       "Grass"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Toute chair est comme l'herbe, Et toute sa gloire comme la fleur de l'herbe. » Pierre reprend ici des paroles du prophète Esaïe (Esaïe 40:6-8).",
+      "en": "“All flesh is as grass, and all the glory of man as the flower of grass.” Peter is taking up words of the prophet Isaiah here (Isaiah 40:6-8)."
+     },
+     "ref": "60:1:24"
+    },
+    {
+     "id": "new-birth-word-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 25, qu'est-ce qui demeure éternellement ?",
+      "en": "According to verse 25, what endures for ever?"
+     },
+     "choices": {
+      "fr": [
+       "La gloire de l'homme",
+       "La parole du Seigneur",
+       "La fleur de l'herbe",
+       "Le temple de Jérusalem"
+      ],
+      "en": [
+       "The glory of man",
+       "The word of the Lord",
+       "The flower of the grass",
+       "The temple in Jerusalem"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "L'herbe sèche et la fleur tombe, « Mais la parole du Seigneur demeure éternellement. » Pierre ajoute : « cette parole est celle qui vous a été annoncée par l'Evangile ».",
+      "en": "The grass withers and the flower falls, “But the word of the Lord endureth for ever.” Peter adds: “this is the word which by the gospel is preached unto you.”"
+     },
+     "ref": "60:1:25"
+    },
+    {
+     "id": "new-birth-word-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 2:2, que doivent désirer les lecteurs, comme des enfants nouveau-nés ?",
+      "en": "According to 2:2, what are the readers to desire, as newborn babes?"
+     },
+     "choices": {
+      "fr": [
+       "Le pain descendu du ciel",
+       "La nourriture solide des adultes",
+       "Le lait spirituel et pur",
+       "Le vin nouveau du royaume"
+      ],
+      "en": [
+       "The bread that came down from heaven",
+       "The solid food of grown men",
+       "The sincere milk of the word",
+       "The new wine of the kingdom"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Désirez, comme des enfants nouveau-nés, le lait spirituel et pur, afin que par lui vous croissiez. » La King James parle ici du lait pur « de la parole » (of the word).",
+      "en": "“As newborn babes, desire the sincere milk of the word, that ye may grow thereby.” “Sincere” here means pure, unmixed."
+     },
+     "ref": "60:2:2"
+    }
+   ]
+  },
+  {
+   "id": "new-birth-mercy",
+   "title": {
+    "fr": "Selon sa miséricorde",
+    "en": "According to his mercy"
+   },
+   "passages": [
+    "56:3:3-8"
+   ],
+   "intro": {
+    "fr": "L'apôtre Paul écrit à Tite, son collaborateur, qu'il a laissé en Crète pour y mettre en ordre ce qui restait à régler. Juste avant ce passage, il lui demande de rappeler aux croyants d'être pleins de douceur envers tous les hommes.",
+    "en": "The apostle Paul writes to Titus, his co-worker, whom he had left in Crete to set in order what remained to be done. Just before this passage he asks him to remind believers to show all meekness toward all men."
+   },
+   "keyVerse": "56:3:5",
+   "takeaway": {
+    "fr": "Paul oppose ce que « nous » étions autrefois à ce que Dieu a fait quand sa bonté et son amour ont été manifestés : il nous a sauvés, non à cause de nos œuvres, mais selon sa miséricorde, afin que nous devenions héritiers de la vie éternelle. Il veut que ceux qui ont cru s'appliquent aux bonnes œuvres.",
+    "en": "Paul contrasts what “we” once were with what God did when his kindness and love appeared: he saved us, not by our works, but according to his mercy, so that we might become heirs of eternal life. He wants those who have believed to be careful to maintain good works."
+   },
+   "questions": [
+    {
+     "id": "new-birth-mercy-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Paul décrit-il ce que « nous » étions autrefois, au verset 3 ?",
+      "en": "In verse 3, how does Paul describe what “we” once were?"
+     },
+     "choices": {
+      "fr": [
+       "Pauvres, malades et méprisés",
+       "Insensés, désobéissants, égarés",
+       "Riches, puissants et orgueilleux",
+       "Faibles, craintifs et isolés"
+      ],
+      "en": [
+       "Poor, sick and despised",
+       "Foolish, disobedient, deceived",
+       "Rich, powerful and proud",
+       "Weak, fearful and alone"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Nous aussi, nous étions autrefois insensés, désobéissants, égarés, asservis à toute espèce de convoitises. » Paul s'inclut lui-même dans ce portrait.",
+      "en": "“For we ourselves also were sometimes foolish, disobedient, deceived, serving divers lusts and pleasures.” Paul includes himself in this description."
+     },
+     "ref": "56:3:3"
+    },
+    {
+     "id": "new-birth-mercy-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 4, qu'est-ce qui a été manifesté ?",
+      "en": "According to verse 4, what appeared?"
+     },
+     "choices": {
+      "fr": [
+       "La bonté de Dieu notre Sauveur et son amour pour les hommes",
+       "La colère de Dieu contre toutes les nations",
+       "La puissance des apôtres par des signes et des miracles",
+       "La sagesse cachée depuis les siècles aux philosophes"
+      ],
+      "en": [
+       "The kindness and love of God our Saviour toward man",
+       "The wrath of God against all the nations",
+       "The power of the apostles through signs and wonders",
+       "The wisdom hidden for ages from the philosophers"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Mais, lorsque la bonté de Dieu notre Sauveur et son amour pour les hommes ont été manifestés… » Le « mais » marque le contraste avec le portrait du verset 3.",
+      "en": "“But after that the kindness and love of God our Saviour toward man appeared…” The “but” marks the contrast with the description in verse 3."
+     },
+     "ref": "56:3:4"
+    },
+    {
+     "id": "new-birth-mercy-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 5, selon quoi Dieu nous a-t-il sauvés ?",
+      "en": "According to verse 5, according to what did God save us?"
+     },
+     "choices": {
+      "fr": [
+       "Selon les œuvres de justice que nous avions faites",
+       "Selon la fidélité de nos pères",
+       "Selon sa miséricorde",
+       "Selon notre connaissance de la loi"
+      ],
+      "en": [
+       "According to the works of righteousness we had done",
+       "According to our fathers' faithfulness",
+       "According to his mercy",
+       "According to our knowledge of the law"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Il nous a sauvés, non à cause des oeuvres de justice que nous aurions faites, mais selon sa miséricorde. » Le verset 4 parlait déjà de « la bonté de Dieu notre Sauveur et son amour pour les hommes ».",
+      "en": "“Not by works of righteousness which we have done, but according to his mercy he saved us.” Verse 4 has already spoken of “the kindness and love of God our Saviour toward man.”"
+     },
+     "ref": "56:3:5"
+    },
+    {
+     "id": "new-birth-mercy-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 6, comment le Saint-Esprit a-t-il été répandu sur nous ?",
+      "en": "According to verse 6, how was the Holy Spirit shed on us?"
+     },
+     "choices": {
+      "fr": [
+       "Avec mesure, par les prophètes",
+       "En songe, par des anges",
+       "Une seule fois, par Moïse",
+       "Avec abondance, par Jésus-Christ"
+      ],
+      "en": [
+       "Sparingly, through the prophets",
+       "In dreams, through angels",
+       "Once only, through Moses",
+       "Abundantly, through Jesus Christ"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Paul parle du Saint-Esprit « qu'il a répandu sur nous avec abondance par Jésus-Christ notre Sauveur ». Le même titre de Sauveur est donné à Dieu au verset 4 et à Jésus-Christ ici.",
+      "en": "Paul speaks of the Holy Ghost, “which he shed on us abundantly through Jesus Christ our Saviour.” The same title, Saviour, is given to God in verse 4 and to Jesus Christ here."
+     },
+     "ref": "56:3:6"
+    },
+    {
+     "id": "new-birth-mercy-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, que deviennent ceux qui sont justifiés par sa grâce ?",
+      "en": "According to verse 7, what do those justified by his grace become?"
+     },
+     "choices": {
+      "fr": [
+       "Juges des douze tribus d'Israël",
+       "Héritiers de la vie éternelle, en espérance",
+       "Gardiens fidèles de la loi de Moïse",
+       "Citoyens de la Jérusalem terrestre"
+      ],
+      "en": [
+       "Judges of the twelve tribes of Israel",
+       "Heirs, according to the hope of eternal life",
+       "Faithful keepers of the law of Moses",
+       "Citizens of the earthly Jerusalem"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Afin que, justifiés par sa grâce, nous devenions, en espérance, héritiers de la vie éternelle. » Paul précise qu'ils sont héritiers « en espérance ».",
+      "en": "“That being justified by his grace, we should be made heirs according to the hope of eternal life.” Paul specifies that they are heirs “according to the hope” of eternal life."
+     },
+     "ref": "56:3:7"
+    },
+    {
+     "id": "new-birth-mercy-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Paul veut que Tite affirme ces choses afin que ceux qui ont cru en Dieu s'appliquent à pratiquer de bonnes œuvres.",
+      "en": "Paul wants Titus to affirm these things so that those who have believed in God will be careful to maintain good works."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Je veux que tu affirmes ces choses, afin que ceux qui ont cru en Dieu s'appliquent à pratiquer de bonnes oeuvres. » Paul ajoute : « Voilà ce qui est bon et utile aux hommes. »",
+      "en": "“These things I will that thou affirm constantly, that they which have believed in God might be careful to maintain good works.” Paul adds: “These things are good and profitable unto men.”"
+     },
+     "ref": "56:3:8"
+    }
+   ]
+  },
+  {
+   "id": "new-birth-creation",
+   "title": {
+    "fr": "Une nouvelle créature",
+    "en": "A new creature"
+   },
+   "passages": [
+    "47:5:14-21"
+   ],
+   "intro": {
+    "fr": "Dans sa deuxième lettre aux Corinthiens, Paul défend son ministère d'apôtre, que certains contestent à Corinthe. Il explique ici ce qui le pousse à agir et le message qu'il a reçu la charge d'annoncer.",
+    "en": "In his second letter to the Corinthians, Paul defends his ministry as an apostle, which some in Corinth were questioning. Here he explains what drives him and the message he has been charged to proclaim."
+   },
+   "keyVerse": "47:5:17",
+   "takeaway": {
+    "fr": "Paul écrit que si quelqu'un est en Christ, il est une nouvelle créature. Tout cela vient de Dieu, qui a réconcilié le monde avec lui-même en Christ et qui « nous » a donné le ministère de la réconciliation.",
+    "en": "Paul writes that if anyone is in Christ, he is a new creature. All this is from God, who reconciled the world to himself in Christ and gave “us” the ministry of reconciliation."
+   },
+   "questions": [
+    {
+     "id": "new-birth-creation-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 15, pour qui ceux qui vivent doivent-ils désormais vivre ?",
+      "en": "According to verse 15, for whom are those who live to live from now on?"
+     },
+     "choices": {
+      "fr": [
+       "Pour eux-mêmes et pour leur propre gloire",
+       "Pour leur famille, leur peuple et leur pays",
+       "Pour celui qui est mort et ressuscité pour eux",
+       "Pour la loi reçue de leurs pères"
+      ],
+      "en": [
+       "For themselves and their own glory",
+       "For their family, their people and their country",
+       "For him who died for them and rose again",
+       "For the law received from their fathers"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Christ est mort pour tous, « afin que ceux qui vivent ne vivent plus pour eux-mêmes, mais pour celui qui est mort et ressuscité pour eux ». Paul dit que c'est « l'amour de Christ » qui le presse.",
+      "en": "Christ died for all, “that they which live should not henceforth live unto themselves, but unto him which died for them, and rose again.” Paul says it is “the love of Christ” that constrains him."
+     },
+     "ref": "47:5:15"
+    },
+    {
+     "id": "new-birth-creation-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 17, si quelqu'un est en Christ, qu'est-il ?",
+      "en": "According to verse 17, what is anyone who is in Christ?"
+     },
+     "choices": {
+      "fr": [
+       "Une nouvelle créature",
+       "Un serviteur de la loi",
+       "Un fils d'Abraham selon la chair",
+       "Un étranger sur la terre"
+      ],
+      "en": [
+       "A new creature",
+       "A servant of the law",
+       "A son of Abraham after the flesh",
+       "A stranger on the earth"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Si quelqu'un est en Christ, il est une nouvelle créature. Les choses anciennes sont passées; voici, toutes choses sont devenues nouvelles. »",
+      "en": "“If any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new.”"
+     },
+     "ref": "47:5:17"
+    },
+    {
+     "id": "new-birth-creation-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 18, qu'est-ce que Dieu a donné à Paul et à ceux qui le servent avec lui ?",
+      "en": "According to verse 18, what has God given to Paul and those serving with him?"
+     },
+     "choices": {
+      "fr": [
+       "Le pouvoir de juger le monde",
+       "La garde des oracles de Dieu",
+       "Le ministère de la condamnation",
+       "Le ministère de la réconciliation"
+      ],
+      "en": [
+       "Power to judge the world",
+       "Keeping of the oracles of God",
+       "The ministry of condemnation",
+       "The ministry of reconciliation"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Tout cela vient de Dieu, qui nous a réconciliés avec lui par Christ, et qui nous a donné le ministère de la réconciliation. » Au verset 19, Paul ajoute que Dieu « a mis en nous la parole de la réconciliation ».",
+      "en": "“All things are of God, who hath reconciled us to himself by Jesus Christ, and hath given to us the ministry of reconciliation.” In verse 19 Paul adds that God “hath committed unto us the word of reconciliation.”"
+     },
+     "ref": "47:5:18"
+    },
+    {
+     "id": "new-birth-creation-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 19, comment Dieu réconciliait-il le monde avec lui-même en Christ ?",
+      "en": "According to verse 19, how was God reconciling the world to himself in Christ?"
+     },
+     "choices": {
+      "fr": [
+       "En n'imputant point aux hommes leurs offenses",
+       "En exigeant d'eux de nouveaux sacrifices",
+       "En leur donnant une loi plus parfaite",
+       "En châtiant les nations rebelles"
+      ],
+      "en": [
+       "By not imputing their trespasses to them",
+       "By requiring new sacrifices of them",
+       "By giving them a more perfect law",
+       "By punishing the rebellious nations"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Dieu était en Christ, réconciliant le monde avec lui-même, en n'imputant point aux hommes leurs offenses. » Imputer, c'est porter au compte de quelqu'un.",
+      "en": "“God was in Christ, reconciling the world unto himself, not imputing their trespasses unto them.” To impute is to charge something to someone's account."
+     },
+     "ref": "47:5:19"
+    },
+    {
+     "id": "new-birth-creation-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Au verset 20, comment Paul se désigne-t-il, avec ses compagnons ?",
+      "en": "In verse 20, what does Paul call himself and his companions?"
+     },
+     "choices": {
+      "fr": [
+       "Des juges pour Israël",
+       "Des ambassadeurs pour Christ",
+       "Des gardiens de la loi",
+       "Des bergers pour les nations"
+      ],
+      "en": [
+       "Judges for Israel",
+       "Ambassadors for Christ",
+       "Guardians of the law",
+       "Shepherds for the nations"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Nous faisons donc les fonctions d'ambassadeurs pour Christ, comme si Dieu exhortait par nous. » Leur message est : « Soyez réconciliés avec Dieu! »",
+      "en": "“Now then we are ambassadors for Christ, as though God did beseech you by us.” Their message is: “be ye reconciled to God.”"
+     },
+     "ref": "47:5:20"
+    },
+    {
+     "id": "new-birth-creation-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 21, celui que Dieu a fait devenir péché pour nous n'avait point connu le péché.",
+      "en": "According to verse 21, the one God made to be sin for us knew no sin."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Celui qui n'a point connu le péché, il l'a fait devenir péché pour nous, afin que nous devenions en lui justice de Dieu. » Paul souligne que Christ était sans péché.",
+      "en": "“For he hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him.” Paul stresses that Christ was without sin."
+     },
+     "ref": "47:5:21"
+    }
+   ]
+  },
+  {
+   "id": "new-birth-newman",
+   "title": {
+    "fr": "L'homme nouveau",
+    "en": "The new man"
+   },
+   "passages": [
+    "49:4:17-32"
+   ],
+   "intro": {
+    "fr": "Paul écrit aux chrétiens d'Ephèse, venus pour beaucoup du paganisme. Après avoir parlé de l'unité de l'Eglise, il en vient à la manière de vivre qui doit désormais les distinguer.",
+    "en": "Paul writes to the Christians at Ephesus, many of whom came from a pagan background. Having spoken of the unity of the church, he turns to the way of life that should now set them apart."
+   },
+   "keyVerse": "49:4:24",
+   "takeaway": {
+    "fr": "Paul demande aux Ephésiens de ne plus vivre comme les païens : ils ont appris à se dépouiller du vieil homme, à être renouvelés dans leur esprit et à revêtir l'homme nouveau, créé selon Dieu. Il en tire des conséquences concrètes : dire la vérité, travailler, parler avec bonté, se pardonner comme Dieu leur a pardonné.",
+    "en": "Paul asks the Ephesians not to live as the Gentiles do any longer: they have been taught to put off the old man, to be renewed in their mind and to put on the new man, created after God. He draws out concrete consequences: speaking the truth, working, speaking kindly, forgiving as God has forgiven them."
+   },
+   "questions": [
+    {
+     "id": "new-birth-newman-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 18, pourquoi les païens sont-ils étrangers à la vie de Dieu ?",
+      "en": "According to verse 18, why are the Gentiles alienated from the life of God?"
+     },
+     "choices": {
+      "fr": [
+       "À cause de leur ignorance et de l'endurcissement de leur cœur",
+       "Parce que personne ne leur a jamais annoncé la loi de Moïse",
+       "Parce qu'ils sont nés et ont grandi loin du pays d'Israël",
+       "À cause des persécutions qu'ils ont subies de la part des Juifs"
+      ],
+      "en": [
+       "Because of their ignorance and the blindness of their heart",
+       "Because no one ever told them of the law of Moses",
+       "Because they were born and raised far from the land of Israel",
+       "Because of the persecutions they have suffered from the Jews"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Ils sont « étrangers à la vie de Dieu, à cause de l'ignorance qui est en eux, à cause de l'endurcissement de leur coeur ». La King James parle de « blindness », l'aveuglement du cœur.",
+      "en": "They are “alienated from the life of God through the ignorance that is in them, because of the blindness of their heart.” The French Segond speaks of the heart's hardening."
+     },
+     "ref": "49:4:18"
+    },
+    {
+     "id": "new-birth-newman-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 22, de quoi les Ephésiens ont-ils appris à se dépouiller ?",
+      "en": "According to verse 22, what have the Ephesians been taught to put off?"
+     },
+     "choices": {
+      "fr": [
+       "De leurs biens et de leurs richesses",
+       "Des coutumes de leurs pères",
+       "Du vieil homme qui se corrompt",
+       "De la crainte de leurs ennemis"
+      ],
+      "en": [
+       "Their goods and their riches",
+       "The customs of their fathers",
+       "The old man, which is corrupt",
+       "The fear of their enemies"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Paul parle de se dépouiller « du vieil homme qui se corrompt par les convoitises trompeuses ». L'image est celle d'un vêtement qu'on enlève.",
+      "en": "They have been taught to “put off concerning the former conversation the old man, which is corrupt according to the deceitful lusts.” The picture is of a garment taken off."
+     },
+     "ref": "49:4:22"
+    },
+    {
+     "id": "new-birth-newman-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 24, comment l'homme nouveau est-il créé ?",
+      "en": "According to verse 24, how is the new man created?"
+     },
+     "choices": {
+      "fr": [
+       "À l'image des anges, dans la gloire du ciel",
+       "Par l'effort de l'homme, dans la force de la chair",
+       "Selon la tradition des anciens, dans la crainte",
+       "Selon Dieu, dans la justice et la sainteté"
+      ],
+      "en": [
+       "In the image of angels, in heavenly glory",
+       "By human effort, in the strength of the flesh",
+       "After the tradition of the elders, in fear",
+       "After God, in righteousness and holiness"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Il s'agit de « revêtir l'homme nouveau, créé selon Dieu dans une justice et une sainteté que produit la vérité ». À l'image du vêtement ôté répond celle du vêtement qu'on met.",
+      "en": "They are to “put on the new man, which after God is created in righteousness and true holiness.” The garment taken off is matched by a garment put on."
+     },
+     "ref": "49:4:24"
+    },
+    {
+     "id": "new-birth-newman-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Paul au sujet de la colère, au verset 26 ?",
+      "en": "What does Paul say about anger in verse 26?"
+     },
+     "choices": {
+      "fr": [
+       "Qu'il ne faut jamais l'éprouver",
+       "Que le soleil ne doit pas se coucher sur leur colère",
+       "Qu'elle doit être cachée à tous",
+       "Qu'elle est réservée aux ennemis de Dieu"
+      ],
+      "en": [
+       "That it must never be felt",
+       "That the sun must not go down on their anger",
+       "That it must be hidden from everyone",
+       "That it is reserved for God's enemies"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Si vous vous mettez en colère, ne péchez point; que le soleil ne se couche pas sur votre colère. » Paul n'interdit pas toute colère, mais demande qu'elle ne mène pas au péché et ne dure pas.",
+      "en": "“Be ye angry, and sin not: let not the sun go down upon your wrath.” Paul does not forbid all anger, but asks that it not lead to sin nor last."
+     },
+     "ref": "49:4:26"
+    },
+    {
+     "id": "new-birth-newman-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 28, pourquoi celui qui dérobait doit-il travailler de ses mains ?",
+      "en": "According to verse 28, why should the one who used to steal work with his hands?"
+     },
+     "choices": {
+      "fr": [
+       "Pour rendre le double de ce qu'il a pris à son prochain",
+       "Pour ne plus dépendre de personne pour vivre",
+       "Pour gagner le respect des païens qui l'entourent",
+       "Pour avoir de quoi donner à celui qui est dans le besoin"
+      ],
+      "en": [
+       "To pay back double what he took from his neighbour",
+       "So as to depend on no one for his living",
+       "To earn the respect of the Gentiles around him",
+       "To have something to give to him who is in need"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Qu'il travaille, en faisant de ses mains ce qui est bien, pour avoir de quoi donner à celui qui est dans le besoin. » Celui qui prenait devient celui qui donne.",
+      "en": "“Let him labour, working with his hands the thing which is good, that he may have to give to him that needeth.” The one who took becomes one who gives."
+     },
+     "ref": "49:4:28"
+    },
+    {
+     "id": "new-birth-newman-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 32, sur quel modèle les Ephésiens doivent-ils se pardonner ?",
+      "en": "According to verse 32, on what model are the Ephesians to forgive one another?"
+     },
+     "choices": {
+      "fr": [
+       "Comme Moïse a pardonné au peuple au désert",
+       "Comme Dieu leur a pardonné en Christ",
+       "Comme les anciens le leur ont enseigné",
+       "Comme Joseph a pardonné à ses frères en Egypte"
+      ],
+      "en": [
+       "As Moses forgave the people in the wilderness",
+       "As God has forgiven them for Christ's sake",
+       "As the elders have taught them to do",
+       "As Joseph forgave his brothers in Egypt"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Soyez bons les uns envers les autres, compatissants, vous pardonnant réciproquement, comme Dieu vous a pardonné en Christ. » Le pardon reçu de Dieu sert de mesure.",
+      "en": "“Be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ’s sake hath forgiven you.” The forgiveness received from God is the measure."
+     },
+     "ref": "49:4:32"
+    }
+   ]
+  },
+  {
+   "id": "new-birth-spirit",
+   "title": {
+    "fr": "L'Esprit d'adoption",
+    "en": "The Spirit of adoption"
+   },
+   "passages": [
+    "45:8:1-17"
+   ],
+   "intro": {
+    "fr": "Dans sa lettre aux Romains, Paul vient de décrire à la première personne, le combat contre « le péché qui habite en moi » (chapitre 7). Il parle maintenant de la vie de ceux en qui habite l'Esprit de Dieu.",
+    "en": "In his letter to the Romans, Paul has just described in the first person, the struggle with “sin that dwelleth in me” (chapter 7). He now speaks of the life of those in whom the Spirit of God dwells."
+   },
+   "keyVerse": "45:8:16",
+   "takeaway": {
+    "fr": "Paul oppose la vie selon la chair et la vie selon l'Esprit. Il écrit que ceux qui sont conduits par l'Esprit de Dieu sont fils de Dieu : ils ont reçu un Esprit d'adoption, qui rend témoignage qu'ils sont enfants de Dieu, et donc héritiers de Dieu et cohéritiers de Christ.",
+    "en": "Paul contrasts life after the flesh with life after the Spirit. He writes that those who are led by the Spirit of God are sons of God: they have received the Spirit of adoption, who bears witness that they are children of God, and therefore heirs of God and joint-heirs with Christ."
+   },
+   "questions": [
+    {
+     "id": "new-birth-spirit-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 11, que fera celui qui a ressuscité Christ pour ceux en qui son Esprit habite ?",
+      "en": "According to verse 11, what will he who raised Christ do for those in whom his Spirit dwells?"
+     },
+     "choices": {
+      "fr": [
+       "Il les gardera de toute souffrance",
+       "Il multipliera leurs jours sur la terre",
+       "Il rendra aussi la vie à leurs corps mortels",
+       "Il leur donnera la sagesse de Salomon"
+      ],
+      "en": [
+       "He will keep them from all suffering",
+       "He will lengthen their days on the earth",
+       "He will also give life to their mortal bodies",
+       "He will give them the wisdom of Solomon"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Celui qui a ressuscité Christ d'entre les morts rendra aussi la vie à vos corps mortels par son Esprit qui habite en vous. » L'Esprit qui habite en eux est celui de « celui qui a ressuscité Jésus d'entre les morts ».",
+      "en": "“He that raised up Christ from the dead shall also quicken your mortal bodies by his Spirit that dwelleth in you.” To “quicken” is to give life."
+     },
+     "ref": "45:8:11"
+    },
+    {
+     "id": "new-birth-spirit-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 14, qui sont fils de Dieu ?",
+      "en": "According to verse 14, who are the sons of God?"
+     },
+     "choices": {
+      "fr": [
+       "Ceux qui descendent d'Abraham selon la chair",
+       "Ceux qui sont conduits par l'Esprit de Dieu",
+       "Ceux qui ont vu Jésus de leurs yeux",
+       "Ceux qui ont étudié toute la loi"
+      ],
+      "en": [
+       "Those descended from Abraham after the flesh",
+       "Those who are led by the Spirit of God",
+       "Those who saw Jesus with their own eyes",
+       "Those who have studied the whole law"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Car tous ceux qui sont conduits par l'Esprit de Dieu sont fils de Dieu. » Paul vient d'opposer la vie selon la chair à la vie par l'Esprit (verset 13).",
+      "en": "“For as many as are led by the Spirit of God, they are the sons of God.” Paul has just contrasted living after the flesh with living through the Spirit (verse 13)."
+     },
+     "ref": "45:8:14"
+    },
+    {
+     "id": "new-birth-spirit-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 15, quel esprit les croyants ont-ils reçu ?",
+      "en": "According to verse 15, what spirit have believers received?"
+     },
+     "choices": {
+      "fr": [
+       "Un esprit de servitude",
+       "Un esprit de jugement",
+       "Un esprit de crainte",
+       "Un Esprit d'adoption"
+      ],
+      "en": [
+       "The spirit of bondage",
+       "A spirit of judgment",
+       "A spirit of fear",
+       "The Spirit of adoption"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Vous n'avez point reçu un esprit de servitude, pour être encore dans la crainte; mais vous avez reçu un Esprit d'adoption. » L'adoption fait entrer dans une famille avec les droits d'un fils.",
+      "en": "“Ye have not received the spirit of bondage again to fear; but ye have received the Spirit of adoption.” Adoption brings someone into a family with the rights of a son."
+     },
+     "ref": "45:8:15"
+    },
+    {
+     "id": "new-birth-spirit-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 15, quel cri cet Esprit fait-il pousser aux croyants ?",
+      "en": "According to verse 15, what cry does this Spirit lead believers to utter?"
+     },
+     "choices": {
+      "fr": [
+       "Abba ! Père !",
+       "Hosanna !",
+       "Alléluia !",
+       "Maranatha !"
+      ],
+      "en": [
+       "Abba, Father!",
+       "Hosanna!",
+       "Alleluia!",
+       "Maranatha!"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Paul parle de l'Esprit d'adoption « par lequel nous crions: Abba! Père! » « Abba » est un mot araméen qui signifie « père » ; Paul le fait suivre de sa traduction.",
+      "en": "Paul speaks of the Spirit of adoption, “whereby we cry, Abba, Father.” “Abba” is an Aramaic word meaning “father”; Paul follows it with its translation."
+     },
+     "ref": "45:8:15"
+    },
+    {
+     "id": "new-birth-spirit-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 16, qui rend témoignage que nous sommes enfants de Dieu ?",
+      "en": "According to verse 16, who bears witness that we are children of God?"
+     },
+     "choices": {
+      "fr": [
+       "La loi, à notre conscience",
+       "L'Esprit lui-même, à notre esprit",
+       "Les anges, devant le trône de Dieu",
+       "Les prophètes, par leurs écrits"
+      ],
+      "en": [
+       "The law, to our conscience",
+       "The Spirit itself, with our spirit",
+       "The angels, before God's throne",
+       "The prophets, through their writings"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« L'Esprit lui-même rend témoignage à notre esprit que nous sommes enfants de Dieu. » Le témoignage vient de l'Esprit de Dieu et s'adresse à l'esprit du croyant.",
+      "en": "“The Spirit itself beareth witness with our spirit, that we are the children of God.” The witness comes from God's Spirit, together with the believer's own spirit."
+     },
+     "ref": "45:8:16"
+    },
+    {
+     "id": "new-birth-spirit-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 17, si nous sommes enfants, que sommes-nous aussi ?",
+      "en": "According to verse 17, if we are children, what else are we?"
+     },
+     "choices": {
+      "fr": [
+       "Héritiers de Dieu et cohéritiers de Christ",
+       "Serviteurs de Dieu et disciples de Christ",
+       "Juges du monde et rois de la terre",
+       "Amis de Dieu et compagnons des anges"
+      ],
+      "en": [
+       "Heirs of God and joint-heirs with Christ",
+       "Servants of God and disciples of Christ",
+       "Judges of the world and kings of the earth",
+       "Friends of God and companions of angels"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Si nous sommes enfants, nous sommes aussi héritiers: héritiers de Dieu, et cohéritiers de Christ, si toutefois nous souffrons avec lui, afin d'être glorifiés avec lui. »",
+      "en": "“And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.”"
+     },
+     "ref": "45:8:17"
+    }
+   ]
+  },
+  {
+   "id": "new-birth-born",
+   "title": {
+    "fr": "Nés de Dieu",
+    "en": "Born of God"
+   },
+   "passages": [
+    "62:3:1-3",
+    "62:5:1-5"
+   ],
+   "intro": {
+    "fr": "Dans sa première lettre, l'apôtre Jean écrit à des croyants pour qu'ils sachent qu'ils ont la vie éternelle. Il revient souvent sur ce que signifie être « né de Dieu ».",
+    "en": "In his first letter, the apostle John writes to believers so that they may know they have eternal life. He returns often to what it means to be “born of God.”"
+   },
+   "keyVerse": "62:5:1",
+   "takeaway": {
+    "fr": "Jean s'émerveille de l'amour du Père qui fait appeler les croyants enfants de Dieu, et annonce qu'ils seront semblables à lui. Il écrit que quiconque croit que Jésus est le Christ est né de Dieu, et que ce qui est né de Dieu triomphe du monde par la foi.",
+    "en": "John marvels at the Father's love, by which believers are called sons of God, and announces that they will be like him. He writes that whoever believes that Jesus is the Christ is born of God, and that what is born of God overcomes the world through faith."
+   },
+   "questions": [
+    {
+     "id": "new-birth-born-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 3:1, qu'est-ce que l'amour du Père nous a valu ?",
+      "en": "According to 3:1, what has the Father's love bestowed on us?"
+     },
+     "choices": {
+      "fr": [
+       "D'être appelés rois et prophètes",
+       "D'être appelés enfants de Dieu",
+       "D'être appelés serviteurs fidèles",
+       "D'être appelés amis des anges"
+      ],
+      "en": [
+       "That we should be called kings and prophets",
+       "That we should be called the sons of God",
+       "That we should be called faithful servants",
+       "That we should be called friends of angels"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Voyez quel amour le Père nous a témoigné, pour que nous soyons appelés enfants de Dieu! » Jean invite ses lecteurs à s'en étonner.",
+      "en": "“Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God.” John invites his readers to marvel at it."
+     },
+     "ref": "62:3:1"
+    },
+    {
+     "id": "new-birth-born-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 3:1, pourquoi le monde ne connaît-il pas les enfants de Dieu ?",
+      "en": "According to 3:1, why does the world not know the children of God?"
+     },
+     "choices": {
+      "fr": [
+       "Parce qu'ils vivent à l'écart du monde",
+       "Parce qu'ils cachent leur espérance",
+       "Parce qu'il ne l'a pas connu, lui",
+       "Parce qu'ils sont encore peu nombreux"
+      ],
+      "en": [
+       "Because they live apart from the world",
+       "Because they hide their hope",
+       "Because it did not know him",
+       "Because they are still few in number"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Si le monde ne nous connaît pas, c'est qu'il ne l'a pas connu. » Jean lie les deux : le monde ne connaît pas les croyants parce qu'il ne l'a pas connu, lui.",
+      "en": "“Therefore the world knoweth us not, because it knew him not.” John links the two: the world does not know believers because it did not know him."
+     },
+     "ref": "62:3:1"
+    },
+    {
+     "id": "new-birth-born-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 3:2, que savent les croyants de ce qu'ils seront ?",
+      "en": "According to 3:2, what do believers know about what they shall be?"
+     },
+     "choices": {
+      "fr": [
+       "Qu'ils seront semblables à lui, car ils le verront tel qu'il est",
+       "Qu'ils seront élevés au-dessus des anges, car ils l'ont servi",
+       "Qu'ils oublieront tout de leur vie passée, car tout sera nouveau",
+       "Qu'ils seront semblables à Adam avant la chute, car ils sont purs"
+      ],
+      "en": [
+       "That they shall be like him, for they shall see him as he is",
+       "That they shall be raised above the angels, for they served him",
+       "That they shall forget their past life, for all will be new",
+       "That they shall be like Adam before the fall, for they are pure"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Ce que nous serons n'a pas encore été manifesté; mais nous savons que, lorsque cela sera manifesté, nous serons semblables à lui, parce que nous le verrons tel qu'il est. »",
+      "en": "“It doth not yet appear what we shall be: but we know that, when he shall appear, we shall be like him; for we shall see him as he is.”"
+     },
+     "ref": "62:3:2"
+    },
+    {
+     "id": "new-birth-born-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 5:1, qui est né de Dieu ?",
+      "en": "According to 5:1, who is born of God?"
+     },
+     "choices": {
+      "fr": [
+       "Quiconque descend d'Abraham",
+       "Quiconque a vu des signes et des miracles",
+       "Quiconque connaît toute la loi",
+       "Quiconque croit que Jésus est le Christ"
+      ],
+      "en": [
+       "Whoever descends from Abraham",
+       "Whoever has seen signs and wonders",
+       "Whoever knows the whole law",
+       "Whoever believes that Jesus is the Christ"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Quiconque croit que Jésus est le Christ, est né de Dieu. » Jean ajoute que celui qui aime Dieu, qui l'a engendré, aime aussi ceux qui sont nés de lui.",
+      "en": "“Whosoever believeth that Jesus is the Christ is born of God.” John adds that whoever loves God, who begat him, also loves those begotten of him."
+     },
+     "ref": "62:5:1"
+    },
+    {
+     "id": "new-birth-born-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon 5:3, les commandements de Dieu sont pénibles.",
+      "en": "According to 5:3, God's commandments are grievous."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Jean écrit : « l'amour de Dieu consiste à garder ses commandements. Et ses commandements ne sont pas pénibles ». Le verset 4 en donne la raison : ce qui est né de Dieu triomphe du monde.",
+      "en": "John writes: “this is the love of God, that we keep his commandments: and his commandments are not grievous.” Verse 4 gives the reason: whatever is born of God overcomes the world."
+     },
+     "ref": "62:5:3"
+    },
+    {
+     "id": "new-birth-born-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon 5:4, quelle est la victoire qui triomphe du monde ?",
+      "en": "According to 5:4, what is the victory that overcomes the world?"
+     },
+     "choices": {
+      "fr": [
+       "Notre amour",
+       "Notre foi",
+       "Notre patience",
+       "Notre connaissance"
+      ],
+      "en": [
+       "Our love",
+       "Our faith",
+       "Our patience",
+       "Our knowledge"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« La victoire qui triomphe du monde, c'est notre foi. » Le verset 5 précise : celui qui triomphe du monde est « celui qui croit que Jésus est le Fils de Dieu ».",
+      "en": "“This is the victory that overcometh the world, even our faith.” Verse 5 explains: the one who overcomes the world is “he that believeth that Jesus is the Son of God.”"
+     },
+     "ref": "62:5:4"
+    }
+   ]
+  }
+ ]
+}

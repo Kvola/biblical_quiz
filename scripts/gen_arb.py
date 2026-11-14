@@ -89,6 +89,53 @@ S = {
     'incorrect': ('Pas tout à fait', 'Not quite'),
     'correctAnswerWas': ('La bonne réponse : {answer}', 'The right answer: {answer}'),
     'readVerse': ('Lire {ref}', 'Read {ref}'),
+    # Numérotation des Segond imprimées (affichée en français seulement)
+    'printedRef': ('Segond imprimée : {ref}', 'Printed Segond: {ref}'),
+    'printedNoteTitle': ('Numéros des versets', 'Verse numbers'),
+    'printedNoteBody': (
+        'Les numéros de versets de l’application suivent ceux de la King James, pour que le français et l’anglais '
+        'aient les mêmes références.\n\nBeaucoup de Bibles Segond imprimées numérotent quelques passages autrement. '
+        'Dans les Psaumes surtout, le titre du psaume y compte souvent comme verset 1 : le Psaume 19:7 de '
+        'l’application est le Psaume 19:8 dans votre Bible.\n\nQuand c’est le cas, l’application indique aussi '
+        'le numéro de la Segond imprimée.',
+        'Verse numbers in the app follow the King James Version, so that French and English share the same '
+        'references.\n\nMany printed French Segond Bibles number a few passages differently. In the Psalms '
+        'especially, the psalm’s title often counts as verse 1: Psalm 19:7 in the app is Psalm 19:8 in a printed '
+        'Segond.\n\nWhen that happens, the app also shows the printed Segond number.'),
+    'printedChapterBanner': (
+        'Dans une Segond imprimée, les versets de ce chapitre sont numérotés autrement. Touchez un verset pour voir son numéro sur papier.',
+        'In a printed Segond, the verses of this chapter are numbered differently. Tap a verse to see its printed number.'),
+    'printedMore': ('En savoir plus', 'Learn more'),
+    # Bandeau « nouvelle version » et installation web (lib/core/app_update.dart)
+    'updateAvailable': ('Version {version} disponible',
+        'Version {version} available'),
+    'updateRequired': ('Mise à jour obligatoire : version {version}',
+        'Update required: version {version}'),
+    'updateRequiredHint': ('Cette version n’est plus prise en charge : installez la nouvelle pour continuer.',
+        'This version is no longer supported: install the new one to continue.'),
+    'updateDownload': ('Télécharger',
+        'Download'),
+    'updateLater': ('Plus tard',
+        'Later'),
+    'webInstallTitle': ('Installez l’application Android',
+        'Install the Android app'),
+    'webInstallBody': ('Plus fluide au quotidien, et vos données ne dépendent plus du navigateur.',
+        'Smoother every day, and your data no longer depends on the browser.'),
+    'webInstallAction': ('Installer',
+        'Install'),
+    'homeScreenTitle': ('Ajoutez l’application à l’écran d’accueil',
+        'Add the app to your Home Screen'),
+    'homeScreenBody': ('Touchez Partager (le carré avec une flèche), puis « Sur l’écran d’accueil ». L’application s’ouvrira en plein écran et vos données seront mieux conservées.',
+        'Tap Share (the square with an arrow), then “Add to Home Screen”. The app will open full screen and your data will be kept more reliably.'),
+    'homeScreenDismiss': ('Compris',
+        'Got it'),
+    # Bilan d'un parcours
+    'pathReviewTitle': ('Bilan du parcours', 'Path review'),
+    'pathReviewSubtitle': ('{count, plural, =1{1 question tirée} other{{count} questions tirées}} de toutes les leçons du parcours',
+                           '{count, plural, =1{1 question} other{{count} questions}} from every lesson in the path'),
+    'pathReviewHint': ('Idéal une fois les leçons terminées', 'Best once you have finished the lessons'),
+    'pathReviewAction': ('Faire le bilan du parcours', 'Take the path review'),
+    'nextPath': ('Parcours suivant', 'Next path'),
     'next': ('Suivant', 'Next'),
     'seeResult': ('Voir le résultat', 'See the result'),
     'quitTitle': ('Quitter ?', 'Leave?'),

@@ -1,0 +1,1769 @@
+{
+ "id": "faith-life",
+ "order": 12,
+ "icon": "directions_walk",
+ "group": "faith-way",
+ "title": {
+  "fr": "La vie par la foi",
+  "en": "Living by faith"
+ },
+ "description": {
+  "fr": "« Le juste vivra par la foi » : cette parole d'Habacuc, reprise par Paul, sert de fil à ce parcours. Il suit la manière dont la Bible décrit une vie menée dans la confiance en Dieu, dans l'attente, l'épreuve et l'action, jusqu'au bout de la course.",
+  "en": "“The just shall live by faith”: these words of Habakkuk, taken up by Paul, are the thread of this path. It follows how the Bible describes a life lived in trust in God, in waiting, in trials and in action, to the end of the race."
+ },
+ "lessons": [
+  {
+   "id": "faith-life-habakkuk",
+   "title": {
+    "fr": "Le prophète sur sa tour",
+    "en": "The prophet on the tower"
+   },
+   "passages": [
+    "35:2:1-4",
+    "35:3:17-19"
+   ],
+   "intro": {
+    "fr": "Habacuc est un prophète de Juda. Au chapitre 1, il se plaint à Dieu de la violence et de l'injustice qu'il voit, et s'étonne que Dieu suscite les Chaldéens, c'est-à-dire les Babyloniens. Le chapitre 2 rapporte la réponse de Dieu ; le chapitre 3 est une prière qui s'achève sur un chant de confiance.",
+    "en": "Habakkuk is a prophet of Judah. In chapter 1 he complains to God about the violence and injustice he sees, and is astonished that God is raising up the Chaldeans, that is, the Babylonians. Chapter 2 gives God's answer; chapter 3 is a prayer that ends with a song of trust."
+   },
+   "keyVerse": "35:2:4",
+   "takeaway": {
+    "fr": "Dieu demande au prophète d'écrire la prophétie et de l'attendre, même si elle tarde, et déclare que « le juste vivra par sa foi ». Habacuc termine en disant qu'il se réjouira en l'Eternel, même si les récoltes et les troupeaux viennent à manquer.",
+    "en": "God tells the prophet to write down the vision and wait for it, even if it tarries, and declares that “the just shall live by his faith.” Habakkuk ends by saying he will rejoice in the Lord even if the harvests and the flocks fail."
+   },
+   "questions": [
+    {
+     "id": "faith-life-habakkuk-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Où le prophète se tient-il pour attendre la réponse de Dieu ?",
+      "en": "Where does the prophet stand to wait for God's answer?"
+     },
+     "choices": {
+      "fr": [
+       "Au seuil du temple",
+       "Au bord du fleuve",
+       "Sur la tour",
+       "Sur la montagne"
+      ],
+      "en": [
+       "At the temple door",
+       "By the river",
+       "On the tower",
+       "On the mountain"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« J'étais à mon poste, Et je me tenais sur la tour; Je veillais, pour voir ce que l'Eternel me dirait ». Comme une sentinelle, Habacuc guette la réponse de Dieu.",
+      "en": "“I will stand upon my watch, and set me upon the tower, and will watch to see what he will say unto me.” Like a sentry, Habakkuk watches for God's answer."
+     },
+     "ref": "35:2:1"
+    },
+    {
+     "id": "faith-life-habakkuk-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que Dieu demande-t-il au prophète de faire de la prophétie qu'il lui donne ?",
+      "en": "What does God tell the prophet to do with the vision he gives him?"
+     },
+     "choices": {
+      "fr": [
+       "La garder secrète",
+       "L'écrire sur des tables",
+       "L'annoncer au roi",
+       "La proclamer au temple"
+      ],
+      "en": [
+       "Keep it secret",
+       "Write it on tablets",
+       "Announce it to the king",
+       "Proclaim it in the temple"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Ecris la prophétie: Grave-la sur des tables, Afin qu'on la lise couramment. » Le message doit être conservé et lisible par tous.",
+      "en": "“Write the vision, and make it plain upon tables, that he may run that readeth it.” The message is to be recorded plainly, so that anyone can read it."
+     },
+     "ref": "35:2:2"
+    },
+    {
+     "id": "faith-life-habakkuk-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 3, si la vision tarde à s'accomplir, il faut cesser de l'attendre.",
+      "en": "According to verse 3, if the vision is slow to come, one should stop waiting for it."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "C'est l'inverse : « Si elle tarde, attends-la, Car elle s'accomplira, elle s'accomplira certainement. » Elle a un temps « déjà fixé ».",
+      "en": "The opposite: “though it tarry, wait for it; because it will surely come, it will not tarry.” It is “for an appointed time.”"
+     },
+     "ref": "35:2:3"
+    },
+    {
+     "id": "faith-life-habakkuk-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 4, par quoi le juste vivra-t-il ?",
+      "en": "According to verse 4, by what shall the just live?"
+     },
+     "choices": {
+      "fr": [
+       "Par sa force",
+       "Par sa sagesse",
+       "Par ses sacrifices",
+       "Par sa foi"
+      ],
+      "en": [
+       "By his strength",
+       "By his wisdom",
+       "By his sacrifices",
+       "By his faith"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Voici, son âme s'est enflée, elle n'est pas droite en lui; Mais le juste vivra par sa foi. » Le mot hébreu traduit par « foi » peut aussi signifier « fidélité ». Paul cite cette parole en Romains 1:17 et Galates 3:11.",
+      "en": "“Behold, his soul which is lifted up is not upright in him: but the just shall live by his faith.” The Hebrew word translated “faith” can also mean “faithfulness.” Paul quotes these words in Romans 1:17 and Galatians 3:11."
+     },
+     "ref": "35:2:4"
+    },
+    {
+     "id": "faith-life-habakkuk-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Parmi ces pertes, laquelle Habacuc envisage-t-il au verset 17 ?",
+      "en": "Which of these losses does Habakkuk imagine in verse 17?"
+     },
+     "choices": {
+      "fr": [
+       "Le figuier ne fleurira pas",
+       "La pluie cessera de tomber",
+       "Les puits seront taris",
+       "La ville sera assiégée"
+      ],
+      "en": [
+       "The fig tree will not blossom",
+       "The rain will stop falling",
+       "The wells will run dry",
+       "The city will be besieged"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Car le figuier ne fleurira pas, La vigne ne produira rien, Le fruit de l'olivier manquera ». Habacuc envisage aussi des champs sans nourriture et des étables sans boeufs : la perte de tout ce qui fait vivre.",
+      "en": "“Although the fig tree shall not blossom, neither shall fruit be in the vines; the labour of the olive shall fail”. Habakkuk also pictures fields without food and stalls without herds: the loss of everything people live on."
+     },
+     "ref": "35:3:17"
+    },
+    {
+     "id": "faith-life-habakkuk-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Habacuc qu'il fera malgré tout cela ?",
+      "en": "What does Habakkuk say he will do in spite of all this?"
+     },
+     "choices": {
+      "fr": [
+       "Quitter le pays",
+       "Se plaindre de nouveau",
+       "Se réjouir en l'Eternel",
+       "Offrir un sacrifice"
+      ],
+      "en": [
+       "Leave the land",
+       "Complain again",
+       "Rejoice in the Lord",
+       "Offer a sacrifice"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Toutefois, je veux me réjouir en l'Eternel, Je veux me réjouir dans le Dieu de mon salut. » Il ajoute : « L'Eternel, le Seigneur, est ma force ».",
+      "en": "“Yet I will rejoice in the Lord, I will joy in the God of my salvation.” He adds: “The Lord God is my strength”."
+     },
+     "ref": "35:3:18"
+    }
+   ]
+  },
+  {
+   "id": "faith-life-gospel",
+   "title": {
+    "fr": "Christ qui vit en moi",
+    "en": "Christ who lives in me"
+   },
+   "passages": [
+    "45:1:16-17",
+    "48:2:16-21"
+   ],
+   "intro": {
+    "fr": "Au début de sa lettre aux Romains, Paul résume son message en citant Habacuc 2:4. Dans la lettre aux Galates, il vient de raconter qu'il a repris Pierre (Céphas) à Antioche, parce que celui-ci avait cessé de manger avec les païens ; le passage fait suite à ce récit.",
+    "en": "At the start of his letter to the Romans, Paul sums up his message by quoting Habakkuk 2:4. In his letter to the Galatians, he has just told how he confronted Peter at Antioch for withdrawing from eating with the Gentiles; the passage follows that account."
+   },
+   "keyVerse": "48:2:20",
+   "takeaway": {
+    "fr": "Paul écrit que l'Evangile révèle la justice de Dieu « par la foi et pour la foi » et que l'homme n'est pas justifié par les œuvres de la loi. Il dit vivre désormais « dans la foi au Fils de Dieu, qui m'a aimé et qui s'est livré lui-même pour moi ».",
+    "en": "Paul writes that the gospel reveals the righteousness of God “from faith to faith” and that a man is not justified by the works of the law. He says the life he now lives, he lives “by the faith of the Son of God, who loved me, and gave himself for me.”"
+   },
+   "questions": [
+    {
+     "id": "faith-life-gospel-1",
+     "kind": "choice",
+     "q": {
+      "fr": "De quoi Paul dit-il qu'il n'a pas honte ?",
+      "en": "What does Paul say he is not ashamed of?"
+     },
+     "choices": {
+      "fr": [
+       "De l'Evangile",
+       "De ses chaînes",
+       "De son passé",
+       "De son peuple"
+      ],
+      "en": [
+       "The gospel",
+       "His chains",
+       "His past",
+       "His people"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Car je n'ai point honte de l'Evangile: c'est une puissance de Dieu pour le salut de quiconque croit, du Juif premièrement, puis du Grec ».",
+      "en": "“For I am not ashamed of the gospel of Christ: for it is the power of God unto salvation to every one that believeth; to the Jew first, and also to the Greek.”"
+     },
+     "ref": "45:1:16"
+    },
+    {
+     "id": "faith-life-gospel-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quand Paul écrit « selon qu'il est écrit: Le juste vivra par la foi », quel prophète cite-t-il ?",
+      "en": "When Paul writes “as it is written, The just shall live by faith,” which prophet is he quoting?"
+     },
+     "choices": {
+      "fr": [
+       "Esaïe",
+       "Jérémie",
+       "Habacuc",
+       "Michée"
+      ],
+      "en": [
+       "Isaiah",
+       "Jeremiah",
+       "Habakkuk",
+       "Micah"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "La formule vient d'Habacuc 2:4 : « le juste vivra par sa foi ». Paul la cite encore en Galates 3:11.",
+      "en": "The words come from Habakkuk 2:4: “the just shall live by his faith.” Paul quotes them again in Galatians 3:11."
+     },
+     "ref": "45:1:17"
+    },
+    {
+     "id": "faith-life-gospel-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Galates 2:16, qu'est-ce que Paul oppose aux « oeuvres de la loi » ?",
+      "en": "According to Galatians 2:16, what does Paul set against “the works of the law”?"
+     },
+     "choices": {
+      "fr": [
+       "La sagesse des Grecs",
+       "La foi en Jésus-Christ",
+       "Les traditions des anciens",
+       "Les offrandes du temple"
+      ],
+      "en": [
+       "The wisdom of the Greeks",
+       "The faith of Jesus Christ",
+       "The traditions of the elders",
+       "The offerings of the temple"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Paul le dit trois fois dans ce verset : « ce n'est pas par les oeuvres de la loi que l'homme est justifié, mais par la foi en Jésus-Christ ».",
+      "en": "Paul says it three times in this verse: “a man is not justified by the works of the law, but by the faith of Jesus Christ.”"
+     },
+     "ref": "48:2:16"
+    },
+    {
+     "id": "faith-life-gospel-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Galates 2:20, qui vit en Paul ?",
+      "en": "According to Galatians 2:20, who lives in Paul?"
+     },
+     "choices": {
+      "fr": [
+       "Moïse",
+       "Un ange",
+       "Le vieil homme",
+       "Christ"
+      ],
+      "en": [
+       "Moses",
+       "An angel",
+       "The old man",
+       "Christ"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« J'ai été crucifié avec Christ; et si je vis, ce n'est plus moi qui vis, c'est Christ qui vit en moi ».",
+      "en": "“I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me”."
+     },
+     "ref": "48:2:20"
+    },
+    {
+     "id": "faith-life-gospel-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Paul décrit-il le Fils de Dieu au verset 20 ?",
+      "en": "How does Paul describe the Son of God in verse 20?"
+     },
+     "choices": {
+      "fr": [
+       "Celui qui l'a établi chef des apôtres",
+       "Celui qui l'a aimé et s'est livré pour lui",
+       "Celui qui lui a révélé la loi au Sinaï",
+       "Celui qui l'a établi juge sur Israël"
+      ],
+      "en": [
+       "The one who made him chief of the apostles",
+       "The one who loved him and gave himself for him",
+       "The one who revealed the law to him at Sinai",
+       "The one who made him a judge over Israel"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Paul écrit : « je vis dans la foi au Fils de Dieu, qui m'a aimé et qui s'est livré lui-même pour moi. » Il présente ce don comme le concernant personnellement : « pour moi ».",
+      "en": "Paul writes: “the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.” He presents this gift as concerning him personally: “for me.”"
+     },
+     "ref": "48:2:20"
+    },
+    {
+     "id": "faith-life-gospel-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Paul écrit que si la justice s'obtenait par la loi, Christ serait mort pour rien.",
+      "en": "Paul writes that if righteousness came by the law, Christ would have died for nothing."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Je ne rejette pas la grâce de Dieu; car si la justice s'obtient par la loi, Christ est donc mort en vain. »",
+      "en": "“I do not frustrate the grace of God: for if righteousness come by the law, then Christ is dead in vain.”"
+     },
+     "ref": "48:2:21"
+    }
+   ]
+  },
+  {
+   "id": "faith-life-centurion",
+   "title": {
+    "fr": "Dis seulement un mot",
+    "en": "Speak the word only"
+   },
+   "passages": [
+    "40:8:5-13"
+   ],
+   "intro": {
+    "fr": "Matthieu place cette rencontre peu après le Sermon sur la montagne, à Capernaüm, au bord du lac de Galilée. Un centenier est un officier qui commande une centaine de soldats ; la suite du récit laisse entendre qu'il n'est pas Israélite.",
+    "en": "Matthew sets this encounter shortly after the Sermon on the Mount, in Capernaum, on the shore of the Sea of Galilee. A centurion is an officer in command of about a hundred soldiers; the story implies that he is not an Israelite."
+   },
+   "keyVerse": "40:8:10",
+   "takeaway": {
+    "fr": "Le centenier, qui ne se juge pas digne de recevoir Jésus chez lui, croit qu'une parole suffit à guérir son serviteur. Jésus déclare n'avoir trouvé une aussi grande foi chez personne en Israël, et le serviteur est guéri à l'heure même.",
+    "en": "The centurion, who does not think himself worthy to have Jesus under his roof, believes that a word is enough to heal his servant. Jesus says he has not found such great faith even in Israel, and the servant is healed that very hour."
+   },
+   "questions": [
+    {
+     "id": "faith-life-centurion-1",
+     "kind": "choice",
+     "q": {
+      "fr": "De quoi souffre le serviteur du centenier ?",
+      "en": "What is wrong with the centurion's servant?"
+     },
+     "choices": {
+      "fr": [
+       "D'une forte fièvre",
+       "De la lèpre",
+       "De paralysie",
+       "De cécité"
+      ],
+      "en": [
+       "A high fever",
+       "Leprosy",
+       "Paralysis",
+       "Blindness"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Seigneur, mon serviteur est couché à la maison, atteint de paralysie et souffrant beaucoup. » Le même chapitre raconte aussi la guérison d'un lépreux et de la belle-mère de Pierre, qui avait la fièvre.",
+      "en": "“Lord, my servant lieth at home sick of the palsy, grievously tormented.” “Palsy” means paralysis. The same chapter also tells of the healing of a leper and of Peter's mother-in-law, who had a fever."
+     },
+     "ref": "40:8:6"
+    },
+    {
+     "id": "faith-life-centurion-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi le centenier ne veut-il pas que Jésus vienne chez lui ?",
+      "en": "Why does the centurion not want Jesus to come to his house?"
+     },
+     "choices": {
+      "fr": [
+       "Il ne s'en estime pas digne",
+       "Sa maison est trop loin",
+       "Il craint ses supérieurs",
+       "Son serviteur est déjà guéri"
+      ],
+      "en": [
+       "He does not think himself worthy",
+       "His house is too far away",
+       "He is afraid of his superiors",
+       "His servant is already healed"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Seigneur, je ne suis pas digne que tu entres sous mon toit; mais dis seulement un mot, et mon serviteur sera guéri. » Il pense qu'une parole de Jésus suffit.",
+      "en": "“Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed.” He believes a word from Jesus is enough."
+     },
+     "ref": "40:8:8"
+    },
+    {
+     "id": "faith-life-centurion-3",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi le centenier compare-t-il la parole de Jésus ?",
+      "en": "What does the centurion compare Jesus' word to?"
+     },
+     "choices": {
+      "fr": [
+       "Aux décrets que publie l'empereur",
+       "Aux commandements de la loi de Moïse",
+       "Aux paroles des anciens prophètes",
+       "Aux ordres qu'il donne à ses soldats"
+      ],
+      "en": [
+       "The decrees issued by the emperor",
+       "The commandments of Moses",
+       "The words of the old prophets",
+       "The orders he gives his soldiers"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« je dis à l'un: Va! et il va; à l'autre: Viens! et il vient ». Homme soumis à des supérieurs et ayant des soldats sous ses ordres, il sait qu'il suffit d'un ordre pour être obéi.",
+      "en": "“I say to this man, Go, and he goeth; and to another, Come, and he cometh”. As a man under authority with soldiers under him, he knows that a single order is enough to be obeyed."
+     },
+     "ref": "40:8:9"
+    },
+    {
+     "id": "faith-life-centurion-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Jésus réagit-il en entendant le centenier ?",
+      "en": "How does Jesus react when he hears the centurion?"
+     },
+     "choices": {
+      "fr": [
+       "Il est dans l'étonnement",
+       "Il le reprend sévèrement",
+       "Il est attristé",
+       "Il reste silencieux"
+      ],
+      "en": [
+       "He marvels",
+       "He rebukes him sharply",
+       "He is grieved",
+       "He stays silent"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Jésus fut dans l'étonnement, et il dit à ceux qui le suivaient: Je vous le dis en vérité, même en Israël je n'ai pas trouvé une aussi grande foi. »",
+      "en": "“When Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel.”"
+     },
+     "ref": "40:8:10"
+    },
+    {
+     "id": "faith-life-centurion-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Avec qui Jésus dit-il que beaucoup, venus de l'orient et de l'occident, seront à table dans le royaume des cieux ?",
+      "en": "Who does Jesus say many from the east and west will sit down with in the kingdom of heaven?"
+     },
+     "choices": {
+      "fr": [
+       "Moïse, Aaron et Josué",
+       "Abraham, Isaac et Jacob",
+       "David et Salomon",
+       "Elie et Elisée"
+      ],
+      "en": [
+       "Moses, Aaron and Joshua",
+       "Abraham, Isaac and Jacob",
+       "David and Solomon",
+       "Elijah and Elisha"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« plusieurs viendront de l'orient et de l'occident, et seront à table avec Abraham, Isaac et Jacob, dans le royaume des cieux. » Abraham, Isaac et Jacob sont les ancêtres d'Israël.",
+      "en": "“many shall come from the east and west, and shall sit down with Abraham, and Isaac, and Jacob, in the kingdom of heaven.” Abraham, Isaac and Jacob are the forefathers of Israel."
+     },
+     "ref": "40:8:11"
+    },
+    {
+     "id": "faith-life-centurion-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le récit, Jésus se rendit chez le centenier pour guérir le serviteur.",
+      "en": "According to the story, Jesus went to the centurion's house to heal the servant."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Jésus avait d'abord dit « J'irai », mais il dit finalement au centenier : « Va, qu'il te soit fait selon ta foi. » Et « à l'heure même le serviteur fut guéri ». La guérison a lieu à distance.",
+      "en": "Jesus first said “I will come,” but in the end he tells the centurion: “Go thy way; and as thou hast believed, so be it done unto thee.” And “his servant was healed in the selfsame hour.” The healing happens at a distance."
+     },
+     "ref": "40:8:13"
+    }
+   ]
+  },
+  {
+   "id": "faith-life-cloud",
+   "title": {
+    "fr": "Une si grande nuée de témoins",
+    "en": "So great a cloud of witnesses"
+   },
+   "passages": [
+    "58:11:23-31",
+    "58:12:1-3"
+   ],
+   "intro": {
+    "fr": "Hébreux 11 passe en revue des personnages de l'Ancien Testament en répétant « C'est par la foi ». Après Abel, Noé, Abraham, Sara et les patriarches, le passage reprend avec Moïse et la sortie d'Egypte ; l'auteur, dont la lettre ne donne pas le nom, en tire ensuite un appel au début du chapitre 12.",
+    "en": "Hebrews 11 reviews figures from the Old Testament, repeating “By faith” again and again. After Abel, Noah, Abraham, Sarah and the patriarchs, the passage continues with Moses and the exodus from Egypt; the author, whom the letter does not name, then draws a call from it at the start of chapter 12."
+   },
+   "keyVerse": "58:12:1",
+   "takeaway": {
+    "fr": "L'épître rappelle que Moïse, le peuple sorti d'Egypte et Rahab ont agi « par la foi ». Elle invite ensuite à courir « avec persévérance » en ayant « les regards sur Jésus, le chef et le consommateur de la foi ».",
+    "en": "The letter recalls that Moses, the people who left Egypt, and Rahab acted “by faith.” It then calls its readers to “run with patience,” “looking unto Jesus the author and finisher of our faith.”"
+   },
+   "questions": [
+    {
+     "id": "faith-life-cloud-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Pendant combien de temps Moïse fut-il caché par ses parents à sa naissance ?",
+      "en": "How long was Moses hidden by his parents when he was born?"
+     },
+     "choices": {
+      "fr": [
+       "Sept jours",
+       "Quarante jours",
+       "Trois mois",
+       "Une année"
+      ],
+      "en": [
+       "Seven days",
+       "Forty days",
+       "Three months",
+       "A year"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« C'est par la foi que Moïse, à sa naissance, fut caché pendant trois mois par ses parents ». Le roi d'Egypte avait ordonné de jeter au fleuve les garçons des Hébreux (Exode 1:22 à 2:2).",
+      "en": "“By faith Moses, when he was born, was hid three months of his parents”. The king of Egypt had ordered the Hebrews' baby boys to be thrown into the river (Exodus 1:22 to 2:2)."
+     },
+     "ref": "58:11:23"
+    },
+    {
+     "id": "faith-life-cloud-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Devenu grand, qu'est-ce que Moïse refusa ?",
+      "en": "When he grew up, what did Moses refuse?"
+     },
+     "choices": {
+      "fr": [
+       "D'être appelé fils de la fille de Pharaon",
+       "De commander l'armée du roi d'Egypte",
+       "D'épouser une fille de prêtre égyptien",
+       "De porter la couronne d'Egypte"
+      ],
+      "en": [
+       "To be called the son of Pharaoh's daughter",
+       "To command the army of the king of Egypt",
+       "To marry the daughter of an Egyptian priest",
+       "To wear the crown of Egypt"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« C'est par la foi que Moïse, devenu grand, refusa d'être appelé fils de la fille de Pharaon, aimant mieux être maltraité avec le peuple de Dieu que d'avoir pour un temps la jouissance du péché ».",
+      "en": "“By faith Moses, when he was come to years, refused to be called the son of Pharaoh's daughter; Choosing rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season”."
+     },
+     "ref": "58:11:24"
+    },
+    {
+     "id": "faith-life-cloud-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce que Moïse regardait comme une richesse plus grande que les trésors de l'Egypte ?",
+      "en": "What did Moses consider greater riches than the treasures of Egypt?"
+     },
+     "choices": {
+      "fr": [
+       "La sagesse des anciens",
+       "La faveur du roi",
+       "La terre promise",
+       "L'opprobre de Christ"
+      ],
+      "en": [
+       "The wisdom of the ancients",
+       "The favour of the king",
+       "The promised land",
+       "The reproach of Christ"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« regardant l'opprobre de Christ comme une richesse plus grande que les trésors de l'Egypte, car il avait les yeux fixés sur la rémunération. » L'« opprobre » est la honte, le déshonneur subi.",
+      "en": "“Esteeming the reproach of Christ greater riches than the treasures in Egypt: for he had respect unto the recompence of the reward.” “Reproach” means disgrace."
+     },
+     "ref": "58:11:26"
+    },
+    {
+     "id": "faith-life-cloud-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 30, les murailles de Jéricho tombèrent dès le premier jour.",
+      "en": "According to verse 30, the walls of Jericho fell on the very first day."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Elles tombèrent « après qu'on en eut fait le tour pendant sept jours. » Josué 6 raconte cette marche autour de la ville.",
+      "en": "They fell “after they were compassed about seven days.” Joshua 6 tells of this march around the city."
+     },
+     "ref": "58:11:30"
+    },
+    {
+     "id": "faith-life-cloud-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 31, qu'avait fait Rahab ?",
+      "en": "According to verse 31, what had Rahab done?"
+     },
+     "choices": {
+      "fr": [
+       "Elle avait quitté Jéricho à temps",
+       "Elle avait reçu les espions avec bienveillance",
+       "Elle avait offert un sacrifice",
+       "Elle avait ouvert les portes de la ville"
+      ],
+      "en": [
+       "She had left Jericho in time",
+       "She had received the spies with peace",
+       "She had offered a sacrifice",
+       "She had opened the city gates"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« C'est par la foi que Rahab la prostituée ne périt pas avec les rebelles, parce qu'elle avait reçu les espions avec bienveillance. » Josué 2 raconte comment elle cacha les deux espions envoyés par Josué.",
+      "en": "“By faith the harlot Rahab perished not with them that believed not, when she had received the spies with peace.” Joshua 2 tells how she hid the two spies sent by Joshua."
+     },
+     "ref": "58:11:31"
+    },
+    {
+     "id": "faith-life-cloud-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Hébreux 12:2, vers qui ceux qui courent doivent-ils tourner leurs regards ?",
+      "en": "According to Hebrews 12:2, who should those running the race keep looking to?"
+     },
+     "choices": {
+      "fr": [
+       "Vers Moïse",
+       "Vers Abraham",
+       "Vers les anges",
+       "Vers Jésus"
+      ],
+      "en": [
+       "Moses",
+       "Abraham",
+       "The angels",
+       "Jesus"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« ayant les regards sur Jésus, le chef et le consommateur de la foi ». La « nuée de témoins » du verset 1 désigne les personnages du chapitre 11 ; « consommateur » signifie celui qui mène à son achèvement.",
+      "en": "“Looking unto Jesus the author and finisher of our faith”. The “cloud of witnesses” in verse 1 refers to the people listed in chapter 11."
+     },
+     "ref": "58:12:2"
+    }
+   ]
+  },
+  {
+   "id": "faith-life-walk",
+   "title": {
+    "fr": "Marcher par la foi",
+    "en": "Walking by faith"
+   },
+   "passages": [
+    "47:5:1-10"
+   ],
+   "intro": {
+    "fr": "Dans sa deuxième lettre aux Corinthiens, Paul vient d'évoquer les souffrances de son ministère et de dire que « notre homme extérieur se détruit » tandis que l'homme intérieur se renouvelle (4:16). Il parle ici du corps présent et de ce qu'il attend.",
+    "en": "In his second letter to the Corinthians, Paul has just spoken of the hardships of his ministry and said that though “our outward man perish,” yet “the inward man is renewed day by day” (4:16). Here he speaks of the present body and of what he looks forward to."
+   },
+   "keyVerse": "47:5:7",
+   "takeaway": {
+    "fr": "Paul compare le corps présent à une tente et dit attendre « un édifice qui est l'ouvrage de Dieu ». En attendant, « nous marchons par la foi et non par la vue », et il cherche à être agréable au Seigneur.",
+    "en": "Paul compares the present body to a tent and says he looks forward to “a building of God.” Meanwhile “we walk by faith, not by sight,” and he labours to be accepted by the Lord."
+   },
+   "questions": [
+    {
+     "id": "faith-life-walk-1",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi Paul compare-t-il la demeure terrestre où nous habitons ?",
+      "en": "What does Paul compare our earthly dwelling to?"
+     },
+     "choices": {
+      "fr": [
+       "Un palais",
+       "Une tente",
+       "Une prison",
+       "Un navire"
+      ],
+      "en": [
+       "A palace",
+       "A tent",
+       "A prison",
+       "A ship"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« si cette tente où nous habitons sur la terre est détruite, nous avons dans le ciel un édifice qui est l'ouvrage de Dieu ». Paul, lui-même faiseur de tentes (Actes 18:3), oppose cette demeure provisoire à « une demeure éternelle ».",
+      "en": "“if our earthly house of this tabernacle were dissolved, we have a building of God”. A tabernacle is a tent; Paul, himself a tentmaker (Acts 18:3), contrasts it with a house “eternal in the heavens.”"
+     },
+     "ref": "47:5:1"
+    },
+    {
+     "id": "faith-life-walk-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 5, de quoi Dieu nous a-t-il donné les arrhes ?",
+      "en": "According to verse 5, what has God given us as an earnest?"
+     },
+     "choices": {
+      "fr": [
+       "De la loi",
+       "D'un nouveau corps",
+       "De la couronne",
+       "De l'Esprit"
+      ],
+      "en": [
+       "The law",
+       "A new body",
+       "The crown",
+       "The Spirit"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« c'est Dieu, qui nous a donné les arrhes de l'Esprit. » Des arrhes sont un premier versement qui garantit que le reste suivra.",
+      "en": "“God, who also hath given unto us the earnest of the Spirit.” An earnest is a first payment that guarantees the rest will follow."
+     },
+     "ref": "47:5:5"
+    },
+    {
+     "id": "faith-life-walk-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Complétez le verset 7 : « nous marchons par la foi et non par… »",
+      "en": "Complete verse 7: “we walk by faith, not by…”"
+     },
+     "choices": {
+      "fr": [
+       "La vue",
+       "La loi",
+       "La force",
+       "La crainte"
+      ],
+      "en": [
+       "Sight",
+       "The law",
+       "Strength",
+       "Fear"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« car nous marchons par la foi et non par la vue ». Paul oppose ce qu'on voit maintenant à ce qu'on ne voit pas encore : il est « loin du Seigneur » tant qu'il demeure dans ce corps (v. 6).",
+      "en": "“For we walk by faith, not by sight”. Paul contrasts what can be seen now with what is not yet seen: while “at home in the body,” he is “absent from the Lord” (v. 6)."
+     },
+     "ref": "47:5:7"
+    },
+    {
+     "id": "faith-life-walk-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Paul dit qu'il aimerait mieux quitter ce corps et demeurer auprès du Seigneur.",
+      "en": "Paul says he would rather leave the body and be present with the Lord."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« nous sommes pleins de confiance, et nous aimons mieux quitter ce corps et demeurer auprès du Seigneur. »",
+      "en": "“We are confident, I say, and willing rather to be absent from the body, and to be present with the Lord.”"
+     },
+     "ref": "47:5:8"
+    },
+    {
+     "id": "faith-life-walk-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, que s'efforcent de faire Paul et ses compagnons ?",
+      "en": "According to verse 9, what do Paul and his companions labour for?"
+     },
+     "choices": {
+      "fr": [
+       "Être admirés des hommes",
+       "Quitter ce corps au plus vite",
+       "Être agréables au Seigneur",
+       "Acquérir la sagesse"
+      ],
+      "en": [
+       "To be admired by people",
+       "To leave the body as soon as possible",
+       "To be accepted by the Lord",
+       "To gain wisdom"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« C'est pour cela aussi que nous nous efforçons de lui être agréables, soit que nous demeurions dans ce corps, soit que nous le quittions. »",
+      "en": "“Wherefore we labour, that, whether present or absent, we may be accepted of him.”"
+     },
+     "ref": "47:5:9"
+    },
+    {
+     "id": "faith-life-walk-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Devant quoi Paul dit-il que nous devons tous comparaître ?",
+      "en": "What does Paul say we must all appear before?"
+     },
+     "choices": {
+      "fr": [
+       "Le tribunal de Christ",
+       "Le sanhédrin",
+       "Le tribunal de César",
+       "L'assemblée des anciens"
+      ],
+      "en": [
+       "The judgment seat of Christ",
+       "The Sanhedrin",
+       "Caesar's judgment seat",
+       "The council of elders"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Car il nous faut tous comparaître devant le tribunal de Christ, afin que chacun reçoive selon le bien ou le mal qu'il aura fait, étant dans son corps. »",
+      "en": "“For we must all appear before the judgment seat of Christ; that every one may receive the things done in his body, according to that he hath done, whether it be good or bad.”"
+     },
+     "ref": "47:5:10"
+    }
+   ]
+  },
+  {
+   "id": "faith-life-works",
+   "title": {
+    "fr": "La foi et les œuvres",
+    "en": "Faith and works"
+   },
+   "passages": [
+    "59:2:14-26"
+   ],
+   "intro": {
+    "fr": "La lettre de Jacques est adressée « aux douze tribus qui sont dans la dispersion » (1:1). Elle donne beaucoup de conseils pratiques. Dans ce passage, Jacques s'interroge sur une foi qui « n'a pas les oeuvres » et prend des exemples concrets.",
+    "en": "The letter of James is addressed “to the twelve tribes which are scattered abroad” (1:1). It is full of practical teaching. In this passage James asks about a faith that may “have not works” and gives concrete examples."
+   },
+   "keyVerse": "59:2:26",
+   "takeaway": {
+    "fr": "Jacques écrit qu'une foi sans les œuvres est morte, comme un corps sans âme. Il prend pour exemples Abraham, qui offrit Isaac sur l'autel, et Rahab, qui reçut les messagers.",
+    "en": "James writes that faith without works is dead, as the body without the spirit is dead. His examples are Abraham, who offered Isaac on the altar, and Rahab, who received the messengers."
+   },
+   "questions": [
+    {
+     "id": "faith-life-works-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans l'exemple des versets 15 et 16, que manque-t-il à celui qui dit au frère ou à la soeur dans le besoin : « Allez en paix » ?",
+      "en": "In the example in verses 15 and 16, what is missing when someone tells a brother or sister in need, “Depart in peace”?"
+     },
+     "choices": {
+      "fr": [
+       "Il ne prie pas pour eux devant l'assemblée",
+       "Il ne leur parle pas avec assez de douceur",
+       "Il ne les invite pas à demeurer chez lui",
+       "Il ne leur donne pas ce dont le corps a besoin"
+      ],
+      "en": [
+       "He does not pray for them in the church",
+       "He does not speak kindly enough to them",
+       "He does not invite them to stay with him",
+       "He does not give them what the body needs"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« et que vous ne leur donniez pas ce qui est nécessaire au corps, à quoi cela sert-il? » Des paroles bienveillantes ne nourrissent ni ne réchauffent personne.",
+      "en": "“notwithstanding ye give them not those things which are needful to the body; what doth it profit?” Kind words alone neither feed nor warm anyone."
+     },
+     "ref": "59:2:16"
+    },
+    {
+     "id": "faith-life-works-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 17, qu'en est-il d'une foi qui n'a pas les œuvres ?",
+      "en": "According to verse 17, what is faith that has no works?"
+     },
+     "choices": {
+      "fr": [
+       "Elle est cachée",
+       "Elle est morte",
+       "Elle est endormie",
+       "Elle est malade"
+      ],
+      "en": [
+       "Hidden",
+       "Dead",
+       "Asleep",
+       "Sick"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Il en est ainsi de la foi: si elle n'a pas les oeuvres, elle est morte en elle-même. » Jacques reprend l'image à la fin : « Comme le corps sans âme est mort, de même la foi sans les oeuvres est morte. »",
+      "en": "“Even so faith, if it hath not works, is dead, being alone.” James returns to the image at the end: “For as the body without the spirit is dead, so faith without works is dead also.”"
+     },
+     "ref": "59:2:17"
+    },
+    {
+     "id": "faith-life-works-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Jacques, les démons croient eux aussi qu'il y a un seul Dieu.",
+      "en": "According to James, even the demons believe that there is one God."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Tu crois qu'il y a un seul Dieu, tu fais bien; les démons le croient aussi, et ils tremblent. »",
+      "en": "“Thou believest that there is one God; thou doest well: the devils also believe, and tremble.”"
+     },
+     "ref": "59:2:19"
+    },
+    {
+     "id": "faith-life-works-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel acte d'Abraham Jacques donne-t-il en exemple ?",
+      "en": "Which act of Abraham does James give as an example?"
+     },
+     "choices": {
+      "fr": [
+       "Son départ de son pays",
+       "L'accueil de trois visiteurs",
+       "L'offrande d'Isaac sur l'autel",
+       "Le partage du pays avec Lot"
+      ],
+      "en": [
+       "Leaving his homeland",
+       "Welcoming three visitors",
+       "Offering Isaac on the altar",
+       "Sharing the land with Lot"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Abraham, notre père, ne fut-il pas justifié par les oeuvres, lorsqu'il offrit son fils Isaac sur l'autel? » Ce récit se trouve en Genèse 22.",
+      "en": "“Was not Abraham our father justified by works, when he had offered Isaac his son upon the altar?” The story is told in Genesis 22."
+     },
+     "ref": "59:2:21"
+    },
+    {
+     "id": "faith-life-works-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 23, comment Abraham fut-il appelé ?",
+      "en": "According to verse 23, what was Abraham called?"
+     },
+     "choices": {
+      "fr": [
+       "Ami de Dieu",
+       "Père des nations",
+       "Serviteur fidèle",
+       "Prophète de l'Eternel"
+      ],
+      "en": [
+       "The Friend of God",
+       "The father of nations",
+       "The faithful servant",
+       "The prophet of the Lord"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Ainsi s'accomplit ce que dit l'Ecriture: Abraham crut à Dieu, et cela lui fut imputé à justice; et il fut appelé ami de Dieu. » La parole citée vient de Genèse 15:6.",
+      "en": "“And the scripture was fulfilled which saith, Abraham believed God, and it was imputed unto him for righteousness: and he was called the Friend of God.” The scripture quoted is Genesis 15:6."
+     },
+     "ref": "59:2:23"
+    },
+    {
+     "id": "faith-life-works-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Jacques, qu'a fait Rahab ?",
+      "en": "According to James, what did Rahab do?"
+     },
+     "choices": {
+      "fr": [
+       "Elle combattit avec Israël contre les gens de Jéricho",
+       "Elle reçut les messagers et les fit partir par un autre chemin",
+       "Elle quitta Jéricho avec sa famille avant le siège",
+       "Elle annonça au roi de Jéricho la chute de la ville"
+      ],
+      "en": [
+       "She fought with Israel against the men of Jericho",
+       "She received the messengers and sent them out another way",
+       "She left Jericho with her family before the siege",
+       "She told the king of Jericho the city would fall"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Rahab la prostituée ne fut-elle pas également justifiée par les oeuvres, lorsqu'elle reçut les messagers et qu'elle les fit partir par un autre chemin? » Hébreux 11:31 évoque aussi Rahab et cet accueil des espions.",
+      "en": "“Likewise also was not Rahab the harlot justified by works, when she had received the messengers, and had sent them out another way?” Hebrews 11:31 also mentions Rahab and her welcome of the spies."
+     },
+     "ref": "59:2:25"
+    }
+   ]
+  },
+  {
+   "id": "faith-life-spirit",
+   "title": {
+    "fr": "Marcher selon l'Esprit",
+    "en": "Walking in the Spirit"
+   },
+   "passages": [
+    "48:5:13-25"
+   ],
+   "intro": {
+    "fr": "Dans la lettre aux Galates, Paul vient d'écrire : « C'est pour la liberté que Christ nous a affranchis » (5:1). Il précise ici comment user de cette liberté et oppose la « chair » à l'« Esprit ».",
+    "en": "In Galatians Paul has just written about “the liberty wherewith Christ hath made us free” (5:1). Here he explains how that liberty is to be used, and sets the “flesh” against the “Spirit.”"
+   },
+   "keyVerse": "48:5:25",
+   "takeaway": {
+    "fr": "Paul demande de ne pas faire de la liberté un prétexte pour la chair, mais de se servir les uns les autres par amour. Il oppose les œuvres de la chair au fruit de l'Esprit et conclut : « Si nous vivons par l'Esprit, marchons aussi selon l'Esprit. »",
+    "en": "Paul says liberty must not become an occasion for the flesh; instead, by love serve one another. He contrasts the works of the flesh with the fruit of the Spirit and concludes: “If we live in the Spirit, let us also walk in the Spirit.”"
+   },
+   "questions": [
+    {
+     "id": "faith-life-spirit-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 13, comment les Galates doivent-ils user de leur liberté ?",
+      "en": "According to verse 13, how should the Galatians use their liberty?"
+     },
+     "choices": {
+      "fr": [
+       "En vivant chacun à sa guise, sans contrainte",
+       "En se servant les uns les autres par amour",
+       "En renonçant à tous leurs biens terrestres",
+       "En observant toutes les fêtes de la loi"
+      ],
+      "en": [
+       "By each living just as he pleases",
+       "By serving one another in love",
+       "By giving up all their possessions",
+       "By keeping all the feasts of the law"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« ne faites pas de cette liberté un prétexte de vivre selon la chair; mais rendez-vous, par la charité, serviteurs les uns des autres. » Dans la Segond, « charité » traduit le mot grec pour l'amour.",
+      "en": "“only use not liberty for an occasion to the flesh, but by love serve one another.”"
+     },
+     "ref": "48:5:13"
+    },
+    {
+     "id": "faith-life-spirit-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Paul, quelle parole résume toute la loi ?",
+      "en": "According to Paul, what single word fulfils the whole law?"
+     },
+     "choices": {
+      "fr": [
+       "Tu ne tueras point ni ne déroberas",
+       "Honore ton père et ta mère",
+       "Tu n'auras pas d'autres dieux devant moi",
+       "Tu aimeras ton prochain comme toi-même"
+      ],
+      "en": [
+       "Thou shalt not kill, nor steal",
+       "Honour thy father and thy mother",
+       "Thou shalt have no other gods before me",
+       "Thou shalt love thy neighbour as thyself"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Car toute la loi est accomplie dans une seule parole, dans celle-ci: Tu aimeras ton prochain comme toi-même. » Paul cite Lévitique 19:18.",
+      "en": "“For all the law is fulfilled in one word, even in this; Thou shalt love thy neighbour as thyself.” Paul is quoting Leviticus 19:18."
+     },
+     "ref": "48:5:14"
+    },
+    {
+     "id": "faith-life-spirit-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Paul, les désirs de la chair et ceux de l'Esprit vont dans le même sens.",
+      "en": "According to Paul, the desires of the flesh and those of the Spirit point the same way."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "C'est l'inverse : « la chair a des désirs contraires à ceux de l'Esprit, et l'Esprit en a de contraires à ceux de la chair; ils sont opposés entre eux ».",
+      "en": "The opposite: “the flesh lusteth against the Spirit, and the Spirit against the flesh: and these are contrary the one to the other”."
+     },
+     "ref": "48:5:17"
+    },
+    {
+     "id": "faith-life-spirit-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Lequel de ces éléments fait partie du fruit de l'Esprit selon le verset 22 ?",
+      "en": "Which of these is part of the fruit of the Spirit according to verse 22?"
+     },
+     "choices": {
+      "fr": [
+       "La joie",
+       "La sagesse",
+       "La force",
+       "La connaissance"
+      ],
+      "en": [
+       "Joy",
+       "Wisdom",
+       "Strength",
+       "Knowledge"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Mais le fruit de l'Esprit, c'est l'amour, la joie, la paix, la patience, la bonté, la bénignité, la fidélité ». Le mot traduit ici par « fidélité » est le mot grec habituellement rendu par « foi ».",
+      "en": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith”. Some translations render the word “faith” here as “faithfulness.”"
+     },
+     "ref": "48:5:22"
+    },
+    {
+     "id": "faith-life-spirit-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 24, qu'ont fait ceux qui sont à Jésus-Christ ?",
+      "en": "According to verse 24, what have those who are Christ's done?"
+     },
+     "choices": {
+      "fr": [
+       "Ils ont quitté leur famille et leur pays",
+       "Ils ont accompli toute la loi de Moïse",
+       "Ils ont crucifié la chair et ses désirs",
+       "Ils ont reçu la couronne de vie"
+      ],
+      "en": [
+       "They have left their families and homeland",
+       "They have kept the whole law of Moses",
+       "They have crucified the flesh and its lusts",
+       "They have received the crown of life"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Ceux qui sont à Jésus-Christ ont crucifié la chair avec ses passions et ses désirs. » Paul a déjà écrit : « J'ai été crucifié avec Christ » (2:20).",
+      "en": "“And they that are Christ's have crucified the flesh with the affections and lusts.” Paul has already written: “I am crucified with Christ” (2:20)."
+     },
+     "ref": "48:5:24"
+    },
+    {
+     "id": "faith-life-spirit-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Paul complète-t-il la phrase « Si nous vivons par l'Esprit… » ?",
+      "en": "How does Paul finish the sentence “If we live in the Spirit…”?"
+     },
+     "choices": {
+      "fr": [
+       "…ne craignons personne",
+       "…réjouissons-nous toujours",
+       "…soyons patients envers tous",
+       "…marchons aussi selon l'Esprit"
+      ],
+      "en": [
+       "…let us fear no one",
+       "…let us rejoice always",
+       "…let us be patient with all",
+       "…let us also walk in the Spirit"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Si nous vivons par l'Esprit, marchons aussi selon l'Esprit. » Paul reprend l'appel du verset 16 : « Marchez selon l'Esprit, et vous n'accomplirez pas les désirs de la chair. »",
+      "en": "“If we live in the Spirit, let us also walk in the Spirit.” Paul echoes verse 16: “Walk in the Spirit, and ye shall not fulfil the lust of the flesh.”"
+     },
+     "ref": "48:5:25"
+    }
+   ]
+  },
+  {
+   "id": "faith-life-trust",
+   "title": {
+    "fr": "Recommande ton sort à l'Eternel",
+    "en": "Commit your way to the Lord"
+   },
+   "passages": [
+    "19:37:1-11"
+   ],
+   "intro": {
+    "fr": "Le Psaume 37 est attribué à David. C'est un psaume de sagesse, composé en hébreu comme un acrostiche : ses strophes commencent par les lettres successives de l'alphabet. Il répond à une question ancienne : que penser de la réussite des méchants ?",
+    "en": "Psalm 37 is attributed to David. It is a wisdom psalm, written in Hebrew as an acrostic: its stanzas begin with the successive letters of the alphabet. It takes up an old question: what to make of the success of the wicked?"
+   },
+   "keyVerse": "19:37:5",
+   "takeaway": {
+    "fr": "Le psalmiste invite à ne pas s'irriter de la réussite des méchants, mais à se confier en l'Eternel, à pratiquer le bien et à espérer en lui. Il affirme que les méchants disparaîtront bientôt.",
+    "en": "The psalmist urges his readers not to fret over the success of the wicked, but to trust in the Lord, do good and wait for him. He declares that the wicked will soon be gone."
+   },
+   "questions": [
+    {
+     "id": "faith-life-trust-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Par quelle recommandation le psaume s'ouvre-t-il ?",
+      "en": "What advice does the psalm open with?"
+     },
+     "choices": {
+      "fr": [
+       "Fuir loin de la maison des méchants",
+       "Prier chaque jour pour les méchants",
+       "Ne pas s'irriter contre les méchants",
+       "Combattre les méchants sans relâche"
+      ],
+      "en": [
+       "Flee far from the house of evildoers",
+       "Pray every day for evildoers",
+       "Do not fret because of evildoers",
+       "Fight evildoers without rest"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Ne t'irrite pas contre les méchants, N'envie pas ceux qui font le mal. » La recommandation revient aux versets 7 et 8.",
+      "en": "“Fret not thyself because of evildoers, neither be thou envious against the workers of iniquity.” The advice comes back in verses 7 and 8."
+     },
+     "ref": "19:37:1"
+    },
+    {
+     "id": "faith-life-trust-2",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi les méchants sont-ils comparés au verset 2 ?",
+      "en": "What are the wicked compared to in verse 2?"
+     },
+     "choices": {
+      "fr": [
+       "À l'herbe",
+       "À la paille",
+       "À la rosée",
+       "À une ombre"
+      ],
+      "en": [
+       "Grass",
+       "Chaff",
+       "Dew",
+       "A shadow"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Car ils sont fauchés aussi vite que l'herbe, Et ils se flétrissent comme le gazon vert. » Leur réussite est aussi passagère que l'herbe.",
+      "en": "“For they shall soon be cut down like the grass, and wither as the green herb.” Their success is as short-lived as grass."
+     },
+     "ref": "19:37:2"
+    },
+    {
+     "id": "faith-life-trust-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Le verset 3 invite à se confier en l'Eternel, sans parler de la manière d'agir.",
+      "en": "Verse 3 urges trust in the Lord without saying anything about how to act."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "La confiance va avec la conduite : « Confie-toi en l'Eternel, et pratique le bien ».",
+      "en": "Trust goes together with conduct: “Trust in the Lord, and do good”."
+     },
+     "ref": "19:37:3"
+    },
+    {
+     "id": "faith-life-trust-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 5, que fera l'Eternel pour celui qui se confie en lui ?",
+      "en": "According to verse 5, what will the Lord do for the one who trusts in him?"
+     },
+     "choices": {
+      "fr": [
+       "Il l'enrichira",
+       "Il agira",
+       "Il punira aussitôt ses ennemis",
+       "Il lui donnera une longue vie"
+      ],
+      "en": [
+       "He will make him rich",
+       "He will bring it to pass",
+       "He will punish his enemies at once",
+       "He will give him a long life"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Recommande ton sort à l'Eternel, Mets en lui ta confiance, et il agira. » Le verset suivant ajoute : « Il fera paraître ta justice comme la lumière ».",
+      "en": "“Commit thy way unto the Lord; trust also in him; and he shall bring it to pass.” The next verse adds: “he shall bring forth thy righteousness as the light”."
+     },
+     "ref": "19:37:5"
+    },
+    {
+     "id": "faith-life-trust-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que conseille le verset 7 face à celui qui réussit dans ses mauvais desseins ?",
+      "en": "What does verse 7 advise in the face of someone whose wicked schemes succeed?"
+     },
+     "choices": {
+      "fr": [
+       "Le dénoncer aux juges de la ville",
+       "Se taire devant l'Eternel et espérer en lui",
+       "Éviter sa compagnie et sa maison",
+       "Demander à Dieu de le faire tomber"
+      ],
+      "en": [
+       "Report him to the city judges",
+       "Rest in the Lord and wait for him",
+       "Keep away from him and his house",
+       "Ask God to bring him down"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Garde le silence devant l'Eternel, et espère en lui; Ne t'irrite pas contre celui qui réussit dans ses voies ».",
+      "en": "“Rest in the Lord, and wait patiently for him: fret not thyself because of him who prospereth in his way”."
+     },
+     "ref": "19:37:7"
+    },
+    {
+     "id": "faith-life-trust-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, qui possédera le pays ?",
+      "en": "According to verse 9, who shall inherit the earth?"
+     },
+     "choices": {
+      "fr": [
+       "Ceux qui sont puissants",
+       "Ceux qui sont sages",
+       "Ceux qui espèrent en l'Eternel",
+       "Ceux qui ont des richesses"
+      ],
+      "en": [
+       "Those who are mighty",
+       "Those who are wise",
+       "Those that wait upon the Lord",
+       "Those who have riches"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Car les méchants seront retranchés, Et ceux qui espèrent en l'Eternel posséderont le pays. » Le verset 11 le dit aussi des « misérables », c'est-à-dire des humbles ; Jésus reprend une formule proche en Matthieu 5:5.",
+      "en": "“For evildoers shall be cut off: but those that wait upon the Lord, they shall inherit the earth.” Verse 11 says the same of “the meek”, and Jesus uses almost the same words in Matthew 5:5."
+     },
+     "ref": "19:37:9"
+    }
+   ]
+  },
+  {
+   "id": "faith-life-trials",
+   "title": {
+    "fr": "Plus précieuse que l'or",
+    "en": "More precious than gold"
+   },
+   "passages": [
+    "60:1:3-9"
+   ],
+   "intro": {
+    "fr": "La première lettre de Pierre s'adresse à des croyants « dispersés dans le Pont, la Galatie, la Cappadoce, l'Asie et la Bithynie » (1:1), des régions de l'actuelle Turquie. Plusieurs passages de la lettre évoquent les souffrances qu'ils endurent.",
+    "en": "The first letter of Peter is addressed to believers “scattered throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia” (1:1), regions in present-day Turkey. Several passages in the letter speak of the sufferings they are going through."
+   },
+   "keyVerse": "60:1:7",
+   "takeaway": {
+    "fr": "Pierre écrit que ses lecteurs sont gardés « par la foi » et que l'épreuve de leur foi, plus précieuse que l'or éprouvé par le feu, aboutira à la louange quand Jésus-Christ apparaîtra. Il note qu'ils l'aiment et croient en lui sans l'avoir vu.",
+    "en": "Peter writes that his readers are kept “through faith” and that the trial of their faith, more precious than gold tried with fire, will result in praise when Jesus Christ appears. He notes that they love him and believe in him without having seen him."
+   },
+   "questions": [
+    {
+     "id": "faith-life-trials-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 3, par quoi Dieu a-t-il fait naître les croyants à une espérance vivante ?",
+      "en": "According to verse 3, through what has God begotten believers again to a living hope?"
+     },
+     "choices": {
+      "fr": [
+       "Par le don de la loi au Sinaï",
+       "Par la prédication des apôtres",
+       "Par les promesses faites à Abraham",
+       "Par la résurrection de Jésus-Christ"
+      ],
+      "en": [
+       "Through the giving of the law at Sinai",
+       "Through the preaching of the apostles",
+       "Through the promises made to Abraham",
+       "Through the resurrection of Jesus Christ"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Dieu « nous a régénérés, pour une espérance vivante, par la résurrection de Jésus-Christ d'entre les morts ». « Régénérer » signifie faire naître de nouveau.",
+      "en": "God “hath begotten us again unto a lively hope by the resurrection of Jesus Christ from the dead”. “Lively” here means living."
+     },
+     "ref": "60:1:3"
+    },
+    {
+     "id": "faith-life-trials-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Où l'héritage des croyants est-il réservé, selon le verset 4 ?",
+      "en": "According to verse 4, where is the believers' inheritance reserved?"
+     },
+     "choices": {
+      "fr": [
+       "Dans les cieux",
+       "Au temple",
+       "À Jérusalem",
+       "En terre promise"
+      ],
+      "en": [
+       "In heaven",
+       "In the temple",
+       "In Jerusalem",
+       "In the promised land"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "C'est « un héritage qui ne se peut ni corrompre, ni souiller, ni flétrir, lequel vous est réservé dans les cieux ».",
+      "en": "It is “an inheritance incorruptible, and undefiled, and that fadeth not away, reserved in heaven for you”."
+     },
+     "ref": "60:1:4"
+    },
+    {
+     "id": "faith-life-trials-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Pierre écrit que ses lecteurs seront attristés pour toujours par leurs épreuves.",
+      "en": "Peter writes that his readers will be grieved by their trials forever."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Ils sont attristés « pour un peu de temps par diverses épreuves », et cela n'empêche pas leur joie.",
+      "en": "They are in heaviness “for a season … through manifold temptations,” and this does not take away their joy. “Temptations” here means trials."
+     },
+     "ref": "60:1:6"
+    },
+    {
+     "id": "faith-life-trials-4",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi Pierre compare-t-il l'épreuve de la foi ?",
+      "en": "What does Peter compare the trial of faith to?"
+     },
+     "choices": {
+      "fr": [
+       "À l'argent",
+       "À l'or éprouvé par le feu",
+       "Aux pierres précieuses",
+       "Aux perles"
+      ],
+      "en": [
+       "Silver",
+       "Gold tried with fire",
+       "Precious stones",
+       "Pearls"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« l'épreuve de votre foi, plus précieuse que l'or périssable qui cependant est éprouvé par le feu ». On purifiait l'or en le passant au feu.",
+      "en": "“the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire”. Gold was refined by passing it through fire."
+     },
+     "ref": "60:1:7"
+    },
+    {
+     "id": "faith-life-trials-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, comment les lecteurs de Pierre aiment-ils Jésus-Christ ?",
+      "en": "According to verse 8, how do Peter's readers love Jesus Christ?"
+     },
+     "choices": {
+      "fr": [
+       "Après avoir vu ses miracles",
+       "Par crainte du jugement",
+       "Sans l'avoir vu",
+       "Comme ses disciples en Galilée"
+      ],
+      "en": [
+       "After seeing his miracles",
+       "Out of fear of judgment",
+       "Without having seen him",
+       "As his disciples in Galilee did"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« lui que vous aimez sans l'avoir vu, en qui vous croyez sans le voir encore, vous réjouissant d'une joie ineffable et glorieuse ».",
+      "en": "“Whom having not seen, ye love; in whom, though now ye see him not, yet believing, ye rejoice with joy unspeakable and full of glory”."
+     },
+     "ref": "60:1:8"
+    },
+    {
+     "id": "faith-life-trials-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, qu'obtiendront-ils au terme de leur foi ?",
+      "en": "According to verse 9, what will they receive as the end of their faith?"
+     },
+     "choices": {
+      "fr": [
+       "Une longue vie sur la terre",
+       "La sagesse",
+       "De grandes richesses",
+       "Le salut de leurs âmes"
+      ],
+      "en": [
+       "A long life on earth",
+       "Wisdom",
+       "Great riches",
+       "The salvation of their souls"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« parce que vous obtiendrez le salut de vos âmes pour prix de votre foi. »",
+      "en": "“Receiving the end of your faith, even the salvation of your souls.”"
+     },
+     "ref": "60:1:9"
+    }
+   ]
+  },
+  {
+   "id": "faith-life-finish",
+   "title": {
+    "fr": "J'ai gardé la foi",
+    "en": "I have kept the faith"
+   },
+   "passages": [
+    "55:4:1-8"
+   ],
+   "intro": {
+    "fr": "La deuxième lettre à Timothée se présente comme écrite par Paul, prisonnier (1:8), à son collaborateur Timothée. Dans ce passage, Paul pense que sa mort est proche et transmet ses dernières recommandations.",
+    "en": "Second Timothy presents itself as written by Paul, a prisoner (1:8), to his co-worker Timothy. In this passage Paul thinks his death is near and passes on his last instructions."
+   },
+   "keyVerse": "55:4:7",
+   "takeaway": {
+    "fr": "Paul charge Timothée de prêcher la parole en toute occasion, car viendra un temps où l'on se détournera de la vérité. Sentant son départ proche, il dit avoir combattu le bon combat, achevé la course et gardé la foi, et attend la couronne de justice.",
+    "en": "Paul charges Timothy to preach the word in season and out of season, because a time will come when people turn away from the truth. Sensing that his departure is near, he says he has fought a good fight, finished his course and kept the faith, and he looks for a crown of righteousness."
+   },
+   "questions": [
+    {
+     "id": "faith-life-finish-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle charge Paul confie-t-il à Timothée au verset 2 ?",
+      "en": "What charge does Paul give Timothy in verse 2?"
+     },
+     "choices": {
+      "fr": [
+       "Garder le silence",
+       "Se retirer au désert",
+       "Prêcher la parole",
+       "Fonder une école"
+      ],
+      "en": [
+       "To keep silent",
+       "To withdraw to the desert",
+       "To preach the word",
+       "To found a school"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« prêche la parole, insiste en toute occasion, favorable ou non, reprends, censure, exhorte, avec toute douceur et en instruisant. »",
+      "en": "“Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine.”"
+     },
+     "ref": "55:4:2"
+    },
+    {
+     "id": "faith-life-finish-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Paul, vers quoi se tourneront ceux qui ne supporteront plus la saine doctrine ?",
+      "en": "According to Paul, what will those who no longer endure sound doctrine turn to?"
+     },
+     "choices": {
+      "fr": [
+       "Vers les idoles",
+       "Vers les fables",
+       "Vers la loi",
+       "Vers les philosophes"
+      ],
+      "en": [
+       "Idols",
+       "Fables",
+       "The law",
+       "Philosophers"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Ils « détourneront l'oreille de la vérité, et se tourneront vers les fables. » Paul les décrit comme ayant « la démangeaison d'entendre des choses agréables ».",
+      "en": "“they shall turn away their ears from the truth, and shall be turned unto fables.” Paul describes them as “having itching ears”."
+     },
+     "ref": "55:4:4"
+    },
+    {
+     "id": "faith-life-finish-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Paul écrit que le moment de son départ approche.",
+      "en": "Paul writes that the time of his departure is at hand."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "« Car pour moi, je sers déjà de libation, et le moment de mon départ approche. » Une libation est une offrande liquide, souvent du vin, versée sur l'autel ; Paul parle ici de sa mort.",
+      "en": "“For I am now ready to be offered, and the time of my departure is at hand.” The Greek word behind “offered” refers to a drink offering poured out on the altar; Paul is speaking of his death."
+     },
+     "ref": "55:4:6"
+    },
+    {
+     "id": "faith-life-finish-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Complétez : « J'ai combattu le bon combat, j'ai achevé la course, j'ai gardé… »",
+      "en": "Complete: “I have fought a good fight, I have finished my course, I have kept…”"
+     },
+     "choices": {
+      "fr": [
+       "La loi",
+       "Les commandements",
+       "La promesse",
+       "La foi"
+      ],
+      "en": [
+       "The law",
+       "The commandments",
+       "The promise",
+       "The faith"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« J'ai combattu le bon combat, j'ai achevé la course, j'ai gardé la foi. » Paul emprunte ses images au combat et à la course ; Hébreux 12:1 parle lui aussi de courir dans « la carrière ».",
+      "en": "“I have fought a good fight, I have finished my course, I have kept the faith”. Paul borrows his images from combat and racing; Hebrews 12:1 also speaks of running “the race”."
+     },
+     "ref": "55:4:7"
+    },
+    {
+     "id": "faith-life-finish-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle récompense Paul dit-il lui être réservée ?",
+      "en": "What reward does Paul say is laid up for him?"
+     },
+     "choices": {
+      "fr": [
+       "La couronne de justice",
+       "Un trône de gloire",
+       "Une robe blanche",
+       "Une palme de victoire"
+      ],
+      "en": [
+       "A crown of righteousness",
+       "A throne of glory",
+       "A white robe",
+       "A palm of victory"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Désormais la couronne de justice m'est réservée; le Seigneur, le juste juge, me la donnera dans ce jour-là ». Dans les jeux antiques, le vainqueur recevait une couronne.",
+      "en": "“Henceforth there is laid up for me a crown of righteousness, which the Lord, the righteous judge, shall give me at that day”. In ancient games the winner received a crown."
+     },
+     "ref": "55:4:8"
+    },
+    {
+     "id": "faith-life-finish-6",
+     "kind": "choice",
+     "q": {
+      "fr": "À qui, en dehors de Paul, le Seigneur donnera-t-il aussi cette couronne ?",
+      "en": "Besides Paul, who else will the Lord give this crown to?"
+     },
+     "choices": {
+      "fr": [
+       "Aux seuls apôtres qui l'ont suivi",
+       "À ceux qui auront prêché la parole",
+       "À tous ceux qui auront aimé son avènement",
+       "Aux seuls martyrs morts pour lui"
+      ],
+      "en": [
+       "Only the apostles who followed him",
+       "Those who have preached the word",
+       "All those who love his appearing",
+       "Only those who died as martyrs"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« et non seulement à moi, mais encore à tous ceux qui auront aimé son avènement. » L'« avènement » désigne la venue, l'apparition du Seigneur.",
+      "en": "“and not to me only, but unto all them also that love his appearing.”"
+     },
+     "ref": "55:4:8"
+    }
+   ]
+  }
+ ]
+}

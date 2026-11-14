@@ -1,0 +1,1566 @@
+{
+ "id": "justice",
+ "order": 10,
+ "icon": "balance",
+ "group": "faith-way",
+ "title": {
+  "fr": "La justice",
+  "en": "Righteousness and justice"
+ },
+ "description": {
+  "fr": "Ce que la Bible dit de la justice : celle de Dieu, le juge de toute la terre ; celle qu'il demande envers le pauvre et l'étranger ; et celle qui, selon Paul, vient de Dieu par la foi.",
+  "en": "What the Bible says about righteousness and justice: God's own, as Judge of all the earth; the justice he requires toward the poor and the stranger; and the righteousness that, according to Paul, comes from God by faith."
+ },
+ "lessons": [
+  {
+   "id": "justice-judge",
+   "title": {
+    "fr": "Le juge de toute la terre",
+    "en": "The Judge of all the earth"
+   },
+   "passages": [
+    "1:18:20-33"
+   ],
+   "intro": {
+    "fr": "Trois visiteurs sont venus voir Abraham à Mamré. Au moment où ils repartent vers Sodome, l'Eternel fait savoir à Abraham ce qu'il va faire contre cette ville, où habite Lot, le neveu d'Abraham.",
+    "en": "Three visitors have come to Abraham at Mamre. As they set off toward Sodom, the Lord lets Abraham know what he is about to do to that city, where Abraham's nephew Lot lives."
+   },
+   "keyVerse": "1:18:25",
+   "takeaway": {
+    "fr": "Abraham intercède pour Sodome en s'appuyant sur la justice de Dieu : celui qui juge toute la terre ne peut traiter le juste comme le méchant. L'Eternel accepte chacune de ses demandes, jusqu'à promettre d'épargner la ville pour dix justes.",
+    "en": "Abraham intercedes for Sodom on the basis of God's justice: the Judge of all the earth cannot treat the righteous like the wicked. The Lord grants each of his requests, until he promises to spare the city for ten righteous people."
+   },
+   "questions": [
+    {
+     "id": "justice-judge-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce qu'Abraham redoute lorsqu'il s'approche de l'Eternel ?",
+      "en": "What is Abraham afraid of when he draws near to the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Que le juste périsse avec le méchant",
+       "Que Lot refuse de quitter la ville",
+       "Que les rois de la plaine l'attaquent",
+       "Que ses visiteurs ne reviennent jamais"
+      ],
+      "en": [
+       "That the righteous will perish with the wicked",
+       "That Lot will refuse to leave the city",
+       "That the kings of the plain will attack him",
+       "That his visitors will never come back"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Abraham demande : « Feras-tu aussi périr le juste avec le méchant? » Il ne conteste pas le jugement de Sodome, mais il craint que les justes soient emportés avec les coupables.",
+      "en": "Abraham asks: “Wilt thou also destroy the righteous with the wicked?” He does not dispute the judgment on Sodom, but he fears the righteous will be swept away with the guilty."
+     },
+     "ref": "1:18:23"
+    },
+    {
+     "id": "justice-judge-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Abraham désigne-t-il Dieu au verset 25 ?",
+      "en": "How does Abraham refer to God in verse 25?"
+     },
+     "choices": {
+      "fr": [
+       "Le Dieu de mes pères",
+       "Le berger d'Israël",
+       "Celui qui juge toute la terre",
+       "Le roi des nations"
+      ],
+      "en": [
+       "The God of my fathers",
+       "The shepherd of Israel",
+       "The Judge of all the earth",
+       "The King of nations"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Celui qui juge toute la terre n'exercera-t-il pas la justice? » Abraham fonde sa prière sur ce que Dieu est : un juge juste ne peut traiter le juste comme le méchant.",
+      "en": "“Shall not the Judge of all the earth do right?” Abraham bases his prayer on who God is: a just judge cannot treat the righteous as the wicked."
+     },
+     "ref": "1:18:25"
+    },
+    {
+     "id": "justice-judge-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond l'Eternel à la première demande d'Abraham ?",
+      "en": "How does the Lord answer Abraham's first request?"
+     },
+     "choices": {
+      "fr": [
+       "Il ne sauvera que les justes eux-mêmes",
+       "Il épargnera toute la ville s'il y trouve cinquante justes",
+       "Il détruira la ville, quel que soit le nombre de justes",
+       "Il attendra que Lot ait quitté la ville avec sa famille"
+      ],
+      "en": [
+       "He will save only the righteous themselves",
+       "He will spare the whole city if he finds fifty righteous there",
+       "He will destroy the city, however many righteous live there",
+       "He will wait until Lot and his family have left the city"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Si je trouve dans Sodome cinquante justes au milieu de la ville, je pardonnerai à toute la ville, à cause d'eux. » La présence de ces justes suffirait à épargner toute la ville.",
+      "en": "“If I find in Sodom fifty righteous within the city, then I will spare all the place for their sakes.” The presence of these righteous people would be enough to spare the whole city."
+     },
+     "ref": "1:18:26"
+    },
+    {
+     "id": "justice-judge-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Abraham se décrit-il en parlant au Seigneur ?",
+      "en": "How does Abraham describe himself as he speaks to the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Un serviteur sans valeur",
+       "Un étranger sur la terre",
+       "Un homme aux lèvres impures",
+       "Poudre et cendre"
+      ],
+      "en": [
+       "A worthless servant",
+       "A stranger on the earth",
+       "A man of unclean lips",
+       "Dust and ashes"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Voici, j'ai osé parler au Seigneur, moi qui ne suis que poudre et cendre. » Abraham insiste, mais avec humilité.",
+      "en": "“Behold now, I have taken upon me to speak unto the Lord, which am but dust and ashes.” Abraham presses his case, but humbly."
+     },
+     "ref": "1:18:27"
+    },
+    {
+     "id": "justice-judge-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Au cours de ce dialogue, l'Eternel refuse au moins une des demandes d'Abraham.",
+      "en": "During this exchange, the Lord turns down at least one of Abraham's requests."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux : l'Eternel accepte chaque demande, de cinquante justes jusqu'à dix : « Je ne la détruirai point, à cause de ces dix justes. » C'est Abraham qui cesse de demander.",
+      "en": "False: the Lord grants every request, from fifty righteous down to ten: “I will not destroy it for ten's sake.” It is Abraham who stops asking."
+     },
+     "ref": "1:18:32"
+    }
+   ]
+  },
+  {
+   "id": "justice-courts",
+   "title": {
+    "fr": "Rendre la justice",
+    "en": "Justice in the courts"
+   },
+   "passages": [
+    "2:23:1-9",
+    "5:16:18-20"
+   ],
+   "intro": {
+    "fr": "Exode 23 fait partie des lois que Moïse reçoit au Sinaï, à la suite des dix commandements. Deutéronome 16 appartient aux discours de Moïse au peuple avant l'entrée dans le pays promis. Les deux passages règlent la manière de témoigner et de juger.",
+    "en": "Exodus 23 belongs to the laws Moses receives at Sinai, following the Ten Commandments. Deuteronomy 16 is part of Moses' speeches to the people before they enter the promised land. Both passages regulate how to testify and how to judge."
+   },
+   "keyVerse": "5:16:20",
+   "takeaway": {
+    "fr": "La loi interdit le faux témoignage, les présents qui corrompent les juges et l'oppression de l'étranger. Elle demande une justice impartiale, sans égard à l'apparence des personnes.",
+    "en": "The law forbids false witness, gifts that corrupt judges, and the oppression of the stranger. It requires impartial justice that does not respect persons."
+   },
+   "questions": [
+    {
+     "id": "justice-courts-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Exode 23:2, que ne faut-il pas faire lors d'un procès ?",
+      "en": "According to Exodus 23:2, what must you not do in a lawsuit?"
+     },
+     "choices": {
+      "fr": [
+       "Témoigner contre un membre de sa propre famille",
+       "Suivre le grand nombre au mépris de la justice",
+       "Parler avant les anciens de la ville",
+       "Déposer sans avoir prêté serment"
+      ],
+      "en": [
+       "Testify against a member of your own family",
+       "Side with the majority and so pervert justice",
+       "Speak before the elders of the city",
+       "Give evidence without taking an oath"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Tu ne suivras point la multitude pour faire le mal; et tu ne déposeras point dans un procès en te mettant du côté du grand nombre, pour violer la justice. » Un témoignage ne vaut pas parce qu'il est celui de la majorité.",
+      "en": "“Thou shalt not follow a multitude to do evil; neither shalt thou speak in a cause to decline after many to wrest judgment.” A testimony is not right just because the majority gives it."
+     },
+     "ref": "2:23:2"
+    },
+    {
+     "id": "justice-courts-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Exode 23:5, on peut laisser sans aide l'âne d'un ennemi qui succombe sous sa charge.",
+      "en": "According to Exodus 23:5, you may leave your enemy's donkey struggling under its load without helping."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux : « Si tu vois l'âne de ton ennemi succombant sous sa charge, et que tu hésites à le décharger, tu l'aideras à le décharger. » Le verset précédent demande aussi de ramener à son ennemi son bœuf ou son âne égaré.",
+      "en": "False: “If thou see the ass of him that hateth thee lying under his burden, and wouldest forbear to help him, thou shalt surely help with him.” The verse before also commands returning an enemy's straying ox or donkey."
+     },
+     "ref": "2:23:5"
+    },
+    {
+     "id": "justice-courts-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Au verset 7, quelle raison Dieu donne-t-il pour ne pas faire mourir l'innocent et le juste ?",
+      "en": "In verse 7, what reason does God give for not putting the innocent and righteous to death?"
+     },
+     "choices": {
+      "fr": [
+       "Le sang versé souillerait le pays",
+       "Le juge serait jugé à son tour",
+       "Lui-même n'absoudra pas le coupable",
+       "L'innocent pourrait fuir dans une ville de refuge"
+      ],
+      "en": [
+       "Shed blood would defile the land",
+       "The judge would be judged in turn",
+       "He himself will not justify the wicked",
+       "The innocent could flee to a city of refuge"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Car je n'absoudrai point le coupable. » Celui qui fait condamner un innocent devra en répondre devant Dieu.",
+      "en": "“For I will not justify the wicked.” Whoever has an innocent person condemned will have to answer to God for it."
+     },
+     "ref": "2:23:7"
+    },
+    {
+     "id": "justice-courts-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi un juge ne doit-il pas recevoir de présent ?",
+      "en": "Why must a judge not accept a gift?"
+     },
+     "choices": {
+      "fr": [
+       "Parce que les présents sont réservés aux prêtres",
+       "Parce qu'il deviendrait redevable au roi",
+       "Parce que le peuple en serait jaloux",
+       "Parce que les présents aveuglent les sages"
+      ],
+      "en": [
+       "Because gifts are reserved for the priests",
+       "Because he would become indebted to the king",
+       "Because the people would become jealous",
+       "Because a gift blinds the wise"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Les deux passages donnent la même raison : « les présents aveuglent les yeux des sages et corrompent les paroles des justes » (Deutéronome 16:19 ; voir Exode 23:8). Même un homme droit est faussé par un cadeau.",
+      "en": "Both passages give the same reason: “a gift doth blind the eyes of the wise, and pervert the words of the righteous” (Deuteronomy 16:19; see Exodus 23:8). Even an upright man is skewed by a gift."
+     },
+     "ref": "5:16:19"
+    },
+    {
+     "id": "justice-courts-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi les Israélites ne doivent-ils pas opprimer l'étranger ?",
+      "en": "Why must the Israelites not oppress the stranger?"
+     },
+     "choices": {
+      "fr": [
+       "Parce que l'étranger est protégé par le roi",
+       "Parce que l'étranger peut devenir un jour un allié d'Israël",
+       "Parce qu'ils ont eux-mêmes été étrangers en Égypte",
+       "Parce que l'étranger paie un tribut au sanctuaire"
+      ],
+      "en": [
+       "Because the stranger is protected by the king",
+       "Because the stranger may one day become an ally of Israel",
+       "Because they themselves were strangers in Egypt",
+       "Because the stranger pays a tribute to the sanctuary"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Vous savez ce qu'éprouve l'étranger, car vous avez été étrangers dans le pays d'Egypte. » Israël doit se souvenir de sa propre histoire.",
+      "en": "“Ye know the heart of a stranger, seeing ye were strangers in the land of Egypt.” Israel is to remember its own history."
+     },
+     "ref": "2:23:9"
+    },
+    {
+     "id": "justice-courts-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Deutéronome 16:20, que faut-il faire pour vivre et posséder le pays ?",
+      "en": "According to Deuteronomy 16:20, what must the people do in order to live and inherit the land?"
+     },
+     "choices": {
+      "fr": [
+       "Bâtir des villes fortes",
+       "Suivre ponctuellement la justice",
+       "Offrir les prémices de la récolte",
+       "Chasser tous les étrangers"
+      ],
+      "en": [
+       "Build fortified cities",
+       "Follow what is altogether just",
+       "Offer the firstfruits of the harvest",
+       "Drive out all the strangers"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Tu suivras ponctuellement la justice, afin que tu vives et que tu possèdes le pays. » Le verset 18 vient de demander d'établir dans chaque ville des juges qui jugeront le peuple « avec justice ».",
+      "en": "“That which is altogether just shalt thou follow, that thou mayest live, and inherit the land.” Verse 18 has just required judges in every city who “shall judge the people with just judgment.”"
+     },
+     "ref": "5:16:20"
+    }
+   ]
+  },
+  {
+   "id": "justice-king",
+   "title": {
+    "fr": "Le roi qui juge les pauvres",
+    "en": "The king who judges the poor"
+   },
+   "passages": [
+    "23:11:1-9"
+   ],
+   "intro": {
+    "fr": "Esaïe annonce un rameau sorti du tronc d'Isaï, le père du roi David : un descendant de la famille royale. Le texte décrit l'esprit qui reposera sur lui, sa manière de juger et la paix qui l'entourera.",
+    "en": "Isaiah announces a rod out of the stem of Jesse, the father of King David: a descendant of the royal line. The text describes the spirit that will rest on him, the way he will judge, and the peace that will surround him."
+   },
+   "keyVerse": "23:11:4",
+   "takeaway": {
+    "fr": "Esaïe décrit un roi qui ne juge pas sur l'apparence mais rend justice aux pauvres et aux malheureux. Sous son règne, il ne se fera « ni tort ni dommage » sur la montagne sainte de Dieu.",
+    "en": "Isaiah describes a king who does not judge by appearances but gives justice to the poor and the meek. Under him, “they shall not hurt nor destroy” in all God's holy mountain."
+   },
+   "questions": [
+    {
+     "id": "justice-king-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Qu'est-ce qui reposera sur ce descendant d'Isaï ?",
+      "en": "What will rest upon this descendant of Jesse?"
+     },
+     "choices": {
+      "fr": [
+       "L'Esprit de l'Eternel",
+       "La couronne de Salomon",
+       "Le manteau d'Elie",
+       "La nuée du tabernacle"
+      ],
+      "en": [
+       "The spirit of the Lord",
+       "The crown of Solomon",
+       "The mantle of Elijah",
+       "The cloud of the tabernacle"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« L'Esprit de l'Eternel reposera sur lui: Esprit de sagesse et d'intelligence, Esprit de conseil et de force, Esprit de connaissance et de crainte de l'Eternel. » Ce sont les qualités nécessaires à un bon juge.",
+      "en": "“And the spirit of the Lord shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the Lord.” These are the qualities a good judge needs."
+     },
+     "ref": "23:11:2"
+    },
+    {
+     "id": "justice-king-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 3, sur quoi ce roi ne jugera-t-il pas ?",
+      "en": "According to verse 3, what will this king not judge by?"
+     },
+     "choices": {
+      "fr": [
+       "Sur la loi de Moïse",
+       "Sur l'apparence",
+       "Sur l'avis des prêtres",
+       "Sur les coutumes des nations"
+      ],
+      "en": [
+       "The law of Moses",
+       "What his eyes see",
+       "The advice of the priests",
+       "The customs of the nations"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Il ne jugera point sur l'apparence, Il ne prononcera point sur un ouï-dire. » Il ne se laisse pas guider par ce qui se voit ou se raconte.",
+      "en": "“He shall not judge after the sight of his eyes, neither reprove after the hearing of his ears.” He is not swayed by what can be seen or by hearsay."
+     },
+     "ref": "23:11:3"
+    },
+    {
+     "id": "justice-king-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment jugera-t-il les pauvres ?",
+      "en": "How will he judge the poor?"
+     },
+     "choices": {
+      "fr": [
+       "Avec indulgence",
+       "Avec sévérité",
+       "Selon leur rang",
+       "Avec équité"
+      ],
+      "en": [
+       "With leniency",
+       "With severity",
+       "According to their rank",
+       "With righteousness"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Mais il jugera les pauvres avec équité, Et il prononcera avec droiture sur les malheureux de la terre. » Ceux qui sont d'ordinaire sans défense obtiennent enfin justice.",
+      "en": "“But with righteousness shall he judge the poor, and reprove with equity for the meek of the earth.” Those who are usually defenceless finally receive justice."
+     },
+     "ref": "23:11:4"
+    },
+    {
+     "id": "justice-king-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelles deux qualités le texte compare-t-il à une ceinture ?",
+      "en": "Which two qualities does the text compare to a girdle (belt)?"
+     },
+     "choices": {
+      "fr": [
+       "La force et la gloire",
+       "La justice et la fidélité",
+       "La sagesse et la crainte",
+       "La douceur et la patience"
+      ],
+      "en": [
+       "Strength and glory",
+       "Righteousness and faithfulness",
+       "Wisdom and fear",
+       "Meekness and patience"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« La justice sera la ceinture de ses flancs, Et la fidélité la ceinture de ses reins. » La ceinture tient le vêtement serré : la justice et la fidélité ne le quittent pas.",
+      "en": "“And righteousness shall be the girdle of his loins, and faithfulness the girdle of his reins.” A girdle holds the clothing fast: righteousness and faithfulness never leave him."
+     },
+     "ref": "23:11:5"
+    },
+    {
+     "id": "justice-king-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Dans le tableau des versets 6 à 8, le lion mange de la paille comme le bœuf.",
+      "en": "In the picture painted in verses 6–8, the lion eats straw like the ox."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « Et le lion, comme le boeuf, mangera de la paille. » Le texte décrit des animaux ennemis vivant ensemble, conduits par un petit enfant.",
+      "en": "True: “And the lion shall eat straw like the ox.” The text describes natural enemies living together, led by a little child."
+     },
+     "ref": "23:11:7"
+    },
+    {
+     "id": "justice-king-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, pourquoi ne se fera-t-il ni tort ni dommage sur la montagne sainte ?",
+      "en": "According to verse 9, why will there be no hurting or destroying on the holy mountain?"
+     },
+     "choices": {
+      "fr": [
+       "Parce que les nations auront fait la paix entre elles pour toujours",
+       "Parce que les animaux auront été domptés",
+       "Parce que la terre sera remplie de la connaissance de l'Eternel",
+       "Parce que le temple aura été rebâti sur la montagne sainte"
+      ],
+      "en": [
+       "Because the nations will have made peace with one another for ever",
+       "Because the animals will have been tamed",
+       "Because the earth will be full of the knowledge of the Lord",
+       "Because the temple will have been rebuilt on the holy mountain"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Car la terre sera remplie de la connaissance de l'Eternel, Comme le fond de la mer par les eaux qui le couvrent. » La paix décrite découle de la connaissance de Dieu.",
+      "en": "“For the earth shall be full of the knowledge of the Lord, as the waters cover the sea.” The peace described flows from the knowledge of God."
+     },
+     "ref": "23:11:9"
+    }
+   ]
+  },
+  {
+   "id": "justice-fast",
+   "title": {
+    "fr": "Le jeûne que Dieu approuve",
+    "en": "The fast God has chosen"
+   },
+   "passages": [
+    "23:58:1-12"
+   ],
+   "intro": {
+    "fr": "Dans ce chapitre d'Esaïe, le peuple jeûne et se plaint que Dieu n'y prête pas attention. Dieu charge le prophète de lui répondre d'une voix forte.",
+    "en": "In this chapter of Isaiah, the people fast and complain that God takes no notice. God tells the prophet to answer them in a loud voice."
+   },
+   "keyVerse": "23:58:6",
+   "takeaway": {
+    "fr": "Selon Esaïe, Dieu ne s'intéresse pas à un jeûne qui s'accompagne de querelles et de dureté envers les ouvriers. Le jeûne qu'il approuve consiste à libérer les opprimés et à partager son pain avec celui qui a faim.",
+    "en": "According to Isaiah, God takes no pleasure in a fast that goes with quarrelling and harshness toward workers. The fast he has chosen is to free the oppressed and share bread with the hungry."
+   },
+   "questions": [
+    {
+     "id": "justice-fast-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 2, comment le peuple se comporte-t-il envers Dieu ?",
+      "en": "According to verse 2, how do the people behave toward God?"
+     },
+     "choices": {
+      "fr": [
+       "Comme un troupeau qui n'a pas de berger",
+       "Comme des étrangers de passage dans le pays",
+       "Comme une nation qui aurait pratiqué la justice",
+       "Comme un peuple qui porte le deuil"
+      ],
+      "en": [
+       "Like a flock that has no shepherd",
+       "Like strangers passing through the land",
+       "Like a nation that had done righteousness",
+       "Like a people that is in mourning"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Tous les jours ils me cherchent [...] Comme une nation qui aurait pratiqué la justice. » Extérieurement, tout semble en ordre ; la suite montre ce que cache cette piété.",
+      "en": "“Yet they seek me daily [...] as a nation that did righteousness.” Outwardly everything looks fine; what follows shows what lies behind this piety."
+     },
+     "ref": "23:58:2"
+    },
+    {
+     "id": "justice-fast-2",
+     "kind": "choice",
+     "q": {
+      "fr": "De quoi le peuple se plaint-il au verset 3 ?",
+      "en": "What do the people complain about in verse 3?"
+     },
+     "choices": {
+      "fr": [
+       "Dieu ne voit pas qu'ils jeûnent",
+       "Le jeûne a duré trop longtemps",
+       "Les prêtres ne jeûnent pas avec eux",
+       "La récolte a été mauvaise"
+      ],
+      "en": [
+       "God does not see their fasting",
+       "The fast has lasted too long",
+       "The priests are not fasting with them",
+       "The harvest has been poor"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Que nous sert de jeûner, si tu ne le vois pas? » Dieu répond aussitôt en décrivant leur conduite le jour même du jeûne.",
+      "en": "“Wherefore have we fasted, say they, and thou seest not?” God answers at once by describing how they behave on the very day of the fast."
+     },
+     "ref": "23:58:3"
+    },
+    {
+     "id": "justice-fast-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que reproche Dieu à leur manière de jeûner (v. 4) ?",
+      "en": "What does God find wrong with the way they fast (v. 4)?"
+     },
+     "choices": {
+      "fr": [
+       "Ils ne se couvrent pas de cendre",
+       "Ils jeûnent pour se disputer et se quereller",
+       "Ils mangent en cachette pendant la nuit",
+       "Ils jeûnent un autre jour que celui prescrit"
+      ],
+      "en": [
+       "They do not put on ashes",
+       "They fast for strife and debate",
+       "They eat in secret during the night",
+       "They fast on the wrong day"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Voici, vous jeûnez pour disputer et vous quereller, Pour frapper méchamment du poing. » Au verset 5, Dieu demande si courber la tête et se coucher sur le sac et la cendre suffit à faire un jeûne.",
+      "en": "“Behold, ye fast for strife and debate, and to smite with the fist of wickedness.” In verse 5 God asks whether bowing the head and lying on sackcloth and ashes is enough to make a fast."
+     },
+     "ref": "23:58:4"
+    },
+    {
+     "id": "justice-fast-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 6, en quoi consiste le jeûne auquel Dieu prend plaisir ?",
+      "en": "According to verse 6, what is the fast that God has chosen?"
+     },
+     "choices": {
+      "fr": [
+       "Courber la tête et se coucher sur la cendre",
+       "Offrir au temple des sacrifices plus nombreux et plus coûteux",
+       "Prier plusieurs fois par jour",
+       "Détacher les chaînes de la méchanceté"
+      ],
+      "en": [
+       "Bowing the head and lying in ashes",
+       "Offering more and costlier sacrifices at the temple",
+       "Praying several times a day",
+       "Loosing the bands of wickedness"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Voici le jeûne auquel je prends plaisir: Détache les chaînes de la méchanceté, Dénoue les liens de la servitude, Renvoie libres les opprimés. » Le jeûne agréé est un acte de justice envers les autres.",
+      "en": "“Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free.” The fast God accepts is an act of justice toward others."
+     },
+     "ref": "23:58:6"
+    },
+    {
+     "id": "justice-fast-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Le verset 7 demande de faire entrer dans sa maison les malheureux sans asile.",
+      "en": "Verse 7 calls for bringing the homeless poor into one's own house."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « Partage ton pain avec celui qui a faim, Et fais entrer dans ta maison les malheureux sans asile. » Le verset demande aussi de couvrir celui qui est nu.",
+      "en": "True: “Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house?” The verse also says to clothe the naked."
+     },
+     "ref": "23:58:7"
+    },
+    {
+     "id": "justice-fast-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, qu'est-ce qui marchera devant celui qui agit ainsi ?",
+      "en": "According to verse 8, what will go before the one who acts in this way?"
+     },
+     "choices": {
+      "fr": [
+       "Un ange de l'Eternel",
+       "L'arche de l'alliance",
+       "Sa justice",
+       "Une colonne de feu"
+      ],
+      "en": [
+       "An angel of the Lord",
+       "The ark of the covenant",
+       "His righteousness",
+       "A pillar of fire"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Alors ta lumière poindra comme l'aurore [...] Ta justice marchera devant toi, Et la gloire de l'Eternel t'accompagnera. » Ceux qui se plaignaient de ne pas être vus reçoivent cette promesse.",
+      "en": "“Then shall thy light break forth as the morning [...] and thy righteousness shall go before thee; the glory of the Lord shall be thy rereward.” Those who complained of not being seen receive this promise."
+     },
+     "ref": "23:58:8"
+    }
+   ]
+  },
+  {
+   "id": "justice-seek",
+   "title": {
+    "fr": "Chercher la justice de Dieu",
+    "en": "Seeking God's righteousness"
+   },
+   "passages": [
+    "40:6:1-6",
+    "40:6:31-34"
+   ],
+   "intro": {
+    "fr": "Ces paroles font partie du Sermon sur la montagne. Jésus parle d'abord de l'aumône et de la prière, puis, plus loin, de l'inquiétude pour la nourriture et le vêtement.",
+    "en": "These words are part of the Sermon on the Mount. Jesus first speaks about giving alms and about prayer, then, further on, about worrying over food and clothing."
+   },
+   "keyVerse": "40:6:33",
+   "takeaway": {
+    "fr": "Jésus met en garde contre le bien accompli pour être vu des hommes : le Père voit ce qui est fait dans le secret. Il demande de chercher premièrement le royaume et la justice de Dieu plutôt que de s'inquiéter du lendemain.",
+    "en": "Jesus warns against doing good in order to be seen by others: the Father sees what is done in secret. He tells his hearers to seek first the kingdom of God and his righteousness rather than worry about tomorrow."
+   },
+   "questions": [
+    {
+     "id": "justice-seek-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 1, de quoi faut-il se garder ?",
+      "en": "According to verse 1, what must you take heed not to do?"
+     },
+     "choices": {
+      "fr": [
+       "D'agir devant les hommes pour être vu d'eux",
+       "De donner plus que la loi ne le demande",
+       "De prier sans avoir jeûné",
+       "De donner aux étrangers"
+      ],
+      "en": [
+       "Doing good before people in order to be seen",
+       "Giving more than the law requires",
+       "Praying without having fasted",
+       "Giving to strangers"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Gardez-vous de pratiquer votre justice devant les hommes, pour en être vus. » La King James porte ici alms (« aumônes ») au lieu de « justice » ; dans les deux cas, le verset introduit les exemples de l'aumône et de la prière.",
+      "en": "“Take heed that ye do not your alms before men, to be seen of them.” Some translations, such as the French Louis Segond, read righteousness here; either way, the verse introduces the examples of almsgiving and prayer."
+     },
+     "ref": "40:6:1"
+    },
+    {
+     "id": "justice-seek-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Jésus de ceux qui sonnent de la trompette quand ils font l'aumône ?",
+      "en": "What does Jesus say about those who sound a trumpet when they give alms?"
+     },
+     "choices": {
+      "fr": [
+       "Ils seront chassés de la synagogue",
+       "Ils reçoivent leur récompense",
+       "Ils seront imités par les pauvres",
+       "Ils devront tout donner"
+      ],
+      "en": [
+       "They will be put out of the synagogue",
+       "They have their reward",
+       "They will be imitated by the poor",
+       "They will have to give everything away"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Je vous le dis en vérité, ils reçoivent leur récompense. » Ils cherchaient à être glorifiés par les hommes : cette gloire est toute la récompense qu'ils auront.",
+      "en": "“Verily I say unto you, They have their reward.” They wanted glory from men, and that glory is all the reward they will get."
+     },
+     "ref": "40:6:2"
+    },
+    {
+     "id": "justice-seek-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Jésus demande-t-il de faire l'aumône ?",
+      "en": "How does Jesus say alms should be given?"
+     },
+     "choices": {
+      "fr": [
+       "En présence de deux témoins qui puissent en répondre",
+       "Aux portes du temple, devant les prêtres",
+       "Après l'avoir annoncée à la synagogue",
+       "Sans que la main gauche sache ce que fait la droite"
+      ],
+      "en": [
+       "In front of two witnesses who can vouch for it",
+       "At the temple gates, in front of the priests",
+       "After announcing it in the synagogue",
+       "Without the left hand knowing what the right hand does"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Que ta main gauche ne sache pas ce que fait ta droite, afin que ton aumône se fasse en secret. » L'image souligne la discrétion demandée.",
+      "en": "“Let not thy left hand know what thy right hand doeth: that thine alms may be in secret.” The image stresses the discretion Jesus asks for."
+     },
+     "ref": "40:6:3"
+    },
+    {
+     "id": "justice-seek-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Pour prier, Jésus dit d'entrer dans sa chambre et de fermer la porte.",
+      "en": "For prayer, Jesus says to go into your room and shut the door."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « Mais quand tu pries, entre dans ta chambre, ferme ta porte, et prie ton Père qui est là dans le lieu secret. » Il l'oppose aux hypocrites qui prient au coin des rues pour être vus.",
+      "en": "True: “But thou, when thou prayest, enter into thy closet, and when thou hast shut thy door, pray to thy Father which is in secret.” He contrasts this with the hypocrites who pray on street corners to be seen."
+     },
+     "ref": "40:6:6"
+    },
+    {
+     "id": "justice-seek-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 32, pourquoi ne pas s'inquiéter de la nourriture et du vêtement ?",
+      "en": "According to verse 32, why should you not worry about food and clothing?"
+     },
+     "choices": {
+      "fr": [
+       "Parce que le Père céleste sait qu'on en a besoin",
+       "Parce que les disciples doivent apprendre à jeûner souvent",
+       "Parce que le temple nourrit les pauvres",
+       "Parce que ces choses n'ont aucune importance"
+      ],
+      "en": [
+       "Because the heavenly Father knows you need them",
+       "Because disciples must learn to fast often",
+       "Because the temple feeds the poor",
+       "Because these things do not matter at all"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Votre Père céleste sait que vous en avez besoin. » Jésus ne dit pas que ces besoins sont sans importance, mais que le Père les connaît.",
+      "en": "“Your heavenly Father knoweth that ye have need of all these things.” Jesus does not say these needs are unimportant, but that the Father knows them."
+     },
+     "ref": "40:6:32"
+    },
+    {
+     "id": "justice-seek-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 33, que faut-il chercher premièrement ?",
+      "en": "According to verse 33, what should you seek first?"
+     },
+     "choices": {
+      "fr": [
+       "La sagesse et l'intelligence",
+       "La nourriture et le vêtement",
+       "Le royaume et la justice de Dieu",
+       "La paix et la santé"
+      ],
+      "en": [
+       "Wisdom and understanding",
+       "Food and clothing",
+       "The kingdom of God and his righteousness",
+       "Peace and health"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Cherchez premièrement le royaume et la justice de Dieu; et toutes ces choses vous seront données par-dessus. » « Ces choses » désignent la nourriture et le vêtement dont il vient d'être question.",
+      "en": "“But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.” “All these things” refers to the food and clothing just mentioned."
+     },
+     "ref": "40:6:33"
+    }
+   ]
+  },
+  {
+   "id": "justice-gift",
+   "title": {
+    "fr": "Justifiés gratuitement",
+    "en": "Justified freely"
+   },
+   "passages": [
+    "45:3:19-31"
+   ],
+   "intro": {
+    "fr": "Dans les premiers chapitres de sa lettre aux Romains, Paul affirme que Juifs et Grecs sont tous sous le péché (3:9). Il annonce ici une justice de Dieu manifestée en dehors de la loi.",
+    "en": "In the opening chapters of his letter to the Romans, Paul argues that Jews and Greeks are all under sin (3:9). Here he announces a righteousness of God that is manifested without the law."
+   },
+   "keyVerse": "45:3:24",
+   "takeaway": {
+    "fr": "Selon Paul, nul ne sera justifié devant Dieu par les œuvres de la loi ; la justice de Dieu est donnée par la foi à tous ceux qui croient, et ils sont justifiés gratuitement par sa grâce. Paul ajoute que la foi n'anéantit pas la loi.",
+    "en": "According to Paul, no one will be justified before God by the deeds of the law; the righteousness of God comes by faith to all who believe, and they are justified freely by his grace. Paul adds that faith does not make void the law."
+   },
+   "questions": [
+    {
+     "id": "justice-gift-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 20, que donne la loi ?",
+      "en": "According to verse 20, what comes by the law?"
+     },
+     "choices": {
+      "fr": [
+       "Le pardon des péchés",
+       "La connaissance du péché",
+       "La vie éternelle",
+       "La paix avec Dieu"
+      ],
+      "en": [
+       "The forgiveness of sins",
+       "The knowledge of sin",
+       "Eternal life",
+       "Peace with God"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Car nul ne sera justifié devant lui par les oeuvres de la loi, puisque c'est par la loi que vient la connaissance du péché. » La loi fait connaître le péché.",
+      "en": "“Therefore by the deeds of the law there shall no flesh be justified in his sight: for by the law is the knowledge of sin.” The law makes sin known."
+     },
+     "ref": "45:3:20"
+    },
+    {
+     "id": "justice-gift-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 22, pour qui est la justice de Dieu ?",
+      "en": "According to verse 22, for whom is the righteousness of God?"
+     },
+     "choices": {
+      "fr": [
+       "Pour tous ceux qui croient",
+       "Pour les Juifs seulement",
+       "Pour ceux qui observent toute la loi",
+       "Pour les prêtres et les lévites"
+      ],
+      "en": [
+       "For all who believe",
+       "For the Jews only",
+       "For those who keep the whole law",
+       "For the priests and Levites"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Justice de Dieu par la foi en Jésus-Christ pour tous ceux qui croient. Il n'y a point de distinction. » Les versets 29 et 30 précisent que Dieu est aussi le Dieu des païens.",
+      "en": "“Even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe: for there is no difference.” Verses 29–30 add that God is the God of the Gentiles too."
+     },
+     "ref": "45:3:22"
+    },
+    {
+     "id": "justice-gift-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 24, comment sont-ils justifiés ?",
+      "en": "According to verse 24, how are they justified?"
+     },
+     "choices": {
+      "fr": [
+       "Par les sacrifices du temple",
+       "Par leur appartenance à Israël",
+       "Gratuitement, par sa grâce",
+       "Par la circoncision"
+      ],
+      "en": [
+       "By the temple sacrifices",
+       "By belonging to Israel",
+       "Freely, by his grace",
+       "By circumcision"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Et ils sont gratuitement justifiés par sa grâce, par le moyen de la rédemption qui est en Jésus-Christ. » « Gratuitement » signifie : sans rien payer en échange.",
+      "en": "“Being justified freely by his grace through the redemption that is in Christ Jesus.” “Freely” means as a gift, without payment."
+     },
+     "ref": "45:3:24"
+    },
+    {
+     "id": "justice-gift-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 26, Dieu montre sa justice de manière à être… ?",
+      "en": "According to verse 26, God declares his righteousness so that he might be…?"
+     },
+     "choices": {
+      "fr": [
+       "Redouté par toutes les nations de la terre",
+       "Le Dieu des seuls Juifs, à qui il a donné la loi",
+       "Sévère envers les païens qui n'ont pas reçu la loi",
+       "Juste tout en justifiant celui qui a la foi en Jésus"
+      ],
+      "en": [
+       "Feared by all the nations of the earth",
+       "The God of the Jews only, to whom he gave the law",
+       "Severe toward the Gentiles who did not receive the law",
+       "Just, and the justifier of him who believes in Jesus"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« De montrer sa justice dans le temps présent, de manière à être juste tout en justifiant celui qui a la foi en Jésus. » Paul tient ensemble les deux : Dieu reste juste et il justifie.",
+      "en": "“To declare, I say, at this time his righteousness: that he might be just, and the justifier of him which believeth in Jesus.” Paul holds both together: God remains just and he justifies."
+     },
+     "ref": "45:3:26"
+    },
+    {
+     "id": "justice-gift-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Au verset 27, Paul dit que le sujet de se glorifier est exclu.",
+      "en": "In verse 27, Paul says that boasting is excluded."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « Où donc est le sujet de se glorifier? Il est exclu. Par quelle loi? Par la loi des oeuvres? Non, mais par la loi de la foi. »",
+      "en": "True: “Where is boasting then? It is excluded. By what law? of works? Nay: but by the law of faith.”"
+     },
+     "ref": "45:3:27"
+    },
+    {
+     "id": "justice-gift-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Au verset 31, que répond Paul à la question : la foi anéantit-elle la loi ?",
+      "en": "In verse 31, how does Paul answer the question whether faith makes void the law?"
+     },
+     "choices": {
+      "fr": [
+       "Oui, la loi a pris fin",
+       "Loin de là : nous confirmons la loi",
+       "La loi ne concerne que les Juifs",
+       "La question reste ouverte"
+      ],
+      "en": [
+       "Yes, the law has come to an end",
+       "God forbid: we establish the law",
+       "The law concerns only the Jews",
+       "The question remains open"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Anéantissons-nous donc la loi par la foi? Loin de là! Au contraire, nous confirmons la loi. » Paul rejette nettement cette conclusion.",
+      "en": "“Do we then make void the law through faith? God forbid: yea, we establish the law.” Paul firmly rejects that conclusion."
+     },
+     "ref": "45:3:31"
+    }
+   ]
+  },
+  {
+   "id": "justice-abraham",
+   "title": {
+    "fr": "Imputé à justice",
+    "en": "Counted for righteousness"
+   },
+   "passages": [
+    "45:4:1-8",
+    "45:4:18-25"
+   ],
+   "intro": {
+    "fr": "Paul prend l'exemple d'Abraham, l'ancêtre d'Israël, en citant Genèse 15:6. Il cite aussi le début du Psaume 32, attribué à David.",
+    "en": "Paul takes Abraham, the ancestor of Israel, as an example, quoting Genesis 15:6. He also quotes the opening of Psalm 32, attributed to David."
+   },
+   "keyVerse": "45:4:3",
+   "takeaway": {
+    "fr": "Paul rappelle que, selon l'Écriture, « Abraham crut à Dieu, et cela lui fut imputé à justice ». Il ajoute que cela n'a pas été écrit pour Abraham seul, mais aussi pour ceux qui croient en celui qui a ressuscité Jésus.",
+    "en": "Paul recalls that, according to Scripture, “Abraham believed God, and it was counted unto him for righteousness.” He adds that this was not written for Abraham's sake alone, but also for those who believe on him who raised up Jesus."
+   },
+   "questions": [
+    {
+     "id": "justice-abraham-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle parole de l'Écriture Paul cite-t-il au verset 3 ?",
+      "en": "Which words of Scripture does Paul quote in verse 3?"
+     },
+     "choices": {
+      "fr": [
+       "Abraham obéit à la voix de Dieu, et il fut béni entre tous les hommes",
+       "Abraham bâtit un autel, et l'Eternel lui apparut",
+       "Abraham crut à Dieu, et cela lui fut imputé à justice",
+       "Abraham quitta son pays, et Dieu le conduisit"
+      ],
+      "en": [
+       "Abraham obeyed the voice of God, and he was blessed above all men",
+       "Abraham built an altar, and the Lord appeared to him",
+       "Abraham believed God, and it was counted unto him for righteousness",
+       "Abraham left his country, and God led him"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Car que dit l'Ecriture? Abraham crut à Dieu, et cela lui fut imputé à justice. » Paul cite Genèse 15:6. « Imputer », c'est mettre au compte de quelqu'un, lui attribuer.",
+      "en": "“For what saith the scripture? Abraham believed God, and it was counted unto him for righteousness.” Paul is quoting Genesis 15:6. To “count” or “impute” means to put to someone's account, to credit to them."
+     },
+     "ref": "45:4:3"
+    },
+    {
+     "id": "justice-abraham-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 4, comment est compté le salaire de celui qui fait une œuvre ?",
+      "en": "According to verse 4, how is the reward of the one who works reckoned?"
+     },
+     "choices": {
+      "fr": [
+       "Comme une chose due",
+       "Comme une grâce",
+       "Comme une offrande",
+       "Comme un héritage"
+      ],
+      "en": [
+       "As a debt",
+       "As grace",
+       "As an offering",
+       "As an inheritance"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Or, à celui qui fait une oeuvre, le salaire est imputé, non comme une grâce, mais comme une chose due. » Paul part de l'image du salaire d'un ouvrier.",
+      "en": "“Now to him that worketh is the reward not reckoned of grace, but of debt.” Paul starts from the picture of a worker's wages."
+     },
+     "ref": "45:4:4"
+    },
+    {
+     "id": "justice-abraham-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel autre personnage de l'Ancien Testament Paul cite-t-il ensuite ?",
+      "en": "Which other Old Testament figure does Paul quote next?"
+     },
+     "choices": {
+      "fr": [
+       "Moïse",
+       "Salomon",
+       "Elie",
+       "David"
+      ],
+      "en": [
+       "Moses",
+       "Solomon",
+       "Elijah",
+       "David"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« De même David exprime le bonheur de l'homme à qui Dieu impute la justice sans les oeuvres. » Les versets 7 et 8 reprennent le début du Psaume 32.",
+      "en": "“Even as David also describeth the blessedness of the man, unto whom God imputeth righteousness without works.” Verses 7–8 quote the opening of Psalm 32."
+     },
+     "ref": "45:4:6"
+    },
+    {
+     "id": "justice-abraham-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, qui est heureux ?",
+      "en": "According to verse 8, who is blessed?"
+     },
+     "choices": {
+      "fr": [
+       "L'homme qui n'a jamais péché",
+       "L'homme à qui le Seigneur n'impute pas son péché",
+       "L'homme qui offre chaque jour beaucoup de sacrifices au temple",
+       "L'homme qui connaît toute la loi"
+      ],
+      "en": [
+       "The man who has never sinned",
+       "The man to whom the Lord will not impute sin",
+       "The man who offers many sacrifices at the temple every day",
+       "The man who knows the whole law"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Heureux l'homme à qui le Seigneur n'impute pas son péché! » Le verset 7 parle de même de ceux dont les iniquités sont pardonnées.",
+      "en": "“Blessed is the man to whom the Lord will not impute sin.” Verse 7 likewise speaks of those whose iniquities are forgiven."
+     },
+     "ref": "45:4:8"
+    },
+    {
+     "id": "justice-abraham-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Paul, Abraham douta de la promesse de Dieu parce qu'il avait près de cent ans.",
+      "en": "According to Paul, Abraham doubted God's promise because he was about a hundred years old."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux : il avait bien près de cent ans (v. 19), mais « il ne douta point, par incrédulité, au sujet de la promesse de Dieu; mais il fut fortifié par la foi, donnant gloire à Dieu ».",
+      "en": "False: he was indeed about a hundred years old (v. 19), but “he staggered not at the promise of God through unbelief; but was strong in faith, giving glory to God.”"
+     },
+     "ref": "45:4:20"
+    },
+    {
+     "id": "justice-abraham-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon les versets 23 et 24, pour qui encore est-il écrit que cela lui fut imputé ?",
+      "en": "According to verses 23–24, for whom else was it written that it was imputed to him?"
+     },
+     "choices": {
+      "fr": [
+       "Pour les seuls descendants d'Abraham selon la chair",
+       "Pour les prêtres d'Israël",
+       "Pour nous qui croyons en celui qui a ressuscité Jésus",
+       "Pour ceux qui ont reçu la circoncision comme Abraham"
+      ],
+      "en": [
+       "For Abraham's descendants according to the flesh only",
+       "For the priests of Israel",
+       "For us, if we believe on him that raised up Jesus",
+       "For those who have been circumcised like Abraham"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« C'est encore à cause de nous, à qui cela sera imputé, à nous qui croyons en celui qui a ressuscité des morts Jésus notre Seigneur. » Le verset 25 ajoute que Jésus « est ressuscité pour notre justification ».",
+      "en": "“But for us also, to whom it shall be imputed, if we believe on him that raised up Jesus our Lord from the dead.” Verse 25 adds that Jesus “was raised again for our justification.”"
+     },
+     "ref": "45:4:24"
+    }
+   ]
+  },
+  {
+   "id": "justice-peace",
+   "title": {
+    "fr": "La paix avec Dieu",
+    "en": "Peace with God"
+   },
+   "passages": [
+    "45:5:1-11"
+   ],
+   "intro": {
+    "fr": "Après l'exemple d'Abraham, Paul décrit ce qui appartient, selon lui, à ceux qui sont « justifiés par la foi » : la paix, l'espérance et l'amour de Dieu.",
+    "en": "After the example of Abraham, Paul describes what, in his words, belongs to those who are “justified by faith”: peace, hope and the love of God."
+   },
+   "keyVerse": "45:5:1",
+   "takeaway": {
+    "fr": "Selon Paul, ceux qui sont justifiés par la foi ont la paix avec Dieu. Il ajoute que Dieu a prouvé son amour en ce que Christ est mort pour nous alors que nous étions encore des pécheurs et des ennemis.",
+    "en": "According to Paul, those who are justified by faith have peace with God. He adds that God commended his love in that Christ died for us while we were still sinners and enemies."
+   },
+   "questions": [
+    {
+     "id": "justice-peace-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 1, qu'ont ceux qui sont justifiés par la foi ?",
+      "en": "According to verse 1, what do those who are justified by faith have?"
+     },
+     "choices": {
+      "fr": [
+       "La paix avec Dieu",
+       "La richesse et la santé",
+       "La connaissance de toutes choses",
+       "L'autorité sur les nations"
+      ],
+      "en": [
+       "Peace with God",
+       "Wealth and health",
+       "Knowledge of all things",
+       "Authority over the nations"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Etant donc justifiés par la foi, nous avons la paix avec Dieu par notre Seigneur Jésus-Christ. » Le « donc » relie ce verset à ce que Paul vient de dire d'Abraham.",
+      "en": "“Therefore being justified by faith, we have peace with God through our Lord Jesus Christ.” The “therefore” links this verse to what Paul has just said about Abraham."
+     },
+     "ref": "45:5:1"
+    },
+    {
+     "id": "justice-peace-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 3, que produit l'affliction ?",
+      "en": "According to verse 3, what does tribulation work?"
+     },
+     "choices": {
+      "fr": [
+       "La colère",
+       "Le découragement",
+       "L'orgueil",
+       "La persévérance"
+      ],
+      "en": [
+       "Anger",
+       "Discouragement",
+       "Pride",
+       "Patience"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« L'affliction produit la persévérance, la persévérance la victoire dans l'épreuve, et cette victoire l'espérance. » Paul décrit un enchaînement qui aboutit à l'espérance.",
+      "en": "“Tribulation worketh patience; and patience, experience; and experience, hope.” “Patience” here means endurance, and “experience” means tested character."
+     },
+     "ref": "45:5:3"
+    },
+    {
+     "id": "justice-peace-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 5, par qui l'amour de Dieu est-il répandu dans les cœurs ?",
+      "en": "According to verse 5, by whom is the love of God shed abroad in our hearts?"
+     },
+     "choices": {
+      "fr": [
+       "Par les anges",
+       "Par le Saint-Esprit",
+       "Par les apôtres",
+       "Par la loi"
+      ],
+      "en": [
+       "By the angels",
+       "By the Holy Ghost",
+       "By the apostles",
+       "By the law"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« L'espérance ne trompe point, parce que l'amour de Dieu est répandu dans nos coeurs par le Saint-Esprit qui nous a été donné. »",
+      "en": "“Hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.”"
+     },
+     "ref": "45:5:5"
+    },
+    {
+     "id": "justice-peace-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, pour qui mourrait-on « à peine » ?",
+      "en": "According to verse 7, for whom would one “scarcely” die?"
+     },
+     "choices": {
+      "fr": [
+       "Pour un roi",
+       "Pour un prophète",
+       "Pour un juste",
+       "Pour un étranger"
+      ],
+      "en": [
+       "For a king",
+       "For a prophet",
+       "For a righteous man",
+       "For a stranger"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« A peine mourrait-on pour un juste. » Paul fait ce contraste pour souligner le verset suivant : Christ est mort pour nous lorsque nous étions encore des pécheurs.",
+      "en": "“For scarcely for a righteous man will one die.” Paul draws this contrast to highlight the next verse: Christ died for us while we were yet sinners."
+     },
+     "ref": "45:5:7"
+    },
+    {
+     "id": "justice-peace-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, que dit Paul de ceux qui sont maintenant justifiés par le sang de Christ ?",
+      "en": "According to verse 9, what does Paul say about those who are now justified by Christ's blood?"
+     },
+     "choices": {
+      "fr": [
+       "Ils ne connaîtront plus d'affliction",
+       "Ils n'auront plus besoin de prier",
+       "Ils seront délivrés de toute maladie",
+       "Ils seront sauvés par lui de la colère"
+      ],
+      "en": [
+       "They will know no more tribulation",
+       "They will no longer need to pray",
+       "They will be freed from all sickness",
+       "They will be saved from wrath through him"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« A plus forte raison donc, maintenant que nous sommes justifiés par son sang, serons-nous sauvés par lui de la colère. » Paul raisonne à partir de ce que Dieu a déjà fait.",
+      "en": "“Much more then, being now justified by his blood, we shall be saved from wrath through him.” Paul reasons from what God has already done."
+     },
+     "ref": "45:5:9"
+    },
+    {
+     "id": "justice-peace-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 10, qu'étions-nous lorsque nous avons été réconciliés avec Dieu ?",
+      "en": "According to verse 10, what were we when we were reconciled to God?"
+     },
+     "choices": {
+      "fr": [
+       "Des ennemis",
+       "Des serviteurs fidèles",
+       "Des enfants obéissants",
+       "Des disciples zélés"
+      ],
+      "en": [
+       "Enemies",
+       "Faithful servants",
+       "Obedient children",
+       "Zealous disciples"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Car si, lorsque nous étions ennemis, nous avons été réconciliés avec Dieu par la mort de son Fils, à plus forte raison, étant réconciliés, serons-nous sauvés par sa vie. »",
+      "en": "“For if, when we were enemies, we were reconciled to God by the death of his Son, much more, being reconciled, we shall be saved by his life.”"
+     },
+     "ref": "45:5:10"
+    }
+   ]
+  },
+  {
+   "id": "justice-paul",
+   "title": {
+    "fr": "Non avec ma justice",
+    "en": "Not mine own righteousness"
+   },
+   "passages": [
+    "50:3:4-14"
+   ],
+   "intro": {
+    "fr": "Paul écrit aux chrétiens de Philippes, une ville de Macédoine. Dans ce passage, il énumère ce qui faisait sa fierté avant de connaître Christ, puis dit ce qu'il en pense désormais.",
+    "en": "Paul is writing to the Christians at Philippi, a city in Macedonia. In this passage he lists what he used to be proud of before he knew Christ, then says what he now thinks of it."
+   },
+   "keyVerse": "50:3:9",
+   "takeaway": {
+    "fr": "Paul, qui se dit irréprochable à l'égard de la justice de la loi, regarde désormais ces avantages comme une perte à cause de Christ. Il veut être trouvé en lui, non avec sa propre justice, mais avec « la justice qui vient de Dieu par la foi », et il court vers le but.",
+    "en": "Paul, who calls himself blameless as touching the righteousness which is in the law, now counts these advantages as loss for Christ. He wants to be found in him, not having his own righteousness, but “the righteousness which is of God by faith,” and he presses toward the mark."
+   },
+   "questions": [
+    {
+     "id": "justice-paul-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 5, de quelle tribu Paul est-il ?",
+      "en": "According to verse 5, which tribe is Paul from?"
+     },
+     "choices": {
+      "fr": [
+       "Juda",
+       "Benjamin",
+       "Lévi",
+       "Ephraïm"
+      ],
+      "en": [
+       "Judah",
+       "Benjamin",
+       "Levi",
+       "Ephraim"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Circoncis le huitième jour, de la race d'Israël, de la tribu de Benjamin, Hébreu né d'Hébreux; quant à la loi, pharisien. » Paul énumère ce qui pouvait fonder sa confiance « en la chair ».",
+      "en": "“Circumcised the eighth day, of the stock of Israel, of the tribe of Benjamin, an Hebrew of the Hebrews; as touching the law, a Pharisee.” Paul lists what could have given him “confidence in the flesh.”"
+     },
+     "ref": "50:3:5"
+    },
+    {
+     "id": "justice-paul-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Paul dit qu'il était irréprochable à l'égard de la justice de la loi.",
+      "en": "Paul says he was blameless as touching the righteousness which is in the law."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « quant au zèle, persécuteur de l'Eglise; irréprochable, à l'égard de la justice de la loi. » C'est précisément cela qu'il va ensuite regarder comme une perte.",
+      "en": "True: “Concerning zeal, persecuting the church; touching the righteousness which is in the law, blameless.” This is exactly what he goes on to count as loss."
+     },
+     "ref": "50:3:6"
+    },
+    {
+     "id": "justice-paul-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Paul regarde-t-il désormais ce qui était pour lui des gains ?",
+      "en": "How does Paul now regard what used to be gain to him?"
+     },
+     "choices": {
+      "fr": [
+       "Comme un trésor à garder",
+       "Comme un exemple pour l'Église",
+       "Comme une perte, à cause de Christ",
+       "Comme une récompense méritée"
+      ],
+      "en": [
+       "As a treasure to keep",
+       "As an example for the church",
+       "As loss, for Christ's sake",
+       "As a well-earned reward"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Mais ces choses qui étaient pour moi des gains, je les ai regardées comme une perte, à cause de Christ. » Au verset 8, il va jusqu'à les regarder « comme de la boue ».",
+      "en": "“But what things were gain to me, those I counted loss for Christ.” In verse 8 he even counts them “but dung.”"
+     },
+     "ref": "50:3:7"
+    },
+    {
+     "id": "justice-paul-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Au verset 9, avec quelle justice Paul veut-il être trouvé en Christ ?",
+      "en": "In verse 9, what righteousness does Paul want to have when he is found in Christ?"
+     },
+     "choices": {
+      "fr": [
+       "Celle qui vient de la loi",
+       "Celle qu'il a acquise comme pharisien",
+       "Celle que lui reconnaissent les apôtres",
+       "Celle qui vient de Dieu par la foi"
+      ],
+      "en": [
+       "The righteousness which is of the law",
+       "The one he gained as a Pharisee",
+       "The one the apostles credit him with",
+       "The righteousness which is of God by faith"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Paul veut être trouvé en Christ, « non avec ma justice, celle qui vient de la loi, mais avec celle qui s'obtient par la foi en Christ, la justice qui vient de Dieu par la foi ».",
+      "en": "Paul wants to be found in Christ, “not having mine own righteousness, which is of the law, but that which is through the faith of Christ, the righteousness which is of God by faith.”"
+     },
+     "ref": "50:3:9"
+    },
+    {
+     "id": "justice-paul-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Au verset 12, Paul affirme avoir déjà atteint la perfection.",
+      "en": "In verse 12, Paul claims he has already been made perfect."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux : « Ce n'est pas que j'aie déjà remporté le prix, ou que j'aie déjà atteint la perfection; mais je cours, pour tâcher de le saisir. »",
+      "en": "False: “Not as though I had already attained, either were already perfect: but I follow after, if that I may apprehend.”"
+     },
+     "ref": "50:3:12"
+    },
+    {
+     "id": "justice-paul-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon les versets 13 et 14, que fait Paul ?",
+      "en": "According to verses 13–14, what does Paul do?"
+     },
+     "choices": {
+      "fr": [
+       "Il se rappelle ses anciens succès",
+       "Il oublie ce qui est en arrière et court vers le but",
+       "Il attend sans rien faire que viennent les derniers temps",
+       "Il se repose, sûr d'avoir déjà atteint le but"
+      ],
+      "en": [
+       "He recalls his past successes",
+       "He forgets what is behind and presses toward the mark",
+       "He waits passively for the last days to arrive",
+       "He rests, sure he has already reached the goal"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Oubliant ce qui est en arrière et me portant vers ce qui est en avant, je cours vers le but, pour remporter le prix de la vocation céleste de Dieu en Jésus-Christ. » L'image est celle d'une course.",
+      "en": "“Forgetting those things which are behind, and reaching forth unto those things which are before, I press toward the mark for the prize of the high calling of God in Christ Jesus.” The picture is that of a race."
+     },
+     "ref": "50:3:14"
+    }
+   ]
+  }
+ ]
+}

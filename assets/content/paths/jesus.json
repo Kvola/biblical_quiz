@@ -2,6 +2,7 @@
  "id": "jesus",
  "order": 3,
  "icon": "favorite",
+ "group": "discover",
  "title": {
   "fr": "Jésus",
   "en": "Jesus"

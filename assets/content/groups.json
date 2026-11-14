@@ -1,0 +1,26 @@
+[
+ {
+  "id": "discover",
+  "order": 1,
+  "title": {
+   "fr": "Découvrir la Bible",
+   "en": "Discovering the Bible"
+  },
+  "description": {
+   "fr": "Le grand récit, qui est Dieu, Jésus, les grands thèmes, des hommes et des femmes, la prière et la sagesse.",
+   "en": "The big story, who God is, Jesus, great themes, men and women of the Bible, prayer and wisdom."
+  }
+ },
+ {
+  "id": "faith-way",
+  "order": 2,
+  "title": {
+   "fr": "Le chemin de la foi",
+   "en": "The way of faith"
+  },
+  "description": {
+   "fr": "Six parcours à suivre dans l'ordre : le péché, la loi, la repentance, la justice, la nouvelle naissance et la vie par la foi.",
+   "en": "Six paths to take in order: sin, the law, repentance, righteousness and justice, the new birth, and living by faith."
+  }
+ }
+]

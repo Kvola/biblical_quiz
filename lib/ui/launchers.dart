@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../bible/bible.dart';
 import '../content/models.dart';
 import '../domain/book_challenge.dart';
+import '../domain/path_review.dart';
 import '../providers.dart';
 import 'common.dart';
 import 'quiz/quiz_screen.dart';
@@ -24,6 +25,24 @@ Future<void> openReview(BuildContext context, WidgetRef ref) async {
   await Navigator.of(context).push(
     MaterialPageRoute(
       builder: (_) => QuizScreen(title: context.l10n.reviewTitle, questions: questions, shuffleQuestions: true),
+    ),
+  );
+}
+
+/// Nombre de questions du bilan d'un parcours (moins si le parcours en a moins).
+int pathReviewCount(LearningPath path) =>
+    path.lessons.fold<int>(0, (n, l) => n + l.questions.length).clamp(0, PathReview.defaultCount);
+
+/// Bilan d'un parcours : des questions de toutes ses leçons, passage indiqué.
+Future<void> openPathReview(BuildContext context, LearningPath path) {
+  final l = context.l10n;
+  return Navigator.of(context).push(
+    MaterialPageRoute(
+      builder: (_) => QuizScreen(
+        title: '${l.pathReviewTitle} — ${path.title.of(context.lang)}',
+        questions: PathReview.build(path, count: pathReviewCount(path)),
+        showSource: true,
+      ),
     ),
   );
 }

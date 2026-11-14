@@ -12,6 +12,7 @@ import '../common.dart';
 import '../widgets/passage_view.dart';
 import '../search/search_screen.dart';
 import '../reading/reading_quiz_screen.dart';
+import '../widgets/printed_note.dart';
 import '../widgets/verse_sheet.dart';
 
 /// Ouvre le lecteur sur un chapitre précis (depuis une fiche de livre ou un favori).
@@ -244,6 +245,8 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
             child: CustomScrollView(
               controller: _scroll,
               slivers: [
+                if (lang == 'fr' && (ref.watch(printedNumberingProvider).value?.chapterDiffers(book, chapter) ?? false))
+                  SliverToBoxAdapter(child: _PrintedBanner(key: ValueKey('printed-$book-$chapter'))),
                 _ChapterSliver(
                   verseRef: ref0,
                   highlight: _highlight,
@@ -331,6 +334,43 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
 }
 
 /// Le chapitre courant, avec un verset éventuellement surligné (venu d'un favori).
+/// Chapitre numéroté autrement dans une Segond imprimée (voir PrintedNumbering).
+class _PrintedBanner extends StatelessWidget {
+  const _PrintedBanner({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final scheme = Theme.of(context).colorScheme;
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
+      child: Card(
+        color: scheme.surfaceContainerHigh,
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(16, 12, 8, 4),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Icon(Icons.format_list_numbered, size: 20, color: scheme.onSurfaceVariant),
+                  const SizedBox(width: 10),
+                  Expanded(child: Text(l.printedChapterBanner, style: Theme.of(context).textTheme.bodyMedium)),
+                ],
+              ),
+              Align(
+                alignment: Alignment.centerRight,
+                child: TextButton(onPressed: () => showPrintedNumberingHelp(context), child: Text(l.printedMore)),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class _ChapterSliver extends ConsumerWidget {
   const _ChapterSliver({required this.verseRef, required this.onVerseTap, this.highlight, this.highlightKey});
 

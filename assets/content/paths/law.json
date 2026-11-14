@@ -1,0 +1,1593 @@
+{
+ "id": "law",
+ "order": 8,
+ "icon": "gavel",
+ "group": "faith-way",
+ "title": {
+  "fr": "La loi",
+  "en": "The law"
+ },
+ "description": {
+  "fr": "Ce que la Bible dit de la loi donnée par Dieu : pourquoi elle a été donnée, ce qu'elle révèle du cœur humain, et ce que Jésus et les apôtres disent de son accomplissement.",
+  "en": "What the Bible says about the law God gave: why it was given, what it reveals about the human heart, and what Jesus and the apostles say about its fulfilment."
+ },
+ "lessons": [
+  {
+   "id": "law-shema",
+   "title": {
+    "fr": "Ecoute, Israël",
+    "en": "Hear, O Israel"
+   },
+   "passages": [
+    "5:6:1-9",
+    "5:6:20-25"
+   ],
+   "intro": {
+    "fr": "Le Deutéronome rapporte les discours de Moïse au peuple d'Israël, au pays de Moab, avant l'entrée dans le pays promis. Le chapitre 6 contient la parole que la tradition juive appelle le « Shema », d'après son premier mot en hébreu : « Ecoute ».",
+    "en": "Deuteronomy records Moses' speeches to the people of Israel in the land of Moab, before they entered the promised land. Chapter 6 contains the words Jewish tradition calls the “Shema”, after its first Hebrew word: “Hear”."
+   },
+   "keyVerse": "5:6:5",
+   "takeaway": {
+    "fr": "Moïse appelle Israël à aimer l'Eternel de tout son cœur et à garder ses commandements dans le cœur, en les enseignant aux enfants. Quand un fils demande ce que signifient ces lois, la réponse commence par le récit de la sortie d'Egypte.",
+    "en": "Moses calls Israel to love the Lord with all their heart and to keep his words in their heart, teaching them to their children. When a son asks what these laws mean, the answer begins with the story of the exodus from Egypt."
+   },
+   "questions": [
+    {
+     "id": "law-shema-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 5, comment Israël doit-il aimer l'Eternel ?",
+      "en": "According to verse 5, how is Israel to love the Lord?"
+     },
+     "choices": {
+      "fr": [
+       "Par des sacrifices offerts chaque matin et chaque soir",
+       "Par un pèlerinage au sanctuaire chaque année",
+       "De tout son cœur, de toute son âme et de toute sa force",
+       "En se tenant à l'écart des autres nations"
+      ],
+      "en": [
+       "With sacrifices every morning and evening",
+       "With a pilgrimage to the sanctuary every year",
+       "With all their heart, soul and might",
+       "By keeping apart from the other nations"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Tu aimeras l'Eternel, ton Dieu, de tout ton coeur, de toute ton âme et de toute ta force. » Ce commandement suit immédiatement la confession « Ecoute, Israël! l'Eternel, notre Dieu, est le seul Eternel. »",
+      "en": "“And thou shalt love the Lord thy God with all thine heart, and with all thy soul, and with all thy might.” This command comes right after the confession “Hear, O Israel: The Lord our God is one Lord”."
+     },
+     "ref": "5:6:5"
+    },
+    {
+     "id": "law-shema-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 6, où doivent être les commandements que Moïse donne ce jour-là ?",
+      "en": "According to verse 6, where are the words Moses commands that day to be?"
+     },
+     "choices": {
+      "fr": [
+       "Dans le cœur",
+       "Sur l'autel",
+       "Dans le sanctuaire",
+       "Dans un livre scellé"
+      ],
+      "en": [
+       "In the heart",
+       "On the altar",
+       "In the sanctuary",
+       "In a sealed book"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Et ces commandements, que je te donne aujourd'hui, seront dans ton coeur. » Avant d'être écrits sur les maisons (v. 9), ils doivent habiter le cœur.",
+      "en": "“And these words, which I command thee this day, shall be in thine heart.” Before being written on houses (v. 9), they are to dwell in the heart."
+     },
+     "ref": "5:6:6"
+    },
+    {
+     "id": "law-shema-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, quand faut-il parler de ces commandements ?",
+      "en": "According to verse 7, when should these words be talked about?"
+     },
+     "choices": {
+      "fr": [
+       "Seulement lors des grandes fêtes au sanctuaire",
+       "Seulement en présence des prêtres et des lévites",
+       "Une seule fois par an, au moment de la Pâque",
+       "À la maison, en voyage, au coucher et au lever"
+      ],
+      "en": [
+       "Only at the great feasts at the sanctuary",
+       "Only in the presence of the priests and Levites",
+       "Only once a year, at the time of the Passover",
+       "At home, on the way, lying down and rising up"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Tu les inculqueras à tes enfants, et tu en parleras quand tu seras dans ta maison, quand tu iras en voyage, quand tu te coucheras et quand tu te lèveras. » Ces paroles doivent accompagner toute la vie de chaque jour.",
+      "en": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up.” These words are to accompany the whole of daily life."
+     },
+     "ref": "5:6:7"
+    },
+    {
+     "id": "law-shema-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, où Israël doit-il écrire ces paroles ?",
+      "en": "According to verse 9, where is Israel to write these words?"
+     },
+     "choices": {
+      "fr": [
+       "Sur les murailles qui entourent la ville",
+       "Sur les poteaux de la maison et sur les portes",
+       "Sur les vêtements des prêtres et des lévites",
+       "Sur des rouleaux gardés au sanctuaire"
+      ],
+      "en": [
+       "On the walls that surround the city",
+       "On the doorposts of the house and on the gates",
+       "On the garments of the priests and Levites",
+       "On scrolls kept in the sanctuary"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Tu les écriras sur les poteaux de ta maison et sur tes portes. » Le verset précédent parle aussi de les lier comme un signe sur la main et entre les yeux.",
+      "en": "“And thou shalt write them upon the posts of thy house, and on thy gates.” The verse before also speaks of binding them as a sign on the hand and between the eyes."
+     },
+     "ref": "5:6:9"
+    },
+    {
+     "id": "law-shema-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quand un fils demande ce que signifient ces lois, par quoi la réponse commence-t-elle ?",
+      "en": "When a son asks what these laws mean, how does the answer begin?"
+     },
+     "choices": {
+      "fr": [
+       "Par le récit de la création du monde",
+       "Par la liste des sacrifices à offrir",
+       "Par le rappel de la sortie d'Egypte",
+       "Par l'histoire du déluge et de Noé"
+      ],
+      "en": [
+       "With the story of the creation of the world",
+       "With the list of sacrifices to offer",
+       "With the memory of the exodus from Egypt",
+       "With the story of the flood and Noah"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Tu diras à ton fils: Nous étions esclaves de Pharaon en Egypte, et l'Eternel nous a fait sortir de l'Egypte par sa main puissante. » La loi est expliquée à partir de ce que Dieu a fait pour son peuple.",
+      "en": "“Then thou shalt say unto thy son, We were Pharaoh’s bondmen in Egypt; and the Lord brought us out of Egypt with a mighty hand.” The law is explained in the light of what God had done for his people."
+     },
+     "ref": "5:6:21"
+    },
+    {
+     "id": "law-shema-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 24, l'Eternel a commandé ces lois pour le bonheur d'Israël et pour lui conserver la vie.",
+      "en": "According to verse 24, the Lord commanded these statutes for Israel's good and to preserve its life."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « afin que nous fussions toujours heureux, et qu'il nous conservât la vie, comme il le fait aujourd'hui. » Le texte présente la loi comme donnée pour le bien du peuple.",
+      "en": "True: “for our good always, that he might preserve us alive, as it is at this day.” The text presents the law as given for the people's good."
+     },
+     "ref": "5:6:24"
+    }
+   ]
+  },
+  {
+   "id": "law-choose",
+   "title": {
+    "fr": "Choisis la vie",
+    "en": "Choose life"
+   },
+   "passages": [
+    "5:30:11-20"
+   ],
+   "intro": {
+    "fr": "Vers la fin de ses discours, juste avant que le peuple passe le Jourdain, Moïse place Israël devant un choix. L'apôtre Paul reprendra les versets 12 à 14 dans sa lettre aux Romains (10:6-8).",
+    "en": "Near the end of his speeches, just before the people cross the Jordan, Moses sets a choice before Israel. The apostle Paul later takes up verses 12 to 14 in his letter to the Romans (10:6-8)."
+   },
+   "keyVerse": "5:30:19",
+   "takeaway": {
+    "fr": "Moïse affirme que le commandement n'est ni dans le ciel ni de l'autre côté de la mer, mais tout près, dans la bouche et dans le cœur. Il met devant Israël la vie et la mort, et l'appelle à choisir la vie en aimant l'Eternel et en s'attachant à lui.",
+    "en": "Moses declares that the commandment is neither in heaven nor beyond the sea, but very near, in the mouth and in the heart. He sets life and death before Israel and calls them to choose life by loving the Lord and cleaving to him."
+   },
+   "questions": [
+    {
+     "id": "law-choose-1",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Moïse dit que ce commandement est hors de portée d'Israël.",
+      "en": "Moses says this commandment is out of Israel's reach."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux : « Ce commandement que je te prescris aujourd'hui n'est certainement point au-dessus de tes forces et hors de ta portée. » Les versets suivants insistent : il n'est ni dans le ciel ni de l'autre côté de la mer.",
+      "en": "False: “For this commandment which I command thee this day, it is not hidden from thee, neither is it far off.” The next verses insist that it is neither in heaven nor beyond the sea."
+     },
+     "ref": "5:30:11"
+    },
+    {
+     "id": "law-choose-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 14, où se trouve la parole que Moïse transmet ?",
+      "en": "According to verse 14, where is the word Moses passes on?"
+     },
+     "choices": {
+      "fr": [
+       "Dans le ciel, auprès de Dieu",
+       "De l'autre côté de la mer",
+       "Tout près, dans la bouche et dans le cœur",
+       "Dans le sanctuaire, auprès des prêtres"
+      ],
+      "en": [
+       "In heaven, with God",
+       "Beyond the sea",
+       "Very near, in the mouth and in the heart",
+       "In the sanctuary, with the priests"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« C'est une chose, au contraire, qui est tout près de toi, dans ta bouche et dans ton coeur, afin que tu la mettes en pratique. » Personne n'a besoin d'aller la chercher au ciel ou au-delà de la mer (v. 12-13).",
+      "en": "“But the word is very nigh unto thee, in thy mouth, and in thy heart, that thou mayest do it.” No one needs to fetch it from heaven or from beyond the sea (vv. 12-13)."
+     },
+     "ref": "5:30:14"
+    },
+    {
+     "id": "law-choose-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que Moïse dit-il avoir mis devant Israël au verset 19 ?",
+      "en": "What does Moses say he has set before Israel in verse 19?"
+     },
+     "choices": {
+      "fr": [
+       "La vie et la mort, la bénédiction et la malédiction",
+       "La guerre et la paix, la victoire et la défaite",
+       "La sagesse et la folie, la lumière et les ténèbres",
+       "La richesse et la pauvreté, l'abondance et la famine"
+      ],
+      "en": [
+       "Life and death, blessing and cursing",
+       "War and peace, victory and defeat",
+       "Wisdom and folly, light and darkness",
+       "Wealth and poverty, plenty and famine"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« J'ai mis devant toi la vie et la mort, la bénédiction et la malédiction. Choisis la vie, afin que tu vives, toi et ta postérité. » Le verset 15 l'annonçait déjà : « la vie et le bien, la mort et le mal ».",
+      "en": "“I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live.” Verse 15 had already said: “life and good, and death and evil”."
+     },
+     "ref": "5:30:19"
+    },
+    {
+     "id": "law-choose-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui Moïse prend-il à témoin contre le peuple ?",
+      "en": "Whom does Moses call as witnesses against the people?"
+     },
+     "choices": {
+      "fr": [
+       "Les anciens d'Israël",
+       "Le ciel et la terre",
+       "Les prêtres et les lévites",
+       "Le soleil et la lune"
+      ],
+      "en": [
+       "The elders of Israel",
+       "Heaven and earth",
+       "The priests and the Levites",
+       "The sun and the moon"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« J'en prends aujourd'hui à témoin contre vous le ciel et la terre. » Dans l'Antiquité, un engagement solennel était conclu devant des témoins ; ici, c'est toute la création.",
+      "en": "“I call heaven and earth to record this day against you.” In the ancient world a solemn commitment was made before witnesses; here the witnesses are the whole creation."
+     },
+     "ref": "5:30:19"
+    },
+    {
+     "id": "law-choose-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 17, qu'est-ce qui ferait périr le peuple ?",
+      "en": "According to verse 17, what would cause the people to perish?"
+     },
+     "choices": {
+      "fr": [
+       "Le manque de prêtres pour servir au sanctuaire",
+       "La faiblesse de son armée face aux nations",
+       "Un cœur qui se détourne pour servir d'autres dieux",
+       "L'oubli de célébrer l'une des fêtes annuelles"
+      ],
+      "en": [
+       "A lack of priests to serve in the sanctuary",
+       "The weakness of its army against the nations",
+       "A heart that turns away to serve other gods",
+       "Forgetting to keep one of the yearly feasts"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Mais si ton coeur se détourne, si tu n'obéis point, et si tu te laisses entraîner à te prosterner devant d'autres dieux et à les servir, je vous déclare aujourd'hui que vous périrez. » Le danger vient du cœur qui se détourne.",
+      "en": "“But if thine heart turn away, so that thou wilt not hear, but shalt be drawn away, and worship other gods, and serve them; I denounce unto you this day, that ye shall surely perish.” The danger comes from a heart that turns away."
+     },
+     "ref": "5:30:17"
+    },
+    {
+     "id": "law-choose-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 20, que veut dire concrètement « choisir la vie » ?",
+      "en": "According to verse 20, what does choosing life mean in practice?"
+     },
+     "choices": {
+      "fr": [
+       "Conquérir tout le pays promis par les armes",
+       "Offrir des sacrifices plus nombreux chaque année",
+       "Se séparer de toutes les autres nations",
+       "Aimer l'Eternel, obéir à sa voix et s'attacher à lui"
+      ],
+      "en": [
+       "Conquering the whole promised land by force",
+       "Offering more and more sacrifices every year",
+       "Separating from all the other nations of the earth",
+       "Loving the Lord, obeying his voice and cleaving to him"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Choisir la vie, c'est choisir « pour aimer l'Eternel, ton Dieu, pour obéir à sa voix, et pour t'attacher à lui ». Le choix porte sur une relation avec Dieu, pas seulement sur des règles.",
+      "en": "Choosing life means choosing “that thou mayest love the Lord thy God, and that thou mayest obey his voice, and that thou mayest cleave unto him: for he is thy life”. The choice concerns a relationship with God, not rules alone."
+     },
+     "ref": "5:30:20"
+    }
+   ]
+  },
+  {
+   "id": "law-perfect",
+   "title": {
+    "fr": "La loi de l'Eternel est parfaite",
+    "en": "The law of the Lord is perfect"
+   },
+   "passages": [
+    "19:19:7-14"
+   ],
+   "intro": {
+    "fr": "Le Psaume 19 est attribué à David. Il célèbre d'abord la gloire de Dieu dans le ciel et le soleil, puis, à partir de ce passage, dans sa loi.",
+    "en": "Psalm 19 is attributed to David. It first celebrates God's glory in the heavens and the sun, then, from this passage on, in his law."
+   },
+   "keyVerse": "19:19:7",
+   "takeaway": {
+    "fr": "David décrit la loi de l'Eternel comme parfaite, droite et pure, plus précieuse que l'or et plus douce que le miel. Il demande aussi à Dieu de lui pardonner les fautes qu'il ignore et d'agréer ses paroles et son cœur.",
+    "en": "David describes the law of the Lord as perfect, right and pure, more desirable than gold and sweeter than honey. He also asks God to cleanse him from faults he cannot see and to accept his words and his heart."
+   },
+   "questions": [
+    {
+     "id": "law-perfect-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, qu'opère la loi de l'Eternel, qui est parfaite ?",
+      "en": "According to verse 7, what does the perfect law of the Lord do?"
+     },
+     "choices": {
+      "fr": [
+       "Elle enrichit le peuple",
+       "Elle restaure l'âme",
+       "Elle soumet les nations",
+       "Elle prolonge les jours"
+      ],
+      "en": [
+       "It makes the people rich",
+       "It converts the soul",
+       "It subdues the nations",
+       "It lengthens one's days"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« La loi de l'Eternel est parfaite, elle restaure l'âme. » Le mot hébreu traduit par « loi » (torah) signifie aussi « enseignement ».",
+      "en": "“The law of the Lord is perfect, converting the soul.” The Hebrew word translated “law” (torah) also means “teaching” or “instruction”."
+     },
+     "ref": "19:19:7"
+    },
+    {
+     "id": "law-perfect-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le même verset, qui le témoignage de l'Eternel rend-il sage ?",
+      "en": "According to the same verse, whom does the testimony of the Lord make wise?"
+     },
+     "choices": {
+      "fr": [
+       "Le roi",
+       "Le prêtre",
+       "Le vieillard",
+       "L'ignorant"
+      ],
+      "en": [
+       "The king",
+       "The priest",
+       "The old man",
+       "The simple"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Le témoignage de l'Eternel est véritable, il rend sage l'ignorant. » La sagesse dont parle le psaume est offerte à celui qui n'en a pas.",
+      "en": "“The testimony of the Lord is sure, making wise the simple.” The wisdom the psalm speaks of is offered to those who lack it."
+     },
+     "ref": "19:19:7"
+    },
+    {
+     "id": "law-perfect-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, qu'éclairent les commandements de l'Eternel ?",
+      "en": "According to verse 8, what does the commandment of the Lord enlighten?"
+     },
+     "choices": {
+      "fr": [
+       "Les yeux",
+       "Le chemin",
+       "La nuit",
+       "Les nations"
+      ],
+      "en": [
+       "The eyes",
+       "The way",
+       "The night",
+       "The nations"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Les commandements de l'Eternel sont purs, ils éclairent les yeux. » Le même verset dit que ses ordonnances « réjouissent le coeur ».",
+      "en": "“The commandment of the Lord is pure, enlightening the eyes.” The same verse says that his statutes are “rejoicing the heart”."
+     },
+     "ref": "19:19:8"
+    },
+    {
+     "id": "law-perfect-4",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi David compare-t-il les jugements de l'Eternel au verset 10 ?",
+      "en": "What does David compare the judgments of the Lord to in verse 10?"
+     },
+     "choices": {
+      "fr": [
+       "Au pain et au vin",
+       "À la lumière et au feu",
+       "À l'or et au miel",
+       "À la pluie et à la rosée"
+      ],
+      "en": [
+       "Bread and wine",
+       "Light and fire",
+       "Gold and honey",
+       "Rain and dew"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Ils sont plus précieux que l'or, que beaucoup d'or fin; Ils sont plus doux que le miel, que celui qui coule des rayons. » L'or dit leur valeur, le miel le plaisir qu'ils donnent.",
+      "en": "“More to be desired are they than gold, yea, than much fine gold: sweeter also than honey and the honeycomb.” Gold speaks of their worth, honey of the delight they give."
+     },
+     "ref": "19:19:10"
+    },
+    {
+     "id": "law-perfect-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "David affirme qu'il connaît toutes ses fautes.",
+      "en": "David claims to know all his faults."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux : « Qui connaît ses égarements? Pardonne-moi ceux que j'ignore. » Après avoir loué la loi, David reconnaît qu'il a des fautes qu'il ne voit pas lui-même.",
+      "en": "False: “Who can understand his errors? cleanse thou me from secret faults.” After praising the law, David admits that he has faults he cannot see himself."
+     },
+     "ref": "19:19:12"
+    },
+    {
+     "id": "law-perfect-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que David demande-t-il à l'Eternel d'agréer au verset 14 ?",
+      "en": "What does David ask the Lord to accept in verse 14?"
+     },
+     "choices": {
+      "fr": [
+       "Ses sacrifices et ses offrandes",
+       "Ses paroles et les sentiments de son cœur",
+       "Ses chants et ses prières au temple",
+       "Ses victoires et ses conquêtes"
+      ],
+      "en": [
+       "His sacrifices and his offerings",
+       "His words and the meditation of his heart",
+       "His songs and his prayers in the temple",
+       "His victories and his conquests"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Reçois favorablement les paroles de ma bouche Et les sentiments de mon coeur, O Eternel, mon rocher et mon libérateur! » Le psaume se termine par une prière qui porte sur l'intérieur autant que sur les paroles.",
+      "en": "“Let the words of my mouth, and the meditation of my heart, be acceptable in thy sight, O Lord, my strength, and my redeemer.” The psalm ends with a prayer about the inner life as much as about words."
+     },
+     "ref": "19:19:14"
+    }
+   ]
+  },
+  {
+   "id": "law-fulfil",
+   "title": {
+    "fr": "Non pour abolir, mais pour accomplir",
+    "en": "Not to destroy, but to fulfil"
+   },
+   "passages": [
+    "40:5:17-30"
+   ],
+   "intro": {
+    "fr": "Ces paroles font partie du Sermon sur la montagne (Matthieu 5–7). Jésus y parle de « la loi ou les prophètes », une expression qui désigne les Écritures d'Israël, puis reprend deux des dix commandements.",
+    "en": "These words are part of the Sermon on the Mount (Matthew 5–7). Jesus speaks of “the law, or the prophets”, an expression for the Scriptures of Israel, then takes up two of the Ten Commandments."
+   },
+   "keyVerse": "40:5:17",
+   "takeaway": {
+    "fr": "Jésus affirme qu'il n'est pas venu abolir la loi ou les prophètes, mais accomplir. Reprenant « Tu ne tueras point » et « Tu ne commettras point d'adultère », il vise aussi la colère contre son frère et le regard de convoitise.",
+    "en": "Jesus declares that he did not come to destroy the law or the prophets, but to fulfil. Taking up “Thou shalt not kill” and “Thou shalt not commit adultery”, he also addresses anger against one's brother and the look of lust."
+   },
+   "questions": [
+    {
+     "id": "law-fulfil-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 17, pourquoi Jésus dit-il être venu ?",
+      "en": "According to verse 17, what does Jesus say he came to do?"
+     },
+     "choices": {
+      "fr": [
+       "Pour abolir la loi",
+       "Pour juger les prophètes",
+       "Pour accomplir",
+       "Pour écrire une loi nouvelle"
+      ],
+      "en": [
+       "To destroy the law",
+       "To judge the prophets",
+       "To fulfil",
+       "To write a new law"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Ne croyez pas que je sois venu pour abolir la loi ou les prophètes; je suis venu non pour abolir, mais pour accomplir. » Jésus écarte lui-même l'idée qu'il viendrait supprimer les Écritures.",
+      "en": "“Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil.” Jesus himself rules out the idea that he came to do away with the Scriptures."
+     },
+     "ref": "40:5:17"
+    },
+    {
+     "id": "law-fulfil-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 18, que ne disparaîtra-t-il pas de la loi jusqu'à ce que tout soit arrivé ?",
+      "en": "According to verse 18, what shall not pass from the law till all be fulfilled?"
+     },
+     "choices": {
+      "fr": [
+       "Un seul iota ou un seul trait de lettre",
+       "Un seul des sacrifices du temple",
+       "Une seule des fêtes d'Israël",
+       "Un seul des noms des prophètes"
+      ],
+      "en": [
+       "One jot or one tittle",
+       "A single temple sacrifice",
+       "A single feast of Israel",
+       "A single name of the prophets"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Il ne disparaîtra pas de la loi un seul iota ou un seul trait de lettre, jusqu'à ce que tout soit arrivé. » Le iota est la plus petite lettre de l'alphabet grec ; le « trait » est un petit signe d'écriture.",
+      "en": "“One jot or one tittle shall in no wise pass from the law, till all be fulfilled.” A jot (the Greek iota) is the smallest letter of the Greek alphabet, and a tittle a tiny stroke of the pen."
+     },
+     "ref": "40:5:18"
+    },
+    {
+     "id": "law-fulfil-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 20, la justice des disciples doit surpasser celle de qui ?",
+      "en": "According to verse 20, whose righteousness must the disciples' righteousness exceed?"
+     },
+     "choices": {
+      "fr": [
+       "Des prêtres et des lévites",
+       "Des rois d'Israël",
+       "Des anciens prophètes",
+       "Des scribes et des pharisiens"
+      ],
+      "en": [
+       "The priests and the Levites",
+       "The kings of Israel",
+       "The prophets of old",
+       "The scribes and Pharisees"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Si votre justice ne surpasse celle des scribes et des pharisiens, vous n'entrerez point dans le royaume des cieux. » Les scribes étaient des spécialistes de la loi ; les pharisiens, un mouvement juif attaché à l'observer avec soin.",
+      "en": "“Except your righteousness shall exceed the righteousness of the scribes and Pharisees, ye shall in no case enter into the kingdom of heaven.” Scribes were experts in the law; the Pharisees were a Jewish movement devoted to keeping it carefully."
+     },
+     "ref": "40:5:20"
+    },
+    {
+     "id": "law-fulfil-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Après avoir cité « Tu ne tueras point », qui Jésus déclare-t-il, lui aussi, passible des juges ?",
+      "en": "After quoting “Thou shalt not kill”, whom does Jesus say is also in danger of the judgment?"
+     },
+     "choices": {
+      "fr": [
+       "Celui qui jure par le ciel ou par la terre",
+       "Celui qui se met en colère contre son frère",
+       "Celui qui refuse de prêter à son frère",
+       "Celui qui oublie d'apporter son offrande"
+      ],
+      "en": [
+       "Whoever swears by heaven or by the earth",
+       "Whoever is angry with his brother without a cause",
+       "Whoever refuses to lend to his brother",
+       "Whoever forgets to bring his offering"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Mais moi, je vous dis que quiconque se met en colère contre son frère mérite d'être puni par les juges. » Jésus fait remonter le commandement du meurtre jusqu'à la colère et aux insultes. (La King James ajoute ici « sans cause », absent de la Segond.)",
+      "en": "“But I say unto you, That whosoever is angry with his brother without a cause shall be in danger of the judgment.” Jesus traces the command against murder back to anger and insults. (The words “without a cause” are not in the French Segond text.)"
+     },
+     "ref": "40:5:22"
+    },
+    {
+     "id": "law-fulfil-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Que doit faire celui qui, à l'autel, se souvient que son frère a quelque chose contre lui ?",
+      "en": "What should someone do who remembers at the altar that his brother has something against him?"
+     },
+     "choices": {
+      "fr": [
+       "Aller d'abord se réconcilier avec son frère",
+       "Offrir un sacrifice plus grand",
+       "Demander au prêtre de prier pour lui",
+       "Attendre que son frère vienne à lui"
+      ],
+      "en": [
+       "First go and be reconciled to his brother",
+       "Offer a greater sacrifice",
+       "Ask the priest to pray for him",
+       "Wait for his brother to come to him"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Laisse là ton offrande devant l'autel, et va d'abord te réconcilier avec ton frère; puis, viens présenter ton offrande. » La réconciliation passe avant l'offrande.",
+      "en": "“Leave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift.” Reconciliation comes before the offering."
+     },
+     "ref": "40:5:24"
+    },
+    {
+     "id": "law-fulfil-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Jésus, le commandement « Tu ne commettras point d'adultère » ne concerne que les actes, pas le regard.",
+      "en": "According to Jesus, the commandment “Thou shalt not commit adultery” concerns only deeds, not the way one looks."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux : « quiconque regarde une femme pour la convoiter a déjà commis un adultère avec elle dans son coeur. » Jésus étend le commandement jusqu'au désir du cœur.",
+      "en": "False: “whosoever looketh on a woman to lust after her hath committed adultery with her already in his heart.” Jesus extends the commandment to the desire of the heart."
+     },
+     "ref": "40:5:28"
+    }
+   ]
+  },
+  {
+   "id": "law-greatest",
+   "title": {
+    "fr": "Le plus grand commandement",
+    "en": "The greatest commandment"
+   },
+   "passages": [
+    "41:12:28-34",
+    "45:13:8-10"
+   ],
+   "intro": {
+    "fr": "Pendant ses derniers jours à Jérusalem, Jésus est interrogé par un scribe, un spécialiste de la loi, qui lui demande quel est le premier de tous les commandements. Dans sa lettre aux Romains, Paul revient sur le commandement d'aimer son prochain.",
+    "en": "During his last days in Jerusalem, Jesus is questioned by a scribe, an expert in the law, who asks him which is the first commandment of all. In his letter to the Romans, Paul comes back to the command to love one's neighbour."
+   },
+   "keyVerse": "45:13:10",
+   "takeaway": {
+    "fr": "Jésus cite « Ecoute, Israël » et « Tu aimeras ton prochain comme toi-même », et dit qu'il n'y a pas de commandement plus grand. Paul écrit que les commandements se résument dans l'amour du prochain et que « l'amour est donc l'accomplissement de la loi ».",
+    "en": "Jesus quotes “Hear, O Israel” and “Thou shalt love thy neighbour as thyself”, and says there is no greater commandment. Paul writes that the commandments are summed up in love of neighbour and that “love is the fulfilling of the law”."
+   },
+   "questions": [
+    {
+     "id": "law-greatest-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Par quelle parole Jésus commence-t-il sa réponse sur le premier commandement ?",
+      "en": "With what words does Jesus begin his answer about the first commandment?"
+     },
+     "choices": {
+      "fr": [
+       "Tu ne tueras point",
+       "Honore ton père et ta mère",
+       "Ecoute, Israël",
+       "Tu ne déroberas point"
+      ],
+      "en": [
+       "Thou shalt not kill",
+       "Honour thy father and thy mother",
+       "Hear, O Israel",
+       "Thou shalt not steal"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Voici le premier: Ecoute, Israël, le Seigneur, notre Dieu, est l'unique Seigneur. » Jésus cite Deutéronome 6:4-5, une parole récitée chaque jour dans la tradition juive.",
+      "en": "“The first of all the commandments is, Hear, O Israel; The Lord our God is one Lord.” Jesus quotes Deuteronomy 6:4-5, words recited daily in Jewish tradition."
+     },
+     "ref": "41:12:29"
+    },
+    {
+     "id": "law-greatest-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel est le second commandement selon Jésus ?",
+      "en": "What is the second commandment according to Jesus?"
+     },
+     "choices": {
+      "fr": [
+       "Ne pas porter de faux témoignage",
+       "Aimer son prochain comme soi-même",
+       "Honorer son père et sa mère",
+       "Ne pas convoiter le bien d'autrui"
+      ],
+      "en": [
+       "Not to bear false witness",
+       "To love one's neighbour as oneself",
+       "To honour one's father and mother",
+       "Not to covet what belongs to others"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Voici le second: Tu aimeras ton prochain comme toi-même. Il n'y a pas d'autre commandement plus grand que ceux-là. » Ce commandement se trouve dans le livre du Lévitique (19:18).",
+      "en": "“And the second is like, namely this, Thou shalt love thy neighbour as thyself. There is none other commandment greater than these.” This command comes from the book of Leviticus (19:18)."
+     },
+     "ref": "41:12:31"
+    },
+    {
+     "id": "law-greatest-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le scribe, aimer Dieu et son prochain vaut plus que quoi ?",
+      "en": "According to the scribe, loving God and one's neighbour is more than what?"
+     },
+     "choices": {
+      "fr": [
+       "Toutes les richesses du monde",
+       "Toutes les prières du temple",
+       "Tous les jeûnes de l'année",
+       "Tous les holocaustes et tous les sacrifices"
+      ],
+      "en": [
+       "All the riches of the world",
+       "All the prayers of the temple",
+       "All the fasts of the year",
+       "All whole burnt offerings and sacrifices"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Le scribe dit qu'aimer Dieu et son prochain « c'est plus que tous les holocaustes et tous les sacrifices ». Les prophètes avaient déjà dit des choses semblables (par exemple Osée 6:6).",
+      "en": "The scribe says that loving God and one's neighbour “is more than all whole burnt offerings and sacrifices”. The prophets had already said similar things (for example Hosea 6:6)."
+     },
+     "ref": "41:12:33"
+    },
+    {
+     "id": "law-greatest-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Jésus au scribe qui a répondu avec intelligence ?",
+      "en": "What does Jesus tell the scribe who answered discreetly?"
+     },
+     "choices": {
+      "fr": [
+       "Qu'il n'est pas loin du royaume de Dieu",
+       "Qu'il doit d'abord vendre ses biens",
+       "Qu'il doit quitter les scribes",
+       "Qu'il connaît mal les Écritures"
+      ],
+      "en": [
+       "That he is not far from the kingdom of God",
+       "That he must first sell his goods",
+       "That he must leave the scribes",
+       "That he knows the Scriptures poorly"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Tu n'es pas loin du royaume de Dieu. » Le passage ajoute qu'ensuite « personne n'osa plus lui proposer des questions ».",
+      "en": "“Thou art not far from the kingdom of God.” The passage adds: “And no man after that durst ask him any question.”"
+     },
+     "ref": "41:12:34"
+    },
+    {
+     "id": "law-greatest-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Paul, des commandements comme « Tu ne tueras point » se résument dans « Tu aimeras ton prochain comme toi-même ».",
+      "en": "According to Paul, commandments such as “Thou shalt not kill” are summed up in “Thou shalt love thy neighbour as thyself”."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : Paul cite plusieurs des dix commandements et ajoute qu'ils « se résument dans cette parole: Tu aimeras ton prochain comme toi-même ». Il reprend le même verset du Lévitique que Jésus.",
+      "en": "True: Paul lists several of the Ten Commandments and says they are “briefly comprehended in this saying, namely, Thou shalt love thy neighbour as thyself”. He quotes the same verse of Leviticus as Jesus."
+     },
+     "ref": "45:13:9"
+    },
+    {
+     "id": "law-greatest-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Romains 13:10, qu'est-ce qui fait de l'amour l'accomplissement de la loi ?",
+      "en": "According to Romans 13:10, what makes love the fulfilling of the law?"
+     },
+     "choices": {
+      "fr": [
+       "Il plaît à tous les hommes",
+       "Il ne fait pas de mal au prochain",
+       "Il se voit plus que la foi",
+       "Il dure plus longtemps que la loi"
+      ],
+      "en": [
+       "It pleases everyone",
+       "It works no ill to one's neighbour",
+       "It is more visible than faith",
+       "It lasts longer than the law"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« L'amour ne fait point de mal au prochain: l'amour est donc l'accomplissement de la loi. » Les commandements cités au verset 9 interdisent tous de faire du tort à autrui.",
+      "en": "“Love worketh no ill to his neighbour: therefore love is the fulfilling of the law.” The commandments listed in verse 9 all forbid wronging others."
+     },
+     "ref": "45:13:10"
+    }
+   ]
+  },
+  {
+   "id": "law-knowledge",
+   "title": {
+    "fr": "Ce que la loi fait connaître",
+    "en": "What the law makes known"
+   },
+   "passages": [
+    "45:7:7-25"
+   ],
+   "intro": {
+    "fr": "Dans sa lettre aux chrétiens de Rome, Paul vient de parler du lien entre la loi et le péché. Il se demande alors si la loi elle-même est mauvaise, et répond en parlant à la première personne.",
+    "en": "In his letter to the Christians in Rome, Paul has just spoken about the link between the law and sin. He then asks whether the law itself is evil, and answers speaking in the first person."
+   },
+   "keyVerse": "45:7:12",
+   "takeaway": {
+    "fr": "Paul affirme que la loi est sainte, et le commandement saint, juste et bon : c'est par elle qu'il a connu le péché. Il décrit ensuite le combat entre le bien qu'il veut et le mal qu'il fait, et rend grâces à Dieu par Jésus-Christ.",
+    "en": "Paul affirms that the law is holy, and the commandment holy, just and good: it is through the law that he came to know sin. He then describes the struggle between the good he wants and the evil he does, and gives thanks to God through Jesus Christ."
+   },
+   "questions": [
+    {
+     "id": "law-knowledge-1",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Paul affirme que la loi elle-même est péché.",
+      "en": "Paul states that the law itself is sin."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux : « Que dirons-nous donc? La loi est-elle péché? Loin de là! Mais je n'ai connu le péché que par la loi. » La loi n'est pas le péché, elle le fait connaître.",
+      "en": "False: “What shall we say then? Is the law sin? God forbid. Nay, I had not known sin, but by the law.” The law is not sin; it makes sin known."
+     },
+     "ref": "45:7:7"
+    },
+    {
+     "id": "law-knowledge-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, quel commandement de la loi Paul cite-t-il ?",
+      "en": "According to verse 7, which commandment of the law does Paul quote?"
+     },
+     "choices": {
+      "fr": [
+       "Le commandement de ne pas tuer",
+       "Le commandement de ne pas voler",
+       "Le commandement de ne pas convoiter",
+       "Le commandement d'honorer ses parents"
+      ],
+      "en": [
+       "The command not to kill",
+       "The command not to steal",
+       "The command not to covet",
+       "The command to honour one's parents"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Je n'aurais pas connu la convoitise, si la loi n'eût dit: Tu ne convoiteras point. » C'est le dernier des dix commandements (Exode 20:17).",
+      "en": "“I had not known lust, except the law had said, Thou shalt not covet.” This is the last of the Ten Commandments (Exodus 20:17)."
+     },
+     "ref": "45:7:7"
+    },
+    {
+     "id": "law-knowledge-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Paul qualifie-t-il le commandement au verset 12 ?",
+      "en": "How does Paul describe the commandment in verse 12?"
+     },
+     "choices": {
+      "fr": [
+       "Saint, juste et bon",
+       "Ancien, lourd et sévère",
+       "Utile, mais imparfait",
+       "Juste, mais dépassé"
+      ],
+      "en": [
+       "Holy, just and good",
+       "Old, heavy and severe",
+       "Useful but imperfect",
+       "Just but outdated"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« La loi donc est sainte, et le commandement est saint, juste et bon. » Pour Paul, le problème ne vient pas de la loi mais du péché, qui se sert du commandement (v. 11 et 13).",
+      "en": "“Wherefore the law is holy, and the commandment holy, and just, and good.” For Paul the problem lies not in the law but in sin, which makes use of the commandment (vv. 11 and 13)."
+     },
+     "ref": "45:7:12"
+    },
+    {
+     "id": "law-knowledge-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Au verset 14, la loi est spirituelle. Comment Paul se décrit-il, lui ?",
+      "en": "In verse 14 the law is spiritual. How does Paul describe himself?"
+     },
+     "choices": {
+      "fr": [
+       "Juste et irréprochable",
+       "Libre et sans loi",
+       "Sage et instruit",
+       "Charnel, vendu au péché"
+      ],
+      "en": [
+       "Righteous and blameless",
+       "Free and without law",
+       "Wise and learned",
+       "Carnal, sold under sin"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Nous savons, en effet, que la loi est spirituelle; mais moi, je suis charnel, vendu au péché. » L'image est celle d'un esclave vendu à un maître.",
+      "en": "“For we know that the law is spiritual: but I am carnal, sold under sin.” The picture is that of a slave sold to a master."
+     },
+     "ref": "45:7:14"
+    },
+    {
+     "id": "law-knowledge-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel combat Paul décrit-il au verset 19 ?",
+      "en": "What struggle does Paul describe in verse 19?"
+     },
+     "choices": {
+      "fr": [
+       "Il ne sait pas ce qui est bien",
+       "Il fait le mal qu'il ne veut pas faire",
+       "Il ne trouve aucun plaisir à la loi",
+       "Il refuse de connaître la loi"
+      ],
+      "en": [
+       "He does not know what is good",
+       "He does the evil he does not want to do",
+       "He finds no delight in the law",
+       "He refuses to know the law"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Car je ne fais pas le bien que je veux, et je fais le mal que je ne veux pas. » Paul dit pourtant prendre « plaisir à la loi de Dieu, selon l'homme intérieur » (v. 22).",
+      "en": "“For the good that I would I do not: but the evil which I would not, that I do.” Yet Paul says: “I delight in the law of God after the inward man” (v. 22)."
+     },
+     "ref": "45:7:19"
+    },
+    {
+     "id": "law-knowledge-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Après le cri « Misérable que je suis! », que fait Paul au verset 25 ?",
+      "en": "After the cry “O wretched man that I am!”, what does Paul do in verse 25?"
+     },
+     "choices": {
+      "fr": [
+       "Il promet de mieux observer la loi",
+       "Il demande l'aide des autres apôtres",
+       "Il rend grâces à Dieu par Jésus-Christ",
+       "Il offre un sacrifice pour son péché"
+      ],
+      "en": [
+       "He promises to keep the law better",
+       "He asks the other apostles for help",
+       "He thanks God through Jesus Christ",
+       "He offers a sacrifice for his sin"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "À la question « Qui me délivrera du corps de cette mort? », Paul répond : « Grâces soient rendues à Dieu par Jésus-Christ notre Seigneur! » Il résume ensuite la tension décrite : par l'entendement, il sert la loi de Dieu ; par la chair, la loi du péché.",
+      "en": "To the question “who shall deliver me from the body of this death?”, Paul replies: “I thank God through Jesus Christ our Lord.” He then sums up the tension he has described: with the mind he serves the law of God, but with the flesh the law of sin."
+     },
+     "ref": "45:7:25"
+    }
+   ]
+  },
+  {
+   "id": "law-tutor",
+   "title": {
+    "fr": "La loi, un pédagogue",
+    "en": "The law, a schoolmaster"
+   },
+   "passages": [
+    "48:3:10-25"
+   ],
+   "intro": {
+    "fr": "Paul écrit aux Églises de Galatie, une région du centre de l'actuelle Turquie. Il s'appuie sur l'histoire d'Abraham et sur plusieurs citations de l'Ancien Testament pour expliquer la place de la loi donnée par Moïse.",
+    "en": "Paul writes to the churches of Galatia, a region in what is now central Turkey. He draws on the story of Abraham and on several Old Testament quotations to explain the place of the law given through Moses."
+   },
+   "keyVerse": "48:3:24",
+   "takeaway": {
+    "fr": "Paul écrit que la promesse faite à Abraham ne peut pas être annulée par la loi venue quatre cent trente ans plus tard. Selon lui, la loi a été donnée à cause des transgressions et a été comme un pédagogue pour conduire à Christ.",
+    "en": "Paul writes that the promise made to Abraham cannot be annulled by the law that came four hundred and thirty years later. According to him, the law was added because of transgressions and was a schoolmaster to bring us to Christ."
+   },
+   "questions": [
+    {
+     "id": "law-tutor-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle parole de l'Écriture Paul cite-t-il au verset 11 ?",
+      "en": "Which word of Scripture does Paul quote in verse 11?"
+     },
+     "choices": {
+      "fr": [
+       "L'Eternel est mon berger",
+       "Le juste vivra par la foi",
+       "Ecoute, Israël",
+       "Au commencement, Dieu créa les cieux et la terre"
+      ],
+      "en": [
+       "The Lord is my shepherd",
+       "The just shall live by faith",
+       "Hear, O Israel",
+       "In the beginning God created the heaven and the earth"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Et que nul ne soit justifié devant Dieu par la loi, cela est évident, puisqu'il est dit: Le juste vivra par la foi. » Paul cite le prophète Habacuc (2:4).",
+      "en": "“But that no man is justified by the law in the sight of God, it is evident: for, The just shall live by faith.” Paul is quoting the prophet Habakkuk (2:4)."
+     },
+     "ref": "48:3:11"
+    },
+    {
+     "id": "law-tutor-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 13, de quoi Christ nous a-t-il rachetés ?",
+      "en": "According to verse 13, what has Christ redeemed us from?"
+     },
+     "choices": {
+      "fr": [
+       "De l'esclavage en Egypte",
+       "De la colère des hommes",
+       "De la pauvreté et de la faim",
+       "De la malédiction de la loi"
+      ],
+      "en": [
+       "From slavery in Egypt",
+       "From the wrath of men",
+       "From poverty and hunger",
+       "From the curse of the law"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Christ nous a rachetés de la malédiction de la loi, étant devenu malédiction pour nous. » Paul reprend ici Deutéronome 21:23, sous la forme : « Maudit est quiconque est pendu au bois. »",
+      "en": "“Christ hath redeemed us from the curse of the law, being made a curse for us.” Paul is drawing on Deuteronomy 21:23, in the form: “Cursed is every one that hangeth on a tree.”"
+     },
+     "ref": "48:3:13"
+    },
+    {
+     "id": "law-tutor-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Paul, qui est la « postérité » d'Abraham dont parle la promesse ?",
+      "en": "According to Paul, who is the “seed” of Abraham the promise speaks of?"
+     },
+     "choices": {
+      "fr": [
+       "Moïse",
+       "David",
+       "Christ",
+       "Les anges"
+      ],
+      "en": [
+       "Moses",
+       "David",
+       "Christ",
+       "The angels"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Il n'est pas dit: et aux postérités, comme s'il s'agissait de plusieurs, mais en tant qu'il s'agit d'une seule: et à ta postérité, c'est-à-dire, à Christ. » Paul s'appuie sur le singulier du mot dans les promesses de la Genèse.",
+      "en": "“He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ.” Paul builds on the singular form of the word in the promises of Genesis."
+     },
+     "ref": "48:3:16"
+    },
+    {
+     "id": "law-tutor-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Combien de temps après la promesse faite à Abraham la loi est-elle venue, selon le verset 17 ?",
+      "en": "According to verse 17, how long after the promise to Abraham did the law come?"
+     },
+     "choices": {
+      "fr": [
+       "Quatre cent trente ans",
+       "Quarante ans",
+       "Quatre cents ans",
+       "Soixante-dix ans"
+      ],
+      "en": [
+       "Four hundred and thirty years",
+       "Forty years",
+       "Four hundred years",
+       "Seventy years"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Paul parle de « la loi survenue quatre cent trente ans plus tard », qui ne peut pas annuler une disposition que Dieu a confirmée auparavant. Le chiffre rappelle Exode 12:40, qui donne la même durée au séjour d'Israël en Egypte.",
+      "en": "Paul speaks of “the law, which was four hundred and thirty years after”, which cannot annul a covenant God had confirmed before. The number recalls Exodus 12:40, which gives the same length for Israel's stay in Egypt."
+     },
+     "ref": "48:3:17"
+    },
+    {
+     "id": "law-tutor-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 19, pourquoi la loi a-t-elle été donnée ?",
+      "en": "According to verse 19, why was the law added?"
+     },
+     "choices": {
+      "fr": [
+       "Pour annuler la promesse",
+       "À cause des transgressions",
+       "Pour donner la vie",
+       "Pour remplacer la foi"
+      ],
+      "en": [
+       "To cancel the promise",
+       "Because of transgressions",
+       "To give life",
+       "To replace faith"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Pourquoi donc la loi? Elle a été donnée ensuite à cause des transgressions, jusqu'à ce que vînt la postérité à qui la promesse avait été faite. » Les versets 17 et 21 écartent les autres réponses : la loi n'annule pas la promesse et ne peut pas « procurer la vie ».",
+      "en": "“Wherefore then serveth the law? It was added because of transgressions, till the seed should come to whom the promise was made.” Verses 17 and 21 rule out the other answers: the law does not cancel the promise, and no law was given “which could have given life”."
+     },
+     "ref": "48:3:19"
+    },
+    {
+     "id": "law-tutor-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Paul compare la loi à un pédagogue chargé de conduire à Christ.",
+      "en": "Paul compares the law to a schoolmaster meant to bring us to Christ."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « Ainsi la loi a été comme un pédagogue pour nous conduire à Christ, afin que nous fussions justifiés par la foi. » Dans le monde gréco-romain, le pédagogue était un esclave chargé d'accompagner et de surveiller un enfant jusqu'à l'âge adulte.",
+      "en": "True: “Wherefore the law was our schoolmaster to bring us unto Christ, that we might be justified by faith.” In the Greco-Roman world, the paidagogos was a slave who escorted and supervised a child until adulthood."
+     },
+     "ref": "48:3:24"
+    }
+   ]
+  },
+  {
+   "id": "law-newheart",
+   "title": {
+    "fr": "Un cœur nouveau",
+    "en": "A new heart"
+   },
+   "passages": [
+    "26:36:22-32"
+   ],
+   "intro": {
+    "fr": "Ezéchiel est prêtre et prophète parmi les Judéens déportés à Babylone, au VIe siècle av. J.-C. Dans ce passage, Dieu annonce par lui le retour du peuple dans son pays.",
+    "en": "Ezekiel was a priest and prophet among the people of Judah deported to Babylon, in the sixth century BC. In this passage God announces through him the people's return to their land."
+   },
+   "keyVerse": "26:36:26",
+   "takeaway": {
+    "fr": "Dieu annonce qu'il rassemblera son peuple, le purifiera, lui donnera un cœur nouveau et mettra son esprit en lui pour qu'il suive ses ordonnances. Il précise qu'il agit à cause de son saint nom, et non à cause d'Israël.",
+    "en": "God announces that he will gather his people, cleanse them, give them a new heart and put his spirit within them so that they walk in his statutes. He makes clear that he acts for his holy name's sake, not for Israel's sake."
+   },
+   "questions": [
+    {
+     "id": "law-newheart-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 22, pour quelle raison Dieu dit-il agir ?",
+      "en": "According to verse 22, why does God say he will act?"
+     },
+     "choices": {
+      "fr": [
+       "À cause de la fidélité d'Israël",
+       "À cause des prières des prophètes",
+       "À cause des sacrifices offerts",
+       "À cause de son saint nom"
+      ],
+      "en": [
+       "Because of Israel's faithfulness",
+       "Because of the prophets' prayers",
+       "Because of the sacrifices offered",
+       "For his holy name's sake"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Ce n'est pas à cause de vous que j'agis de la sorte, maison d'Israël; c'est à cause de mon saint nom, que vous avez profané parmi les nations. » Le verset 32 le répète.",
+      "en": "“I do not this for your sakes, O house of Israel, but for mine holy name’s sake, which ye have profaned among the heathen.” Verse 32 says it again."
+     },
+     "ref": "26:36:22"
+    },
+    {
+     "id": "law-newheart-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 26, que Dieu ôtera-t-il à son peuple ?",
+      "en": "According to verse 26, what will God take away from his people?"
+     },
+     "choices": {
+      "fr": [
+       "Le cœur de pierre",
+       "Le joug de fer",
+       "Les murs de Babylone",
+       "La langue menteuse"
+      ],
+      "en": [
+       "The stony heart",
+       "The yoke of iron",
+       "The walls of Babylon",
+       "The lying tongue"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Je vous donnerai un coeur nouveau, et je mettrai en vous un esprit nouveau; j'ôterai de votre corps le coeur de pierre, et je vous donnerai un coeur de chair. » Un cœur de pierre est dur et insensible ; un cœur de chair est vivant.",
+      "en": "“A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh.” A heart of stone is hard and unfeeling; a heart of flesh is alive."
+     },
+     "ref": "26:36:26"
+    },
+    {
+     "id": "law-newheart-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 27, que fera Dieu en mettant son esprit en eux ?",
+      "en": "According to verse 27, what will God do by putting his spirit within them?"
+     },
+     "choices": {
+      "fr": [
+       "Il les rendra plus forts que les nations",
+       "Il fera qu'ils suivent ses ordonnances",
+       "Il leur révélera tout l'avenir",
+       "Il les dispensera de ses lois"
+      ],
+      "en": [
+       "Make them stronger than the nations",
+       "Cause them to walk in his statutes",
+       "Reveal the whole future to them",
+       "Release them from his laws"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Je mettrai mon esprit en vous, et je ferai en sorte que vous suiviez mes ordonnances, et que vous observiez et pratiquiez mes lois. » Ici, c'est Dieu lui-même qui rend son peuple capable d'obéir.",
+      "en": "“And I will put my spirit within you, and cause you to walk in my statutes, and ye shall keep my judgments, and do them.” Here it is God himself who makes his people able to obey."
+     },
+     "ref": "26:36:27"
+    },
+    {
+     "id": "law-newheart-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle promesse se trouve au verset 28 ?",
+      "en": "What promise is found in verse 28?"
+     },
+     "choices": {
+      "fr": [
+       "Vous régnerez sur toutes les nations",
+       "Vous bâtirez un temple éternel",
+       "Vous serez mon peuple, et je serai votre Dieu",
+       "Vous n'aurez plus jamais d'ennemis"
+      ],
+      "en": [
+       "You will rule over all nations",
+       "You will build an everlasting temple",
+       "You will be my people, and I will be your God",
+       "You will never again have enemies"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Vous habiterez le pays que j'ai donné à vos pères; vous serez mon peuple, et je serai votre Dieu. » Cette formule de l'alliance revient souvent dans l'Ancien Testament (par exemple Jérémie 31:33).",
+      "en": "“And ye shall dwell in the land that I gave to your fathers; and ye shall be my people, and I will be your God.” This covenant formula recurs often in the Old Testament (for example Jeremiah 31:33)."
+     },
+     "ref": "26:36:28"
+    },
+    {
+     "id": "law-newheart-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Dieu promet aussi de multiplier le blé et le fruit des arbres, pour que le peuple ne connaisse plus la famine.",
+      "en": "God also promises to increase the grain and the fruit of the trees, so that the people no longer suffer famine."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "Vrai : « J'appellerai le blé, et je le multiplierai; je ne vous enverrai plus la famine. Je multiplierai le fruit des arbres et le produit des champs. » Le renouveau touche aussi le pays.",
+      "en": "True: “I will call for the corn, and will increase it, and lay no famine upon you. And I will multiply the fruit of the tree, and the increase of the field.” In the KJV, “corn” means grain. The renewal reaches the land too."
+     },
+     "ref": "26:36:29"
+    },
+    {
+     "id": "law-newheart-6",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon le verset 31, une fois restauré, le peuple oubliera sa mauvaise conduite passée.",
+      "en": "According to verse 31, once restored, the people will forget their past evil ways."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Faux : « Alors vous vous souviendrez de votre conduite qui était mauvaise, et de vos actions qui n'étaient pas bonnes. » La restauration conduit au souvenir de la faute, et non à l'oubli.",
+      "en": "False: “Then shall ye remember your own evil ways, and your doings that were not good.” Restoration leads them to remember their wrongs, not to forget them."
+     },
+     "ref": "26:36:31"
+    }
+   ]
+  },
+  {
+   "id": "law-doers",
+   "title": {
+    "fr": "Mettre la parole en pratique",
+    "en": "Doers of the word"
+   },
+   "passages": [
+    "59:1:19-27"
+   ],
+   "intro": {
+    "fr": "La lettre de Jacques est adressée à des croyants dispersés hors de leur pays (1:1). Elle est faite surtout de conseils pratiques sur la manière de vivre.",
+    "en": "The letter of James is addressed to believers scattered abroad (1:1). It consists mostly of practical counsel on how to live."
+   },
+   "keyVerse": "59:1:22",
+   "takeaway": {
+    "fr": "Jacques demande de mettre la parole en pratique et de ne pas se contenter de l'écouter. Il déclare heureux celui qui plonge les regards dans « la loi parfaite, la loi de la liberté » et persévère en agissant.",
+    "en": "James calls his readers to be doers of the word and not hearers only. He declares blessed the one who looks into “the perfect law of liberty” and continues in it by acting."
+   },
+   "questions": [
+    {
+     "id": "law-doers-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 19, à quoi chacun doit-il être prompt ?",
+      "en": "According to verse 19, what should everyone be swift to do?"
+     },
+     "choices": {
+      "fr": [
+       "À parler",
+       "À juger",
+       "À écouter",
+       "À répondre"
+      ],
+      "en": [
+       "To speak",
+       "To judge",
+       "To hear",
+       "To answer"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Que tout homme soit prompt à écouter, lent à parler, lent à se mettre en colère. » Le verset suivant explique : « la colère de l'homme n'accomplit pas la justice de Dieu ».",
+      "en": "“Let every man be swift to hear, slow to speak, slow to wrath.” The next verse explains: “the wrath of man worketh not the righteousness of God”."
+     },
+     "ref": "59:1:19"
+    },
+    {
+     "id": "law-doers-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 22, que fait celui qui se contente d'écouter la parole ?",
+      "en": "According to verse 22, what does someone who only hears the word do?"
+     },
+     "choices": {
+      "fr": [
+       "Il se trompe lui-même",
+       "Il trompe ses frères",
+       "Il offense les anciens",
+       "Il perd sa place"
+      ],
+      "en": [
+       "He deceives himself",
+       "He deceives his brothers",
+       "He offends the elders",
+       "He loses his place"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Mettez en pratique la parole, et ne vous bornez pas à l'écouter, en vous trompant vous-mêmes par de faux raisonnements. » Écouter sans agir donne une fausse assurance.",
+      "en": "“But be ye doers of the word, and not hearers only, deceiving your own selves.” Hearing without doing gives a false sense of security."
+     },
+     "ref": "59:1:22"
+    },
+    {
+     "id": "law-doers-3",
+     "kind": "choice",
+     "q": {
+      "fr": "À quoi Jacques compare-t-il celui qui écoute la parole sans la mettre en pratique ?",
+      "en": "What does James compare someone who hears the word but does not do it to?"
+     },
+     "choices": {
+      "fr": [
+       "À un homme qui bâtit sur le sable",
+       "À un semeur qui sème sur le roc",
+       "À un arbre qui ne porte pas de fruit",
+       "À un homme qui se regarde dans un miroir"
+      ],
+      "en": [
+       "A man who builds on the sand",
+       "A sower who sows on rock",
+       "A tree that bears no fruit",
+       "A man who looks in a mirror"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "Il est « semblable à un homme qui regarde dans un miroir son visage naturel, et qui, après s'être regardé, s'en va, et oublie aussitôt quel il était ». Les miroirs de l'époque étaient en métal poli.",
+      "en": "He is “like unto a man beholding his natural face in a glass: For he beholdeth himself, and goeth his way, and straightway forgetteth what manner of man he was.” Mirrors at the time were made of polished metal; in KJV English, a “glass” is a mirror."
+     },
+     "ref": "59:1:23"
+    },
+    {
+     "id": "law-doers-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Jacques appelle-t-il la loi au verset 25 ?",
+      "en": "What does James call the law in verse 25?"
+     },
+     "choices": {
+      "fr": [
+       "La loi ancienne, la loi de Moïse",
+       "La loi parfaite, la loi de la liberté",
+       "La loi écrite, la loi de pierre",
+       "La loi des pères, la loi du peuple"
+      ],
+      "en": [
+       "The old law, the law of Moses",
+       "The perfect law of liberty",
+       "The written law, the law of stone",
+       "The law of the fathers and the people"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Mais celui qui aura plongé les regards dans la loi parfaite, la loi de la liberté, et qui aura persévéré [...] celui-là sera heureux dans son activité. » Le Psaume 19 disait déjà : « La loi de l'Eternel est parfaite ».",
+      "en": "“But whoso looketh into the perfect law of liberty, and continueth therein [...] this man shall be blessed in his deed.” Psalm 19 had already said: “The law of the Lord is perfect”."
+     },
+     "ref": "59:1:25"
+    },
+    {
+     "id": "law-doers-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 26, qu'est-ce qui rend vaine la religion de quelqu'un ?",
+      "en": "According to verse 26, what makes someone's religion vain?"
+     },
+     "choices": {
+      "fr": [
+       "Ne pas jeûner assez souvent",
+       "Ne pas connaître toute la loi",
+       "Ne pas tenir sa langue en bride",
+       "Ne pas aller à la synagogue"
+      ],
+      "en": [
+       "Not fasting often enough",
+       "Not knowing the whole law",
+       "Not bridling his tongue",
+       "Not going to the synagogue"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Si quelqu'un croit être religieux, sans tenir sa langue en bride, mais en trompant son coeur, la religion de cet homme est vaine. » La bride sert à diriger un cheval ; Jacques reprend l'image au chapitre 3.",
+      "en": "“If any man among you seem to be religious, and bridleth not his tongue, but deceiveth his own heart, this man’s religion is vain.” A bridle is used to guide a horse; James returns to the image in chapter 3."
+     },
+     "ref": "59:1:26"
+    },
+    {
+     "id": "law-doers-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 27, en quoi consiste la religion pure et sans tache ?",
+      "en": "According to verse 27, what is pure and undefiled religion?"
+     },
+     "choices": {
+      "fr": [
+       "Visiter les orphelins et les veuves",
+       "Prier longuement et en public",
+       "Donner la dîme de tous ses biens",
+       "Connaître la loi par cœur"
+      ],
+      "en": [
+       "Visiting orphans and widows",
+       "Praying long prayers in public",
+       "Giving a tithe of all one has",
+       "Knowing the law by heart"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« La religion pure et sans tache, devant Dieu notre Père, consiste à visiter les orphelins et les veuves dans leurs afflictions, et à se préserver des souillures du monde. » La loi de Moïse demandait déjà de ne pas opprimer la veuve et l'orphelin (Exode 22:22).",
+      "en": "“Pure religion and undefiled before God and the Father is this, To visit the fatherless and widows in their affliction, and to keep himself unspotted from the world.” The law of Moses already forbade afflicting widows and orphans (Exodus 22:22)."
+     },
+     "ref": "59:1:27"
+    }
+   ]
+  }
+ ]
+}

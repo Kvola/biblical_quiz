@@ -76,10 +76,13 @@ void main() {
 
   test('plusieurs livres : questions « Dans quel livre ? » parmi les livres choisis', () {
     const scope = ReadingScope({40: null, 41: null, 42: null, 43: null});
+    // Au-delà des questions relues des Évangiles (leur nombre grandit avec le
+    // contenu), le quiz se complète par des questions tirées du texte.
+    final curated = content.allQuestions.where((q) => scope.contains(q.ref)).length;
     final generated = <Question>[];
     for (var seed = 0; seed < 8; seed++) {
       generated.addAll(ReadingQuiz.build(
-        content: content, bible: lsg, lang: 'fr', scope: scope, count: 170, random: Random(seed),
+        content: content, bible: lsg, lang: 'fr', scope: scope, count: curated + 40, random: Random(seed),
       ).where((q) => q.id.contains('-book-')));
     }
     expect(generated, isNotEmpty);

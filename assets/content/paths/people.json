@@ -2,6 +2,7 @@
  "id": "people",
  "order": 5,
  "icon": "groups",
+ "group": "discover",
  "title": {
   "fr": "Des hommes et des femmes",
   "en": "Men and women of the Bible"

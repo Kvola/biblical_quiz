@@ -2,6 +2,7 @@
  "id": "god",
  "order": 2,
  "icon": "wb_sunny",
+ "group": "discover",
  "title": {
   "fr": "Qui est Dieu ?",
   "en": "Who is God?"

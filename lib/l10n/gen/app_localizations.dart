@@ -482,6 +482,132 @@ abstract class AppLocalizations {
   /// **'Lire {ref}'**
   String readVerse(String ref);
 
+  /// No description provided for @printedRef.
+  ///
+  /// In fr, this message translates to:
+  /// **'Segond imprimée : {ref}'**
+  String printedRef(String ref);
+
+  /// No description provided for @printedNoteTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Numéros des versets'**
+  String get printedNoteTitle;
+
+  /// No description provided for @printedNoteBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Les numéros de versets de l’application suivent ceux de la King James, pour que le français et l’anglais aient les mêmes références.\n\nBeaucoup de Bibles Segond imprimées numérotent quelques passages autrement. Dans les Psaumes surtout, le titre du psaume y compte souvent comme verset 1 : le Psaume 19:7 de l’application est le Psaume 19:8 dans votre Bible.\n\nQuand c’est le cas, l’application indique aussi le numéro de la Segond imprimée.'**
+  String get printedNoteBody;
+
+  /// No description provided for @printedChapterBanner.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dans une Segond imprimée, les versets de ce chapitre sont numérotés autrement. Touchez un verset pour voir son numéro sur papier.'**
+  String get printedChapterBanner;
+
+  /// No description provided for @printedMore.
+  ///
+  /// In fr, this message translates to:
+  /// **'En savoir plus'**
+  String get printedMore;
+
+  /// No description provided for @updateAvailable.
+  ///
+  /// In fr, this message translates to:
+  /// **'Version {version} disponible'**
+  String updateAvailable(String version);
+
+  /// No description provided for @updateRequired.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mise à jour obligatoire : version {version}'**
+  String updateRequired(String version);
+
+  /// No description provided for @updateRequiredHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cette version n’est plus prise en charge : installez la nouvelle pour continuer.'**
+  String get updateRequiredHint;
+
+  /// No description provided for @updateDownload.
+  ///
+  /// In fr, this message translates to:
+  /// **'Télécharger'**
+  String get updateDownload;
+
+  /// No description provided for @updateLater.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plus tard'**
+  String get updateLater;
+
+  /// No description provided for @webInstallTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Installez l’application Android'**
+  String get webInstallTitle;
+
+  /// No description provided for @webInstallBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plus fluide au quotidien, et vos données ne dépendent plus du navigateur.'**
+  String get webInstallBody;
+
+  /// No description provided for @webInstallAction.
+  ///
+  /// In fr, this message translates to:
+  /// **'Installer'**
+  String get webInstallAction;
+
+  /// No description provided for @homeScreenTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ajoutez l’application à l’écran d’accueil'**
+  String get homeScreenTitle;
+
+  /// No description provided for @homeScreenBody.
+  ///
+  /// In fr, this message translates to:
+  /// **'Touchez Partager (le carré avec une flèche), puis « Sur l’écran d’accueil ». L’application s’ouvrira en plein écran et vos données seront mieux conservées.'**
+  String get homeScreenBody;
+
+  /// No description provided for @homeScreenDismiss.
+  ///
+  /// In fr, this message translates to:
+  /// **'Compris'**
+  String get homeScreenDismiss;
+
+  /// No description provided for @pathReviewTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Bilan du parcours'**
+  String get pathReviewTitle;
+
+  /// No description provided for @pathReviewSubtitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =1{1 question tirée} other{{count} questions tirées}} de toutes les leçons du parcours'**
+  String pathReviewSubtitle(int count);
+
+  /// No description provided for @pathReviewHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Idéal une fois les leçons terminées'**
+  String get pathReviewHint;
+
+  /// No description provided for @pathReviewAction.
+  ///
+  /// In fr, this message translates to:
+  /// **'Faire le bilan du parcours'**
+  String get pathReviewAction;
+
+  /// No description provided for @nextPath.
+  ///
+  /// In fr, this message translates to:
+  /// **'Parcours suivant'**
+  String get nextPath;
+
   /// No description provided for @next.
   ///
   /// In fr, this message translates to:
@@ -1249,72 +1375,6 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'{count, plural, =0{aucun terminé} =1{1 terminé} other{{count} terminés}}'**
   String booksFinished(int count);
-
-  /// No description provided for @updateAvailable.
-  ///
-  /// In fr, this message translates to:
-  /// **'Version {version} disponible'**
-  String updateAvailable(String version);
-
-  /// No description provided for @updateRequired.
-  ///
-  /// In fr, this message translates to:
-  /// **'Mise à jour obligatoire : version {version}'**
-  String updateRequired(String version);
-
-  /// No description provided for @updateRequiredHint.
-  ///
-  /// In fr, this message translates to:
-  /// **'Cette version n’est plus prise en charge : installez la nouvelle pour continuer.'**
-  String get updateRequiredHint;
-
-  /// No description provided for @updateDownload.
-  ///
-  /// In fr, this message translates to:
-  /// **'Télécharger'**
-  String get updateDownload;
-
-  /// No description provided for @updateLater.
-  ///
-  /// In fr, this message translates to:
-  /// **'Plus tard'**
-  String get updateLater;
-
-  /// No description provided for @webInstallTitle.
-  ///
-  /// In fr, this message translates to:
-  /// **'Installez l’application Android'**
-  String get webInstallTitle;
-
-  /// No description provided for @webInstallBody.
-  ///
-  /// In fr, this message translates to:
-  /// **'Plus fluide au quotidien, et vos données ne dépendent plus du navigateur.'**
-  String get webInstallBody;
-
-  /// No description provided for @webInstallAction.
-  ///
-  /// In fr, this message translates to:
-  /// **'Installer'**
-  String get webInstallAction;
-
-  /// No description provided for @homeScreenTitle.
-  ///
-  /// In fr, this message translates to:
-  /// **'Ajoutez l’application à l’écran d’accueil'**
-  String get homeScreenTitle;
-
-  /// No description provided for @homeScreenBody.
-  ///
-  /// In fr, this message translates to:
-  /// **'Touchez Partager (le carré avec une flèche), puis « Sur l’écran d’accueil ». L’application s’ouvrira en plein écran et vos données seront mieux conservées.'**
-  String get homeScreenBody;
-
-  /// No description provided for @homeScreenDismiss.
-  ///
-  /// In fr, this message translates to:
-  /// **'Compris'**
-  String get homeScreenDismiss;
 }
 
 class _AppLocalizationsDelegate

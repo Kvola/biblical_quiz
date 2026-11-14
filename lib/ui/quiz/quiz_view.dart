@@ -5,6 +5,7 @@ import '../../core/books.dart';
 import '../../core/theme.dart';
 import '../../domain/quiz_session.dart';
 import '../common.dart';
+import '../widgets/printed_note.dart';
 import '../widgets/verse_sheet.dart';
 
 /// Pose les questions une à une : choix, correction immédiate, explication
@@ -263,6 +264,7 @@ class _Explanation extends StatelessWidget {
                 onPressed: () => showVerseSheet(context, question.ref),
               ),
             ),
+            PrintedRefNote(question.ref, padding: const EdgeInsets.only(left: 8)),
           ],
         ),
       ),

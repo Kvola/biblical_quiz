@@ -2,6 +2,7 @@
  "id": "wisdom",
  "order": 6,
  "icon": "spa",
+ "group": "discover",
  "title": {
   "fr": "Prier et méditer : Psaumes et sagesse",
   "en": "Pray and reflect: Psalms and wisdom"

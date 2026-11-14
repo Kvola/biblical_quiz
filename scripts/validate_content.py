@@ -24,6 +24,28 @@ ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 MIN_VERSES, MAX_VERSES = 5, 50
 
 
+def known_icons():
+    """Noms d'icônes reconnus par pathIcon() (lib/core/theme.dart) : un nom absent
+    afficherait silencieusement l'icône par défaut."""
+    src = (ROOT / "lib" / "core" / "theme.dart").read_text(encoding="utf-8")
+    body = src.split("IconData pathIcon(", 1)[1].split("};", 1)[0]
+    return set(re.findall(r"'([a-z0-9_]+)'\s*=>", body))
+
+
+ICONS = known_icons()
+
+
+def known_groups():
+    try:
+        return {g.get("id") for g in json.loads((CONTENT / "groups.json").read_text(encoding="utf-8"))
+                if isinstance(g, dict)}
+    except (OSError, json.JSONDecodeError):
+        return set()
+
+
+GROUPS = known_groups()
+
+
 def load_bible(name):
     verses = json.loads((ROOT / "data" / name).read_text(encoding="utf-8"))["verses"]
     return {(v["book"], v["chapter"], v["verse"]) for v in verses}
@@ -186,6 +208,13 @@ class Checker:
             self.err(where, "« order » entier attendu")
         if not isinstance(data.get("icon"), str) or not re.match(r"^[a-z0-9_]+$", data.get("icon") or ""):
             self.err(where, "« icon » : nom d'icône Material attendu")
+        elif data["icon"] not in ICONS:
+            self.err(where, f"« icon » : « {data['icon']} » absent de pathIcon() (lib/core/theme.dart)")
+        if data.get("group") not in GROUPS:
+            self.err(where, f"« group » : « {data.get('group')} » absent de groups.json ({', '.join(sorted(GROUPS))})")
+        extra = set(data) - {"id", "order", "icon", "group", "title", "description", "lessons"}
+        if extra:
+            self.err(where, f"clés inattendues {sorted(extra)}")
         self.text(where, data.get("title"), "title", 3)
         self.text(where, data.get("description"), "description", 20)
         lessons = data.get("lessons")
@@ -272,20 +301,85 @@ class Checker:
                 self.err(w, f"clés inattendues {sorted(set(book) - allowed)}")
 
 
+    def groups_file(self, path):
+        where = path.name
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            self.err(where, f"JSON invalide : {e}")
+            return
+        if not isinstance(data, list) or not data:
+            self.err(where, "liste non vide attendue")
+            return
+        orders = []
+        for i, g in enumerate(data):
+            w = f"{where} › {g.get('id') if isinstance(g, dict) else i + 1}"
+            if not isinstance(g, dict):
+                self.err(w, "objet attendu")
+                continue
+            if not isinstance(g.get("id"), str) or not ID_RE.match(g["id"]):
+                self.err(w, "« id » attendu")
+            if not isinstance(g.get("order"), int):
+                self.err(w, "« order » entier attendu")
+            orders.append(g.get("order"))
+            self.text(w, g.get("title"), "title", 3)
+            self.text(w, g.get("description"), "description", 20)
+            if set(g) - {"id", "order", "title", "description"}:
+                self.err(w, f"clés inattendues {sorted(set(g) - {'id', 'order', 'title', 'description'})}")
+        if len(orders) != len(set(orders)):
+            self.err(where, "deux groupes ont le même « order »")
+        ids = [g.get("id") for g in data if isinstance(g, dict)]
+        if len(ids) != len(set(ids)):
+            self.err(where, "deux groupes ont le même id")
+
+    def printed_file(self, path):
+        """Table des numéros de la Segond imprimée (scripts/build_lsg_printed.py) : chaque
+        chapitre listé doit être couvert entièrement, sans trou ni recouvrement."""
+        where = path.relative_to(ROOT).as_posix()
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as e:
+            self.err(where, f"illisible : {e}")
+            return
+        counts = {}
+        for (b, c, _v) in self.bible:
+            counts[(b, c)] = counts.get((b, c), 0) + 1
+        for key, runs in data.items():
+            try:
+                b, c = map(int, key.split(":"))
+            except ValueError:
+                self.err(where, f"clé « {key} » : « livre:chapitre » attendu")
+                continue
+            expected = 1
+            for r in runs:
+                if (not isinstance(r, list) or len(r) != 6 or not all(isinstance(x, int) and x > 0 for x in r)
+                        or r[0] != expected or r[1] < r[0] or (r[1] > r[0] and r[2:4] != [r[4], r[5] - (r[1] - r[0])])
+                        or (r[2], r[3]) > (r[4], r[5])):
+                    self.err(where, f"{key} : plage invalide {r}")
+                    break
+                expected = r[1] + 1
+            else:
+                if expected - 1 != counts.get((b, c)):
+                    self.err(where, f"{key} : {expected - 1} versets couverts, {counts.get((b, c))} attendus")
+
+
 def main(argv):
     c = Checker()
     targets = [CONTENT / a for a in argv] if argv else (
-        sorted((CONTENT / "paths").glob("*.json")) + [CONTENT / "books.json"])
+        sorted((CONTENT / "paths").glob("*.json")) + [CONTENT / "books.json", CONTENT / "groups.json"])
     n_questions = 0
     for t in targets:
         if not t.exists():
             c.err(t.name, "fichier introuvable")
         elif t.name.startswith("books"):
             c.books_file(t)
+        elif t.name == "groups.json":
+            c.groups_file(t)
         else:
             c.path_file(t)
     n_questions = sum(1 for i in c.ids if re.search(r"-\d+$", i))
     if not argv:
+        c.printed_file(ROOT / "assets" / "bible" / "lsg_printed.json")
         orders = []
         for p in sorted((CONTENT / "paths").glob("*.json")):
             try:

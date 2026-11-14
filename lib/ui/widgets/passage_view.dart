@@ -7,6 +7,7 @@ import '../../core/theme.dart';
 import '../../core/verse_ref.dart';
 import '../../providers.dart';
 import '../common.dart';
+import 'printed_note.dart';
 
 /// Versets d'une liste de références, dans la traduction de la langue de
 /// l'interface, avec en option l'autre traduction sous chaque verset.
@@ -44,7 +45,10 @@ class PassageSliver extends ConsumerWidget {
     final o = other?.value;
     final children = <Widget>[];
     for (final r in refs) {
-      if (showHeadings) children.add(_Heading(text: refLabel(r, context.lang)));
+      if (showHeadings) {
+        children.add(_Heading(text: refLabel(r, context.lang)));
+        children.add(PrintedRefNote(r, padding: const EdgeInsets.fromLTRB(16, 0, 20, 6)));
+      }
       int? lastChapter;
       for (final v in b.passage(r)) {
         if (r.startChapter != r.endChapter && v.chapter != lastChapter) {

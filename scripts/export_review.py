@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Produit le cahier de relecture du contenu : un fichier HTML autonome.
 
-    python3 scripts/export_review.py            # -> build/relecture.html
+    python3 scripts/export_review.py            # -> build/relecture.html (tout)
+    python3 scripts/export_review.py sin law    # -> build/relecture-sin-law.html
+                                                #    (ces parcours seulement, sans les fiches)
 
 Pour chaque leçon : passages, intro, « à retenir », puis chaque question avec
 la bonne réponse marquée, l'explication, et le texte du verset de référence
@@ -35,6 +37,12 @@ FLAGS = [
     ("Numérotation des versets", "Les deux Bibles embarquées suivent la numérotation de la KJV, y compris pour la Segond (ex. Jonas 1:17, Joël 2:28, Malachie 4:5, suscriptions des Psaumes en verset 1). Un lecteur qui ouvre une Segond papier peut voir un décalage d'un verset à ces endroits."),
     ("Attributions et dates", "Auteurs et dates des fiches de livres sont formulés prudemment (« traditionnellement attribué à », « vers… », « date discutée »). Pastorales et 2 Pierre : attribution selon 1:1, sans mention des débats savants."),
     ("Orthographe des majuscules", "Les citations gardent l'orthographe de la Segond 1910 (Eternel, Esaïe, Eglise sans accent sur la majuscule) ; le texte rédigé emploie parfois les majuscules accentuées (Église, Écriture). À harmoniser si vous le souhaitez."),
+    # Parcours thématiques 1.6.0 (péché, loi, repentance, justice, vie par la foi).
+    ("Parcours 1.6.0 — sujets sensibles entre confessions", "Justification (justice-gift, justice-abraham, justice-peace, justice-paul, faith-life-gospel), foi et œuvres (faith-life-works : aucune question sur Jacques 2:24, pour ne pas opposer ni harmoniser Paul et Jacques), loi et grâce (sin-wages-2/3, law-tutor), confession des péchés (sin-confess-5 : l'explication ne dit pas à qui l'on confesse), « tous » arrivent à la repentance (repentance-patience-3), « pour ceux du monde entier » (sin-confess-6), baptême de repentance (repentance-fruit-1 et -3). Les questions s'en tiennent au texte : valider les explications et les mauvaises réponses.", ["sin", "law", "repentance", "justice", "new-birth", "faith-life"]),
+    ("Parcours 1.6.0 — écarts entre traductions", "Chaque langue suit sa traduction : Mt 6:1 « votre justice » / “your alms” (justice-seek-1) ; Mt 5:22 « without a cause » absent de la Segond (law-fulfil-4) ; Ga 2:16, Rm 3:22, Ph 3:9 « foi en Christ » / “faith of Christ” (faith-life-gospel-3, justice-gift-2, justice-paul-4) ; Es 11:4 « équité » / “righteousness” (justice-king-3) ; Ex 23:7 « absoudre » / “justify” (justice-courts-3) ; Rm 4:24 « à nous qui croyons » / “if we believe” (justice-abraham-6) ; 2 S 12:6 « quatre brebis » / “the lamb fourfold” (sin-nathan-2) ; Ps 37:11 « les misérables » / “the meek” (faith-life-trust-6). Psaume 19 : « verset 7 » ici = verset 8 dans une Segond imprimée qui numérote le titre à part (law-perfect).", ["sin", "law", "repentance", "justice", "new-birth", "faith-life"]),
+    ("Parcours 1.6.0 — notes de vocabulaire et de contexte", "Ajouts hors du texte lu, à valider : hébreu « foi/fidélité » (faith-life-habakkuk-4, faith-life-spirit-4), « se convertir » = revenir (repentance-turn-6), « crimes » = fautes en général (sin-separation-2), « salaire » = solde (sin-wages-6), « servants » = esclaves (sin-wages-4), libation (faith-life-finish-3), drachme (repentance-joy-4), « lettre sévère » avant 2 Corinthiens (repentance-sorrow, intro), Esaïe 55 attribué au prophète (repentance-come, intro), 430 ans et Exode 12:40 (law-tutor-4), Shema récité chaque jour (law-greatest-1), « la loi ou les prophètes » = les Écritures d'Israël (law-fulfil, intro), centenier non israélite (faith-life-centurion, intro), nuée de témoins = personnages d'Hébreux 11 (faith-life-cloud-6).", ["sin", "law", "repentance", "justice", "new-birth", "faith-life"]),
+    ("Parcours 1.6.0 — la nouvelle naissance", "Aucune question sur « l'eau » de Jean 3:5 ni sur le « baptême de la régénération » de Tite 3:5 (le verset clé de new-birth-mercy est pourtant Tite 3:5 : le garder ou prendre 3:4 ?), ni sur le moment de la nouvelle naissance, ni sur 1 Jean 3:9. À valider : new-birth-mercy-3 et -6 (œuvres de justice / bonnes œuvres, citations littérales), new-birth-nicodemus-5 (pneuma = vent et esprit), new-birth-spirit-4 (Abba, mot araméen), new-birth-spirit-5 (FR « rend témoignage à notre esprit » / EN “beareth witness with our spirit”), new-birth-word-5 (FR « lait spirituel et pur » / EN “sincere milk of the word”), new-birth-heart (intro : plaines de Moab, d'après Dt 29).", ["new-birth"]),
+    ("Parcours 1.6.0 — choix de goût", "Mauvaises réponses proches d'une autre page de la Bible ou d'une pratique : law-doers-3 (bâtir sur le sable, Mt 7), law-doers-5/6 (jeûner, prier en public, dîme), justice-abraham-1 (« Abraham obéit… et fut béni »), justice-judge-3, faith-life-spirit-1 (fêtes de la loi), faith-life-cloud-2, faith-life-gospel-5. Formules un peu interprétatives : sin-nathan-6 (le pardon n'efface pas toutes les conséquences), sin-cain-6, faith-life-works-1, repentance-joy-2, repentance-peter-3.", ["sin", "law", "repentance", "justice", "new-birth", "faith-life"]),
 ]
 
 
@@ -46,8 +54,30 @@ def load_bible(name):
 LSG, KJV = load_bible("segond_1910.json"), load_bible("kjv_1769.json")
 
 
+PRINTED = json.loads((ROOT / "assets" / "bible" / "lsg_printed.json").read_text(encoding="utf-8"))
+
+
+def printed(book, c, v, end=False):
+    """Numéro (chapitre, verset) dans une Segond imprimée (voir scripts/build_lsg_printed.py)."""
+    for r in PRINTED.get(f"{book}:{c}", []):
+        if r[0] <= v <= r[1]:
+            if r[1] > r[0]:
+                return r[2], r[3] + v - r[0]
+            return (r[4], r[5]) if end else (r[2], r[3])
+    return c, v
+
+
 def label(code, lang):
     book, (c1, v1), (c2, v2) = parse_ref(code)
+    base = plain_label(book, c1, v1, c2, v2, lang)
+    if lang == "fr":
+        p1, p2 = printed(book, c1, v1), printed(book, c2, v2, end=True)
+        if (p1, p2) != ((c1, v1), (c2, v2)):
+            return f"{base} [Segond imprimée : {plain_label(book, *p1, *p2, lang)}]"
+    return base
+
+
+def plain_label(book, c1, v1, c2, v2, lang):
     name = NAMES[book][0 if lang == "fr" else 1]
     if (c1, v1) == (c2, v2):
         return f"{name} {c1}:{v1}"
@@ -94,10 +124,19 @@ def question_html(q):
 </div>"""
 
 
-def main():
+def main(only):
     paths = sorted((json.loads(p.read_text(encoding="utf-8")) for p in (CONTENT / "paths").glob("*.json")),
                    key=lambda p: p["order"])
     books = json.loads((CONTENT / "books.json").read_text(encoding="utf-8"))
+    out = OUT
+    if only:
+        unknown = set(only) - {p["id"] for p in paths}
+        if unknown:
+            sys.exit(f"parcours inconnu(s) : {', '.join(sorted(unknown))}")
+        paths = [p for p in paths if p["id"] in only]
+        books = []
+        out = OUT.with_name(f"relecture-{'-'.join(only)}.html")
+    flag_list = [(t, d) for t, d, *ids in FLAGS if not only or not ids or set(ids[0]) & set(only)]
     total = sum(len(l["questions"]) for p in paths for l in p["lessons"]) + sum(len(b["questions"]) for b in books)
 
     toc, body = [], []
@@ -117,8 +156,9 @@ def main():
   </div>
   {"".join(question_html(q) for q in l["questions"])}
 </section>""")
-    toc.append('<li><a href="#books">Les 66 livres</a></li>')
-    body.append('<h2 id="books">Les 66 livres <small>/ The 66 books</small></h2>')
+    if books:
+        toc.append('<li><a href="#books">Les 66 livres</a></li>')
+        body.append('<h2 id="books">Les 66 livres <small>/ The 66 books</small></h2>')
     for b in books:
         fr, en = b["fr"], b["en"]
         body.append(f"""
@@ -134,7 +174,7 @@ def main():
   {"".join(question_html(q) for q in b["questions"])}
 </section>""")
 
-    flags = "".join(f"<li><b>{e(t)}.</b> {e(d)}</li>" for t, d in FLAGS)
+    flags = "".join(f"<li><b>{e(t)}.</b> {e(d)}</li>" for t, d in flag_list)
     page = f"""<!doctype html>
 <html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Relecture — Quiz Biblique</title>
@@ -164,7 +204,7 @@ textarea {{ width:100%; box-sizing:border-box; margin-top:8px; min-height:38px; 
 code {{ font-size:13px; color:#6b6355; }}
 </style></head><body>
 <header><h1>Relecture du Quiz Biblique</h1>
-<p>{len(paths)} parcours, 66 fiches de livres, {total} questions · <span id="progress"></span></p>
+<p>{len(paths)} parcours, {len(books)} fiches de livres, {total} questions · <span id="progress"></span></p>
 <button id="copy">Copier mes remarques</button></header>
 <main>
 <h2>Points signalés par les rédacteurs</h2><ul class="flags">{flags}</ul>
@@ -197,10 +237,10 @@ document.getElementById('copy').addEventListener('click', async () => {{
 refresh();
 </script></body></html>
 """
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(page, encoding="utf-8")
-    print(f"{OUT.relative_to(ROOT)} : {total} questions")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(page, encoding="utf-8")
+    print(f"{out.relative_to(ROOT)} : {total} questions")
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

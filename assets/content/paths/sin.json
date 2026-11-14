@@ -1,0 +1,1416 @@
+{
+ "id": "sin",
+ "order": 7,
+ "icon": "heart_broken",
+ "group": "faith-way",
+ "title": {
+  "fr": "Le péché",
+  "en": "Sin"
+ },
+ "description": {
+  "fr": "Ce que la Bible dit du péché, de Caïn à la première lettre de Jean : d'où il vient, ce qu'il produit et comment Dieu y répond.",
+  "en": "What the Bible says about sin, from Cain to the first letter of John: where it comes from, what it leads to, and how God responds to it."
+ },
+ "lessons": [
+  {
+   "id": "sin-cain",
+   "title": {
+    "fr": "Le péché à la porte",
+    "en": "Sin at the door"
+   },
+   "passages": [
+    "1:4:1-16"
+   ],
+   "intro": {
+    "fr": "Après le récit du jardin d'Eden (Genèse 3), la Genèse raconte l'histoire des deux premiers fils d'Adam et Eve. C'est dans ce chapitre que le mot « péché » apparaît pour la première fois dans la Bible.",
+    "en": "After the account of the garden of Eden (Genesis 3), Genesis tells the story of the first two sons of Adam and Eve. This chapter is where the word “sin” first appears in the Bible."
+   },
+   "keyVerse": "1:4:7",
+   "takeaway": {
+    "fr": "Avant le meurtre, l'Eternel avertit Caïn que, s'il agit mal, « le péché se couche à la porte ». Après, il le confronte à son acte et le punit, tout en mettant sur lui un signe pour le protéger.",
+    "en": "Before the murder, the Lord warns Cain that if he does not do well, “sin lieth at the door.” Afterwards he confronts him with his deed and punishes him, yet sets a mark on him to protect him."
+   },
+   "questions": [
+    {
+     "id": "sin-cain-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi Caïn fut-il très irrité ?",
+      "en": "Why was Cain very angry?"
+     },
+     "choices": {
+      "fr": [
+       "Abel avait pris une part de sa terre",
+       "L'Eternel n'avait pas porté un regard favorable sur son offrande",
+       "Son père lui avait préféré Abel",
+       "Abel s'était moqué de son travail"
+      ],
+      "en": [
+       "Abel had taken part of his land",
+       "The Lord had not respected his offering",
+       "His father had preferred Abel to him",
+       "Abel had mocked his work"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le texte dit que l'Eternel regarda favorablement Abel et son offrande, « mais il ne porta pas un regard favorable sur Caïn et sur son offrande. Caïn fut très irrité, et son visage fut abattu. »",
+      "en": "The text says the Lord had respect unto Abel and his offering, “But unto Cain and to his offering he had not respect. And Cain was very wroth, and his countenance fell.”"
+     },
+     "ref": "1:4:5"
+    },
+    {
+     "id": "sin-cain-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon l'avertissement de l'Eternel, où se tient le péché si Caïn agit mal ?",
+      "en": "According to the Lord's warning, where does sin lie if Cain does not do well?"
+     },
+     "choices": {
+      "fr": [
+       "À la porte",
+       "Dans les champs",
+       "Sous sa tente",
+       "Au pied de l'autel"
+      ],
+      "en": [
+       "At the door",
+       "In the field",
+       "In his tent",
+       "At the foot of the altar"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Si tu agis mal, le péché se couche à la porte, et ses désirs se portent vers toi: mais toi, domine sur lui. » Le péché est décrit comme quelque chose qui guette, tout proche, et Caïn est encore averti avant d'agir.",
+      "en": "“If thou doest not well, sin lieth at the door.” Sin is pictured as something lying in wait close by, and Cain is still being warned before he acts."
+     },
+     "ref": "1:4:7"
+    },
+    {
+     "id": "sin-cain-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Quand l'Eternel lui demande où est Abel, Caïn reconnaît aussitôt ce qu'il a fait.",
+      "en": "When the Lord asks him where Abel is, Cain immediately admits what he has done."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Caïn nie : « Je ne sais pas; suis-je le gardien de mon frère? » Il répond à la question de Dieu par une autre question.",
+      "en": "Cain denies it: “I know not: Am I my brother’s keeper?” He answers God's question with another question."
+     },
+     "ref": "1:4:9"
+    },
+    {
+     "id": "sin-cain-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon l'Eternel, qu'est-ce qui crie de la terre jusqu'à lui ?",
+      "en": "According to the Lord, what cries to him from the ground?"
+     },
+     "choices": {
+      "fr": [
+       "Les pleurs d'Eve",
+       "La terre elle-même",
+       "Les brebis d'Abel",
+       "La voix du sang d'Abel"
+      ],
+      "en": [
+       "Eve's weeping",
+       "The ground itself",
+       "Abel's sheep",
+       "The voice of Abel's blood"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Qu'as-tu fait? La voix du sang de ton frère crie de la terre jusqu'à moi. » Le meurtre commis dans les champs, loin des regards, n'est pas caché à Dieu.",
+      "en": "“What hast thou done? the voice of thy brother’s blood crieth unto me from the ground.” The murder committed out in the field, away from any witness, is not hidden from God."
+     },
+     "ref": "1:4:10"
+    },
+    {
+     "id": "sin-cain-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel châtiment l'Eternel annonce-t-il à Caïn ?",
+      "en": "What punishment does the Lord announce to Cain?"
+     },
+     "choices": {
+      "fr": [
+       "Il sera mis à mort sur-le-champ",
+       "Il servira son frère Seth",
+       "Il sera errant et vagabond sur la terre",
+       "Il ne pourra plus offrir de sacrifice"
+      ],
+      "en": [
+       "He will be put to death at once",
+       "He will serve his brother Seth",
+       "He will be a fugitive and a vagabond",
+       "He will never again bring an offering"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Quand tu cultiveras le sol, il ne te donnera plus sa richesse. Tu seras errant et vagabond sur la terre. » Caïn, qui était laboureur (v. 2), est atteint dans son travail même.",
+      "en": "“When thou tillest the ground, it shall not henceforth yield unto thee her strength; a fugitive and a vagabond shalt thou be in the earth.” Cain, a tiller of the ground (v. 2), is struck in his very work."
+     },
+     "ref": "1:4:12"
+    },
+    {
+     "id": "sin-cain-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Quand Caïn craint d'être tué, que fait l'Eternel ?",
+      "en": "When Cain fears he will be killed, what does the Lord do?"
+     },
+     "choices": {
+      "fr": [
+       "Il lui permet de rester en Eden",
+       "Il met un signe sur Caïn",
+       "Il lui donne une arme",
+       "Il lui confie un troupeau"
+      ],
+      "en": [
+       "He lets him stay in Eden",
+       "He sets a mark upon Cain",
+       "He gives him a weapon",
+       "He entrusts him with a flock"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« L'Eternel mit un signe sur Caïn pour que quiconque le trouverait ne le tuât point. » Même puni et éloigné, Caïn reste protégé par Dieu.",
+      "en": "“The Lord set a mark upon Cain, lest any finding him should kill him.” Though punished and sent away, Cain remains under God's protection."
+     },
+     "ref": "1:4:15"
+    }
+   ]
+  },
+  {
+   "id": "sin-nathan",
+   "title": {
+    "fr": "Tu es cet homme-là !",
+    "en": "You are the man"
+   },
+   "passages": [
+    "10:12:1-14"
+   ],
+   "intro": {
+    "fr": "Au chapitre précédent, le roi David a pris Bath-Schéba, la femme d'Urie, et fait mourir celui-ci au combat (2 Samuel 11). L'Eternel envoie alors le prophète Nathan vers le roi.",
+    "en": "In the previous chapter, King David took Bath-sheba, the wife of Uriah, and had Uriah killed in battle (2 Samuel 11). The Lord then sends the prophet Nathan to the king."
+   },
+   "keyVerse": "10:12:13",
+   "takeaway": {
+    "fr": "Par une parabole, Nathan amène David à condamner lui-même ce qu'il a fait. David reconnaît : « J'ai péché contre l'Eternel! » ; Nathan lui annonce que l'Eternel pardonne son péché, mais que sa faute aura des conséquences.",
+    "en": "Through a parable, Nathan leads David to condemn his own deed. David admits, “I have sinned against the Lord”; Nathan tells him that the Lord has put away his sin, but that his wrong will have consequences."
+   },
+   "questions": [
+    {
+     "id": "sin-nathan-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Dans la parabole, que prend l'homme riche au pauvre ?",
+      "en": "In the parable, what does the rich man take from the poor man?"
+     },
+     "choices": {
+      "fr": [
+       "Son unique bœuf",
+       "Son champ",
+       "Sa petite brebis",
+       "Sa maison"
+      ],
+      "en": [
+       "His only ox",
+       "His field",
+       "His little ewe lamb",
+       "His house"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Le riche avait « des brebis et des boeufs en très grand nombre », mais pour recevoir un voyageur « il a pris la brebis du pauvre ». Le pauvre n'avait qu'elle et la regardait « comme sa fille » (v. 3).",
+      "en": "The rich man had “exceeding many flocks and herds,” yet to feed a traveller he “took the poor man’s lamb.” It was all the poor man had, and it was “unto him as a daughter” (v. 3)."
+     },
+     "ref": "10:12:4"
+    },
+    {
+     "id": "sin-nathan-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon David, que devra rendre l'homme de l'histoire ?",
+      "en": "According to David, what must the man in the story restore?"
+     },
+     "choices": {
+      "fr": [
+       "Une seule brebis",
+       "Deux brebis",
+       "Sept brebis",
+       "Quatre brebis"
+      ],
+      "en": [
+       "Just the one lamb",
+       "The lamb twofold",
+       "The lamb sevenfold",
+       "The lamb fourfold"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Il rendra quatre brebis, pour avoir commis cette action et pour avoir été sans pitié. » David applique la loi de Moïse, qui prévoit de restituer quatre agneaux pour un agneau volé (Exode 22:1).",
+      "en": "“He shall restore the lamb fourfold, because he did this thing, and because he had no pity.” David is applying the law of Moses, which required four sheep for a stolen sheep (Exodus 22:1)."
+     },
+     "ref": "10:12:6"
+    },
+    {
+     "id": "sin-nathan-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Que dit Nathan à David après l'avoir entendu juger le riche ?",
+      "en": "What does Nathan say to David after hearing him judge the rich man?"
+     },
+     "choices": {
+      "fr": [
+       "Tu es cet homme-là",
+       "Le roi a jugé avec sagesse",
+       "Cet homme a déjà été puni",
+       "Pardonne-lui, ô roi"
+      ],
+      "en": [
+       "You are the man",
+       "The king has judged wisely",
+       "That man has already been punished",
+       "Forgive him, O king"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Tu es cet homme-là! » La parabole a conduit David à prononcer lui-même la sentence contre sa propre conduite, avant que Nathan rappelle Urie et sa femme (v. 9).",
+      "en": "“Thou art the man.” The parable has led David to pass sentence on his own conduct before Nathan names Uriah and his wife (v. 9)."
+     },
+     "ref": "10:12:7"
+    },
+    {
+     "id": "sin-nathan-4",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Nathan, en prenant la femme d'Urie, David a méprisé l'Eternel lui-même.",
+      "en": "According to Nathan, by taking Uriah's wife David despised the Lord himself."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "L'Eternel dit par Nathan : « parce que tu m'as méprisé, et parce que tu as pris la femme d'Urie, le Héthien ». La faute envers Urie est aussi une faute envers Dieu.",
+      "en": "The Lord says through Nathan: “because thou hast despised me, and hast taken the wife of Uriah the Hittite to be thy wife.” The wrong done to Uriah is also a wrong against God."
+     },
+     "ref": "10:12:10"
+    },
+    {
+     "id": "sin-nathan-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment David réagit-il aux paroles de Nathan ?",
+      "en": "How does David respond to Nathan's words?"
+     },
+     "choices": {
+      "fr": [
+       "Il fait chasser Nathan",
+       "Il reconnaît avoir péché contre l'Eternel",
+       "Il rejette la faute sur Bath-Schéba",
+       "Il offre aussitôt un sacrifice"
+      ],
+      "en": [
+       "He has Nathan driven out",
+       "He admits he has sinned against the Lord",
+       "He blames Bath-sheba",
+       "He offers a sacrifice at once"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« David dit à Nathan: J'ai péché contre l'Eternel! » Le Psaume 51, prière de confession, est rattaché par son titre à ce moment.",
+      "en": "“And David said unto Nathan, I have sinned against the Lord.” Psalm 51, a prayer of confession, is linked to this moment by its heading."
+     },
+     "ref": "10:12:13"
+    },
+    {
+     "id": "sin-nathan-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que répond Nathan à l'aveu de David ?",
+      "en": "How does Nathan answer David's confession?"
+     },
+     "choices": {
+      "fr": [
+       "Que son royaume lui sera retiré",
+       "Qu'il doit quitter Jérusalem",
+       "Que l'Eternel pardonne son péché",
+       "Qu'il doit offrir mille holocaustes"
+      ],
+      "en": [
+       "That his kingdom will be taken away",
+       "That he must leave Jerusalem",
+       "That the Lord has put away his sin",
+       "That he must offer a thousand burnt offerings"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« L'Eternel pardonne ton péché, tu ne mourras point. » Le verset suivant annonce pourtant que l'enfant né de Bath-Schéba mourra : le pardon n'efface pas toutes les conséquences de la faute.",
+      "en": "“The Lord also hath put away thy sin; thou shalt not die.” Yet the next verse announces that the child born to Bath-sheba will die: forgiveness does not remove every consequence of the wrong."
+     },
+     "ref": "10:12:13"
+    }
+   ]
+  },
+  {
+   "id": "sin-separation",
+   "title": {
+    "fr": "Ce qui sépare de Dieu",
+    "en": "What separates from God"
+   },
+   "passages": [
+    "23:59:1-15"
+   ],
+   "intro": {
+    "fr": "Esaïe 59 répond à une question : pourquoi le salut attendu ne vient-il pas ? Le prophète en donne la raison, puis, à partir du verset 9, le peuple lui-même prend la parole pour reconnaître ses fautes.",
+    "en": "Isaiah 59 answers a question: why does the salvation the people wait for not come? The prophet gives the reason, then, from verse 9, the people themselves speak and acknowledge their wrongs."
+   },
+   "keyVerse": "23:59:2",
+   "takeaway": {
+    "fr": "Selon Esaïe, ce n'est pas la main de l'Eternel qui est trop courte pour sauver : ce sont les péchés du peuple qui mettent une séparation entre lui et son Dieu. Le peuple finit par reconnaître que ses péchés témoignent contre lui.",
+    "en": "According to Isaiah, it is not that the Lord's hand is too short to save: it is the people's sins that have separated them from their God. The people end by admitting that their sins testify against them."
+   },
+   "questions": [
+    {
+     "id": "sin-separation-1",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Esaïe, si le salut tarde, c'est que la main de l'Eternel est trop courte pour sauver.",
+      "en": "According to Isaiah, if salvation is slow to come, it is because the Lord's hand is too short to save."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Le chapitre commence justement par écarter cette idée : « Non, la main de l'Eternel n'est pas trop courte pour sauver, Ni son oreille trop dure pour entendre. »",
+      "en": "The chapter opens by ruling out that very idea: “Behold, the Lord’s hand is not shortened, that it cannot save; neither his ear heavy, that it cannot hear.”"
+     },
+     "ref": "23:59:1"
+    },
+    {
+     "id": "sin-separation-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 2, qu'est-ce qui met une séparation entre le peuple et son Dieu ?",
+      "en": "According to verse 2, what has separated the people from their God?"
+     },
+     "choices": {
+      "fr": [
+       "Leurs ennemis",
+       "Leurs crimes",
+       "La distance de l'exil",
+       "Le silence des prophètes"
+      ],
+      "en": [
+       "Their enemies",
+       "Their iniquities",
+       "The distance of exile",
+       "The silence of the prophets"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Ce sont vos crimes qui mettent une séparation Entre vous et votre Dieu; Ce sont vos péchés qui vous cachent sa face. » Le mot traduit par « crimes » désigne ici les fautes en général.",
+      "en": "“Your iniquities have separated between you and your God, and your sins have hid his face from you, that he will not hear.” The obstacle is on the people's side, not God's."
+     },
+     "ref": "23:59:2"
+    },
+    {
+     "id": "sin-separation-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 3, de quoi les mains du peuple sont-elles souillées ?",
+      "en": "According to verse 3, what are the people's hands defiled with?"
+     },
+     "choices": {
+      "fr": [
+       "De cendre",
+       "De boue",
+       "D'huile",
+       "De sang"
+      ],
+      "en": [
+       "Ashes",
+       "Mud",
+       "Oil",
+       "Blood"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Car vos mains sont souillées de sang, Et vos doigts de crimes; Vos lèvres profèrent le mensonge. » Le prophète passe en revue les mains, les doigts, les lèvres et la langue.",
+      "en": "“For your hands are defiled with blood, and your fingers with iniquity; your lips have spoken lies.” The prophet goes through hands, fingers, lips and tongue in turn."
+     },
+     "ref": "23:59:3"
+    },
+    {
+     "id": "sin-separation-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quelle image Esaïe emploie-t-il pour dire que leurs œuvres ne servent à rien ?",
+      "en": "What image does Isaiah use to show that their works are useless?"
+     },
+     "choices": {
+      "fr": [
+       "Des toiles d'araignée qui ne font pas un vêtement",
+       "Une maison bâtie sur le sable",
+       "Un figuier qui ne porte pas de fruit",
+       "Une citerne qui ne retient pas l'eau"
+      ],
+      "en": [
+       "Spider's webs that cannot become garments",
+       "A house built upon the sand",
+       "A fig tree that bears no fruit",
+       "A cistern that can hold no water"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "Ils « tissent des toiles d'araignée » ; or « Leurs toiles ne servent point à faire un vêtement, Et ils ne peuvent se couvrir de leur ouvrage » (v. 6).",
+      "en": "They “weave the spider’s web,” yet “Their webs shall not become garments, neither shall they cover themselves with their works” (v. 6)."
+     },
+     "ref": "23:59:6"
+    },
+    {
+     "id": "sin-separation-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, que ne connaissent-ils pas ?",
+      "en": "According to verse 8, what do they not know?"
+     },
+     "choices": {
+      "fr": [
+       "Le nom de l'Eternel",
+       "La loi de Moïse",
+       "Le chemin de la paix",
+       "La route du retour"
+      ],
+      "en": [
+       "The name of the Lord",
+       "The law of Moses",
+       "The way of peace",
+       "The road back home"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Ils ne connaissent pas le chemin de la paix, Et il n'y a point de justice dans leurs voies. » Paul reprend les versets 7 et 8 dans sa lettre aux Romains (3:15-17).",
+      "en": "“The way of peace they know not; and there is no judgment in their goings.” Paul takes up verses 7 and 8 in his letter to the Romans (3:15–17)."
+     },
+     "ref": "23:59:8"
+    },
+    {
+     "id": "sin-separation-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Que reconnaît le peuple aux versets 12 et 13 ?",
+      "en": "What do the people acknowledge in verses 12 and 13?"
+     },
+     "choices": {
+      "fr": [
+       "Que leurs ennemis sont seuls coupables",
+       "Que leurs péchés témoignent contre eux",
+       "Que Dieu les a oubliés sans raison",
+       "Qu'ils sont restés fidèles à l'Eternel"
+      ],
+      "en": [
+       "That their enemies alone are to blame",
+       "That their sins testify against them",
+       "That God has forgotten them for no reason",
+       "That they have stayed faithful to the Lord"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Le peuple dit : « nos péchés témoignent contre nous », et ajoute : « Nous avons abandonné notre Dieu » (v. 13). Le prophète met cet aveu dans la bouche du peuple entier, en disant « nous ».",
+      "en": "The people say: “our sins testify against us,” and add that they have been “departing away from our God” (v. 13). The prophet puts this confession in the mouth of the whole people, speaking as “we.”"
+     },
+     "ref": "23:59:12"
+    }
+   ]
+  },
+  {
+   "id": "sin-heart",
+   "title": {
+    "fr": "Ce qui sort du cœur",
+    "en": "What comes out of the heart"
+   },
+   "passages": [
+    "41:7:14-23"
+   ],
+   "intro": {
+    "fr": "Des pharisiens et des scribes ont reproché aux disciples de Jésus de prendre leurs repas sans s'être lavé les mains selon la tradition des anciens (Marc 7:1-5). Jésus appelle alors la foule pour lui parler de ce qui rend l'homme impur.",
+    "en": "Pharisees and scribes have criticised Jesus' disciples for eating without washing their hands according to the tradition of the elders (Mark 7:1–5). Jesus then calls the crowd to speak about what makes a person unclean."
+   },
+   "keyVerse": "41:7:15",
+   "takeaway": {
+    "fr": "Jésus affirme que rien de ce qui entre dans l'homme ne peut le souiller : c'est ce qui sort de son cœur, comme les mauvaises pensées, le vol, le meurtre ou l'orgueil, qui le souille.",
+    "en": "Jesus declares that nothing that enters a person from outside can defile him: it is what comes out of the heart, such as evil thoughts, theft, murder or pride, that defiles him."
+   },
+   "questions": [
+    {
+     "id": "sin-heart-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon Jésus au verset 15, qu'est-ce qui souille l'homme ?",
+      "en": "According to Jesus in verse 15, what defiles a person?"
+     },
+     "choices": {
+      "fr": [
+       "Ce qu'il mange sans se laver les mains",
+       "Ce qui sort de lui",
+       "Le contact avec les étrangers",
+       "Ce qu'il achète au marché"
+      ],
+      "en": [
+       "Eating without washing his hands",
+       "What comes out of him",
+       "Contact with foreigners",
+       "What he buys at the market"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Il n'est hors de l'homme rien qui, entrant en lui, puisse le souiller; mais ce qui sort de l'homme, c'est ce qui le souille. » Jésus déplace la question de l'extérieur vers l'intérieur.",
+      "en": "“There is nothing from without a man, that entering into him can defile him: but the things which come out of him, those are they that defile the man.” Jesus moves the question from the outside to the inside."
+     },
+     "ref": "41:7:15"
+    },
+    {
+     "id": "sin-heart-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Qui interroge Jésus sur cette parabole, une fois dans la maison ?",
+      "en": "Who asks Jesus about this parable once he is in the house?"
+     },
+     "choices": {
+      "fr": [
+       "Les pharisiens",
+       "Des scribes venus de Jérusalem",
+       "Ses disciples",
+       "Le maître de la maison"
+      ],
+      "en": [
+       "The Pharisees",
+       "Scribes from Jerusalem",
+       "His disciples",
+       "The master of the house"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Lorsqu'il fut entré dans la maison, loin de la foule, ses disciples l'interrogèrent sur cette parabole. » Jésus s'étonne : « Vous aussi, êtes-vous donc sans intelligence? »",
+      "en": "“When he was entered into the house from the people, his disciples asked him concerning the parable.” Jesus replies: “Are ye so without understanding also?”"
+     },
+     "ref": "41:7:17"
+    },
+    {
+     "id": "sin-heart-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Pourquoi, selon Jésus, ce qui entre du dehors ne peut-il pas souiller l'homme ?",
+      "en": "According to Jesus, why can what enters from outside not defile a person?"
+     },
+     "choices": {
+      "fr": [
+       "Cela est permis par la loi de Moïse",
+       "Cela a été offert à Dieu avant d'être mangé",
+       "Cela a été lavé avec soin avant le repas",
+       "Cela n'entre pas dans son cœur, mais dans son ventre"
+      ],
+      "en": [
+       "It is allowed by the law of Moses",
+       "It has been offered to God before being eaten",
+       "It has been carefully washed before the meal",
+       "It enters not his heart but his belly"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Car cela n'entre pas dans son coeur, mais dans son ventre. » Ce qui compte, pour Jésus, c'est le cœur, le centre de la personne.",
+      "en": "“Because it entereth not into his heart, but into the belly.” What matters for Jesus is the heart, the centre of the person."
+     },
+     "ref": "41:7:19"
+    },
+    {
+     "id": "sin-heart-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 21, d'où sortent les mauvaises pensées ?",
+      "en": "According to verse 21, where do evil thoughts come from?"
+     },
+     "choices": {
+      "fr": [
+       "Du cœur des hommes",
+       "Des mauvaises fréquentations",
+       "De ce que l'on mange",
+       "Des traditions humaines"
+      ],
+      "en": [
+       "Out of the heart of men",
+       "From bad company",
+       "From what one eats",
+       "From human traditions"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Car c'est du dedans, c'est du coeur des hommes, que sortent les mauvaises pensées, les adultères, les impudicités, les meurtres. » La liste commence par les pensées avant d'en venir aux actes.",
+      "en": "“For from within, out of the heart of men, proceed evil thoughts, adulteries, fornications, murders.” The list begins with thoughts before moving on to deeds."
+     },
+     "ref": "41:7:21"
+    },
+    {
+     "id": "sin-heart-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Parmi les choses qui sortent du cœur et souillent l'homme, Jésus cite l'orgueil.",
+      "en": "Among the things that come out of the heart and defile a person, Jesus lists pride."
+     },
+     "answer": true,
+     "explain": {
+      "fr": "L'orgueil figure à la fin de la liste : « la calomnie, l'orgueil, la folie. » Jésus place ainsi côte à côte des actes visibles, comme le vol, et des attitudes intérieures.",
+      "en": "Pride appears near the end of the list: “an evil eye, blasphemy, pride, foolishness.” Jesus thus places visible deeds, such as theft, beside inner attitudes."
+     },
+     "ref": "41:7:22"
+    },
+    {
+     "id": "sin-heart-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Lequel de ces mots ne figure pas dans la liste des versets 21 et 22 ?",
+      "en": "Which of these does not appear in the list in verses 21 and 22?"
+     },
+     "choices": {
+      "fr": [
+       "Les vols",
+       "La fraude",
+       "La paresse",
+       "La folie"
+      ],
+      "en": [
+       "Thefts",
+       "Deceit",
+       "Laziness",
+       "Foolishness"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "La liste comprend « les vols, les cupidités, les méchancetés, la fraude, le dérèglement, le regard envieux, la calomnie, l'orgueil, la folie », mais pas la paresse. Jésus conclut : « Toutes ces choses mauvaises sortent du dedans » (v. 23).",
+      "en": "The list includes “Thefts, covetousness, wickedness, deceit, lasciviousness, an evil eye, blasphemy, pride, foolishness,” but not laziness. Jesus concludes: “All these evil things come from within” (v. 23)."
+     },
+     "ref": "41:7:22"
+    }
+   ]
+  },
+  {
+   "id": "sin-all",
+   "title": {
+    "fr": "Pas même un seul",
+    "en": "No, not one"
+   },
+   "passages": [
+    "45:3:9-18"
+   ],
+   "intro": {
+    "fr": "Dans les premiers chapitres de sa lettre aux Romains, Paul a parlé des non-Juifs puis des Juifs. Ici, il conclut par une suite de citations de l'Écriture, tirées surtout des Psaumes.",
+    "en": "In the opening chapters of his letter to the Romans, Paul has spoken first of the Gentiles, then of the Jews. Here he sums up with a chain of quotations from Scripture, drawn mostly from the Psalms."
+   },
+   "keyVerse": "45:3:10",
+   "takeaway": {
+    "fr": "Paul affirme que tous, Juifs et non-Juifs, sont « sous l'empire du péché ». Il l'appuie sur une série de citations de l'Écriture qui commence par : « Il n'y a point de juste, Pas même un seul ».",
+    "en": "Paul states that all, Jews and Gentiles alike, are “under sin.” He supports this with a series of quotations from Scripture that begins: “There is none righteous, no, not one.”"
+   },
+   "questions": [
+    {
+     "id": "sin-all-1",
+     "kind": "choice",
+     "q": {
+      "fr": "À la question « sommes-nous plus excellents ? » (v. 9), que répond Paul ?",
+      "en": "To the question “are we better than they?” (v. 9), what does Paul answer?"
+     },
+     "choices": {
+      "fr": [
+       "Oui, grâce à la loi",
+       "En partie seulement",
+       "Nullement",
+       "Oui, grâce à nos pères"
+      ],
+      "en": [
+       "Yes, thanks to the law",
+       "Only in part",
+       "No, in no wise",
+       "Yes, thanks to our fathers"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "Paul répond : « Nullement. » Il en donne aussitôt la raison : « tous, Juifs et Grecs, sont sous l'empire du péché ».",
+      "en": "Paul answers: “No, in no wise.” He gives the reason at once: “both Jews and Gentiles, that they are all under sin.”"
+     },
+     "ref": "45:3:9"
+    },
+    {
+     "id": "sin-all-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, qui est sous l'empire du péché ?",
+      "en": "According to verse 9, who is under sin?"
+     },
+     "choices": {
+      "fr": [
+       "Les non-Juifs seulement",
+       "Tous, Juifs et non-Juifs",
+       "Les Juifs seulement",
+       "Ceux qui ignorent la loi"
+      ],
+      "en": [
+       "Only the Gentiles",
+       "All, both Jews and Gentiles",
+       "Only the Jews",
+       "Those who do not know the law"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Tous, Juifs et Grecs, sont sous l'empire du péché. » Le mot « Grecs » désigne ici l'ensemble des non-Juifs.",
+      "en": "“Both Jews and Gentiles, that they are all under sin.” Paul includes both groups without exception."
+     },
+     "ref": "45:3:9"
+    },
+    {
+     "id": "sin-all-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Sur quoi Paul appuie-t-il son affirmation, à partir du verset 10 ?",
+      "en": "What does Paul rely on to support his claim, from verse 10 on?"
+     },
+     "choices": {
+      "fr": [
+       "Sur une vision qu'il a reçue",
+       "Sur l'Écriture",
+       "Sur l'avis des philosophes",
+       "Sur une décision des apôtres"
+      ],
+      "en": [
+       "A vision he received",
+       "Scripture",
+       "The opinion of philosophers",
+       "A decision of the apostles"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Paul introduit ses citations par « selon qu'il est écrit ». Les versets 10 à 12 sont proches du Psaume 14:1-3, qui dit : « Il n'en est aucun qui fasse le bien, Pas même un seul. »",
+      "en": "Paul introduces his quotations with “As it is written.” Verses 10–12 are close to Psalm 14:1–3, which says: “there is none that doeth good, no, not one.”"
+     },
+     "ref": "45:3:10"
+    },
+    {
+     "id": "sin-all-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon la citation du verset 10, combien y a-t-il de justes ?",
+      "en": "According to the quotation in verse 10, how many are righteous?"
+     },
+     "choices": {
+      "fr": [
+       "Pas même un seul",
+       "Un petit reste",
+       "Ceux qui cherchent Dieu",
+       "Ceux qui connaissent la loi"
+      ],
+      "en": [
+       "None, not one",
+       "A small remnant",
+       "Those who seek God",
+       "Those who know the law"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Il n'y a point de juste, Pas même un seul. » Le verset suivant ajoute même : « Nul ne cherche Dieu » (v. 11).",
+      "en": "“There is none righteous, no, not one.” The next verse even adds: “there is none that seeketh after God” (v. 11)."
+     },
+     "ref": "45:3:10"
+    },
+    {
+     "id": "sin-all-5",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon la citation du verset 12, quelques-uns seulement font le bien.",
+      "en": "According to the quotation in verse 12, only a few do good."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Le texte dit l'inverse : « Il n'en est aucun qui fasse le bien, Pas même un seul. » La citation est générale et ne prévoit pas d'exception.",
+      "en": "The text says the opposite: “there is none that doeth good, no, not one.” The statement is general and allows no exception."
+     },
+     "ref": "45:3:12"
+    },
+    {
+     "id": "sin-all-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 18, qu'est-ce qui n'est pas devant leurs yeux ?",
+      "en": "According to verse 18, what is not before their eyes?"
+     },
+     "choices": {
+      "fr": [
+       "La loi de Moïse",
+       "Le jugement à venir",
+       "L'exemple de leurs pères",
+       "La crainte de Dieu"
+      ],
+      "en": [
+       "The law of Moses",
+       "The judgment to come",
+       "The example of their fathers",
+       "The fear of God"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« La crainte de Dieu n'est pas devant leurs yeux. » Cette dernière citation, proche du Psaume 36:1, clôt la série commencée au verset 10.",
+      "en": "“There is no fear of God before their eyes.” This last quotation, close to Psalm 36:1, closes the series that began in verse 10."
+     },
+     "ref": "45:3:18"
+    }
+   ]
+  },
+  {
+   "id": "sin-wages",
+   "title": {
+    "fr": "Le salaire du péché",
+    "en": "The wages of sin"
+   },
+   "passages": [
+    "45:6:12-23"
+   ],
+   "intro": {
+    "fr": "Juste avant ce passage, Paul demande à ses lecteurs de se regarder « comme morts au péché, et comme vivants pour Dieu en Jésus-Christ » (Romains 6:11). Il en tire maintenant les conséquences, en comparant le péché à un maître dont on devient l'esclave.",
+    "en": "Just before this passage, Paul tells his readers to “reckon ye also yourselves to be dead indeed unto sin, but alive unto God” (Romans 6:11). He now draws out what this means, comparing sin to a master whose servant one becomes."
+   },
+   "keyVerse": "45:6:23",
+   "takeaway": {
+    "fr": "Paul demande que le péché ne règne pas dans le corps de ses lecteurs : on est l'esclave de celui à qui l'on obéit. Il conclut : « le salaire du péché, c'est la mort; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur. »",
+    "en": "Paul urges that sin must not reign in his readers' bodies: you are the servant of the one you obey. He concludes: “the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.”"
+   },
+   "questions": [
+    {
+     "id": "sin-wages-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Que demande Paul au verset 12 ?",
+      "en": "What does Paul urge in verse 12?"
+     },
+     "choices": {
+      "fr": [
+       "Que le péché ne règne pas dans leur corps",
+       "Qu'ils se retirent loin du monde",
+       "Qu'ils jeûnent chaque semaine",
+       "Qu'ils évitent les païens"
+      ],
+      "en": [
+       "That sin must not reign in their body",
+       "That they withdraw from the world",
+       "That they fast every week",
+       "That they avoid the Gentiles"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Que le péché ne règne donc point dans votre corps mortel, et n'obéissez pas à ses convoitises. » Paul présente le péché comme une puissance qui cherche à régner.",
+      "en": "“Let not sin therefore reign in your mortal body, that ye should obey it in the lusts thereof.” Paul presents sin as a power that seeks to reign."
+     },
+     "ref": "45:6:12"
+    },
+    {
+     "id": "sin-wages-2",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 14, pourquoi le péché n'aura-t-il pas de pouvoir sur eux ?",
+      "en": "According to verse 14, why will sin not have dominion over them?"
+     },
+     "choices": {
+      "fr": [
+       "Parce qu'ils sont devenus parfaits",
+       "Parce que le péché a disparu du monde",
+       "Parce qu'ils ne sont pas sous la loi, mais sous la grâce",
+       "Parce qu'ils observent fidèlement la loi"
+      ],
+      "en": [
+       "Because they have become perfect",
+       "Because sin has vanished from the world",
+       "Because they are not under the law, but under grace",
+       "Because they faithfully keep the law"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Car le péché n'aura point de pouvoir sur vous, puisque vous êtes, non sous la loi, mais sous la grâce. » Paul reprend aussitôt cette affirmation au verset suivant pour en écarter un malentendu.",
+      "en": "“For sin shall not have dominion over you: for ye are not under the law, but under grace.” Paul immediately returns to this statement in the next verse to rule out a misunderstanding."
+     },
+     "ref": "45:6:14"
+    },
+    {
+     "id": "sin-wages-3",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Paul, être sous la grâce autorise à continuer de pécher.",
+      "en": "According to Paul, being under grace means one may go on sinning."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "Paul pose lui-même la question et la rejette : « Pécherions-nous, parce que nous sommes, non sous la loi, mais sous la grâce? Loin de là! »",
+      "en": "Paul raises the question himself and rejects it: “shall we sin, because we are not under the law, but under grace? God forbid.”"
+     },
+     "ref": "45:6:15"
+    },
+    {
+     "id": "sin-wages-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 16, de qui devient-on l'esclave ?",
+      "en": "According to verse 16, whose servant do you become?"
+     },
+     "choices": {
+      "fr": [
+       "De celui qui nous a fait naître",
+       "De celui à qui l'on obéit",
+       "De celui qui nous nourrit",
+       "De celui que l'on admire"
+      ],
+      "en": [
+       "The one who gave you birth",
+       "The one you obey",
+       "The one who feeds you",
+       "The one you admire"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Vous êtes esclaves de celui à qui vous obéissez, soit du péché qui conduit à la mort, soit de l'obéissance qui conduit à la justice. » Pour Paul, il n'y a pas de position neutre.",
+      "en": "“To whom ye yield yourselves servants to obey, his servants ye are to whom ye obey; whether of sin unto death, or of obedience unto righteousness.” The KJV's “servants” renders a Greek word for slaves."
+     },
+     "ref": "45:6:16"
+    },
+    {
+     "id": "sin-wages-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 22, quel fruit ont ceux qui sont devenus esclaves de Dieu ?",
+      "en": "According to verse 22, what fruit do those who have become servants to God have?"
+     },
+     "choices": {
+      "fr": [
+       "La richesse",
+       "La puissance",
+       "La connaissance",
+       "La sainteté"
+      ],
+      "en": [
+       "Wealth",
+       "Power",
+       "Knowledge",
+       "Holiness"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Vous avez pour fruit la sainteté et pour fin la vie éternelle. » Paul l'oppose aux fruits d'autrefois, « dont vous rougissez aujourd'hui », et dont la fin est la mort (v. 21).",
+      "en": "“Ye have your fruit unto holiness, and the end everlasting life.” Paul contrasts this with the earlier fruit “whereof ye are now ashamed,” whose end is death (v. 21)."
+     },
+     "ref": "45:6:22"
+    },
+    {
+     "id": "sin-wages-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 23, quel est le salaire du péché ?",
+      "en": "According to verse 23, what are the wages of sin?"
+     },
+     "choices": {
+      "fr": [
+       "La pauvreté",
+       "La mort",
+       "L'exil",
+       "La maladie"
+      ],
+      "en": [
+       "Poverty",
+       "Death",
+       "Exile",
+       "Sickness"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Car le salaire du péché, c'est la mort; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur. » Le mot traduit par « salaire » désignait notamment la solde des soldats ; Paul l'oppose à un don.",
+      "en": "“For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.” The word translated “wages” was used in particular for a soldier's pay; Paul sets it against a gift."
+     },
+     "ref": "45:6:23"
+    }
+   ]
+  },
+  {
+   "id": "sin-desire",
+   "title": {
+    "fr": "De la convoitise au péché",
+    "en": "From desire to sin"
+   },
+   "passages": [
+    "59:1:12-18"
+   ],
+   "intro": {
+    "fr": "La lettre de Jacques s'adresse à des croyants qui traversent des épreuves (1:2-4). Le mot grec traduit par « tentation » peut aussi désigner une épreuve ; dans ce passage, Jacques passe de l'épreuve qu'il faut supporter à la tentation de faire le mal.",
+    "en": "The letter of James is addressed to believers going through trials (1:2–4). The Greek word translated “temptation” can also mean a trial; in this passage James moves from trials to be endured to the temptation to do evil."
+   },
+   "keyVerse": "59:1:15",
+   "takeaway": {
+    "fr": "Jacques affirme que Dieu ne tente personne : chacun est tenté par sa propre convoitise, qui enfante le péché, et le péché produit la mort. Les dons parfaits, eux, viennent d'en haut, du Père des lumières.",
+    "en": "James states that God tempts no one: each person is tempted by his own lust, which brings forth sin, and sin brings forth death. Every perfect gift, by contrast, comes from above, from the Father of lights."
+   },
+   "questions": [
+    {
+     "id": "sin-desire-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 12, que recevra celui qui supporte patiemment la tentation ?",
+      "en": "According to verse 12, what will the one who endures temptation receive?"
+     },
+     "choices": {
+      "fr": [
+       "Une longue vie",
+       "La couronne de vie",
+       "Une terre fertile",
+       "Une grande sagesse"
+      ],
+      "en": [
+       "A long life",
+       "The crown of life",
+       "A fruitful land",
+       "Great wisdom"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Après avoir été éprouvé, il recevra la couronne de vie, que le Seigneur a promise à ceux qui l'aiment. » La couronne était, dans l'Antiquité, la récompense du vainqueur.",
+      "en": "“When he is tried, he shall receive the crown of life, which the Lord hath promised to them that love him.” In the ancient world a crown was the reward of a victor."
+     },
+     "ref": "59:1:12"
+    },
+    {
+     "id": "sin-desire-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Jacques, celui qui est tenté de faire le mal peut dire que c'est Dieu qui le tente.",
+      "en": "According to James, someone tempted to do evil may say that God is tempting him."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Que personne, lorsqu'il est tenté, ne dise: C'est Dieu qui me tente. Car Dieu ne peut être tenté par le mal, et il ne tente lui-même personne. »",
+      "en": "“Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man.”"
+     },
+     "ref": "59:1:13"
+    },
+    {
+     "id": "sin-desire-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 14, par quoi chacun est-il tenté ?",
+      "en": "According to verse 14, what is each person tempted by?"
+     },
+     "choices": {
+      "fr": [
+       "Par les circonstances de la vie",
+       "Par les mauvais exemples",
+       "Par sa propre convoitise",
+       "Par la volonté de Dieu"
+      ],
+      "en": [
+       "The circumstances of life",
+       "Bad examples",
+       "His own lust",
+       "The will of God"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Mais chacun est tenté quand il est attiré et amorcé par sa propre convoitise. » Le mot « amorcé » évoque l'appât d'un pêcheur ou d'un chasseur.",
+      "en": "“But every man is tempted, when he is drawn away of his own lust, and enticed.” The word for “enticed” evokes the bait used by a fisherman or hunter."
+     },
+     "ref": "59:1:14"
+    },
+    {
+     "id": "sin-desire-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Quel enchaînement Jacques décrit-il au verset 15 ?",
+      "en": "What sequence does James describe in verse 15?"
+     },
+     "choices": {
+      "fr": [
+       "Péché, convoitise, mort",
+       "Convoitise, mort, péché",
+       "Tentation, mort, péché",
+       "Convoitise, péché, mort"
+      ],
+      "en": [
+       "Sin, lust, death",
+       "Lust, death, sin",
+       "Temptation, death, sin",
+       "Lust, sin, death"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« La convoitise, lorsqu'elle a conçu, enfante le péché; et le péché, étant consommé, produit la mort. » Jacques emploie l'image d'une naissance : chaque étape donne naissance à la suivante.",
+      "en": "“When lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death.” James uses the image of a birth: each stage gives birth to the next."
+     },
+     "ref": "59:1:15"
+    },
+    {
+     "id": "sin-desire-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 17, d'où viennent toute grâce excellente et tout don parfait ?",
+      "en": "According to verse 17, where does every good and perfect gift come from?"
+     },
+     "choices": {
+      "fr": [
+       "D'en haut, du Père des lumières",
+       "Des anges qui servent Dieu",
+       "Des efforts de chacun",
+       "De la terre que Dieu a bénie"
+      ],
+      "en": [
+       "From above, from the Father of lights",
+       "From the angels who serve God",
+       "From each person's efforts",
+       "From the earth God has blessed"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Toute grâce excellente et tout don parfait descendent d'en haut, du Père des lumières, chez lequel il n'y a ni changement ni ombre de variation. » Après avoir dit que Dieu ne tente personne, Jacques dit ce qui vient de lui.",
+      "en": "“Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning.” Having said that God tempts no one, James says what does come from him."
+     },
+     "ref": "59:1:17"
+    },
+    {
+     "id": "sin-desire-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 18, par quoi Dieu nous a-t-il engendrés ?",
+      "en": "According to verse 18, by what has God begotten us?"
+     },
+     "choices": {
+      "fr": [
+       "Par un songe",
+       "Par la sagesse des anciens",
+       "Par la parole de vérité",
+       "Par la force de son bras"
+      ],
+      "en": [
+       "A dream",
+       "The wisdom of the elders",
+       "The word of truth",
+       "The strength of his arm"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Il nous a engendrés selon sa volonté, par la parole de vérité, afin que nous soyons en quelque sorte les prémices de ses créatures. » Les prémices sont les premiers fruits de la récolte, offerts à Dieu.",
+      "en": "“Of his own will begat he us with the word of truth, that we should be a kind of firstfruits of his creatures.” Firstfruits were the first part of the harvest, offered to God."
+     },
+     "ref": "59:1:18"
+    }
+   ]
+  },
+  {
+   "id": "sin-confess",
+   "title": {
+    "fr": "Marcher dans la lumière",
+    "en": "Walking in the light"
+   },
+   "passages": [
+    "62:1:5-2:2"
+   ],
+   "intro": {
+    "fr": "La première lettre de Jean est traditionnellement attribuée à l'apôtre Jean ; il y appelle ses lecteurs « mes petits enfants ». Dans ce passage, il examine plusieurs affirmations qui commencent par « Si nous disons… ».",
+    "en": "The first letter of John is traditionally attributed to the apostle John; he calls his readers “my little children.” In this passage he examines several claims that begin with “If we say…”."
+   },
+   "keyVerse": "62:1:9",
+   "takeaway": {
+    "fr": "Jean affirme que Dieu est lumière et que dire « nous n'avons pas de péché », c'est se séduire soi-même. Il écrit : « Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner », et présente Jésus-Christ comme « un avocat auprès du Père ».",
+    "en": "John states that God is light and that to say “we have no sin” is to deceive ourselves. He writes: “If we confess our sins, he is faithful and just to forgive us our sins,” and presents Jesus Christ as “an advocate with the Father.”"
+   },
+   "questions": [
+    {
+     "id": "sin-confess-1",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 5, quelle nouvelle Jean annonce-t-il ?",
+      "en": "According to verse 5, what message does John declare?"
+     },
+     "choices": {
+      "fr": [
+       "Que le monde va bientôt finir",
+       "Que Dieu est lumière, sans ténèbres",
+       "Que Dieu ne voit pas les fautes",
+       "Que le temple sera rebâti"
+      ],
+      "en": [
+       "That the world will soon end",
+       "That God is light, with no darkness",
+       "That God does not see wrongdoing",
+       "That the temple will be rebuilt"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "Jean annonce que « Dieu est lumière », et « qu'il n'y a point en lui de ténèbres ». Tout le passage découle de cette affirmation : marcher dans les ténèbres ou dans la lumière.",
+      "en": "“God is light, and in him is no darkness at all.” The whole passage follows from this statement: walking in darkness or in the light."
+     },
+     "ref": "62:1:5"
+    },
+    {
+     "id": "sin-confess-2",
+     "kind": "truefalse",
+     "q": {
+      "fr": "Selon Jean, on peut marcher dans les ténèbres tout en étant en communion avec Dieu.",
+      "en": "According to John, one can walk in darkness and still have fellowship with God."
+     },
+     "answer": false,
+     "explain": {
+      "fr": "« Si nous disons que nous sommes en communion avec lui, et que nous marchions dans les ténèbres, nous mentons, et nous ne pratiquons pas la vérité. »",
+      "en": "“If we say that we have fellowship with him, and walk in darkness, we lie, and do not the truth.”"
+     },
+     "ref": "62:1:6"
+    },
+    {
+     "id": "sin-confess-3",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 7, qu'est-ce qui nous purifie de tout péché ?",
+      "en": "According to verse 7, what cleanses us from all sin?"
+     },
+     "choices": {
+      "fr": [
+       "Le temps qui passe",
+       "Les sacrifices du temple",
+       "Le sang de Jésus, son Fils",
+       "Nos propres larmes"
+      ],
+      "en": [
+       "The passing of time",
+       "The temple sacrifices",
+       "The blood of Jesus Christ his Son",
+       "Our own tears"
+      ]
+     },
+     "answer": 2,
+     "explain": {
+      "fr": "« Si nous marchons dans la lumière, comme il est lui-même dans la lumière, nous sommes mutuellement en communion, et le sang de Jésus son Fils nous purifie de tout péché. »",
+      "en": "“If we walk in the light, as he is in the light, we have fellowship one with another, and the blood of Jesus Christ his Son cleanseth us from all sin.”"
+     },
+     "ref": "62:1:7"
+    },
+    {
+     "id": "sin-confess-4",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 8, que fait celui qui dit n'avoir pas de péché ?",
+      "en": "According to verse 8, what do we do if we say we have no sin?"
+     },
+     "choices": {
+      "fr": [
+       "Il se séduit lui-même",
+       "Il dit la vérité",
+       "Il glorifie Dieu",
+       "Il encourage les autres"
+      ],
+      "en": [
+       "We deceive ourselves",
+       "We tell the truth",
+       "We glorify God",
+       "We encourage others"
+      ]
+     },
+     "answer": 0,
+     "explain": {
+      "fr": "« Si nous disons que nous n'avons pas de péché, nous nous séduisons nous-mêmes, et la vérité n'est point en nous. » « Se séduire » signifie ici se tromper soi-même. Le verset 10 va plus loin : nier avoir péché, c'est faire Dieu menteur.",
+      "en": "“If we say that we have no sin, we deceive ourselves, and the truth is not in us.” Verse 10 goes further: to deny having sinned is to make God a liar."
+     },
+     "ref": "62:1:8"
+    },
+    {
+     "id": "sin-confess-5",
+     "kind": "choice",
+     "q": {
+      "fr": "Selon le verset 9, que fait Dieu si nous confessons nos péchés ?",
+      "en": "According to verse 9, what does God do if we confess our sins?"
+     },
+     "choices": {
+      "fr": [
+       "Il les retient contre nous",
+       "Il les fait connaître à tous",
+       "Il nous laisse les porter seuls",
+       "Il les pardonne et nous purifie"
+      ],
+      "en": [
+       "He holds them against us",
+       "He makes them known to all",
+       "He leaves us to bear them alone",
+       "He forgives and cleanses us"
+      ]
+     },
+     "answer": 3,
+     "explain": {
+      "fr": "« Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité. » Jean fonde le pardon sur ce que Dieu est : fidèle et juste.",
+      "en": "“If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.” John grounds forgiveness in who God is: faithful and just."
+     },
+     "ref": "62:1:9"
+    },
+    {
+     "id": "sin-confess-6",
+     "kind": "choice",
+     "q": {
+      "fr": "Comment Jean présente-t-il Jésus-Christ pour celui qui a péché ?",
+      "en": "How does John present Jesus Christ for anyone who sins?"
+     },
+     "choices": {
+      "fr": [
+       "Comme un juge sévère",
+       "Comme un avocat auprès du Père",
+       "Comme un prophète parmi d'autres",
+       "Comme un ange envoyé du ciel"
+      ],
+      "en": [
+       "As a stern judge",
+       "As an advocate with the Father",
+       "As one prophet among others",
+       "As an angel sent from heaven"
+      ]
+     },
+     "answer": 1,
+     "explain": {
+      "fr": "« Si quelqu'un a péché, nous avons un avocat auprès du Père, Jésus-Christ le juste. » Jean ajoute qu'il est « une victime expiatoire pour nos péchés, non seulement pour les nôtres, mais aussi pour ceux du monde entier » (2:2).",
+      "en": "“If any man sin, we have an advocate with the Father, Jesus Christ the righteous.” John adds that he is “the propitiation for our sins: and not for ours only, but also for the sins of the whole world” (2:2)."
+     },
+     "ref": "62:2:1"
+    }
+   ]
+  }
+ ]
+}

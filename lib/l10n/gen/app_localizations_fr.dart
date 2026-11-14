@@ -254,6 +254,88 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
+  String printedRef(String ref) {
+    return 'Segond imprimée : $ref';
+  }
+
+  @override
+  String get printedNoteTitle => 'Numéros des versets';
+
+  @override
+  String get printedNoteBody =>
+      'Les numéros de versets de l’application suivent ceux de la King James, pour que le français et l’anglais aient les mêmes références.\n\nBeaucoup de Bibles Segond imprimées numérotent quelques passages autrement. Dans les Psaumes surtout, le titre du psaume y compte souvent comme verset 1 : le Psaume 19:7 de l’application est le Psaume 19:8 dans votre Bible.\n\nQuand c’est le cas, l’application indique aussi le numéro de la Segond imprimée.';
+
+  @override
+  String get printedChapterBanner =>
+      'Dans une Segond imprimée, les versets de ce chapitre sont numérotés autrement. Touchez un verset pour voir son numéro sur papier.';
+
+  @override
+  String get printedMore => 'En savoir plus';
+
+  @override
+  String updateAvailable(String version) {
+    return 'Version $version disponible';
+  }
+
+  @override
+  String updateRequired(String version) {
+    return 'Mise à jour obligatoire : version $version';
+  }
+
+  @override
+  String get updateRequiredHint =>
+      'Cette version n’est plus prise en charge : installez la nouvelle pour continuer.';
+
+  @override
+  String get updateDownload => 'Télécharger';
+
+  @override
+  String get updateLater => 'Plus tard';
+
+  @override
+  String get webInstallTitle => 'Installez l’application Android';
+
+  @override
+  String get webInstallBody =>
+      'Plus fluide au quotidien, et vos données ne dépendent plus du navigateur.';
+
+  @override
+  String get webInstallAction => 'Installer';
+
+  @override
+  String get homeScreenTitle => 'Ajoutez l’application à l’écran d’accueil';
+
+  @override
+  String get homeScreenBody =>
+      'Touchez Partager (le carré avec une flèche), puis « Sur l’écran d’accueil ». L’application s’ouvrira en plein écran et vos données seront mieux conservées.';
+
+  @override
+  String get homeScreenDismiss => 'Compris';
+
+  @override
+  String get pathReviewTitle => 'Bilan du parcours';
+
+  @override
+  String pathReviewSubtitle(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count questions tirées',
+      one: '1 question tirée',
+    );
+    return '$_temp0 de toutes les leçons du parcours';
+  }
+
+  @override
+  String get pathReviewHint => 'Idéal une fois les leçons terminées';
+
+  @override
+  String get pathReviewAction => 'Faire le bilan du parcours';
+
+  @override
+  String get nextPath => 'Parcours suivant';
+
+  @override
   String get next => 'Suivant';
 
   @override
@@ -761,44 +843,4 @@ class AppLocalizationsFr extends AppLocalizations {
     );
     return '$_temp0';
   }
-
-  @override
-  String updateAvailable(String version) {
-    return 'Version $version disponible';
-  }
-
-  @override
-  String updateRequired(String version) {
-    return 'Mise à jour obligatoire : version $version';
-  }
-
-  @override
-  String get updateRequiredHint =>
-      'Cette version n’est plus prise en charge : installez la nouvelle pour continuer.';
-
-  @override
-  String get updateDownload => 'Télécharger';
-
-  @override
-  String get updateLater => 'Plus tard';
-
-  @override
-  String get webInstallTitle => 'Installez l’application Android';
-
-  @override
-  String get webInstallBody =>
-      'Plus fluide au quotidien, et vos données ne dépendent plus du navigateur.';
-
-  @override
-  String get webInstallAction => 'Installer';
-
-  @override
-  String get homeScreenTitle => 'Ajoutez l’application à l’écran d’accueil';
-
-  @override
-  String get homeScreenBody =>
-      'Touchez Partager (le carré avec une flèche), puis « Sur l’écran d’accueil ». L’application s’ouvrira en plein écran et vos données seront mieux conservées.';
-
-  @override
-  String get homeScreenDismiss => 'Compris';
 }

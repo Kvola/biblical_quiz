@@ -37,11 +37,11 @@ Quiz Biblique est organisée en **4 onglets**, en bas de l'écran :
 | Onglet | À quoi il sert |
 |---|---|
 | **Accueil** | La leçon à suivre, votre série de jours, les questions **À revoir**, le **Verset du jour**, le **Quiz sur mes lectures** et le défi **Dans quel livre ?**. En haut à droite, la loupe ouvre **Rechercher** et la roue dentée ouvre les **Réglages**. |
-| **Parcours** | Les leçons, rangées en parcours, et **Les 66 livres** : une fiche par livre de la Bible. |
+| **Parcours** | Les leçons, rangées en parcours et en deux sections (**Découvrir la Bible** et **Le chemin de la foi**), et **Les 66 livres** : une fiche par livre de la Bible. |
 | **Bible** | La lecture libre de la Bible, chapitre par chapitre. L'application reprend là où vous vous étiez arrêté. |
 | **Progrès** | **Vos progrès** : série, leçons terminées, bonnes réponses, **Ma lecture de la Bible** et vos **Versets mis de côté**. |
 
-Les parcours proposés :
+Les parcours proposés, dans la section **Découvrir la Bible** :
 
 | Parcours | Leçons | Ce que vous y découvrez |
 |---|---|---|
@@ -52,6 +52,19 @@ Les parcours proposés :
 | **Des hommes et des femmes** | 16 | Noé, Abraham, Ruth, David, Esther, Marie, Pierre, Paul… |
 | **Prier et méditer : Psaumes et sagesse** | 12 | Psaumes, Proverbes, Ecclésiaste, Job |
 | **Les 66 livres** | 66 fiches | De quoi parle chaque livre, qui l'a écrit, un verset clé et un quiz |
+
+Dans la section **Le chemin de la foi**, six parcours à suivre dans l'ordre :
+
+| Parcours | Leçons | Ce que vous y découvrez |
+|---|---|---|
+| **Le péché** | 8 | D'où il vient, ce qu'il produit, comment Dieu y répond |
+| **La loi** | 9 | Pourquoi elle a été donnée, ce qu'elle révèle, ce que Jésus et les apôtres disent de son accomplissement |
+| **La repentance** | 10 | Revenir à Dieu : l'appel des prophètes, de Jésus et des apôtres |
+| **La justice** | 9 | Dieu, juste juge ; la justice envers le pauvre et l'étranger ; la justice qui vient de Dieu selon Paul |
+| **La nouvelle naissance** | 9 | « Il faut que vous naissiez de nouveau » : le cœur nouveau, la nouvelle créature, les enfants de Dieu |
+| **La vie par la foi** | 10 | « Le juste vivra par la foi » : une vie menée dans la confiance en Dieu |
+
+Au bas de chaque parcours, le **Bilan du parcours** propose 10 questions tirées de toutes ses leçons : idéal pour vérifier ce que vous avez retenu une fois les leçons terminées. À la fin de la dernière leçon d'un parcours, l'application propose ce bilan, puis le **Parcours suivant** de la même section ; l'**Accueil** fait de même et conseille la suite logique (après **Le péché**, **La loi**, etc.).
 
 > **Bon à savoir** : toutes les leçons existent en français et en anglais. La traduction de la Bible suit la langue de l'application : Louis Segond en français, King James en anglais.
 
@@ -383,6 +396,12 @@ Oui. Elle apparaît seulement quand des questions sont à revoir aujourd'hui. Un
 
 **Pourquoi le bouton Chapitres lus est-il grisé dans le Quiz sur mes lectures ?**
 Aucun des livres choisis n'a encore de chapitre lu. Choisissez **Livres entiers**, ou lisez d'abord quelques chapitres dans l'onglet **Bible**.
+
+**Le numéro d'un verset n'est pas le même que dans ma Bible. Pourquoi ?**
+L'application numérote les versets comme la King James, pour que le français et l'anglais aient les mêmes références. Beaucoup de Bibles Segond imprimées numérotent quelques passages autrement : dans les Psaumes surtout, le titre du psaume y compte souvent comme verset 1 (le Psaume 19:7 de l'application est le Psaume 19:8 dans votre Bible). Dans ces passages, l'application affiche aussi le numéro de la Segond imprimée (« Segond imprimée : Psaumes 19:8 ») ; dans l'onglet **Bible**, un encadré le signale en haut du chapitre, et toucher un verset montre son numéro sur papier.
+
+**À quoi sert le Bilan du parcours ?**
+À vérifier ce que vous avez retenu de tout un parcours : 10 questions tirées de ses différentes leçons, chacune avec son passage indiqué. Les questions ratées reviennent ensuite dans **À revoir**, comme celles des leçons.
 
 **Puis-je lire en français et en anglais en même temps ?**
 Oui. Activez **Réglages → Lecture bilingue**, ou touchez l'icône de traduction en haut d'une leçon ou de l'onglet **Bible**.

@@ -2,6 +2,15 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.6.0 (build 7) — 14 novembre 2026
+
+- **Six nouveaux parcours, « Le chemin de la foi »**, à suivre dans l'ordre : **Le péché** (8 leçons), **La loi** (9), **La repentance** (10), **La justice** (9), **La nouvelle naissance** (9) et **La vie par la foi** (10). Soit 55 leçons et 326 questions de plus, en français et en anglais, qui alimentent aussi « À revoir » et le « Quiz sur mes lectures ».
+- **Parcours en deux sections** : « Découvrir la Bible » (les six premiers parcours et les 66 livres) et « Le chemin de la foi ».
+- **Bilan du parcours** : au bas de chaque parcours, 10 questions tirées de toutes ses leçons (une par leçon d'abord, passage indiqué), mis en avant une fois les leçons terminées.
+- **La suite logique** : à la fin de la dernière leçon d'un parcours, l'application propose le bilan puis le parcours suivant de la même section ; l'Accueil conseille aussi ce parcours (après « Le péché », « La loi »…) plutôt que de revenir au premier parcours non terminé.
+- **Numérotation des Segond imprimées** (en français) : là où une Segond imprimée numérote autrement (titres des Psaumes, Jonas 1:17 = 2:1, Exode 8, Job 39-41…), l'application indique aussi le numéro sur papier — passages des leçons, corrections, verset clé, fiche d'un verset — et un encadré le signale en haut du chapitre dans le lecteur. Table vérifiée verset par verset par alignement avec une Segond à la numérotation d'origine (`scripts/build_lsg_printed.py`).
+- Contenu : 12 parcours, 139 leçons, 995 questions.
+
 ## 1.5.0 (build 6) — 9 novembre 2026
 
 - **Bandeau « nouvelle version »** (Android) : quand une version plus récente est publiée sur la page de téléchargement, un bandeau propose de la télécharger (« Plus tard » le masque pour cette version). Vérification au plus toutes les 12 h, silencieuse hors connexion ; une mise à jour déclarée obligatoire par le serveur ne peut pas être masquée. Le quiz reste entièrement utilisable sans Internet.

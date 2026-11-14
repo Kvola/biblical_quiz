@@ -207,5 +207,11 @@ IconData pathIcon(String name) => switch (name) {
   'lightbulb' => Icons.lightbulb_outline,
   'groups' => Icons.groups_outlined,
   'spa' => Icons.spa_outlined,
+  'heart_broken' => Icons.heart_broken_outlined,
+  'gavel' => Icons.gavel_outlined,
+  'u_turn_left' => Icons.u_turn_left,
+  'balance' => Icons.balance_outlined,
+  'directions_walk' => Icons.directions_walk,
+  'eco' => Icons.eco_outlined,
   _ => Icons.menu_book_outlined,
 };

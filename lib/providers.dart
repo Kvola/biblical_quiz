@@ -2,6 +2,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'bible/bible.dart';
+import 'bible/printed_numbering.dart';
 import 'content/content.dart';
 import 'core/app_update.dart';
 import 'core/background.dart';
@@ -31,6 +32,11 @@ final settingsProvider = StreamProvider<AppSettings>((ref) => ref.watch(settings
 final langProvider = Provider<String>((ref) => 'fr');
 
 final contentProvider = FutureProvider<Content>((ref) => Content.load(ref.watch(assetBundleProvider)));
+
+/// Numéros des versets dans une Segond imprimée (voir [PrintedNumbering]).
+final printedNumberingProvider = FutureProvider<PrintedNumbering>(
+  (ref) => PrintedNumbering.load(ref.watch(assetBundleProvider)),
+);
 
 /// Chaque Bible est chargée à la première demande puis gardée en mémoire.
 final bibleProvider = FutureProvider.family<Bible, Translation>(

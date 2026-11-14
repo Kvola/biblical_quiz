@@ -19,9 +19,15 @@ Ce n'est pas un jeu de culture générale : c'est un **compagnon de lecture**. P
 | Les grands thèmes | 13 | Pardon, grâce, foi, prière, amour, justice, espérance… |
 | Des hommes et des femmes | 16 | Noé, Abraham, Ruth, David, Esther, Marie, Pierre, Paul… |
 | Prier et méditer | 12 | Psaumes, Proverbes, Ecclésiaste, Job |
+| Le péché | 8 | D'où il vient, ce qu'il produit, comment Dieu y répond |
+| La loi | 9 | Pourquoi elle a été donnée, ce qu'elle révèle, son accomplissement |
+| La repentance | 10 | Revenir à Dieu : l'appel des prophètes, de Jésus et des apôtres |
+| La justice | 9 | Dieu juste juge, la justice envers le pauvre, la justice que Dieu donne selon Paul |
+| La nouvelle naissance | 9 | Le cœur nouveau, la naissance d'en haut, la nouvelle créature, les enfants de Dieu |
+| La vie par la foi | 10 | « Le juste vivra par la foi » : une vie menée dans la confiance en Dieu |
 | Les 66 livres | 66 fiches | De quoi parle chaque livre, qui l'a écrit, verset clé, quiz |
 
-Soit **669 questions**, toutes en français et en anglais.
+Soit **995 questions**, toutes en français et en anglais.
 
 **Principe éditorial** : inter-confessionnel, factuel, centré sur le texte. On demande ce que le texte *dit*, jamais ce qu'une Église en conclut. Les règles complètes et le format des fichiers sont dans [CONTENT.md](CONTENT.md).
 
@@ -85,6 +91,7 @@ python3 scripts/build_bible.py                    # après modification de data/
 python3 scripts/validate_content.py               # après toute modification du contenu
 python3 scripts/verse.py 43:3:16 1:1:1-5          # afficher un passage dans les deux traductions
 python3 scripts/export_review.py                  # cahier de relecture -> build/relecture.html
+python3 scripts/export_review.py sin law          # seulement ces parcours -> build/relecture-sin-law.html
 swift scripts/svg2png.swift branding/icon-foreground.svg assets/branding/icon-foreground.png 1024
                                                   # SVG -> PNG transparent (ne pas utiliser Quick Look : fond blanc)
 dart run flutter_launcher_icons                   # après modification des icônes
@@ -94,7 +101,7 @@ flutter run
 
 ## Relire le contenu
 
-`python3 scripts/export_review.py` produit `build/relecture.html`, à ouvrir dans un navigateur : chaque leçon et chaque question avec la bonne réponse, l'explication et le texte du verset dans les deux traductions, côte à côte. On peut cocher chaque question « relue » et noter une remarque ; le bouton **Copier mes remarques** les rassemble en texte. Les points à trancher en priorité sont listés en tête du cahier.
+`python3 scripts/export_review.py` produit `build/relecture.html`, à ouvrir dans un navigateur : chaque leçon et chaque question avec la bonne réponse, l'explication et le texte du verset dans les deux traductions, côte à côte. On peut cocher chaque question « relue » et noter une remarque ; le bouton **Copier mes remarques** les rassemble en texte. Les points à trancher en priorité sont listés en tête du cahier. Avec des ids de parcours en argument, le cahier ne contient que ces parcours (sans les fiches des livres) : pratique pour relire un nouveau parcours.
 
 Pour corriger une question, modifier le fichier JSON concerné dans `assets/content/`, puis relancer `python3 scripts/validate_content.py`. **Ne jamais changer l'`id` d'une leçon ou d'une question publiée** : la progression des utilisateurs y est attachée.
 

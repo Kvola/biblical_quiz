@@ -145,11 +145,15 @@ class LearningPath {
     required this.title,
     required this.description,
     required this.lessons,
+    this.group = '',
   });
 
   final String id;
   final int order;
   final String icon;
+
+  /// Groupe d'affichage (id d'un [PathGroup] de groups.json).
+  final String group;
   final LText title;
   final LText description;
   final List<Lesson> lessons;
@@ -163,8 +167,27 @@ class LearningPath {
       title: LText.parse(j['title'], 'title'),
       description: LText.parse(j['description'], 'description'),
       lessons: (j['lessons'] as List).cast<Map<String, dynamic>>().map((l) => Lesson.parse(l, id)).toList(),
+      group: j['group'] as String? ?? '',
     );
   }
+}
+
+/// Groupe de parcours, affiché comme une section de l'onglet Parcours
+/// (assets/content/groups.json).
+class PathGroup {
+  const PathGroup({required this.id, required this.order, required this.title, required this.description});
+
+  final String id;
+  final int order;
+  final LText title;
+  final LText description;
+
+  static PathGroup parse(Map<String, dynamic> j) => PathGroup(
+    id: j['id'] as String,
+    order: j['order'] as int,
+    title: LText.parse(j['title'], 'title'),
+    description: LText.parse(j['description'], 'description'),
+  );
 }
 
 class BookInfoText {

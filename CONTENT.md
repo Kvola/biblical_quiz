@@ -56,6 +56,7 @@ Chaîne `livre:chapitre:verset`, livres numérotés 1 (Genèse) à 66 (Apocalyps
   "id": "story",
   "order": 1,
   "icon": "auto_stories",
+  "group": "discover",
   "title": {"fr": "Le grand récit", "en": "The big story"},
   "description": {"fr": "…", "en": "…"},
   "lessons": [
@@ -94,7 +95,26 @@ Chaîne `livre:chapitre:verset`, livres numérotés 1 (Genèse) à 66 (Apocalyps
   **Ne jamais changer un id publié** : la progression des utilisateurs y est attachée.
 - `choices` : 3 ou 4 propositions, mêmes nombres en FR et EN, **la bonne réponse
   à l'indice `answer`** dans les deux langues (l'application mélange l'ordre).
-- `icon` : un nom d'icône Material (snake_case).
+- `icon` : un nom d'icône Material (snake_case), déclaré dans `pathIcon()`
+  (`lib/core/theme.dart`) — le validateur refuse un nom inconnu.
+- `group` : la section de l'onglet Parcours (id d'un groupe de `groups.json`).
+
+### `assets/content/groups.json` — les sections de l'onglet Parcours
+
+Liste de `{id, order, title: {fr, en}, description: {fr, en}}`. Les parcours d'un
+groupe s'affichent dans leur `order` ; « Les 66 livres » ferment le premier groupe.
+Le bilan d'un parcours (10 questions tirées de ses leçons) est construit par
+l'application : rien à écrire.
+
+### `assets/bible/lsg_printed.json` — numéros des Segond imprimées
+
+Produit par `python3 scripts/build_lsg_printed.py <ls1910.json>` (voir l'en-tête
+du script) : ne pas modifier à la main. Les deux Bibles embarquées suivent la
+numérotation de la King James ; ce fichier donne, pour les chapitres numérotés
+autrement dans une Segond imprimée (titres des Psaumes, Jonas 2, Exode 8…), le
+numéro sur papier, que l'application affiche en français. Une question peut donc
+dire « verset 7 » pour le Psaume 19 : l'application ajoute « Segond imprimée :
+Psaumes 19:8 ».
 
 ### `assets/content/books.json` — les 66 livres
 

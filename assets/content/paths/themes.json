@@ -2,6 +2,7 @@
  "id": "themes",
  "order": 4,
  "icon": "lightbulb",
+ "group": "discover",
  "title": {
   "fr": "Les grands thèmes",
   "en": "Great themes"

@@ -143,6 +143,55 @@
       }
     }
   },
+  "printedRef": "Printed Segond: {ref}",
+  "@printedRef": {
+    "placeholders": {
+      "ref": {
+        "type": "String"
+      }
+    }
+  },
+  "printedNoteTitle": "Verse numbers",
+  "printedNoteBody": "Verse numbers in the app follow the King James Version, so that French and English share the same references.\n\nMany printed French Segond Bibles number a few passages differently. In the Psalms especially, the psalm’s title often counts as verse 1: Psalm 19:7 in the app is Psalm 19:8 in a printed Segond.\n\nWhen that happens, the app also shows the printed Segond number.",
+  "printedChapterBanner": "In a printed Segond, the verses of this chapter are numbered differently. Tap a verse to see its printed number.",
+  "printedMore": "Learn more",
+  "updateAvailable": "Version {version} available",
+  "@updateAvailable": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "updateRequired": "Update required: version {version}",
+  "@updateRequired": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "updateRequiredHint": "This version is no longer supported: install the new one to continue.",
+  "updateDownload": "Download",
+  "updateLater": "Later",
+  "webInstallTitle": "Install the Android app",
+  "webInstallBody": "Smoother every day, and your data no longer depends on the browser.",
+  "webInstallAction": "Install",
+  "homeScreenTitle": "Add the app to your Home Screen",
+  "homeScreenBody": "Tap Share (the square with an arrow), then “Add to Home Screen”. The app will open full screen and your data will be kept more reliably.",
+  "homeScreenDismiss": "Got it",
+  "pathReviewTitle": "Path review",
+  "pathReviewSubtitle": "{count, plural, =1{1 question} other{{count} questions}} from every lesson in the path",
+  "@pathReviewSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pathReviewHint": "Best once you have finished the lessons",
+  "pathReviewAction": "Take the path review",
+  "nextPath": "Next path",
   "next": "Next",
   "seeResult": "See the result",
   "quitTitle": "Leave?",
@@ -438,16 +487,5 @@
         "type": "int"
       }
     }
-  },
-  "updateAvailable": "Version {version} available",
-  "updateRequired": "Update required: version {version}",
-  "updateRequiredHint": "This version is no longer supported: install the new one to continue.",
-  "updateDownload": "Download",
-  "updateLater": "Later",
-  "webInstallTitle": "Install the Android app",
-  "webInstallBody": "Smoother every day, and your data no longer depends on the browser.",
-  "webInstallAction": "Install",
-  "homeScreenTitle": "Add the app to your Home Screen",
-  "homeScreenBody": "Tap Share (the square with an arrow), then “Add to Home Screen”. The app will open full screen and your data will be kept more reliably.",
-  "homeScreenDismiss": "Got it"
+  }
 }

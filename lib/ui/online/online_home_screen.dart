@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../online/models.dart';
@@ -12,6 +11,7 @@ import 'create_tournament_screen.dart';
 import 'match_screen.dart';
 import 'online_common.dart';
 import 'projection_screen.dart';
+import 'scan_screen.dart';
 import 'sign_in_screen.dart';
 import 'tournament_screen.dart';
 
@@ -134,6 +134,13 @@ class _Welcome extends ConsumerWidget {
           label: Text(l.onlineBecomePlayer),
           onPressed: () => SignInScreen.open(context),
         ),
+        const SizedBox(height: 8),
+        // On vous montre un QR code de partie : le scanner fait devenir joueur, puis entrer.
+        OutlinedButton.icon(
+          icon: const Icon(Icons.qr_code_scanner),
+          label: Text(l.scanQr),
+          onPressed: () => scanAndJoin(context, ref),
+        ),
         const SizedBox(height: 24),
         Card(
           child: ListTile(
@@ -198,6 +205,11 @@ class _PlayerHome extends ConsumerWidget {
                 icon: const Icon(Icons.login),
                 label: Text(l.onlineJoin),
                 onPressed: () => joinByCode(context, ref),
+              ),
+              FilledButton.tonalIcon(
+                icon: const Icon(Icons.qr_code_scanner),
+                label: Text(l.scanQr),
+                onPressed: () => scanAndJoin(context, ref),
               ),
               OutlinedButton.icon(
                 icon: const Icon(Icons.emoji_events_outlined),
@@ -340,7 +352,7 @@ class _ResumeCard extends StatelessWidget {
 /// Rejoindre par un code (saisi, ou reçu par lien) : ouvre le match ou la fiche du tournoi.
 Future<void> joinByCode(BuildContext context, WidgetRef ref, {String? code}) async {
   final l = context.l10n;
-  code ??= await _askCode(context, l.onlineJoinTitle);
+  code ??= await askGameCode(context, l.onlineJoinTitle);
   if (code == null || code.isEmpty || !context.mounted) return;
   final r = await runOnline(context, () => ref.read(onlineServiceProvider).join(code!));
   if (r == null || !context.mounted) return;
@@ -352,28 +364,20 @@ Future<void> joinByCode(BuildContext context, WidgetRef ref, {String? code}) asy
   }
 }
 
-Future<String?> _askCode(BuildContext context, String title) {
-  final controller = TextEditingController();
-  return showDialog<String>(
-    context: context,
-    builder: (c) => AlertDialog(
-      title: Text(title),
-      content: TextField(
-        controller: controller,
-        autofocus: true,
-        maxLength: 6,
-        textCapitalization: TextCapitalization.characters,
-        inputFormatters: [FilteringTextInputFormatter.allow(RegExp(r'[A-Za-z0-9]'))],
-        style: const TextStyle(fontSize: 24, letterSpacing: 4, fontWeight: FontWeight.w700),
-        decoration: InputDecoration(hintText: c.l10n.onlineJoinHint),
-        onSubmitted: (v) => Navigator.pop(c, v.trim().toUpperCase()),
-      ),
-      actions: [
-        TextButton(onPressed: () => Navigator.pop(c), child: Text(c.l10n.cancel)),
-        FilledButton(onPressed: () => Navigator.pop(c, controller.text.trim().toUpperCase()), child: Text(c.l10n.onlineJoin)),
-      ],
-    ),
-  );
+/// Scanner le QR code d'une partie : rejoindre (match ou tournoi) ou regarder (projection).
+///
+/// Pas encore joueur : on le devient d'abord, puis la partie scannée s'ouvre.
+Future<void> scanAndJoin(BuildContext context, WidgetRef ref) async {
+  final scan = await ref.read(gameScannerProvider)(context);
+  if (scan == null || !context.mounted) return;
+  if (scan.watch != null) {
+    await ProjectionScreen.open(context, code: scan.watch);
+    return;
+  }
+  final me = await ref.read(onlineMeProvider.future).catchError((_) => null);
+  if (!context.mounted) return;
+  if (me?.player == null && !await SignInScreen.open(context)) return;
+  if (context.mounted) await joinByCode(context, ref, code: scan.join);
 }
 
 // ------------------------------------------------------------------ profil

@@ -12,6 +12,7 @@ import '../../online/online_providers.dart';
 import '../../online/realtime.dart';
 import '../common.dart';
 import 'online_common.dart';
+import 'scan_screen.dart';
 
 /// Écran de projection : un match en grand (vidéoprojecteur, télévision), sans compte.
 ///
@@ -128,6 +129,17 @@ class _ProjectionScreenState extends ConsumerState<ProjectionScreen> {
                           onSubmitted: _start,
                         ),
                         FilledButton(onPressed: () => _start(_input.text), child: Text(l.projectionShow)),
+                        const SizedBox(height: 8),
+                        // Le QR code de la salle d'attente mène au même match.
+                        OutlinedButton.icon(
+                          icon: const Icon(Icons.qr_code_scanner),
+                          label: Text(l.scanQr),
+                          onPressed: () async {
+                            final scan = await ref.read(gameScannerProvider)(context);
+                            final code = scan?.watch ?? scan?.join;
+                            if (code != null && mounted) _start(code);
+                          },
+                        ),
                       ],
                     ),
                   ),

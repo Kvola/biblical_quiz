@@ -1688,6 +1688,36 @@ class AppLocalizationsEn extends AppLocalizations {
   String get errRateLimited => 'Too many attempts. Try again in a few minutes.';
 
   @override
+  String get scanQr => 'Scan the QR code';
+
+  @override
+  String get scanHint =>
+      'Point at the QR code shown in the match or tournament waiting room.';
+
+  @override
+  String get scanNotAGame => 'This QR code is not a Bible Quiz game.';
+
+  @override
+  String get scanTorch => 'Flashlight';
+
+  @override
+  String get scanFromImage => 'Choose an image';
+
+  @override
+  String get scanNoQrInImage => 'No game QR code in this image.';
+
+  @override
+  String get scanTypeCode => 'Type the code';
+
+  @override
+  String get scanCameraDenied =>
+      'Camera access was denied. Allow it in the phone settings, or type the code.';
+
+  @override
+  String get scanCameraUnavailable =>
+      'The camera is not available. Type the game code.';
+
+  @override
   String get tourCreateTitle => 'New tournament';
 
   @override

@@ -413,9 +413,11 @@ Le jeu en ligne est **facultatif** : tout le reste de l'application fonctionne s
 **Inviter les autres**
 
 La salle d'attente affiche le **code du match** en grand (par exemple *K7MP2Q*) et son **QR code**. Les autres joueurs :
-- saisissent le code dans **Jouer avec d'autres → Rejoindre** ;
-- ou scannent le QR code avec l'appareil photo de leur téléphone ;
+- touchent **Jouer avec d'autres → Scanner le QR code** et visent le QR code affiché sur le téléphone de Koffi : ils entrent aussitôt dans le match ;
+- ou saisissent le code dans **Jouer avec d'autres → Rejoindre** ;
 - ou touchent le lien reçu avec **Inviter par WhatsApp**.
+
+> **Bon à savoir** : le QR code se lit aussi avec l'appareil photo habituel du téléphone : il ouvre une page qui propose d'ouvrir l'application, de jouer dans le navigateur ou d'installer l'application. Vous avez reçu une **capture d'écran** du QR code (par WhatsApp) ? Dans **Scanner le QR code**, touchez l'icône d'image et choisissez-la. Si la caméra ne fonctionne pas, **Saisir le code** reste toujours possible.
 
 Un match se joue de 2 à 10 joueurs. Quand tout le monde est là, Koffi touche **Lancer le match**.
 
@@ -512,6 +514,9 @@ Non. Aucun compte n'est demandé. Votre progression reste sur votre téléphone.
 
 **Que voient les autres joueurs de moi ?**
 Votre pseudo et vos points, rien d'autre. Votre numéro de téléphone ne sert qu'à protéger votre compte. Un pseudo déplacé peut être signalé (menu **⋮** à côté du joueur) ; l'équipe du serveur l'examine.
+
+**Comment scanner le QR code d'un match ou d'un tournoi ?**
+Dans **Jouer avec d'autres**, touchez **Scanner le QR code**, autorisez la caméra la première fois, puis visez le QR code de la salle d'attente (sur le téléphone de l'organisateur ou sur l'écran de projection). L'icône de lampe éclaire si la salle est sombre. Si vous n'êtes pas encore joueur, l'application vous fait d'abord créer votre compte, puis vous fait entrer dans la partie. Vous avez refusé l'accès à la caméra ? Touchez **Réessayer**, autorisez-le dans les réglages du téléphone (Applications → Quiz Biblique → Autorisations), ou saisissez simplement le code.
 
 **Pourquoi le serveur refuse-t-il de créer un match ?**
 Pour ménager le serveur, le nombre de matchs et de tournois en même temps est limité. Réessayez quelques minutes plus tard.

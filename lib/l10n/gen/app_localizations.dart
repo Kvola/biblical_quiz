@@ -2780,6 +2780,60 @@ abstract class AppLocalizations {
   /// **'Trop de tentatives. Réessayez dans quelques minutes.'**
   String get errRateLimited;
 
+  /// No description provided for @scanQr.
+  ///
+  /// In fr, this message translates to:
+  /// **'Scanner le QR code'**
+  String get scanQr;
+
+  /// No description provided for @scanHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Visez le QR code affiché dans la salle d’attente du match ou du tournoi.'**
+  String get scanHint;
+
+  /// No description provided for @scanNotAGame.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ce QR code n’est pas celui d’une partie de Quiz Biblique.'**
+  String get scanNotAGame;
+
+  /// No description provided for @scanTorch.
+  ///
+  /// In fr, this message translates to:
+  /// **'Lampe'**
+  String get scanTorch;
+
+  /// No description provided for @scanFromImage.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisir une image'**
+  String get scanFromImage;
+
+  /// No description provided for @scanNoQrInImage.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun QR code de partie dans cette image.'**
+  String get scanNoQrInImage;
+
+  /// No description provided for @scanTypeCode.
+  ///
+  /// In fr, this message translates to:
+  /// **'Saisir le code'**
+  String get scanTypeCode;
+
+  /// No description provided for @scanCameraDenied.
+  ///
+  /// In fr, this message translates to:
+  /// **'L’accès à la caméra a été refusé. Autorisez-le dans les réglages du téléphone, ou saisissez le code.'**
+  String get scanCameraDenied;
+
+  /// No description provided for @scanCameraUnavailable.
+  ///
+  /// In fr, this message translates to:
+  /// **'La caméra n’est pas disponible. Saisissez le code de la partie.'**
+  String get scanCameraUnavailable;
+
   /// No description provided for @tourCreateTitle.
   ///
   /// In fr, this message translates to:

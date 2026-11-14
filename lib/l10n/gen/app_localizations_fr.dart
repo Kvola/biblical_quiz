@@ -1696,6 +1696,37 @@ class AppLocalizationsFr extends AppLocalizations {
       'Trop de tentatives. Réessayez dans quelques minutes.';
 
   @override
+  String get scanQr => 'Scanner le QR code';
+
+  @override
+  String get scanHint =>
+      'Visez le QR code affiché dans la salle d’attente du match ou du tournoi.';
+
+  @override
+  String get scanNotAGame =>
+      'Ce QR code n’est pas celui d’une partie de Quiz Biblique.';
+
+  @override
+  String get scanTorch => 'Lampe';
+
+  @override
+  String get scanFromImage => 'Choisir une image';
+
+  @override
+  String get scanNoQrInImage => 'Aucun QR code de partie dans cette image.';
+
+  @override
+  String get scanTypeCode => 'Saisir le code';
+
+  @override
+  String get scanCameraDenied =>
+      'L’accès à la caméra a été refusé. Autorisez-le dans les réglages du téléphone, ou saisissez le code.';
+
+  @override
+  String get scanCameraUnavailable =>
+      'La caméra n’est pas disponible. Saisissez le code de la partie.';
+
+  @override
   String get tourCreateTitle => 'Nouveau tournoi';
 
   @override

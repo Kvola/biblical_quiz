@@ -10,6 +10,7 @@ import 'package:biblical_quiz/online/service.dart';
 import 'package:biblical_quiz/ui/online/match_screen.dart';
 import 'package:biblical_quiz/ui/online/online_common.dart';
 import 'package:biblical_quiz/ui/online/online_links.dart';
+import 'package:biblical_quiz/ui/online/scan_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -101,6 +102,48 @@ void main() {
       expect(parseGameLink(Uri.parse('https://x.org/apps/quiz-biblique/web/')).join, isNull);
       expect(parseGameLink(Uri.parse('quizbiblique://join/TOOLONG1')).join, isNull);
     });
+  });
+
+  group('QR code scanné', () {
+    test('liens et codes de partie reconnus', () {
+      expect(parseScannedGame('https://iyf.ebng.world/quiz-biblique/rejoindre/K7MP2Q'), (join: 'K7MP2Q', watch: null));
+      expect(parseScannedGame('  https://x.org/quiz-biblique/join/k7mp2q '), (join: 'K7MP2Q', watch: null));
+      expect(parseScannedGame('quizbiblique://join/K7MP2Q'), (join: 'K7MP2Q', watch: null));
+      expect(parseScannedGame('https://x.org/apps/quiz-biblique/web/?watch=K7MP2Q'), (join: null, watch: 'K7MP2Q'));
+      expect(parseScannedGame('k7mp2q'), (join: 'K7MP2Q', watch: null));
+    });
+
+    test('autres QR codes refusés', () {
+      expect(parseScannedGame('WIFI:S:Eglise;T:WPA;P:secret;;'), isNull);
+      expect(parseScannedGame('https://www.example.org/'), isNull);
+      expect(parseScannedGame('javascript:alert(1)/join/K7MP2Q'), isNull);
+      expect(parseScannedGame('mailto:a@b.c'), isNull);
+      expect(parseScannedGame(''), isNull);
+      expect(parseScannedGame('K7MP2Q9'), isNull);
+    });
+  });
+
+  testWidgets('saisir le code : le bouton « Scanner » remplit et valide', (tester) async {
+    String? result;
+    await tester.pumpWidget(ProviderScope(
+      overrides: [gameScannerProvider.overrideWithValue((_) async => (join: 'K7MP2Q', watch: null))],
+      child: MaterialApp(
+        locale: const Locale('fr'),
+        supportedLocales: AppLocalizations.supportedLocales,
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+        home: Builder(
+          builder: (context) => TextButton(
+            onPressed: () async => result = await askGameCode(context, 'Rejoindre'),
+            child: const Text('ouvrir'),
+          ),
+        ),
+      ),
+    ));
+    await tester.tap(find.text('ouvrir'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Scanner le QR code'));
+    await tester.pumpAndSettle();
+    expect(result, 'K7MP2Q');
   });
 
   group('passages', () {

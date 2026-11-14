@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Vérification des nouvelles versions (facultative : l'application fonctionne hors ligne). -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Caméra : scanner le QR code d'une partie. Facultative : un appareil sans caméra saisit le code. -->
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
     <application
         android:label="@string/app_name"
         android:name="${applicationName}"

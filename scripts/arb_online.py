@@ -208,4 +208,18 @@ ONLINE = {
     'errBadCode': ('Code incorrect ou expiré.', 'Wrong or expired code.'),
     'errBanned': ('Votre compte joueur est suspendu.', 'Your player account is suspended.'),
     'errRateLimited': ('Trop de tentatives. Réessayez dans quelques minutes.', 'Too many attempts. Try again in a few minutes.'),
+    # Scanner un QR code
+    'scanQr': ('Scanner le QR code', 'Scan the QR code'),
+    'scanHint': ('Visez le QR code affiché dans la salle d’attente du match ou du tournoi.',
+                 'Point at the QR code shown in the match or tournament waiting room.'),
+    'scanNotAGame': ('Ce QR code n’est pas celui d’une partie de Quiz Biblique.',
+                     'This QR code is not a Bible Quiz game.'),
+    'scanTorch': ('Lampe', 'Flashlight'),
+    'scanFromImage': ('Choisir une image', 'Choose an image'),
+    'scanNoQrInImage': ('Aucun QR code de partie dans cette image.', 'No game QR code in this image.'),
+    'scanTypeCode': ('Saisir le code', 'Type the code'),
+    'scanCameraDenied': ('L’accès à la caméra a été refusé. Autorisez-le dans les réglages du téléphone, ou saisissez le code.',
+                         'Camera access was denied. Allow it in the phone settings, or type the code.'),
+    'scanCameraUnavailable': ('La caméra n’est pas disponible. Saisissez le code de la partie.',
+                              'The camera is not available. Type the game code.'),
 }

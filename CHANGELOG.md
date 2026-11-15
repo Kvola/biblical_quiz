@@ -2,7 +2,7 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
-## Prochaine version
+## 1.11.1 (build 13) — 15 novembre 2026
 
 - Français : « 0 … » au lieu de « 1 … » quand un nombre vaut zéro (pluriels).
 

@@ -215,13 +215,13 @@ abstract class AppLocalizations {
   /// No description provided for @questionsCount.
   ///
   /// In fr, this message translates to:
-  /// **'{count, plural, =1{1 question} other{{count} questions}}'**
+  /// **'{count, plural, =0{0 question} =1{1 question} other{{count} questions}}'**
   String questionsCount(int count);
 
   /// No description provided for @versesCount.
   ///
   /// In fr, this message translates to:
-  /// **'{count, plural, =1{1 verset} other{{count} versets}}'**
+  /// **'{count, plural, =0{0 verset} =1{1 verset} other{{count} versets}}'**
   String versesCount(int count);
 
   /// No description provided for @welcomeTitle.
@@ -275,7 +275,7 @@ abstract class AppLocalizations {
   /// No description provided for @streakDays.
   ///
   /// In fr, this message translates to:
-  /// **'{count, plural, =1{1 jour de suite} other{{count} jours de suite}}'**
+  /// **'{count, plural, =0{0 jour de suite} =1{1 jour de suite} other{{count} jours de suite}}'**
   String streakDays(int count);
 
   /// No description provided for @streakStart.
@@ -329,7 +329,7 @@ abstract class AppLocalizations {
   /// No description provided for @reviewDue.
   ///
   /// In fr, this message translates to:
-  /// **'{count, plural, =1{1 question à revoir aujourd’hui} other{{count} questions à revoir aujourd’hui}}'**
+  /// **'{count, plural, =0{0 question à revoir aujourd’hui} =1{1 question à revoir aujourd’hui} other{{count} questions à revoir aujourd’hui}}'**
   String reviewDue(int count);
 
   /// No description provided for @reviewStart.
@@ -785,7 +785,7 @@ abstract class AppLocalizations {
   /// No description provided for @backupReminderDays.
   ///
   /// In fr, this message translates to:
-  /// **'Dernière sauvegarde de vos notes il y a {count, plural, =1{1 jour} other{{count} jours}}. Pensez à en faire une nouvelle.'**
+  /// **'Dernière sauvegarde de vos notes il y a {count, plural, =0{0 jour} =1{1 jour} other{{count} jours}}. Pensez à en faire une nouvelle.'**
   String backupReminderDays(int count);
 
   /// No description provided for @backupNow.
@@ -977,7 +977,7 @@ abstract class AppLocalizations {
   /// No description provided for @pathReviewSubtitle.
   ///
   /// In fr, this message translates to:
-  /// **'{count, plural, =1{1 question tirée} other{{count} questions tirées}} de toutes les leçons du parcours'**
+  /// **'{count, plural, =0{0 question tirée} =1{1 question tirée} other{{count} questions tirées}} de toutes les leçons du parcours'**
   String pathReviewSubtitle(int count);
 
   /// No description provided for @pathReviewHint.
@@ -1139,7 +1139,7 @@ abstract class AppLocalizations {
   /// No description provided for @bookChapters.
   ///
   /// In fr, this message translates to:
-  /// **'{count, plural, =1{1 chapitre} other{{count} chapitres}}'**
+  /// **'{count, plural, =0{0 chapitre} =1{1 chapitre} other{{count} chapitres}}'**
   String bookChapters(int count);
 
   /// No description provided for @readBook.
@@ -1361,7 +1361,7 @@ abstract class AppLocalizations {
   /// No description provided for @searchMoreResults.
   ///
   /// In fr, this message translates to:
-  /// **'Affiner la recherche pour voir les autres versets ({count, plural, =1{1 de plus} other{{count} de plus}}).'**
+  /// **'Affiner la recherche pour voir les autres versets ({count, plural, =0{0 de plus} =1{1 de plus} other{{count} de plus}}).'**
   String searchMoreResults(int count);
 
   /// No description provided for @progressTitle.
@@ -1409,7 +1409,7 @@ abstract class AppLocalizations {
   /// No description provided for @daysShort.
   ///
   /// In fr, this message translates to:
-  /// **'{count, plural, =1{1 jour} other{{count} jours}}'**
+  /// **'{count, plural, =0{0 jour} =1{1 jour} other{{count} jours}}'**
   String daysShort(int count);
 
   /// No description provided for @favoritesTitle.
@@ -1649,7 +1649,7 @@ abstract class AppLocalizations {
   /// No description provided for @startReadingQuiz.
   ///
   /// In fr, this message translates to:
-  /// **'{count, plural, =1{Commencer · 1 livre} other{Commencer · {count} livres}}'**
+  /// **'{count, plural, =0{Commencer · 0 livre} =1{Commencer · 1 livre} other{Commencer · {count} livres}}'**
   String startReadingQuiz(int count);
 
   /// No description provided for @readingQuizPickOne.
@@ -1673,7 +1673,7 @@ abstract class AppLocalizations {
   /// No description provided for @readingQuizBooksCount.
   ///
   /// In fr, this message translates to:
-  /// **'{count, plural, =1{1 livre} other{{count} livres}}'**
+  /// **'{count, plural, =0{0 livre} =1{1 livre} other{{count} livres}}'**
   String readingQuizBooksCount(int count);
 
   /// No description provided for @fromTheText.
@@ -2939,13 +2939,13 @@ abstract class AppLocalizations {
   /// No description provided for @tourMinutesValue.
   ///
   /// In fr, this message translates to:
-  /// **'{minutes, plural, =1{1 minute} other{{minutes} minutes}}'**
+  /// **'{minutes, plural, =0{0 minute} =1{1 minute} other{{minutes} minutes}}'**
   String tourMinutesValue(int minutes);
 
   /// No description provided for @tourHoursValue.
   ///
   /// In fr, this message translates to:
-  /// **'{n, plural, =1{1 heure} other{{n} heures}}'**
+  /// **'{n, plural, =0{0 heure} =1{1 heure} other{{n} heures}}'**
   String tourHoursValue(int n);
 
   /// No description provided for @tourPublic.

@@ -73,6 +73,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$count questions',
       one: '1 question',
+      zero: '0 question',
     );
     return '$_temp0';
   }
@@ -84,6 +85,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$count versets',
       one: '1 verset',
+      zero: '0 verset',
     );
     return '$_temp0';
   }
@@ -124,6 +126,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$count jours de suite',
       one: '1 jour de suite',
+      zero: '0 jour de suite',
     );
     return '$_temp0';
   }
@@ -160,6 +163,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$count questions à revoir aujourd’hui',
       one: '1 question à revoir aujourd’hui',
+      zero: '0 question à revoir aujourd’hui',
     );
     return '$_temp0';
   }
@@ -426,6 +430,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$count jours',
       one: '1 jour',
+      zero: '0 jour',
     );
     return 'Dernière sauvegarde de vos notes il y a $_temp0. Pensez à en faire une nouvelle.';
   }
@@ -562,6 +567,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$count questions tirées',
       one: '1 question tirée',
+      zero: '0 question tirée',
     );
     return '$_temp0 de toutes les leçons du parcours';
   }
@@ -655,6 +661,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$count chapitres',
       one: '1 chapitre',
+      zero: '0 chapitre',
     );
     return '$_temp0';
   }
@@ -799,6 +806,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$count de plus',
       one: '1 de plus',
+      zero: '0 de plus',
     );
     return 'Affiner la recherche pour voir les autres versets ($_temp0).';
   }
@@ -831,6 +839,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$count jours',
       one: '1 jour',
+      zero: '0 jour',
     );
     return '$_temp0';
   }
@@ -973,6 +982,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: 'Commencer · $count livres',
       one: 'Commencer · 1 livre',
+      zero: 'Commencer · 0 livre',
     );
     return '$_temp0';
   }
@@ -996,6 +1006,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$count livres',
       one: '1 livre',
+      zero: '0 livre',
     );
     return '$_temp0';
   }
@@ -1791,6 +1802,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$minutes minutes',
       one: '1 minute',
+      zero: '0 minute',
     );
     return '$_temp0';
   }
@@ -1802,6 +1814,7 @@ class AppLocalizationsFr extends AppLocalizations {
       locale: localeName,
       other: '$n heures',
       one: '1 heure',
+      zero: '0 heure',
     );
     return '$_temp0';
   }

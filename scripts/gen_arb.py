@@ -404,10 +404,58 @@ def placeholders(text):
     return names
 
 
+# ── Pluriels français : le cas « =0 » ─────────────────────────────────────
+# En français, 0 tombe dans la catégorie « one » comme 1 : sans « =0 »,
+# « {count, plural, =1{1 question} …} » afficherait « 1 question » pour zéro.
+# Copie de sunday_jobs/docs/fr_pluriel_zero.py (dépôt de travail).
+_UN = re.compile(r'(?<![\d{])1(?![\d}])')
+
+
+def _branches(body):
+    """[(clé, texte, début, fin)] des branches de premier niveau d'un corps « plural »."""
+    out, i = [], 0
+    while True:
+        m = re.compile(r'\s*(=\d+|zero|one|two|few|many|other)\s*\{').match(body, i)
+        if not m:
+            return out
+        depth, k = 1, m.end()
+        while depth:
+            depth += {'{': 1, '}': -1}.get(body[k], 0)
+            k += 1
+        out.append((m.group(1), body[m.end():k - 1], i, k))
+        i = k
+
+
+def ajoute_zero(message):
+    """Le message, avec « =0 » ajouté à chaque pluriel français qui en a besoin."""
+    out, i = [], 0
+    pat = re.compile(r'\{(\w+),\s*plural,')
+    while True:
+        m = pat.search(message, i)
+        if not m:
+            out.append(message[i:])
+            return ''.join(out)
+        # Fin du bloc pluriel (accolades équilibrées).
+        depth, k = 1, m.start() + 1
+        while depth:
+            depth += {'{': 1, '}': -1}.get(message[k], 0)
+            k += 1
+        body = message[m.end():k - 1]
+        branches = {key: text for key, text, _a, _b in _branches(body)}
+        un = branches.get('=1', branches.get('one'))
+        if un is not None and '=0' not in branches and 'zero' not in branches and _UN.search(un):
+            zero = _UN.sub('0', un)
+            zero = re.sub(r"\b([dlj])[’'](?=0)", lambda x: {'d': 'de ', 'l': 'le ', 'j': 'je '}[x.group(1)], zero)
+            body = ' =0{%s}%s' % (zero, body if body.startswith(' ') else ' ' + body.lstrip())
+            body = body.replace('  ', ' ', 1)
+        out.append(message[i:m.end()] + ajoute_zero(body) + '}')
+        i = k
+
+
 def build(index):
     arb = {'@@locale': ('fr', 'en')[index]}
     for key, pair in S.items():
-        text = pair[index]
+        text = ajoute_zero(pair[index]) if index == 0 else pair[index]
         arb[key] = text
         ph = placeholders(pair[0])
         if ph:

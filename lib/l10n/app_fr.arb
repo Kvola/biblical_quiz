@@ -19,7 +19,7 @@
   "favoriteAdded": "Verset mis de côté",
   "favoriteRemoved": "Verset retiré",
   "undo": "Annuler",
-  "questionsCount": "{count, plural, =1{1 question} other{{count} questions}}",
+  "questionsCount": "{count, plural, =0{0 question} =1{1 question} other{{count} questions}}",
   "@questionsCount": {
     "placeholders": {
       "count": {
@@ -27,7 +27,7 @@
       }
     }
   },
-  "versesCount": "{count, plural, =1{1 verset} other{{count} versets}}",
+  "versesCount": "{count, plural, =0{0 verset} =1{1 verset} other{{count} versets}}",
   "@versesCount": {
     "placeholders": {
       "count": {
@@ -43,7 +43,7 @@
   "welcomeOffline": "Tout fonctionne sans Internet. Textes : Louis Segond 1910 (français) et King James 1769 (anglais).",
   "chooseLanguage": "Langue",
   "start": "Commencer",
-  "streakDays": "{count, plural, =1{1 jour de suite} other{{count} jours de suite}}",
+  "streakDays": "{count, plural, =0{0 jour de suite} =1{1 jour de suite} other{{count} jours de suite}}",
   "@streakDays": {
     "placeholders": {
       "count": {
@@ -59,7 +59,7 @@
   "allDone": "Vous avez terminé tous les parcours. Refaites vos leçons préférées ou lisez librement la Bible.",
   "lessonStart": "Lire et répondre",
   "reviewTitle": "À revoir",
-  "reviewDue": "{count, plural, =1{1 question à revoir aujourd’hui} other{{count} questions à revoir aujourd’hui}}",
+  "reviewDue": "{count, plural, =0{0 question à revoir aujourd’hui} =1{1 question à revoir aujourd’hui} other{{count} questions à revoir aujourd’hui}}",
   "@reviewDue": {
     "placeholders": {
       "count": {
@@ -214,7 +214,7 @@
   "shareImageFailed": "L’image n’a pas pu être créée.",
   "shareImageLong": "Passage long : seul le début figure sur l’image.",
   "backupReminderNever": "Vos notes ne sont pas encore sauvegardées. Une sauvegarde permet de les retrouver si vous changez de téléphone.",
-  "backupReminderDays": "Dernière sauvegarde de vos notes il y a {count, plural, =1{1 jour} other{{count} jours}}. Pensez à en faire une nouvelle.",
+  "backupReminderDays": "Dernière sauvegarde de vos notes il y a {count, plural, =0{0 jour} =1{1 jour} other{{count} jours}}. Pensez à en faire une nouvelle.",
   "@backupReminderDays": {
     "placeholders": {
       "count": {
@@ -295,7 +295,7 @@
   "notesRestoreNewer": "Cette sauvegarde vient d’une version plus récente : mettez l’application à jour.",
   "notesRestoreError": "Le fichier n’a pas pu être lu.",
   "pathReviewTitle": "Bilan du parcours",
-  "pathReviewSubtitle": "{count, plural, =1{1 question tirée} other{{count} questions tirées}} de toutes les leçons du parcours",
+  "pathReviewSubtitle": "{count, plural, =0{0 question tirée} =1{1 question tirée} other{{count} questions tirées}} de toutes les leçons du parcours",
   "@pathReviewSubtitle": {
     "placeholders": {
       "count": {
@@ -339,7 +339,7 @@
   "bookAuthor": "Auteur",
   "bookPeriod": "Époque",
   "bookThemes": "Thèmes",
-  "bookChapters": "{count, plural, =1{1 chapitre} other{{count} chapitres}}",
+  "bookChapters": "{count, plural, =0{0 chapitre} =1{1 chapitre} other{{count} chapitres}}",
   "@bookChapters": {
     "placeholders": {
       "count": {
@@ -438,7 +438,7 @@
   "searchExampleExclude": "berger -loup",
   "searchExampleRef": "Jean 3:16",
   "searchPreparing": "Préparation de la recherche…",
-  "searchMoreResults": "Affiner la recherche pour voir les autres versets ({count, plural, =1{1 de plus} other{{count} de plus}}).",
+  "searchMoreResults": "Affiner la recherche pour voir les autres versets ({count, plural, =0{0 de plus} =1{1 de plus} other{{count} de plus}}).",
   "@searchMoreResults": {
     "placeholders": {
       "count": {
@@ -453,7 +453,7 @@
   "statMastered": "Questions acquises",
   "statStreak": "Série en cours",
   "statBestStreak": "Meilleure série",
-  "daysShort": "{count, plural, =1{1 jour} other{{count} jours}}",
+  "daysShort": "{count, plural, =0{0 jour} =1{1 jour} other{{count} jours}}",
   "@daysShort": {
     "placeholders": {
       "count": {
@@ -517,7 +517,7 @@
   "scopeReadHint": "Les questions portent seulement sur les chapitres que vous avez lus.",
   "scopeWholeHint": "Les questions portent sur l’ensemble des livres choisis.",
   "questionCountLabel": "Nombre de questions",
-  "startReadingQuiz": "{count, plural, =1{Commencer · 1 livre} other{Commencer · {count} livres}}",
+  "startReadingQuiz": "{count, plural, =0{Commencer · 0 livre} =1{Commencer · 1 livre} other{Commencer · {count} livres}}",
   "@startReadingQuiz": {
     "placeholders": {
       "count": {
@@ -535,7 +535,7 @@
       }
     }
   },
-  "readingQuizBooksCount": "{count, plural, =1{1 livre} other{{count} livres}}",
+  "readingQuizBooksCount": "{count, plural, =0{0 livre} =1{1 livre} other{{count} livres}}",
   "@readingQuizBooksCount": {
     "placeholders": {
       "count": {
@@ -1054,7 +1054,7 @@
   },
   "tourForfeitDelay": "Délai pour confirmer « Prêt »",
   "tourForfeitHint": "Quand un duel s’ouvre, chaque camp a ce délai pour se déclarer prêt. Sinon, il perd par forfait.",
-  "tourMinutesValue": "{minutes, plural, =1{1 minute} other{{minutes} minutes}}",
+  "tourMinutesValue": "{minutes, plural, =0{0 minute} =1{1 minute} other{{minutes} minutes}}",
   "@tourMinutesValue": {
     "placeholders": {
       "minutes": {
@@ -1062,7 +1062,7 @@
       }
     }
   },
-  "tourHoursValue": "{n, plural, =1{1 heure} other{{n} heures}}",
+  "tourHoursValue": "{n, plural, =0{0 heure} =1{1 heure} other{{n} heures}}",
   "@tourHoursValue": {
     "placeholders": {
       "n": {

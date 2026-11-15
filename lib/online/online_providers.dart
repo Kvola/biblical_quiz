@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'models.dart';
+import 'push.dart';
 import 'realtime.dart';
 import 'service.dart';
 
@@ -39,9 +40,23 @@ class OnlineMeNotifier extends AsyncNotifier<OnlineMe?> {
   }
 
   Future<void> signOut() async {
-    await ref.read(onlineServiceProvider).signOut();
+    final deviceToken = await ref.read(pushProvider).currentToken();
+    await ref.read(onlineServiceProvider).signOut(deviceToken: deviceToken);
     state = const AsyncData(null);
   }
+}
+
+/// Notifications push ; fixé dans `main()` sur Android, sans effet ailleurs (tests, web).
+final pushProvider = Provider<PushService>((ref) => NoPushService());
+
+/// Inscrit ce téléphone aux notifications si la personne est connectée au jeu.
+/// Jamais bloquant : réessayé à la prochaine ouverture.
+Future<void> registerPushDevice(OnlineService service, PushService push, [String? token]) async {
+  try {
+    if (!await service.hasSession()) return;
+    final t = token ?? await push.token();
+    if (t != null) await service.registerDevice(t);
+  } catch (_) {}
 }
 
 final serverConfigProvider = FutureProvider<ServerConfig>((ref) => ref.watch(onlineServiceProvider).config());

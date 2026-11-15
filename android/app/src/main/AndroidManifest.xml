@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Vérification des nouvelles versions (facultative : l'application fonctionne hors ligne). -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Notifications du jeu en ligne (Android 13+ : demandée à l'inscription comme joueur). -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     <!-- Caméra : scanner le QR code d'une partie. Facultative : un appareil sans caméra saisit le code. -->
     <uses-feature android:name="android.hardware.camera" android:required="false"/>
     <application
@@ -38,6 +40,10 @@
                 <data android:scheme="quizbiblique" android:host="join"/>
             </intent-filter>
         </activity>
+        <!-- Notifications (Firebase) : canal « default » créé par MainActivity, icône monochrome. -->
+        <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="default"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_stat_quiz"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/notification_color"/>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

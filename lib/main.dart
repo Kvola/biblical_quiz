@@ -10,6 +10,7 @@ import 'core/app_update.dart';
 import 'core/web_env.dart';
 import 'data/database.dart';
 import 'online/online_providers.dart';
+import 'online/push.dart';
 import 'providers.dart';
 import 'ui/online/online_links.dart';
 
@@ -25,13 +26,19 @@ void main() {
   // Progrès et lectures vivent dans le navigateur : lui demander de ne pas
   // les effacer quand la place manque.
   if (kIsWeb) unawaited(requestPersistentStorage());
+  // Notifications du jeu en ligne : Android seulement (pas de configuration
+  // Firebase pour le web). En arrière-plan : le premier écran n'attend pas Firebase.
+  final android = !kIsWeb && defaultTargetPlatform == TargetPlatform.android;
+  final push = android ? PushService() : NoPushService();
+  unawaited(push.init());
   runApp(
     ProviderScope(
       overrides: [
         databaseProvider.overrideWithValue(AppDatabase()),
         serverUrlProvider.overrideWithValue(server),
+        pushProvider.overrideWithValue(push),
         // Liens d'invitation (quizbiblique://join/CODE) ouverts depuis la page du serveur.
-        if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android)
+        if (android)
           gameLinksProvider.overrideWithValue(AppLinks().uriLinkStream),
         if (appUpdateSupported)
           appUpdateCheckerProvider.overrideWithValue(

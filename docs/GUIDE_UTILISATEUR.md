@@ -462,7 +462,7 @@ En équipe, **n'importe quel membre** peut prendre la main. S'il se trompe ou la
 
 - Quand le nombre d'inscrits suffit, l'organisatrice touche **Lancer le tournoi**. Le tableau est tiré au sort. S'il n'y a pas un nombre « rond » de participants (4, 8, 16…), certains sont **qualifiés d'office** au premier tour. Les équipes incomplètes ne sont pas retenues.
 - Les participants s'affrontent en **duels**, tour après tour, jusqu'à la **finale**. Chaque duel se joue comme un match.
-- Quand votre duel est prêt, l'application vous prévient : touchez **Prêt**. Le duel commence quand les deux camps sont prêts. Passé le délai (10 minutes par défaut), le camp qui ne s'est pas déclaré prêt perd par **forfait**.
+- Quand votre duel est prêt, l'application vous prévient, même fermée, par une notification : touchez-la, puis **Prêt**. Le duel commence quand les deux camps sont prêts. Passé le délai (10 minutes par défaut), le camp qui ne s'est pas déclaré prêt perd par **forfait**.
 - En cas d'égalité, des **questions décisives** départagent les deux camps : la première bonne réponse l'emporte.
 - Un joueur éliminé est libéré : il peut suivre le tableau, ou rejoindre une autre partie.
 
@@ -517,6 +517,9 @@ Votre pseudo et vos points, rien d'autre. Votre numéro de téléphone ne sert q
 
 **Comment scanner le QR code d'un match ou d'un tournoi ?**
 Dans **Jouer avec d'autres**, touchez **Scanner le QR code**, autorisez la caméra la première fois, puis visez le QR code de la salle d'attente (sur le téléphone de l'organisateur ou sur l'écran de projection). L'icône de lampe éclaire si la salle est sombre. Si vous n'êtes pas encore joueur, l'application vous fait d'abord créer votre compte, puis vous fait entrer dans la partie. Vous avez refusé l'accès à la caméra ? Touchez **Réessayer**, autorisez-le dans les réglages du téléphone (Applications → Quiz Biblique → Autorisations), ou saisissez simplement le code.
+
+**Quelles notifications l'application envoie-t-elle ?**
+Seulement pour le jeu en ligne, et seulement si vous êtes joueur : une invitation dans une équipe, une demande pour votre équipe, votre duel de tournoi à jouer, la fin ou l'annulation d'un tournoi, une revanche proposée. Touchez la notification : l'application ouvre directement le tournoi ou le match concerné. Le téléphone demande votre accord une fois, quand vous devenez joueur. Pour ne plus les recevoir, désactivez-les dans les réglages du téléphone (Applications → Quiz Biblique → Notifications) ou déconnectez-vous du jeu en ligne. La version web n'envoie pas de notifications.
 
 **Pourquoi le serveur refuse-t-il de créer un match ?**
 Pour ménager le serveur, le nombre de matchs et de tournois en même temps est limité. Réessayez quelques minutes plus tard.

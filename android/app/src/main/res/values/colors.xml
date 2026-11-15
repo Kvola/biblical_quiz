@@ -3,4 +3,6 @@
     <color name="ic_launcher_background">#1E3A5F</color>
     <!-- Écran de lancement : même fond que l'application au premier plan. -->
     <color name="launch_background">#1E3A5F</color>
+    <!-- Couleur des notifications (or du logo). -->
+    <color name="notification_color">#C9A227</color>
 </resources>

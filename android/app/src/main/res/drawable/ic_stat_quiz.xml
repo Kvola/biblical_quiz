@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icône de notification : le livre ouvert et ses rayons (logo), en silhouette.
+     Android la teinte : blanc dans la barre d'état, or dans le volet. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <!-- Pages : page gauche, page droite, séparées par la reliure. -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M180,400 Q340,350 488,420 L488,800 Q340,730 180,770 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M536,420 Q684,350 844,400 L844,770 Q684,730 536,800 Z" />
+    <!-- Rayons. -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="56"
+        android:strokeLineCap="round"
+        android:pathData="M512,170 L512,290 M340,230 L395,330 M684,230 L629,330 M210,320 L305,372 M814,320 L719,372" />
+</vector>

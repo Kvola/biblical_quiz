@@ -147,9 +147,18 @@ class OnlineService {
   Future<OnlineMe> updateProfile({String? pseudo, String? lang}) async =>
       OnlineMe(await write('/player/update', {'pseudo': ?pseudo, 'lang': ?lang}));
 
-  Future<void> signOut() async {
+  /// Inscrit ce téléphone aux notifications du compte connecté.
+  Future<bool> registerDevice(String deviceToken, {String platform = 'android'}) async {
+    if (!await hasSession()) return false;
+    final r = await write('/devices', {'device_token': deviceToken, 'platform': platform, 'device': 'Quiz Biblique'});
+    return r['registered'] == true;
+  }
+
+  /// [deviceToken] : ce téléphone ne reçoit plus les notifications du compte.
+  Future<void> signOut({String? deviceToken}) async {
+    await _ensureLoaded();
     try {
-      if (client.token != null) await client.write('/auth/logout');
+      if (client.token != null) await client.write('/auth/logout', {'device_token': ?deviceToken});
     } catch (_) {}
     client.token = null;
     await _tokens.write(null);

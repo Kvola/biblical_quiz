@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Bible Quiz</string>
+    <!-- Canal des notifications : invitations, duels de tournoi, revanches. -->
+    <string name="notification_channel_name">Online play</string>
 </resources>

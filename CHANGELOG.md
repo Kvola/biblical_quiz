@@ -2,6 +2,11 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.12.1 (build 16) — 17 novembre 2026
+
+- **Lien de projection** (télévision, ordinateur de salle) : l'écran de projection s'ouvre directement, sans l'écran d'accueil ni les bandeaux d'installation, même dans un navigateur qui n'a jamais ouvert l'application. L'accueil reste proposé au prochain lancement normal.
+- Réglages : le numéro de version affiché est juste (la 1.12.0 affichait encore 1.11.2).
+
 ## 1.12.0 (build 15) — 17 novembre 2026
 
 - **Diffuser un tournoi sur un écran** : l'écran de projection accepte maintenant le code d'un **tournoi** (avant : « Aucun match avec ce code »). Inscriptions : QR code, code et inscrits côte à côte sur grand écran. Tournoi en cours : tableau en direct ; le duel seul en cours s'affiche en grand de lui-même, son résultat reste 12 secondes, puis retour au tableau ; plusieurs duels en même temps : on touche celui à montrer. Fin : le vainqueur.

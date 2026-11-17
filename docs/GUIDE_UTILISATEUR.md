@@ -468,7 +468,7 @@ En équipe, **n'importe quel membre** peut prendre la main. S'il se trompe ou la
 
 **Le diffuser sur grand écran**
 
-Sur la fiche du tournoi, touchez l'icône **Diffuser sur un écran** en haut, puis **Sur cet appareil** ou **Sur une télévision ou un ordinateur** (un lien à ouvrir dans son navigateur, sans compte). Le code du tournoi se saisit aussi dans **Jouer avec d'autres → Écran de projection**.
+Sur la fiche du tournoi, touchez l'icône **Diffuser sur un écran** en haut, puis **Sur cet appareil** ou **Sur une télévision ou un ordinateur** (un lien à ouvrir dans son navigateur, sans compte). Ce lien ouvre directement l'écran de projection, même dans un navigateur qui n'a jamais ouvert Quiz Biblique : pas d'écran d'accueil à passer. Le code du tournoi se saisit aussi dans **Jouer avec d'autres → Écran de projection**.
 
 - Pendant les inscriptions, l'écran montre le **QR code** et le code à scanner pour s'inscrire, et la liste des inscrits.
 - Pendant le tournoi, l'écran montre le **tableau**. Quand un seul duel se joue, il s'affiche **en grand** de lui-même (questions, main, scores), puis son résultat reste quelques secondes avant le retour au tableau. Quand plusieurs duels se jouent en même temps, touchez celui à montrer ; **Tableau**, en haut, y revient.

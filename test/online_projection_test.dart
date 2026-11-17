@@ -1,12 +1,17 @@
 import 'dart:convert';
 
+import 'package:biblical_quiz/app.dart';
 import 'package:biblical_quiz/core/theme.dart';
+import 'package:biblical_quiz/data/database.dart';
+import 'package:biblical_quiz/providers.dart';
 import 'package:biblical_quiz/l10n/gen/app_localizations.dart';
 import 'package:biblical_quiz/online/api.dart';
 import 'package:biblical_quiz/online/online_providers.dart';
 import 'package:biblical_quiz/online/service.dart';
 import 'package:biblical_quiz/ui/online/match_screen.dart';
 import 'package:biblical_quiz/ui/online/projection_screen.dart';
+import 'package:drift/drift.dart' show DatabaseConnection;
+import 'package:drift/native.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -102,6 +107,36 @@ Future<void> _close(WidgetTester tester) async {
 }
 
 void main() {
+  testWidgets('lien de projection (?watch=) : l’écran s’ouvre sans l’accueil, même au tout premier lancement',
+      (tester) async {
+    tester.platformDispatcher.localeTestValue = const Locale('fr');
+    tester.platformDispatcher.localesTestValue = [const Locale('fr')];
+    addTearDown(tester.platformDispatcher.clearAllTestValues);
+    final db = AppDatabase.forTesting(DatabaseConnection(NativeDatabase.memory(), closeStreamsSynchronously: true));
+    final service = _service(
+      (path, p) => path == '/watch' ? {'kind': 'tournament', 'tournament': _tournament(state: 'registration'),
+                                       'my_entry_id': null, 'channel': ''} : null,
+      <String>[],
+    );
+    await tester.pumpWidget(ProviderScope(
+      overrides: [
+        databaseProvider.overrideWithValue(db),
+        onlineServiceProvider.overrideWithValue(service),
+        launchWatchCodeProvider.overrideWithValue('TRN123'),
+      ],
+      child: const BibleQuizApp(),
+    ));
+    await _settle(tester);
+    expect(find.text('Commencer'), findsNothing, reason: 'pas d’écran d’accueil');
+    expect(find.text('Inscriptions ouvertes — code TRN123'), findsOneWidget);
+    // Rien n'est marqué comme vu : l'accueil reste proposé au prochain lancement normal.
+    final onboarded = await tester.runAsync(() async => (await db.select(db.settingsEntries).get())
+        .any((e) => e.key == 'onboarded' && e.value == '1'));
+    expect(onboarded, isFalse);
+    await _close(tester);
+    await tester.runAsync(db.close);
+  });
+
   testWidgets('le code d’un tournoi s’affiche : inscriptions, QR code, inscrits', (tester) async {
     final calls = <String>[];
     final service = _service(

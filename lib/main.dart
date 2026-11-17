@@ -23,6 +23,9 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   // Version web : la page est servie par le serveur lui-même (même origine).
   final server = kIsWeb ? webBaseUri().origin : quizServer;
+  // Lien de projection (`?watch=CODE`) : l'écran de projection d'emblée, sans l'accueil.
+  // Adresse réelle de la page (Uri.base) : webBaseUri() est le <base href>, sans la requête.
+  final watch = kIsWeb ? parseGameLink(Uri.base).watch : null;
   // Progrès et lectures vivent dans le navigateur : lui demander de ne pas
   // les effacer quand la place manque.
   if (kIsWeb) unawaited(requestPersistentStorage());
@@ -36,6 +39,7 @@ void main() {
       overrides: [
         databaseProvider.overrideWithValue(AppDatabase()),
         serverUrlProvider.overrideWithValue(server),
+        if (watch != null) launchWatchCodeProvider.overrideWithValue(watch),
         pushProvider.overrideWithValue(push),
         // Liens d'invitation (quizbiblique://join/CODE) ouverts depuis la page du serveur.
         if (android)
@@ -45,7 +49,7 @@ void main() {
             AppUpdateChecker(server: server, slug: _appSlug, store: PrefsAppUpdateStore()),
           ),
         // Navigateur d'un téléphone Android : proposer l'application installable.
-        if (kIsWeb && defaultTargetPlatform == TargetPlatform.android)
+        if (kIsWeb && defaultTargetPlatform == TargetPlatform.android && watch == null)
           webInstallUrlProvider.overrideWithValue(Uri.parse('$server/apps/$_appSlug')),
       ],
       child: const BibleQuizApp(),

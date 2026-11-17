@@ -23,6 +23,10 @@ final appUpdateCheckerProvider = Provider<AppUpdateChecker?>((ref) => null);
 /// Web : page de téléchargement de l'application Android à proposer (null = rien).
 final webInstallUrlProvider = Provider<Uri?>((ref) => null);
 
+/// Web ouvert par un lien de projection (`?watch=CODE`, télévision, ordinateur de salle) :
+/// l'écran de projection s'ouvre directement, sans accueil ni bandeaux. Null : lancement normal.
+final launchWatchCodeProvider = Provider<String?>((ref) => null);
+
 final settingsRepoProvider = Provider((ref) => SettingsRepository(ref.watch(databaseProvider)));
 final progressRepoProvider = Provider((ref) => ProgressRepository(ref.watch(databaseProvider)));
 

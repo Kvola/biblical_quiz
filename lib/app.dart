@@ -6,6 +6,7 @@ import 'core/theme.dart';
 import 'l10n/gen/app_localizations.dart';
 import 'providers.dart';
 import 'ui/onboarding_screen.dart';
+import 'ui/online/projection_screen.dart';
 import 'ui/shell.dart';
 
 class BibleQuizApp extends ConsumerWidget {
@@ -16,6 +17,7 @@ class BibleQuizApp extends ConsumerWidget {
     final code = ref.watch(settingsProvider.select((s) => s.value?.localeCode));
     final onboarded = ref.watch(settingsProvider.select((s) => s.value?.onboarded));
     final themeMode = ref.watch(settingsProvider.select((s) => s.value?.themeMode));
+    final watch = ref.watch(launchWatchCodeProvider);
     return MaterialApp(
       onGenerateTitle: (c) => AppLocalizations.of(c).appTitle,
       debugShowCheckedModeBanner: false,
@@ -36,10 +38,14 @@ class BibleQuizApp extends ConsumerWidget {
       builder: (context, child) => AppUpdateHost(
         checker: ref.watch(appUpdateCheckerProvider),
         strings: appUpdateStrings,
-        webInstallUrl: ref.watch(webInstallUrlProvider),
+        webInstallUrl: watch != null ? null : ref.watch(webInstallUrlProvider),
+        // Écran de salle : pas d'invitation « Sur l'écran d'accueil » par-dessus la projection.
+        homeScreenHint: watch != null ? false : null,
         child: child ?? const SizedBox.shrink(),
       ),
-      home: switch (onboarded) {
+      // Lien de projection : l'écran s'ouvre tout de suite, sans l'accueil (qui reste
+      // proposé au prochain lancement normal : rien n'est marqué comme vu).
+      home: watch != null ? ProjectionScreen(code: watch) : switch (onboarded) {
         // Le temps d'ouvrir la base (quelques millisecondes) : fond de la marque.
         null => const Scaffold(backgroundColor: QuizColors.night),
         false => const OnboardingScreen(),

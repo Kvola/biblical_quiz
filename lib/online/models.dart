@@ -256,6 +256,7 @@ class Duel {
   bool get readyB => json['ready_b'] == true;
   int? get winner => _intOrNull(json['winner_entry_id']);
   int? get matchId => _intOrNull(json['match_id']);
+  String? get matchCode => json['match_code'] as String?;
   int? get deadline => _intOrNull(json['deadline']);
   int get scoreA => _int(json['score_a']);
   int get scoreB => _int(json['score_b']);

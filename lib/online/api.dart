@@ -9,10 +9,13 @@ import 'package:http/http.dart' as http;
 /// l'application (`NETWORK`, `TIMEOUT`, `SERVER`) : l'interface teste le
 /// code et affiche [message] (déjà rédigé par le serveur dans la langue du joueur).
 class ApiException implements Exception {
-  ApiException(this.code, this.message);
+  ApiException(this.code, this.message, {this.status});
 
   final String code;
   final String message;
+
+  /// Statut HTTP quand le serveur n'a pas répondu 200 (404 : route inconnue d'un serveur plus ancien).
+  final int? status;
 
   bool get isAuth => code == 'AUTH_REQUIRED';
   bool get isNetwork => code == 'NETWORK' || code == 'TIMEOUT';
@@ -72,7 +75,7 @@ class ApiClient {
       throw ApiException('NETWORK', 'Pas de connexion Internet.');
     }
     if (response.statusCode != 200) {
-      throw ApiException('SERVER', 'Erreur du serveur (${response.statusCode}).');
+      throw ApiException('SERVER', 'Erreur du serveur (${response.statusCode}).', status: response.statusCode);
     }
     final Map<String, dynamic> decoded;
     try {

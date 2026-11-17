@@ -14,6 +14,7 @@ import '../../online/realtime.dart';
 import '../common.dart';
 import '../widgets/verse_sheet.dart';
 import 'online_common.dart';
+import 'projection_screen.dart';
 
 /// Un match : salle d'attente, puis les questions à la main, puis les résultats.
 ///
@@ -81,6 +82,12 @@ class _MatchScreenState extends ConsumerState<MatchScreen> {
           _ => match?.passagesLabel ?? l.onlineTitle,
         }),
         actions: [
+          if (match != null && (match.state == 'lobby' || match.state == 'running'))
+            IconButton(
+              tooltip: l.projectionCast,
+              icon: const Icon(Icons.cast),
+              onPressed: () => showProjectionSheet(context, ref, match.code),
+            ),
           if (canLeave)
             TextButton(
               onPressed: () async {
@@ -827,7 +834,9 @@ class _ResultView extends ConsumerWidget {
           label: Text(l.resultReview),
           onPressed: () => _showHistory(context, ref),
         ),
-        if (m.kind == 'free' && me != null)
+        if (m.kind == 'free' && me != null) ...[
+          // Écart franc : deux boutons collés se touchent par erreur (« Revanche » relance une partie).
+          const SizedBox(height: 16),
           FilledButton.icon(
             icon: const Icon(Icons.replay),
             label: Text(l.resultRematch),
@@ -842,6 +851,7 @@ class _ResultView extends ConsumerWidget {
               );
             },
           ),
+        ],
       ],
     );
   }

@@ -2,6 +2,13 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.12.0 (build 15) — 17 novembre 2026
+
+- **Diffuser un tournoi sur un écran** : l'écran de projection accepte maintenant le code d'un **tournoi** (avant : « Aucun match avec ce code »). Inscriptions : QR code, code et inscrits côte à côte sur grand écran. Tournoi en cours : tableau en direct ; le duel seul en cours s'affiche en grand de lui-même, son résultat reste 12 secondes, puis retour au tableau ; plusieurs duels en même temps : on touche celui à montrer. Fin : le vainqueur.
+- **Diffuser sur un écran** (icône en haut de la fiche du tournoi et de la salle d'attente d'un match) : sur cet appareil, ou sur une télévision / un ordinateur par un lien court à ouvrir dans le navigateur (`/quiz-biblique/ecran/CODE`), sans compte.
+- Fin de match : le bouton **Revanche** n'est plus collé à **Revoir les questions**.
+- Nécessite le module serveur 19.0.2.1.0 (route `/watch`) ; avec un serveur plus ancien, seuls les matchs se projettent, comme avant.
+
 ## 1.11.2 (build 14) — 15 novembre 2026
 
 - **Mises à jour** : l'application se déclare au serveur par un identifiant tiré au hasard à l'installation (rien sur la personne ni le téléphone ; le serveur n'en garde qu'une empreinte), pour compter les installations actives et savoir quelles versions tournent encore avant d'en rendre une obligatoire.

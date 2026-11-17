@@ -622,7 +622,7 @@
   "onlineNoHistory": "Your finished matches will show here.",
   "onlineProfile": "My player profile",
   "onlineProjection": "Projection screen",
-  "onlineProjectionHint": "Show a match on a big screen (projector, TV), no account needed.",
+  "onlineProjectionHint": "Show a match or a tournament on a big screen (projector, TV), no account needed.",
   "onlineCurrentMatch": "You have a match in progress",
   "onlineCurrentTournament": "You are in the “{name}” tournament",
   "@onlineCurrentTournament": {
@@ -960,7 +960,42 @@
   "resultRematchSent": "New match created: the other players get the code.",
   "resultBack": "Back",
   "resultReadPassage": "Read the passage",
-  "projectionCodePrompt": "Code of the match to show",
+  "projectionCodePrompt": "Match or tournament code",
+  "projectionCast": "Show on a screen",
+  "projectionHere": "On this device",
+  "projectionHereHint": "Full screen, to connect to the projector or TV (cable, screen sharing).",
+  "projectionOther": "On a TV or a computer",
+  "projectionOtherHint": "Open this link in its browser, no account needed:",
+  "projectionOtherApp": "Or, in the app: Play online → Projection screen, code {code}.",
+  "@projectionOtherApp": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "projectionTourOpen": "Registration open — code {code}",
+  "@projectionTourOpen": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "projectionTourScan": "Scan to sign up",
+  "projectionLiveDuels": "Live duels — tap one to show it full size",
+  "projectionNoLive": "No duel in progress right now.",
+  "projectionFollowing": "{tournament} · {stage}",
+  "@projectionFollowing": {
+    "placeholders": {
+      "tournament": {
+        "type": "String"
+      },
+      "stage": {
+        "type": "String"
+      }
+    }
+  },
   "projectionShow": "Show",
   "projectionWaiting": "Waiting for players — code {code}",
   "@projectionWaiting": {

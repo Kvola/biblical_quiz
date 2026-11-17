@@ -1162,7 +1162,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get onlineProjectionHint =>
-      'Affichez un match en grand (vidéoprojecteur, télévision), sans compte.';
+      'Affichez un match ou un tournoi en grand (vidéoprojecteur, télévision), sans compte.';
 
   @override
   String get onlineCurrentMatch => 'Vous avez un match en cours';
@@ -1636,7 +1636,49 @@ class AppLocalizationsFr extends AppLocalizations {
   String get resultReadPassage => 'Lire le passage';
 
   @override
-  String get projectionCodePrompt => 'Code du match à afficher';
+  String get projectionCodePrompt => 'Code du match ou du tournoi';
+
+  @override
+  String get projectionCast => 'Diffuser sur un écran';
+
+  @override
+  String get projectionHere => 'Sur cet appareil';
+
+  @override
+  String get projectionHereHint =>
+      'Plein écran, à relier au vidéoprojecteur ou à la télévision (câble, partage d’écran).';
+
+  @override
+  String get projectionOther => 'Sur une télévision ou un ordinateur';
+
+  @override
+  String get projectionOtherHint =>
+      'Ouvrez ce lien dans son navigateur, sans compte :';
+
+  @override
+  String projectionOtherApp(String code) {
+    return 'Ou, dans l’application : Jouer en ligne → Écran de projection, code $code.';
+  }
+
+  @override
+  String projectionTourOpen(String code) {
+    return 'Inscriptions ouvertes — code $code';
+  }
+
+  @override
+  String get projectionTourScan => 'Scannez pour vous inscrire';
+
+  @override
+  String get projectionLiveDuels =>
+      'Duels en cours — touchez-en un pour l’afficher en grand';
+
+  @override
+  String get projectionNoLive => 'Aucun duel en cours pour l’instant.';
+
+  @override
+  String projectionFollowing(String tournament, String stage) {
+    return '$tournament · $stage';
+  }
 
   @override
   String get projectionShow => 'Afficher';

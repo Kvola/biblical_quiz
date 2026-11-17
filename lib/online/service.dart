@@ -233,6 +233,21 @@ class OnlineService {
   /// Écran de projection : sans compte, par le code du match.
   Future<MatchEnvelope> watch(String code) async => MatchEnvelope.parse(await read('/match/watch', {'code': code}));
 
+  /// Écran de projection : un match OU un tournoi par son code, sans compte.
+  ///
+  /// Un serveur antérieur à `/watch` (404) ne sait projeter que les matchs.
+  Future<({MatchEnvelope? match, TournamentEnvelope? tournament})> watchCode(String code) async {
+    final Map<String, dynamic> r;
+    try {
+      r = await read('/watch', {'code': code});
+    } on ApiException catch (e) {
+      if (e.status != 404) rethrow;
+      return (match: await watch(code), tournament: null);
+    }
+    if (r['kind'] == 'tournament') return (match: null, tournament: TournamentEnvelope.parse(r));
+    return (match: MatchEnvelope.parse(r), tournament: null);
+  }
+
   Future<MatchEnvelope> matchAction(String action, int matchId, [Map<String, dynamic> extra = const {}]) async =>
       MatchEnvelope.parse(await write('/match/$action', {'match_id': matchId, ...extra}));
 

@@ -12,6 +12,7 @@ import '../../online/tournament_controller.dart';
 import '../common.dart';
 import 'match_screen.dart';
 import 'online_common.dart';
+import 'projection_screen.dart';
 
 /// Fiche d'un tournoi : inscriptions, « Votre duel », tableau, vainqueur.
 class TournamentScreen extends ConsumerStatefulWidget {
@@ -112,7 +113,17 @@ class _TournamentScreenState extends ConsumerState<TournamentScreen> {
     final myPlayerId = ref.watch(onlineMeProvider.select((m) => m.value?.player?.id));
     final t = view.tournament;
     return Scaffold(
-      appBar: AppBar(title: Text(t?.name ?? l.tourTitle, overflow: TextOverflow.ellipsis)),
+      appBar: AppBar(
+        title: Text(t?.name ?? l.tourTitle, overflow: TextOverflow.ellipsis),
+        actions: [
+          if (t != null && t.state != 'cancelled')
+            IconButton(
+              tooltip: l.projectionCast,
+              icon: const Icon(Icons.cast),
+              onPressed: () => showProjectionSheet(context, ref, t.code),
+            ),
+        ],
+      ),
       body: SafeArea(
         top: false,
         child: t == null
@@ -912,10 +923,13 @@ class TournamentRegistrationList extends StatelessWidget {
 
 /// Le tableau : un bloc par tour (« Tour 1 », …, « Demi-finales », « Finale »), un duel par carte.
 class TournamentBracket extends StatelessWidget {
-  const TournamentBracket({super.key, required this.state, this.myEntryId});
+  const TournamentBracket({super.key, required this.state, this.myEntryId, this.onLiveDuelTap});
 
   final TournamentState state;
   final int? myEntryId;
+
+  /// Écran de projection : toucher un duel en cours l'affiche en grand.
+  final ValueChanged<Duel>? onLiveDuelTap;
 
   @override
   Widget build(BuildContext context) {
@@ -932,7 +946,15 @@ class TournamentBracket extends StatelessWidget {
         for (var r = 1; r <= rounds; r++) ...[
           Semantics(header: true, child: SectionTitle(tournamentRoundTitle(l, r, rounds))),
           for (final d in duels.where((d) => d.round == r).toList()..sort((a, b) => a.position.compareTo(b.position)))
-            _DuelCard(state: state, duel: d, myEntryId: myEntryId, isFinal: r == rounds),
+            _DuelCard(
+              state: state,
+              duel: d,
+              myEntryId: myEntryId,
+              isFinal: r == rounds,
+              onTap: onLiveDuelTap != null && d.state == 'playing' && (d.matchCode ?? '').isNotEmpty
+                  ? () => onLiveDuelTap!(d)
+                  : null,
+            ),
         ],
       ],
     );
@@ -940,12 +962,13 @@ class TournamentBracket extends StatelessWidget {
 }
 
 class _DuelCard extends StatelessWidget {
-  const _DuelCard({required this.state, required this.duel, required this.myEntryId, required this.isFinal});
+  const _DuelCard({required this.state, required this.duel, required this.myEntryId, required this.isFinal, this.onTap});
 
   final TournamentState state;
   final Duel duel;
   final int? myEntryId;
   final bool isFinal;
+  final VoidCallback? onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -963,39 +986,43 @@ class _DuelCard extends StatelessWidget {
     };
     return Card(
       margin: const EdgeInsets.symmetric(vertical: 4),
+      clipBehavior: onTap == null ? Clip.none : Clip.antiAlias,
       shape: mine
           ? RoundedRectangleBorder(borderRadius: BorderRadius.circular(12), side: BorderSide(color: scheme.primary, width: 2))
           : null,
-      child: MergeSemantics(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 6),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              _side(context, duel.entryA, duel.scoreA, duel.readyA),
-              Divider(height: 1, indent: 44, color: scheme.outlineVariant),
-              _side(context, duel.entryB, duel.scoreB, duel.readyB),
-              if (status != null)
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(44, 4, 12, 2),
-                  child: Row(
-                    children: [
-                      Icon(
-                        statusIcon,
-                        size: duel.state == 'playing' ? 10 : 16,
-                        color: duel.state == 'playing' ? scheme.error : scheme.onSurfaceVariant,
-                      ),
-                      const SizedBox(width: 6),
-                      Flexible(
-                        child: Text(
-                          status,
-                          style: Theme.of(context).textTheme.labelMedium?.copyWith(color: scheme.onSurfaceVariant),
+      child: InkWell(
+        onTap: onTap,
+        child: MergeSemantics(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 6),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                _side(context, duel.entryA, duel.scoreA, duel.readyA),
+                Divider(height: 1, indent: 44, color: scheme.outlineVariant),
+                _side(context, duel.entryB, duel.scoreB, duel.readyB),
+                if (status != null)
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(44, 4, 12, 2),
+                    child: Row(
+                      children: [
+                        Icon(
+                          statusIcon,
+                          size: duel.state == 'playing' ? 10 : 16,
+                          color: duel.state == 'playing' ? scheme.error : scheme.onSurfaceVariant,
                         ),
-                      ),
-                    ],
+                        const SizedBox(width: 6),
+                        Flexible(
+                          child: Text(
+                            status,
+                            style: Theme.of(context).textTheme.labelMedium?.copyWith(color: scheme.onSurfaceVariant),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                ),
-            ],
+              ],
+            ),
           ),
         ),
       ),

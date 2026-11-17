@@ -433,7 +433,7 @@ Après chaque question, la bonne réponse s'affiche avec son **explication** et 
 
 > **Bon à savoir** : un joueur ne participe qu'à **une partie à la fois** (un match ou un tournoi). Quitter l'écran n'abandonne pas le match : retrouvez-le avec **Reprendre** dans **Jouer avec d'autres**. Seul le bouton **Quitter** l'abandonne.
 
-> **Bon à savoir** : pour l'école du dimanche, affichez le match en grand sur un vidéoprojecteur ou une télévision : sur l'ordinateur relié, ouvrez la version web, puis **Jouer avec d'autres → Écran de projection** (l'icône d'écran en haut), et saisissez le code du match. Aucun compte n'est nécessaire pour cet écran.
+> **Bon à savoir** : pour l'école du dimanche, affichez le match en grand sur un vidéoprojecteur ou une télévision. Dans la salle d'attente, touchez l'icône **Diffuser sur un écran** en haut : **Sur cet appareil** (à relier par câble ou par partage d'écran), ou **Sur une télévision ou un ordinateur** : ouvrez le lien proposé dans son navigateur. Vous pouvez aussi, sur l'ordinateur, ouvrir la version web puis **Jouer avec d'autres → Écran de projection** et saisir le code. Aucun compte n'est nécessaire pour cet écran.
 
 ## Exemple 13 : jouer en équipe
 
@@ -465,6 +465,14 @@ En équipe, **n'importe quel membre** peut prendre la main. S'il se trompe ou la
 - Quand votre duel est prêt, l'application vous prévient, même fermée, par une notification : touchez-la, puis **Prêt**. Le duel commence quand les deux camps sont prêts. Passé le délai (10 minutes par défaut), le camp qui ne s'est pas déclaré prêt perd par **forfait**.
 - En cas d'égalité, des **questions décisives** départagent les deux camps : la première bonne réponse l'emporte.
 - Un joueur éliminé est libéré : il peut suivre le tableau, ou rejoindre une autre partie.
+
+**Le diffuser sur grand écran**
+
+Sur la fiche du tournoi, touchez l'icône **Diffuser sur un écran** en haut, puis **Sur cet appareil** ou **Sur une télévision ou un ordinateur** (un lien à ouvrir dans son navigateur, sans compte). Le code du tournoi se saisit aussi dans **Jouer avec d'autres → Écran de projection**.
+
+- Pendant les inscriptions, l'écran montre le **QR code** et le code à scanner pour s'inscrire, et la liste des inscrits.
+- Pendant le tournoi, l'écran montre le **tableau**. Quand un seul duel se joue, il s'affiche **en grand** de lui-même (questions, main, scores), puis son résultat reste quelques secondes avant le retour au tableau. Quand plusieurs duels se jouent en même temps, touchez celui à montrer ; **Tableau**, en haut, y revient.
+- À la fin, l'écran annonce le vainqueur.
 
 > **Bon à savoir** : l'organisatrice peut choisir d'**autres passages pour un tour** (par exemple Marc 5 pour la finale), tant que ce tour n'a pas commencé.
 

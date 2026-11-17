@@ -1889,7 +1889,7 @@ abstract class AppLocalizations {
   /// No description provided for @onlineProjectionHint.
   ///
   /// In fr, this message translates to:
-  /// **'Affichez un match en grand (vidéoprojecteur, télévision), sans compte.'**
+  /// **'Affichez un match ou un tournoi en grand (vidéoprojecteur, télévision), sans compte.'**
   String get onlineProjectionHint;
 
   /// No description provided for @onlineCurrentMatch.
@@ -2663,8 +2663,74 @@ abstract class AppLocalizations {
   /// No description provided for @projectionCodePrompt.
   ///
   /// In fr, this message translates to:
-  /// **'Code du match à afficher'**
+  /// **'Code du match ou du tournoi'**
   String get projectionCodePrompt;
+
+  /// No description provided for @projectionCast.
+  ///
+  /// In fr, this message translates to:
+  /// **'Diffuser sur un écran'**
+  String get projectionCast;
+
+  /// No description provided for @projectionHere.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sur cet appareil'**
+  String get projectionHere;
+
+  /// No description provided for @projectionHereHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plein écran, à relier au vidéoprojecteur ou à la télévision (câble, partage d’écran).'**
+  String get projectionHereHint;
+
+  /// No description provided for @projectionOther.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sur une télévision ou un ordinateur'**
+  String get projectionOther;
+
+  /// No description provided for @projectionOtherHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ouvrez ce lien dans son navigateur, sans compte :'**
+  String get projectionOtherHint;
+
+  /// No description provided for @projectionOtherApp.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ou, dans l’application : Jouer en ligne → Écran de projection, code {code}.'**
+  String projectionOtherApp(String code);
+
+  /// No description provided for @projectionTourOpen.
+  ///
+  /// In fr, this message translates to:
+  /// **'Inscriptions ouvertes — code {code}'**
+  String projectionTourOpen(String code);
+
+  /// No description provided for @projectionTourScan.
+  ///
+  /// In fr, this message translates to:
+  /// **'Scannez pour vous inscrire'**
+  String get projectionTourScan;
+
+  /// No description provided for @projectionLiveDuels.
+  ///
+  /// In fr, this message translates to:
+  /// **'Duels en cours — touchez-en un pour l’afficher en grand'**
+  String get projectionLiveDuels;
+
+  /// No description provided for @projectionNoLive.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun duel en cours pour l’instant.'**
+  String get projectionNoLive;
+
+  /// No description provided for @projectionFollowing.
+  ///
+  /// In fr, this message translates to:
+  /// **'{tournament} · {stage}'**
+  String projectionFollowing(String tournament, String stage);
 
   /// No description provided for @projectionShow.
   ///

@@ -622,7 +622,7 @@
   "onlineNoHistory": "Vos matchs terminés s’afficheront ici.",
   "onlineProfile": "Mon profil de joueur",
   "onlineProjection": "Écran de projection",
-  "onlineProjectionHint": "Affichez un match en grand (vidéoprojecteur, télévision), sans compte.",
+  "onlineProjectionHint": "Affichez un match ou un tournoi en grand (vidéoprojecteur, télévision), sans compte.",
   "onlineCurrentMatch": "Vous avez un match en cours",
   "onlineCurrentTournament": "Vous participez au tournoi « {name} »",
   "@onlineCurrentTournament": {
@@ -960,7 +960,42 @@
   "resultRematchSent": "Nouveau match créé : les autres joueurs reçoivent le code.",
   "resultBack": "Retour",
   "resultReadPassage": "Lire le passage",
-  "projectionCodePrompt": "Code du match à afficher",
+  "projectionCodePrompt": "Code du match ou du tournoi",
+  "projectionCast": "Diffuser sur un écran",
+  "projectionHere": "Sur cet appareil",
+  "projectionHereHint": "Plein écran, à relier au vidéoprojecteur ou à la télévision (câble, partage d’écran).",
+  "projectionOther": "Sur une télévision ou un ordinateur",
+  "projectionOtherHint": "Ouvrez ce lien dans son navigateur, sans compte :",
+  "projectionOtherApp": "Ou, dans l’application : Jouer en ligne → Écran de projection, code {code}.",
+  "@projectionOtherApp": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "projectionTourOpen": "Inscriptions ouvertes — code {code}",
+  "@projectionTourOpen": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "projectionTourScan": "Scannez pour vous inscrire",
+  "projectionLiveDuels": "Duels en cours — touchez-en un pour l’afficher en grand",
+  "projectionNoLive": "Aucun duel en cours pour l’instant.",
+  "projectionFollowing": "{tournament} · {stage}",
+  "@projectionFollowing": {
+    "placeholders": {
+      "tournament": {
+        "type": "String"
+      },
+      "stage": {
+        "type": "String"
+      }
+    }
+  },
   "projectionShow": "Afficher",
   "projectionWaiting": "En attente des joueurs — code {code}",
   "@projectionWaiting": {

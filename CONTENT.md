@@ -149,3 +149,26 @@ référence inexistante dans l'une des deux Bibles, `ref` hors des passages de l
 leçon, indice de réponse hors limites, propositions en double, nombre de
 propositions différent entre FR et EN, ids en double, passages trop longs ou
 trop courts, plus de 2 vrai/faux par leçon. Les tests Flutter l'exécutent aussi.
+
+## Questions rédigées par IA (banque du serveur)
+
+Les questions des parcours et des fiches de livres restent écrites et relues à la
+main, dans ce dépôt. À côté, le serveur (`biblical_quiz_backend`, `game/ai_bank.py`)
+fait rédiger par Claude des questions de compréhension **par chapitre**, pour le
+« Quiz sur mes lectures ». Elles suivent les mêmes règles éditoriales (la consigne
+donnée au modèle les reprend) et passent deux filets avant d'être servies :
+
+1. contrôles mécaniques : verset existant, citation justificative mot pour mot
+   dans la Segond ET dans la King James, tout texte entre guillemets retrouvé dans
+   le chapitre, quatre propositions distinctes et de longueur comparable, pas de
+   « toutes les réponses » ;
+2. relecture indépendante : un second appel répond à l'aveugle ; désaccord,
+   seconde réponse défendable, français et anglais différents, parti pris
+   doctrinal ou explication inexacte → la question est écartée.
+
+Elles ne sont **pas relues par une personne** avant d'être servies : l'application
+les étiquette « Rédigé par IA · non relu » jusqu'à leur validation dans le
+back-office (Quiz Biblique → Questions IA → À relire). Seules les questions
+validées servent dans les matchs en ligne. Leur identifiant commence par
+`gen-ai-` ; elles ne vivent pas dans ce dépôt.
+

@@ -168,7 +168,8 @@ void main() {
 
     // Feuille du verset (ouverte depuis la lecture) : ses boutons d'action.
     await waitFor(tester, find.textContaining('Au commencement, Dieu créa'));
-    await tester.tap(find.textContaining('Au commencement, Dieu créa'));
+    // Deux textes le contiennent (verset-clé en tête, puis le passage) : on touche le verset du passage.
+    await tester.tap(find.textContaining('Au commencement, Dieu créa').last);
     await waitFor(tester, find.text('Partager'));
     await tester.drag(find.byType(DraggableScrollableSheet), const Offset(0, -2000));
     await tester.pumpAndSettle();

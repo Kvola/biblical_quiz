@@ -2711,6 +2711,317 @@ class SermonNoteRefsCompanion extends UpdateCompanion<SermonNoteRefRow> {
   }
 }
 
+class $AiChaptersTable extends AiChapters
+    with TableInfo<$AiChaptersTable, AiChapterRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $AiChaptersTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _bookMeta = const VerificationMeta('book');
+  @override
+  late final GeneratedColumn<int> book = GeneratedColumn<int>(
+    'book',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _chapterMeta = const VerificationMeta(
+    'chapter',
+  );
+  @override
+  late final GeneratedColumn<int> chapter = GeneratedColumn<int>(
+    'chapter',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _revMeta = const VerificationMeta('rev');
+  @override
+  late final GeneratedColumn<int> rev = GeneratedColumn<int>(
+    'rev',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _questionsMeta = const VerificationMeta(
+    'questions',
+  );
+  @override
+  late final GeneratedColumn<String> questions = GeneratedColumn<String>(
+    'questions',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [book, chapter, rev, questions];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'ai_chapters';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<AiChapterRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('book')) {
+      context.handle(
+        _bookMeta,
+        book.isAcceptableOrUnknown(data['book']!, _bookMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_bookMeta);
+    }
+    if (data.containsKey('chapter')) {
+      context.handle(
+        _chapterMeta,
+        chapter.isAcceptableOrUnknown(data['chapter']!, _chapterMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_chapterMeta);
+    }
+    if (data.containsKey('rev')) {
+      context.handle(
+        _revMeta,
+        rev.isAcceptableOrUnknown(data['rev']!, _revMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_revMeta);
+    }
+    if (data.containsKey('questions')) {
+      context.handle(
+        _questionsMeta,
+        questions.isAcceptableOrUnknown(data['questions']!, _questionsMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_questionsMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {book, chapter};
+  @override
+  AiChapterRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return AiChapterRow(
+      book: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}book'],
+      )!,
+      chapter: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}chapter'],
+      )!,
+      rev: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}rev'],
+      )!,
+      questions: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}questions'],
+      )!,
+    );
+  }
+
+  @override
+  $AiChaptersTable createAlias(String alias) {
+    return $AiChaptersTable(attachedDatabase, alias);
+  }
+}
+
+class AiChapterRow extends DataClass implements Insertable<AiChapterRow> {
+  final int book;
+  final int chapter;
+  final int rev;
+  final String questions;
+  const AiChapterRow({
+    required this.book,
+    required this.chapter,
+    required this.rev,
+    required this.questions,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['book'] = Variable<int>(book);
+    map['chapter'] = Variable<int>(chapter);
+    map['rev'] = Variable<int>(rev);
+    map['questions'] = Variable<String>(questions);
+    return map;
+  }
+
+  AiChaptersCompanion toCompanion(bool nullToAbsent) {
+    return AiChaptersCompanion(
+      book: Value(book),
+      chapter: Value(chapter),
+      rev: Value(rev),
+      questions: Value(questions),
+    );
+  }
+
+  factory AiChapterRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return AiChapterRow(
+      book: serializer.fromJson<int>(json['book']),
+      chapter: serializer.fromJson<int>(json['chapter']),
+      rev: serializer.fromJson<int>(json['rev']),
+      questions: serializer.fromJson<String>(json['questions']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'book': serializer.toJson<int>(book),
+      'chapter': serializer.toJson<int>(chapter),
+      'rev': serializer.toJson<int>(rev),
+      'questions': serializer.toJson<String>(questions),
+    };
+  }
+
+  AiChapterRow copyWith({
+    int? book,
+    int? chapter,
+    int? rev,
+    String? questions,
+  }) => AiChapterRow(
+    book: book ?? this.book,
+    chapter: chapter ?? this.chapter,
+    rev: rev ?? this.rev,
+    questions: questions ?? this.questions,
+  );
+  AiChapterRow copyWithCompanion(AiChaptersCompanion data) {
+    return AiChapterRow(
+      book: data.book.present ? data.book.value : this.book,
+      chapter: data.chapter.present ? data.chapter.value : this.chapter,
+      rev: data.rev.present ? data.rev.value : this.rev,
+      questions: data.questions.present ? data.questions.value : this.questions,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('AiChapterRow(')
+          ..write('book: $book, ')
+          ..write('chapter: $chapter, ')
+          ..write('rev: $rev, ')
+          ..write('questions: $questions')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(book, chapter, rev, questions);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is AiChapterRow &&
+          other.book == this.book &&
+          other.chapter == this.chapter &&
+          other.rev == this.rev &&
+          other.questions == this.questions);
+}
+
+class AiChaptersCompanion extends UpdateCompanion<AiChapterRow> {
+  final Value<int> book;
+  final Value<int> chapter;
+  final Value<int> rev;
+  final Value<String> questions;
+  final Value<int> rowid;
+  const AiChaptersCompanion({
+    this.book = const Value.absent(),
+    this.chapter = const Value.absent(),
+    this.rev = const Value.absent(),
+    this.questions = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  AiChaptersCompanion.insert({
+    required int book,
+    required int chapter,
+    required int rev,
+    required String questions,
+    this.rowid = const Value.absent(),
+  }) : book = Value(book),
+       chapter = Value(chapter),
+       rev = Value(rev),
+       questions = Value(questions);
+  static Insertable<AiChapterRow> custom({
+    Expression<int>? book,
+    Expression<int>? chapter,
+    Expression<int>? rev,
+    Expression<String>? questions,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (book != null) 'book': book,
+      if (chapter != null) 'chapter': chapter,
+      if (rev != null) 'rev': rev,
+      if (questions != null) 'questions': questions,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  AiChaptersCompanion copyWith({
+    Value<int>? book,
+    Value<int>? chapter,
+    Value<int>? rev,
+    Value<String>? questions,
+    Value<int>? rowid,
+  }) {
+    return AiChaptersCompanion(
+      book: book ?? this.book,
+      chapter: chapter ?? this.chapter,
+      rev: rev ?? this.rev,
+      questions: questions ?? this.questions,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (book.present) {
+      map['book'] = Variable<int>(book.value);
+    }
+    if (chapter.present) {
+      map['chapter'] = Variable<int>(chapter.value);
+    }
+    if (rev.present) {
+      map['rev'] = Variable<int>(rev.value);
+    }
+    if (questions.present) {
+      map['questions'] = Variable<String>(questions.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('AiChaptersCompanion(')
+          ..write('book: $book, ')
+          ..write('chapter: $chapter, ')
+          ..write('rev: $rev, ')
+          ..write('questions: $questions, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(e);
   $AppDatabaseManager get managers => $AppDatabaseManager(this);
@@ -2724,6 +3035,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $ReadChaptersTable readChapters = $ReadChaptersTable(this);
   late final $SermonNotesTable sermonNotes = $SermonNotesTable(this);
   late final $SermonNoteRefsTable sermonNoteRefs = $SermonNoteRefsTable(this);
+  late final $AiChaptersTable aiChapters = $AiChaptersTable(this);
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -2737,6 +3049,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     readChapters,
     sermonNotes,
     sermonNoteRefs,
+    aiChapters,
   ];
   @override
   StreamQueryUpdateRules get streamUpdateRules => const StreamQueryUpdateRules([
@@ -4560,6 +4873,194 @@ typedef $$SermonNoteRefsTableProcessedTableManager =
       SermonNoteRefRow,
       PrefetchHooks Function({bool noteId})
     >;
+typedef $$AiChaptersTableCreateCompanionBuilder = AiChaptersCompanion Function({
+  required int book,
+  required int chapter,
+  required int rev,
+  required String questions,
+  Value<int> rowid,
+});
+typedef $$AiChaptersTableUpdateCompanionBuilder = AiChaptersCompanion Function({
+  Value<int> book,
+  Value<int> chapter,
+  Value<int> rev,
+  Value<String> questions,
+  Value<int> rowid,
+});
+
+class $$AiChaptersTableFilterComposer
+    extends Composer<_$AppDatabase, $AiChaptersTable> {
+  $$AiChaptersTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get book => $composableBuilder(
+    column: $table.book,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get chapter => $composableBuilder(
+    column: $table.chapter,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get rev => $composableBuilder(
+    column: $table.rev,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get questions => $composableBuilder(
+    column: $table.questions,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$AiChaptersTableOrderingComposer
+    extends Composer<_$AppDatabase, $AiChaptersTable> {
+  $$AiChaptersTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get book => $composableBuilder(
+    column: $table.book,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get chapter => $composableBuilder(
+    column: $table.chapter,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get rev => $composableBuilder(
+    column: $table.rev,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get questions => $composableBuilder(
+    column: $table.questions,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$AiChaptersTableAnnotationComposer
+    extends Composer<_$AppDatabase, $AiChaptersTable> {
+  $$AiChaptersTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get book =>
+      $composableBuilder(column: $table.book, builder: (column) => column);
+
+  GeneratedColumn<int> get chapter =>
+      $composableBuilder(column: $table.chapter, builder: (column) => column);
+
+  GeneratedColumn<int> get rev =>
+      $composableBuilder(column: $table.rev, builder: (column) => column);
+
+  GeneratedColumn<String> get questions =>
+      $composableBuilder(column: $table.questions, builder: (column) => column);
+}
+
+class $$AiChaptersTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $AiChaptersTable,
+          AiChapterRow,
+          $$AiChaptersTableFilterComposer,
+          $$AiChaptersTableOrderingComposer,
+          $$AiChaptersTableAnnotationComposer,
+          $$AiChaptersTableCreateCompanionBuilder,
+          $$AiChaptersTableUpdateCompanionBuilder,
+          (
+            AiChapterRow,
+            BaseReferences<_$AppDatabase, $AiChaptersTable, AiChapterRow>,
+          ),
+          AiChapterRow,
+          PrefetchHooks Function()
+        > {
+  $$AiChaptersTableTableManager(_$AppDatabase db, $AiChaptersTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$AiChaptersTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$AiChaptersTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$AiChaptersTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> book = const Value.absent(),
+                Value<int> chapter = const Value.absent(),
+                Value<int> rev = const Value.absent(),
+                Value<String> questions = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => AiChaptersCompanion(
+                book: book,
+                chapter: chapter,
+                rev: rev,
+                questions: questions,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required int book,
+                required int chapter,
+                required int rev,
+                required String questions,
+                Value<int> rowid = const Value.absent(),
+              }) => AiChaptersCompanion.insert(
+                book: book,
+                chapter: chapter,
+                rev: rev,
+                questions: questions,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$AiChaptersTable, AiChapterRow>(table),
+                  BaseReferences<_$AppDatabase, $AiChaptersTable, AiChapterRow>(
+                    db,
+                    table,
+                    e,
+                  ),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$AiChaptersTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $AiChaptersTable,
+      AiChapterRow,
+      $$AiChaptersTableFilterComposer,
+      $$AiChaptersTableOrderingComposer,
+      $$AiChaptersTableAnnotationComposer,
+      $$AiChaptersTableCreateCompanionBuilder,
+      $$AiChaptersTableUpdateCompanionBuilder,
+      (
+        AiChapterRow,
+        BaseReferences<_$AppDatabase, $AiChaptersTable, AiChapterRow>,
+      ),
+      AiChapterRow,
+      PrefetchHooks Function()
+    >;
 
 class $AppDatabaseManager {
   final _$AppDatabase _db;
@@ -4580,4 +5081,6 @@ class $AppDatabaseManager {
       $$SermonNotesTableTableManager(_db, _db.sermonNotes);
   $$SermonNoteRefsTableTableManager get sermonNoteRefs =>
       $$SermonNoteRefsTableTableManager(_db, _db.sermonNoteRefs);
+  $$AiChaptersTableTableManager get aiChapters =>
+      $$AiChaptersTableTableManager(_db, _db.aiChapters);
 }

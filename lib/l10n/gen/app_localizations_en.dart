@@ -999,6 +999,135 @@ class AppLocalizationsEn extends AppLocalizations {
   String get fromTheText => 'From the text';
 
   @override
+  String get aiUnreviewed => 'Written by AI · not reviewed';
+
+  @override
+  String get aiReviewed => 'Written by AI · reviewed';
+
+  @override
+  String get aiUnreviewedHint =>
+      'This question was written by an AI and checked automatically against the text, but nobody has reviewed it yet. The verse is what counts.';
+
+  @override
+  String get aiReport => 'Report this question';
+
+  @override
+  String get aiReportTitle => 'What is wrong?';
+
+  @override
+  String get aiReportWrong => 'The given answer is wrong';
+
+  @override
+  String get aiReportSeveral => 'More than one answer is right';
+
+  @override
+  String get aiReportUnclear => 'The question is unclear';
+
+  @override
+  String get aiReportDoctrine => 'It takes a doctrinal side';
+
+  @override
+  String get aiReportOther => 'Something else';
+
+  @override
+  String get aiReportNote => 'Details (optional)';
+
+  @override
+  String get aiReportSend => 'Send';
+
+  @override
+  String get aiReportThanks => 'Thank you: the question will be reviewed.';
+
+  @override
+  String get aiReportWithdrawn => 'Thank you: the question has been withdrawn.';
+
+  @override
+  String get aiReportOffline =>
+      'Cannot report without a connection. Try again later.';
+
+  @override
+  String get aiCardTitle => 'Comprehension questions';
+
+  @override
+  String get aiCardIntro =>
+      'For chapters without reviewed questions, the quiz fills in with missing-word questions. An AI can write real comprehension questions instead, checked against the text.';
+
+  @override
+  String get aiCardPrivacy =>
+      'A connection is needed. The app sends the server the chosen chapters and an anonymous identifier of this installation, nothing else. Questions received then stay available offline.';
+
+  @override
+  String get aiEnable => 'Turn on';
+
+  @override
+  String get aiSetting => 'Questions written by AI';
+
+  @override
+  String get aiSettingHint =>
+      'Quiz on my reading: real comprehension questions for the chosen chapters. Needs a connection; sends the chapters and an anonymous identifier.';
+
+  @override
+  String get aiChecking => 'Looking for available questions…';
+
+  @override
+  String get aiOffline =>
+      'Offline: the quiz uses the questions already received.';
+
+  @override
+  String get aiUnavailable =>
+      'Questions written by AI are not available at the moment.';
+
+  @override
+  String aiCoverage(int done, int total) {
+    return 'Chapters with comprehension questions: $done of $total.';
+  }
+
+  @override
+  String aiPreparing(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count chapters being prepared',
+      one: '1 chapter being prepared',
+    );
+    return '$_temp0 (one to two minutes each). You can start the quiz: they will be used next time.';
+  }
+
+  @override
+  String aiAsk(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Ask for $count chapters',
+      one: 'Ask for 1 chapter',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String aiQuotaLeft(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'You can still ask for $count chapters today.',
+      one: 'You can still ask for 1 chapter today.',
+      zero:
+          'You have asked for all your chapters for today. Come back tomorrow.',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get aiServerQuota =>
+      'The service has reached its limit for today. Come back tomorrow.';
+
+  @override
+  String get aiAllCovered => 'All chosen chapters have their questions.';
+
+  @override
+  String get aiRequestFailed => 'The request failed. Try again later.';
+
+  @override
   String get markChapterRead => 'Mark as read';
 
   @override

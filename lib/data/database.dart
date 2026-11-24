@@ -90,6 +90,20 @@ class SermonNoteRefs extends Table {
   Set<Column> get primaryKey => {noteId, position};
 }
 
+/// Questions de compréhension rédigées par IA (1.13.0), gardées pour jouer hors
+/// ligne : un chapitre de la banque du serveur par ligne. Simple cache : on peut
+/// le vider sans rien perdre.
+@DataClassName('AiChapterRow')
+class AiChapters extends Table {
+  IntColumn get book => integer()();
+  IntColumn get chapter => integer()();
+  IntColumn get rev => integer()(); // révision servie par le serveur
+  TextColumn get questions => text()(); // JSON : liste de questions au format du contenu
+
+  @override
+  Set<Column> get primaryKey => {book, chapter};
+}
+
 class SettingsEntries extends Table {
   TextColumn get key => text()();
   TextColumn get value => text()();
@@ -99,7 +113,7 @@ class SettingsEntries extends Table {
 }
 
 @DriftDatabase(
-  tables: [LessonProgress, QuestionStats, ActivityDays, Favorites, SettingsEntries, ReadChapters, SermonNotes, SermonNoteRefs],
+  tables: [LessonProgress, QuestionStats, ActivityDays, Favorites, SettingsEntries, ReadChapters, SermonNotes, SermonNoteRefs, AiChapters],
 )
 class AppDatabase extends _$AppDatabase {
   AppDatabase([QueryExecutor? executor]) : super(executor ?? driftDatabase(name: 'biblical_quiz', web: webDatabaseOptions()));
@@ -107,7 +121,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase.forTesting(super.executor);
 
   @override
-  int get schemaVersion => 3;
+  int get schemaVersion => 4;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -121,6 +135,7 @@ class AppDatabase extends _$AppDatabase {
         await m.createTable(sermonNotes);
         await m.createTable(sermonNoteRefs);
       }
+      if (from < 4) await m.createTable(aiChapters); // 1.13.0 : questions rédigées par IA
     },
     // Suppression d'une note : ses passages partent avec elle (ON DELETE CASCADE).
     beforeOpen: (details) async => customStatement('PRAGMA foreign_keys = ON'),

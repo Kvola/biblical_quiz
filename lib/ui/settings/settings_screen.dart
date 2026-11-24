@@ -7,7 +7,7 @@ import '../../providers.dart';
 import '../common.dart';
 
 /// Version affichée dans « À propos » (tenue à jour avec pubspec.yaml ; vérifiée par un test).
-const appVersion = '1.12.1';
+const appVersion = '1.13.0';
 
 class SettingsScreen extends ConsumerStatefulWidget {
   const SettingsScreen({super.key});
@@ -90,6 +90,14 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
               subtitle: Text(l.keepScreenOnHint),
               value: s.keepScreenOn,
               onChanged: repo.setKeepScreenOn,
+            ),
+            SectionTitle(l.readingQuizTitle),
+            SwitchListTile(
+              key: const ValueKey('setting-ai-questions'),
+              title: Text(l.aiSetting),
+              subtitle: Text(l.aiSettingHint),
+              value: s.aiQuestions,
+              onChanged: repo.setAiQuestions,
             ),
             SectionTitle(l.aboutTitle),
             Padding(

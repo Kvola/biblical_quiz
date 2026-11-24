@@ -212,6 +212,23 @@ Vous pouvez aussi le noter vous-même : touchez **Marquer comme lu**. Vous vous 
 
 Pendant le quiz, une étiquette indique d'où vient chaque question, par exemple *Marc 1*. Certaines questions portent la mention **Tiré du texte** : elles sont construites à partir du texte biblique lui-même, par exemple compléter un verset ou retrouver l'ordre de deux passages. Le texte des versets n'est jamais modifié.
 
+### De vraies questions de compréhension, rédigées par IA
+
+Pour les chapitres qui n'ont pas de questions relues, le quiz complète avec des questions **Tiré du texte**. Vous pouvez demander mieux : de vraies questions de compréhension, rédigées par une intelligence artificielle à partir du chapitre.
+
+1. Dans l'écran **Quiz sur mes lectures**, repérez la carte **Questions de compréhension** et touchez **Activer**. Il faut une connexion Internet. L'application envoie alors au serveur la liste des chapitres choisis et un identifiant anonyme de votre installation, rien d'autre.
+2. La carte indique combien de chapitres choisis ont déjà leurs questions. Ces questions sont téléchargées et restent disponibles **hors ligne**.
+3. Pour les chapitres qui n'en ont pas encore, touchez **Demander 1 chapitre** (ou plusieurs). La rédaction prend une à deux minutes par chapitre ; vous pouvez commencer le quiz sans attendre, les nouvelles questions serviront la fois suivante.
+
+Vous pouvez demander quelques chapitres nouveaux par jour (trois, sauf réglage différent du serveur) ; la carte vous dit combien il vous en reste. Lire les questions d'un chapitre déjà rédigé ne compte pas.
+
+Chaque question rédigée par IA est vérifiée automatiquement : ses citations doivent se retrouver mot pour mot dans la Bible, en français et en anglais, et une seconde relecture automatique écarte les questions fausses, ambiguës ou qui prennent parti sur une doctrine. Tant que personne ne l'a relue, elle porte l'étiquette **Rédigé par IA · non relu** : le verset fait foi. Une fois relue, l'étiquette devient **Rédigé par IA · relu**.
+
+Une question vous paraît fausse, peu claire ou orientée ? Après avoir répondu, touchez **Signaler cette question**, choisissez le motif et envoyez. Une question signalée par plusieurs lecteurs est retirée.
+
+Certains chapitres (listes de noms, généalogies) ne se prêtent pas à ces questions : le quiz garde alors les questions tirées du texte. Pour tout arrêter, ouvrez **Réglages** et désactivez **Questions rédigées par IA**.
+
+
 > **Astuce** : dans la liste **Livres du quiz**, le menu à droite d'un livre permet de **Marquer tout le livre comme lu**, ou de **Retirer « lu » pour ce livre**.
 
 ---

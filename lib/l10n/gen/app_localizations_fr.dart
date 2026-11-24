@@ -1015,6 +1015,137 @@ class AppLocalizationsFr extends AppLocalizations {
   String get fromTheText => 'Tiré du texte';
 
   @override
+  String get aiUnreviewed => 'Rédigé par IA · non relu';
+
+  @override
+  String get aiReviewed => 'Rédigé par IA · relu';
+
+  @override
+  String get aiUnreviewedHint =>
+      'Cette question a été rédigée par une IA et vérifiée automatiquement sur le texte, mais personne ne l’a encore relue. Le verset fait foi.';
+
+  @override
+  String get aiReport => 'Signaler cette question';
+
+  @override
+  String get aiReportTitle => 'Qu’est-ce qui ne va pas ?';
+
+  @override
+  String get aiReportWrong => 'La réponse donnée est fausse';
+
+  @override
+  String get aiReportSeveral => 'Plusieurs réponses sont justes';
+
+  @override
+  String get aiReportUnclear => 'La question n’est pas claire';
+
+  @override
+  String get aiReportDoctrine => 'Elle prend parti sur une doctrine';
+
+  @override
+  String get aiReportOther => 'Autre chose';
+
+  @override
+  String get aiReportNote => 'Précision (facultatif)';
+
+  @override
+  String get aiReportSend => 'Envoyer';
+
+  @override
+  String get aiReportThanks => 'Merci : la question sera relue.';
+
+  @override
+  String get aiReportWithdrawn => 'Merci : la question a été retirée.';
+
+  @override
+  String get aiReportOffline =>
+      'Signalement impossible sans connexion. Réessayez plus tard.';
+
+  @override
+  String get aiCardTitle => 'Questions de compréhension';
+
+  @override
+  String get aiCardIntro =>
+      'Pour les chapitres sans questions relues, le quiz complète avec des mots à retrouver. Une IA peut rédiger à la place de vraies questions de compréhension, vérifiées sur le texte.';
+
+  @override
+  String get aiCardPrivacy =>
+      'Il faut une connexion. L’application envoie au serveur les chapitres choisis et un identifiant anonyme de cette installation, rien d’autre. Les questions reçues restent ensuite disponibles hors ligne.';
+
+  @override
+  String get aiEnable => 'Activer';
+
+  @override
+  String get aiSetting => 'Questions rédigées par IA';
+
+  @override
+  String get aiSettingHint =>
+      'Quiz sur mes lectures : de vraies questions de compréhension pour les chapitres choisis. Demande une connexion ; envoie les chapitres et un identifiant anonyme.';
+
+  @override
+  String get aiChecking => 'Recherche des questions disponibles…';
+
+  @override
+  String get aiOffline =>
+      'Hors connexion : le quiz utilise les questions déjà reçues.';
+
+  @override
+  String get aiUnavailable =>
+      'Les questions rédigées par IA ne sont pas disponibles pour le moment.';
+
+  @override
+  String aiCoverage(int done, int total) {
+    return 'Chapitres avec des questions de compréhension : $done sur $total.';
+  }
+
+  @override
+  String aiPreparing(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count chapitres en préparation',
+      one: '1 chapitre en préparation',
+      zero: '0 chapitre en préparation',
+    );
+    return '$_temp0 (une à deux minutes chacun). Vous pouvez commencer le quiz : ils serviront la prochaine fois.';
+  }
+
+  @override
+  String aiAsk(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Demander $count chapitres',
+      one: 'Demander 1 chapitre',
+      zero: 'Demander 0 chapitre',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String aiQuotaLeft(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Vous pouvez encore demander $count chapitres aujourd’hui.',
+      one: 'Vous pouvez encore demander 1 chapitre aujourd’hui.',
+      zero: 'Vous avez demandé tous vos chapitres du jour. Revenez demain.',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get aiServerQuota =>
+      'Le service a atteint sa limite du jour. Revenez demain.';
+
+  @override
+  String get aiAllCovered => 'Tous les chapitres choisis ont leurs questions.';
+
+  @override
+  String get aiRequestFailed =>
+      'La demande n’a pas abouti. Réessayez plus tard.';
+
+  @override
   String get markChapterRead => 'Marquer comme lu';
 
   @override

@@ -94,6 +94,7 @@ class ReadingQuiz {
     required ReadingScope scope,
     int count = 10,
     Random? random,
+    List<Question> ai = const [],
   }) {
     final rnd = random ?? Random();
     if (scope.isEmpty) return const [];
@@ -101,11 +102,45 @@ class ReadingQuiz {
     final curated = [for (final q in content.allQuestions) if (scope.contains(q.ref)) q]..shuffle(rnd);
     final out = <Question>[...curated.take(count)];
     if (out.length >= count) return out;
-    // 2) Questions tirées du texte, pour compléter.
+    // 2) Questions de compréhension rédigées par IA (banque du serveur gardée sur
+    //    l'appareil), prises tour à tour dans chaque chapitre.
+    final fromAi = _spread([for (final q in ai) if (scope.contains(q.ref)) q], count - out.length, rnd);
+    out.addAll(fromAi);
+    if (out.length >= count) return out;
+    // 3) Questions tirées du texte, pour compléter (pas sur un verset qu'une question IA interroge déjà).
     final gen = _Generator(content, bible, lang, scope, rnd);
+    for (final q in fromAi) {
+      gen._usedVerses.add('${q.ref.book}:${q.ref.startChapter}:${q.ref.startVerse}');
+    }
     out.addAll(gen.generate(count - out.length));
     return out;
   }
+}
+
+/// [need] questions prises tour à tour dans chaque chapitre (ordre des chapitres
+/// et des questions au hasard) : un long chapitre ne prend pas toute la place.
+List<Question> _spread(List<Question> pool, int need, Random rnd) {
+  if (need <= 0 || pool.isEmpty) return const [];
+  final byChapter = <(int, int), List<Question>>{};
+  for (final q in pool) {
+    (byChapter[(q.ref.book, q.ref.startChapter)] ??= []).add(q);
+  }
+  final groups = byChapter.values.toList()..shuffle(rnd);
+  for (final g in groups) {
+    g.shuffle(rnd);
+  }
+  final out = <Question>[];
+  for (var round = 0; out.length < need; round++) {
+    var took = false;
+    for (final g in groups) {
+      if (round < g.length && out.length < need) {
+        out.add(g[round]);
+        took = true;
+      }
+    }
+    if (!took) break;
+  }
+  return out;
 }
 
 class _Generator {

@@ -1,0 +1,114 @@
+{
+ "jsonrpc": "2.0",
+ "id": null,
+ "result": {
+  "chapters": [
+   {
+    "code": "43:3",
+    "state": "ready",
+    "rev": 1,
+    "questions": [
+     {
+      "id": "gen-ai-1",
+      "kind": "choice",
+      "q": {
+       "fr": "Selon ce passage, pourquoi Dieu a-t-il donné son Fils unique ?",
+       "en": "According to this passage, why did God give his only begotten Son?"
+      },
+      "choices": {
+       "fr": [
+        "Pour que celui qui croit en lui ait la vie éternelle",
+        "Pour que le monde entier soit jugé",
+        "Pour que les pharisiens gardent la loi",
+        "Pour que Nicodème devienne son disciple"
+       ],
+       "en": [
+        "So that whoever believes in him may have everlasting life",
+        "So that the whole world may be judged",
+        "So that the Pharisees may keep the law",
+        "So that Nicodemus may become his disciple"
+       ]
+      },
+      "answer": 0,
+      "explain": {
+       "fr": "Le verset dit que Dieu a donné son Fils « afin que quiconque croit en lui ne périsse point ».",
+       "en": "The verse says God gave his Son “that whosoever believeth in him should not perish”."
+      },
+      "ref": "43:3:16",
+      "reviewed": false
+     },
+     {
+      "id": "gen-ai-2",
+      "kind": "choice",
+      "q": {
+       "fr": "Que faut-il, selon Jésus, pour voir le royaume de Dieu ?",
+       "en": "According to Jesus, what is needed to see the kingdom of God?"
+      },
+      "choices": {
+       "fr": [
+        "Garder toute la loi",
+        "Naître de nouveau",
+        "Être docteur d'Israël",
+        "Venir de nuit"
+       ],
+       "en": [
+        "To keep the whole law",
+        "To be born again",
+        "To be a master of Israel",
+        "To come by night"
+       ]
+      },
+      "answer": 1,
+      "explain": {
+       "fr": "Jésus répond à Nicodème que si un homme ne naît de nouveau, il ne peut voir le royaume de Dieu.",
+       "en": "Jesus answers Nicodemus that unless a man is born again he cannot see the kingdom of God."
+      },
+      "ref": "43:3:3",
+      "reviewed": false
+     },
+     {
+      "id": "gen-ai-3",
+      "kind": "choice",
+      "q": {
+       "fr": "Pourquoi les hommes ont-ils préféré les ténèbres à la lumière ?",
+       "en": "Why did men love darkness rather than light?"
+      },
+      "choices": {
+       "fr": [
+        "Ils ne connaissaient pas la lumière",
+        "La lumière n'était pas encore venue",
+        "Leurs œuvres étaient mauvaises",
+        "Ils craignaient les pharisiens"
+       ],
+       "en": [
+        "They did not know the light",
+        "The light had not yet come",
+        "Their deeds were evil",
+        "They feared the Pharisees"
+       ]
+      },
+      "answer": 2,
+      "explain": {
+       "fr": "Le texte donne la raison : leurs œuvres étaient mauvaises.",
+       "en": "The text gives the reason: their deeds were evil."
+      },
+      "ref": "43:3:19",
+      "reviewed": false
+     }
+    ]
+   },
+   {
+    "code": "57:1",
+    "state": "none",
+    "rev": 0
+   }
+  ],
+  "quota": {
+   "enabled": true,
+   "daily": 3,
+   "remaining": 3,
+   "limited": ""
+  },
+  "success": true
+ }
+}

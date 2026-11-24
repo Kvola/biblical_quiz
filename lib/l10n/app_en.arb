@@ -544,6 +544,68 @@
     }
   },
   "fromTheText": "From the text",
+  "aiUnreviewed": "Written by AI · not reviewed",
+  "aiReviewed": "Written by AI · reviewed",
+  "aiUnreviewedHint": "This question was written by an AI and checked automatically against the text, but nobody has reviewed it yet. The verse is what counts.",
+  "aiReport": "Report this question",
+  "aiReportTitle": "What is wrong?",
+  "aiReportWrong": "The given answer is wrong",
+  "aiReportSeveral": "More than one answer is right",
+  "aiReportUnclear": "The question is unclear",
+  "aiReportDoctrine": "It takes a doctrinal side",
+  "aiReportOther": "Something else",
+  "aiReportNote": "Details (optional)",
+  "aiReportSend": "Send",
+  "aiReportThanks": "Thank you: the question will be reviewed.",
+  "aiReportWithdrawn": "Thank you: the question has been withdrawn.",
+  "aiReportOffline": "Cannot report without a connection. Try again later.",
+  "aiCardTitle": "Comprehension questions",
+  "aiCardIntro": "For chapters without reviewed questions, the quiz fills in with missing-word questions. An AI can write real comprehension questions instead, checked against the text.",
+  "aiCardPrivacy": "A connection is needed. The app sends the server the chosen chapters and an anonymous identifier of this installation, nothing else. Questions received then stay available offline.",
+  "aiEnable": "Turn on",
+  "aiSetting": "Questions written by AI",
+  "aiSettingHint": "Quiz on my reading: real comprehension questions for the chosen chapters. Needs a connection; sends the chapters and an anonymous identifier.",
+  "aiChecking": "Looking for available questions…",
+  "aiOffline": "Offline: the quiz uses the questions already received.",
+  "aiUnavailable": "Questions written by AI are not available at the moment.",
+  "aiCoverage": "Chapters with comprehension questions: {done} of {total}.",
+  "@aiCoverage": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "aiPreparing": "{count, plural, =1{1 chapter being prepared} other{{count} chapters being prepared}} (one to two minutes each). You can start the quiz: they will be used next time.",
+  "@aiPreparing": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiAsk": "{count, plural, =1{Ask for 1 chapter} other{Ask for {count} chapters}}",
+  "@aiAsk": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiQuotaLeft": "{count, plural, =0{You have asked for all your chapters for today. Come back tomorrow.} =1{You can still ask for 1 chapter today.} other{You can still ask for {count} chapters today.}}",
+  "@aiQuotaLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiServerQuota": "The service has reached its limit for today. Come back tomorrow.",
+  "aiAllCovered": "All chosen chapters have their questions.",
+  "aiRequestFailed": "The request failed. Try again later.",
   "markChapterRead": "Mark as read",
   "chapterRead": "Chapter read",
   "markBookRead": "Mark the whole book as read",

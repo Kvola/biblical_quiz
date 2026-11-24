@@ -135,6 +135,7 @@ void main() {
     await old.into(old.favorites).insert(FavoritesCompanion.insert(ref: '43:3:16', createdAt: 1));
     await old.customStatement('DROP TABLE sermon_note_refs');
     await old.customStatement('DROP TABLE sermon_notes');
+    await old.customStatement('DROP TABLE ai_chapters');
     await old.customStatement('PRAGMA user_version = 2');
     await old.close();
 
@@ -145,6 +146,6 @@ void main() {
     final id = await repo3.create(title: 'Après mise à jour', refs: [r('43:3:16')]);
     expect((await repo3.get(id))!.refs.single.code, '43:3:16');
     final version = await upgraded.customSelect('PRAGMA user_version').getSingle();
-    expect(version.read<int>('user_version'), 3);
+    expect(version.read<int>('user_version'), upgraded.schemaVersion);
   });
 }

@@ -355,6 +355,65 @@ S = {
     'readingQuizNamed': ('Quiz : {name}', 'Quiz: {name}'),
     'readingQuizBooksCount': ('{count, plural, =1{1 livre} other{{count} livres}}', '{count, plural, =1{1 book} other{{count} books}}'),
     'fromTheText': ('Tiré du texte', 'From the text'),
+    # Questions de compréhension rédigées par IA (banque du serveur)
+    'aiUnreviewed': ('Rédigé par IA · non relu', 'Written by AI · not reviewed'),
+    'aiReviewed': ('Rédigé par IA · relu', 'Written by AI · reviewed'),
+    'aiUnreviewedHint': ('Cette question a été rédigée par une IA et vérifiée automatiquement sur le texte, '
+                         'mais personne ne l’a encore relue. Le verset fait foi.',
+                         'This question was written by an AI and checked automatically against the text, '
+                         'but nobody has reviewed it yet. The verse is what counts.'),
+    'aiReport': ('Signaler cette question', 'Report this question'),
+    'aiReportTitle': ('Qu’est-ce qui ne va pas ?', 'What is wrong?'),
+    'aiReportWrong': ('La réponse donnée est fausse', 'The given answer is wrong'),
+    'aiReportSeveral': ('Plusieurs réponses sont justes', 'More than one answer is right'),
+    'aiReportUnclear': ('La question n’est pas claire', 'The question is unclear'),
+    'aiReportDoctrine': ('Elle prend parti sur une doctrine', 'It takes a doctrinal side'),
+    'aiReportOther': ('Autre chose', 'Something else'),
+    'aiReportNote': ('Précision (facultatif)', 'Details (optional)'),
+    'aiReportSend': ('Envoyer', 'Send'),
+    'aiReportThanks': ('Merci : la question sera relue.', 'Thank you: the question will be reviewed.'),
+    'aiReportWithdrawn': ('Merci : la question a été retirée.', 'Thank you: the question has been withdrawn.'),
+    'aiReportOffline': ('Signalement impossible sans connexion. Réessayez plus tard.',
+                        'Cannot report without a connection. Try again later.'),
+    'aiCardTitle': ('Questions de compréhension', 'Comprehension questions'),
+    'aiCardIntro': ('Pour les chapitres sans questions relues, le quiz complète avec des mots à retrouver. '
+                    'Une IA peut rédiger à la place de vraies questions de compréhension, vérifiées sur le texte.',
+                    'For chapters without reviewed questions, the quiz fills in with missing-word questions. '
+                    'An AI can write real comprehension questions instead, checked against the text.'),
+    'aiCardPrivacy': ('Il faut une connexion. L’application envoie au serveur les chapitres choisis et un '
+                      'identifiant anonyme de cette installation, rien d’autre. Les questions reçues restent '
+                      'ensuite disponibles hors ligne.',
+                      'A connection is needed. The app sends the server the chosen chapters and an anonymous '
+                      'identifier of this installation, nothing else. Questions received then stay available offline.'),
+    'aiEnable': ('Activer', 'Turn on'),
+    'aiSetting': ('Questions rédigées par IA', 'Questions written by AI'),
+    'aiSettingHint': ('Quiz sur mes lectures : de vraies questions de compréhension pour les chapitres choisis. '
+                      'Demande une connexion ; envoie les chapitres et un identifiant anonyme.',
+                      'Quiz on my reading: real comprehension questions for the chosen chapters. '
+                      'Needs a connection; sends the chapters and an anonymous identifier.'),
+    'aiChecking': ('Recherche des questions disponibles…', 'Looking for available questions…'),
+    'aiOffline': ('Hors connexion : le quiz utilise les questions déjà reçues.',
+                  'Offline: the quiz uses the questions already received.'),
+    'aiUnavailable': ('Les questions rédigées par IA ne sont pas disponibles pour le moment.',
+                      'Questions written by AI are not available at the moment.'),
+    'aiCoverage': ('Chapitres avec des questions de compréhension : {done} sur {total}.',
+                   'Chapters with comprehension questions: {done} of {total}.'),
+    'aiPreparing': ('{count, plural, =1{1 chapitre en préparation} other{{count} chapitres en préparation}} '
+                    '(une à deux minutes chacun). Vous pouvez commencer le quiz : ils serviront la prochaine fois.',
+                    '{count, plural, =1{1 chapter being prepared} other{{count} chapters being prepared}} '
+                    '(one to two minutes each). You can start the quiz: they will be used next time.'),
+    'aiAsk': ('{count, plural, =1{Demander 1 chapitre} other{Demander {count} chapitres}}',
+              '{count, plural, =1{Ask for 1 chapter} other{Ask for {count} chapters}}'),
+    'aiQuotaLeft': ('{count, plural, =0{Vous avez demandé tous vos chapitres du jour. Revenez demain.} '
+                    '=1{Vous pouvez encore demander 1 chapitre aujourd’hui.} '
+                    'other{Vous pouvez encore demander {count} chapitres aujourd’hui.}}',
+                    '{count, plural, =0{You have asked for all your chapters for today. Come back tomorrow.} '
+                    '=1{You can still ask for 1 chapter today.} '
+                    'other{You can still ask for {count} chapters today.}}'),
+    'aiServerQuota': ('Le service a atteint sa limite du jour. Revenez demain.',
+                      'The service has reached its limit for today. Come back tomorrow.'),
+    'aiAllCovered': ('Tous les chapitres choisis ont leurs questions.', 'All chosen chapters have their questions.'),
+    'aiRequestFailed': ('La demande n’a pas abouti. Réessayez plus tard.', 'The request failed. Try again later.'),
     'markChapterRead': ('Marquer comme lu', 'Mark as read'),
     'chapterRead': ('Chapitre lu', 'Chapter read'),
     'markBookRead': ('Marquer tout le livre comme lu', 'Mark the whole book as read'),

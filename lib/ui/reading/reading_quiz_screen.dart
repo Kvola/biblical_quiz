@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../ai/ai_bank.dart';
 import '../../bible/bible.dart';
 import '../../content/models.dart';
 import '../../core/background.dart';
@@ -10,6 +11,7 @@ import '../../domain/reading_quiz.dart';
 import '../../providers.dart';
 import '../common.dart';
 import '../quiz/quiz_screen.dart';
+import 'ai_card.dart';
 
 /// « Quiz sur mes lectures » : choix d'un ou plusieurs livres, des chapitres lus
 /// ou des livres entiers, puis quiz (questions relues d'abord, puis tirées du texte).
@@ -157,6 +159,14 @@ class _ReadingQuizScreenState extends ConsumerState<ReadingQuizScreen> {
                       ],
                       selected: {_count},
                       onSelectionChanged: (v) => setState(() => _count = v.first),
+                    ),
+                    const SizedBox(height: 16),
+                    AiQuestionsCard(
+                      chapters: [
+                        for (final b in selected.toList()..sort())
+                          for (var c = 1; c <= bible.chapterCount(b); c++)
+                            if (!onlyRead || (read[b] ?? const <int>{}).contains(c)) AiBank.code(b, c),
+                      ],
                     ),
                     const SizedBox(height: 20),
                     Text(l.readingQuizBooks, style: Theme.of(context).textTheme.titleMedium),
@@ -316,12 +326,21 @@ Future<void> openReadingQuiz(
   final nav = Navigator.of(context);
   final content = await ref.read(contentProvider.future);
   final Bible b = bible ?? await ref.read(bibleProvider(Translation.forLang(lang)).future);
+  // Questions rédigées par IA déjà reçues (cache de l'appareil : aucun appel réseau ici).
+  var ai = const <Question>[];
+  if (ref.read(settingsProvider).value?.aiQuestions ?? false) {
+    try {
+      ai = await ref.read(aiBankRepoProvider).questions(books: scope.books.keys.toSet());
+    } catch (_) {}
+  }
   List<Question> questions;
   try {
     // Plusieurs livres = des milliers de versets à analyser : hors du fil de l'interface.
-    questions = await runInBackground(() => ReadingQuiz.build(content: content, bible: b, lang: lang, scope: scope, count: count));
+    questions = await runInBackground(
+      () => ReadingQuiz.build(content: content, bible: b, lang: lang, scope: scope, count: count, ai: ai),
+    );
   } catch (_) {
-    questions = ReadingQuiz.build(content: content, bible: b, lang: lang, scope: scope, count: count);
+    questions = ReadingQuiz.build(content: content, bible: b, lang: lang, scope: scope, count: count, ai: ai);
   }
   onBuilt?.call();
   if (!context.mounted) return;

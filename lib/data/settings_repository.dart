@@ -17,7 +17,12 @@ class AppSettings {
     this.notesLastBackup,
     this.notesReminderDismissed,
     this.verseImageLight = false,
+    this.aiQuestions = false,
   });
+
+  /// Questions de compréhension rédigées par IA : l'application interroge alors
+  /// le serveur (chapitres choisis + identifiant anonyme). Désactivé par défaut.
+  final bool aiQuestions;
 
   /// Image à partager : fond clair (crème, texte bleu) au lieu du fond bleu nuit.
   final bool verseImageLight;
@@ -86,6 +91,7 @@ class AppSettings {
       notesLastBackup: int.tryParse(m['notesLastBackup'] ?? ''),
       notesReminderDismissed: int.tryParse(m['notesReminderDismissed'] ?? ''),
       verseImageLight: m['verseImageLight'] == '1',
+      aiQuestions: m['aiQuestions'] == '1',
       themeMode: switch (m['theme']) {
         'light' => 'light',
         'dark' => 'dark',
@@ -119,6 +125,7 @@ class SettingsRepository {
   Future<void> setOnboarded() => _set('onboarded', '1');
   Future<void> setThemeMode(String mode) => _set('theme', mode == 'system' ? null : mode);
   Future<void> setVerseImageLight(bool v) => _set('verseImageLight', v ? '1' : null);
+  Future<void> setAiQuestions(bool v) => _set('aiQuestions', v ? '1' : null);
   Future<void> setKeepScreenOn(bool v) => _set('keepScreenOn', v ? null : '0');
   Future<void> setNotesLastBackup(DateTime when) => _set('notesLastBackup', '${when.millisecondsSinceEpoch}');
   Future<void> setNotesReminderDismissed(DateTime when) => _set('notesReminderDismissed', '${when.millisecondsSinceEpoch}');

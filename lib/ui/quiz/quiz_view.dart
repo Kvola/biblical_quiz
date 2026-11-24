@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../ai/ai_bank.dart';
 import '../../content/models.dart';
 import '../../core/books.dart';
 import '../../core/theme.dart';
@@ -7,6 +8,7 @@ import '../../domain/quiz_session.dart';
 import '../common.dart';
 import '../widgets/printed_note.dart';
 import '../widgets/verse_sheet.dart';
+import 'ai_report.dart';
 
 /// Pose les questions une à une : choix, correction immédiate, explication
 /// et renvoi au verset, puis « Suivant ». Appelle [onFinished] une seule fois.
@@ -101,20 +103,36 @@ class _QuizViewState extends State<QuizView> {
               Text(l.questionOf(s.index + 1, s.length), style: text.labelLarge),
               const SizedBox(height: 8),
               if (widget.showSource) ...[
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Chip(
-                    visualDensity: VisualDensity.compact,
-                    avatar: Icon(q.id.startsWith('gen-') ? Icons.auto_stories_outlined : Icons.menu_book_outlined, size: 18),
-                    label: Text(
-                      q.id.startsWith('gen-')
-                          ? l.fromTheText
-                          // Livres d'un seul chapitre (Abdias, Philémon, 2 et 3 Jean, Jude) : le nom suffit.
-                          : const {31, 57, 63, 64, 65}.contains(q.ref.book)
-                          ? bookById(q.ref.book).name(lang)
-                          : '${bookById(q.ref.book).name(lang)} ${q.ref.startChapter}',
+                Wrap(
+                  spacing: 8,
+                  runSpacing: 4,
+                  children: [
+                    Chip(
+                      visualDensity: VisualDensity.compact,
+                      avatar: Icon(
+                        q.id.startsWith('gen-') && q is! AiChoiceQuestion
+                            ? Icons.auto_stories_outlined
+                            : Icons.menu_book_outlined,
+                        size: 18,
+                      ),
+                      label: Text(
+                        q.id.startsWith('gen-') && q is! AiChoiceQuestion
+                            ? l.fromTheText
+                            // Livres d'un seul chapitre (Abdias, Philémon, 2 et 3 Jean, Jude) : le nom suffit.
+                            : const {31, 57, 63, 64, 65}.contains(q.ref.book)
+                            ? bookById(q.ref.book).name(lang)
+                            : '${bookById(q.ref.book).name(lang)} ${q.ref.startChapter}',
+                      ),
                     ),
-                  ),
+                    // Rédigée par IA : dit AVANT de répondre, et si quelqu'un l'a relue.
+                    if (q is AiChoiceQuestion)
+                      Chip(
+                        key: const ValueKey('ai-chip'),
+                        visualDensity: VisualDensity.compact,
+                        avatar: const Icon(Icons.auto_awesome_outlined, size: 18),
+                        label: Text(q.reviewed ? l.aiReviewed : l.aiUnreviewed),
+                      ),
+                  ],
                 ),
                 const SizedBox(height: 8),
               ],
@@ -265,6 +283,22 @@ class _Explanation extends StatelessWidget {
               ),
             ),
             PrintedRefNote(question.ref, padding: const EdgeInsets.only(left: 8)),
+            if (question case final AiChoiceQuestion ai) ...[
+              if (!ai.reviewed)
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(8, 8, 8, 0),
+                  child: Text(l.aiUnreviewedHint, style: Theme.of(context).textTheme.bodySmall),
+                ),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: TextButton.icon(
+                  key: const ValueKey('ai-report'),
+                  icon: const Icon(Icons.flag_outlined),
+                  label: Text(l.aiReport),
+                  onPressed: () => showAiReportSheet(context, ai),
+                ),
+              ),
+            ],
           ],
         ),
       ),

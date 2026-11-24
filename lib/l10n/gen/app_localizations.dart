@@ -1682,6 +1682,192 @@ abstract class AppLocalizations {
   /// **'Tiré du texte'**
   String get fromTheText;
 
+  /// No description provided for @aiUnreviewed.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rédigé par IA · non relu'**
+  String get aiUnreviewed;
+
+  /// No description provided for @aiReviewed.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rédigé par IA · relu'**
+  String get aiReviewed;
+
+  /// No description provided for @aiUnreviewedHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cette question a été rédigée par une IA et vérifiée automatiquement sur le texte, mais personne ne l’a encore relue. Le verset fait foi.'**
+  String get aiUnreviewedHint;
+
+  /// No description provided for @aiReport.
+  ///
+  /// In fr, this message translates to:
+  /// **'Signaler cette question'**
+  String get aiReport;
+
+  /// No description provided for @aiReportTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Qu’est-ce qui ne va pas ?'**
+  String get aiReportTitle;
+
+  /// No description provided for @aiReportWrong.
+  ///
+  /// In fr, this message translates to:
+  /// **'La réponse donnée est fausse'**
+  String get aiReportWrong;
+
+  /// No description provided for @aiReportSeveral.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plusieurs réponses sont justes'**
+  String get aiReportSeveral;
+
+  /// No description provided for @aiReportUnclear.
+  ///
+  /// In fr, this message translates to:
+  /// **'La question n’est pas claire'**
+  String get aiReportUnclear;
+
+  /// No description provided for @aiReportDoctrine.
+  ///
+  /// In fr, this message translates to:
+  /// **'Elle prend parti sur une doctrine'**
+  String get aiReportDoctrine;
+
+  /// No description provided for @aiReportOther.
+  ///
+  /// In fr, this message translates to:
+  /// **'Autre chose'**
+  String get aiReportOther;
+
+  /// No description provided for @aiReportNote.
+  ///
+  /// In fr, this message translates to:
+  /// **'Précision (facultatif)'**
+  String get aiReportNote;
+
+  /// No description provided for @aiReportSend.
+  ///
+  /// In fr, this message translates to:
+  /// **'Envoyer'**
+  String get aiReportSend;
+
+  /// No description provided for @aiReportThanks.
+  ///
+  /// In fr, this message translates to:
+  /// **'Merci : la question sera relue.'**
+  String get aiReportThanks;
+
+  /// No description provided for @aiReportWithdrawn.
+  ///
+  /// In fr, this message translates to:
+  /// **'Merci : la question a été retirée.'**
+  String get aiReportWithdrawn;
+
+  /// No description provided for @aiReportOffline.
+  ///
+  /// In fr, this message translates to:
+  /// **'Signalement impossible sans connexion. Réessayez plus tard.'**
+  String get aiReportOffline;
+
+  /// No description provided for @aiCardTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Questions de compréhension'**
+  String get aiCardTitle;
+
+  /// No description provided for @aiCardIntro.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pour les chapitres sans questions relues, le quiz complète avec des mots à retrouver. Une IA peut rédiger à la place de vraies questions de compréhension, vérifiées sur le texte.'**
+  String get aiCardIntro;
+
+  /// No description provided for @aiCardPrivacy.
+  ///
+  /// In fr, this message translates to:
+  /// **'Il faut une connexion. L’application envoie au serveur les chapitres choisis et un identifiant anonyme de cette installation, rien d’autre. Les questions reçues restent ensuite disponibles hors ligne.'**
+  String get aiCardPrivacy;
+
+  /// No description provided for @aiEnable.
+  ///
+  /// In fr, this message translates to:
+  /// **'Activer'**
+  String get aiEnable;
+
+  /// No description provided for @aiSetting.
+  ///
+  /// In fr, this message translates to:
+  /// **'Questions rédigées par IA'**
+  String get aiSetting;
+
+  /// No description provided for @aiSettingHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Quiz sur mes lectures : de vraies questions de compréhension pour les chapitres choisis. Demande une connexion ; envoie les chapitres et un identifiant anonyme.'**
+  String get aiSettingHint;
+
+  /// No description provided for @aiChecking.
+  ///
+  /// In fr, this message translates to:
+  /// **'Recherche des questions disponibles…'**
+  String get aiChecking;
+
+  /// No description provided for @aiOffline.
+  ///
+  /// In fr, this message translates to:
+  /// **'Hors connexion : le quiz utilise les questions déjà reçues.'**
+  String get aiOffline;
+
+  /// No description provided for @aiUnavailable.
+  ///
+  /// In fr, this message translates to:
+  /// **'Les questions rédigées par IA ne sont pas disponibles pour le moment.'**
+  String get aiUnavailable;
+
+  /// No description provided for @aiCoverage.
+  ///
+  /// In fr, this message translates to:
+  /// **'Chapitres avec des questions de compréhension : {done} sur {total}.'**
+  String aiCoverage(int done, int total);
+
+  /// No description provided for @aiPreparing.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =0{0 chapitre en préparation} =1{1 chapitre en préparation} other{{count} chapitres en préparation}} (une à deux minutes chacun). Vous pouvez commencer le quiz : ils serviront la prochaine fois.'**
+  String aiPreparing(int count);
+
+  /// No description provided for @aiAsk.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =0{Demander 0 chapitre} =1{Demander 1 chapitre} other{Demander {count} chapitres}}'**
+  String aiAsk(int count);
+
+  /// No description provided for @aiQuotaLeft.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =0{Vous avez demandé tous vos chapitres du jour. Revenez demain.} =1{Vous pouvez encore demander 1 chapitre aujourd’hui.} other{Vous pouvez encore demander {count} chapitres aujourd’hui.}}'**
+  String aiQuotaLeft(int count);
+
+  /// No description provided for @aiServerQuota.
+  ///
+  /// In fr, this message translates to:
+  /// **'Le service a atteint sa limite du jour. Revenez demain.'**
+  String get aiServerQuota;
+
+  /// No description provided for @aiAllCovered.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tous les chapitres choisis ont leurs questions.'**
+  String get aiAllCovered;
+
+  /// No description provided for @aiRequestFailed.
+  ///
+  /// In fr, this message translates to:
+  /// **'La demande n’a pas abouti. Réessayez plus tard.'**
+  String get aiRequestFailed;
+
   /// No description provided for @markChapterRead.
   ///
   /// In fr, this message translates to:

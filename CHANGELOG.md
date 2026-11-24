@@ -2,6 +2,14 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.13.0 (build 17) — 24 novembre 2026
+
+- **Questions de compréhension rédigées par IA** (Quiz sur mes lectures) : pour les chapitres sans questions relues, de vraies questions de compréhension remplacent les mots à retrouver. Une banque par chapitre vit sur le serveur : un chapitre est rédigé une fois (français + anglais), contrôlé (citations mot pour mot dans la Segond et la King James, relecture indépendante à l'aveugle), puis servi à tous et gardé hors ligne. Désactivé par défaut : la carte **Questions de compréhension** explique ce qui est envoyé (chapitres choisis, identifiant anonyme) avant de l'activer.
+- **Quota gratuit** : quelques chapitres nouveaux par jour et par appareil (3 par défaut, réglable sur le serveur) ; lire un chapitre déjà rédigé ne compte pas.
+- **Étiquette** « Rédigé par IA · non relu » tant qu'une personne ne l'a pas relue, puis « Rédigé par IA · relu » ; **Signaler cette question** après chaque réponse.
+- Ces questions n'entrent pas dans la révision espacée (elles peuvent être corrigées ou retirées). Base locale : schéma 4 (table `ai_chapters`, simple cache).
+- Nécessite le module serveur 19.0.3.0.0 et une clé Anthropic dans ses réglages ; sans cela la carte indique que le service n'est pas disponible et le quiz fonctionne comme avant.
+
 ## 1.12.1 (build 16) — 17 novembre 2026
 
 - **Lien de projection** (télévision, ordinateur de salle) : l'écran de projection s'ouvre directement, sans l'écran d'accueil ni les bandeaux d'installation, même dans un navigateur qui n'a jamais ouvert l'application. L'accueil reste proposé au prochain lancement normal.

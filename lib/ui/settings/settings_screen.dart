@@ -7,7 +7,7 @@ import '../../providers.dart';
 import '../common.dart';
 
 /// Version affichée dans « À propos » (tenue à jour avec pubspec.yaml ; vérifiée par un test).
-const appVersion = '1.13.1';
+const appVersion = '1.13.2';
 
 class SettingsScreen extends ConsumerStatefulWidget {
   const SettingsScreen({super.key});

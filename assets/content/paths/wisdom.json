@@ -1120,16 +1120,16 @@
      },
      "choices": {
       "fr": [
-       "Avec des chants et des danses",
-       "Avec des jeûnes et des prières",
+       "Avec des chants et des danses aux jours de fête",
+       "Avec des jeûnes et des prières chaque matin",
        "Avec ses biens et les prémices de son revenu",
-       "Avec de l'encens et des parfums"
+       "Avec de l'encens et les parfums les plus précieux"
       ],
       "en": [
-       "With songs and dances",
-       "With fasting and prayers",
-       "With one's substance and the firstfruits of one's increase",
-       "With incense and perfumes"
+       "With songs and dances on the feast days",
+       "With fasting and prayers every morning",
+       "With one's goods and the firstfruits of one's income",
+       "With incense and the most precious perfumes"
       ]
      },
      "answer": 2,

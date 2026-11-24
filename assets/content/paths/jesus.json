@@ -180,8 +180,8 @@
      },
      "answer": true,
      "explain": {
-      "fr": "Jésus répond trois fois par « Il est écrit » (versets 4, 7 et 10). La dernière fois, il dit : « Retire-toi, Satan! » Ces paroles reprennent le Deutéronome.",
-      "en": "Jesus answers three times with “It is written” (verses 4, 7 and 10). The last time he says, “Get thee hence, Satan.” These words come from Deuteronomy."
+      "fr": "Jésus répond trois fois par « Il est écrit » (versets 4, 7 et 10) ; la dernière fois, il ajoute : « Retire-toi, Satan! » Ses trois citations viennent du Deutéronome.",
+      "en": "Jesus answers three times with “It is written” (verses 4, 7 and 10); the last time he adds, “Get thee hence, Satan.” All three quotations come from Deuteronomy."
      },
      "ref": "40:4:10"
     }
@@ -202,7 +202,7 @@
    },
    "keyVerse": "40:5:3",
    "takeaway": {
-    "fr": "Jésus déclare « heureux » les pauvres en esprit, les affligés, les miséricordieux ou ceux qui procurent la paix. Il dit à ses disciples qu'ils sont le sel de la terre et la lumière du monde.",
+    "fr": "Jésus déclare « heureux » les pauvres en esprit, les affligés, les miséricordieux et ceux qui procurent la paix. Il dit à ses disciples qu'ils sont le sel de la terre et la lumière du monde.",
     "en": "Jesus calls “blessed” the poor in spirit, those who mourn, the merciful and the peacemakers. He tells his disciples that they are the salt of the earth and the light of the world."
    },
    "questions": [
@@ -1237,15 +1237,15 @@
      },
      "choices": {
       "fr": [
-       "La Décapole",
-       "Jérusalem",
-       "Bethléhem",
+       "Le pays des Gadaréniens",
+       "Les environs de Jérusalem",
+       "Le désert de Judée",
        "Le territoire de Césarée de Philippe"
       ],
       "en": [
-       "Decapolis",
-       "Jerusalem",
-       "Bethlehem",
+       "The country of the Gadarenes",
+       "The area around Jerusalem",
+       "The wilderness of Judaea",
        "The coasts of Cesarea Philippi"
       ]
      },
@@ -1266,15 +1266,15 @@
      "choices": {
       "fr": [
        "Qu'il est Jean-Baptiste, Elie, Jérémie ou l'un des prophètes",
-       "Qu'il est un simple charpentier",
-       "Qu'il est Moïse revenu",
-       "Qu'il est un ange venu du ciel"
+       "Qu'il est un roi venu délivrer le pays des Romains",
+       "Qu'il est Moïse, revenu pour donner une loi nouvelle",
+       "Qu'il est un ange descendu du ciel sous forme humaine"
       ],
       "en": [
        "That he is John the Baptist, Elias, Jeremias, or one of the prophets",
-       "That he is just a carpenter",
-       "That he is Moses come back",
-       "That he is an angel from heaven"
+       "That he is a king come to free the land from the Romans",
+       "That he is Moses, come back to give a new law",
+       "That he is an angel come down from heaven in human form"
       ]
      },
      "answer": 0,
@@ -1288,7 +1288,7 @@
      "id": "jesus-who-3",
      "kind": "choice",
      "q": {
-      "fr": "Que répond Simon Pierre quand Jésus demande : « Et vous, qui dites-vous que je suis ? »",
+      "fr": "Que répond Simon Pierre quand Jésus demande : « Et vous… qui dites-vous que je suis? »",
       "en": "What does Simon Peter answer when Jesus asks, “But whom say ye that I am?”"
      },
      "choices": {
@@ -1323,13 +1323,13 @@
       "fr": [
        "Qu'il va devenir roi à Jérusalem",
        "Qu'il va retourner à Nazareth",
-       "Qu'il doit souffrir, être mis à mort et ressusciter le troisième jour",
+       "Qu'il doit souffrir, être mis à mort et ressusciter",
        "Qu'ils vont tous devenir prophètes"
       ],
       "en": [
        "That he is going to become king in Jerusalem",
        "That he is going back to Nazareth",
-       "That he must suffer, be killed and be raised again the third day",
+       "That he must suffer, be killed and be raised again",
        "That they will all become prophets"
       ]
      },
@@ -1366,13 +1366,13 @@
        "Vendre tous ses biens",
        "Quitter sa ville natale",
        "Faire des miracles en son nom",
-       "Renoncer à lui-même, se charger de sa croix et le suivre"
+       "Se charger de sa croix et le suivre"
       ],
       "en": [
        "Sell all his goods",
        "Leave his home town",
        "Do miracles in his name",
-       "Deny himself, take up his cross and follow him"
+       "Take up his cross and follow him"
       ]
      },
      "answer": 3,
@@ -1715,13 +1715,13 @@
       "fr": [
        "Vêtu de blanc et souriant",
        "Porté par ses soeurs",
-       "Les pieds et les mains liés de bandes, le visage enveloppé d'un linge",
+       "Les pieds et les mains liés de bandes",
        "Seul, après que la foule est partie"
       ],
       "en": [
        "Dressed in white and smiling",
        "Carried by his sisters",
-       "Bound hand and foot with graveclothes, his face wrapped in a napkin",
+       "Bound hand and foot with graveclothes",
        "Alone, after the crowd had left"
       ]
      },
@@ -1744,8 +1744,8 @@
     "41:14:12-31"
    ],
    "intro": {
-    "fr": "Jésus est à Jérusalem pour la fête de la Pâque, quelques jours avant sa mort. Dans l'Évangile de Marc, il prend un dernier repas avec les douze.",
-    "en": "Jesus is in Jerusalem for the feast of Passover, a few days before his death. In Mark's Gospel, he shares a last meal with the twelve."
+    "fr": "Jésus est à Jérusalem pour la fête de la Pâque. Dans l'Évangile de Marc, il prend un dernier repas avec les douze, le soir qui précède sa mort.",
+    "en": "Jesus is in Jerusalem for the feast of Passover. In Mark's Gospel, he shares a last meal with the twelve on the evening before his death."
    },
    "keyVerse": "41:14:22",
    "takeaway": {
@@ -1763,13 +1763,13 @@
      "choices": {
       "fr": [
        "Le jour du sabbat",
-       "Le premier jour des pains sans levain, où l'on immolait la Pâque",
+       "Le premier jour des pains sans levain",
        "Le jour de la Pentecôte",
        "Le dernier jour de la fête des Tabernacles"
       ],
       "en": [
        "On the sabbath day",
-       "The first day of unleavened bread, when they killed the passover",
+       "The first day of unleavened bread",
        "On the day of Pentecost",
        "The last day of the feast of Tabernacles"
       ]
@@ -1804,8 +1804,8 @@
      },
      "answer": 1,
      "explain": {
-      "fr": "« Vous rencontrerez un homme portant une cruche d'eau, suivez-le. » Il les mène à une grande chambre haute, meublée et toute prête.",
-      "en": "“There shall meet you a man bearing a pitcher of water: follow him.” He leads them to a large upper room, furnished and prepared."
+      "fr": "« Vous rencontrerez un homme portant une cruche d'eau, suivez-le. » Le maître de la maison où il entre leur montrera une grande chambre haute, meublée et toute prête.",
+      "en": "“There shall meet you a man bearing a pitcher of water: follow him.” The goodman of the house he enters will show them a large upper room, furnished and prepared."
      },
      "ref": "41:14:13"
     },
@@ -1846,13 +1846,13 @@
      },
      "choices": {
       "fr": [
-       "Ils s'attristent et demandent l'un après l'autre : « Est-ce moi? »",
+       "Ils s'attristent et demandent : « Est-ce moi? »",
        "Ils accusent aussitôt Judas",
        "Ils quittent la table en silence",
        "Ils se mettent à rire, incrédules"
       ],
       "en": [
-       "They grow sorrowful and ask one by one, “Is it I?”",
+       "They grow sorrowful and ask, “Is it I?”",
        "They accuse Judas at once",
        "They leave the table in silence",
        "They laugh in disbelief"
@@ -1883,8 +1883,8 @@
      "id": "jesus-supper-6",
      "kind": "choice",
      "q": {
-      "fr": "Qu'annonce Jésus à Pierre, qui affirme ne jamais être scandalisé ?",
-      "en": "What does Jesus tell Peter, who insists he will never be offended?"
+      "fr": "Qu'annonce Jésus à Pierre, qui affirme qu'il ne sera pas scandalisé ?",
+      "en": "What does Jesus tell Peter, who insists he will not be offended?"
      },
      "choices": {
       "fr": [
@@ -2049,13 +2049,13 @@
      },
      "choices": {
       "fr": [
-       "Il tire l'épée et coupe l'oreille du serviteur du souverain sacrificateur",
+       "Il tire l'épée et emporte l'oreille d'un serviteur",
        "Il court prévenir les autres disciples",
        "Il supplie les soldats de relâcher Jésus",
        "Il se livre à la place de Jésus"
       ],
       "en": [
-       "He draws a sword and cuts off the ear of a servant of the high priest",
+       "He draws a sword and cuts off a servant's ear",
        "He runs to warn the other disciples",
        "He begs the soldiers to release Jesus",
        "He gives himself up in Jesus' place"
@@ -2219,8 +2219,8 @@
      "id": "jesus-cross-5",
      "kind": "choice",
      "q": {
-      "fr": "Quelle est la dernière parole de Jésus rapportée par Jean ?",
-      "en": "What are Jesus' last words as reported by John?"
+      "fr": "Selon Jean, quelle est la dernière parole de Jésus sur la croix ?",
+      "en": "According to John, what are Jesus' last words on the cross?"
      },
      "choices": {
       "fr": [
@@ -2269,8 +2269,8 @@
     "43:20:1-18"
    ],
    "intro": {
-    "fr": "Le sabbat est passé. Dans l'Évangile de Jean, Marie de Magdala, qui se tenait près de la croix, revient au sépulcre au petit matin.",
-    "en": "The sabbath is over. In John's Gospel, Mary Magdalene, who stood by the cross, returns to the sepulchre early in the morning."
+    "fr": "Le sabbat est passé. Dans l'Évangile de Jean, Marie de Magdala, qui se tenait près de la croix, se rend au sépulcre au petit matin.",
+    "en": "The sabbath is over. In John's Gospel, Mary Magdalene, who stood by the cross, comes to the sepulchre early in the morning."
    },
    "keyVerse": "43:20:16",
    "takeaway": {
@@ -2288,13 +2288,13 @@
      "choices": {
       "fr": [
        "Le soir du sabbat",
-       "Le premier jour de la semaine, au matin, quand il fait encore obscur",
+       "Le premier jour de la semaine, dès le matin",
        "Trois jours après le sabbat, à midi",
        "La nuit même de la crucifixion"
       ],
       "en": [
        "On the evening of the sabbath",
-       "The first day of the week, early, while it is still dark",
+       "The first day of the week, early in the morning",
        "Three days after the sabbath, at noon",
        "The very night of the crucifixion"
       ]
@@ -2310,21 +2310,21 @@
      "id": "jesus-tomb-2",
      "kind": "choice",
      "q": {
-      "fr": "Qui arrive le premier au sépulcre ?",
-      "en": "Who reaches the sepulchre first?"
+      "fr": "Après l'annonce de Marie de Magdala, qui arrive le premier au sépulcre ?",
+      "en": "After Mary Magdalene's report, who reaches the sepulchre first?"
      },
      "choices": {
       "fr": [
        "Simon Pierre",
        "Marie de Magdala, avec Pierre",
        "Thomas",
-       "L'autre disciple, qui court plus vite que Pierre"
+       "L'autre disciple que Jésus aimait"
       ],
       "en": [
        "Simon Peter",
        "Mary Magdalene, with Peter",
        "Thomas",
-       "The other disciple, who outruns Peter"
+       "The other disciple, whom Jesus loved"
       ]
      },
      "answer": 3,
@@ -2344,15 +2344,15 @@
      "choices": {
       "fr": [
        "Les bandes à terre et le linge de la tête plié à part",
-       "Deux anges assis",
-       "Le corps de Jésus enveloppé",
-       "Des soldats endormis"
+       "Deux anges vêtus de blanc, assis à la place du corps",
+       "Le corps de Jésus encore enveloppé de bandes",
+       "Des soldats endormis près de la pierre"
       ],
       "en": [
        "The linen clothes lying and the head napkin wrapped together apart",
-       "Two angels sitting",
-       "Jesus' body wrapped up",
-       "Soldiers asleep"
+       "Two angels in white, sitting where the body had lain",
+       "The body of Jesus still wound in linen clothes",
+       "Soldiers asleep beside the stone"
       ]
      },
      "answer": 0,
@@ -2548,13 +2548,13 @@
      "choices": {
       "fr": [
        "Pour conserver l'histoire d'Israël",
-       "Afin que vous croyiez que Jésus est le Christ, le Fils de Dieu, et ayez la vie en son nom",
+       "Pour amener à croire que Jésus est le Christ",
        "Pour répondre aux questions des pharisiens",
        "Pour raconter tous les miracles de Jésus"
       ],
       "en": [
        "To preserve the history of Israel",
-       "That ye might believe that Jesus is the Christ, the Son of God, and have life through his name",
+       "To lead people to believe that Jesus is the Christ",
        "To answer the Pharisees' questions",
        "To record all of Jesus' miracles"
       ]

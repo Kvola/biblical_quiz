@@ -2,6 +2,10 @@
 
 Le numéro de version (`version:` de `pubspec.yaml`, sous la forme `nom+build`) est repris dans le nom des APK de `dist/`. Le numéro de build augmente à chaque version publiée : Android refuse d'installer une mise à jour dont le numéro est inférieur ou égal à celui de la version installée.
 
+## 1.13.1 (build 18) — 24 novembre 2026
+
+- **Relecture complète du contenu** : les 995 questions des parcours et des fiches de livres ont été relues sur le texte (Segond 1910 et King James 1769) par des relecteurs indépendants, puis les corrections contre-vérifiées. 181 questions, leçons ou fiches corrigées : une seconde réponse défendable retirée (prière de Salomon), une réponse anglaise contraire à la King James (Deutéronome 1:5), une citation incomplète ; surtout, des bonnes réponses qui se devinaient à leur longueur ou parce qu'elles étaient seules dans les mots de la traduction ; fautes de langue et tournures calquées ; « Habakuk » comme dans la Segond. Trois questions sont remplacées par une question de compréhension (fiches de Zacharie et du Cantique, Esther). Aucun identifiant ne change : la progression est conservée.
+
 ## 1.13.0 (build 17) — 24 novembre 2026
 
 - **Questions de compréhension rédigées par IA** (Quiz sur mes lectures) : pour les chapitres sans questions relues, de vraies questions de compréhension remplacent les mots à retrouver. Une banque par chapitre vit sur le serveur : un chapitre est rédigé une fois (français + anglais), contrôlé (citations mot pour mot dans la Segond et la King James, relecture indépendante à l'aveugle), puis servi à tous et gardé hors ligne. Désactivé par défaut : la carte **Questions de compréhension** explique ce qui est envoyé (chapitres choisis, identifiant anonyme) avant de l'activer.

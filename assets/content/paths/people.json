@@ -317,19 +317,19 @@
        "Béthel",
        "Peniel",
        "Jehova-Jiré",
-       "Ebenézer"
+       "Eben-Ezer"
       ],
       "en": [
        "Bethel",
        "Peniel",
        "Jehovah-jireh",
-       "Ebenezer"
+       "Eben-ezer"
       ]
      },
      "answer": 2,
      "explain": {
       "fr": "« Abraham donna à ce lieu le nom de Jehova-Jiré. » Le verset explique le dicton : « A la montagne de l'Eternel il sera pourvu », en écho à la réponse d'Abraham au verset 8.",
-      "en": "“Abraham called the name of that place Jehovah-jireh.” The verse adds the saying: “In the mount of the Lord it shall be seen”, echoing the words “God will provide” in verse 8."
+      "en": "“Abraham called the name of that place Jehovah-jireh.” The verse adds the saying: “In the mount of the Lord it shall be seen.” The Hebrew verb in this name can mean both “see” and “provide”: it is the verb of verse 8, “God will provide himself a lamb.”"
      },
      "ref": "1:22:14"
     },
@@ -637,13 +637,13 @@
      "choices": {
       "fr": [
        "Il est né dans la maison de Lévi",
-       "Je l'ai retiré des eaux",
+       "Elle l'a retiré des eaux",
        "Il pleurait dans la caisse",
        "Il sera un chef pour les Hébreux"
       ],
       "en": [
        "He was born in the house of Levi",
-       "I drew him out of the water",
+       "She drew him out of the water",
        "He was crying in the ark",
        "He will be a leader of the Hebrews"
       ]
@@ -925,7 +925,7 @@
      "id": "people-samuel-2",
      "kind": "choice",
      "q": {
-      "fr": "Combien de fois Samuel court-il vers Eli avant qu'Eli comprenne que l'Eternel l'appelle ?",
+      "fr": "Combien de fois Samuel va-t-il trouver Eli avant qu'Eli comprenne que l'Eternel l'appelle ?",
       "en": "How many times does Samuel go to Eli before Eli realizes that the Lord is calling him?"
      },
      "choices": {
@@ -989,13 +989,13 @@
        "Eli avait quitté le sanctuaire de Silo",
        "Eli avait refusé d'accueillir Samuel",
        "Eli avait rendu un culte à Baal",
-       "Ses fils se rendaient méprisables et il ne les réprimait pas"
+       "Eli n'avait pas réprimé ses fils méprisables"
       ],
       "en": [
        "Eli had left the sanctuary at Shiloh",
        "Eli had refused to take Samuel in",
        "Eli had worshipped Baal",
-       "His sons made themselves vile and he did not restrain them"
+       "Eli had not restrained his vile sons"
       ]
      },
      "answer": 3,
@@ -1083,7 +1083,7 @@
        "Il a appris le maniement de l'épée avec ses frères"
       ],
       "en": [
-       "He killed a lion and a bear while keeping the sheep",
+       "He had killed a lion and a bear while keeping the sheep",
        "He had already fought in Saul's army",
        "He had defeated another Philistine giant",
        "He had learned swordsmanship from his brothers"
@@ -1414,8 +1414,8 @@
    },
    "keyVerse": "17:4:14",
    "takeaway": {
-    "fr": "Mardochée presse Esther d'intercéder auprès du roi, au risque de sa vie. Après trois jours de jeûne, elle décide d'entrer chez le roi malgré la loi : « si je dois périr, je périrai ».",
-    "en": "Mordecai urges Esther to plead with the king at the risk of her life. After three days of fasting, she resolves to go in to the king against the law: “if I perish, I perish.”"
+    "fr": "Mardochée presse Esther d'intercéder auprès du roi, au risque de sa vie. Elle demande aux Juifs de Suse trois jours de jeûne et décide d'entrer ensuite chez le roi malgré la loi : « si je dois périr, je périrai ».",
+    "en": "Mordecai urges Esther to plead with the king at the risk of her life. She asks the Jews of Shushan to fast for three days and resolves to go in to the king afterwards, against the law: “if I perish, I perish.”"
    },
    "questions": [
     {
@@ -1428,13 +1428,13 @@
      "choices": {
       "fr": [
        "Il demande audience au roi",
-       "Il déchire ses vêtements et se couvre d'un sac et de cendre",
+       "Il se couvre d'un sac et de cendre",
        "Il quitte la ville de Suse",
        "Il rassemble des hommes armés"
       ],
       "en": [
        "He asks to see the king",
-       "He tears his clothes and puts on sackcloth and ashes",
+       "He puts on sackcloth and ashes",
        "He leaves the city of Shushan",
        "He gathers armed men"
       ]
@@ -1506,27 +1506,27 @@
      "id": "people-esther-4",
      "kind": "choice",
      "q": {
-      "fr": "Selon Mardochée, pourquoi Esther est-elle peut-être devenue reine ?",
-      "en": "According to Mordecai, why might Esther have become queen?"
+      "fr": "Selon Mardochée, que se passera-t-il si Esther se tait ?",
+      "en": "According to Mordecai, what will happen if Esther stays silent?"
      },
      "choices": {
       "fr": [
-       "Pour un temps comme celui-ci",
-       "Pour faire honneur à son peuple",
-       "Pour remplacer la reine précédente",
-       "Pour obtenir des richesses pour les Juifs"
+       "La délivrance viendra d'ailleurs, mais elle périra",
+       "Aucun secours ne viendra, et tous les Juifs périront",
+       "Elle seule sera épargnée, dans la maison du roi",
+       "Mardochée ira lui-même plaider devant le roi"
       ],
       "en": [
-       "For such a time as this",
-       "To bring honour to her people",
-       "To replace the former queen",
-       "To gain wealth for the Jews"
+       "Deliverance will come from elsewhere, but she will perish",
+       "No help will come, and all the Jews will perish",
+       "She alone will be spared, in the king's house",
+       "Mordecai will go and plead before the king himself"
       ]
      },
      "answer": 0,
      "explain": {
-      "fr": "Mardochée lui fait dire : « qui sait si ce n'est pas pour un temps comme celui-ci que tu es parvenue à la royauté? » Il ajoute que, si elle se tait, la délivrance viendra d'ailleurs.",
-      "en": "Mordecai sends word: “who knoweth whether thou art come to the kingdom for such a time as this?” He adds that if she stays silent, deliverance will come from another place."
+      "fr": "Mardochée lui fait dire : « si tu te tais maintenant, le secours et la délivrance surgiront d'autre part pour les Juifs, et toi et la maison de ton père vous périrez ». Il ajoute : « qui sait si ce n'est pas pour un temps comme celui-ci que tu es parvenue à la royauté? »",
+      "en": "Mordecai sends word that if she holds her peace, “then shall there enlargement and deliverance arise to the Jews from another place”, but she and her father's house will be destroyed. He adds: “who knoweth whether thou art come to the kingdom for such a time as this?”"
      },
      "ref": "17:4:14"
     },
@@ -1630,13 +1630,13 @@
      },
      "choices": {
       "fr": [
-       "Pendant trente jours, on ne doit prier que le roi, sous peine de la fosse aux lions",
+       "Pendant trente jours, on ne doit prier que le roi",
        "Tous les captifs de Juda doivent quitter le royaume",
        "On doit se prosterner devant une statue d'or",
        "Nul ne doit se rendre à Jérusalem pendant un an"
       ],
       "en": [
-       "For thirty days, petitions may be made only to the king, on pain of the lions' den",
+       "For thirty days, petitions may be made only to the king",
        "All the captives of Judah must leave the kingdom",
        "Everyone must bow down before a golden image",
        "No one may travel to Jerusalem for a year"
@@ -1661,13 +1661,13 @@
        "Il cesse de prier pendant trente jours",
        "Il va supplier le roi d'annuler le décret",
        "Il prie en cachette, fenêtres fermées",
-       "Il prie trois fois par jour, fenêtres ouvertes vers Jérusalem, comme avant"
+       "Il continue de prier trois fois par jour, comme avant"
       ],
       "en": [
        "He stops praying for thirty days",
        "He goes to beg the king to cancel the decree",
        "He prays in secret, with the windows shut",
-       "He prays three times a day, windows open toward Jerusalem, as before"
+       "He keeps praying three times a day, as before"
       ]
      },
      "answer": 3,
@@ -1762,8 +1762,8 @@
     "32:3:1-10"
    ],
    "intro": {
-    "fr": "Jonas, fils d'Amitthaï, est un prophète d'Israël. Dieu l'envoie à Ninive, la grande capitale de l'Assyrie, ennemie d'Israël. Le livre raconte sa fuite, puis sa mission.",
-    "en": "Jonah, the son of Amittai, is a prophet of Israel. God sends him to Nineveh, the great capital of Assyria, Israel's enemy. The book tells of his flight, then of his mission."
+    "fr": "Jonas, fils d'Amitthaï, est un prophète d'Israël. Dieu l'envoie à Ninive, grande ville de l'Assyrie, ennemie d'Israël. Le livre raconte sa fuite, puis sa mission.",
+    "en": "Jonah, the son of Amittai, is a prophet of Israel. God sends him to Nineveh, a great city of Assyria, Israel's enemy. The book tells of his flight, then of his mission."
    },
    "keyVerse": "32:3:10",
    "takeaway": {
@@ -1775,7 +1775,7 @@
      "id": "people-jonah-1",
      "kind": "choice",
      "q": {
-      "fr": "Vers quelle ville Jonas s'embarque-t-il pour fuir loin de la face de l'Eternel ?",
+      "fr": "Vers quelle destination Jonas s'embarque-t-il pour fuir loin de la face de l'Eternel ?",
       "en": "To which place does Jonah sail to flee from the presence of the Lord?"
      },
      "choices": {
@@ -1899,7 +1899,7 @@
       ],
       "en": [
        "Repent, and you will be forgiven",
-       "Yet forty days, and Nineveh shall be overthrown",
+       "In forty days Nineveh will be overthrown",
        "The king of Nineveh will die this year",
        "The Lord will send a famine on the city"
       ]
@@ -2014,13 +2014,13 @@
        "Il régnera sur Rome",
        "Il régnera quarante ans",
        "Il régnera après Hérode",
-       "Son règne n'aura point de fin"
+       "Il régnera éternellement"
       ],
       "en": [
        "He will reign over Rome",
        "He will reign forty years",
        "He will reign after Herod",
-       "Of his kingdom there shall be no end"
+       "He will reign for ever"
       ]
      },
      "answer": 3,
@@ -2040,13 +2040,13 @@
      "choices": {
       "fr": [
        "Qui es-tu, et d'où viens-tu ?",
-       "Comment cela se fera-t-il, puisque je ne connais point d'homme ?",
+       "Comment cela se fera-t-il ?",
        "Quel signe me donneras-tu ?",
        "Quand cela arrivera-t-il ?"
       ],
       "en": [
        "Who art thou, and whence comest thou?",
-       "How shall this be, seeing I know not a man?",
+       "How shall this be?",
        "What sign wilt thou give me?",
        "When shall these things be?"
       ]
@@ -2194,7 +2194,7 @@
       ],
       "en": [
        "You will be the head of the lake's fishermen",
-       "From henceforth thou shalt catch men",
+       "From now on you will catch men",
        "You will never again lack fish",
        "You will soon go back to your nets"
       ]
@@ -2337,13 +2337,13 @@
        "Pour se cacher de la foule",
        "Pour cueillir des fruits",
        "Pour parler à la foule",
-       "Pour voir Jésus, car il était de petite taille"
+       "Pour voir Jésus qui allait passer"
       ],
       "en": [
        "To hide from the crowd",
        "To pick fruit",
        "To speak to the crowd",
-       "To see Jesus, because he was short"
+       "To see Jesus as he passed by"
       ]
      },
      "answer": 3,
@@ -2362,13 +2362,13 @@
      },
      "choices": {
       "fr": [
-       "Hâte-toi de descendre, car il faut que je demeure aujourd'hui dans ta maison",
+       "Descends vite : je dois demeurer chez toi aujourd'hui",
        "Reste là-haut, et écoute ce que je vais dire",
        "Descends, et va rendre ce que tu as pris",
        "Descends, et suis-moi jusqu'à Jérusalem"
       ],
       "en": [
-       "Make haste, and come down; for to day I must abide at thy house",
+       "Hurry down, for today I must stay at your house",
        "Stay up there, and listen to what I will say",
        "Come down, and go give back what you have taken",
        "Come down, and follow me to Jerusalem"
@@ -2421,13 +2421,13 @@
        "De donner tous ses biens au temple",
        "De rendre le double à ceux qu'il a lésés",
        "De quitter son métier de publicain",
-       "De donner la moitié de ses biens aux pauvres et de rendre le quadruple"
+       "De donner aux pauvres la moitié de ses biens"
       ],
       "en": [
        "To give all his goods to the temple",
        "To repay double to those he has wronged",
        "To give up his work as a publican",
-       "To give half his goods to the poor and repay fourfold"
+       "To give half his goods to the poor"
       ]
      },
      "answer": 3,
@@ -2489,7 +2489,7 @@
       "en": [
        "To teach in the synagogues there",
        "To meet the apostles",
-       "To bring any disciples he found bound to Jerusalem",
+       "To bring bound to Jerusalem any disciples he found",
        "To escape persecution in Jerusalem"
       ]
      },
@@ -2515,7 +2515,7 @@
        "Saul, crois et tu seras sauvé !"
       ],
       "en": [
-       "Saul, Saul, why persecutest thou me?",
+       "Saul, Saul, why are you persecuting me?",
        "Saul, go back to Jerusalem!",
        "Saul, you will be my apostle!",
        "Saul, believe and you will be saved!"
@@ -2658,13 +2658,13 @@
      "choices": {
       "fr": [
        "Pour suivre l'apôtre Paul",
-       "Parce que Claude avait ordonné à tous les Juifs de sortir de Rome",
+       "Parce que Claude avait chassé les Juifs de Rome",
        "Pour faire commerce de tentes en Grèce",
        "Parce qu'une famine frappait l'Italie"
       ],
       "en": [
        "To follow the apostle Paul",
-       "Because Claudius had commanded all Jews to depart from Rome",
+       "Because Claudius had expelled the Jews from Rome",
        "To trade in tents in Greece",
        "Because a famine had struck Italy"
       ]

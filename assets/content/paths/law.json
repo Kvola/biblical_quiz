@@ -97,15 +97,15 @@
      },
      "choices": {
       "fr": [
-       "Seulement lors des grandes fêtes au sanctuaire",
-       "Seulement en présence des prêtres et des lévites",
-       "Une seule fois par an, au moment de la Pâque",
+       "Au sanctuaire, lors des grandes fêtes de l'année",
+       "Devant l'assemblée, les prêtres et les lévites",
+       "Chaque année, au moment de la Pâque",
        "À la maison, en voyage, au coucher et au lever"
       ],
       "en": [
-       "Only at the great feasts at the sanctuary",
-       "Only in the presence of the priests and Levites",
-       "Only once a year, at the time of the Passover",
+       "At the sanctuary, during the great yearly feasts",
+       "Before the assembly, the priests and the Levites",
+       "Every year, at the time of the Passover",
        "At home, on the way, lying down and rising up"
       ]
      },
@@ -139,7 +139,7 @@
      },
      "answer": 1,
      "explain": {
-      "fr": "« Tu les écriras sur les poteaux de ta maison et sur tes portes. » Le verset précédent parle aussi de les lier comme un signe sur la main et entre les yeux.",
+      "fr": "« Tu les écriras sur les poteaux de ta maison et sur tes portes. » Le verset précédent parle aussi de les lier comme un signe sur les mains et entre les yeux.",
       "en": "“And thou shalt write them upon the posts of thy house, and on thy gates.” The verse before also speaks of binding them as a sign on the hand and between the eyes."
      },
      "ref": "5:6:9"
@@ -161,7 +161,7 @@
       "en": [
        "With the story of the creation of the world",
        "With the list of sacrifices to offer",
-       "With the memory of the exodus from Egypt",
+       "With a reminder of the exodus from Egypt",
        "With the story of the flood and Noah"
       ]
      },
@@ -309,8 +309,8 @@
      "id": "law-choose-5",
      "kind": "choice",
      "q": {
-      "fr": "Selon le verset 17, qu'est-ce qui ferait périr le peuple ?",
-      "en": "According to verse 17, what would cause the people to perish?"
+      "fr": "Selon les versets 17 et 18, qu'est-ce qui ferait périr le peuple ?",
+      "en": "According to verses 17 and 18, what would cause the people to perish?"
      },
      "choices": {
       "fr": [
@@ -337,7 +337,7 @@
      "id": "law-choose-6",
      "kind": "choice",
      "q": {
-      "fr": "Selon le verset 20, que veut dire concrètement « choisir la vie » ?",
+      "fr": "Selon le verset 20, que veut dire concrètement choisir la vie ?",
       "en": "According to verse 20, what does choosing life mean in practice?"
      },
      "choices": {
@@ -350,7 +350,7 @@
       "en": [
        "Conquering the whole promised land by force",
        "Offering more and more sacrifices every year",
-       "Separating from all the other nations of the earth",
+       "Separating from all the other nations",
        "Loving the Lord, obeying his voice and cleaving to him"
       ]
      },
@@ -448,13 +448,13 @@
      "choices": {
       "fr": [
        "Les yeux",
-       "Le chemin",
+       "La maison",
        "La nuit",
        "Les nations"
       ],
       "en": [
        "The eyes",
-       "The way",
+       "The house",
        "The night",
        "The nations"
       ]
@@ -645,7 +645,7 @@
      "id": "law-fulfil-4",
      "kind": "choice",
      "q": {
-      "fr": "Après avoir cité « Tu ne tueras point », qui Jésus déclare-t-il, lui aussi, passible des juges ?",
+      "fr": "Après avoir cité « Tu ne tueras point », qui, selon Jésus, mérite lui aussi d'être puni par les juges ?",
       "en": "After quoting “Thou shalt not kill”, whom does Jesus say is also in danger of the judgment?"
      },
      "choices": {
@@ -1088,7 +1088,7 @@
      "kind": "choice",
      "q": {
       "fr": "Quelle parole de l'Écriture Paul cite-t-il au verset 11 ?",
-      "en": "Which word of Scripture does Paul quote in verse 11?"
+      "en": "Which saying of Scripture does Paul quote in verse 11?"
      },
      "choices": {
       "fr": [
@@ -1106,7 +1106,7 @@
      },
      "answer": 1,
      "explain": {
-      "fr": "« Et que nul ne soit justifié devant Dieu par la loi, cela est évident, puisqu'il est dit: Le juste vivra par la foi. » Paul cite le prophète Habacuc (2:4).",
+      "fr": "« Et que nul ne soit justifié devant Dieu par la loi, cela est évident, puisqu'il est dit: Le juste vivra par la foi. » Paul cite le prophète Habakuk (2:4).",
       "en": "“But that no man is justified by the law in the sight of God, it is evident: for, The just shall live by faith.” Paul is quoting the prophet Habakkuk (2:4)."
      },
      "ref": "48:3:11"
@@ -1276,13 +1276,13 @@
        "Because of Israel's faithfulness",
        "Because of the prophets' prayers",
        "Because of the sacrifices offered",
-       "For his holy name's sake"
+       "Because of his holy name"
       ]
      },
      "answer": 3,
      "explain": {
-      "fr": "« Ce n'est pas à cause de vous que j'agis de la sorte, maison d'Israël; c'est à cause de mon saint nom, que vous avez profané parmi les nations. » Le verset 32 le répète.",
-      "en": "“I do not this for your sakes, O house of Israel, but for mine holy name’s sake, which ye have profaned among the heathen.” Verse 32 says it again."
+      "fr": "« Ce n'est pas à cause de vous que j'agis de la sorte, maison d'Israël; c'est à cause de mon saint nom, que vous avez profané parmi les nations. » Le verset 32 redit : « Ce n'est pas à cause de vous que j'agis de la sorte ».",
+      "en": "“I do not this for your sakes, O house of Israel, but for mine holy name’s sake, which ye have profaned among the heathen.” Verse 32 says again: “Not for your sakes do I this”."
      },
      "ref": "26:36:22"
     },
@@ -1410,8 +1410,8 @@
     "59:1:19-27"
    ],
    "intro": {
-    "fr": "La lettre de Jacques est adressée à des croyants dispersés hors de leur pays (1:1). Elle est faite surtout de conseils pratiques sur la manière de vivre.",
-    "en": "The letter of James is addressed to believers scattered abroad (1:1). It consists mostly of practical counsel on how to live."
+    "fr": "La lettre de Jacques est adressée « aux douze tribus qui sont dans la dispersion » (1:1). Elle est faite surtout de conseils pratiques sur la manière de vivre.",
+    "en": "The letter of James is addressed “to the twelve tribes which are scattered abroad” (1:1). It consists mostly of practical counsel on how to live."
    },
    "keyVerse": "59:1:22",
    "takeaway": {
@@ -1484,13 +1484,13 @@
      },
      "choices": {
       "fr": [
-       "À un homme qui bâtit sur le sable",
+       "À un voyageur qui a perdu son chemin",
        "À un semeur qui sème sur le roc",
        "À un arbre qui ne porte pas de fruit",
        "À un homme qui se regarde dans un miroir"
       ],
       "en": [
-       "A man who builds on the sand",
+       "A traveller who has lost his way",
        "A sower who sows on rock",
        "A tree that bears no fruit",
        "A man who looks in a mirror"

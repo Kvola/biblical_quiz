@@ -40,7 +40,7 @@
      },
      "choices": {
       "fr": [
-       "Avec des holocaustes et des offrandes",
+       "Avec des holocaustes et des sacrifices",
        "Avec des chants et des instruments",
        "Avec des jeûnes et des pleurs",
        "Avec des dons d'or et d'argent"
@@ -119,8 +119,8 @@
      "id": "repentance-return-4",
      "kind": "truefalse",
      "q": {
-      "fr": "Le prophète garantit que Dieu enverra sa bénédiction si le peuple jeûne.",
-      "en": "The prophet guarantees that God will send his blessing if the people fast."
+      "fr": "Au verset 14, le prophète affirme avec certitude que Dieu laissera une bénédiction.",
+      "en": "In verse 14, the prophet states with certainty that God will leave a blessing."
      },
      "answer": false,
      "explain": {
@@ -553,7 +553,7 @@
    },
    "keyVerse": "42:3:8",
    "takeaway": {
-    "fr": "Jean appelle à produire des fruits dignes de la repentance. À ceux qui demandent « que devons-nous faire ? », il répond par des gestes concrets : partager, ne pas exiger plus que dû, ne pas extorquer.",
+    "fr": "Jean appelle à produire des fruits dignes de la repentance. À ceux qui demandent « que devons-nous faire ? », il répond par des gestes concrets : partager, ne rien exiger au-delà de ce qui est dû, ne pas extorquer.",
     "en": "John calls for fruits worthy of repentance. To those who ask “what shall we do?” he answers with concrete actions: share, take no more than is due, do violence to no one."
    },
    "questions": [
@@ -680,7 +680,7 @@
       "fr": [
        "De quitter leur métier sur-le-champ",
        "De donner tous leurs biens aux pauvres",
-       "De ne pas exiger plus que dû",
+       "De ne rien exiger au-delà de ce qui est dû",
        "De ne plus travailler pour Rome"
       ],
       "en": [
@@ -692,7 +692,7 @@
      },
      "answer": 2,
      "explain": {
-      "fr": "« N'exigez rien au delà de ce qui vous a été ordonné. » Les publicains percevaient taxes et péages ; Jean ne leur demande pas de quitter leur métier, mais de ne pas prendre plus que dû.",
+      "fr": "« N'exigez rien au delà de ce qui vous a été ordonné. » Les publicains percevaient taxes et péages ; Jean ne leur demande pas de quitter leur métier, mais de ne pas prendre plus que ce qui est dû.",
       "en": "“Exact no more than that which is appointed you.” Publicans collected taxes and tolls; John does not tell them to leave their work, but to take no more than is due."
      },
      "ref": "42:3:13"
@@ -904,8 +904,8 @@
    },
    "keyVerse": "42:13:3",
    "takeaway": {
-    "fr": "Jésus refuse de voir dans ces drames la preuve que les victimes étaient plus coupables que les autres, et appelle chacun à se repentir. Dans la parabole, le figuier stérile reçoit encore une année pour porter du fruit.",
-    "en": "Jesus refuses to see these disasters as proof that the victims were guiltier than others, and calls everyone to repent. In the parable, the barren fig tree is given one more year to bear fruit."
+    "fr": "Jésus refuse de voir dans ces drames la preuve que les victimes étaient plus coupables que les autres, et appelle chacun à se repentir. Dans la parabole, le vigneron demande encore une année pour que le figuier stérile porte du fruit.",
+    "en": "Jesus refuses to see these disasters as proof that the victims were guiltier than others, and calls everyone to repent. In the parable, the vinedresser asks for one more year for the barren fig tree to bear fruit."
    },
    "questions": [
     {
@@ -994,7 +994,7 @@
       ],
       "en": [
        "Those people got what they deserved",
-       "Except ye repent, ye shall all likewise perish",
+       "Unless you repent, you will all perish in the same way",
        "No one can escape his fate",
        "God always protects the righteous"
       ]
@@ -1057,8 +1057,8 @@
      },
      "answer": 1,
      "explain": {
-      "fr": "« Seigneur, laisse-le encore cette année; je creuserai tout autour, et j'y mettrai du fumier. Peut-être à l'avenir donnera-t-il du fruit; sinon, tu le couperas. » Le délai est accordé, mais il a une limite.",
-      "en": "“Lord, let it alone this year also, till I shall dig about it, and dung it: And if it bear fruit, well: and if not, then after that thou shalt cut it down.” A delay is granted, but it has a limit."
+      "fr": "« Seigneur, laisse-le encore cette année; je creuserai tout autour, et j'y mettrai du fumier. Peut-être à l'avenir donnera-t-il du fruit; sinon, tu le couperas. » Le vigneron demande un délai, mais un délai limité ; la parabole ne rapporte pas la réponse du maître.",
+      "en": "“Lord, let it alone this year also, till I shall dig about it, and dung it: And if it bear fruit, well: and if not, then after that thou shalt cut it down.” The vinedresser asks for a delay, but a limited one; the parable does not record the owner's reply."
      },
      "ref": "42:13:8"
     }
@@ -1106,7 +1106,7 @@
      },
      "answer": 2,
      "explain": {
-      "fr": "Il « ne laisse les quatre-vingt-dix-neuf autres dans le désert pour aller après celle qui est perdue, jusqu'à ce qu'il la retrouve ». Il cherche jusqu'au bout.",
+      "fr": "Il laisse « les quatre-vingt-dix-neuf autres dans le désert pour aller après celle qui est perdue, jusqu'à ce qu'il la retrouve ». Il cherche jusqu'au bout.",
       "en": "He will “leave the ninety and nine in the wilderness, and go after that which is lost, until he find it”. He keeps searching until he finds it."
      },
      "ref": "42:15:4"
@@ -1568,15 +1568,15 @@
      },
      "choices": {
       "fr": [
-       "L'orgueil",
-       "La paresse",
-       "La jalousie",
+       "La patience",
+       "L'humilité",
+       "La générosité",
        "Le zèle"
       ],
       "en": [
-       "Pride",
-       "Laziness",
-       "Jealousy",
+       "Patience",
+       "Humility",
+       "Generosity",
        "Zeal"
       ]
      },

@@ -15,7 +15,7 @@
   {
    "id": "themes-forgiveness",
    "title": {
-    "fr": "Reconnaître sa faute",
+    "fr": "Reconnaître sa faute et être pardonné",
     "en": "Owning up and being forgiven"
    },
    "passages": [
@@ -77,8 +77,8 @@
      "id": "themes-forgiveness-3",
      "kind": "choice",
      "q": {
-      "fr": "Une fois lavé par Dieu, plus blanc que quoi David dit-il qu'il sera ?",
-      "en": "Once God has washed him, what does David say he will be whiter than?"
+      "fr": "Selon le verset 7, à quoi David compare-t-il la blancheur qu'il aura une fois lavé par Dieu ?",
+      "en": "According to verse 7, once God has washed him, what does David say he will be whiter than?"
      },
      "choices": {
       "fr": [
@@ -327,8 +327,8 @@
      },
      "answer": 0,
      "explain": {
-      "fr": "« Nous sommes son ouvrage, ayant été créés en Jésus-Christ pour de bonnes oeuvres, que Dieu a préparées d'avance. » Les œuvres ne sont pas la cause du salut (v. 9), mais elles en sont le but.",
-      "en": "“We are his workmanship, created in Christ Jesus unto good works, which God hath before ordained.” Works are not the cause of salvation (v. 9), but they are its purpose."
+      "fr": "« Nous sommes son ouvrage, ayant été créés en Jésus-Christ pour de bonnes oeuvres, que Dieu a préparées d'avance. » Le verset 9 disait que le salut ne vient pas des œuvres ; le verset 10 ajoute que les croyants ont été créés pour en pratiquer de bonnes.",
+      "en": "“We are his workmanship, created in Christ Jesus unto good works, which God hath before ordained.” Verse 9 said that salvation is not of works; verse 10 adds that believers were created to walk in good ones."
      },
      "ref": "49:2:10"
     }
@@ -537,15 +537,15 @@
      },
      "choices": {
       "fr": [
-       "Pour critiquer les juges de la ville",
-       "Pour enseigner le respect des veuves",
-       "Pour annoncer la chute de Jérusalem",
+       "Pour montrer qu'il faut prier à heures fixes, matin et soir",
+       "Pour montrer qu'il faut prier en peu de mots, sans insister",
+       "Pour montrer qu'il faut prier seul, à l'écart de la foule",
        "Pour montrer qu'il faut toujours prier sans se relâcher"
       ],
       "en": [
-       "To criticize the city's judges",
-       "To teach respect for widows",
-       "To foretell the fall of Jerusalem",
+       "To show that people ought to pray at set hours, morning and evening",
+       "To show that people ought to pray in few words, without insisting",
+       "To show that people ought to pray alone, away from the crowd",
        "To show that people ought always to pray and not lose heart"
       ]
      },
@@ -1148,7 +1148,7 @@
      },
      "answer": 2,
      "explain": {
-      "fr": "« Tu ne te vengeras point… Tu aimeras ton prochain comme toi-même. Je suis l'Eternel. » Jésus citera ce commandement comme le deuxième plus grand (Marc 12:31).",
+      "fr": "« Tu ne te vengeras point… Tu aimeras ton prochain comme toi-même. Je suis l'Eternel. » Jésus citera ce commandement comme le second, après celui d'aimer Dieu (Marc 12:31).",
       "en": "“Thou shalt not avenge… but thou shalt love thy neighbour as thyself: I am the Lord.” Jesus would later quote it as the second greatest commandment (Mark 12:31)."
      },
      "ref": "3:19:18"
@@ -1516,8 +1516,8 @@
     "59:3:1-12"
    ],
    "intro": {
-    "fr": "Jacques écrit « aux douze tribus qui sont dans la dispersion » (1:1), c'est-à-dire à des croyants vivant hors de leur pays. Sa lettre est très pratique ; ce passage porte sur la langue, c'est-à-dire nos paroles.",
-    "en": "James writes “to the twelve tribes which are scattered abroad” (1:1), that is, to believers living away from their homeland. His letter is very practical; this passage is about the tongue, meaning our words."
+    "fr": "Jacques écrit « aux douze tribus qui sont dans la dispersion » (1:1), expression qui désigne des destinataires dispersés loin de la terre d'Israël. Sa lettre est très pratique ; ce passage porte sur la langue, c'est-à-dire nos paroles.",
+    "en": "James writes “to the twelve tribes which are scattered abroad” (1:1), a phrase that points to readers scattered far from the land of Israel. His letter is very practical; this passage is about the tongue, meaning our words."
    },
    "keyVerse": "59:3:10",
    "takeaway": {
@@ -1632,15 +1632,15 @@
      },
      "choices": {
       "fr": [
-       "Que l'on parle trop longtemps",
-       "Que les enseignants se taisent",
-       "Que l'on prie à voix haute",
+       "Que la même bouche prie Dieu et trompe les hommes",
+       "Que la même bouche enseigne les hommes et les flatte",
+       "Que la même bouche loue Dieu et se plaigne de lui",
        "Que la même bouche bénisse Dieu et maudisse les hommes"
       ],
       "en": [
-       "That people talk too long",
-       "That teachers keep silent",
-       "That people pray aloud",
+       "That the same mouth prays to God and deceives people",
+       "That the same mouth teaches people and flatters them",
+       "That the same mouth praises God and complains about him",
        "That the same mouth blesses God and curses people"
       ]
      },
@@ -1709,16 +1709,16 @@
      },
      "choices": {
       "fr": [
-       "Chercher conseil auprès des sages",
-       "Travailler davantage pour être en sécurité",
+       "Chercher conseil auprès des sages et suivre leur avis",
+       "Travailler davantage pour se mettre à l'abri du besoin",
        "Présenter ses besoins à Dieu en priant et en rendant grâces",
-       "Se retirer seul dans le silence"
+       "Se retirer seul dans le silence et attendre patiemment"
       ],
       "en": [
-       "Seek advice from the wise",
-       "Work harder to feel secure",
+       "Seek advice from the wise and follow their counsel",
+       "Work harder so as to be safe from need",
        "Bring one's requests to God in prayer with thanksgiving",
-       "Withdraw alone into silence"
+       "Withdraw alone into silence and wait patiently"
       ]
      },
      "answer": 2,
@@ -1807,16 +1807,16 @@
      },
      "choices": {
       "fr": [
-       "Ne jamais manquer de rien",
+       "Travailler assez pour ne jamais manquer de rien",
        "Vivre aussi bien dans la disette que dans l'abondance",
-       "Éviter toute souffrance",
-       "Mettre de côté des réserves"
+       "Éviter la souffrance en restant toujours prudent",
+       "Mettre de côté des réserves pour les jours difficiles"
       ],
       "en": [
-       "Never lack anything",
+       "Work enough never to lack anything",
        "Live in need as well as in plenty",
-       "Avoid all suffering",
-       "Put savings aside"
+       "Avoid suffering by always being careful",
+       "Put savings aside for hard days"
       ]
      },
      "answer": 1,
@@ -1880,7 +1880,7 @@
      "id": "themes-scripture-2",
      "kind": "choice",
      "q": {
-      "fr": "Selon le verset 103, les paroles de Dieu sont plus douces que quoi ?",
+      "fr": "Selon le verset 103, à quoi le psalmiste compare-t-il la douceur des paroles de Dieu ?",
       "en": "According to verse 103, God's words are sweeter than what?"
      },
      "choices": {

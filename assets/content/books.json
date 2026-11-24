@@ -324,7 +324,7 @@
     "kind": "choice",
     "q": {
      "fr": "Selon Lévitique 25, quelle année est déclarée « jubilé » ?",
-     "en": "According to Leviticus 25, which year is declared a \"jubilee\"?"
+     "en": "According to Leviticus 25, which year is declared a jubilee?"
     },
     "choices": {
      "fr": [
@@ -486,7 +486,7 @@
    "abbr": "Deut",
    "author": "Traditionally attributed to Moses",
    "period": "Moses' last speeches in the land of Moab, before the entry into Canaan",
-   "summary": "Deuteronomy gathers Moses' speeches to the people across the Jordan, just before they enter the promised land. Moses recalls their history since Sinai, restates the law and calls Israel to love God and obey him with all their heart. The book ends with the death of Moses on Mount Nebo. It is often quoted in the rest of the Bible, notably by Jesus.",
+   "summary": "Deuteronomy gathers Moses' speeches to the people east of the Jordan, just before they enter the promised land. Moses recalls their history since Sinai, restates the law and calls Israel to love God and obey him with all their heart. The book ends with the death of Moses on Mount Nebo. It is often quoted in the rest of the Bible, notably by Jesus.",
    "themes": [
     "Covenant renewal",
     "Love for God",
@@ -511,7 +511,7 @@
      ],
      "en": [
       "On the top of Mount Sinai",
-      "On the other side of the Jordan, in the land of Moab",
+      "By the Jordan, in the land of Moab",
       "In the temple at Jerusalem",
       "At Pharaoh's court"
      ]
@@ -546,7 +546,7 @@
     },
     "answer": 0,
     "explain": {
-     "fr": "« Tu aimeras l'Eternel, ton Dieu, de tout ton cœur, de toute ton âme et de toute ta force. » Jésus la reprend comme « le premier et le plus grand commandement » (Matthieu 22:37-38).",
+     "fr": "« Tu aimeras l'Eternel, ton Dieu, de tout ton cœur, de toute ton âme et de toute ta force. » Jésus reprend cette parole comme « le premier et le plus grand commandement » (Matthieu 22:37-38).",
      "en": "\"Thou shalt love the Lord thy God with all thine heart, and with all thy soul, and with all thy might.\" Jesus takes it up as \"the first and great commandment\" (Matthew 22:37-38)."
     },
     "ref": "5:6:5"
@@ -622,13 +622,13 @@
      "fr": [
       "Sur des bateaux construits pour l'occasion",
       "À la nage, tribu par tribu",
-      "À sec, pendant que les prêtres portant l'arche se tiennent au milieu du fleuve",
+      "À sec, l'arche se tenant au milieu du fleuve",
       "Sur un pont bâti par les Cananéens"
      ],
      "en": [
       "In boats built for the occasion",
       "By swimming, tribe by tribe",
-      "On dry ground, while the priests carrying the ark stand in the middle of the river",
+      "On dry ground, with the ark in the midst of the river",
       "Over a bridge built by the Canaanites"
      ]
     },
@@ -1367,7 +1367,7 @@
     "id": "book-12-3",
     "kind": "choice",
     "q": {
-     "fr": "Que fait Nebuzaradan, envoyé du roi de Babylone, à Jérusalem à la fin du livre ?",
+     "fr": "Que fait Nebuzaradan, serviteur du roi de Babylone, à Jérusalem à la fin du livre ?",
      "en": "At the end of the book, what does Nebuzar-adan, servant of the king of Babylon, do in Jerusalem?"
     },
     "choices": {
@@ -1578,13 +1578,13 @@
      "fr": [
       "La mort du roi David",
       "La dédicace du temple par Salomon",
-      "L'édit de Cyrus permettant de rebâtir la maison de l'Eternel à Jérusalem",
+      "L'édit de Cyrus, roi de Perse",
       "La sortie d'Égypte"
      ],
      "en": [
       "The death of King David",
       "Solomon's dedication of the temple",
-      "Cyrus's edict allowing the house of the Lord to be rebuilt in Jerusalem",
+      "The edict of Cyrus king of Persia",
       "The exodus from Egypt"
      ]
     },
@@ -1766,8 +1766,8 @@
     },
     "answer": 2,
     "explain": {
-     "fr": "Néhémie termine sa prière par ces mots : « J'étais alors échanson du roi. » Cette position lui permet de présenter sa requête au roi.",
-     "en": "Nehemiah ends his prayer with these words: \"For I was the king's cupbearer.\" This position allows him to bring his request to the king."
+     "fr": "Juste après sa prière, Néhémie précise : « J'étais alors échanson du roi. » Cette position lui permet de présenter sa requête au roi.",
+     "en": "Right after his prayer, Nehemiah adds: \"For I was the king's cupbearer.\" This position allows him to bring his request to the king."
     },
     "ref": "16:1:11"
    },
@@ -2343,7 +2343,7 @@
     "id": "book-21-2",
     "kind": "choice",
     "q": {
-     "fr": "Selon Ecclésiaste 3, de quoi y a-t-il un temps ?",
+     "fr": "Selon Ecclésiaste 3, pour quoi y a-t-il un temps ?",
      "en": "According to Ecclesiastes 3, what is there a time for?"
     },
     "choices": {
@@ -2431,8 +2431,8 @@
     "id": "book-22-1",
     "kind": "choice",
     "q": {
-     "fr": "Que dit la bien-aimée en Cantique 2:16 ?",
-     "en": "What does the woman say in Song of Solomon 2:16?"
+     "fr": "Dans le Cantique des cantiques, que dit la bien-aimée juste avant d'ajouter, à propos de son bien-aimé : « Il fait paître son troupeau parmi les lis » ?",
+     "en": "In the Song of Solomon, what does the woman say just before adding of her beloved, \"he feedeth among the lilies\"?"
     },
     "choices": {
      "fr": [
@@ -2829,7 +2829,7 @@
      "fr": "« Ses compassions ne sont pas à leur terme ; elles se renouvellent chaque matin. Oh ! que ta fidélité est grande ! » C'est le cœur d'espérance du livre.",
      "en": "\"His compassions fail not. They are new every morning: great is thy faithfulness.\" This is the book's centre of hope."
     },
-    "ref": "25:3:23"
+    "ref": "25:3:22-23"
    }
   ]
  },
@@ -3176,7 +3176,7 @@
     },
     "answer": 2,
     "explain": {
-     "fr": "« Israël, reviens à l'Eternel, ton Dieu, car tu es tombé par ton iniquité. » Le livre se conclut par un appel au retour et une promesse de guérison.",
+     "fr": "« Israël, reviens à l'Eternel, ton Dieu, car tu es tombé par ton iniquité. » Le livre se conclut par un appel au retour et la promesse que Dieu réparera l'infidélité de son peuple.",
      "en": "\"O Israel, return unto the Lord thy God; for thou hast fallen by thine iniquity.\" The book closes with a call to return and a promise of healing."
     },
     "ref": "28:14:1"
@@ -3230,7 +3230,7 @@
      "en": [
       "An earthquake",
       "A flood",
-      "A plague of locusts",
+      "An invasion of locusts",
       "An outbreak of plague"
      ]
     },
@@ -3338,13 +3338,13 @@
     },
     "choices": {
      "fr": [
-      "Avoir vendu le juste pour de l'argent et le pauvre pour une paire de souliers",
+      "Avoir vendu le juste pour de l'argent",
       "Avoir refusé de payer tribut à l'Assyrie",
       "Avoir rebâti Jéricho",
       "Avoir oublié de compter le peuple"
      ],
      "en": [
-      "Selling the righteous for silver and the poor for a pair of shoes",
+      "Selling the righteous for silver",
       "Refusing to pay tribute to Assyria",
       "Rebuilding Jericho",
       "Forgetting to count the people"
@@ -3714,16 +3714,16 @@
     },
     "choices": {
      "fr": [
-      "Offrir des milliers de béliers",
-      "Sacrifier son premier-né",
+      "Offrir des milliers de béliers et des myriades de torrents d'huile",
+      "Donner son premier-né pour ses transgressions",
       "Pratiquer la justice, aimer la miséricorde et marcher humblement avec Dieu",
-      "Bâtir un autel sur chaque colline"
+      "Se présenter devant lui avec des holocaustes et des veaux d'un an"
      ],
      "en": [
-      "To offer thousands of rams",
-      "To sacrifice one's firstborn",
+      "To offer thousands of rams and ten thousands of rivers of oil",
+      "To give one's firstborn for one's transgression",
       "To do justly, love mercy and walk humbly with God",
-      "To build an altar on every hill"
+      "To come before him with burnt offerings and year-old calves"
      ]
     },
     "answer": 2,
@@ -4173,29 +4173,29 @@
     "id": "book-38-1",
     "kind": "choice",
     "q": {
-     "fr": "Que voit Zacharie pendant la nuit, dans sa première vision ?",
-     "en": "What does Zechariah see by night in his first vision?"
+     "fr": "Quel appel l'Eternel adresse-t-il au peuple au début du livre de Zacharie ?",
+     "en": "What call does the Lord address to the people at the beginning of Zechariah?"
     },
     "choices": {
      "fr": [
-      "Une échelle dressée jusqu'au ciel",
-      "Un buisson en feu",
-      "Un homme monté sur un cheval roux parmi des myrtes",
-      "Une statue d'or et d'argile"
+      "Quittez ce pays sans tarder",
+      "Choisissez-vous un nouveau roi",
+      "Revenez à moi, et je reviendrai à vous",
+      "Cessez de bâtir cette maison"
      ],
      "en": [
-      "A ladder reaching to heaven",
-      "A burning bush",
-      "A man riding a red horse among the myrtle trees",
-      "A statue of gold and clay"
+      "Leave this land without delay",
+      "Choose yourselves a new king",
+      "Turn to me, and I will turn to you",
+      "Stop building this house"
      ]
     },
     "answer": 2,
     "explain": {
-     "fr": "« Je regardai pendant la nuit, et voici, un homme était monté sur un cheval roux, et se tenait parmi des myrtes. » C'est la première d'une série de visions nocturnes.",
-     "en": "\"I saw by night, and behold a man riding upon a red horse, and he stood among the myrtle trees.\" It is the first of a series of night visions."
+     "fr": "Dieu fait dire au peuple : « Revenez à moi, dit l'Eternel des armées, et je reviendrai à vous. » Zacharie rappelle que les pères n'avaient pas écouté les prophètes (1:4).",
+     "en": "God has the people told: \"Turn ye unto me, saith the Lord of hosts, and I will turn unto you.\" Zechariah recalls that their fathers did not listen to the prophets (1:4)."
     },
-    "ref": "38:1:8"
+    "ref": "38:1:3"
    },
    {
     "id": "book-38-2",
@@ -4206,13 +4206,13 @@
     },
     "choices": {
      "fr": [
-      "Par mon esprit",
+      "Par son esprit",
       "Par la puissance de l'armée",
       "Par la richesse des rois",
       "Par la force des bras"
      ],
      "en": [
-      "By my spirit",
+      "By his spirit",
       "By the power of an army",
       "By the wealth of kings",
       "By strength of arm"
@@ -4860,16 +4860,16 @@
     },
     "choices": {
      "fr": [
-      "Seulement à Jérusalem",
-      "En Galilée et en Égypte",
+      "À Jérusalem seulement, jusqu'au retour du Seigneur",
+      "En Galilée, dans la Décapole, puis jusqu'en Égypte",
       "À Jérusalem, en Judée, en Samarie et jusqu'aux extrémités de la terre",
-      "À Rome, puis en Espagne"
+      "À Jérusalem, à Antioche, à Rome, puis jusqu'en Espagne"
      ],
      "en": [
-      "Only in Jerusalem",
-      "In Galilee and in Egypt",
+      "In Jerusalem only, until the Lord returns",
+      "In Galilee, in Decapolis, then as far as Egypt",
       "In Jerusalem, Judea, Samaria and to the uttermost part of the earth",
-      "In Rome, then in Spain"
+      "In Jerusalem, Antioch, Rome, then as far as Spain"
      ]
     },
     "answer": 2,
@@ -4976,16 +4976,16 @@
     },
     "choices": {
      "fr": [
-      "Seulement les païens",
-      "Tous",
-      "Seulement ceux qui ignorent la loi",
-      "Seulement les chefs religieux"
+      "Les païens, mais non les Juifs",
+      "Tous, sans distinction",
+      "Les Juifs, mais non les païens",
+      "Les chefs, mais non le peuple"
      ],
      "en": [
-      "Only the Gentiles",
-      "All",
-      "Only those who do not know the law",
-      "Only the religious leaders"
+      "The Gentiles, but not the Jews",
+      "All, without difference",
+      "The Jews, but not the Gentiles",
+      "The leaders, but not the people"
      ]
     },
     "answer": 1,
@@ -5078,15 +5078,15 @@
     },
     "choices": {
      "fr": [
-      "Une famine qui frappe la ville",
-      "Un conflit avec les autorités romaines",
-      "Le refus de payer l'impôt",
+      "Une famine qui frappe la ville et oblige à organiser des secours",
+      "Un conflit avec les autorités romaines, qui interdisent les assemblées",
+      "Le refus de payer l'impôt : chacun invoque sa liberté en Christ",
       "Des divisions : chacun se réclame de Paul, d'Apollos, de Céphas ou de Christ"
      ],
      "en": [
-      "A famine striking the city",
-      "A conflict with the Roman authorities",
-      "A refusal to pay taxes",
+      "A famine striking the city, so that relief has to be organized",
+      "A conflict with the Roman authorities, who forbid their gatherings",
+      "A refusal to pay taxes: each one appeals to his freedom in Christ",
       "Divisions: each one claims to be of Paul, of Apollos, of Cephas or of Christ"
      ]
     },
@@ -5134,13 +5134,13 @@
     },
     "choices": {
      "fr": [
-      "Que Christ est mort pour nos péchés, a été enseveli et est ressuscité le troisième jour",
+      "Que Christ est mort pour nos péchés et qu'il est ressuscité",
       "Que le temple de Jérusalem serait bientôt rebâti",
       "Que la loi de Moïse doit être gardée par tous",
       "Que Jean-Baptiste était le Christ"
      ],
      "en": [
-      "That Christ died for our sins, was buried and rose again the third day",
+      "That Christ died for our sins and that he rose again",
       "That the temple in Jerusalem would soon be rebuilt",
       "That the law of Moses must be kept by all",
       "That John the Baptist was the Christ"
@@ -5196,13 +5196,13 @@
      "fr": [
       "Qu'il serait guéri en quittant Corinthe",
       "Qu'il devait d'abord jeûner quarante jours",
-      "Que la grâce du Seigneur lui suffit, car sa puissance s'accomplit dans la faiblesse",
+      "Que la grâce du Seigneur lui suffit",
       "Que cette épreuve était la punition de ses fautes"
      ],
      "en": [
       "That he would be healed once he left Corinth",
       "That he must first fast for forty days",
-      "That the Lord's grace is sufficient for him, for his strength is made perfect in weakness",
+      "That the Lord's grace is sufficient for him",
       "That this trial was a punishment for his faults"
      ]
     },
@@ -5440,16 +5440,16 @@
     },
     "choices": {
      "fr": [
-      "La supériorité d'un apôtre sur les autres",
-      "L'importance d'un seul lieu de culte",
+      "La supériorité d'un seul apôtre sur tous les autres",
+      "L'importance d'avoir un seul lieu de culte pour tous",
       "L'unité : un seul corps, un seul Esprit, un seul Seigneur, un seul Dieu",
-      "La solitude du croyant face au monde"
+      "La solitude du croyant, seul face au monde entier"
      ],
      "en": [
-      "The superiority of one apostle over the others",
-      "The importance of a single place of worship",
+      "The superiority of one apostle over all the others",
+      "The importance of having one place of worship for all",
       "Unity: one body, one Spirit, one Lord, one God",
-      "The loneliness of the believer in the world"
+      "The loneliness of the believer, alone against the whole world"
      ]
     },
     "answer": 2,
@@ -5613,7 +5613,7 @@
    "abbr": "Col",
    "author": "L'apôtre Paul, avec Timothée (1:1)",
    "period": "Écrite vers 60-62 apr. J.-C.",
-   "summary": "Paul écrit aux croyants de Colosses, une ville d'Asie Mineure, pour les mettre en garde contre une philosophie et des traditions humaines qui détournent de Christ (2:8). Il affirme la suprématie de Christ, image du Dieu invisible, par qui et pour qui tout a été créé. Il en tire une vie nouvelle, tournée vers « les choses d'en haut », jusque dans les relations de tous les jours.",
+   "summary": "Paul écrit aux croyants de Colosses, une ville d'Asie Mineure, pour les mettre en garde contre une philosophie et des traditions humaines qui détournent de Christ (2:8). Il affirme la suprématie de Christ, image du Dieu invisible, par qui et pour qui tout a été créé. Il en tire les conséquences pour la vie nouvelle des croyants, tournée vers « les choses d'en haut », jusque dans les relations de tous les jours.",
    "themes": [
     "Suprématie de Christ",
     "Vigilance face aux faux enseignements",
@@ -5626,7 +5626,7 @@
    "abbr": "Col",
    "author": "The apostle Paul, with Timothy (1:1)",
    "period": "Written around AD 60-62",
-   "summary": "Paul writes to the believers at Colosse, a town in Asia Minor, to warn them against a philosophy and human traditions that turn them away from Christ (2:8). He affirms the supremacy of Christ, the image of the invisible God, by whom and for whom all things were created. From this he draws a new life, set on “things above,” down to everyday relationships.",
+   "summary": "Paul writes to the believers at Colosse, a town in Asia Minor, to warn them against a philosophy and human traditions that turn them away from Christ (2:8). He affirms the supremacy of Christ, the image of the invisible God, by whom and for whom all things were created. From this he draws out what the believers' new life should look like, set on “things above,” down to everyday relationships.",
    "themes": [
     "The supremacy of Christ",
     "Watchfulness against false teaching",
@@ -5644,16 +5644,16 @@
     },
     "choices": {
      "fr": [
-      "Seulement les anges",
-      "Seulement l'Église",
+      "Les choses visibles, mais non les invisibles",
+      "Les choses de la terre, mais non celles des cieux",
       "Toutes choses, visibles et invisibles",
-      "Seulement la terre et ses habitants"
+      "Les choses des cieux, mais non celles de la terre"
      ],
      "en": [
-      "Only the angels",
-      "Only the Church",
+      "Visible things, but not invisible ones",
+      "Things on earth, but not things in heaven",
       "All things, visible and invisible",
-      "Only the earth and its inhabitants"
+      "Things in heaven, but not things on earth"
      ]
     },
     "answer": 2,
@@ -5672,16 +5672,16 @@
     },
     "choices": {
      "fr": [
-      "Une philosophie et des traditions humaines qui ne sont pas selon Christ",
-      "Les impôts exigés par Rome",
-      "Les voyages en mer",
-      "Le mariage avec des étrangers"
+      "Une philosophie fondée sur la tradition des hommes",
+      "Un retour au culte des idoles de la ville",
+      "Les persécutions venues des autorités romaines",
+      "L'amour de l'argent et des richesses"
      ],
      "en": [
-      "Philosophy and human traditions that are not after Christ",
-      "The taxes demanded by Rome",
-      "Travelling by sea",
-      "Marriage with foreigners"
+      "A philosophy resting on the tradition of men",
+      "A return to the worship of the city's idols",
+      "Persecution from the Roman authorities",
+      "The love of money and of riches"
      ]
     },
     "answer": 0,
@@ -5761,7 +5761,7 @@
     "choices": {
      "fr": [
       "Pour reprocher aux croyants leur paresse",
-      "Pour que les croyants ne s'affligent pas comme ceux qui n'ont pas d'espérance",
+      "Pour qu'ils ne s'affligent pas comme des gens sans espérance",
       "Pour fixer la date du retour du Seigneur",
       "Pour interdire toute marque de deuil"
      ],
@@ -5848,16 +5848,16 @@
     },
     "choices": {
      "fr": [
-      "Celui qui jeûne recevra double part",
-      "Que chacun vende ses biens",
-      "Que les riches nourrissent les autres",
+      "Que celui qui jeûne reçoive une double part",
+      "Que chacun vende tous les biens qu'il possède",
+      "Que les riches nourrissent tous les autres",
       "Si quelqu'un ne veut pas travailler, qu'il ne mange pas non plus"
      ],
      "en": [
-      "Whoever fasts will receive a double portion",
-      "Everyone should sell their possessions",
+      "Whoever fasts should receive a double portion",
+      "Everyone should sell all the possessions they have",
       "The rich should feed everyone else",
-      "If any would not work, neither should he eat"
+      "Whoever will not work should not eat either"
      ]
     },
     "answer": 3,
@@ -5937,13 +5937,13 @@
     "choices": {
      "fr": [
       "Les étapes de son voyage vers Rome",
-      "Les qualités attendues de celui qui exerce la charge d'évêque",
+      "Les qualités attendues d'un évêque",
       "Les fêtes annuelles d'Israël",
       "La liste des douze apôtres"
      ],
      "en": [
       "The stages of his journey to Rome",
-      "The qualities required of a man in the office of a bishop",
+      "The qualities required of a bishop",
       "The annual feasts of Israel",
       "The list of the twelve apostles"
      ]
@@ -6053,15 +6053,15 @@
     "choices": {
      "fr": [
       "Pour enseigner, convaincre, corriger et instruire dans la justice",
-      "Pour prédire l'avenir de chaque nation",
-      "Pour remplacer la prière",
-      "Pour fixer le calendrier des fêtes"
+      "Pour connaître d'avance l'avenir de chaque nation",
+      "Pour remplacer la prière et le culte en commun",
+      "Pour fixer le calendrier des fêtes et des jeûnes"
      ],
      "en": [
       "For doctrine, reproof, correction and instruction in righteousness",
-      "For predicting the future of each nation",
-      "For replacing prayer",
-      "For setting the calendar of feasts"
+      "For knowing in advance the future of each nation",
+      "For replacing prayer and common worship",
+      "For setting the calendar of feasts and fasts"
      ]
     },
     "answer": 0,
@@ -6316,16 +6316,16 @@
     },
     "choices": {
      "fr": [
-      "Une connaissance parfaite de toutes choses",
+      "Une connaissance parfaite des choses présentes, une explication de celles qu'on voit",
       "Une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas",
-      "L'obéissance exacte à chaque commandement",
-      "Un sentiment qui varie selon les circonstances"
+      "Une obéissance exacte aux commandements, une récompense pour ceux qui les gardent",
+      "Un sentiment qui varie selon les circonstances, une émotion que l'on ne maîtrise pas"
      ],
      "en": [
-      "A perfect knowledge of all things",
+      "A perfect knowledge of things present, an explanation of things seen",
       "The substance of things hoped for, the evidence of things not seen",
-      "Exact obedience to every commandment",
-      "A feeling that changes with circumstances"
+      "Exact obedience to the commandments, a reward for those who keep them",
+      "A feeling that changes with circumstances, an emotion beyond our control"
      ]
     },
     "answer": 1,
@@ -6520,16 +6520,16 @@
     },
     "choices": {
      "fr": [
-      "À l'Église de Rome",
-      "Aux anciens de Jérusalem",
-      "À des croyants dispersés dans plusieurs régions d'Asie Mineure",
-      "À un ami nommé Gaïus"
+      "À l'Église qui se réunit à Rome",
+      "Aux anciens de l'Église de Jérusalem",
+      "À des croyants dispersés en Asie Mineure",
+      "À un ami bien-aimé nommé Gaïus"
      ],
      "en": [
-      "To the church in Rome",
-      "To the elders in Jerusalem",
-      "To believers scattered across several regions of Asia Minor",
-      "To a friend named Gaius"
+      "To the church that meets in Rome",
+      "To the elders of the church in Jerusalem",
+      "To believers scattered across Asia Minor",
+      "To a beloved friend named Gaius"
      ]
     },
     "answer": 2,
@@ -6549,13 +6549,13 @@
     "choices": {
      "fr": [
       "Fuir dans un autre pays",
-      "Ne pas en être surpris, et se réjouir d'avoir part aux souffrances de Christ",
+      "Se réjouir d'avoir part aux souffrances de Christ",
       "Y voir la preuve que Dieu les a abandonnés",
       "Se venger de leurs persécuteurs"
      ],
      "en": [
       "Flee to another country",
-      "Not think it strange, but rejoice in sharing Christ's sufferings",
+      "Rejoice in sharing Christ's sufferings",
       "See it as proof that God has abandoned them",
       "Take revenge on their persecutors"
      ]
@@ -6576,13 +6576,13 @@
     },
     "choices": {
      "fr": [
-      "Une race élue, un sacerdoce royal, une nation sainte",
+      "Une race élue, un sacerdoce royal",
       "Un peuple oublié de Dieu",
       "Des serviteurs de la loi de Moïse",
       "Des disciples de Pierre"
      ],
      "en": [
-      "A chosen generation, a royal priesthood, an holy nation",
+      "A chosen generation, a royal priesthood",
       "A people forgotten by God",
       "Servants of the law of Moses",
       "Disciples of Peter"
@@ -6636,16 +6636,16 @@
     },
     "choices": {
      "fr": [
-      "Le don des tables de la loi",
-      "La multiplication des pains",
-      "L'ascension de Jésus",
-      "La voix venue du ciel disant : « Celui-ci est mon Fils bien-aimé »"
+      "Le don des tables de la loi à Moïse",
+      "La multiplication des pains pour la foule",
+      "L'ascension de Jésus devant les disciples",
+      "La majesté de Jésus et la voix venue du ciel"
      ],
      "en": [
-      "The giving of the tablets of the law",
-      "The feeding of the multitude",
-      "The ascension of Jesus",
-      "The voice from heaven saying, “This is my beloved Son”"
+      "The giving of the tablets of the law to Moses",
+      "The feeding of the multitude with the loaves",
+      "The ascension of Jesus before the disciples",
+      "The majesty of Jesus and the voice from heaven"
      ]
     },
     "answer": 3,
@@ -6780,16 +6780,16 @@
     },
     "choices": {
      "fr": [
-      "Pour raconter la vie de Jésus",
-      "Pour organiser une collecte",
+      "Pour raconter la vie de Jésus depuis sa naissance",
+      "Pour organiser une collecte en faveur des pauvres",
       "Pour que les croyants sachent qu'ils ont la vie éternelle",
-      "Pour annoncer sa prochaine visite"
+      "Pour annoncer sa prochaine visite aux Églises"
      ],
      "en": [
-      "To tell the story of Jesus' life",
-      "To organize a collection",
+      "To tell the story of Jesus' life from his birth",
+      "To organize a collection for the poor",
       "So that believers may know that they have eternal life",
-      "To announce his next visit"
+      "To announce his next visit to the churches"
      ]
     },
     "answer": 2,
@@ -6930,15 +6930,15 @@
       "Il refuse de travailler de ses mains"
      ],
      "en": [
-      "He loves to have the preeminence and refuses to receive the brothers",
-      "He stole the church's money",
-      "He denied Jesus during persecution",
-      "He refuses to work with his hands"
+      "He loves to be first and will not receive the brothers",
+      "He stole money belonging to the church",
+      "He denied Jesus during the persecution",
+      "He refuses to work with his own hands"
      ]
     },
     "answer": 0,
     "explain": {
-     "fr": "Diotrèphe « aime à être le premier » et ne reçoit pas l'ancien ; il ne reçoit pas les frères et chasse de l'Église ceux qui voudraient le faire (v. 9-10). Il s'oppose à Gaïus, loué pour son hospitalité.",
+     "fr": "Diotrèphe « aime à être le premier » et ne reçoit pas l'ancien ; il ne reçoit pas les frères et chasse de l'Église ceux qui voudraient le faire (v. 9-10). À l'inverse, Gaïus est loué pour son hospitalité.",
      "en": "Diotrephes “loveth to have the preeminence” and does not receive the elder; he does not receive the brothers and casts out of the church those who would (v. 9-10). He stands in contrast to Gaius, praised for his hospitality."
     },
     "ref": "64:1:9-10"
@@ -7013,13 +7013,13 @@
     "choices": {
      "fr": [
       "À quitter les villes pour le désert",
-      "À combattre pour la foi transmise aux saints une fois pour toutes",
+      "À combattre pour la foi transmise aux saints",
       "À rebâtir Jérusalem",
       "À choisir de nouveaux apôtres"
      ],
      "en": [
       "To leave the cities for the desert",
-      "To contend for the faith once delivered unto the saints",
+      "To contend for the faith delivered to the saints",
       "To rebuild Jerusalem",
       "To choose new apostles"
      ]
@@ -7043,13 +7043,13 @@
       "Une famine menace les Églises",
       "Jacques vient de mourir",
       "Les autorités ont fermé les synagogues",
-      "Des impies se sont glissés parmi les croyants et changent la grâce de Dieu en dissolution"
+      "Des impies se sont glissés parmi les croyants"
      ],
      "en": [
       "A famine threatens the churches",
       "James has just died",
       "The authorities have closed the synagogues",
-      "Ungodly men have crept in among the believers, turning God's grace into lasciviousness"
+      "Ungodly men have crept in among the believers"
      ]
     },
     "answer": 3,
@@ -7102,13 +7102,13 @@
      "fr": [
       "À Jérusalem",
       "À Rome",
-      "Dans l'île appelée Patmos",
+      "À Patmos",
       "À Éphèse"
      ],
      "en": [
       "In Jerusalem",
       "In Rome",
-      "On the isle called Patmos",
+      "On Patmos",
       "In Ephesus"
      ]
     },

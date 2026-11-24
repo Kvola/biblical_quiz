@@ -229,16 +229,16 @@
      },
      "choices": {
       "fr": [
-       "Pourquoi les méchants prospèrent-ils ?",
-       "Où se cache la sagesse ?",
+       "Pourquoi les méchants prospèrent-ils sur la terre ?",
+       "Où se cache la sagesse, et qui peut la trouver ?",
        "Qu'est-ce que l'homme, pour que tu te souviennes de lui ?",
-       "Combien de temps durera la terre ?"
+       "Combien de temps dureront les cieux et la terre ?"
       ],
       "en": [
-       "Why do the wicked prosper?",
-       "Where is wisdom hidden?",
-       "What is man, that thou art mindful of him?",
-       "How long will the earth endure?"
+       "Why do the wicked prosper on the earth?",
+       "Where is wisdom hidden, and who can find it?",
+       "What is man, that you are mindful of him?",
+       "How long will the heavens and the earth endure?"
       ]
      },
      "answer": 2,
@@ -393,13 +393,13 @@
       "fr": [
        "Un oiseau loin de son nid",
        "Une brebis égarée",
-       "Une biche qui soupire après des courants d'eau",
+       "Une biche en quête d'eau",
        "Une terre desséchée"
       ],
       "en": [
        "A bird far from its nest",
        "A lost sheep",
-       "A hart panting after the water brooks",
+       "A deer longing for water",
        "A parched land"
       ]
      },
@@ -505,21 +505,21 @@
      "id": "wisdom-psalm46-2",
      "kind": "choice",
      "q": {
-      "fr": "Selon le verset 2, même dans quelle situation le peuple reste-t-il sans crainte ?",
-      "en": "According to verse 2, even in what situation will the people not fear?"
+      "fr": "Selon le verset 2, dans quelle situation le peuple reste-t-il malgré tout sans crainte ?",
+      "en": "According to verse 2, in what situation will the people still not fear?"
      },
      "choices": {
       "fr": [
        "Quand l'ennemi assiège la ville",
        "Quand la famine frappe le pays",
        "Quand le roi part en guerre",
-       "Quand la terre est bouleversée et que les montagnes chancellent"
+       "Quand la terre est bouleversée"
       ],
       "en": [
        "When the enemy besieges the city",
        "When famine strikes the land",
        "When the king goes to war",
-       "When the earth is removed and the mountains are carried into the sea"
+       "When the earth is removed"
       ]
      },
      "answer": 3,
@@ -815,7 +815,7 @@
    ],
    "intro": {
     "fr": "Ce psaume porte le titre « Cantique des degrés », comme les Psaumes 120 à 134. On les comprend souvent comme des chants de pèlerins montant vers Jérusalem. Le psaume répond à une question posée dès le premier verset.",
-    "en": "This psalm bears the heading “A Song of degrees”, like Psalms 120 to 134. They are often understood as songs of pilgrims going up to Jerusalem. The psalm answers a question raised in its first verse."
+    "en": "This psalm bears the heading “A Song of degrees”, like Psalms 120 to 134. They are often understood as songs of pilgrims going up to Jerusalem. From its first verse the psalm speaks of where help comes from."
    },
    "keyVerse": "19:121:2",
    "takeaway": {
@@ -847,7 +847,7 @@
      "answer": 2,
      "explain": {
       "fr": "« Je lève mes yeux vers les montagnes... D'où me viendra le secours? » Le regard vers les hauteurs ouvre la question à laquelle répond le verset 2.",
-      "en": "“I will lift up mine eyes unto the hills, from whence cometh my help.” Looking to the heights opens the question that verse 2 answers."
+      "en": "“I will lift up mine eyes unto the hills, from whence cometh my help.” Looking to the heights raises the theme of help, and verse 2 names its source."
      },
      "ref": "19:121:1"
     },
@@ -1234,7 +1234,7 @@
      "id": "wisdom-virtuous-3",
      "kind": "choice",
      "q": {
-      "fr": "Envers qui tend-elle la main au verset 20 ?",
+      "fr": "À qui tend-elle la main au verset 20 ?",
       "en": "To whom does she stretch out her hand in verse 20?"
      },
      "choices": {
@@ -1400,16 +1400,16 @@
      },
      "choices": {
       "fr": [
-       "Qui connaît le jour de sa mort ?",
+       "Qui peut connaître d'avance le jour de sa propre mort ?",
        "Quel avantage celui qui travaille retire-t-il de sa peine ?",
-       "Pourquoi le juste souffre-t-il ?",
-       "Où peut-on trouver la sagesse ?"
+       "Pourquoi le juste souffre-t-il quand le méchant prospère ?",
+       "Où l'homme peut-il trouver la sagesse et l'intelligence ?"
       ],
       "en": [
-       "Who knows the day of his death?",
-       "What profit hath he that worketh in that wherein he laboureth?",
-       "Why does the righteous suffer?",
-       "Where can wisdom be found?"
+       "Who can know the day of his own death in advance?",
+       "What does the worker gain from his labour?",
+       "Why does the righteous suffer while the wicked prosper?",
+       "Where can a man find wisdom and understanding?"
       ]
      },
      "answer": 1,
@@ -1708,16 +1708,16 @@
      },
      "choices": {
       "fr": [
-       "Job connaît-il ta loi ?",
+       "Job connaît-il vraiment ta loi ?",
        "Est-ce d'une manière désintéressée que Job craint Dieu ?",
-       "Job t'offre-t-il des sacrifices ?",
-       "Job est-il plus juste que les autres ?"
+       "Job t'offre-t-il assez de sacrifices ?",
+       "Job est-il plus juste que les autres hommes ?"
       ],
       "en": [
-       "Does Job know your law?",
-       "Doth Job fear God for nought?",
-       "Does Job offer you sacrifices?",
-       "Is Job more righteous than others?"
+       "Does Job really know your law?",
+       "Does Job fear God for nothing?",
+       "Does Job offer you enough sacrifices?",
+       "Is Job more righteous than other men?"
       ]
      },
      "answer": 1,
@@ -1884,16 +1884,16 @@
      },
      "choices": {
       "fr": [
-       "Pourquoi te plains-tu de moi ?",
+       "Pourquoi te plains-tu de moi et de mes voies ?",
        "Où étais-tu quand je fondais la terre ?",
-       "Qui t'a donné la vie ?",
-       "Combien d'années as-tu vécu ?"
+       "Qui t'a donné la vie et le souffle ?",
+       "Combien d'années as-tu vécu sur la terre ?"
       ],
       "en": [
-       "Why do you complain against me?",
-       "Where wast thou when I laid the foundations of the earth?",
-       "Who gave you life?",
-       "How many years have you lived?"
+       "Why do you complain against me and against my ways?",
+       "Where were you when I laid the foundations of the earth?",
+       "Who gave you both your life and your breath?",
+       "How many years have you lived upon the earth?"
       ]
      },
      "answer": 1,

@@ -216,16 +216,16 @@
      },
      "choices": {
       "fr": [
-       "Qu'elle vivra éternellement",
-       "Qu'elle régnera sur le jardin",
-       "Qu'elle sera comme des dieux, connaissant le bien et le mal",
-       "Qu'elle ne travaillera plus jamais"
+       "De ne plus jamais avoir faim",
+       "De régner sur le jardin",
+       "D'être comme des dieux",
+       "De ne plus jamais travailler"
       ],
       "en": [
-       "That she will live for ever",
-       "That she will rule over the garden",
-       "That she will be as gods, knowing good and evil",
-       "That she will never have to work again"
+       "Never to be hungry again",
+       "To rule over the garden",
+       "To be as gods",
+       "Never to have to work again"
       ]
      },
      "answer": 2,
@@ -346,8 +346,8 @@
     "1:15:1-6"
    ],
    "intro": {
-    "fr": "Après les récits des origines, la Genèse se concentre sur un homme et sa famille. Dieu appelle Abram, qui vit à Charan, et lui fait des promesses.",
-    "en": "After the accounts of the beginnings, Genesis focuses on one man and his family. God calls Abram, who lives in Haran, and makes him promises."
+    "fr": "Après les récits des origines, la Genèse se concentre sur un homme et sa famille. Dieu appelle Abram, qui quitte Charan, et lui fait des promesses.",
+    "en": "After the accounts of the beginnings, Genesis focuses on one man and his family. God calls Abram, who leaves Haran, and makes him promises."
    },
    "keyVerse": "1:12:3",
    "takeaway": {
@@ -686,13 +686,13 @@
      },
      "choices": {
       "fr": [
-       "Ils ont peur et reprochent à Moïse de les avoir fait sortir d'Égypte",
+       "Ils ont peur et s'en prennent à Moïse",
        "Ils préparent leurs armes pour combattre",
        "Ils envoient des messagers à Pharaon",
        "Ils se dispersent dans le désert"
       ],
       "en": [
-       "They are afraid and reproach Moses for bringing them out of Egypt",
+       "They are afraid and turn on Moses",
        "They prepare their weapons for battle",
        "They send messengers to Pharaoh",
        "They scatter into the wilderness"
@@ -717,13 +717,13 @@
        "Prenez courage et combattez avec moi",
        "Retournons en Égypte avant la nuit",
        "Fuyez vers la montagne",
-       "L'Eternel combattra pour vous; et vous, gardez le silence"
+       "L'Eternel combattra pour vous"
       ],
       "en": [
        "Take courage and fight with me",
        "Let us return to Egypt before nightfall",
        "Flee to the mountain",
-       "The Lord shall fight for you, and ye shall hold your peace"
+       "The Lord shall fight for you"
       ]
      },
      "answer": 3,
@@ -1185,13 +1185,13 @@
      "choices": {
       "fr": [
        "Ses ennemis menacent encore Jérusalem",
-       "Il habite une maison de cèdre alors que l'arche de Dieu est sous une tente",
+       "L'arche de Dieu est encore sous une tente",
        "Il n'a pas encore de fils",
        "Le peuple ne veut plus de roi"
       ],
       "en": [
        "His enemies still threaten Jerusalem",
-       "He lives in a house of cedar while the ark of God is in a tent",
+       "The ark of God is still in a tent",
        "He has no son yet",
        "The people no longer want a king"
       ]
@@ -1226,7 +1226,7 @@
      },
      "answer": 2,
      "explain": {
-      "fr": "La nuit même, « la parole de l'Eternel fut adressée à Nathan ». Nathan avait d'abord encouragé David (7:3), avant de lui rapporter la réponse de Dieu (7:17).",
+      "fr": "La nuit suivante, « la parole de l'Eternel fut adressée à Nathan ». Nathan avait d'abord encouragé David (7:3), avant de lui rapporter la réponse de Dieu (7:17).",
       "en": "That very night \"the word of the Lord came unto Nathan\". Nathan had first encouraged David (7:3) before bringing him God's answer (7:17)."
      },
      "ref": "10:7:4"
@@ -1458,16 +1458,16 @@
      },
      "choices": {
       "fr": [
-       "D'envoyer un prophète",
+       "D'envoyer un prophète pour guider le peuple",
        "D'exaucer depuis les cieux et de pardonner",
-       "De leur donner la victoire sur leurs ennemis",
-       "De faire tomber la pluie"
+       "De leur donner un nouveau roi après lui",
+       "D'agrandir le royaume jusqu'à la mer"
       ],
       "en": [
-       "To send a prophet",
+       "To send a prophet to guide the people",
        "To hear from heaven and forgive",
-       "To give them victory over their enemies",
-       "To send rain"
+       "To give them a new king after him",
+       "To enlarge the kingdom as far as the sea"
       ]
      },
      "answer": 1,
@@ -1490,13 +1490,13 @@
     "24:29:4-14"
    ],
    "intro": {
-    "fr": "Malgré les avertissements des prophètes, le royaume de Juda s'est détourné de l'Eternel. Babylone assiège Jérusalem ; plus tard, le prophète Jérémie écrit aux déportés.",
-    "en": "Despite the prophets' warnings, the kingdom of Judah has turned away from the Lord. Babylon besieges Jerusalem; later, the prophet Jeremiah writes to the exiles."
+    "fr": "Malgré les avertissements des prophètes, le royaume de Juda s'est détourné de l'Eternel. Babylone assiège et détruit Jérusalem ; déjà, après une première déportation, le prophète Jérémie avait écrit aux exilés.",
+    "en": "Despite the prophets' warnings, the kingdom of Judah has turned away from the Lord. Babylon besieges and destroys Jerusalem; already, after a first deportation, the prophet Jeremiah had written to the exiles."
    },
    "keyVerse": "24:29:11",
    "takeaway": {
-    "fr": "Jérusalem est prise, le temple brûlé et le peuple emmené à Babylone. Par Jérémie, Dieu demande aux exilés de s'installer et de prier pour la ville, et promet de les ramener après soixante-dix ans.",
-    "en": "Jerusalem is taken, the temple burned and the people carried off to Babylon. Through Jeremiah, God tells the exiles to settle and pray for the city, and promises to bring them back after seventy years."
+    "fr": "Jérusalem est prise, le temple brûlé et le peuple emmené à Babylone. Par Jérémie, Dieu demande aux exilés de s'installer et de prier pour la ville où ils sont captifs, et promet de les ramener après soixante-dix ans.",
+    "en": "Jerusalem is taken, the temple burned and the people carried off to Babylon. Through Jeremiah, God tells the exiles to settle and pray for the city where they are captives, and promises to bring them back after seventy years."
    },
    "questions": [
     {
@@ -1550,7 +1550,7 @@
      },
      "answer": 3,
      "explain": {
-      "fr": "Le chef des gardes « brûla la maison de l'Eternel, la maison du roi, et toutes les maisons de Jérusalem ». Le temple dédicacé par Salomon est détruit.",
+      "fr": "Le chef des gardes « brûla la maison de l'Eternel, la maison du roi, et toutes les maisons de Jérusalem ». Le temple consacré par Salomon est détruit.",
       "en": "The captain of the guard \"burnt the house of the Lord, and the king's house, and all the houses of Jerusalem\". The temple dedicated by Solomon is destroyed."
      },
      "ref": "12:25:9"
@@ -1564,13 +1564,13 @@
      },
      "choices": {
       "fr": [
-       "De bâtir des maisons, de planter des jardins et de fonder des familles",
+       "De bâtir des maisons et de s'installer",
        "De se révolter contre Babylone",
        "De rentrer immédiatement à Jérusalem",
        "De jeûner jusqu'à leur libération"
       ],
       "en": [
-       "To build houses, plant gardens and raise families",
+       "To build houses and settle down",
        "To rebel against Babylon",
        "To return to Jerusalem at once",
        "To fast until they are set free"
@@ -1771,13 +1771,13 @@
        "Ils chantent des psaumes",
        "Ils offrent des sacrifices",
        "Ils gardent les portes de la ville",
-       "Ils donnent le sens pour faire comprendre ce qui est lu"
+       "Ils expliquent la loi au peuple"
       ],
       "en": [
        "They sing psalms",
        "They offer sacrifices",
        "They guard the city gates",
-       "They give the sense so the reading is understood"
+       "They explain the law to the people"
       ]
      },
      "answer": 3,
@@ -1978,13 +1978,13 @@
      },
      "choices": {
       "fr": [
-       "Pour se faire inscrire lors d'un recensement ordonné par César Auguste",
+       "Pour se faire inscrire lors d'un recensement",
        "Pour célébrer la Pâque",
        "Pour fuir le roi Hérode",
        "Pour rendre visite à leur famille"
       ],
       "en": [
-       "To be registered in a census decreed by Caesar Augustus",
+       "To be registered in a census",
        "To celebrate the Passover",
        "To flee from King Herod",
        "To visit their family"
@@ -1993,7 +1993,7 @@
      "answer": 0,
      "explain": {
       "fr": "Un édit de César Auguste ordonne un recensement, et chacun va se faire inscrire dans sa ville. Luc situe ainsi la naissance de Jésus dans l'histoire de l'Empire romain.",
-      "en": "A decree from Caesar Augustus orders that \"all the world should be taxed\", meaning registered, and each one goes to his own city."
+      "en": "A decree from Caesar Augustus orders that \"all the world should be taxed\", meaning registered, and each one goes to his own city. Luke thus sets the birth of Jesus within the history of the Roman Empire."
      },
      "ref": "42:2:1-5"
     },
@@ -2251,16 +2251,16 @@
      },
      "choices": {
       "fr": [
-       "Les grands prêtres et les scribes",
-       "Les soldats romains",
-       "Ses connaissances et les femmes venues de Galilée avec lui",
-       "Pilate et Hérode"
+       "Les principaux sacrificateurs et les scribes",
+       "Les soldats qui lui ont présenté du vinaigre",
+       "Ses connaissances et les femmes venues de Galilée",
+       "Pilate et Hérode, avec leurs gardes"
       ],
       "en": [
        "The chief priests and the scribes",
-       "The Roman soldiers",
-       "His acquaintances and the women who followed him from Galilee",
-       "Pilate and Herod"
+       "The soldiers who offered him vinegar",
+       "His acquaintances and the women from Galilee",
+       "Pilate and Herod, with their guards"
       ]
      },
      "answer": 2,
@@ -2301,7 +2301,7 @@
      "choices": {
       "fr": [
        "Des gardes endormis devant la pierre",
-       "La pierre roulée et le tombeau vide du corps de Jésus",
+       "La pierre roulée et le corps de Jésus absent",
        "Jésus assis devant le tombeau",
        "Les disciples déjà sur place"
       ],
@@ -2329,15 +2329,15 @@
      "choices": {
       "fr": [
        "Pourquoi cherchez-vous parmi les morts celui qui est vivant?",
-       "Qui a roulé la pierre?",
-       "Où sont les disciples?",
-       "Pourquoi pleurez-vous?"
+       "Qui a roulé la pierre de devant le sépulcre?",
+       "Où sont les disciples qui étaient avec lui?",
+       "Pourquoi êtes-vous venues si tôt au sépulcre?"
       ],
       "en": [
        "Why seek ye the living among the dead?",
-       "Who rolled away the stone?",
-       "Where are the disciples?",
-       "Why weep ye?"
+       "Who rolled the stone away from the sepulchre?",
+       "Where are the disciples that were with him?",
+       "Why come ye so early unto the sepulchre?"
       ]
      },
      "answer": 0,
@@ -2359,13 +2359,13 @@
        "La prophétie de Jérémie sur l'alliance nouvelle",
        "La naissance de Jésus à Bethléhem",
        "Les ordres de Pilate",
-       "Les paroles de Jésus annonçant qu'il ressusciterait le troisième jour"
+       "Ce que Jésus leur avait dit en Galilée"
       ],
       "en": [
        "Jeremiah's prophecy of the new covenant",
        "Jesus' birth in Bethlehem",
        "Pilate's orders",
-       "Jesus' words that he would rise again on the third day"
+       "What Jesus had told them in Galilee"
       ]
      },
      "answer": 3,
@@ -2387,7 +2387,7 @@
        "Ils partent aussitôt tous ensemble au tombeau",
        "Ils se réjouissent et louent Dieu",
        "Ils le tiennent pour des rêveries et ne les croient pas",
-       "Ils vont le rapporter aux grands prêtres"
+       "Ils vont le rapporter aux principaux sacrificateurs"
       ],
       "en": [
        "They all set off together for the tomb at once",
@@ -2408,7 +2408,7 @@
      "kind": "truefalse",
      "q": {
       "fr": "Pierre court au sépulcre et n'y voit que les linges.",
-      "en": "Peter runs to the sepulchre and sees only the linen clothes."
+      "en": "Peter runs to the sepulchre and sees the linen clothes laid by themselves."
      },
      "answer": true,
      "explain": {
@@ -2449,13 +2449,13 @@
       "fr": [
        "Un tremblement de terre et une nuée",
        "Une colombe et une voix du ciel",
-       "Un bruit comme un vent impétueux et des langues semblables à du feu",
+       "Un bruit de vent et des langues comme de feu",
        "Une grande lumière et le son d'une trompette"
       ],
       "en": [
        "An earthquake and a cloud",
        "A dove and a voice from heaven",
-       "A sound like a rushing mighty wind and tongues like fire",
+       "A sound like wind and tongues like fire",
        "A great light and the sound of a trumpet"
       ]
      },

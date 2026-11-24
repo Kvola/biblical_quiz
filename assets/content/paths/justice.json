@@ -225,8 +225,8 @@
      "id": "justice-courts-3",
      "kind": "choice",
      "q": {
-      "fr": "Au verset 7, quelle raison Dieu donne-t-il pour ne pas faire mourir l'innocent et le juste ?",
-      "en": "In verse 7, what reason does God give for not putting the innocent and righteous to death?"
+      "fr": "Selon Exode 23:7, quelle raison Dieu donne-t-il pour ne pas faire mourir l'innocent et le juste ?",
+      "en": "According to Exodus 23:7, what reason does God give for not putting the innocent and righteous to death?"
      },
      "choices": {
       "fr": [
@@ -526,7 +526,7 @@
    "keyVerse": "23:58:6",
    "takeaway": {
     "fr": "Selon Esaïe, Dieu ne s'intéresse pas à un jeûne qui s'accompagne de querelles et de dureté envers les ouvriers. Le jeûne qu'il approuve consiste à libérer les opprimés et à partager son pain avec celui qui a faim.",
-    "en": "According to Isaiah, God takes no pleasure in a fast that goes with quarrelling and harshness toward workers. The fast he has chosen is to free the oppressed and share bread with the hungry."
+    "en": "According to Isaiah, God takes no pleasure in a fast that goes with strife and with exacting labour from others. The fast he has chosen is to free the oppressed and share bread with the hungry."
    },
    "questions": [
     {
@@ -714,7 +714,7 @@
      },
      "choices": {
       "fr": [
-       "D'agir devant les hommes pour être vu d'eux",
+       "De faire le bien devant les hommes pour être vu",
        "De donner plus que la loi ne le demande",
        "De prier sans avoir jeûné",
        "De donner aux étrangers"
@@ -872,7 +872,7 @@
    ],
    "intro": {
     "fr": "Dans les premiers chapitres de sa lettre aux Romains, Paul affirme que Juifs et Grecs sont tous sous le péché (3:9). Il annonce ici une justice de Dieu manifestée en dehors de la loi.",
-    "en": "In the opening chapters of his letter to the Romans, Paul argues that Jews and Greeks are all under sin (3:9). Here he announces a righteousness of God that is manifested without the law."
+    "en": "In the opening chapters of his letter to the Romans, Paul argues that Jews and Gentiles are all under sin (3:9). Here he announces a righteousness of God that is manifested without the law."
    },
    "keyVerse": "45:3:24",
    "takeaway": {
@@ -1381,15 +1381,15 @@
      "choices": {
       "fr": [
        "Des ennemis",
-       "Des serviteurs fidèles",
-       "Des enfants obéissants",
-       "Des disciples zélés"
+       "Des serviteurs",
+       "Des justes",
+       "Des sages"
       ],
       "en": [
        "Enemies",
-       "Faithful servants",
-       "Obedient children",
-       "Zealous disciples"
+       "Servants",
+       "Righteous",
+       "Wise"
       ]
      },
      "answer": 0,
@@ -1528,7 +1528,7 @@
      "answer": false,
      "explain": {
       "fr": "Faux : « Ce n'est pas que j'aie déjà remporté le prix, ou que j'aie déjà atteint la perfection; mais je cours, pour tâcher de le saisir. »",
-      "en": "False: “Not as though I had already attained, either were already perfect: but I follow after, if that I may apprehend.”"
+      "en": "False: “Not as though I had already attained, either were already perfect: but I follow after, if that I may apprehend…”"
      },
      "ref": "50:3:12"
     },
